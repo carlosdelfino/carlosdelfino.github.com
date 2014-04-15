@@ -1,3 +1,6 @@
+*.plist
+*.key
+*.swp
 /.buildpath
 /.settings
 /.project
