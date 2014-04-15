@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Cursos e Palestras</title>
+    <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Cursos.html</link>
+    <description>Conheça abaixo nossos cursos e palestras.&lt;br/&gt;&lt;br/&gt;Você pode contratar nossos cursos e palestras sobre Arduino e xBee, nosso objetivo é levar o conhecimento inicial e contribuir com informações que precisa para amadurecer seu projeto e torna-lo real.</description>
+    <generator>iWeb 3.0.4</generator>
+    <image>
+      <url>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Cursos_files/xBeePro.png</url>
+      <title>Cursos e Palestras</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Cursos.html</link>
+    </image>
+    <item>
+      <title>Hello ZigBee</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/9_Hello_ZigBee.html</link>
+      <guid isPermaLink="false">82c5095b-a9b5-45b4-ab4f-b37ea1f29640</guid>
+      <pubDate>Wed, 9 Apr 2014 12:35:06 -0300</pubDate>
+      <description>&lt;a href=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/9_Hello_ZigBee_files/xBeePro.png&quot;&gt;&lt;img src=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Media/object055_1.png&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:220px; height:167px;&quot;/&gt;&lt;/a&gt;Aguardem mais informações</description>
+      <enclosure url="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/9_Hello_ZigBee_files/xBeePro.png" length="239822" type="image/png"/>
+    </item>
+    <item>
+      <title>Hello World Arduino</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/8_Hello_World_Arduino.html</link>
+      <guid isPermaLink="false">e1a2a1ff-ce2a-4a3a-9e4b-1917e9d0df2f</guid>
+      <pubDate>Tue, 8 Apr 2014 12:30:29 -0300</pubDate>
+      <description>&lt;a href=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/8_Hello_World_Arduino_files/droppedImage.jpg&quot;&gt;&lt;img src=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Media/object099_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:364px; height:260px;&quot;/&gt;&lt;/a&gt;Aguarde em breve mais informações sobre este curso</description>
+      <enclosure url="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/8_Hello_World_Arduino_files/droppedImage.jpg" length="231378" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Basicão da Eletrônica</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/7_Basicao_da_Eletronica.html</link>
+      <guid isPermaLink="false">705d1f92-614f-4524-9c4b-b5f035a04ca7</guid>
+      <pubDate>Mon, 7 Apr 2014 12:35:22 -0300</pubDate>
+      <description>&lt;a href=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/7_Basicao_da_Eletronica_files/rbhh_0053B.jpg&quot;&gt;&lt;img src=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Media/object039_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:364px; height:173px;&quot;/&gt;&lt;/a&gt;Aguarde em Breve Mais Informações</description>
+      <enclosure url="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Cursos/Entradas/2014/4/7_Basicao_da_Eletronica_files/rbhh_0053B.jpg" length="34583" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
