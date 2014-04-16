@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Artigos</title>
+    <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos</link>
+    <description>SEmanalmente escrevo pequenas dicas e artigos para ajudar a compreender conceitos envoltos nas tecnologias que trabalho, contribuir para eliminar d&#xFA;vidas.
+
+Caso tenha alguma d&#xFA;vida me envie por e-mail, lembre-se de descrever seu projeto.</description>
+    <item>
+      <title>Arduino - Protocolos Seriais</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html</link>
+      <guid isPermaLink="false">b3698ab3-f149-456c-b189-85a23b6623c3</guid>
+      <pubDate>Wed, 16 Apr 2014 12:25:35 -0300</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, d 'de' MMMM 'de' y</iweb:dateFormat>
+    <iweb:baseURL>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

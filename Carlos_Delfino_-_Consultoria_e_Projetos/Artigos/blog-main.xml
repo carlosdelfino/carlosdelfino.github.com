@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Artigos</title>
+    <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos</link>
+    <description>SEmanalmente escrevo pequenas dicas e artigos para ajudar a compreender conceitos envoltos nas tecnologias que trabalho, contribuir para eliminar d&#xFA;vidas.
+
+Caso tenha alguma d&#xFA;vida me envie por e-mail, lembre-se de descrever seu projeto.</description>
+    <item>
+      <title>Arduino - Protocolos Seriais</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html</link>
+      <guid isPermaLink="false">b3698ab3-f149-456c-b189-85a23b6623c3</guid>
+      <pubDate>Wed, 16 Apr 2014 12:25:35 -0300</pubDate>
+      <description>Talvez o protocolo Serial mais conhecido no contexto do Arduino &#xE9; o Serial TTL, seguido pelo I2C, e depois o SPI. O Serial TTL &#xE9; o protocolo usado na comunica&#xE7;&#xE3;o entre o Arduino e o computador atrav&#xE9;s da porta USB, sendo usado na grava&#xE7;&#xE3;o do c&#xF3;digo e troca de dados. O Serial TTL tamb&#xE9;m &#xE9; utilizado por dispositivos como os M&#xF3;dulos GPS, xBee, BlueTooth, entre muitos outros, a grande vantagem do protocolo serial TTL &#xE9; que n&#xE3;o precisamos usar uma porta especializada para seu funcionamento, mesmo o Arduino tendo portas especificas para essa comunica&#xE7;&#xE3;o, por&#xE9;m o uso de portas gen&#xE9;ricas acarretam perda de dados, e algumas podem n&#xE3;o ser aptas totalmente ao funcionamento do protocolo.&lt;br/&gt;&lt;br/&gt;J&#xE1; o protocolo I2C (Inter Integrated Circuit) &#xE9; amplamente usado para sensores, alguns displays LCDs tamb&#xE9;m. Ele &#xE9; muito utilizado para adicionar mais mem&#xF3;ria EEPROM externas em diversos projetos. O protocolo I2C &#xE9; um protocolo que permite a comunica&#xE7;&#xE3;o com at&#xE9; 255 dispositivos al&#xE9;m do master em um &#xFA;nico barramento, e pode ser estendido por um gateway. Usa o barramento conhecido como TwoWire, j&#xE1; que  usa apenas dois fios, ambos de Tr&#xEA;s estados. Um fio &#xE9; o clock para sincronismo dos dados, e o outro &#xE9; para transmiss&#xE3;o de dados. Permitindo inclusive que haja mais de um master a cada momento de comunica&#xE7;&#xE3;o.&lt;br/&gt;&lt;br/&gt;J&#xE1; o SPI (Serial Perfiferal Inteface) &#xE9; na verdade uma interface de conex&#xE3;o utiliza por padr&#xE3;o 3 pinos, sendo dois de transmiss&#xE3;o em sentidos opostos (similar ao serial) e um terceiro para clock, o que lhe permite uma maior velocidade que o Serial TTL, podendo haver pinos de sele&#xE7;&#xE3;o dos dispositivos &#xE1; que se destina o dado, &#xE9; utilizado no Ethernet Shield que utiliza tanto para conectar o cart&#xE3;o SD como o chip Ethernet, al&#xE9;m deste uso o SPI pode ser usado para conectar um processador ao outro e tamb&#xE9;m para grava&#xE7;&#xF5;es do programa no Chip ATmega e ATtiny, sendo identificado pelo conector ICSP (In Circuit Serial Programing), j&#xE1; que permite a grava&#xE7;&#xE3;o do Controlador mesmo ele montado no circuito final.</description>
+      <iweb:image href="Media/object004.jpg"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, d 'de' MMMM 'de' y</iweb:dateFormat>
+    <iweb:baseURL>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

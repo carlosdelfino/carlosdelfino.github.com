@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Artigos, Dicas e Tutoriais</title>
+    <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Artigos.html</link>
+    <description>SEmanalmente escrevo pequenas dicas e artigos para ajudar a compreender conceitos envoltos nas tecnologias que trabalho, contribuir para eliminar dúvidas.&lt;br/&gt;&lt;br/&gt;Caso tenha alguma dúvida me envie por e-mail, lembre-se de descrever seu projeto.</description>
+    <generator>iWeb 3.0.4</generator>
+    <image>
+      <url>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Artigos_files/The_Definitive_Arduino_Uno_Pinout_Diagram_-_ARDUINO_V2.jpg</url>
+      <title>Artigos, Dicas e Tutoriais</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Artigos.html</link>
+    </image>
+    <item>
+      <title>Arduino - Protocolos Seriais</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html</link>
+      <guid isPermaLink="false">b3698ab3-f149-456c-b189-85a23b6623c3</guid>
+      <pubDate>Wed, 16 Apr 2014 12:25:35 -0300</pubDate>
+      <description>&lt;a href=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago_files/droppedImage.jpg&quot;&gt;&lt;img src=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Media/object004_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:364px; height:295px;&quot;/&gt;&lt;/a&gt;Talvez o protocolo Serial mais conhecido no contexto do Arduino é o Serial TTL, seguido pelo I2C, e depois o SPI. O Serial TTL é o protocolo usado na comunicação entre o Arduino e o computador através da porta USB, sendo usado na gravação do código e troca de dados. O Serial TTL também é utilizado por dispositivos como os Módulos GPS, xBee, BlueTooth, entre muitos outros, a grande vantagem do protocolo serial TTL é que não precisamos usar uma porta especializada para seu funcionamento, mesmo o Arduino tendo portas especificas para essa comunicação, porém o uso de portas genéricas acarretam perda de dados, e algumas podem não ser aptas totalmente ao funcionamento do protocolo.&lt;br/&gt;&lt;br/&gt;Já o protocolo I2C (Inter Integrated Circuit) é amplamente usado para sensores, alguns displays LCDs também. Ele é muito utilizado para adicionar mais memória EEPROM externas em diversos projetos. O protocolo I2C é um protocolo que permite a comunicação com até 255 dispositivos além do master em um único barramento, e pode ser estendido por um gateway. Usa o barramento conhecido como TwoWire, já que  usa apenas dois fios, ambos de Três estados. Um fio é o clock para sincronismo dos dados, e o outro é para transmissão de dados. Permitindo inclusive que haja mais de um master a cada momento de comunicação.&lt;br/&gt;&lt;br/&gt;Já o SPI (Serial Perfiferal Inteface) é na verdade uma interface de conexão utiliza por padrão 3 pinos, sendo dois de transmissão em sentidos opostos (similar ao serial) e um terceiro para clock, o que lhe permite uma maior velocidade que o Serial TTL, podendo haver pinos de seleção dos dispositivos á que se destina o dado, é utilizado no Ethernet Shield que utiliza tanto para conectar o cartão SD como o chip Ethernet, além deste uso o SPI pode ser usado para conectar um processador ao outro e também para gravações do programa no Chip ATmega e ATtiny, sendo identificado pelo conector ICSP (In Circuit Serial Programing), já que permite a gravação do Controlador mesmo ele montado no circuito final.</description>
+      <enclosure url="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago_files/droppedImage.jpg" length="45550" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:B74059E9-0868-49AF-9F67-5CF20C69567B</id>
  <title>Page list Atom feed</title>
- <updated>2014-04-15T13:56:29-03:00</updated>
+ <updated>2014-04-16T13:10:30-03:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Inicio</title>
   <in-navbar xmlns="urn:iweb:">6759654C-6DEA-4067-8F40-9E6FDFE5B25C</in-navbar>
   <link rel="alternate" href="Inicio.html"/>
-  <updated>2014-04-15T13:56:29.001-03:00</updated>
+  <updated>2014-04-16T13:10:30.001-03:00</updated>
   <content>Inicio</content>
  </entry>
  <entry>
@@ -27,12 +27,21 @@
   <content>Cursos</content>
  </entry>
  <entry>
+  <id>urn:iweb:5238293B-5356-4E7A-8AD5-C1C6FACB0E26</id>
+  <title>Artigos</title>
+  <title xmlns="urn:iweb:">Artigos</title>
+  <in-navbar xmlns="urn:iweb:">5238293B-5356-4E7A-8AD5-C1C6FACB0E26</in-navbar>
+  <link rel="alternate" href="Artigos/Artigos.html"/>
+  <updated>2007-03-01T14:29:51-03:00</updated>
+  <content>Artigos</content>
+ </entry>
+ <entry>
   <id>urn:iweb:C4690F89-C3BA-46EB-92C6-AFBD9301565E</id>
   <title>Sobre Mim</title>
   <title xmlns="urn:iweb:">Sobre Mim</title>
   <in-navbar xmlns="urn:iweb:">C4690F89-C3BA-46EB-92C6-AFBD9301565E</in-navbar>
   <link rel="alternate" href="Sobre_Mim.html"/>
-  <updated>2014-04-15T13:56:29.002-03:00</updated>
+  <updated>2014-04-16T13:10:30.002-03:00</updated>
   <content>Sobre Mim</content>
  </entry>
 </feed>
