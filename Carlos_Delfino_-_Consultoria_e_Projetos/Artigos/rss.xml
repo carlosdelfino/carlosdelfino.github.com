@@ -11,6 +11,14 @@
       <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Artigos.html</link>
     </image>
     <item>
+      <title>Barramento e Portas de Três Estados</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Barramento_e_Portas_de_Tres_Estados.html</link>
+      <guid isPermaLink="false">d7fd9577-424c-4f8f-ac3c-16cbafb8ebbe</guid>
+      <pubDate>Wed, 16 Apr 2014 16:41:20 -0300</pubDate>
+      <description>&lt;a href=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Barramento_e_Portas_de_Tres_Estados_files/droppedImage.png&quot;&gt;&lt;img src=&quot;http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Media/object012_1.png&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:364px; height:242px;&quot;/&gt;&lt;/a&gt;Muitos protocolos em especial o I2C, utilizam uma única linha do barramento para envio e recebimento de dados, o que leva a necessidade de monitorar o barramento para identificar se este está em uso por outro dispositivo que  participe na comunicação ou mesmo que apenas compartilhem o mesmo barramento. &lt;br/&gt;&lt;br/&gt;Para isso há o barramento de três estados. Quando um dispositivo ou porta que não precisa monitorar nem transmitir dados, este entra em um estado que chamamos de estado Z (ou podemos chamar neutro), além dele não interferir no nível de sinal do barramento ele também não drena nenhuma corrente. &lt;br/&gt;&lt;br/&gt;Os barramentos de dados ou de clock sempre estão em nível 1 ou 0 (quando TTL 5V ou 0V e 3.3V ou 0V), porém quando entram no estado Z, estes além de não interferir no barramento, também não drenam nem monitoram o barramento deixando-o livre para a comunicação dos demais dispositivos.&lt;br/&gt;&lt;br/&gt;Muitos dispositivos ficam em modo de escuta para simular o estado Z.</description>
+      <enclosure url="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Barramento_e_Portas_de_Tres_Estados_files/droppedImage.png" length="29589" type="image/png"/>
+    </item>
+    <item>
       <title>Arduino - Protocolos Seriais</title>
       <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/16_Reflexos_no_lago.html</link>
       <guid isPermaLink="false">b3698ab3-f149-456c-b189-85a23b6623c3</guid>

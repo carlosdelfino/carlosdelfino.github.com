@@ -1,5 +1,5 @@
 .paragraph_style {
-    color: rgb(254, 254, 254);
+    color: rgb(255, 255, 255);
     font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
     font-size: 14px;
     font-stretch: normal;
@@ -173,19 +173,19 @@
     text-transform: uppercase;
     vertical-align: 3px;
 }
-.Normal {
-    padding: 4px;
-}
 .Normal_External_640_39 {
     position: relative;
 }
-.Normal_External_640_483 {
-    position: relative;
+.Normal {
+    padding: 4px;
 }
 .Normal_External_640_23 {
     position: relative;
 }
 .Normal_External_640_29 {
+    position: relative;
+}
+.Normal_External_640_329 {
     position: relative;
 }
 .Previous {
