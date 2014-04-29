@@ -7,6 +7,15 @@
 
 Caso tenha alguma d&#xFA;vida me envie por e-mail, lembre-se de descrever seu projeto.</description>
     <item>
+      <title>Barramento OneWire - 1-wire</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/29_Barramento_OneWire_-_1-wire.html</link>
+      <guid isPermaLink="false">9eef616c-054a-4d06-b7ac-abf9d83ee26c</guid>
+      <pubDate>Tue, 29 Apr 2014 00:16:18 -0300</pubDate>
+      <description>Muitas vezes usamos alguns sensores que utilizam um &#xFA;nico barramento para se comunicar com o Arduino, alguns precisam de alimenta&#xE7;&#xE3;o como &#xE9; o caso do DHT-11/22, outros n&#xE3;o, como o sensor de temperatura DS18B20. Por&#xE9;m, o DHT-11/22 usa um barramento chamado Single-Wire Two Way, que &#xE9; diferente do Barramento OneWire que tamb&#xE9;m se escrito 1-Wire, desenvolvido pela Dallas Semiconductor Inc. atual Maxim.&lt;br/&gt;&lt;br/&gt;O Grande diferencial do 1-Wire al&#xE9;m de ser bidirecional, &#xE9; o fato de usar o barramento de comunica&#xE7;&#xE3;o como fonte de alimenta&#xE7;&#xE3;o, portanto os dispositivos s&#xE3;o constru&#xED;dos para obter energia do pr&#xF3;prio barramento de dados, o que chamamos de alimenta&#xE7;&#xE3;o parasita. Um barramento 1-Wire, aceita m&#xFA;ltiplos Slaves n&#xE3;o importa a fam&#xED;lia, podendo comunicar a uma taxa de 15,3Kbs, havendo alguns que se comunicam em velocidade superiores. Devido a baixa velocidade e o baixo consumo &#xE9; poss&#xED;vel usar barramentos com amplo comprimento, como 10M. O Barramento 1-Wire &#xE9; tamb&#xE9;m conhecido como MicroLan. H&#xE1; possibilidade de simular 1-Wire na porta serial ou Paralela de um PC.&lt;br/&gt;&lt;br/&gt;H&#xE1; dispositivos 1-Wire encapsulados como transistores (T-92), e como bot&#xF5;es similares a bateria de rel&#xF3;gio conhecidos como iButton. Entre os principais dispositivos temos Sensores de Temperatures,  Identificadores e Mem&#xF3;ria EEPROM. Todos tendo uma identifica&#xE7;&#xE3;o &#xFA;nica 8 bytes de f&#xE1;brica.</description>
+      <iweb:image href="Media/object000.png"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/29_Barramento_OneWire_-_1-wire.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
       <title>Canais Arena Mundial</title>
       <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/4/23_Canais_Arena_Mundial.html</link>
       <guid isPermaLink="false">f264594f-48bc-40c1-bc24-3ff7e2acde24</guid>
