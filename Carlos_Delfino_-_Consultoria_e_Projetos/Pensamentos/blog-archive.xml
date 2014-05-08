@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Pensamentos</title>
+    <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Pensamentos</link>
+    <description>As vezes me ocorre alguamas reflex&#xF5;es, para no tempo e revejo o passado, ou o que est&#xE1; acontecendo, nem sempre est&#xE1; no meu dom&#xED;nio, nem sempre termino com um racioc&#xED;nio claro.
+
+As vezes sou mal entendido, ou n&#xE3;o me expresso corretamente, mas vou tentando.</description>
+    <item>
+      <title>A copa do MUndo, os investimentos do Governo, e nossas a&#xE7;&#xF5;es!</title>
+      <link>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Pensamentos/Entradas/2014/5/8_Reflexos_no_lago.html</link>
+      <guid isPermaLink="false">a454f925-4bee-4dad-98fa-5f84d4681caf</guid>
+      <pubDate>Thu, 8 May 2014 14:31:30 -0300</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Pensamentos/Entradas/2014/5/8_Reflexos_no_lago.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, d 'de' MMMM 'de' y</iweb:dateFormat>
+    <iweb:baseURL>http://www.carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Pensamentos</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>
