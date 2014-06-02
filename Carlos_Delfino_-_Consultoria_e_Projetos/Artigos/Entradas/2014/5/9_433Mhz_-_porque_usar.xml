@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="642BD7FC-9115-4D72-9F48-3DD4F809E1DB">
+  <lastEdited clientType="local-build-20140601" date="2014-06-02 02:15:06 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Artigos, tutoriais e Dicas - Carlos Delfino</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>433Mhz - porque usar?</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>sexta-feira, 9 de maio de 2014</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="9_433Mhz_-_porque_usar_files/shapeimage_1.png" left="0px" top="0px" width="410px" height="253px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText/>
+  </textBox>
+</content>

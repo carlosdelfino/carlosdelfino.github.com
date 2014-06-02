@@ -9,6 +9,9 @@
     line-height: 15px;
     vertical-align: 3px;
 }
+.style_External_247_308 {
+    position: relative;
+}
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
@@ -36,9 +39,6 @@
 .style_SkipStroke_6 {
     background: transparent;
     opacity: 1.00;
-}
-.style_External_187_338 {
-    position: relative;
 }
 .Body {
     color: rgb(255, 255, 255);
@@ -157,13 +157,13 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_640_326 {
-    position: relative;
-}
 .Normal_External_640_23 {
     position: relative;
 }
 .Normal_External_640_29 {
+    position: relative;
+}
+.Normal_External_640_718 {
     position: relative;
 }
 .Previous {
@@ -236,10 +236,10 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_187_338 {
+.graphic_textbox_layout_style_default_External_320_30 {
     position: relative;
 }
-.graphic_textbox_layout_style_default_External_320_30 {
+.graphic_textbox_layout_style_default_External_247_308 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
