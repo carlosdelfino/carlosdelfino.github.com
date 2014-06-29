@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="642BD7FC-9115-4D72-9F48-3DD4F809E1DB">
-  <lastEdited clientType="local-build-20140601" date="2014-06-02 02:15:04 +0000"/>
+  <lastEdited clientType="local-build-20140629" date="2014-06-29 05:05:54 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
     <richText>Artigos, tutoriais e Dicas - Carlos Delfino</richText>
   </textBox>

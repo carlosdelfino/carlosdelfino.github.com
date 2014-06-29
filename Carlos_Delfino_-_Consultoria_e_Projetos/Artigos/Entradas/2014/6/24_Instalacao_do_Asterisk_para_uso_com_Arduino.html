@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20140624" />
+    <meta name="iWeb-Build" content="local-build-20140629" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Artigos, tutoriais e Dicas - Carlos Delfino</title>
@@ -30,7 +30,17 @@ iWebBlogArchivePageTitle = 'Arquivo';
     <script type="text/javascript" src="../../../../Scripts/iWebImage.js"></script>
     <script type="text/javascript" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/24_Instalacao_do_Asterisk_para_uso_com_Arduino.js"></script>
   </head>
-  <body style="background: rgb(255, 255, 255) url(24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/PhotoGray_browser_bg-3.jpg) repeat scroll top left; margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+ <body style="background: rgb(255, 255, 255) url(24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/PhotoGray_browser_bg-3.jpg) repeat scroll top left; margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+<!-- facebook start javascript - Carlos Delfino -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=351518334888083&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div style="text-align: center; ">
       <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
         <div style="background: transparent url(24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/PhotoGray_bg_c-1.jpg) repeat scroll top left; width: 700px; ">
@@ -100,14 +110,16 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
 
             <div style="height: 233px; width: 415px;  height: 233px; left: 37px; position: absolute; top: 11px; width: 415px; z-index: 1; " class="tinyText stroke_0">
               <div style="position: relative; width: 415px; ">
-                <img src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_1.png" alt="" style="height: 233px; left: 0px; margin-left: 0px; margin-top: 0px; position: absolute; top: 0px; width: 415px; visibility: hidden; " id="generic-picture-attributes" />
+                <img src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_1.png" alt="" style="height: 233px; left: 0px; position: absolute; top: 0px; width: 415px; visibility: hidden; " id="generic-picture-attributes" />
               </div>
             </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
             <div style="visibility: hidden;  margin-left: 30px; margin-top: 303px; position: relative; width: 640px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
-              <div class="text-content Normal_External_640_1561" style="padding: 0px; ">
+              <div class="text-content Normal_External_640_1658" style="padding: 0px; ">
                 <div class="Normal">
-                  <p style="padding-top: 0pt; " class="paragraph_style"><span style="line-height: 19px; " class="style">Para instalar o Asterisk é preciso seguir alguns passos, dentre eles você deve primeiro fazer o Download dos seguintes pacotes, para isso crie uma pasta por exemplo chamada “/usr/src/asterisk”, ou outro local que achar mais indicado em sua instalação Linux. (sim iremos nos basear no Linux, já que o Asterisk roda bem melhor nesta SO), observe neste tutorial estarei usando o Ubuntu em sua última versão.<br /></span></p>
+                  <p style="padding-top: 0pt; " class="paragraph_style"><span style="line-height: 19px; " class="style">Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.<br /></span></p>
+                  <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
+                  <p class="paragraph_style"><span style="line-height: 19px; " class="style">Para instalar o Asterisk é preciso seguir alguns passos, dentre eles você deve primeiro fazer o Download dos seguintes pacotes, para isso crie uma pasta por exemplo chamada “/usr/src/asterisk”, ou outro local que achar mais indicado em sua instalação Linux. (sim iremos nos basear no Linux, já que o Asterisk roda bem melhor nesta SO), observe neste tutorial estarei usando o Ubuntu em sua última versão.<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style">Use os seguintes comandos para baixar os pacotes:<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
@@ -118,7 +130,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_1"><br /></p>
                   <p class="paragraph_style_2">wget <a title="http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-tools/dahdi-tools-current.tar.gz" href="http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-tools/dahdi-tools-current.tar.gz">http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-tools/dahdi-tools-current.tar.gz</a><br /></p>
                   <p class="paragraph_style_2">wget <a title="http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-linux/dahdi-linux-current.tar.gz" href="http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-linux/dahdi-linux-current.tar.gz">http://downloads/asterisk.org/pub/telephony/dahdi-linux/dahdi-linux/dahdi-linux-current.tar.gz</a><br /></p>
-                  <p class="paragraph_style_2">wget <a title="http://openr2.googlecode.com/files/openr2-1.3.1.tar.gz" href="http://openr2.googlecode.com/files/openr2-1.3.1.tar.gz">http://openr2.googlecode.com/files/openr2-1.3.1.tar.gz</a><span style="line-height: 19px; " class="style"><br /></span></p>
+                  <p class="paragraph_style_2">wget <a title="http://openr2.googlecode.com/files/openr2-1.3.1.tar.gz" href="http://openr2.googlecode.com/files/openr2-1.3.1.tar.gz">http://openr2.googlecode.com/files/openr2-1.3.3.tar.gz</a><span style="line-height: 19px; " class="style"><br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
                   <p class="paragraph_style_3"><span style="line-height: 19px; " class="style">Agora que baixou os pacotes descompacte cada um e certifique-se que as pastas foram criadas conforme o nome de cada arquivo.<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
@@ -142,7 +154,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_6">make<br /></p>
                   <p class="paragraph_style_6">make install<br /></p>
                   <p class="paragraph_style_6"><span style="line-height: 21px; " class="style"><br /></span></p>
-                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style">Agora compilamos o pacote openr2-1.3.1-tar.gz, descompacte como os anteriores entre no diretório criado e digite os comandos em cada linha:<br /></span></p>
+                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style">Agora compilamos o pacote openr2-1.3.1-tar.gz, descompacte como os anteriores entre no diretório criado e digite os comandos em cada linha, este pacote não será necessário em nosso workshop, já que seu uso é para quem pretende ter linha E1 em seu ambiente:<br /></span></p>
                   <p class="paragraph_style_5"><span style="line-height: 21px; " class="style"><br /></span></p>
                   <p class="paragraph_style_6">./configure --prefix=/usr<br /></p>
                   <p class="paragraph_style_6">make<br /></p>
@@ -158,7 +170,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_5"><span style="line-height: 21px; " class="style"><br /></span></p>
                   <p class="paragraph_style_6">contrib/scripts/get_ilbc_source.sh<br /></p>
                   <p class="paragraph_style_6">contrib/scripts/get_mp3_source.sh<br /></p>
-                  <p class="paragraph_style_6">contrib/scripts/install_prereque<br /></p>
+                  <p class="paragraph_style_6">contrib/scripts/install_prereq<br /></p>
                   <p class="paragraph_style_6">make menuselect<br /></p>
                   <p class="paragraph_style_6">make<br /></p>
                   <p class="paragraph_style_6">make install<br /></p>
@@ -169,7 +181,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_5"><br /></p>
                   <p class="paragraph_style_5">Em breve mais atualizações neste tutorial e mais links para outros tutoriais que usaremos no Workshop.<br /></p>
                   <p class="paragraph_style_5"><br /></p>
-                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">Outras informações sobre o Workshop podem ser obtidos no link: <a title="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts" href="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts">https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts</a></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">Outras informações sobre o Workshop podem ser obtidos no link: <a title="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts" href="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts">https://www.facebook.com/events/1500419536839268/</a></p>
                 </div>
               </div>
               <div id="generic-body-attributes" class="Free_Form"></div>
@@ -180,13 +192,28 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             <div id="id4" style="height: 205px; left: 483px; position: absolute; top: 10px; width: 187px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
               <div class="text-content style_External_187_205" style="padding: 0px; ">
                 <div class="style_2">
-                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Caption">Este tutorial ensina como instalar o Asterisk para uso com o Arduino e para uso no Workshop de Telefonia e Automação com Arduino.</p>
+                  <p style="padding-top: 0pt; " class="Caption">Este tutorial ensina como instalar o Asterisk para uso com o Arduino e para uso no Workshop de Telefonia e Automação com Arduino.<br /></p>
+                  <p class="Caption"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller.</a></p>
                 </div>
               </div>
             </div>
             <div style="height: 0px; line-height: 0px; " class="spacer"> </div>
           </div>
-          <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <!-- Facebook Comment Script --><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="http://www.carlosdelfino.eti.br" data-numposts="5" data-colorscheme="dark"></div>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-21710445-1', 'carlosdelfino.eti.br');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+<!-- Fim Google Analytics --></body></html>
+
             <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
             <a href="http://apple.com/br/mac" title="http://apple.com/br/mac"><img src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/mwmac_white.png" alt="Criado em um Mac" style="border: none; height: 50px; left: 280px; opacity: 0.25; position: absolute; top: 75px; width: 139px; z-index: 1; " id="id5" />
 
@@ -194,7 +221,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             <div id="id6" style="height: 30px; left: 350px; position: absolute; top: 20px; width: 319px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
               <div class="text-content graphic_textbox_layout_style_default_External_319_30" style="padding: 0px; ">
                 <div class="graphic_textbox_layout_style_default">
-                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_3">seguinte</span></a><span class="style_4"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="../../../Arquivo.html" title="../../../Arquivo.html" alt="../../../Arquivo.html" coords="3, 3, 13, 18" /></map></div></div>
+                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_3">seguinte</span></a><span class="style_4"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" title="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" alt="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" coords="3, 3, 13, 18" /></map></div></div>
                 </div>
                 <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
               </div>
@@ -220,12 +247,11 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-21710445-1', 'carlosdelfino.eti.br');ga('require', 'linkid', 'linkid.js');
+ga('create', 'UA-21710445-1', 'carlosdelfino.eti.br');
 ga('require', 'displayfeatures');
 ga('send', 'pageview');
 </script>
-<!-- Fim Google Analytics -->
-</body>
-</html>
+<!-- Fim Google Analytics --></body></html>
+
 
 

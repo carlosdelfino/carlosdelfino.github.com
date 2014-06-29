@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="46D31CA3-FB98-41BF-985C-1FB0A30919F1">
-  <lastEdited clientType="local-build-20140601" date="2014-06-02 02:15:16 +0000"/>
+  <lastEdited clientType="local-build-20140629" date="2014-06-29 05:06:03 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
     <richText>Pensamentos de Carlos Delfino</richText>
   </textBox>

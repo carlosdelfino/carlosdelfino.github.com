@@ -1,4 +1,4 @@
-// Created by iWeb 3.0.4 local-build-20140601
+// Created by iWeb 3.0.4 local-build-20140629
 
 setTransparentGifURL('../../../../Media/transparent.gif');function applyEffects()
 {var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWStrokeParts([{rect:new IWRect(-2,2,4,295),url:'7_Basicao_da_Eletronica_files/stroke.png'},{rect:new IWRect(-2,-2,4,4),url:'7_Basicao_da_Eletronica_files/stroke_1.png'},{rect:new IWRect(2,-2,276,4),url:'7_Basicao_da_Eletronica_files/stroke_2.png'},{rect:new IWRect(278,-2,4,4),url:'7_Basicao_da_Eletronica_files/stroke_3.png'},{rect:new IWRect(278,2,4,295),url:'7_Basicao_da_Eletronica_files/stroke_4.png'},{rect:new IWRect(278,297,4,5),url:'7_Basicao_da_Eletronica_files/stroke_5.png'},{rect:new IWRect(2,297,276,5),url:'7_Basicao_da_Eletronica_files/stroke_6.png'},{rect:new IWRect(-2,297,4,5),url:'7_Basicao_da_Eletronica_files/stroke_7.png'}],new IWSize(280,300))});registry.applyEffects();}
