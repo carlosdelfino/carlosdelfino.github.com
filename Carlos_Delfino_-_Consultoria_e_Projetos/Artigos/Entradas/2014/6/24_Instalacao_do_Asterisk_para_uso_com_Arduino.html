@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20140629" />
+    <meta name="iWeb-Build" content="local-build-20140701" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Artigos, tutoriais e Dicas - Carlos Delfino</title>
@@ -115,7 +115,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
             <div style="visibility: hidden;  margin-left: 30px; margin-top: 303px; position: relative; width: 640px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
-              <div class="text-content Normal_External_640_1658" style="padding: 0px; ">
+              <div class="text-content Normal_External_640_2549" style="padding: 0px; ">
                 <div class="Normal">
                   <p style="padding-top: 0pt; " class="paragraph_style"><span style="line-height: 19px; " class="style">Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
@@ -154,7 +154,9 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_6">make<br /></p>
                   <p class="paragraph_style_6">make install<br /></p>
                   <p class="paragraph_style_6"><span style="line-height: 21px; " class="style"><br /></span></p>
-                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style">Agora compilamos o pacote openr2-1.3.1-tar.gz, descompacte como os anteriores entre no diretório criado e digite os comandos em cada linha, este pacote não será necessário em nosso workshop, já que seu uso é para quem pretende ter linha E1 em seu ambiente:<br /></span></p>
+                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style">Agora compilamos o pacote openr2-1.3.1-tar.gz, Este pacote não necessário ao nosso Workshop, porém mantive sua instalação para divulgação, já que se o usuário vier a desejar integrar seu Asterisk aos sistema telefônico Brasileiro irá precisar desta biblioteca de sinalização.<br /></span></p>
+                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style"><br /></span></p>
+                  <p class="paragraph_style_5"><span style="line-height: 21px; " class="style">Descompacte como os anteriores entre no diretório criado e digite os comandos em cada linha, este pacote não será necessário em nosso workshop, já que seu uso é para quem pretende ter linha E1 em seu ambiente:<br /></span></p>
                   <p class="paragraph_style_5"><span style="line-height: 21px; " class="style"><br /></span></p>
                   <p class="paragraph_style_6">./configure --prefix=/usr<br /></p>
                   <p class="paragraph_style_6">make<br /></p>
@@ -177,10 +179,44 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_6">make samples<br /></p>
                   <p class="paragraph_style_6">make config<br /></p>
                   <p class="paragraph_style_6"><br /></p>
-                  <p class="paragraph_style_5">Pronto em tese o Asterisk está pronto e instalado para iniciar nosso workshop.<br /></p>
+                  <p class="paragraph_style_5">Pronto, em tese o Asterisk está pronto e instalado para iniciar nosso workshop.<br /></p>
                   <p class="paragraph_style_5"><br /></p>
-                  <p class="paragraph_style_5">Em breve mais atualizações neste tutorial e mais links para outros tutoriais que usaremos no Workshop.<br /></p>
+                  <p class="paragraph_style_7">Melhorando a Segurança da Instalação<br /></p>
+                  <p class="paragraph_style_5">Após a instalação acima, tudo estará configurado para ser executado como Root, porém isso não é uma boa prática, e o ideal é criar um usuário especifico para rodar este processo. <br /></p>
                   <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Para isso inicie criando um usuário e um grupo com os dois comandos abaixo:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_8">adduser --system --home /var/lib/asterisk --no-create-home asterisk<br /></p>
+                  <p class="paragraph_style_8">addgroup asterisk<br /></p>
+                  <p class="paragraph_style_8"><br /></p>
+                  <p class="paragraph_style_9">Agora mude o proprietários e grupo das pastas relativas ao Asterisk usando o comando abaixo:<br /></p>
+                  <p class="paragraph_style_9"><br /></p>
+                  <p class="paragraph_style_8">chown -R asterisk:asterisk /var/lib/asterisk \<br /></p>
+                  <p class="paragraph_style_8">                           /var/log/asterisk \<br /></p>
+                  <p class="paragraph_style_8">                           /var/run/asterisk \<br /></p>
+                  <p class="paragraph_style_8">                           /var/spool/asterisk<br /></p>
+                  <p class="paragraph_style_8"><br /></p>
+                  <p class="paragraph_style_9">A pasta de configuração no diretório “etc” deve ter o proprietário como sendo o “root” porém o grupo deve ser “asterisk”, permitindo assim que membros deste grupo possam acessa-la:<br /></p>
+                  <p class="paragraph_style_9"><br /></p>
+                  <p class="paragraph_style_8">chown -R root:asterisk /etc/asterisk/<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Agora ajuste os direitos de acesso assim todos os proprietários poderão acessar livremente as respectivas pastas, o grupo poderá lê-las sem problemas, e os demais usuários ficaram sem acesso:<br /></p>
+                  <p class="paragraph_style_5">chmod -R u=rwX,g=rX,o= /var/lib/asterisk \<br /></p>
+                  <p class="paragraph_style_5">                                      /var/log/asterisk \<br /></p>
+                  <p class="paragraph_style_5">                                      /var/run/asterisk \<br /></p>
+                  <p class="paragraph_style_5">                                      /var/spool/asterisk \<br /></p>
+                  <p class="paragraph_style_5">                                      /etc/asterisk<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Agora para finalizar estas configurações, entre no diretório “/etc/default/” e edite o arquivo asterisk, neste arquivos estão os parâmetros padrões para inicialização automática do Asterisk no linux. Procure as duas linhas que se refere respectivamente ao usuário e grupo e mude o nome destes para os nomes criados nos comandos acima.<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Finalmente reinicialize ou inicialize o Asterisk usando o comando:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_6">service asterisk restart<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_7">Próximo Passo<br /></p>
+                  <p class="paragraph_style_5"><a title="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Configurando_o_Asterisk_para_os_primeiros_passos.html" href="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Configurando_o_Asterisk_para_os_primeiros_passos.html">Primeiro estágio de Configuração do Asterisk para Integra-se ao Arduino.</a><br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Mais Informações:<br /></p>
                   <p style="padding-bottom: 0pt; " class="paragraph_style_5">Outras informações sobre o Workshop podem ser obtidos no link: <a title="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts" href="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts">https://www.facebook.com/events/1500419536839268/</a></p>
                 </div>
               </div>
@@ -189,12 +225,12 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             
 
 
-            <div id="id4" style="height: 205px; left: 483px; position: absolute; top: 10px; width: 187px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
-              <div class="text-content style_External_187_205" style="padding: 0px; ">
+            <div id="id4" style="height: 205px; left: 462px; position: absolute; top: 10px; width: 221px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
+              <div class="text-content style_External_221_205" style="padding: 0px; ">
                 <div class="style_2">
                   <p style="padding-top: 0pt; " class="Caption">Este tutorial ensina como instalar o Asterisk para uso com o Arduino e para uso no Workshop de Telefonia e Automação com Arduino.<br /></p>
                   <p class="Caption"><br /></p>
-                  <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller.</a></p>
+                  <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller</a>, além da ajuda dos membros da Lista do <a title="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110" href="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110">Asterisk Brasil</a></p>
                 </div>
               </div>
             </div>
@@ -202,18 +238,8 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
           </div>
           <!-- Facebook Comment Script --><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 <div class="fb-comments" data-href="http://www.carlosdelfino.eti.br" data-numposts="5" data-colorscheme="dark"></div>
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-21710445-1', 'carlosdelfino.eti.br');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-</script>
-<!-- Fim Google Analytics --></body></html>
-
+</body>
+</html>
             <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
             <a href="http://apple.com/br/mac" title="http://apple.com/br/mac"><img src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/mwmac_white.png" alt="Criado em um Mac" style="border: none; height: 50px; left: 280px; opacity: 0.25; position: absolute; top: 75px; width: 139px; z-index: 1; " id="id5" />
 

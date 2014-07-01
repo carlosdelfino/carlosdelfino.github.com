@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20140629" />
+    <meta name="iWeb-Build" content="local-build-20140701" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Artigos, tutoriais e Dicas - Carlos Delfino</title>
@@ -115,57 +115,62 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
             <div style="visibility: hidden;  margin-left: 30px; margin-top: 303px; position: relative; width: 640px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
-              <div class="text-content Normal_External_640_2723" style="padding: 0px; ">
+              <div class="text-content Normal_External_640_2862" style="padding: 0px; ">
                 <div class="Normal">
                   <p style="padding-top: 0pt; " class="Body">Acreditamos que você ja tenha tido sucesso em instalar o Asterisk conforme o tutorial “<br /></p>
                   <p class="Body"><a title="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Instalacao_do_Asterisk_para_uso_com_Arduino.html" href="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Instalacao_do_Asterisk_para_uso_com_Arduino.html">Instalação do Asterisk para Uso com Arduino”</a><br /></p>
                   <p class="Body"><br /></p>
-                  <p class="Body">O primeiro passo a ser dado com o Asterisk será configurar as extensões e canais de comunicação, usaremos apenas um tipo de canal,  controlado pelos protocolos SIP, o que será suficiente para tudo que desejamos apresentar e muito mais.<br /></p>
+                  <p class="Body">O primeiro passo a ser dado com o Asterisk, após sua instalação, será configurar as extensões e canais de comunicação, usaremos apenas um tipo de canal,  controlado pelos protocolos SIP, o que será suficiente para tudo que desejamos apresentar e muito mais.<br /></p>
                   <p class="Body"><br /></p>
-                  <p class="Body">Durante a instalação usamos o comando “make samples” para que tenhamos configurações padrões para uso do Asterisk, mas estas configurações não nos atende, portanto vamos fazer um backup delas, criando um diretório “backup” e movendo todos os arquivos que estão na pasta “/etc/asterisk” para a pasta de bakcup, porém mantenha uma copia dos seguintes arquivos:<br /></p>
-                  <p class="Body"><br /></p>
-                  <ol>
-                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
-                      <p style="text-indent: -24px; " class="paragraph_style"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>asterisk.conf<br /></p>
-                    </li>
-                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
-                      <p style="text-indent: -24px; " class="paragraph_style"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>indications.conf<br /></p>
-                    </li>
-                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
-                      <p style="text-indent: -24px; " class="paragraph_style"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>logger.conf<br /></p>
-                    </li>
-                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
-                      <p style="text-indent: -24px; " class="paragraph_style"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>cel.conf<br /></p>
-                    </li>
-                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
-                      <p style="text-indent: -24px; " class="paragraph_style"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>features.conf<br /></p>
-                    </li>
-                  </ol>
-                  <p class="Body"><br /></p>
-                  <p class="Body">Deixe todos os arquivos intactos, porém sugiro que liste o conteúdo de cada um para se familiarizar mais com as configurações, o arquivo asterisk.conf e logger.conf podem ter configurações de depuração alteradas para melhorar a visualização de mensagens de erros.<br /></p>
-                  <p class="Body"><br /></p>
-                  <p class="paragraph_style_1">Antes de Começar, Alguns Conceitos<br /></p>
+                  <p class="paragraph_style">Antes de Começar, Alguns Conceitos<br /></p>
                   <p class="Body"><br /></p>
                   <p class="Body">Para se usar o Asterisk é preciso consolidar alguns conceitos, dentre eles:<br /></p>
                   <p class="Body"><br /></p>
                   <ol>
                     <li style="line-height: 21px; margin-top: -1px; padding-left: 18px; text-indent: -18px; " class="full-width">
-                      <p style="text-indent: -18px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Canais de Audio<br /></p>
+                      <p style="text-indent: -18px; " class="paragraph_style_1"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Canais de Audio<br /></p>
                     </li>
                     <li style="line-height: 21px; margin-top: -1px; padding-left: 18px; text-indent: -18px; " class="full-width">
-                      <p style="text-indent: -18px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Ramais<br /></p>
+                      <p style="text-indent: -18px; " class="paragraph_style_1"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span><a title="http://goo.gl/wvgPGw" href="http://goo.gl/wvgPGw">Ramais</a><br /></p>
                     </li>
                     <li style="line-height: 21px; margin-top: -1px; padding-left: 18px; text-indent: -18px; " class="full-width">
-                      <p style="text-indent: -18px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Planos de Discagem<br /></p>
+                      <p style="text-indent: -18px; " class="paragraph_style_1"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span><a title="http://goo.gl/uVdtp9" href="http://goo.gl/uVdtp9">URA</a><br /></p>
                     </li>
                     <li style="line-height: 21px; margin-top: -1px; padding-left: 18px; text-indent: -18px; " class="full-width">
-                      <p style="text-indent: -18px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Módulos/Extensões<br /></p>
+                      <p style="text-indent: -18px; " class="paragraph_style_1"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Planos de Discagem<br /></p>
+                    </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 18px; text-indent: -18px; " class="full-width">
+                      <p style="text-indent: -18px; " class="paragraph_style_1"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 8px; " class="inline-block"></span>Módulos/Extensões<br /></p>
                     </li>
                   </ol>
                   <p class="Body"><br /></p>
                   <p class="Body">Considerando que você já conhece tais conceitos vamos continuar.<br /></p>
                   <p class="Body"><br /></p>
-                  <p class="paragraph_style_1">Quais Módulos iremos Usar<br /></p>
+                  <p class="paragraph_style">Arquivos de configuração Importantes<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body">Durante a instalação usamos o comando “make samples” para que tenhamos configurações padrões para uso do Asterisk, mas estas configurações não nos atende, portanto vamos fazer um backup delas, criando um diretório “backup” e movendo todos os arquivos que estão na pasta “/etc/asterisk” para a pasta de bakcup, porém mantenha uma copia dos seguintes arquivos:<br /></p>
+                  <p class="Body"><br /></p>
+                  <ol>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>asterisk.conf<br /></p>
+                    </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>indications.conf<br /></p>
+                    </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>logger.conf<br /></p>
+                    </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>cel.conf<br /></p>
+                    </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>features.conf<br /></p>
+                    </li>
+                  </ol>
+                  <p class="Body"><br /></p>
+                  <p class="Body">Deixe todos os arquivos intactos, porém sugiro que liste o conteúdo de cada um para se familiarizar mais com as configurações, o arquivo asterisk.conf e logger.conf podem ter configurações de depuração alteradas para melhorar a visualização de mensagens de erros.<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style">Quais Módulos iremos Usar<br /></p>
                   <p class="Body"><br /></p>
                   <p class="Body">O primeiro arquivo que vamos intervir é o arquivo “modules.conf”, este arquivo informa ao Asterisk como carregar os módulos necessário ao nosso ambiente. O Asterisk é um software totalmente modular e além de vir com todos os módulos/extensões necessários para nosso trabalho, possui uma API bem madura para se desenvolver novos módulos.<br /></p>
                   <p class="Body"><br /></p>
@@ -246,9 +251,11 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="Body"><br /></p>
                   <p class="Body">Porém, ao se alterar apenas arquivos de configurações pode se usar o comando “rasterisk” que veremos a seguir.<br /></p>
                   <p class="Body"><br /></p>
-                  <p class="paragraph_style_1">Próximos Passos<br /></p>
+                  <p class="paragraph_style">Próximos Passos<br /></p>
+                  <p class="Body">Veremos no próximo tutorial como criar nosso primeiro canal de comunicação e nossos ramais. Aguardem.<br /></p>
                   <p class="Body"><br /></p>
-                  <p style="padding-bottom: 0pt; " class="Body">Veremos no próximo tutorial como criar nosso primeiro canal de comunicação e nossos ramais. Aguardem.</p>
+                  <p class="paragraph_style_6">Mais Informações:<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_6">Outras informações sobre o Workshop podem ser obtidos no link: <a title="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts" href="https://www.facebook.com/events/1500419536839268/?ref=ts&amp;fref=ts">https://www.facebook.com/events/1500419536839268/</a></p>
                 </div>
               </div>
               <div id="generic-body-attributes" class="Body"></div>
@@ -256,12 +263,12 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             
 
 
-            <div id="id4" style="height: 260px; left: 483px; position: absolute; top: 10px; width: 187px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
-              <div class="text-content style_External_187_260" style="padding: 0px; ">
+            <div id="id4" style="height: 241px; left: 460px; position: absolute; top: 1px; width: 217px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
+              <div class="text-content style_External_217_241" style="padding: 0px; ">
                 <div class="style">
                   <p style="padding-top: 0pt; " class="Caption">Após instalar o Asterisk é importante configura-lo de forma a receber conexões telefônicas por softphones, será nesta modalidade que usaremos nossa instalação já que no nosso workshop não iremos conectar o Asterisk a linhas telefônicas externas.<br /></p>
                   <p class="Caption"><br /></p>
-                  <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller.</a></p>
+                  <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller</a>, além da ajuda dos membros da Lista do <a title="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110" href="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110">Asterisk Brasil</a></p>
                 </div>
               </div>
             </div>
@@ -269,18 +276,8 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
           </div>
           <!-- Facebook Comment Script --><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 <div class="fb-comments" data-href="http://www.carlosdelfino.eti.br" data-numposts="5" data-colorscheme="dark"></div>
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-21710445-1', 'carlosdelfino.eti.br');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-</script>
-<!-- Fim Google Analytics --></body></html>
-
+</body>
+</html>
             <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
             <a href="http://apple.com/br/mac" title="http://apple.com/br/mac"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/mwmac_white.png" alt="Criado em um Mac" style="border: none; height: 50px; left: 280px; opacity: 0.25; position: absolute; top: 75px; width: 139px; z-index: 1; " id="id5" />
 
@@ -288,7 +285,7 @@ ga('send', 'pageview');
             <div id="id6" style="height: 30px; left: 350px; position: absolute; top: 20px; width: 319px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
               <div class="text-content graphic_textbox_layout_style_default_External_319_30" style="padding: 0px; ">
                 <div class="graphic_textbox_layout_style_default">
-                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_1">seguinte</span></a><span class="style_2"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="../../../Arquivo.html" title="../../../Arquivo.html" alt="../../../Arquivo.html" coords="3, 3, 13, 18" /></map></div></div>
+                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_1">seguinte</span></a><span class="style_2"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="29_Configurando_nosso_primeiro_RAMAL_e_uma_URA.html" title="29_Configurando_nosso_primeiro_RAMAL_e_uma_URA.html" alt="29_Configurando_nosso_primeiro_RAMAL_e_uma_URA.html" coords="3, 3, 13, 18" /></map></div></div>
                 </div>
                 <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
               </div>
