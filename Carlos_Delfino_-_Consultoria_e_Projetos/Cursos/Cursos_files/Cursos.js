@@ -1,4 +1,4 @@
-// Created by iWeb 3.0.4 local-build-20140629
+// Created by iWeb 3.0.4 local-build-20140819
 
 setTransparentGifURL('../Media/transparent.gif');function applyEffects()
 {var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWStrokeParts([{rect:new IWRect(-2,2,4,262),url:'Cursos_files/stroke.png'},{rect:new IWRect(-2,-2,4,4),url:'Cursos_files/stroke_1.png'},{rect:new IWRect(2,-2,358,4),url:'Cursos_files/stroke_2.png'},{rect:new IWRect(360,-2,4,4),url:'Cursos_files/stroke_3.png'},{rect:new IWRect(360,2,4,262),url:'Cursos_files/stroke_4.png'},{rect:new IWRect(360,264,4,4),url:'Cursos_files/stroke_5.png'},{rect:new IWRect(2,264,358,4),url:'Cursos_files/stroke_6.png'},{rect:new IWRect(-2,264,4,4),url:'Cursos_files/stroke_7.png'}],new IWSize(362,266))});registry.applyEffects();}

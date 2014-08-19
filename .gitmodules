@@ -1,0 +1,3 @@
+[submodule "tutoriais/audio/wav2c"]
+	path = tutoriais/audio/wav2c
+	url = https://github.com/olleolleolle/wav2c

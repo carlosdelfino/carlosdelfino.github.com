@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20140701" />
+    <meta name="iWeb-Build" content="local-build-20140819" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Artigos, tutoriais e Dicas - Carlos Delfino</title>
@@ -115,7 +115,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
             <div style="visibility: hidden;  margin-left: 30px; margin-top: 303px; position: relative; width: 640px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
-              <div class="text-content Normal_External_640_2862" style="padding: 0px; ">
+              <div class="text-content Normal_External_640_2969" style="padding: 0px; ">
                 <div class="Normal">
                   <p style="padding-top: 0pt; " class="Body">Acreditamos que você ja tenha tido sucesso em instalar o Asterisk conforme o tutorial “<br /></p>
                   <p class="Body"><a title="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Instalacao_do_Asterisk_para_uso_com_Arduino.html" href="http://carlosdelfino.eti.br/Carlos_Delfino_-_Consultoria_e_Projetos/Artigos/Entradas/2014/6/24_Instalacao_do_Asterisk_para_uso_com_Arduino.html">Instalação do Asterisk para Uso com Arduino”</a><br /></p>
@@ -166,6 +166,9 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                     <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
                       <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>features.conf<br /></p>
                     </li>
+                    <li style="line-height: 21px; margin-top: -1px; padding-left: 24px; text-indent: -24px; " class="full-width">
+                      <p style="text-indent: -24px; " class="paragraph_style_2"><span style="position: relative; top: 3px; " class="Marcador"><img src="24_Configurando_o_Asterisk_para_os_primeiros_passos_files/bullet_ball-chrome.png" alt="Marcador" style="height: 13px; width: 10px; " /></span><span style="width: 14px; " class="inline-block"></span>modules.conf<br /></p>
+                    </li>
                   </ol>
                   <p class="Body"><br /></p>
                   <p class="Body">Deixe todos os arquivos intactos, porém sugiro que liste o conteúdo de cada um para se familiarizar mais com as configurações, o arquivo asterisk.conf e logger.conf podem ter configurações de depuração alteradas para melhorar a visualização de mensagens de erros.<br /></p>
@@ -190,16 +193,14 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_3">;<br /></p>
                   <p class="paragraph_style_3">; Módulos de Aplicação com funções para planos de discagem<br /></p>
                   <p class="paragraph_style_3">load=app_system.so<br /></p>
+                  <p class="paragraph_style_3">load=app_verbose.so<br /></p>
                   <p class="paragraph_style_3">load=app_dial.so<br /></p>
                   <p class="paragraph_style_3">load=app_record.so<br /></p>
                   <p class="paragraph_style_3">load=app_userevent.so<br /></p>
                   <p class="paragraph_style_3">load=app_playtones.so<br /></p>
                   <p class="paragraph_style_3">load=app_playback.so<br /></p>
+                  <p class="paragraph_style_3">load=app_sayunixtime.so<br /></p>
                   <p class="paragraph_style_4">;<br /></p>
-                  <p class="paragraph_style_4">; Funções para Planos de Discagem<br /></p>
-                  <p class="paragraph_style_4">load=func_dialgroup.so<br /></p>
-                  <p class="paragraph_style_4">load=func_dialplan.so<br /></p>
-                  <p class="paragraph_style_5">;<br /></p>
                   <p class="paragraph_style_5">; Recursos<br /></p>
                   <p class="paragraph_style_4">load=res_rtp_asterisk.so<br /></p>
                   <p class="paragraph_style_4">; Recurso que ira fazer a integracão com scripts que se comunicam com Arduino<br /></p>
@@ -211,22 +212,29 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_4">load=codec_gsm.so<br /></p>
                   <p class="paragraph_style_4">load=codec_ilbc.so<br /></p>
                   <p class="paragraph_style_4">;<br /></p>
+                  <p class="paragraph_style_4">; Funções para Planos de Discagem<br /></p>
+                  <p class="paragraph_style_4">load=func_dialgroup.so<br /></p>
+                  <p class="paragraph_style_4">load=func_dialplan.so<br /></p>
+                  <p class="paragraph_style_5">load=func_callerid.so<br /></p>
+                  <p class="paragraph_style_5">load=func_channel.so<br /></p>
+                  <p class="paragraph_style_5">;<br /></p>
                   <p class="paragraph_style_4">; Canais de Audio Local<br /></p>
                   <p class="paragraph_style_4">noload=chan_alsa.so<br /></p>
                   <p class="paragraph_style_4">noload=chan_oss.so<br /></p>
-                  <p class="paragraph_style_4">noload=chan_console.so<br /></p>
+                  <p class="paragraph_style_4">load=chan_console.so<br /></p>
                   <p class="paragraph_style_4">; Canais de Audio VOIP, usaremos apenas SIP para os ramais<br /></p>
                   <p class="paragraph_style_4">load=chan_sip.so<br /></p>
+                  <p class="paragraph_style_4">load=chan_aix.so<br /></p>
                   <p class="paragraph_style_4">;<br /></p>
                   <p class="paragraph_style_4">; Formatos de audio, observe diretiva “noload”, diz para não carregar<br /></p>
                   <p class="paragraph_style_4">noload=format_g719.so<br /></p>
                   <p class="paragraph_style_4">load=format_ilbc.so<br /></p>
-                  <p class="paragraph_style_4">noload=format_sln16.so<br /></p>
                   <p class="paragraph_style_4">load=format_g723.so<br /></p>
                   <p class="paragraph_style_4">load=format_jpeg.so<br /></p>
-                  <p class="paragraph_style_4">noload=format_sln.so<br /></p>
+                  <p class="paragraph_style_4">load=format_sln.so<br /></p>
+                  <p class="paragraph_style_4">noload=format_sln16.so<br /></p>
                   <p class="paragraph_style_4">noload=format_g726.so<br /></p>
-                  <p class="paragraph_style_4">load=format_mp3.so<br /></p>
+                  <p class="paragraph_style_4">noload=format_mp3.so<br /></p>
                   <p class="paragraph_style_4">load=format_vox.so<br /></p>
                   <p class="paragraph_style_4">load=format_g729.so<br /></p>
                   <p class="paragraph_style_4">load=format_ogg_vorbis.so<br /></p>
@@ -305,7 +313,9 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
         </div>
       </div>
     </div>
-  <!-- Google Analytics -->
+  <!-- Facebook Comment Script --><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="http://www.carlosdelfino.eti.br" data-numposts="5" data-colorscheme="dark"></div>
+<!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

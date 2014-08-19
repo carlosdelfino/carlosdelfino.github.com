@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <content collectionGUID="46D31CA3-FB98-41BF-985C-1FB0A30919F1">
-  <lastEdited clientType="local-build-20140629" date="2014-06-29 05:06:04 +0000"/>
+  <lastEdited clientType="local-build-20140819" date="2014-08-19 14:31:01 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
-    <richText>O Mundo de Evan</richText>
+    <richText>Pensamentos de Carlos Delfino</richText>
   </textBox>
   <textBox id="generic-title-attributes" dynamic="no" visible="yes">
     <richText>Terrorismo Digital e o Hero&#xED;smo, para quem?</richText>

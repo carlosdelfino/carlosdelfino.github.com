@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20140701" />
+    <meta name="iWeb-Build" content="local-build-20140819" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Artigos, tutoriais e Dicas - Carlos Delfino</title>
@@ -115,7 +115,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
             <div style="visibility: hidden;  margin-left: 30px; margin-top: 303px; position: relative; width: 640px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
-              <div class="text-content Normal_External_640_2549" style="padding: 0px; ">
+              <div class="text-content Normal_External_640_2596" style="padding: 0px; ">
                 <div class="Normal">
                   <p style="padding-top: 0pt; " class="paragraph_style"><span style="line-height: 19px; " class="style">Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
@@ -123,7 +123,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style">Use os seguintes comandos para baixar os pacotes:<br /></span></p>
                   <p class="paragraph_style"><span style="line-height: 19px; " class="style"><br /></span></p>
-                  <p class="paragraph_style_1">wget <a title="http://downloads/asterisk.org/pub/telephony/asterisk/asterisk-1.8.current.tar.gz" href="http://downloads/asterisk.org/pub/telephony/asterisk/asterisk-1.8.current.tar.gz">http://downloads/asterisk.org/pub/telephony/asterisk/asterisk-1.8.current.tar.gz</a><br /></p>
+                  <p class="paragraph_style_1">wget <a title="http://downloads/asterisk.org/pub/telephony/asterisk/asterisk-1.8.current.tar.gz" href="http://downloads/asterisk.org/pub/telephony/asterisk/asterisk-1.8.current.tar.gz">http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-11-current.tar.gz</a><br /></p>
                   <p class="paragraph_style_1"><br /></p>
                   <p class="paragraph_style_1">wget <a title="http://downloads/asterisk.org/pub/telephony/libpri/libpri-1.4.current.tar.gz" href="http://downloads/asterisk.org/pub/telephony/libpri/libpri-1.4.current.tar.gz">http://downloads/asterisk.org/pub/telephony/libpri/libpri-1.4.current.tar.gz</a><br /></p>
                   <p class="paragraph_style_1">wget <a title="http://downloads/asterisk.org/pub/telephony/libss7/libss7-1.0.2.tar.gz" href="http://downloads/asterisk.org/pub/telephony/libss7/libss7-1.0.2.tar.gz">http://downloads/asterisk.org/pub/telephony/libss7/libss7-1.0.2.tar.gz</a><br /></p>
@@ -189,6 +189,8 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_8">adduser --system --home /var/lib/asterisk --no-create-home asterisk<br /></p>
                   <p class="paragraph_style_8">addgroup asterisk<br /></p>
                   <p class="paragraph_style_8"><br /></p>
+                  <p class="paragraph_style_9">Não se esqueça de adicionar o usuário “asterisk” ao grupo de mesmo nome que acabou de criar.<br /></p>
+                  <p class="paragraph_style_9"><br /></p>
                   <p class="paragraph_style_9">Agora mude o proprietários e grupo das pastas relativas ao Asterisk usando o comando abaixo:<br /></p>
                   <p class="paragraph_style_9"><br /></p>
                   <p class="paragraph_style_8">chown -R asterisk:asterisk /var/lib/asterisk \<br /></p>
@@ -201,11 +203,12 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                   <p class="paragraph_style_8">chown -R root:asterisk /etc/asterisk/<br /></p>
                   <p class="paragraph_style_5"><br /></p>
                   <p class="paragraph_style_5">Agora ajuste os direitos de acesso assim todos os proprietários poderão acessar livremente as respectivas pastas, o grupo poderá lê-las sem problemas, e os demais usuários ficaram sem acesso:<br /></p>
-                  <p class="paragraph_style_5">chmod -R u=rwX,g=rX,o= /var/lib/asterisk \<br /></p>
-                  <p class="paragraph_style_5">                                      /var/log/asterisk \<br /></p>
-                  <p class="paragraph_style_5">                                      /var/run/asterisk \<br /></p>
-                  <p class="paragraph_style_5">                                      /var/spool/asterisk \<br /></p>
-                  <p class="paragraph_style_5">                                      /etc/asterisk<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">c<span class="style_2">hmod -R u=rwX,g=rX,o= /var/lib/asterisk \<br /></span></p>
+                  <p class="paragraph_style_5"><span class="style_2">                       /var/log/asterisk \<br /></span></p>
+                  <p class="paragraph_style_5"><span class="style_2">                       /var/run/asterisk \<br /></span></p>
+                  <p class="paragraph_style_5"><span class="style_2">                       /var/spool/asterisk \<br /></span></p>
+                  <p class="paragraph_style_5"><span class="style_2">                       /etc/asterisk</span><br /></p>
                   <p class="paragraph_style_5"><br /></p>
                   <p class="paragraph_style_5">Agora para finalizar estas configurações, entre no diretório “/etc/default/” e edite o arquivo asterisk, neste arquivos estão os parâmetros padrões para inicialização automática do Asterisk no linux. Procure as duas linhas que se refere respectivamente ao usuário e grupo e mude o nome destes para os nomes criados nos comandos acima.<br /></p>
                   <p class="paragraph_style_5"><br /></p>
@@ -227,7 +230,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
 
             <div id="id4" style="height: 205px; left: 462px; position: absolute; top: 10px; width: 221px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
               <div class="text-content style_External_221_205" style="padding: 0px; ">
-                <div class="style_2">
+                <div class="style_3">
                   <p style="padding-top: 0pt; " class="Caption">Este tutorial ensina como instalar o Asterisk para uso com o Arduino e para uso no Workshop de Telefonia e Automação com Arduino.<br /></p>
                   <p class="Caption"><br /></p>
                   <p style="padding-bottom: 0pt; " class="Caption">Este tutorial foi feito com o Apoio do Livro <a onclick="window.open(this.href); return false;" title="http://novatec.com.br/livros/asterisk2ed/" href="http://novatec.com.br/livros/asterisk2ed/" onkeypress="window.open(this.href); return false;">Asterisk na Prática</a> de <a title="http://novatec.com.br/autores/alexandrekeller/" href="http://novatec.com.br/autores/alexandrekeller/">Alexandre Keller</a>, além da ajuda dos membros da Lista do <a title="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110" href="http://www.asteriskbrasil.org/index.php?option=com_mailman&amp;Itemid=110">Asterisk Brasil</a></p>
@@ -247,7 +250,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             <div id="id6" style="height: 30px; left: 350px; position: absolute; top: 20px; width: 319px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
               <div class="text-content graphic_textbox_layout_style_default_External_319_30" style="padding: 0px; ">
                 <div class="graphic_textbox_layout_style_default">
-                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_3">seguinte</span></a><span class="style_4"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" title="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" alt="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" coords="3, 3, 13, 18" /></map></div></div>
+                  <div class="paragraph Next" style="padding-bottom: 0pt; padding-top: 0pt; "><a class="iWebBlogNext" title="" href=""><span class="style_4">seguinte</span></a><span class="style_5"> </span><div class="tinyText inline-block" style="height: 15px; position: relative; top: -3px; width: 10px; "><img usemap="#map1" id="shapeimage_2" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_2.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map1" id="map1"><area href="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" title="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" alt="24_Configurando_o_Asterisk_para_os_primeiros_passos.html" coords="3, 3, 13, 18" /></map></div></div>
                 </div>
                 <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
               </div>
@@ -258,7 +261,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
             <div id="id7" style="height: 30px; left: 30px; position: absolute; top: 20px; width: 320px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
               <div class="text-content graphic_textbox_layout_style_default_External_320_30" style="padding: 0px; ">
                 <div class="graphic_textbox_layout_style_default">
-                  <div class="paragraph Previous" style="padding-bottom: 0pt; padding-top: 0pt; "><div class="tinyText inline-block" style="height: 15px; position: relative; width: 10px; "><img usemap="#map2" id="shapeimage_3" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_3.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map2" id="map2"><area href="../5/9_433Mhz_-_porque_usar.html" title="../5/9_433Mhz_-_porque_usar.html" alt="../5/9_433Mhz_-_porque_usar.html" coords="3, 3, 13, 18" /></map></div><span class="style_4"> </span><a class="iWebBlogPrev" title="" href=""><span class="style_4">anterior</span></a></div>
+                  <div class="paragraph Previous" style="padding-bottom: 0pt; padding-top: 0pt; "><div class="tinyText inline-block" style="height: 15px; position: relative; width: 10px; "><img usemap="#map2" id="shapeimage_3" src="24_Instalacao_do_Asterisk_para_uso_com_Arduino_files/shapeimage_3.png" style="border: none; height: 21px; left: -3px; position: absolute; top: -3px; width: 16px; z-index: 1; " alt="" title="" /><map name="map2" id="map2"><area href="../5/9_433Mhz_-_porque_usar.html" title="../5/9_433Mhz_-_porque_usar.html" alt="../5/9_433Mhz_-_porque_usar.html" coords="3, 3, 13, 18" /></map></div><span class="style_5"> </span><a class="iWebBlogPrev" title="" href=""><span class="style_5">anterior</span></a></div>
                 </div>
                 <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
               </div>
@@ -267,7 +270,9 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
         </div>
       </div>
     </div>
-  <!-- Google Analytics -->
+  <!-- Facebook Comment Script --><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="http://www.carlosdelfino.eti.br" data-numposts="5" data-colorscheme="dark"></div>
+<!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

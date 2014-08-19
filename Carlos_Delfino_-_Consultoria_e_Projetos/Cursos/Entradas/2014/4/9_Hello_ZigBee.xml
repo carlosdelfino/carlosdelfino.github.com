@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="B8AA18C5-680B-4246-9D24-6C3D08819057">
-  <lastEdited clientType="local-build-20140629" date="2014-06-29 05:05:42 +0000"/>
+  <lastEdited clientType="local-build-20140819" date="2014-08-19 14:30:17 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
     <richText>Cursos e Palestras - Carlos Delfino</richText>
   </textBox>

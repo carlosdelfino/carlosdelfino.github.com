@@ -235,7 +235,12 @@
     text-transform: none;
 }
 .style_2 {
-    padding: 4px;
+    font-family: 'Consolas';
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
 }
 .style_SkipStroke_2 {
     background: transparent;
@@ -257,15 +262,18 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_3 {
+    padding: 4px;
+}
 .style_SkipStroke_5 {
     background: transparent;
     opacity: 1.00;
 }
-.style_3 {
+.style_4 {
     line-height: 15px;
     vertical-align: 6px;
 }
-.style_4 {
+.style_5 {
     line-height: 15px;
     vertical-align: 3px;
 }
@@ -412,7 +420,7 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_640_2549 {
+.Normal_External_640_2596 {
     position: relative;
 }
 .Normal_External_640_39 {

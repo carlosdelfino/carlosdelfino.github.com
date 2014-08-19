@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="46D31CA3-FB98-41BF-985C-1FB0A30919F1">
+  <lastEdited clientType="local-build-20140819" date="2014-08-19 14:31:01 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Pensamentos de Carlos Delfino</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Os limites de sua imagina&#xE7;&#xE3;o e o Ego em dizer eu tamb&#xE9;m fiz</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>s&#xE1;bado, 9 de agosto de 2014</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="9_Os_limites_de_sua_imaginacao_e_o_Ego_em_dizer_eu_tambem_fiz_files/shapeimage_1.png" left="0px" top="0px" width="420px" height="199px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Sinto falta de algo novo, algo que v&#xE1; al&#xE9;m do viaduto que caiu em BH, produto de engenheiros CTRL-C / CTRL-V.&#xD;&#xD;Tenho visto blogs e blogs pipocando por a&#xED;, todo semestre surge algu&#xE9;m novo, venham venham venham ver o que tenho de novo, &#xD;.&#xD;.&#xD;.&#xD;Meu blog.&#xD;&#xD;Gente vamos inovar, vamos pesquisar e criar e parar com velho eu tamb&#xE9;m fiz igual a ele. N&#xE3;o sou contra ningu&#xE9;m, n&#xE3;o sou contra se criar um novo blog para se colocar suas ideias, eu tamb&#xE9;m fa&#xE7;o isso.&#xD;&#xD;Vamos contribuir com a comunidade com criatividade, com inova&#xE7;&#xE3;o, solidificar nosso site, produzir conhecimento realmente novo, novos experimentos, novos paradigmas.&#xD;&#xD;Eu sei que isso demora, sei que criar algo que n&#xF3;s fa&#xE7;a dizer um hooooooo, &#xE9; dif&#xED;cil.&#xD;&#xD;Mas precisamos tentar, precisamos trocar id&#xE9;ias.&#xD;&#xD;Vamos abrir nossos c&#xF3;digos, vamos discuti-los, argumentar criticar com intuito de somar e crescer a todos.&#xD;&#xD;Deixemos a cultura do CTRL-C/CTRL-V de lado, sejamos t&#xE3;o criativos quanto nossas ferramentas n&#xF3;s permite e convida.&#xD;&#xD;Sem d&#xFA;vida que podemos inspirar uns nos outros, estudar os c&#xF3;digos e at&#xE9; mesmo usar algumas pe&#xE7;as quando assim for permitido. Respeitando os direitos autorais, n&#xE3;o por camaradagem, mas por respeito a quem contribui com um mundo livre e com mais conhecimento e oportunidades.&#xD;&#xD;Vejo que uns dos grandes temores na sociedade &#xE9; se criar algo novo e ser ridicularizado por isso, sem d&#xFA;vida que em tempos de internet um erro &#xE9; propaganda muito mais r&#xE1;pido que um acerto que as vezes sequer &#xE9; citado, ainda mais no Brasil, onde a sociedade gosta tanto de ridicularizar os inovadores, com apelidos com professor pardal ou cientista maluco.&#xD;&#xD;Hoje, as escolas, mesmo com tantos estudos contr&#xE1;rios ainda insistem no CTRL+C/CTRL+V, nos levando a fazer horas de exerc&#xED;cios, continuous e repetitivos, sem criatividade sem inova&#xE7;&#xE3;o. &#xC9; como se os professores dizerem em nossas cabe&#xE7;as de forma repetitiva, vamos pensem como eu, voc&#xEA;s precisam ser como eu. voc&#xEA;s somente ter&#xE3;o sucesso se fizer o como eu fa&#xE7;o.&#xD;&#xD;Acreditem no potencial de inova&#xE7;&#xE3;o que h&#xE1; em voc&#xEA;s criem novos artigos, novas ideias, arrisquem, mesmo que isso possa parecer rid&#xED;culo.</richText>
+  </textBox>
+</content>
