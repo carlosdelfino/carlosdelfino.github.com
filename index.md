@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Lateost Posts"
+title: "Início"
 ---
 Estamos trabalhando em um novo site, agora usando o Jekyll, com o layout Skinny Bones
 
