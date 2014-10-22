@@ -5,7 +5,7 @@ keywords: Asterisk, Arduino, PBX, PABX, PBX Virtual, PBX Digital
 layout: article
 share: true
 toc: true
-comment: true
+comments: true
 image:
   teaser: asterisk-400x250.png
   feature: asterisk-640x359.png
