@@ -5,7 +5,7 @@ keywords: Asterisk, Arduino, PBX, PABX, PBX Virtual, PBX Digital
 layout: article
 share: true
 toc: true
-category: "PBX Digital"
+category: "PBX_Digital"
 ---
 Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.
 

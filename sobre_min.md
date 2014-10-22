@@ -5,27 +5,37 @@ layout: default
 toc: true
 share: true
 ---
-    NOME:
-    Carlos Delfino Carvalho Pinheiro
+#####    NOME:
+Carlos Delfino Carvalho Pinheiro
 
-    PROFISSÃO:
-    Consultor /  Desenvolvedor /Programador / Analista de Suporte e Sistemas
+##### PROFISSÃO:
+Consultor /  Desenvolvedor /Programador / Analista de Suporte e Sistemas
 
-    ASSUNTOS FAVORITOS:
-    Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem preconceitos de classes e gêneros.
+##### BIO:
+27 anos de mercado, iniciei profissionalmente com programação e com a demanda por profissionais qualificado em suporte a rede de computadores, me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
-    MEU LEMA:
-    “Para o Triunfo do Mal, só é preciso que os homens de bem não façam nada” - Edmund Burke
+Em paralelo atuei de estagiário a consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
 
-    “Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco” - Edmund Burke
+Atualmente ministro cursos com Arduino, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
 
-    TELEFONES:
-    Claro: +55 31 84069811
-    Vivo: +55 31 98387171
-    Tim: +55 31 92521434
-    Oi: +55 31 87319450
+Visite a página Cursos para conhecer os cursos e palestras que tenho ministrado, e quais estou preparando para atender a demanda atual.
 
-    OUTROS CONTATOS:
-    Skype: fullservice.admin
-    E-mail: consultoria@carlosdelfino.eti.br
+
+##### ASSUNTOS FAVORITOS:
+Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem preconceitos de classes e gêneros.
+
+##### MEU LEMA:
+“Para o Triunfo do Mal, só é preciso que os homens de bem não façam nada” - Edmund Burke
+
+“Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco” - Edmund Burke
+
+##### TELEFONES:
+* Claro: +55 31 84069811
+* Vivo: +55 31 98387171
+* Tim: +55 31 92521434
+* Oi: +55 31 87319450
+
+#####    OUTROS CONTATOS:
+Skype: fullservice.admin
+E-mail: consultoria@carlosdelfino.eti.br
 
