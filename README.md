@@ -1,3 +1,3 @@
 Página do site de Carlos Delfino
 
-http://www.carlosdelfino.eti.br
+# Skinny Bones Jekyll Starter
