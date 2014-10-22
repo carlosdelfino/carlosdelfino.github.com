@@ -6,6 +6,11 @@ layout: article
 share: true
 toc: true
 comment: true
+image:
+  teaser: asterisk-400x250.png
+  feature: asterisk-640x359.png
+  credit: 
+  creditlink: http://www.asterisk.org/
 category: "PBX_Digital"
 ---
 Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.
@@ -127,4 +132,5 @@ Finalmente reinicialize ou inicialize o Asterisk usando o comando:
 {% highlight bash linenos=table %}
 service asterisk restart
 {% endhighlight %}
+
 
