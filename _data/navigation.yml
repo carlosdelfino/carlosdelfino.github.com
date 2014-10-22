@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Sobre Mim
+  url: /sobre_mim/
+  excerpt: Sobre Carlos Delfino e formas de contatos
+  image: carlosdelfino.png
