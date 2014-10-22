@@ -1,11 +1,18 @@
+<!-- page-author.html -->
+<!-- .author-image -->
 {% if page.author %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+   {% assign author = site.data.authors[page.author] %}
+{% else %}
+   {% assign author = site.owner %}
 {% endif %}
-
 <div class="author-image">
 	<img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
-</div><!-- ./author-image -->
+</div>
+<!-- ./author-image -->
+<!-- .author-content -->
 <div class="author-content">
-	<h3 class="author-name" >Written by {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
+	<h3 class="author-name" >Escrito por: {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
 	<p class="author-bio">{{ author.bio }}</p>
-</div><!-- ./author-content -->
+</div>
+<!-- ./author-content -->
+<!-- /page-author.html -->
