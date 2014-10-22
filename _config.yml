@@ -9,6 +9,17 @@ locale: Belo Horizonte/MG, Brasil
 url: http://localhost:4000
 ads: true
 
+disqus:
+    shortname: carlosdelfino
+
+google:
+    analytics:
+        id: UA-21710445-1
+        domain: 
+    adsense:
+        client: ca-pub-1710447158146560 
+        slot: 8511319937
+
 # Jekyll configuration
 
 sass:
@@ -26,12 +37,10 @@ owner:
   name: Carlos Delfino
   email: consultoria@carlosdelfino.eti.br
   twitter: fullsrv
-  google:
-    ad-client: ca-pub-1710447158146560 
-    ad-slot: 8511319937
   bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
   avatar: logo-fullservice-160x160.png 
-disqus-shortname: carlosdelfino
+  google:
+     plus: +CarlosDelfinoCarvalhoPinheiro
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
