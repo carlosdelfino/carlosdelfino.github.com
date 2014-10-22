@@ -1,0 +1,16 @@
+---
+title: Logica e Programacao para Arduino
+excerpt: Curso Básico e Introdutório Lógica e Programação com C/C++ para Arduino
+tags: Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Lógica, Programação, FIFO, Algoritimos, Estruturas de Dados, Assembly, AVR, ATMega, ATTiny, ARM
+category: CursoArduino
+layout: article
+share: true
+toc: true
+comments: true
+image:
+  teaser: cursoarduino/logicaprogramacaoarduino-400x250.png
+  feature: cursoarduino/logicaprogramacaoarduino-640x359.png
+  credit: 
+  creditlink: 
+---
+Aguarde em Breve mais Informações
