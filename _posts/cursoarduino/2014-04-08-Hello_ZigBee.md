@@ -3,7 +3,7 @@ title: Hello ZigBee
 excerpt: Curso Básico e Introdutório ao uso do ZigBee
 keywords: Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, ZigBee, 802.15.4, 802.11, WiFi, Wireless
 category: CursoArduino
-layout: article
+layout: article2
 share: true
 toc: true
 comments: true
