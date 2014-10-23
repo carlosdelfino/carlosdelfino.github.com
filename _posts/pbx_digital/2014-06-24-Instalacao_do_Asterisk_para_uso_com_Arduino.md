@@ -7,8 +7,8 @@ share: true
 toc: true
 comments: true
 image:
-  teaser: asterisk-400x250.png
-  feature: asterisk-640x359.png
+  teaser: pbx_digital/asterisk-255x180.png
+  feature: pbx_digital/asterisk-640x359.png
   credit: 
   creditlink: http://www.asterisk.org/
 category: "PBX_Digital"

@@ -1,0 +1,12 @@
+---
+layout: archive
+---
+{{ content }}
+
+{% for category in site.categories %}
+   {% if category contains page.category %}
+      {% for post in category %}
+         {% include post-grid.html %}
+      {% endfor %}
+   {% endif %}
+{% endfor %}
