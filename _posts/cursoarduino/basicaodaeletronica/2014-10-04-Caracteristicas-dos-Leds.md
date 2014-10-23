@@ -2,7 +2,7 @@
 title: Parâmetros e Caractersíisticas para se Usar LEDs
 excerpt: Neste post falamos um pouco sobre as Caracteristicas de cada LED, são caracteristicas que determinam sua luminosidade e como usa-los sem danifica-los
 tags: [Eletrônica, LCD, LED, Caracteristicas Ténicas, DataSheet]
-categories: [CursoArduino,BasicaoDaEletronica]
+categories: [BasicaoDaEletronica]
 layout: article
 share: true
 toc: true

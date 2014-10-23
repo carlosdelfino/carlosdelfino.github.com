@@ -1,7 +1,7 @@
 ---
 title: Usando dois ou mais LCDs com Arduino
 excerpt:  Como usar dois ou mais LCDs compartilhando pinos, de forma inteligente e permitindo economiar portas.
-categories: [tutoriais, arduino]
+categories: [HelloWorldArduino]
 layout: article
 comments: true
 toc: true
