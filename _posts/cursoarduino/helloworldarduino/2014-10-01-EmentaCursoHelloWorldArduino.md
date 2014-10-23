@@ -1,7 +1,7 @@
 ---
 title: Ementa da Curso Hello World Arduino
 excerpt: Resumo do Conteúdo do Curso Hello World Arduino, tópicos abordados no curso.
-tags: [Eletrônica, Arduino, Curso, Tutoriais]
+tags: [Eletrônica, Arduino, Curso, Tutoriais, CursoArduino]
 categories: [HelloWorldArduino]
 layout: article
 share: true
@@ -13,23 +13,8 @@ image:
   credit: 
   creditlink: 
 ---
-O curso tem duração de 8 horas, podendo ser ministrado da seguinte forma:
+Abaixo apresentamos a ementa do curso [Hello World Arduino](/helloworldarudino/)
 
-Valores para o Curso Hello World Arduino (Warp 8 horas)
-
- * 1 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
- * 2 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
- * 2 dias de 4 horas no sábado
- * 2 dias de 3 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
-
-Valores para o Curso Hello World Arduino (16/18 horas)
-
- * 2 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
- * 4 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
- * 4 dias de 4 horas no sábado
- * 6 dias de 3 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
-
-O conteúdo do curso abrange:
 
  * Arquitetura do Arduino
    * Arduino UNO
@@ -70,3 +55,4 @@ O conteúdo pode variar conforme composição e interesse da turma, mas lembrand
 
 Temas específicos podem ser negociados a parte e por demanda.
 
+<a href="/cursoarduino/Hello_World_Arduino/" class="btn-success">Clique aqui para ler mais sobre o curso!</a>
