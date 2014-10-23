@@ -1,0 +1,30 @@
+<!-- .tile -->
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+	<!-- begin tags -->	
+	<div class="box">
+{% assign tagid = tag | first | downcase | remove:' ' | remove:'-' | cgi_escape %}
+{% assign catdetail = site.data.tags[tagid] %} 
+		<h5><a id="tag_{{ tagid }}" 
+				name="{{ tagid }}" />
+{% if catdetail %}
+			{{ catdetail.name }}
+{% else %}
+			{{ tagid }}
+{% endif %}
+		</a></h5>
+		<ul class="postList">
+{% for posts in tag %}
+   {% for post in posts %}
+      {% if post.url %}
+			<li><a href="{{ post.url }}" 
+				title="{{ post.excerpt }}">
+				{{ post.title }} | 
+				<span>{{ post.date | date: '%d.%m.%y' }}</span>
+			</a></li>
+       {% endif %}
+   {% endfor %}
+{% endfor %}
+		</ul>
+	</div>
+</article>
+<!-- /.tile -->

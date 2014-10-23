@@ -22,6 +22,11 @@
   url: /categorias/
   excerpt: Todas as categorias do site
 
+- title: Tags
+  url: /tags/
+  excerpt: Todas as categorias do site
+
+- title: Tutoriais
 - title: Tutoriais
   url: /tutoriais/
   excerpt: Artigos que são categorizados como Tutoriais

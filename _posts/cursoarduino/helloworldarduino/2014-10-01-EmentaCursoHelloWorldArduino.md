@@ -1,7 +1,7 @@
 ---
 title: Ementa da Curso Hello World Arduino
 excerpt: Resumo do Conteúdo do Curso Hello World Arduino, tópicos abordados no curso.
-tags: [Eletrônica, Arduino, Curso, Tutoriais, CursoArduino]
+tags: [Eletrônica, Arduino, Curso, Tutoriais, Curso Arduino]
 categories: [HelloWorldArduino]
 layout: article
 share: true
