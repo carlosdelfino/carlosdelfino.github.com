@@ -9,3 +9,8 @@
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino.png
+
+- title: Eventos
+  url: http://www.eventick.com.br/organizador/arduinominas
+  excerpt: Eventos organizados por mim, como palestras, cursos abertos e treinamentos
+
