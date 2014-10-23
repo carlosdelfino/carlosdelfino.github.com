@@ -18,7 +18,11 @@
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino.png
 
+- title: Categorias
+  url: /categorias/
+  excerpt: Todas as categorias do site
+
 - title: Tutoriais
   url: /tutoriais/
-  excerpt: Tutoriais diversos
+  excerpt: Artigos que são categorizados como Tutoriais
 
