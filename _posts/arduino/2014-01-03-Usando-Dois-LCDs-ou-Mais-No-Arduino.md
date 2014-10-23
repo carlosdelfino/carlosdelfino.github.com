@@ -16,7 +16,7 @@ tags: [Arduino, LCD, Liquid Crystal, Arduino, Display, visor]
 Veja no video abaixo como deve ser conectado a fiação para usar dois ou mais LCDs com o Arduino.
 <figure>
 <iframe width="420" height="315" src="//www.youtube.com/embed/GM67gKqR7d4" frameborder="0" allowfullscreen></iframe>
-<figcaption>Veja o video de monstração, e depois leia o texto abaixo, caso tenha dúvida use o campo abaixo de comentários.
+<figcaption>Veja o video de monstração, e depois leia o texto abaixo, caso tenha dúvida use o campo abaixo de comentários.</figcaption>
 </figure>
 
 Na imagem abaixo pode ser visto um LCD de 2 por 16 colunas, todos os LCDs que usam este tipo de barramento paralelo podem ser conectados desta forma, usando apenas o `E` `Enable` para selecionar o LCD que será controlado.
@@ -26,7 +26,7 @@ Na imagem abaixo pode ser visto um LCD de 2 por 16 colunas, todos os LCDs que us
 </figure>
 
 | Pin |  Name   |   Function           |
-|:----|:-------:|---------------------:|
+|:---:|:-------:|:---------------------|
 | 1   | Anode	| Backlight Anode (+)  |
 | 2   | Cathode	| Backlight Cathode (-)|
 | 3   | VSS	| 0V (GND)             |
@@ -43,3 +43,4 @@ Na imagem abaixo pode ser visto um LCD de 2 por 16 colunas, todos os LCDs que us
 | 14  | DB5	| Data bit 5           |
 | 15  | DB6	| Data bit 6           |
 | 16  | DB7	| Data bit 7           |
+
