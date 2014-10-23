@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: Sobre Mim
+  url: /sobre_mim/
+  excerpt: Sobre Carlos Delfino e formas de contatos
+  image: carlosdelfino.png
+
+- title: Cursos
+  url: /cursoarduino/
+  excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
+  image: cursoarduino/cursohelloworldarduino.png
