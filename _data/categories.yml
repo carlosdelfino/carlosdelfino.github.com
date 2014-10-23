@@ -1,0 +1,18 @@
+helloworldarduino:
+  name: "Hello World Arduino"
+  author: carlosdelfino
+  cursos: [cursoarduino,helloworldarduino]
+
+cursoarduino:
+  name: "Curso Arduino Minas"
+  author: carlosdelfino
+  cursos: [cursoarduino]
+
+pbx_digital:
+  name: "PBX Digital (Asterisk)"
+  author: carlosdelfino
+
+basicaodaeletronica:
+        name: "Basicão da Eletrônica"
+        author: carlosdelfino
+        cursos: [cursoarduino,basicaodaeletronica]
