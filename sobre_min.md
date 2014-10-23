@@ -4,6 +4,8 @@ title: Sobre Carlos Delfino e Contato
 layout: default
 toc: true
 share: true
+image:
+   feature: carlosdelfino-palestra.png
 ---
 ###### NOME:
 Carlos Delfino Carvalho Pinheiro

@@ -8,9 +8,10 @@
 - title: Cursos
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
-  image: cursoarduino/cursohelloworldarduino.png
+  image: cursoarduino/cursohelloworldarduino-400x286.png
 
 - title: Categorias
   url: /categorias/
   excerpt: Todas as categorias do site
+  image: pastas-200x200.png
 

@@ -1,3 +1,7 @@
+pensamentos:
+        name: "Pensamentos e Reflexões"
+        author: carlosdelfino
+        
 helloworldarduino:
   name: "Hello World Arduino"
   author: carlosdelfino
