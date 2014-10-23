@@ -2,13 +2,13 @@
 title: Instalação do Asterisk para uso com Arduino
 excerpt: Como instalar o Asterisk e configura-lo para usar com Arduino
 keywords: Asterisk, Arduino, PBX, PABX, PBX Virtual, PBX Digital
-layout: article
+layout: article2
 share: true
 toc: true
 comments: true
 image:
-  teaser: asterisk-400x250.png
-  feature: asterisk-640x359.png
+  teaser: pbx_digital/asterisk-255x180.png
+  feature: pbx_digital/asterisk-640x359.png
   credit: 
   creditlink: http://www.asterisk.org/
 category: "PBX_Digital"
