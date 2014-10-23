@@ -45,3 +45,16 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 * GlobalShare: https://www.globallshare.com/carlosdelfino
 * Copy: https://copy.com?r=3GWJwr
 * Dropbox: https://db.tt/Yiwpb6Q
+
+###### TESOUROS:
+<ul class="th-grid">
+  <li>
+      <a href="#"><img src="{{ site.url }}/images/familia/irisebrenda.png" alt=""></a>
+  </li>
+  <li>
+      <a href="#"><img src="{{ site.url }}/images/familia/luisaalmeida.png" alt=""></a>
+  </li>
+  <li>
+      <a href="#"><img src="{{ site.url }}/images/familia/psique.jpg" alt=""></a>
+  </li>
+</ul>
