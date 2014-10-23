@@ -52,16 +52,8 @@
     {% if page.image.feature %}
     <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
       <div class="wrap page-lead-content">
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.description }}.</h2>
-{% for link in site.data.headernav %}
-   {% if link.url contains 'http' %}
-      {% assign domain = '' %}
-   {% else %}
-      {% assign domain = site.url %}
-   {% endif %}
-        <a href="{{ domain }}{{ link.url }}"  class="btn-inverse" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
-{% endfor %}
+        <h1>{{ page.title }}</h1>
+	{% if page.excerpt %}<h4>{{ page.except}}</h4>{% endif %}
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
@@ -71,10 +63,6 @@
 
       <div id="main" role="main">     
         <div class="wrap">
-          <div class="page-title">
-            <h1>{{ page.title }}</h1>
-            {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
-          </div>
           <div class="archive-wrap">
             <div class="page-content">
               {{ content }}
