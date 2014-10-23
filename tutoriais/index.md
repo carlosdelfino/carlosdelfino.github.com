@@ -9,7 +9,8 @@ Material usado nos artigos, estão organizado conforme o nível de conhecimento 
 
 <a href="/cursoarduino/" class="btn-success">Visite a página de cursos!</a>
 
-Abaixo estão listados os artigos que estão marcados como tutoriais
+Abaixo estão listados os artigos que estão marcados como tutoriais!
+
 <div class="tiles">
 {% for post in site.tags.tutoriais %}
    {% include post-grid.html %}

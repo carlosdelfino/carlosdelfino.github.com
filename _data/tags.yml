@@ -35,6 +35,6 @@ cursoarduino:
 
 caracteristicast%C3%A9nicas:
         name: "Caracteristicas Técnicas"
-        liquidcrystal: 
 
-name: "Liquid Crystal"
+liquidcrystal: 
+        name: "Liquid Crystal"
