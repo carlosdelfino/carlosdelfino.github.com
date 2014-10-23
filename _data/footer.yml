@@ -17,3 +17,8 @@
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino.png
+
+- title: Tutoriais
+  url: /tutoriais/
+  excerpt: Tutoriais diversos
+
