@@ -1,6 +1,6 @@
 ---
 permalink: /sobre_mim/
-title: Sobre Carlos Delfino e Contato 
+title: Sobre Carlos Delfino e Formas de Contato 
 layout: default
 toc: true
 share: true
