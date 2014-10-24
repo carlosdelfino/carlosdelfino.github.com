@@ -23,6 +23,8 @@ google:
 facebook:
    appid: 351518334888083
    uselogin: true
+   scope: [user_friends, email]
+   wellcomemsg: "Olá "
 
 # Jekyll configuration
 
