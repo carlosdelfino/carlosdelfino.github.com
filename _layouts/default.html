@@ -1,18 +1,20 @@
 ---
 layout: page
 ---
-    {% if page.image.feature %}
+{% if page.image.feature %}
     <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
        <div class="wrap page-lead-content">
              <h1>{{ page.title }}</h1>
-{% if page.excerpt %}
+   {% if page.excerpt %}
 			 <h4>{{ page.except}}</h4>
-{% endif %}
+   {% endif %}
        </div><!-- /.page-lead-content -->
 {% if page.image.credit %}{% include image-credit.html %}{% endif %}
     </div><!-- /.page-lead -->
-    {% endif %}
-
+{% endif %}
+{% if site.facebook.uselogin %}
+		    {% include facebook/wellcome.html %}
+{% endif %}
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
 
