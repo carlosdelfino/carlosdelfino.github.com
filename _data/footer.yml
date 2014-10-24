@@ -13,6 +13,11 @@
   url: http://www.eventick.com.br/organizador/arduinominas
   excerpt: Eventos organizados por mim, como palestras, cursos abertos e treinamentos
 
+- title: Pensamentos
+  url: /pensamentos/
+  excerpt: Pensamentos e Reflexões
+  image: pensamentos/pensamento1-400x200.jpg
+
 - title: Cursos
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas

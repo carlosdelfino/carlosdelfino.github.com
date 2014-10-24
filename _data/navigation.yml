@@ -10,6 +10,12 @@
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino-400x286.png
 
+- title: Pensamentos
+  url: /pensamentos/
+  excerpt: Pensamentos e Reflexões
+  image: pensamentos/pensamento1-200x200.png
+
+
 - title: Categorias
   url: /categorias/
   excerpt: Todas as categorias do site
