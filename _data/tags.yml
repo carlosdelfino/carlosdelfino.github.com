@@ -1,18 +1,42 @@
+ag%C3%AAncia:
+        name: "Agência"
+
+vozsobreip:
+        name: "Voz sobre IP"
+
+comunica%C3%A7%C3%A3o:
+        name: "Comunicação"
+
+inova%C3%A7%C3%A3o:
+        name: "Inovação"
+
+reflex%C3%A3o:
+        name: "Reflexão"
+        
+ci%C3%AAncias:
+        name: "Ciências"
+
 visor: 
-name: "Visor"
+        name: "Visor"
+
 eletr%C3%B4nica:
         name: "Eletrônica"
+
 arduinomega:
         name: "Arduino Mega"
+
 arduinouno:
         name: "Arduino Uno"
+
 arduinodue: 
         name: "Arduino Due"
+
 eletr%C3%B4nicaanl%C3%B3gica: 
         name: "Eletrônica Analógica"
 
 eletr%C3%B4nicadigital:
         name: "Eletrônica Digital"
+
 l%C3%B3gica:
         name: "Lógica de Programação"
 

@@ -2,7 +2,7 @@
 title: Terrorismo Digital e o Heroismo, para quem?
 excerpt: Saiba que ao curtir uma publicação ou até sendo um amigo, vc se torna de certa forma meu cúmplice, sim para agências de espionagens qualquer conexão mesmo digital pode ser uma conexão suspeita.
 category: Pensamentos
-tags: [Pensamento, Reflexão, Copa, Investimento, Governo, Dinheiro, Terrorismo, Idealismo, Amigo, Curtir, Cúmplicidade, Agência, Espionagen, Suspeito]
+tags: [Pensamento, Reflexão, Copa, Investimento, Governo, Dinheiro, Terrorismo, Idealismo, Amigo, Curtir, Cumplicidade, Agência, Espionagen, Suspeito]
 layout: article
 share: true
 comments: true
