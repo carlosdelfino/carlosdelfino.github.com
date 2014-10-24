@@ -8,9 +8,9 @@ share: true
 toc: true
 comments: true
 image:
-  teaser: 
-  feature: 
-  credit: 
+  teaser: cursoarduino/cursohelloworldarduino-400x286.png
+  feature: cursoarduino/cursohelloworldarduino-400x286.png
+  credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
   creditlink: 
 ---
 Abaixo apresentamos a ementa do curso [Hello World Arduino](/helloworldarudino/)
