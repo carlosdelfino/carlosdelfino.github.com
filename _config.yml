@@ -6,7 +6,7 @@ keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xP
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: Belo Horizonte/MG, Brasil
-url: http://carlosdelfino.eti.br
+url: http://localhost:4000
 ads: true
 
 disqus:
@@ -19,6 +19,10 @@ google:
     adsense:
         client: ca-pub-1710447158146560 
         slot: 8511319937
+        
+facebook:
+   appid: 351518334888083
+   uselogin: true
 
 # Jekyll configuration
 
