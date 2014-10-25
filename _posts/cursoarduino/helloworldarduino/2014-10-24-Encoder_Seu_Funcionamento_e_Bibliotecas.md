@@ -38,9 +38,9 @@ resoluções de pulsos conforme sua aplicação, podendo chegar a mais de 3000 p
 são usados em ambientes que exijam grande precissão como braços roboticos.
 
 # A Bibliteca para uso Com Arduino
-Aguarde, em breve coloco mais informações e exemplo de parametrização para o melhor uso da Biblioteca
-
+Aguarde, em breve coloco mais informações e exemplo de parametrização para o melhor uso da Biblioteca, 
 [Click aqui para visitar o site da melhor biblioteca para uso com Encoder e Arduino](http://www.pjrc.com/teensy/td_libs_Encoder.html)
+{: .notice }
 
 # Alguns Modelos de Encoder
 Abaixo apresento alguns modelos de encoder, veja que não estão listados abaixo os modelos lenares
