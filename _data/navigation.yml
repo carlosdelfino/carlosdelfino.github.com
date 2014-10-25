@@ -15,7 +15,10 @@
   excerpt: Pensamentos e Reflexões
   image: pensamentos/pensamento1-200x200.png
 
-
+- title: Links
+  url: /links/
+  excerpt: Coleção de Links Interessantes e Úteis
+  
 - title: Categorias
   url: /categorias/
   excerpt: Todas as categorias do site
