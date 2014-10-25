@@ -1,5 +1,5 @@
 helloarm:
-    name: Hello Arm
+    name: Hello ARM
     author: carlosdelfino
     cursos: [cursoarduino,helloarm]
     
