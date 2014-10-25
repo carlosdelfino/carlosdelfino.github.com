@@ -13,5 +13,5 @@ image:
   credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
   creditlink: 
 ---
-Aguarde em Breve mais Informações
+Aguarde em Breve mais Informações.{: .notice }
 

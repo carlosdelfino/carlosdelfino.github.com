@@ -38,6 +38,9 @@ observancia do caminho trilhado pelo aluno.
 
 Veja o video, são um pouco mais que 70 minutos de reflexão sobre o aprendizado e conhecimento.
 
+O Reconstruir também é parte do ensino, e para reconstruir é preciso destruir? ou apenas desestruturar
+e remodelar?
+
 <Figure>
 <iframe width="560" height="315" src="//www.youtube.com/embed/HX6P6P3x1Qg" frameborder="0" allowfullscreen></iframe>
 <figcaption>O video ao lado foi obtido em um grupo de debate sobre a educação, o grupo se faz prsente no Linkedin, pelo link: <a href="https://www.linkedin.com/groups/Docentes-Institui%C3%A7%C3%B5es-Ensino-Superior-3046666?home=&gid=3046666&trk=anet_ug_hm&goback=%2Egde_3046666_member_5931569464691695619%2Egmp_3046666">Docentes em Instituições de Ensino Superior</a>
