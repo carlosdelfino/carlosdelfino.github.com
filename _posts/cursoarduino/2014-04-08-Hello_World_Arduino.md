@@ -22,14 +22,16 @@ O curso é orientado de forma a lhe suprir todo o conehcimento básico para ter 
 O curso será moldado conforme sua necessidade, se 8 ou 16 horas ainda é pouco para você se sentir a vontade para dar os primeiros passos com o Arduino, não tem problema, podemos negociar horas extras complementares de forma a cobrir os temas que lhe são de maior interesse e aprofundar de forma prática no mesmo.
 
 Na modalidade de 8 horas, podendo ser ministrado da seguinte forma:
- * 1 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
- * 2 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
- * 2 dias de 4 horas no sábado
- * 2 dias de 3 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
+
+  * 1 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
+  * 2 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
+  * 2 dias de 4 horas no sábado
+  * 2 dias de 3 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
 
 Já na modadelidade de 16 horas as opçõesò são:
- * 2 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
- * 4 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
- * 4 dias de 4 horas no sábado
- * 5 dias de 3 horas, mais um de 2 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
+
+  * 2 dia de 8 horas na quinta das 12:30 as 21:00 (30 minutos de descanso)
+  * 4 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
+  * 4 dias de 4 horas no sábado
+  * 5 dias de 3 horas, mais um de 2 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
 

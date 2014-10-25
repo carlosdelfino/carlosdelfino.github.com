@@ -22,7 +22,7 @@ google:
         
 facebook:
    appid: 351518334888083
-   uselogin: true
+   uselogin: false
    scope: [user_friends, email]
    wellcomemsg: "Olá "
 
