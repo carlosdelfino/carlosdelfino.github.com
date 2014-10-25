@@ -1,3 +1,7 @@
+colecaodelinks:
+   name: Coleção de Links
+   aliases: [link,links,colecaolinks]
+   
 helloarm:
     name: Hello ARM
     author: carlosdelfino

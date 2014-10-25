@@ -2,7 +2,7 @@
 title: Somos todos diferentes - Filme Completo
 excerpt: O filme conta a história de uma criança que sofre com dislexia e custa a ser compreendida. Ishaan Awasthi, de 9 anos, já repetiu uma vez o terceiro período (no sistema educacional indiano) e corre o risco de repetir de novo. As letras dançam em sua frente, como diz, e não consegue acompanhar as aulas 
 tags: [links, pedagogia, dislexia, filme, diferencas, história, lutas, deficiencias]
-categories: [colecaolinks]
+categories: [colecaodelinks]
 layout: link
 share: true
 toc: true

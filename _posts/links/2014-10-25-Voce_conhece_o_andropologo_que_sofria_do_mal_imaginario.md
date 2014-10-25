@@ -2,7 +2,7 @@
 title: Você conhece o antropologo que sofria do mau do imaginário?
 excerpt: Um famoso caso autêntico de “mal do imaginário” ocorreu com o antropólogo Lévi Strauss, ele “morria” de ciúmes da amizade de Dina...
 tags: [links, pedagogia, antropologo]
-categories: [colecaolinks]
+categories: [colecaodelinks]
 layout: link
 share: true
 toc: true
