@@ -13,3 +13,7 @@ image:
 imagebase: "/images/pensamentos/"
 link: "https://www.youtube.com/watch?v=HX6P6P3x1Qg"
 ---
+
+<figure>
+<iframe width="560" height="315" src="link: "//www.youtube.com/watch?v=HX6P6P3x1Qg" frameborder="0" allowfullscreen></iframe>
+</figure>
