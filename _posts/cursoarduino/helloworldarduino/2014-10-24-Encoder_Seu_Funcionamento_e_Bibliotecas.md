@@ -38,7 +38,9 @@ resoluções de pulsos conforme sua aplicação, podendo chegar a mais de 3000 p
 são usados em ambientes que exijam grande precissão como braços roboticos.
 
 # A Bibliteca para uso Com Arduino
+Aguarde, em breve coloco mais informações e exemplo de parametrização para o melhor uso da Biblioteca
 
+[Click aqui para visitar o site da melhor biblioteca para uso com Encoder e Arduino](http://www.pjrc.com/teensy/td_libs_Encoder.html)
 
 # Alguns Modelos de Encoder
 Abaixo apresento alguns modelos de encoder, veja que não estão listados abaixo os modelos lenares
@@ -47,6 +49,7 @@ que controle curso de carros e esteiras.
 
 Siga os links para  obeter valores e detalhes téncnicos, deixe nos comentários suas dúvidas sobre os
  modelos e complementarei este artigo em cada imagem, ampliando a descrição ou postando novos modelos.
+ 
 <figure>
 <img src="{{ site.url }}/images/encoder/incremental-rotary-encoders-14277-2359763.jpg" width="250px"/>
 <figcaption> Figura 1<br />
