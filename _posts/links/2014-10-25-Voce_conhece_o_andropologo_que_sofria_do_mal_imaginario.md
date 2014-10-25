@@ -1,6 +1,6 @@
 ---
-title: Nosso Sistema de Ensino
-excerpt: Uma reflexão e proposta de percepção para um novo modelo de ensino.
+title: Você conhece o antropologo que sofria do mau do imaginário?
+excerpt: Um famoso caso autêntico de “mal do imaginário” ocorreu com o antropólogo Lévi Strauss, ele “morria” de ciúmes da amizade de Dina...
 tags: [links, pedagogia, antropologo]
 categories: [colecaolinks]
 layout: link
