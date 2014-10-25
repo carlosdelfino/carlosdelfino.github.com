@@ -1,3 +1,8 @@
+helloarm:
+    name: Hello Arm
+    author: carlosdelfino
+    cursos: [cursoarduino,helloarm]
+    
 pensamentos:
         name: "Pensamentos e Reflexões"
         author: carlosdelfino
