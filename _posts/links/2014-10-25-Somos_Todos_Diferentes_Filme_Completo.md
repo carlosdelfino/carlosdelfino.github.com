@@ -11,7 +11,7 @@ image:
    teaser: pensamentos/pensamento1-400x200.jpg
    feature: pensamentos/pensamento1-400x200.jpg
 imagebase: "/images/pensamentos/"
-link: "<iframe width="560" height="315" src="//www.youtube.com/embed/fiftCor2cXM" frameborder="0" allowfullscreen></iframe>"
+link: "http://www.youtube.com/embed/fiftCor2cXM"
 ---
 
 <figure>

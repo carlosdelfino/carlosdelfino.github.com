@@ -1,5 +1,5 @@
 ---
-title: Nosso Sistema de Ensino
+title: Quanto Sinto que já sei
 excerpt: Uma reflexão e proposta de percepção para um novo modelo de ensino.
 tags: [links, pedagogia, antropologo]
 categories: [colecaolinks]
