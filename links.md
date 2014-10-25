@@ -5,9 +5,8 @@ excerpt: Aqui coleciono links, sites que acho interessante, estão categorizados
 layout: archive
 share: true 
 ---
-<div class="tiles">
-{{ site.categories }}
+<div class="bullets">
 {% for post in site.categories.colecaolinks %}
    {% include link-list-bullets.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div><!-- /.bullets -->
