@@ -1,5 +1,5 @@
 ---
-title: http://www.tablesgenerator.com/markdown_tables
+title: Gerador de tabelas para Markdown
 excerpt: Gerador de tabelas para uso com Markdown e Jekyll 
 tags: [links, Tables, Tabelas, Jekyll, Markdown, GitHub]
 categories: [colecaodelinks]
