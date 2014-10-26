@@ -34,8 +34,8 @@ Abaixo apresentamos a tabela básica, que de maior interesse para uso com o Ardu
  
 Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda tabela com números décimais.
 
-|                                            Números Hexadécimais                                             |
-| :---------------------------------------------------------------------------------------------------------: |
+# Tabela indexada por números hexadecimal
+
 |      | 0x0 | 0x1 | 0x2 | 0x3 | 0x4 | 0x5 | 0x6 | 0x7 | 0x8 | 0x9 | 0xA | 0xB | 0xC | 0xD | 0xE | 0xF |      | 
 | ---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -----|
 | 0x00 | NUL | SOH | STX | ETX | EOT | ENQ | ACK | BEL | BS  | TAB | LF  | VT  | FF  | CR  | SO  | SI  | 0x0F | 
@@ -48,8 +48,8 @@ Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda t
 | 0x70 | p   | q   | r   | s   | t   | u   | v   | w   | x   | y   | z   | {   | \|  | }   | ~   |     | 0x7F |
 
 
-|                         Números Décimais                              |
-| :-------------------------------------------------------------------: |
+# Tabela indexada por números decimal
+
 |     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 000 | NUL | SOH | STX | ETX | EOT | ENQ | ACK | BEL | BS  | TAB | 009 |
