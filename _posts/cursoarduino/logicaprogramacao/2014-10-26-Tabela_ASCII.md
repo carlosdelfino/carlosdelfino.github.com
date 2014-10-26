@@ -1,6 +1,6 @@
 ---
 title: Tabela ASCII
-excerpt: A tábela ASCII
+excerpt: A tabela ASCII
 tags: [ASCII, Tabela ASCII, Arduino, Linguagem, C/C++, C, C++, Programação]
 categories: [HelloWorldArduino]
 layout: article
@@ -35,8 +35,9 @@ Abaixo apresentamos a tabela básica, que de maior interesse para uso com o Ardu
 Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda tabela com números décimais.
 
 |                                            Números Hexadécimais                                             |
-+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+------+
+| :---------------------------------------------------------------------------------------------------------: |
 |      | 0x0 | 0x1 | 0x2 | 0x3 | 0x4 | 0x5 | 0x6 | 0x7 | 0x8 | 0x9 | 0xA | 0xB | 0xC | 0xD | 0xE | 0xF |      | 
+| ---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -----|
 | 0x00 | NUL | SOH | STX | ETX | EOT | ENQ | ACK | BEL | BS  | TAB | LF  | VT  | FF  | CR  | SO  | SI  | 0x0F | 
 | 0x10 | DLE | DC1 | DC2 | DC3 | DC4 | NAK | SYN | ETB | CAN | EM  | SUB | ESC | FS  | GS  | RS  | US  | 0x1F |
 | 0x20 |     | !   | "   | #   | $   | %   | &   | '   | (   | )   | *   | +   | ,   | -   | .   | /   | 0x2F |
@@ -48,7 +49,9 @@ Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda t
 
 
 |                         Números Décimais                              |
+| :-------------------------------------------------------------------: |
 |     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 000 | NUL | SOH | STX | ETX | EOT | ENQ | ACK | BEL | BS  | TAB | 009 |
 | 010 | LF  | VT  | FF  | CR  | SO  | SI  | DLE | DC1 | DC2 | DC3 | 019 |
 | 020 | DC4 | NAK | SYN | ETB | CAN | EM  | SUB | ESC | FS  | GS  | 029 |
