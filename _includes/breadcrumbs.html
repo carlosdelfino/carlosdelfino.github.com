@@ -1,3 +1,9 @@
+{% assign categoryid = page.categories | first | cgi_escape %}
+{% assign catdetail = site.data.categories[categoryid] %} 
+
 <nav class="breadcrumbs">
-  <a href="{{ site.url }}">Home</a> <span class="divider">/</span> <a href="{{ site.url }}/{{ page.categories | first }}/">{{ page.categories | first | replace: '-',' ' | capitalize }}</a> <span class="divider">/</span>
+  <a href="{{ site.url }}">Início</a> 
+  <span class="divider">/</span> 
+  <a href="{{ site.url }}/{{ page.categories | first }}/">{% if catdetail %}{{ catdetail.name }}{% else %}{{ categoryid }}{% endif %}</a> 
+  <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
