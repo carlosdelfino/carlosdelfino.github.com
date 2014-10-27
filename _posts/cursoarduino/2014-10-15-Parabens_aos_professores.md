@@ -8,8 +8,8 @@ share: true
 toc: true
 comments: true
 image:
-   teaser:  
-   feature:  
+  teaser:  
+  feature:  
   creditlink: /sobre_min/
 imagebase: "/images/pensamentos/"
 ---
