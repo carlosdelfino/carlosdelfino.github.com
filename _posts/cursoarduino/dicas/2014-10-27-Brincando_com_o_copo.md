@@ -1,15 +1,17 @@
 ---
 title: Brincando com o Copo
-excerpt: Quem nunca, em algum momento da vida, não reuniu os amigos para tentar falar com o mundo sobrenatural? Ainda mais usando um copo?
-tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Eletrônica, Eletrônica Anlógica, Eletrônica Digital, Sobre Natural, Esperitismo, Tabua de Ouija, Ouija, Esperitos, Sparkfun, CNC]
+excerpt: "Quem nunca, em algum momento da vida, não reuniu os amigos para tentar falar com o mundo sobrenatural? Ainda mais usando um copo?"
 categories: [CursoArduino]
+tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Eletrônica, Eletrônica Anlógica, Eletrônica Digital, Sobre Natural, Esperitismo, Tabua de Ouija, Ouija, Esperitos, Sparkfun, CNC]
 layout: article
 share: true
-toc: tre 
+toc: true
 comments: true
+ads: true
 image:
   teaser: /arduino/dicas/Ouija_Board-300x150.jpg
   feature: /arduino/dicas/Ouija_Board-700x350.jpg
+imagebase: "/images/pensamentos/"
 ---
 
 Já perdi a conta quantas vezes, quando jovem, eu  me reuni com alguns colegas do DeMolay para 
