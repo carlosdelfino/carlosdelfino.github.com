@@ -1,7 +1,7 @@
 <div class="inline-btn">
 {% if page.permalink %}
 {% assign shareurl = page.permalink | replace:'index.html','' | prepend: site.url %}
-{% elsif %}
+{% else %}
 {% assign shareurl = page.url | replace:'index.html','' | prepend: site.url %}
 {% endif %}
 	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ shareurl }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a>
