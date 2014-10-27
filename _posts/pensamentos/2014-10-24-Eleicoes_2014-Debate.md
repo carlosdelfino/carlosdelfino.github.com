@@ -1,8 +1,8 @@
 ---
 title: Eleições 2014, Debates
 excerpt: 2014, realmente foi marcado talvez por uma das eleições mais assirradas que possamos ter vivido em nosso país para a escolha de nosso presidente, um personagem real que guiará nosso pais parao futuro ou para o passado figuramente falando.
-tags: [Pensamentos, Eleições 2014, Eleições, 2014, Dissimulação, Deboxe, Covardia, Falsidade, Candidato, Candidata, Dilma Rusself, Aécio Neves, Aécio, Dilma]
 categories: [Pensamentos]
+tags: [Pensamentos, Eleições 2014, Eleições, 2014, Dissimulação, Deboxe, Covardia, Falsidade, Candidato, Candidata, Dilma Rusself, Aécio Neves, Aécio, Dilma]
 layout: article
 share: true
 toc: true
