@@ -5,7 +5,7 @@ description: "Consultoria e Serviços, Desenvolvimento com Microcontroladores AV
 keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Cursos, EAD, Treinamento, Cursos
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
-locale: Belo Horizonte/MG, Brasil
+locale: pt_BR
 url: http://carlosdelfino.eti.br
 ads: true
 
@@ -31,7 +31,9 @@ facebook:
 sass:
     sass_dir: _sass
     style: compressed
+
 permalink: /:categories/:title/
+
 markdown: kramdown
 highlighter: pygments
 gems:
