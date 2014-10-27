@@ -1,5 +1,9 @@
 <div class="inline-btn">
+{% if page.permalink %}
+{% assign shareurl = page.permalink | replace:'index.html','' | prepend: site.url %}
+{% elsif %}
 {% assign shareurl = page.url | replace:'index.html','' | prepend: site.url %}
+{% endif %}
 	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ shareurl }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a>
 	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ shareurl }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
 	<a class="btn-social google-plus"  href="https://plus.google.com/share?url={{ shareurl }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i>  Google+</a>
