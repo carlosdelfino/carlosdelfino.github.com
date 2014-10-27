@@ -10,12 +10,12 @@ comments: true
 image:
   teaser: cursoarduino/cursohelloworldarduino-400x286.png
   feature: cursoarduino/cursohelloworldarduino-400x286.png
-  credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
-  creditlink: 
+  credit: Carlos Delfino 
+  creditlink: /sobre_min/
 ---
 Este curso foi elaborado de forma a atender qualquer perfil de aluno que deseja inciiar com o Arduino, é um curso flexivel que pdoe ser contratado em duas durações 8 horas ou 16 horas, conforme seu interesse em aprofundar no tema, abaixo basta clicar no botão para visualizar a ementa do curso.
 
-<a href="/helloworldarduino/EmentaCursoHelloWorldArduino/" class="btn-success">Ementa do Curso</a>
+<a href="/helloworldarduino/Ementa_Curso_Hello_World_Arduino/" class="btn-success">Ementa do Curso</a>
 
 O curso é orientado de forma a lhe suprir todo o conehcimento básico para ter sucesso com seus promeiros projetos com o Arduino, se você tem maior conhecimento em eletrônica e uma maior carência de conhecimento na linguagem de programação do Arduino, iremos focar mais em Lógica e Programação C/C++, se você tem maior conhecimento em programação, mas não conhece a arquitetura do Arduino e eletrônica envolvida no seu uso iremos dedicar maior tempo aos conceitos básicos de eletrônica e a arquitetura do Arduino.
 

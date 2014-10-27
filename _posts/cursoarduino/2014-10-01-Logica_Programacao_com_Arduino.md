@@ -10,7 +10,7 @@ comments: true
 image:
   teaser: cursoarduino/cursohelloworldarduino-400x286.png
   feature: cursoarduino/cursohelloworldarduino-400x286.png
-  credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
+  credit: Carlos Delfino 
   creditlink: 
 ---
 Aguarde em Breve mais Informações.{: .notice }

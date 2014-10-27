@@ -10,6 +10,7 @@ comments: true
 image:
    teaser:  
    feature:  
+  creditlink: /sobre_min/
 imagebase: "/images/pensamentos/"
 ---
 

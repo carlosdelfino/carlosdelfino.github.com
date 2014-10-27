@@ -10,7 +10,7 @@ comments: true
 image:
   teaser: cursoarduino/cursohellozigbee-255x180.png
   feature: cursoarduino/cursohellozigbee-400x280.png
-  credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
-  creditlink: 
+  credit: Carlos Delfino 
+  creditlink: /sobre_min/
 ---
 Aguarde em Breve mais Informações{: .notice }
