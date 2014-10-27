@@ -119,20 +119,37 @@ noload=format_h264.so
 noload=format_siren7.so
 {% endhighlight %}
 
-Como pode ser visto nos comentários, carregamos primeiro um modulo que irá cuidar da configuração, este modulo nos oferece recurso como recargar de configuração, e principalmente a possibilidade de se usar arquivos de configuração em formato texto.
+Como pode ser visto nos comentários, carregamos primeiro um modulo que irá cuidar da configuração, 
+este modulo nos oferece recurso como recargar de configuração, e principalmente a possibilidade 
+de se usar arquivos de configuração em formato texto.
 
-O módulo de configuração e carregado com a diretiva `preload` para que seja carregado com antecedência.
+O módulo de configuração e carregado com a diretiva `preload` para que seja carregado com 
+antecedência.
 
-Em seguida, carregamos módulos de aplicação e úteis ao plano de discagem, porém o que mais nos interessa e que iremos lidar mais, além do plano de discagem propriamente dito, será o módulo `res_agi.so`, este módulo é responsável pela integração com aplicações externas, funcionando como um Gateway para o Asterisk e tais aplicações, será através deste recurso que iremos ver como desenvolver scripts para se comunicar com o Arduino.
+Em seguida, carregamos módulos de aplicação e úteis ao plano de discagem, porém o que mais nos 
+interessa e que iremos lidar mais, além do plano de discagem propriamente dito, será o módulo 
+`res_agi.so`, este módulo é responsável pela integração com aplicações externas, funcionando 
+como um Gateway para o Asterisk e tais aplicações, será através deste recurso que iremos ver 
+como desenvolver scripts para se comunicar com o Arduino.
 
-Os módulos de prefixo `chan_`, criam os canais de audio e voip necessário ao funcionamento do Asterisk e todo o PBX e os módulos de prefixo `format_` carregam recursos para tratamentos dos arquivos de áudio nos formatos identificados, serão úteis para gravar e reproduzir arquivos de áudio.
+Os módulos de prefixo `chan_`, criam os canais de audio e voip necessário ao funcionamento do 
+Asterisk e todo o PBX e os módulos de prefixo `format_` carregam recursos para tratamentos dos 
+arquivos de áudio nos formatos identificados, serão úteis para gravar e reproduzir arquivos de 
+áudio.
 
-Após esta mudança precisamos reiniciar o Asterisk já que fizemos mudaças em praticamente todos os arquivos de configuração, reiniciando é mais seguro se ter o resultado desejado.
+Após esta mudança precisamos reiniciar o Asterisk já que fizemos mudaças em praticamente todos 
+os arquivos de configuração, reiniciando é mais seguro se ter o resultado desejado.
 
-Porém, ao se alterar apenas arquivos de configurações pode se usar o comando `rasterisk` que veremos a seguir.
+Porém, ao se alterar apenas arquivos de configurações pode se usar o comando `rasterisk` que 
+veremos a seguir.
 
 # Próximos Passos
-Veremos no próximo tutorial como criar nosso primeiro canal de comunicação e nossos ramais. Aguardem.
+Veremos no próximo tutorial como criar nosso primeiro canal de comunicação e nossos ramais. 
+Aguardem.
 
 ## Mais Informações:
-Outras informações sobre o Workshop podem ser obtidos [clicando aqui, visitando nossa página no facebook](https://www.facebook.com/events/1500419536839268/)
+Outras informações sobre o Workshop podem ser obtidos [clicando aqui, visitando nossa página no 
+facebook](https://www.facebook.com/events/1500419536839268/)
+
+<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />
+Curso Arduino Minas!</a>

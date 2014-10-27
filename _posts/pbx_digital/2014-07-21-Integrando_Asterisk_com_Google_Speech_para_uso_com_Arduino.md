@@ -51,3 +51,6 @@ Para trabalhar com o FLAC precisamos do conversor universal de audio o “SOX”
 Para que possamos obter os arquivos textos que serão enviados ao seu dispositivo controlado com o Arduino (ou outro controlador) precisamos de um script que será acionado pelo AGI (Asterisk Gateway Interface).
 
 O Script ira obter o audio enviado pelo ramal, e em seguida enviado ao Google Speech-to-Text que devolverá o texto interpretado, tal texto será então lido pelo Google Texto-To-Speech para confirmar a solicitação e final enviado ao Arduino.
+
+<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />
+Curso Arduino Minas!</a>
