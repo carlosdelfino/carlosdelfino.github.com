@@ -1,3 +1,16 @@
+logicadeprogramacao:
+  name: Lógica de Programação
+  aliases: [logica, programacao, logicaprogramacao]
+
+logica:
+  alias: logicadeprogramacao
+  
+programacao:
+  alias: logocadeprogramacao
+    
+logicaprogramacao:
+  alias: logocadeprogramacao
+  
 colecaodelinks:
    name: Coleção de Links
    aliases: [link,links,colecaolinks]
@@ -29,3 +42,10 @@ basicaodaeletronica:
         name: "Basicão da Eletrônica"
         author: carlosdelfino
         cursos: [cursoarduino,basicaodaeletronica]
+
+ASCII:
+  name: ASCII
+  aliases: [ascii]
+  
+ascii:
+  alias: ASCII
