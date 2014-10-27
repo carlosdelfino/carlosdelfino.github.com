@@ -82,3 +82,5 @@ Potenciometro encoder, rotatório infinito, montado como módulo<br />
 </figcaption>
 </figure>
 <a href="https://www.google.com/search?q=encoder&espv=2&biw=1280&bih=661&source=lnms&tbm=isch&sa=X&ei=oG9KVPWFPJeNNrCOgbAO&ved=0CAYQ_AUoAQ" class="btn-success">Clique aqui e veja milhares de modelos de Encoders</a>
+
+<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />Curso Arduino Minas!</a>

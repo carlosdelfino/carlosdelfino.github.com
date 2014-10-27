@@ -45,3 +45,4 @@ Na imagem abaixo pode ser visto um LCD de 2 por 16 colunas, todos os LCDs que us
 | 15  | DB6	| Data bit 6           |
 | 16  | DB7	| Data bit 7           |
 
+<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />Curso Arduino Minas!</a>
