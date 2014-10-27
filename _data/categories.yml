@@ -3,12 +3,15 @@ logicadeprogramacao:
   aliases: [logica, programacao, logicaprogramacao]
 
 logica:
+  name: Lógica
   alias: logicadeprogramacao
   
 programacao:
+  name: Programação
   alias: logocadeprogramacao
     
 logicaprogramacao:
+  name: Lógica de Programação
   alias: logocadeprogramacao
   
 colecaodelinks:
@@ -48,4 +51,5 @@ ASCII:
   aliases: [ascii]
   
 ascii:
+  name: ASCII
   alias: ASCII
