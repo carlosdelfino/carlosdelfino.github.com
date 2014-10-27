@@ -19,6 +19,7 @@ Veja no video abaixo como deve ser conectado a fiação para usar dois ou mais L
 <figcaption>Veja o video de monstração, e depois leia o texto abaixo, caso tenha dúvida use o campo abaixo de comentários.</figcaption>
 </figure>
 
+## Pinagem padrão para LCDs
 Na imagem abaixo pode ser visto um LCD de 2 por 16 colunas, todos os LCDs que usam este tipo de barramento paralelo podem ser conectados desta forma, usando apenas o `E` `Enable` para selecionar o LCD que será controlado.
 <figure>
 <img src="{{ site.url }}/images/liquidcrystal/LCD-2x16-pins.jpg" />
