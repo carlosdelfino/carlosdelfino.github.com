@@ -1,20 +1,18 @@
 ---
 layout: page
 ---
-{% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
-       <div class="wrap page-lead-content">
-             <h1>{{ page.title }}</h1>
-   {% if page.excerpt %}
-			 <h4>{{ page.except}}</h4>
-   {% endif %}
-       </div><!-- /.page-lead-content -->
-{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-    </div><!-- /.page-lead -->
-{% endif %}
+
+{% include page-lead.html %}
 
     <div id="page-wrapper">
-      {% include browser-upgrade.html %}
+{% include browser-upgrade.html %}
+
+{% unless page.image.feature %}
+			<h1>{{ page.title }}</h1>
+   {% if page.excerpt %}
+            <h4>{{ page.excerpt }}</h4>
+   {% endif %}
+{% endunless %}
 
       {{ content }}
 
