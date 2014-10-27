@@ -20,5 +20,5 @@ Veja no fly postado em nossa fan page mais detalhes sobre este tópico.
 
  Não deixe de curtir nossos posts, e compartilhar com seus amigos.
 
- <a href="/cursoarduino/Curso_Arduino_Minas/" class="btn-success">Este trabalho é mantido com os cursos <br/>oferecidos por nós no <br />Curso Arduino Minas!</a>.
+<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />Curso Arduino Minas!</a>
  
