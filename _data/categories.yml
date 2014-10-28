@@ -1,3 +1,12 @@
+musicas:
+  name: Minas Músicas Preferidas
+  image:
+    feature: musicas_filmes/mesadesom-2000x962.jpg
+    teaser: musicas_filmes/mesadesom-300x144.jpg
+ 
+filmes:
+  name: Meus Filmes Preferidos
+    
 logicadeprogramacao:
   name: Lógica de Programação
   aliases: [logica, programacao, logicaprogramacao]
