@@ -1,64 +1,64 @@
 musicas:
-  name: Minas Músicas Preferidas
-  image:
-    feature: musicas_filmes/mesadesom-2000x962.jpg
-    teaser: musicas_filmes/mesadesom-300x144.jpg
- 
+   name: Minas Músicas Preferidas
+   image:
+      feature: musicas_filmes/mesadesom-2000x962.jpg
+      teaser: musicas_filmes/mesadesom-300x144.jpg
+
 filmes:
-  name: Meus Filmes Preferidos
-    
+   name: Meus Filmes Preferidos
+
 logicadeprogramacao:
-  name: Lógica de Programação
-  aliases: [logica, programacao, logicaprogramacao]
+   name: Lógica de Programação
+   aliases: [logica, programacao, logicaprogramacao]
 
 logica:
-  name: Lógica
-  alias: logicadeprogramacao
-  
+   name: Lógica
+   alias: logicadeprogramacao
+
 programacao:
-  name: Programação
-  alias: logocadeprogramacao
-    
+   name: Programação
+   alias: logocadeprogramacao
+
 logicaprogramacao:
-  name: Lógica de Programação
-  alias: logocadeprogramacao
-  
+   name: Lógica de Programação
+   alias: logocadeprogramacao
+
 colecaodelinks:
    name: Coleção de Links
    aliases: [link,links,colecaolinks]
-   
+
 helloarm:
-    name: Hello ARM
-    author: carlosdelfino
-    cursos: [cursoarduino,helloarm]
-    
+   name: Hello ARM
+   author: carlosdelfino
+   cursos: [cursoarduino,helloarm]
+
 pensamentos:
-        name: "Pensamentos e Reflexões"
-        author: carlosdelfino
-        
+   name: "Pensamentos e Reflexões"
+   author: carlosdelfino
+
 helloworldarduino:
-  name: "Hello World Arduino"
-  author: carlosdelfino
-  cursos: [cursoarduino,helloworldarduino]
+   name: "Hello World Arduino"
+   author: carlosdelfino
+   cursos: [cursoarduino,helloworldarduino]
 
 cursoarduino:
-  name: "Curso Arduino Minas"
-  author: carlosdelfino
-  cursos: [cursoarduino]
+   name: "Curso Arduino Minas"
+   author: carlosdelfino
+   cursos: [cursoarduino]
 
 pbx_digital:
-  name: "PBX Digital (Asterisk)"
-  author: carlosdelfino
+   name: "PBX Digital (Asterisk)"
+   author: carlosdelfino
 
 basicaodaeletronica:
-        name: "Basicão da Eletrônica"
-        author: carlosdelfino
-        cursos: [cursoarduino,basicaodaeletronica]
+   name: "Basicão da Eletrônica"
+   author: carlosdelfino
+   cursos: [cursoarduino,basicaodaeletronica]
 
 ASCII:
-  name: ASCII
-  aliases: [ascii]
-  
+   name: ASCII
+   aliases: [ascii]
+
 ascii:
-  name: ASCII
-  alias: ASCII
+   name: ASCII
+   alias: ASCII
