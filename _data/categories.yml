@@ -6,7 +6,7 @@ musicas:
  
 filmes:
   name: Meus Filmes Preferidos
-    
+
 logicadeprogramacao:
   name: Lógica de Programação
   aliases: [logica, programacao, logicaprogramacao]
@@ -24,18 +24,18 @@ logicaprogramacao:
   alias: logocadeprogramacao
   
 colecaodelinks:
-   name: Coleção de Links
-   aliases: [link,links,colecaolinks]
-   
+  name: Coleção de Links
+  aliases: [link,links,colecaolinks]
+ 
 helloarm:
-    name: Hello ARM
-    author: carlosdelfino
-    cursos: [cursoarduino,helloarm]
-    
+  name: Hello ARM
+  author: carlosdelfino
+  cursos: [cursoarduino,helloarm]
+  
 pensamentos:
-        name: "Pensamentos e Reflexões"
-        author: carlosdelfino
-        
+  name: "Pensamentos e Reflexões"
+  author: carlosdelfino
+
 helloworldarduino:
   name: "Hello World Arduino"
   author: carlosdelfino
@@ -51,9 +51,9 @@ pbx_digital:
   author: carlosdelfino
 
 basicaodaeletronica:
-        name: "Basicão da Eletrônica"
-        author: carlosdelfino
-        cursos: [cursoarduino,basicaodaeletronica]
+  name: "Basicão da Eletrônica"
+  author: carlosdelfino
+  cursos: [cursoarduino,basicaodaeletronica]
 
 ASCII:
   name: ASCII
@@ -62,3 +62,4 @@ ASCII:
 ascii:
   name: ASCII
   alias: ASCII
+  
