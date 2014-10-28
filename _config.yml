@@ -10,27 +10,27 @@ url: http://carlosdelfino.eti.br
 ads: true
 
 disqus:
-    shortname: carlosdelfino
+  shortname: carlosdelfino
 
 google:
-    analytics:
-        id: UA-21710445-1
-        domain: 
-    adsense:
-        client: ca-pub-1710447158146560 
-        slot: 8511319937
-        
+  analytics:
+    id: UA-21710445-1
+    domain: 
+  adsense:
+    client: ca-pub-1710447158146560 
+    slot: 8511319937
+
 facebook:
-   appid: 351518334888083
-   uselogin: false
-   scope: [user_friends, email]
-   wellcomemsg: "Olá "
+  appid: 351518334888083
+  uselogin: false
+  scope: [user_friends, email]
+  wellcomemsg: "Olá "
 
 # Jekyll configuration
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 permalink: /:categories/:title/
 
@@ -51,7 +51,6 @@ owner:
   bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
   avatar: carlosdelfino.png 
   google:
-     plus: +CarlosDelfinoCarvalhoPinheiro
-
+    plus: +CarlosDelfinoCarvalhoPinheiro
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
