@@ -1,12 +1,16 @@
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
-{% if post.image.teaser %}
-  	<img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
-{% elsif post.image.category %}
-  {% assign categoryid = post.categories | first | cgi_escape %}
-  {% assign postcat = site.data.categories[categoryid] %}
+{% if post.image %}
+  {% if post.image.teaser %}
+    <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
+  {% elsif post.image.category %}
+    {% assign categoryid = post.categories | first | cgi_escape %}
+    {% assign postcat = site.data.categories[categoryid] %}
   	<img src="{{ site.url }}/images/{{ postcat.image.teaser }}" alt="teaser" itemprop="image" />
+    {% else %}
+    <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
+    {% endif %}	
 {% else %}
     <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
 {% endif %}

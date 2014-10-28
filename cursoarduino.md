@@ -1,5 +1,4 @@
 ---
-redirect_from: /cursoarduinominas
 permalink: /cursoarduino/
 title: Curso Arduino Minas
 excerpt: "Abaixo estão listados os cursos que ministramos, ou estamos elaborando, use o campo comentário para obter mais informações."
