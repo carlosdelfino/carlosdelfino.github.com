@@ -1,5 +1,8 @@
 # Site wide configuration
 
+safe: true
+lsi: false
+
 title: Carlos Delfino
 description: "Consultoria e Serviços, Desenvolvimento com Microcontroladores AVR, ARM e Prototipagem com Arduino"
 keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Cursos, EAD, Treinamento, Cursos
@@ -10,16 +13,16 @@ url: http://carlosdelfino.eti.br
 ads: true
 
 disqus:
-    shortname: carlosdelfino
+   shortname: carlosdelfino
 
 google:
-    analytics:
-        id: UA-21710445-1
-        domain: 
-    adsense:
-        client: ca-pub-1710447158146560 
-        slot: 8511319937
-        
+   analytics:
+      id: UA-21710445-1
+      domain: 
+   adsense:
+      client: ca-pub-1710447158146560 
+      slot: 8511319937
+
 facebook:
    appid: 351518334888083
    uselogin: false
@@ -29,8 +32,8 @@ facebook:
 # Jekyll configuration
 
 sass:
-    sass_dir: _sass
-    style: compressed
+   sass_dir: _sass
+   style: compressed
 
 permalink: /:categories/:title/
 
@@ -42,16 +45,14 @@ gems:
  - jekyll-redirect-from
  - jekyll-sitemap
 
-
 # Site owner
 owner:
-  name: Carlos Delfino
-  email: consultoria@carlosdelfino.eti.br
-  twitter: fullsrv
-  bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
-  avatar: carlosdelfino.png 
-  google:
-     plus: +CarlosDelfinoCarvalhoPinheiro
-
+   name: Carlos Delfino
+   email: consultoria@carlosdelfino.eti.br
+   twitter: fullsrv
+   bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
+   avatar: carlosdelfino.png 
+   google:
+      plus: +CarlosDelfinoCarvalhoPinheiro
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
