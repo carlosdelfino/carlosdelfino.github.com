@@ -24,10 +24,10 @@ google:
       slot: 8511319937
 
 facebook:
-   appid: 351518334888083
-   uselogin: false
-   scope: [user_friends, email]
-   wellcomemsg: "Olá "
+  appid: 351518334888083
+  uselogin: false
+  scope: [user_friends, email]
+  wellcomemsg: "Olá "
 
 # Jekyll configuration
 

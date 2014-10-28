@@ -6,7 +6,7 @@ layout: archive
 share: true 
 ---
 <div class="tiles">
-{% for tag in site.tags%}
+{% for tag in site.tags %}
    {% include tag-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
