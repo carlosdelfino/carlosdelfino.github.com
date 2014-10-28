@@ -1,9 +1,9 @@
 # Skinny Bones Gemfile
 source "https://rubygems.org"
 
+gem "rake"
 gem "jekyll"
 gem "jekyll-sitemap"
-gem "rake"
 gem "sass"
 gem "bourbon"
 gem "neat"

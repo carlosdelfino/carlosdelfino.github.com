@@ -18,9 +18,9 @@ disqus:
 google:
    analytics:
       id: UA-21710445-1
-      domain: 
+      domain:
    adsense:
-      client: ca-pub-1710447158146560 
+      client: ca-pub-1710447158146560
       slot: 8511319937
 
 facebook:
@@ -40,9 +40,6 @@ permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
 gems:
- - jekyll-mentions
- - jemoji
- - jekyll-redirect-from
  - jekyll-sitemap
 
 # Site owner
@@ -51,7 +48,7 @@ owner:
    email: consultoria@carlosdelfino.eti.br
    twitter: fullsrv
    bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
-   avatar: carlosdelfino.png 
+   avatar: carlosdelfino.png
    google:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
