@@ -1,13 +1,14 @@
 language: ruby
+
 rvm:
 - 2.1
+
 script: ./script/cibuild
 
 # branch whitelist
 branches:
   only:
-  - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+  - master
 
 env:
   global:
