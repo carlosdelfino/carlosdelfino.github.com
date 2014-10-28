@@ -41,7 +41,10 @@ markdown: kramdown
 highlighter: pygments
 gems:
  - jekyll-sitemap
-
+# - jekyll-mentions
+# - jemoji
+# - jekyll-redirect-from
+ 
 # Site owner
 owner:
    name: Carlos Delfino
