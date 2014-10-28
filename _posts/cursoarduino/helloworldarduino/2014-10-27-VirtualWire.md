@@ -82,12 +82,15 @@ ainda amplamente utilizada.
 O nome VirtualWire é bem representativo, já que se você tira os radios e liga o pino de transmissão com o pino de repeção
 você conseguirar obter o dado transmitido da mesma forma que usando os rádios, por isso o nome foi escolhido.
 
-```
+
 Arduino 1         wires         Arduino 1
+
     D11-----------------------------D12
+
     D12-----------------------------D11
+
     GND-----------------------------GND
-```    
+    
     
 ## Modulação AM
 
@@ -123,14 +126,19 @@ Vai um video so para verificar como ficou suas conexões.
 <figcaption>Video apresentando algumas informações práticas sobre o uso do módulo RF 433Mhz</figcaption>
 </figure>
 
-![Móodulos MX-FS-03V e MX-05V](/arduino/virtualwire/MX-FS-03V_MX-05V-400x190.jpg)
+<figure>
+<img src="{{ site.url }}/arduino/virtualwire/MX-FS-03V_MX-05V-400x190.jpg" />
+<figcaption>Módulos MX-FS-03V e MX-05V</figcaption>
+</figure>
 
 Na figura acima podemos ver o a esquerda o módulo receptor, e a direita o módulo transmissor.
 é importante observar que ambos funcionam adequadamente a 5V, porém o módulo transmissor pode ser alimentado
 com até 12V para aumentar sua potência de transmissão.
 
 A pinagem a ser usada segue a tabela abaixo:
+
 #### Pinagem Módulo Transmissor:
+
 Pinagem conforme a imagem acima da esquerda para a direita:
 
 | Pino | Função | Obs. |
