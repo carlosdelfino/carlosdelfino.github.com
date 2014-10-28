@@ -66,9 +66,10 @@ Os modulos SubGiga, usam a codificação [ASK](/basicaodaeletronica/Modulacao_AS
 ou seja, eles modulam a amplitude do sinal, em outras
 palavras a intensidade, conforme o nível em que se encontra a porta de dados.
 
-Portanto se for 1 é emitido sinal na frequência de 433/315Mhz, sendo zero não é emitido nenhum sinal naquela frequência, 
-e é por essa módulação/codificação que este tipo de rádio está tão sujeito a interferência, assim é preciso inserir
-uma segunda condificação sobre a codificação OOK para aumentar sua reliabilidade  
+Portanto se for nível 1 (5V) é emitido sinal na frequência de 433/315Mhz, sendo zero não é emitido nenhum 
+sinal naquela frequência, e é por essa módulação/codificação que este tipo de rádio está tão sujeito a 
+interferência, assim é preciso inserir uma segunda condificação sobre a codificação OOK para aumentar sua 
+confiabilidade.  
 
 ## Porque VirtualWire
 
@@ -81,15 +82,16 @@ ainda amplamente utilizada.
 O nome VirtualWire é bem representativo, já que se você tira os radios e liga o pino de transmissão com o pino de repeção
 você conseguirar obter o dado transmitido da mesma forma que usando os rádios, por isso o nome foi escolhido.
 
+```
 Arduino 1         wires         Arduino 1
     D11-----------------------------D12
     D12-----------------------------D11
     GND-----------------------------GND
-    
+```    
     
 ## Modulação AM
 
-Outra caracteristica muito interessante deste módulos é o fato deles poderem ser usados como transmissores de áudio
+Outra característica muito interessante deste módulos é o fato deles poderem ser usados como transmissores de áudio
 como usam a modulação por amplitude irão se comportar com um par, receptor transmissor AM, porém na faixa de 433/315Mhz.
 
 Apenas o Receptor precisará de um acoplamento para converter sua saída de 5V para um nível adequado para uso com amplificadores.
@@ -111,3 +113,54 @@ preservada.
 Vejamos abaixo um pequeno exemplo de como usar a biblioteca.  Já estarei publicando o artigo apartir daqui
 para que possam comentar e solicitar informações sobre o uso da biblioteca assim posso direcionar um pocuo 
 conforme as dúvidas apresentadas.   
+
+### Conectando os Fios
+
+Vai um video so para verificar como ficou suas conexões.
+
+<figure>
+<iframe width="560" height="315" src="//www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+<figcaption>Video apresentando algumas informações práticas sobre o uso do módulo RF 433Mhz</figcaption>
+</figure>
+
+![Móodulos MX-FS-03V e MX-05V](/arduino/virtualwire/MX-FS-03V_MX-05V-400x190.jpg)
+
+Na figura acima podemos ver o a esquerda o módulo receptor, e a direita o módulo transmissor.
+é importante observar que ambos funcionam adequadamente a 5V, porém o módulo transmissor pode ser alimentado
+com até 12V para aumentar sua potência de transmissão.
+
+A pinagem a ser usada segue a tabela abaixo:
+#### Pinagem Módulo Transmissor:
+Pinagem conforme a imagem acima da esquerda para a direita:
+
+| Pino | Função | Obs. |
+| ---- | ------ | ---- | 
+|  1   | VCC    | No transmissor pode se fornecer uma alimentação de 3,5V a 12V conforme a potência de sinal desejada. |
+|  2   | Dados  | O pino 2 e 3 são identicos fornecendo o sinal de dados |
+|  3   | Dados  | Identico ao pino 2 |
+|  4   | GND    | Deve ser conectado ao GND ou terra |
+
+#### Pinagem do Módulo Receptor 
+
+**Atenção**: O módulo receptor funciona adequadamente com 5V. Não deve ser ligado a tensões
+superiores, isso não irá melhorar seu funcionamento.
+
+| Pino | Função | Obs. |
+| ---- | ------ | ---- | 
+|  1   | Dados  | Ligar ao pino de entrada de dados que será usado no arduino. |
+|  2   | VCC    | Este pino deve ser ligado a 5V, não há melhoria na recepção em ligar em tensões mais altas |
+|  3   | GND    | GND ou Terra |
+
+#### Antena
+
+Ambos os módulos tem um ponto de solda para se conectar uma antena comum, um simples
+fio de aproximada 20cm no minimo 19cm (você pode enrola-lo em uma caneta tipo BIC para
+ficar melhor condicionado).
+
+Não entrarei em detalhes aqui sobre a confeção da antena, mas em breve irei fazer um 
+novo post sobre o tema. 
+
+
+
+
+Agora que você está com tudo conectado conforme apresentado acima
