@@ -1,4 +1,5 @@
 ---
+redirect_from: "/cursoarduinominas"
 permalink: /cursoarduino/
 title: Curso Arduino Minas
 layout: archive
