@@ -6,6 +6,8 @@ layout: article
 comments: false
 share: true
 ads: true
+image:
+  category: true
 ---
 
 <figure>
