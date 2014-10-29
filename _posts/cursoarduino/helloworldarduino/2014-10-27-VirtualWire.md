@@ -23,99 +23,116 @@ e também no site original
 O Módulo RF adequado para este uso pode ser adquirido com nosso parceiro [Arduino Omega](http://www.arduinomega.com.br)
 {: .notice-success }
 
-O módulo RF 433mHz é um modulo que atua na faixa de Rádio conhecida como SubGiga, é uma fáixa amplamente
-usada por rádio amadores e também por controle remoto, não percebemos interferencia entre os dois uso
-porque são poucos rádio amadores que utilizam tal faixa, como também a potência usada por controle
-remotos é muito baixa, por isso não é considera como uma boa opção para uso como modem via RF, mas sem 
-dúvida, é uma das opções mais baratas que temos para montar equipamentos que precisam se comunicar sem fio. 
-Ou mesmo ampliar a integração de nosso sistema desenvolvido com o Arduino e equipamentos de automação, 
-como portões eletrônicos de garagem.
+O módulo RF 433mHz é um modulo que atua na faixa de Rádio conhecida como SubGiga, 
+é uma fáixa amplamente usada por rádio amadores e também por controle remoto, não 
+percebemos interferencia entre os dois uso porque são poucos rádio amadores que 
+utilizam tal faixa, como também a potência usada por controle remotos é muito 
+baixa, por isso não é considera como uma boa opção para uso como modem via RF, mas 
+sem dúvida, é uma das opções mais baratas que temos para montar equipamentos que 
+precisam se comunicar sem fio. Ou mesmo ampliar a integração de nosso sistema 
+desenvolvido com o Arduino e equipamentos de automação, como portões eletrônicos 
+de garagem.
 
 ## A frequência é 433 ou 315Mhz?
 
-Os módulos SubGiga, irei chama-los sempre assim, podem atuar tipicamente em três frequências:
+Os módulos SubGiga, irei chama-los sempre assim, podem atuar tipicamente em três 
+frequências:
 
  * 433MHz, 
  * 315Mhz, 
  
-Isso não interfere em nada no protocolo e na forma de funcionamento, nem mesmo na velocidade de transmissão
-de dados.
+Isso não interfere em nada no protocolo e na forma de funcionamento, nem mesmo na 
+velocidade de transmissão de dados.
 
-As duas frequências 433Mhz e 315Mhz, são amplamente usadas em controle remotos para portões automáticos, e
-também para carros.
+As duas frequências 433Mhz e 315Mhz, são amplamente usadas em controle remotos 
+para portões automáticos, e também para carros.
 
-Na maioria dos módulos muda-se apenas a bobina do filtro no receptor, e o cristal resonador no transmissor.
+Na maioria dos módulos muda-se apenas a bobina do filtro no receptor, e o cristal 
+resonador no transmissor.
 
 ## Potência
 
-O mais interessante é a potência necessária para este módulo funcionar, conforme o FCC (orgão americano que 
-regula as telecomunicações), é equivalnte a 0,001% da potência de uma lampada de 25W ou seja 0,25mW, e mais
-intereesante é que apenas 0,00000002% da potência transmitida precisa chegar intacta na outra ponta para se
-atingir uma velocidade de 2000bps (2000 bauds por segundos, sendo neste caso 2000 bits por segundo).
+O mais interessante é a potência necessária para este módulo funcionar, conforme 
+o FCC (orgão americano que regula as telecomunicações), é equivalnte a 0,001% da 
+potência de uma lampada de 25W ou seja 0,25mW, e mais intereesante é que apenas 
+0,00000002% da potência transmitida precisa chegar intacta na outra ponta para se
+atingir uma velocidade de 2000bps (2000 bauds por segundos, sendo neste caso 2000 
+bits por segundo).
 
-Usando uma antena de boa qualidade a uma altura de 1,60m do chão, pode se atingir uma distância de até 1700m,
-em ambiente aberto.
+Usando uma antena de boa qualidade a uma altura de 1,60m do chão, pode se atingir 
+uma distância de até 1700m, em ambiente aberto.
 
-O que podemos considerar uma excelente velocidade além de uma incrível distância com tal potência.
+O que podemos considerar uma excelente velocidade além de uma incrível distância 
+com tal potência.
 
 ## Como os Dados são Codificados
 
-Antes de prosseguir é importante compreender alguns conceitos como a diferença em Modulação e Codificação, 
-para tanto leia o artigo [Conceitos Sobre Comunicação](/basicaodaeletronica/Conceitos_de_Comunicacao/)
+Antes de prosseguir é importante compreender alguns conceitos como a diferença em 
+Modulação e Codificação, para tanto leia o artigo [Conceitos Sobre Comunicação](/basicaodaeletronica/Conceitos_de_Comunicacao/)
 Os modulos SubGiga, usam a codificação [ASK](/basicaodaeletronica/Modulacao_ASK/)/[OOk](/basicaodaeletronica/Codificacao_OOK/) 
-ou seja, eles modulam a amplitude do sinal, em outras
-palavras a intensidade, conforme o nível em que se encontra a porta de dados.
+ou seja, eles modulam a amplitude do sinal, em outras palavras a intensidade, 
+conforme o nível em que se encontra a porta de dados.
 
-Portanto se for nível 1 (5V) é emitido sinal na frequência de 433/315Mhz, sendo zero não é emitido nenhum 
-sinal naquela frequência, e é por essa módulação/codificação que este tipo de rádio está tão sujeito a 
-interferência, assim é preciso inserir uma segunda condificação sobre a codificação OOK para aumentar sua 
-confiabilidade.  
+Portanto se for nível 1 (5V) é emitido sinal na frequência de 433/315Mhz, sendo 
+zero não é emitido nenhum sinal naquela frequência, e é por essa 
+modulação/codificação que este tipo de rádio está tão sujeito a interferência, 
+assim é preciso inserir uma segunda condificação sobre a codificação OOK para 
+aumentar sua confiabilidade.  
 
 ## Porque VirtualWire
 
-Na verdade o nome [Virtual Wire é o nome da biblioteca que foi criada para uso com este módulo por Mike McCauley](http://www.airspayce.com/mikem/arduino/VirtualWire/),
-esta biblioteca não é mais mantida, já que se tornou ultrapassada e foi substituida pela [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/),
-uma biblioteca mais robusta e com mais recursos de códificação, endereçamento e outros recursos uteis para sistemas
-de comunicação de dados via rádio, porém não iremos tratar tal biblioteca neste artigo, apenas a VirtualWire que é 
-ainda amplamente utilizada.
+Na verdade o nome [Virtual Wire é o nome da biblioteca que foi criada para uso 
+com este módulo por Mike McCauley](http://www.airspayce.com/mikem/arduino/VirtualWire/),
+esta biblioteca não é mais mantida, já que se tornou ultrapassada e foi substituida 
+pela [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/), uma biblioteca 
+mais robusta e com mais recursos de códificação, endereçamento e outros recursos 
+uteis para sistemas de comunicação de dados via rádio, porém não iremos tratar 
+tal biblioteca neste artigo, apenas a VirtualWire que é ainda amplamente utilizada.
 
-O nome VirtualWire é bem representativo, já que se você tira os radios e liga o pino de transmissão com o pino de repeção
-você conseguirar obter o dado transmitido da mesma forma que usando os rádios, por isso o nome foi escolhido.
+O nome VirtualWire é bem expressívo, já que se você tira os radios e liga o 
+pino de transmissão com o pino de repeção você conseguirar obter o dado 
+transmitido da mesma forma que usando os rádios, por isso o nome foi escolhido.
 
 
-Arduino 1         wires         Arduino 1
+Arduino 1----------wires---------Arduino 2
 
-    D11-----------------------------D12
+(RX)D11-----------------------------D12(TX)
 
-    D12-----------------------------D11
+(TX)D12-----------------------------D11(RX)
 
     GND-----------------------------GND
     
     
 ## Modulação AM
 
-Outra característica muito interessante deste módulos é o fato deles poderem ser usados como transmissores de áudio
-como usam a modulação por amplitude irão se comportar com um par, receptor transmissor AM, porém na faixa de 433/315Mhz.
+Outra característica muito interessante deste módulos é o fato deles poderem ser 
+usados como transmissores de áudio como usam a modulação por amplitude irão se 
+comportar com um par, receptor transmissor AM, porém na faixa de 433/315Mhz.
 
-Apenas o Receptor precisará de um acoplamento para converter sua saída de 5V para um nível adequado para uso com amplificadores.
+Apenas o Receptor precisará de um acoplamento para converter sua saída de 5V para 
+um nível adequado para uso com amplificadores.
 
-Eu nunca testei tal característica, mas é amplamente comentada, apesar de pouco documentada.
+Eu nunca testei tal característica, mas é amplamente comentada, apesar de pouco 
+documentada.
 
 ## Instalando a Biblioteca VirtualWire
 
-Instalar a biblioteca é muito simples, para tal é preciso baixar o arquivo de instalação da última versão que ainda 
-está disponível, [clicando aqui, esta é a versão 1.27 do site oficial](http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip), 
-algumas pessoas tem baixado a versão de Paul e Robin do site PJRC, que na verdade é a versão 1.15 da original.
+Instalar a biblioteca é muito simples, para tal é preciso baixar o arquivo de 
+instalação da última versão que ainda está disponível, [clicando aqui, esta é 
+a versão 1.27 do site oficial](http://www.airspayce.com/mikem/arduino/VirtualWire/VirtualWire-1.27.zip), 
+algumas pessoas tem baixado a versão de Paul e Robin do site PJRC, que na verdade 
+é a versão 1.15 da original.
 
-Para instalar o procedimento é padrão, basta descompactar o arquivo e copiar o diretório VirtualWire para a pasta
-"Library" do Arduino em "Meus Documentos" (caso esteja usando windows), cuide para que a estrutura de diretórios esteja
+Para instalar o procedimento é padrão, basta descompactar o arquivo e copiar o 
+diretório VirtualWire para a pasta "Library" do Arduino em "Meus Documentos" 
+(caso esteja usando windows), cuide para que a estrutura de diretórios esteja
 preservada.
 
 ## Usando a Biblioteca
 
-Vejamos abaixo um pequeno exemplo de como usar a biblioteca.  Já estarei publicando o artigo apartir daqui
-para que possam comentar e solicitar informações sobre o uso da biblioteca assim posso direcionar um pocuo 
-conforme as dúvidas apresentadas.   
+Vejamos abaixo um pequeno exemplo de como usar a biblioteca.  Já estarei publicando 
+o artigo apartir daqui para que possam comentar e solicitar informações sobre o 
+uso da biblioteca assim posso direcionar um pocuo conforme as dúvidas apresentadas.   
 
 ### Conectando os Fios
 
@@ -127,13 +144,20 @@ Vai um video so para verificar como ficou suas conexões.
 </figure>
 
 <figure>
-<img src="{{ site.url }}/arduino/virtualwire/MX-FS-03V_MX-05V-400x190.jpg" />
-<figcaption>Módulos MX-FS-03V e MX-05V</figcaption>
+<img src="{{ site.url }}/images/arduino/virtualwire/MX-FS-03V_MX-05V-400x190.jpg" />
+<figcaption>Módulos MX-FS-03V (transmisor) e MX-05V (Receptor)</figcaption>
 </figure>
 
-Na figura acima podemos ver o a esquerda o módulo receptor, e a direita o módulo transmissor.
-é importante observar que ambos funcionam adequadamente a 5V, porém o módulo transmissor pode ser alimentado
-com até 12V para aumentar sua potência de transmissão.
+Na figura acima podemos ver o a esquerda o módulo receptor, e a direita o módulo 
+transmissor. É importante observar que ambos funcionam adequadamente a 5V, porém 
+o módulo transmissor pode ser alimentado com até 12V para aumentar sua potência 
+de transmissão.
+
+**Atenção**: Nenhum dos módulos deve ter seu pino de dados conectado em pinos 
+que tenha uma maior drenagem de corrente que o próprio pino do Arduino, ou 
+seja na faixa dos uA (Micro Ampér), isso acontece porque o circuito dos 
+módulos não são capazes de fornecerem corrente suficiente para alimentar por 
+exemplo LEDs. 
 
 A pinagem a ser usada segue a tabela abaixo:
 
@@ -148,10 +172,12 @@ Pinagem conforme a imagem acima da esquerda para a direita:
 |  3   | Dados  | Identico ao pino 2 |
 |  4   | GND    | Deve ser conectado ao GND ou terra |
 
+O Transmissor deve estar conectado ao pino 11, veremos mais detalhes sobre isso na analise do código.
+
 #### Pinagem do Módulo Receptor 
 
-**Atenção**: O módulo receptor funciona adequadamente com 5V. Não deve ser ligado a tensões
-superiores, isso não irá melhorar seu funcionamento.
+**Atenção**: O módulo receptor funciona adequadamente com 5V. Não deve ser ligado 
+a tensões superiores, isso não irá melhorar seu funcionamento.
 
 | Pino | Função | Obs. |
 | ---- | ------ | ---- | 
@@ -159,16 +185,36 @@ superiores, isso não irá melhorar seu funcionamento.
 |  2   | VCC    | Este pino deve ser ligado a 5V, não há melhoria na recepção em ligar em tensões mais altas |
 |  3   | GND    | GND ou Terra |
 
+Já o Receptor deve estar conectado ao pino 12, veremos mais detalhes sobre isso na analise do código.
+
+#### Porque usar o pino 11 e 12?
+
+#### Alguns cuidados com a Biblioteca
+
+Como esta biblioteca usa os pinos `11` e `12`, e também usa o `Timer 1`, ela pode sofrer ou causar interferências com
+outras bibliotecas.
+
+Observe que os pinos 11 e 12 no Arduino Uno São compartilhados com o conector ICSP, usado no protocolo ISP, isso 
+pode conflitar com shields que tem SDCard entre outros.
+
+Fique atento a tal fato, e não se esqueça de verificar se outras bibliotecas não estão usando o `Timer 1`.
+
+Já o Arduino Mega não há conflitos nestes dois pinos, já que os equivalentes do ICSP estão nos pinos 52 e 50.
+
 #### Antena
 
-Ambos os módulos tem um ponto de solda para se conectar uma antena comum, um simples
-fio de aproximada 20cm no minimo 19cm (você pode enrola-lo em uma caneta tipo BIC para
-ficar melhor condicionado).
+Ambos os módulos tem um ponto de solda para se conectar uma antena comum, um 
+simples fio de aproximada 20cm no minimo 19cm (você pode enrola-lo em uma caneta
+tipo BIC para ficar melhor condicionado).
 
 Não entrarei em detalhes aqui sobre a confeção da antena, mas em breve irei fazer um 
 novo post sobre o tema. 
 
+#### O Código
 
+Agora que você está com tudo conectado conforme apresentado acima, vamos analisar 
+como usar o código da biblioteca VirtualWire.
 
-
-Agora que você está com tudo conectado conforme apresentado acima
+Iremos usar os dois exemplos que acompanha o código para analisar o funcionamento do
+código e as melhores formas de usar a biblioteca.
+ 
