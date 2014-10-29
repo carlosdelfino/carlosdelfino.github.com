@@ -2,7 +2,7 @@
 title: Virtual Wire
 excerpt: "Virtual Wire é uma biblioteca simples que usam o modulo 433/315Mhz (modulos subgiga), para criar um link de dados entre dois microcontroladores, e apesar de obsoleta ainda é uma das melhores escolha para projetos domésticos ou meso de pequeno porte."
 categories: [HelloWorldArduino]
-tags: [Arduino, Arduino Uno, Arduino Mega, Arduino Due, Arduino Leonardo, Virtual Wire, SubGiga]
+tags: [Arduino, Arduino Uno, Arduino Mega, Arduino Due, Arduino Leonardo, Virtual Wire, SubGiga, PLL, codificação, decodificação, manchester, OOK, ASK]
 layout: article
 share: true
 toc: true
@@ -172,7 +172,8 @@ Pinagem conforme a imagem acima da esquerda para a direita:
 |  3   | Dados  | Identico ao pino 2 |
 |  4   | GND    | Deve ser conectado ao GND ou terra |
 
-O Transmissor deve estar conectado ao pino 11, veremos mais detalhes sobre isso na analise do código.
+O Transmissor deve estar conectado ao pino 11, veremos mais detalhes sobre isso 
+na analise do código.
 
 #### Pinagem do Módulo Receptor 
 
@@ -185,21 +186,29 @@ a tensões superiores, isso não irá melhorar seu funcionamento.
 |  2   | VCC    | Este pino deve ser ligado a 5V, não há melhoria na recepção em ligar em tensões mais altas |
 |  3   | GND    | GND ou Terra |
 
-Já o Receptor deve estar conectado ao pino 12, veremos mais detalhes sobre isso na analise do código.
+Já o Receptor deve estar conectado ao pino 12, veremos mais detalhes sobre 
+isso na analise do código.
 
 #### Porque usar o pino 11 e 12?
 
 #### Alguns cuidados com a Biblioteca
 
-Como esta biblioteca usa os pinos `11` e `12`, e também usa o `Timer 1`, ela pode sofrer ou causar interferências com
+Como esta biblioteca usa os pinos `11` e `12`, e também usa o `Timer 1`, ela 
+pode sofrer ou causar interferências com
 outras bibliotecas.
 
-Observe que os pinos 11 e 12 no Arduino Uno São compartilhados com o conector ICSP, usado no protocolo ISP, isso 
-pode conflitar com shields que tem SDCard entre outros.
+<figure><img src="{{ site.url }}/images/arduino/arduino_uno_schema_icsp-500x350.gif"/>
+<figcaption>Esquema dos pinos ICSP e como são compartilhados com os demais pinos</figcaption>
+</figure>
+Observe que os pinos 11 e 12 no Arduino Uno São compartilhados com o conector 
+ICSP, usado no protocolo ISP, isso pode conflitar com shields que tem SDCard 
+entre outros.
 
-Fique atento a tal fato, e não se esqueça de verificar se outras bibliotecas não estão usando o `Timer 1`.
+Fique atento a tal fato, e não se esqueça de verificar se outras bibliotecas 
+não estão usando o `Timer 1`.
 
-Já o Arduino Mega não há conflitos nestes dois pinos, já que os equivalentes do ICSP estão nos pinos 52 e 50.
+Já o Arduino Mega não há conflitos nestes dois pinos, já que os equivalentes 
+do ICSP estão nos pinos 52 e 50.
 
 #### Antena
 
@@ -210,11 +219,161 @@ tipo BIC para ficar melhor condicionado).
 Não entrarei em detalhes aqui sobre a confeção da antena, mas em breve irei fazer um 
 novo post sobre o tema. 
 
-#### O Código
+### O Código
 
 Agora que você está com tudo conectado conforme apresentado acima, vamos analisar 
 como usar o código da biblioteca VirtualWire.
 
 Iremos usar os dois exemplos que acompanha o código para analisar o funcionamento do
 código e as melhores formas de usar a biblioteca.
- 
+
+A biblioteca utiliza diversas funções separadas para preparar o ambiente, uma vez
+que é precisar usar  interrupções como a do Timer 1 para gerir alguns processos
+não é muito adequado o uso de classes, apesar de não ser impossível, portanto os
+desenvolvedores optarem em usar C puro ao invez de C++.
+
+#### O Código do transmissor
+
+Veja o código abaixo usado para o transmissor:
+
+{% highlight c lineos %}
+
+#include <VirtualWire.h>
+
+void setup()
+{
+    Serial.begin(9600);	  // Debugging only
+    Serial.println("setup");
+
+    // Initialise the IO and ISR
+    vw_set_ptt_inverted(true); // Required for DR3100
+    vw_setup(2000);	 // Bits per sec
+}
+
+void loop()
+{
+    const char *msg = "hello";
+
+    digitalWrite(13, true); // Flash a light to show transmitting
+    vw_send((uint8_t *)msg, strlen(msg));
+    vw_wait_tx(); // Wait until the whole message is gone
+    digitalWrite(13, false);
+    delay(200);
+}
+
+{% endhighlight %}
+
+Inicialmente você deve incluir o cabeçalho da biblioteca com a diretiva `#include <VirtualWire.h>`.
+
+Em seguida na função `setup()` você deve definir como irá funcionar o controle de 
+portadora, `ptt`, que significa _Press-to-Talk_ é um termo usado no rádio amador 
+para ativar a portadora que será modulada, representando a chave do microfone, 
+que é precionado na hora de falar. Como o rádio usa a mesma faixa de frequência 
+e canal (subfaixa) para enviar e receber, quando se usa dois pares de transmissores 
+e receptores, criando uma comunicação bi-direcional. Este módulo funciona exatamente 
+como o rádio amador.
+
+Bem, estes módulos não possuem o recurso de PTT, porém podemos simular sua presença, 
+ativando ou desativando a alimentação do transmissor, mas lembre-se não conecte o 
+transmissor diretamente a porta do arduino, use um transitor como driver. 
+
+Neste exemplo a função `vw_set_ptt_inverted(true)`está indicando a lógica inversa
+para ativar ou não o `PTT`, ou seja quando *alto* está desativado, quando *baixo* 
+está ativo.
+
+E finalmente, finalizando o processo de setup `setup()` é preciso definir a 
+velocidade que se deseja transmitir o bits, no caso foi definida  como sendo
+2kbs (dois mil bits por segundo), veja não se faz referência a *bauds* já que 
+não há uma codificação complexa.
+
+No `loop()` foi sugerido uma mensagem de teste __"hello"__, apenas para 
+demonstrar o envio de uma string, iremos discutir mais a baixo o envio de 
+comandos numéricos. Essa string é armazenada em um array de chars, apesar
+do formato pouco típico no Arduino o produto é o mesmo, um `ponteiro` do típo
+`char` ou um array de chars.
+
+Neste exemplo LED do pino 13 é usado para sinalizar o tempo gasto para
+envio da mensagem. Então ele é ativado.
+
+E finalmente com a função `vw_send(uint8_t*,uint8_t)` é usada para enviar a 
+sequência de dados.
+
+Veja `uint8_t` é um tipo de dados primítivo do C que representa um byte sem
+representação de sinal, neste caso pode ser um `char` (sem sinal), ou mesmo
+o tipo `byte` (sem sinal).
+
+Portanto, qualquer informação composta por bytes, pode ser enviada por esta
+função, veremos mais baixo na seção [Enviando comandos números](#toc17), formas
+diferentes de enviar dados.
+
+E para garantir a transmissão a função `vw_wait_tx()` é chamada, essa função tem
+o mesmo comportamento que a função `flush()` da porta serial, ela apenas esqera
+que todos os dados sejam transmitidos, dando continuidade então ao código.
+
+Como a biblioteca VirtualWire usa o Timer1 para gererir a sinalização e a amplitude
+do sinal a ser enviado, outros processos podem ser executados normalmente, sem 
+que seja preciso aguardar o total envio dos dados, porém é sempre bom chamar
+a função `vw_wait_tx()` para que se faça um ponto de sincronismo e se certifique
+que todo os dados foram enviados.
+
+E fechando o loop o LED 13 é desativado e se aguarda com um delay de 200ms a próxima
+interação.
+
+#### O Código do receptor
+
+O código do receptor e tão simples quando do transmissor, no processo de `setup()`
+deve se observar apenas que para receber dados é preciso abilitar o receptor 
+chamando a função `vw_rx_start()`, esta função ativa o receptor e o PLL por 
+software para decodificação dos dados enviados. 
+
+{% highlight c lineos %}
+#include <VirtualWire.h>
+
+void setup()
+{
+    Serial.begin(9600);	// Debugging only
+    Serial.println("setup");
+
+    vw_set_ptt_inverted(true); // Required for DR3100
+    vw_setup(2000);	 // Bits per sec
+
+    vw_rx_start();       // Start the receiver PLL running
+}
+
+void loop()
+{
+    uint8_t buf[VW_MAX_MESSAGE_LEN];
+    uint8_t buflen = VW_MAX_MESSAGE_LEN;
+
+    if (vw_get_message(buf, &buflen)) // Non-blocking
+    {
+	int i;
+
+        digitalWrite(13, true); // Flash a light to show received good message
+	// Message with a good checksum received, dump it.
+	Serial.print("Got: ");
+	
+	for (i = 0; i < buflen; i++)
+	{
+	    Serial.print(buf[i], HEX);
+	    Serial.print(" ");
+	}
+	Serial.println("");
+        digitalWrite(13, false);
+    }
+}
+{% endhighlight %}
+
+### Mudando os pinos de dados Transmissor/Receptor
+
+// Set the output pin number for transmitter data
+void vw_set_tx_pin(uint8_t pin)
+
+// Set the pin number for input receiver data
+void vw_set_rx_pin(uint8_t pin)
+
+// Set the output pin number for transmitter PTT enable
+void vw_set_ptt_pin(uint8_t pin)
+
+
+### Enviando comandos numéricos.  
