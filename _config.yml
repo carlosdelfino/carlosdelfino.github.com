@@ -42,7 +42,7 @@ markdown: kramdown
 highlighter: pygments
 gems:
  - jekyll-sitemap
- - jekyll-redirect-from
+# - jekyll-redirect-from
 # - jekyll-mentions
 # - jemoji
  
