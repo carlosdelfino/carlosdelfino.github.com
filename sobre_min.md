@@ -1,5 +1,5 @@
 ---
-redirect_from: /Carlos_Delfino_-_Consultoria_e_Projetos/Sobre_mim.html
+redirect_from: "/Carlos_Delfino_-_Consultoria_e_Projetos/Sobre_mim.html"
 permalink: /sobre_mim/
 title: Sobre Carlos Delfino e Formas de Contato 
 layout: default

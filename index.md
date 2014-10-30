@@ -1,5 +1,5 @@
 ---
-redirect_from: /Carlos_Delfino_-_Consultoria_e_Projetos
+redirect_from: "/Carlos_Delfino_-_Consultoria_e_Projetos/"
 layout: home
 permalink: /
 excerpt: Seja Bem-Vindo ao nosso site, Dicas, Macetes, Artigos sobre microcontroladores AVR, ARM e Arduino, Programação em Java e PHP para Web Sistem distribuidos. Consultoria em Joomla e Moodle.
