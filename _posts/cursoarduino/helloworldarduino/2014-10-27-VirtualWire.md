@@ -35,8 +35,8 @@ de garagem.
 
 ## A frequência é 433 ou 315Mhz?
 
-Os módulos SubGiga, irei chama-los sempre assim, podem atuar tipicamente em três 
-frequências:
+Os módulos SubGiga, irei chama-los sempre assim, podem atuar tipicamente em duas 
+frequências abaixo da faixa de 1Ghz:
 
  * 433MHz, 
  * 315Mhz, 
@@ -189,19 +189,17 @@ a tensões superiores, isso não irá melhorar seu funcionamento.
 Já o Receptor deve estar conectado ao pino 12, veremos mais detalhes sobre 
 isso na analise do código.
 
-#### Porque usar o pino 11 e 12?
-
 #### Alguns cuidados com a Biblioteca
 
-Como esta biblioteca usa os pinos `11` e `12`, e também usa o `Timer 1`, ela 
-pode sofrer ou causar interferências com
-outras bibliotecas.
+Como esta biblioteca usa os pinos `11` e `12` (veremos mais a frente como mudar 
+os pinos), e também usa o `Timer 1`, ela pode sofrer ou causar interferências 
+com outras bibliotecas.
 
 <figure><img src="{{ site.url }}/images/arduino/arduino_uno_schema_icsp-500x350.gif"/>
 <figcaption>Esquema dos pinos ICSP e como são compartilhados com os demais pinos</figcaption>
 </figure>
-Observe que os pinos 11 e 12 no Arduino Uno São compartilhados com o conector 
-ICSP, usado no protocolo ISP, isso pode conflitar com shields que tem SDCard 
+Observe que os pinos 11 e 12 no Arduino Uno são compartilhados com o conector 
+ICSP, usado no protocolo SPI, isso pode conflitar com shields que tem SDCard 
 entre outros.
 
 Fique atento a tal fato, e não se esqueça de verificar se outras bibliotecas 
@@ -377,3 +375,20 @@ void vw_set_ptt_pin(uint8_t pin)
 
 
 ### Enviando comandos numéricos.  
+
+Como a função `vw_send()` foi escrita para enviar um array de uint8_t o envio de comandos
+numéricos se faz muito simples, bastando para tanto estabelecer o tamanho do comando em
+bytes e informar o ponteiro para a variável que se deseja obter a sequência de bytes.
+
+Sendo a variável apenas um byte, bastará apenas passar a posição desta variável e o tamanho
+como sendo um veja abaixo:
+
+{% highlight c lineos %}
+byte uma = 22;
+vw_send((uint8_t *)&uma,1);
+{% endhighlight %}
+
+Veja que é importante sempre usar tipos equivalentes e facilmente convertidos em uint8_t.
+ou seja, `char`, `int`, `byte` para o Arduino UNO ou Arduino Mega **(é prciso muito 
+cuidado ao usar o Arduino DUE já que um `int` no arduino DUE, é uint32_t/int32_t, ou 
+seja ocupa 4 bytes), veja [mais informações sobre tipos de dados no Arduino, clicando aqui](/helloworldarduino/tipos_de_dados/)
