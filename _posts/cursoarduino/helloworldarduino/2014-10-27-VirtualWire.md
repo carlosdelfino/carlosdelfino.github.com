@@ -362,16 +362,39 @@ void loop()
 }
 {% endhighlight %}
 
+No código para o receptor você deve sempre estar aguardando uma nova mensagem, 
+veja que a função `vw_get_message()` usada neste exemplo não bloqueia o código, 
+ela verifica se há alguma mensagem disponível que seja válida, retornando verdadeiro
+e gravando a mensagem no buffer, caso volte com falso, ela não interfere no conteúdo 
+da variável 'buf', veja que esta variável deve ser um array, e deve ser capaz de 
+receber a messagem do tamanho que se espera, caso contrário o excedente será descartado.
+
+Se a mensagem recebida for menor do que a esperada, será retornado apenas o que 
+foi recebido.
+
+**Atenção**: você deve passar um ponteiro para o comprimento da mensagem também
+assim vw_get_message() irá atualizar a variável que contem o comprimento da mensagem
+esperada pelo comprimento da mensagem recebida.
+
+
 ### Mudando os pinos de dados Transmissor/Receptor
 
-// Set the output pin number for transmitter data
-void vw_set_tx_pin(uint8_t pin)
+Baixo estão algumas funções que podem usar para mudar os pinos de controle e 
+dados da biblioteca.
 
-// Set the pin number for input receiver data
-void vw_set_rx_pin(uint8_t pin)
+Veja que isso deve ser feito na função `setup()`e antes de chamar a função `vw_setup()`. 
 
-// Set the output pin number for transmitter PTT enable
-void vw_set_ptt_pin(uint8_t pin)
+#### Setando novo pino para o TX
+`void vw_set_tx_pin(uint8_t pin)` deve ser usada para mudar o pino de transmissão 
+ligado ao módulo transmissor, você pode usar qualquer pino livre do arduino.
+
+#### Setando novo pino para o RX
+`void vw_set_rx_pin(uint8_t pin)`  deve ser usada para mudar o pino de receptor 
+ligado ao módulo receptor, você pode usar qualquer pino livre do arduino.
+
+#### Setando novo pino para o PTT
+`void vw_set_ptt_pin(uint8_t pin)`  deve ser usada para mudar o pino de controle
+do **PTT**, para qualquer um dos módulos, você pode usar qualquer pino livre do arduino.
 
 
 ### Enviando comandos numéricos.  
@@ -391,4 +414,15 @@ vw_send((uint8_t *)&uma,1);
 Veja que é importante sempre usar tipos equivalentes e facilmente convertidos em uint8_t.
 ou seja, `char`, `int`, `byte` para o Arduino UNO ou Arduino Mega **(é prciso muito 
 cuidado ao usar o Arduino DUE já que um `int` no arduino DUE, é uint32_t/int32_t, ou 
-seja ocupa 4 bytes), veja [mais informações sobre tipos de dados no Arduino, clicando aqui](/helloworldarduino/tipos_de_dados/)
+seja ocupa 4 bytes)**, veja [mais informações sobre tipos de dados no Arduino, clicando aqui](/helloworldarduino/tipos_de_dados/)
+
+Já no lado do receptor basta esperar uma mensagem de apenas um byte:
+
+{% highlight c lineos %}
+uint8_t buf[1];
+uint8_t buflen = 1;
+if (vw_get_message(buf, &buflen)) // Non-blocking
+{
+...
+}
+{% endhiglight %}
