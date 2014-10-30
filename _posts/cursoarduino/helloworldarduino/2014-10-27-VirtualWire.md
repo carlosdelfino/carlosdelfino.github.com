@@ -425,4 +425,4 @@ if (vw_get_message(buf, &buflen)) // Non-blocking
 {
 ...
 }
-{% endhiglight %}
+{% endhighlight %}
