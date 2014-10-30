@@ -27,10 +27,10 @@ capítulos, o primeiro capítulo será apresentação dos conceitos básicos com
 práticas simples, e no segundo módulo serão apresentados conceitos mais 
 avançados e aluno será desafiado e criar códigos mais complexos e inteligentes.
 
-<center>
-Em planejamento
+<center>Em planejamento</center>
 {: .notice-warning }
-</center>
+
+
 #### Capítulo 1
  * Conceitos básicos de programação C/C++ 
  * Visibilidade de Variáveis, Funções e Macros
