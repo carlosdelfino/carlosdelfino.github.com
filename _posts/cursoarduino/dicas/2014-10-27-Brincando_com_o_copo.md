@@ -1,7 +1,8 @@
 ---
+redirect_from: "/cursoarduino/Brincando_com_o_copo/"
 title: Brincando com o Copo
 excerpt: "Quem nunca, em algum momento da vida, não reuniu os amigos para tentar falar com o mundo sobrenatural? Ainda mais usando um copo?"
-categories: [CursoArduino]
+categories: [Arduino,Dicas]
 tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Eletrônica, Eletrônica Anlógica, Eletrônica Digital, Sobre Natural, Esperitismo, Tabua de Ouija, Ouija, Esperitos, Sparkfun, CNC]
 layout: article
 share: true
