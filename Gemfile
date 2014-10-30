@@ -2,6 +2,8 @@
 source "https://rubygems.org"
 
 gem "rake"
+gem 'github-pages'
+gem 'jekyll-redirect-from'
 gem "jekyll"
 gem "jekyll-sitemap"
 gem "sass"
