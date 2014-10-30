@@ -8,8 +8,8 @@ comment: true
 share: true
 ads: true
 image:
-   teaser: /basicaodaeletronica/jumpers-800x450.jpg
-   feature: /basicaodaeletronica/jumpers-300x200.jpg
+   feature: /basicaodaeletronica/jumpers-900x500.jpg
+   teaser: /basicaodaeletronica/jumpers-300x200.jpg
 ---
 
 Tome cuidado com esta prática, já que além de ferro quente que pode lhe queimar
