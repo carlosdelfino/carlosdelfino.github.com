@@ -1,3 +1,13 @@
+com%C3%A9rcioexterior:
+        name: "Comercio Exterior"
+c%2B%2B:
+        name: "C++"
+
+codifica%C3%A7%C3%A3o:
+        name: "Codificação"
+decodifica%C3%A7%C3%A3o:
+        name: "Decodificação"
+
 ag%C3%AAncia:
         name: "Agência"
 
@@ -12,11 +22,11 @@ inova%C3%A7%C3%A3o:
 
 reflex%C3%A3o:
         name: "Reflexão"
-        
+
 ci%C3%AAncias:
         name: "Ciências"
 
-visor: 
+visor:
         name: "Visor"
 
 eletr%C3%B4nica:
@@ -28,10 +38,10 @@ arduinomega:
 arduinouno:
         name: "Arduino Uno"
 
-arduinodue: 
+arduinodue:
         name: "Arduino Due"
 
-eletr%C3%B4nicaanl%C3%B3gica: 
+eletr%C3%B4nicaanl%C3%B3gica:
         name: "Eletrônica Analógica"
 
 eletr%C3%B4nicadigital:
@@ -60,5 +70,5 @@ cursoarduino:
 caracteristicast%C3%A9nicas:
         name: "Caracteristicas Técnicas"
 
-liquidcrystal: 
+liquidcrystal:
         name: "Liquid Crystal"
