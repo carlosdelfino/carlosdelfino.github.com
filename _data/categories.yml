@@ -28,9 +28,14 @@ colecaodelinks:
    aliases: [link,links,colecaolinks]
 
 helloarm:
-   name: Hello ARM
+   name: Hello World ARM
+   alias: helloworldarm
+
+helloworldarm:
+   name: Hello World ARM
    author: carlosdelfino
-   cursos: [cursoarduino,helloarm]
+   cursos: [cursoarduino,helloworldarm]
+   aliases: [heloarm]
 
 pensamentos:
    name: "Pensamentos e Reflexões"

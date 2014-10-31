@@ -1,18 +1,19 @@
 ---
+redirect_from: "/helloarm/Reativando-Ambiente-Desenvolvimento-ARM/"
 title: Reativando meu Ambiente de desenvolvimento ARM
 excerpt: A algum tempo tenho desejado trabalhar com microcontroladores mais complexos e avançados, além do AVR, não que o AVR não seja avançado, mas o ARM tem um atraivo muito grande por sua grande gama de fabricantes e opções existentes no mercado.
 tags: [ARM, AVR, Plataforma de Desenvolvimento, Eclipse, IDE, CMSIS, AAME]
-categories: [HelloARM]
+categories: [HelloWorldARM]
 layout: article
 share: true
 toc: true
 comments: true
 image:
-  teaser: helloarm/arduinoduer3-258x255.png
-  feature: helloarm/arduinoduer3-600x427.png
+  teaser: helloworldarm/arduinoduer3-258x255.png
+  feature: helloworldarm/arduinoduer3-600x427.png
   credit: 
   creditlink: 
-imagebase: "/images/helloarm/"
+imagebase: "/images/helloworldarm/"
 google:
   plusone: true
 ---
