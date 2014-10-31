@@ -16,6 +16,7 @@ image:
 imagebase: "/images/helloworldarm/"
 google:
   plusone: true
+  ads: true
 ---
 O meu primeiro encontro com a Arquitetura ARM, verdadeiramente, não como usuário mas como desenvolvedor
 foi em um RoadShow da ATMel, fui a campinas especialmenete para poder conhecer de perto a empresa
