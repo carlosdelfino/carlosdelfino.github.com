@@ -2,10 +2,12 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem 'github-pages'
-gem 'jekyll-redirect-from'
 gem "jekyll"
+gem 'jekyll-redirect-from'
 gem "jekyll-sitemap"
+gem "jekyll-mentions"
+gem "jemoji"
+#gem 'github-pages'
 gem "sass"
 gem "bourbon"
 gem "neat"
