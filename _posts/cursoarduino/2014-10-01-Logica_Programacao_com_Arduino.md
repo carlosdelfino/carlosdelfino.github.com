@@ -13,7 +13,9 @@ image:
   credit: Carlos Delfino 
   creditlink: 
 ---
-Aguarde em Breve mais Informações.{: .notice }
+
+Aguarde em Breve mais Informações.
+{: .notice }
 
 <a href="/logicaprogramacao/Ementa_do_Curso_Logica_Programacao_com_Arduino/" class="btn-success">Ementa do Curso</a>
 
