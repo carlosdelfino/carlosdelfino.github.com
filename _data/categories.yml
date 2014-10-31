@@ -35,7 +35,12 @@ helloworldarm:
    name: Hello World ARM
    author: carlosdelfino
    cursos: [cursoarduino,helloworldarm]
-   aliases: [heloarm]
+   aliases: [helloarm]
+   image:
+      teaser: helloworldarm/SAM4SxPlained-255x180.png
+      feature: helloworldarm/SAM4SxPlained-400x280.jpg
+      credit: Carlos Delfino 
+      creditlink: /sobre_min/
 
 pensamentos:
    name: "Pensamentos e Reflexões"

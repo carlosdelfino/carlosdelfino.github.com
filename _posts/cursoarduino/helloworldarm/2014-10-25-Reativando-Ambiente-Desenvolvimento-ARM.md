@@ -9,10 +9,10 @@ share: true
 toc: true
 comments: true
 image:
-  teaser: helloworldarm/arduinoduer3-258x255.png
-  feature: helloworldarm/arduinoduer3-600x427.png
-  credit: 
-  creditlink: 
+  teaser: helloworldarm/SAM4SxPlained-255x180.png
+  feature: helloworldarm/SAM4SxPlained-400x280.jpg
+  credit: Carlos Delfino 
+  creditlink: /sobre_min/
 imagebase: "/images/helloworldarm/"
 google:
   plusone: true
