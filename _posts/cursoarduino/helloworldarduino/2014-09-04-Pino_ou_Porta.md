@@ -3,6 +3,7 @@ title: Pino ou Porta
 excerpt: Muitas vezes falamos que ativamos ou desativamos uma porta no Arduino, mas como é o certo dizer? pino ou porta?
 categories: [HelloWorldArduino]
 tags: [Arduino, UNO, MEGA, Leonardo, DUE, AVR, ARM, pino, porta, recurso, grupo]
+layout: article
 comments: true
 share: true
 ads: true
