@@ -8,6 +8,11 @@ layout: link
 share: true
 toc: true
 comments: true
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 image:
   teaser:  
   feature:  
