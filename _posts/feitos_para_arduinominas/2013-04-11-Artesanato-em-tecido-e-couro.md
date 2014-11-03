@@ -9,6 +9,9 @@ share: true
 toc: true
 ads:
  show: true
+feature:
+ index: true
+ category: true
 ---
 
 <div class="imageBox" id="left">
