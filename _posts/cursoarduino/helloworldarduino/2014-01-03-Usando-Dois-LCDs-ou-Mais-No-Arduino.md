@@ -6,6 +6,8 @@ layout: article
 comments: true
 toc: true
 share: true
+ads: 
+ show: true
 image:
   teaser: liquidcrystal/16X2_Character_LCD_Module_STN_Yellow_Green_L-400x187.png
   feature: liquidcrystal/16X2_Character_LCD_Module_STN_Yellow_Green_L-600x280.jpg
