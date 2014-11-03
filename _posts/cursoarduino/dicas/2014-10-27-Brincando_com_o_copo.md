@@ -30,6 +30,9 @@ tabua usando apenas um arduino.
 Eu já estou cheio de ideias aqui, como incrementar e dar mais inteligência a brincadeira, aproveitando
 da interação para tornar tudo mais real. 
 
+
+<a href="/cursoarduino/" class="btn-success">Este site e seus artigos são mantidos com os cursos oferecidos no <br />Curso Arduino Minas!</a>
+
 <figure><iframe width="560" height="315" src="//www.youtube.com/embed/4B7OTyLYf70" frameborder="0" allowfullscreen></iframe>
 <figcaption>Veja o video e aprenda como é facil fazer uma Tabua de Ourija, a tábua do copo.</figcaption>
 </figure>
@@ -50,4 +53,4 @@ o que se pode mexer, mas lembrem-se respeitar os mortos e os seres de Deus como 
 é o nosso dever, e não somos nada, não desafie nunca o mundo espiritual, mesmo não acreditando que ele
 exista.
 
-<a href="/cursoarduino/" class="btn-success">Este trabalho é mantido com os cursos oferecidos no <br />Curso Arduino Minas!</a>
+<a href="/cursoarduino/" class="btn-success">Este site e seus artigos são mantidos com os cursos oferecidos no <br />Curso Arduino Minas!</a>
