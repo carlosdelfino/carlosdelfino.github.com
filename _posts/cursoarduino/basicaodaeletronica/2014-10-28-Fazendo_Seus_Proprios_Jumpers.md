@@ -6,7 +6,11 @@ layout: article
 tags: [jumpers, conexões, eletrônica básica, estilete, protoboard, breadboard, circuitos, protótipos]
 comment: true
 share: true
-ads: true
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 image:
    feature: /basicaodaeletronica/jumpers-900x500.jpg
    teaser: /basicaodaeletronica/jumpers-300x200.jpg

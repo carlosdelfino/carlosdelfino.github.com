@@ -6,7 +6,11 @@ layout: article
 tags: [modulacao, codificacao, fsk, ask, ook, am, fm, subgiga, decodificacao]
 share: true
 comments: true
-ads: true
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 toc: true
 ---
 

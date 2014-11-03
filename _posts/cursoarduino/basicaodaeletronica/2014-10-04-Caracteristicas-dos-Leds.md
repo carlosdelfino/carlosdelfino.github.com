@@ -7,11 +7,11 @@ layout: article
 share: true
 toc: true
 comments: true
-image:
-  teaser: 
-  feature: 
-  credit: 
-  creditlink: 
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 ---
 A figura abaixo foi postada no facebook na página [http://facebook.com/BasicaoDaEletronica](http://facebook.com/BasicaoDaEletronica/) 
 
