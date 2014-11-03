@@ -5,7 +5,10 @@ categories: [dicas,grupos]
 layout: article
 tags: [Comunidades, Grupos, Facebook, Google, Google Groups, Troca de Conhecimento, informação, Networking]
 comments: true
-ads:
+feature:
+ index: true
+ category: true
+ads: 
  show: true
 share: true
 image: 

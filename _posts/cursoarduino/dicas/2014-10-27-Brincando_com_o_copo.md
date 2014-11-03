@@ -8,7 +8,10 @@ layout: article
 share: true
 toc: true
 comments: true
-ads:
+feature:
+ index: true
+ category: true
+ads: 
  show: true
 image:
   teaser: /arduino/dicas/Ouija_Board-300x150.jpg
