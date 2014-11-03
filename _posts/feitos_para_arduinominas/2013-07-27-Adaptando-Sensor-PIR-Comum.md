@@ -9,6 +9,9 @@ share: true
 toc: true
 ads:
  show: true
+feature:
+ index: true
+ category: true
 ---
 Os sensores PIR de uma forma geral são pequenos modulos usados em sistemas de
 segurança que identificam a presença de pessoas, muitos com um hardware mais
