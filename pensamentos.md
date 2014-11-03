@@ -9,4 +9,5 @@ excerpt: Algumas reflexões, palavras talvez ao vento, mas que refletem algumas 
 layout: categorylist
 share: true
 comments: true
+category: pensamentos
 --- 
