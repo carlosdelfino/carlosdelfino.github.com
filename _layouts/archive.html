@@ -5,8 +5,8 @@ ads:
 ---
  <div id="main" role="main">			
 	<div class="wrap">
+	{% include advertising.html %}
 		<div class="archive-wrap">
-		{% if page.ads.show %}{% include advertising.html %}{% endif %}
 			<div class="page-content">
 				{{ content }}
 			</div><!-- /.page-content -->

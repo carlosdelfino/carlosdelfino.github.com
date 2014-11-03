@@ -6,14 +6,9 @@ redirect_from:
 permalink: /logicaprogramacao/
 title: Lógica e Programação
 excerpt: Um curso sobre programação com C e C++
-layout: archive
+layout: categorylist
 category: logicaprogramacao
 share: true 
----
-<div class="tiles">
-{% for post in site.categories.logicaprogramacao%}
-   {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+--- 
 
 

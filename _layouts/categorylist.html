@@ -1,12 +1,18 @@
 ---
 layout: archive
 ---
-{{ content }}
 
-{% for category in site.categories %}
-   {% if category contains page.category %}
-      {% for post in category %}
+{{ content }}
+<br />
+{% if page.categories %}
+   {% for category in page.categories %}
+   {% assign categoryid = category | first | cgi_encode %}
+      {% for post in site.categories[categoryid] %}
          {% include post-grid.html %}
       {% endfor %}
-   {% endif %}
-{% endfor %}
+   {% endfor %}
+{% elsif page.category %}
+   {% for post in site.categories[page.category] %}
+      {% include post-grid.html %}
+   {% endfor %}
+{% endif %}
