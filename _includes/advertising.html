@@ -1,14 +1,33 @@
-<style>
-.responsive-ads { width: 300px; height: 200px; }
-@media(min-width: 520px) { .responsive-ads { width: 468px; height: 60px; } }
-@media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
-</style>
+{% if page.ads.show %}
 
+{% unless page.ads.style %}
+   {% assign pageadsstyle = "vertical" %}
+{% else %}
+   {% assign pageadsstyle = page.ads.style %}   
+{% endunless %} 
+
+{% if site.data.ads[pageadsstyle] %}
+   {% assign style = site.data.ads[pageadsstyle].style %}
+   {% assign slot = site.data.ads[pageadsstyle].slot %}
+   
+   {% if site.data.ads[pageadsstyle].client %}
+      {% assign client = site.data.ads[pageadsstyle].client %}
+   {% else %}
+      {% assign client = site.google.adsense.client %}
+   {% endif %}
+{% endif %}
+<div class="ads">
+<style>
+.responsive-ads { width: {{ style.width }}px; height: {{ style.height }}px; }
+{% for min in style.min %}@media(min-width: {{ min.basewidth }}px) { .responsive-ads { width: {{ min.width }}px; height: {{ min.height }}px; } }{% endfor %}
+</style>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle responsive-ads"
 	style="display:inline-block"
-	data-ad-client="{{ site.google.adsense.client }}"
-	data-ad-slot="{{ site.google.adsense.slot }}"></ins>
+	data-ad-client="{{ client }}"
+	data-ad-slot="{{ slot }}"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div><!-- /.ads -->
+{% endif %}

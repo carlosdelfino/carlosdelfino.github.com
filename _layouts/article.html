@@ -1,7 +1,8 @@
 ---
 layout: default
+ads:
+  style: vertical
 ---
-
 <div id="main" role="main">			
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
@@ -20,6 +21,6 @@ layout: default
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+		{% include advertising.html %} 
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
