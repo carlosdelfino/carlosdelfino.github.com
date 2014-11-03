@@ -5,7 +5,10 @@ layout: article
 category: [Pensamentos]
 tags: [Pensamento, reflexão, limite, imaginacao, ego, criatividade, engenharia, ciências, inovação, sociedade, futuro, tecnologia]
 share: true
-comments: true
+comments: truefeature: 
+ category: true
+ads: 
+ show: true
 image:
    teaser: pensamentos/pensamento1-400x200.jpg
    feature: pensamentos/pensamento1-400x200.jpg

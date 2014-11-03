@@ -6,6 +6,10 @@ tags: [Pensamento, Reflexão, Copa, Investimento, Governo, Dinheiro, Terrorismo,
 layout: article
 share: true
 comments: true
+feature: 
+ category: true
+ads: 
+ show: true
 image:
    teaser: pensamentos/pensamento2-400x200.jpg
    feature: pensamentos/pensamento2-400x200.jpg

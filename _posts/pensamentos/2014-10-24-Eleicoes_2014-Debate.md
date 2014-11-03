@@ -7,6 +7,10 @@ layout: article
 share: true
 toc: true
 comments: true
+feature: 
+ category: true
+ads: 
+ show: true
 image:
   teaser: pensamentos/rfd-young-blog400x300.jpg
   feature: pensamentos/rfd-young-blog400x300.jpg
