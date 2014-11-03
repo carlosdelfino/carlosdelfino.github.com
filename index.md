@@ -21,7 +21,9 @@ assim que o artigo seja direcionado conforme as necessidades de cada um.
  
 <div class="tiles">
 {% for post in site.posts %}
-	{% include post-grid.html %}
+   {% if post.feature.index %}
+      {% include post-grid.html %}	
+   {% endif %}
 {% endfor %}
 </div>
 <!-- /.tiles -->
