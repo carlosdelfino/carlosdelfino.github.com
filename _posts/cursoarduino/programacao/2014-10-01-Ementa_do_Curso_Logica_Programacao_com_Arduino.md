@@ -7,6 +7,8 @@ layout: article
 share: true
 toc: true
 comments: true
+ads: 
+ show: true
 image:
   teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
   feature: logica_programacao/algoritmo-jogo-900x673.png
