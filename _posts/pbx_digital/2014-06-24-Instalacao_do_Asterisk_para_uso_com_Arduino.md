@@ -6,6 +6,11 @@ layout: article
 share: true
 toc: true
 comments: true
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 image:
   teaser: pbx_digital/asterisk-255x180.png
   feature: pbx_digital/asterisk-640x359.png

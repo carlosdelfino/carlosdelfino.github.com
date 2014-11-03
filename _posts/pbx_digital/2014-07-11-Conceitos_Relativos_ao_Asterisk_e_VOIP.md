@@ -6,6 +6,11 @@ category: pbx_digital
 tags: [pbx, pbxdigital, voip, voz sobre ip, telefonia, comunicação, celular, pabx]
 share: true
 comments: true
+feature:
+ index: true
+ category: true
+ads: 
+ show: true
 image:
    teaser: pbx_digital/asterisk-400x250.png
    feature: pbx_digital/asterisk-640x359.png
