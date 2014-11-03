@@ -5,6 +5,8 @@ excerpt: "Abaixo estão listados os cursos que ministramos, ou estamos elaborand
 layout: archive
 share: true
 comments: true
+ads:
+  show: true 
 ---
 <div class="tiles">
 {% for post in site.categories.cursoarduino%}
