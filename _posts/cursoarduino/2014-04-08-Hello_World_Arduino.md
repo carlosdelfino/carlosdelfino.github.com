@@ -7,6 +7,8 @@ layout: article
 share: true
 toc: true
 comments: true
+ads: 
+ show: true
 image:
   teaser: cursoarduino/cursohelloworldarduino-400x286.png
   feature: cursoarduino/cursohelloworldarduino-400x286.png
