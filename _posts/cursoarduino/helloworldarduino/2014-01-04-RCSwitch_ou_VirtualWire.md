@@ -3,7 +3,7 @@ layout: article
 title: RC Switch ou VirtualWire qual devo usar?
 tags: [Arduino, Uno, Virtual Wire, RC Switch, Automação, Residencial, Domôtica, Sensores, Adaptacao, RC, Controle Remoto, drones, vants, carrinhos, automático, IoT, Internet das Coisas, Internet of Thinks, RF22, RF24, NRF24, NRF905, RF95, ASK, Serial, manchers, biphase, TCP, Mesh, Datagrama]
 categories: [helloworldarduino]
-excerpt: Qual biblioteca usar? muitos dizem que a RC Switch é a melhor, outros dizem que é a [Virtual Wire](http://carlosdelfino.eti.br/helloworldarduino/VirtualWire/), porém poucos justificam sua escolha com parametros reais, o que você me diz de sua escolha? use o campo comentários abaixo para apresentar seu argumento.
+excerpt: Qual biblioteca usar? muitos dizem que a RC Switch é a melhor, outros dizem que é a Virtual Wire, porém poucos justificam sua escolha com parametros reais, o que você me diz de sua escolha? use o campo comentários abaixo para apresentar seu argumento.
 comments: true
 share: true
 toc: true
@@ -13,7 +13,6 @@ feature:
  index: true
  category: true
 ---
-
 
 ## A Biblioteca RC Switch
 
