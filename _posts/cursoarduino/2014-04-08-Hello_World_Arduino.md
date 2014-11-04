@@ -8,7 +8,7 @@ share: true
 toc: true
 comments: true
 ads: 
- show: true
+ show: false
 image:
   teaser: cursoarduino/cursohelloworldarduino-400x286.png
   feature: cursoarduino/cursohelloworldarduino-400x286.png
@@ -36,4 +36,4 @@ Já na modadelidade de 16 horas as opçõesò são:
   * 4 dias de 4 horas a noite 17:00 as 21:00 (segunda a quarta, sextas)
   * 4 dias de 4 horas no sábado
   * 5 dias de 3 horas, mais um de 2 horas pela manhã 8:30 as 11:30 ou a noite (18:00 as 21:00) (segunda a quarta, quinta e sextas)
-
+ 
