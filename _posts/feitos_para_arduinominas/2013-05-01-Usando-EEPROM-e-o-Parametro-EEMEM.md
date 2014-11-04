@@ -13,8 +13,12 @@ feature:
  index: true
  category: true
 ---
-A EEPROM do Arduino UNO pode armazenar até 1KiB de dados, e a do Arduino Mega 4KiB, e usando
-a biblioteca EEPRO do arquivo podemos acessar estes dados byte a byte.
+**Atenção**: Este artigo foi escrito por mim originalmente para o antigo site 
+do Arduino Minas e agora foi transferido para o meu site.
+{: .notice-success }
+ 
+A EEPROM do Arduino UNO pode armazenar até 1KiB de dados, e a do Arduino Mega 4KiB, 
+e usando a biblioteca EEPRO do arquivo podemos acessar estes dados byte a byte.
 
 Abaixo apresento um código que demonstra a forma mais simples fácil de usar tal biblioteca.
 
@@ -141,10 +145,23 @@ consegue ainda gravar na EEPROM, e quando você tenta enviar estes dados usando 
 o Boot Loader grava errado, ao invéz de gravar na EEPROM, grava sobre o seu programa e
 interrompe seu processo corrompendo o que está gravado no Chip.
 
+## O mapeámento da memória EEPROM e demais memória
+
+Diferente dos processadores ARM os processadores AVR (núcleo do microcontroladores ATMega 
+e ATtiny) o barramento de memória não é linear, portanto há instruções especiais para acesso
+a memória ram (sram) e memória rom (flash), e claro outro método para acesso a mémoria eeprom, 
+não entraremos neste artigo em detalhes sobre isso nesse tópico.
+
+Como pode ser visto no código de exemplo acima, há a necessidade de uma instrução especial
+para se obter os dados da memória rom e as funções `eeprom_write_word()` `eeprom_write_byte()`
+`eeprom_read_word()` e `eeprom_read_byte()` devem ser usadas para obter ou escrever na EEPROM. 
+
+
+
 ## Eu posso obter os dados da EEPROM externamente?
 
 Sim você pode, a ferramenta AVRDude consegue se comunicar com o Boot Loader Optiboot do
-Arduíno para isto basta você usar o comando:
+Arduíno, para isto basta você usar o comando:
 
    /diretorio/instalacao/hardware/tools/avr/bin/avrdude - C\
    /diretorio/instalacao/hardware/tools/avr/etc/avrdude.conf -vv -patmega328p -carduino \
@@ -152,7 +169,7 @@ Arduíno para isto basta você usar o comando:
 
 No comando acima o o AVRDude foi configurado para fazer a leitura do atmega328p (-patmega328p)
 usando a plataforma Arduíno (-carduino) na porta tty.usbmodem411 (-P/dev/tty.usbmodem411), com
-a velocidade comunicação serial de 115200 bauts (-b115200) e gravando no arquivo
+a velocidade comunicação serial de 115200 bauds (-b115200) e gravando no arquivo
 EstadoEEPROM.eep no formato Hexa da Intel. (-Ueeprom:r:EstadoEEPROM.eep:i)
 
 No caso eu usei o MAC OS, você deverá ajustar a estrutura de diretorio para sua instalação e
