@@ -1,5 +1,5 @@
 ---
-title: Ementa para o curso de Lógica e Programacao para Arduino
+title: Ementa para o curso de Lógica de Programacao para Arduino
 excerpt: O que planejamos para o curso de Lógica e Programação para o Arduino, tudo que é preciso saber para se dominar o Arduino e dar passos maiores.
 tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Lógica, Programação, FIFO, Algoritimos, Estrutura de Dados, Assembly, AVR, ATMega, ATTiny, ARM, Ementa, C, C++, C/C++]
 category: logicadeprogramacao
