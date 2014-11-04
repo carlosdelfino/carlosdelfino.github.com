@@ -5,13 +5,14 @@ layout: article
 category: [Pensamentos]
 tags: [Pensamento, reflexão, limite, imaginacao, ego, criatividade, engenharia, ciências, inovação, sociedade, futuro, tecnologia]
 share: true
-comments: truefeature: 
+comments: true
+feature: 
  category: true
 ads: 
  show: true
 image:
-   teaser: pensamentos/pensamento1-400x200.jpg
-   feature: pensamentos/pensamento1-400x200.jpg
+ teaser: pensamentos/pensamento1-400x200.jpg
+ feature: pensamentos/pensamento1-400x200.jpg
 ---
 Sinto falta de algo novo, algo que vá além do viaduto que caiu em BH, produto de engenheiros CTRL-C / CTRL-V.
 
