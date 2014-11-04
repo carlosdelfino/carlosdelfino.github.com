@@ -8,6 +8,9 @@ share: true
 toc: true
 comments: true
 ads: true
+feature:
+ index: true
+ category: true
 image:
    teaser: arduino/virtualwire/td_libs_VirtualWire_3-680x286.jpg
    feature: arduino/virtualwire/td_libs_VirtualWire_3-680x286.jpg
