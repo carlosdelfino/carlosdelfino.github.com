@@ -1,3 +1,7 @@
+clones: 
+   name: Clones e Similares
+   aliases: [similares, compativeis, copias]
+   
 musicas:
    name: Minas Músicas Preferidas
    image:
