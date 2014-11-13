@@ -20,9 +20,9 @@ image:
 
 ## Perfil em Redes Sociais
 
- * Linked-in: https://www.linkedin.com/in/vegardwollan
- * Twiter: https://twitter.com/vegardwollan
- * Plus: https://plus.google.com/117391618085377601886/posts
+ * Linked-in: [https://www.linkedin.com/in/vegardwollan](https://www.linkedin.com/in/vegardwollan)
+ * Twiter: [https://twitter.com/vegardwollan](https://twitter.com/vegardwollan)
+ * Plus: [https://plus.google.com/117391618085377601886](https://plus.google.com/117391618085377601886
  
 <figure>
 <img src="/images/perfil/vegard-wollen_paul-rako_avr-ease-of-use-610x360.jpg" />
