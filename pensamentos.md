@@ -8,6 +8,8 @@ title: Pensamentos e Reflexões
 excerpt: Algumas reflexões, palavras talvez ao vento, mas que refletem algumas de minhas preocupações, e espectativas.
 layout: categorylist
 share: true
+ads:
+ show: true
 comments: true
 category: pensamentos
 --- 
