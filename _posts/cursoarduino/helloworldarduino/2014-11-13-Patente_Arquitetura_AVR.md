@@ -24,7 +24,7 @@ Alguns dizem que o nome do Microcontrolador vem dos autores originais, porém
 a composição dos nomes proposta deixaria dois autores de fora já que são 
 quatro:
 
-**[Vegard Wollan](/perfil/vegardwollan/), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant**
+**[Vegard Wollan]({% post_url /perfil/2014-11-13-vegardwollan %}), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant**
 
 
 
@@ -87,15 +87,13 @@ Tradução feita com base no texto:
  * Data da prioridade	27 mar. 1997
  * Status da taxa	Pagas
  * Também publicado como	CA2275172A1, Mais 8 »
- * Inventores	Vegard Wollan, Alf-Egil Bogen, Gaute Myklebust, John D. Bryant
+ * Inventores [Vegard Wollan]({% post_url /perfil/2014-11-13-vegardwollan %}), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant
  * Cessionário original	Atmel Corporation
- * Exportar citação	BiBTeX, EndNote, RefMan
- * Citações de patente (3), Citações de não patente (8), Citada por (10), Classificações (6), Eventos legais (6)
- * Links externos: USPTO, Cessão do USPTO, Espacenet
+ 
 
 <figure>
 <a href="http://www.google.com/patents/US5809327">
-<img src="/images/helloworldarduino/patente_avr/Patente_Chip_AVR_ATmel-1024-576.jpg" />
+<img src="/images/helloworldarduino/patente_avr/Patente_Chip_AVR_ATmel-1024x576.jpg" />
 </a>
 <figcaption>Primeira imagem da Patente AVR</figcaption>
 </figure>
