@@ -1,3 +1,6 @@
+linuxwindowsmac:
+   name: Linux, Windows e Mac
+   aliases: [linux, windows, mac]
 clones: 
    name: Clones e Similares
    aliases: [similares, compativeis, copias]
