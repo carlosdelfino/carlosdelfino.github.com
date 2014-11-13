@@ -86,7 +86,7 @@ Tradução feita com base no texto:
  * Data de depósito	27 mar. 1997
  * Data da prioridade	27 mar. 1997
  * Status da taxa	Pagas
- * Também publicado como	CA2275172A1, Mais 8 »
+ * Também publicado como	CA2275172A1
  * Inventores [Vegard Wollan]({% post_url /perfil/2014-11-13-vegardwollan %}), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant
  * Cessionário original	Atmel Corporation
  
