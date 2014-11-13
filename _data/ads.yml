@@ -6,6 +6,7 @@ horizontal:
    description: "Layout para uso Horizontal nas páginas de arquivo por exemplo"
    slot: 7597186332
    style:
+      display: "inline-block"
       width: 728
       height: 90
       min:
