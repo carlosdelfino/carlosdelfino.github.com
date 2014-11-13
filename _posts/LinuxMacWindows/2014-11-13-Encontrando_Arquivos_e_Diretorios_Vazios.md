@@ -16,7 +16,7 @@ image:
  teaser: linuxmacwindows/macwindowslinux-500x210.png
 ---
 
-**Atenção: Este artigo foi obtido no site 
+**Atenção**: Este artigo foi obtido no site 
 <a href="http://www.dicas-l.com.br/arquivo/find_remocao_de_arquivos_e_diretorios_vazios.php#.VGSyAZOS1xU" >Dicas-L</a>, <br />
 e replicado aqui para efeito de arquivo.
 {: .notice-warning }
