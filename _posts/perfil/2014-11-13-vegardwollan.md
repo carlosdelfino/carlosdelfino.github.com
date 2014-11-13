@@ -34,7 +34,7 @@ Vegard Wollan apresenta os esquemas do AVR enqautno explica para Paul Rako sobre
 ## O que Fez?
 
 Vegard Wollan, foi o co-criador do microcontrolador AVR, que empodera o conhecido
-Arduino, veja no Artigo [Patente da Arquitetura AVR]({% post_url helloworldarduino/2014-11-13-Patente_Arquitetura_AVR %})
+Arduino, veja no Artigo [Patente da Arquitetura AVR]({% post_url helloworldarduino/2014-11-13-Patente_Arquitetura_AVR.md %})
 um pouco sobre o Microcontrolador AVR e o que faz dele um Microcontrolador diferente
 dos demais.
 
