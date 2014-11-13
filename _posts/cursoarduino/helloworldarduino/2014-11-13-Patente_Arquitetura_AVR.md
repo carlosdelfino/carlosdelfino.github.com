@@ -24,7 +24,7 @@ Alguns dizem que o nome do Microcontrolador vem dos autores originais, porém
 a composição dos nomes proposta deixaria dois autores de fora já que são 
 quatro:
 
-**[Vegard Wollan]({% post_url /perfil/2014-11-13-vegardwollan.md %}), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant**
+**[Vegard Wollan](/perfil/vegardwollan), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant**
 
 
 
@@ -87,7 +87,7 @@ Tradução feita com base no texto:
  * Data da prioridade	27 mar. 1997
  * Status da taxa	Pagas
  * Também publicado como	CA2275172A1
- * Inventores [Vegard Wollan]({% post_url /perfil/2014-11-13-vegardwollan %}), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant
+ * Inventores [Vegard Wollan](/perfil/vegardwollan), Alf-Egil Bogen, Gaute Myklebust, John D. Bryant
  * Cessionário original	Atmel Corporation
  
 
