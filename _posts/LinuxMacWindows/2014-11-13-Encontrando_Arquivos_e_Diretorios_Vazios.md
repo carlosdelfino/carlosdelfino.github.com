@@ -17,8 +17,8 @@ image:
 ---
 
 **Atenção: Este artigo foi obtido no site 
-<a href="http://www.dicas-l.com.br/arquivo/find_remocao_de_arquivos_e_diretorios_vazios.php#.VGSyAZOS1xU" >Dicas-L</a>. 
-E replicado aqui para efeito de arquivo.
+<a href="http://www.dicas-l.com.br/arquivo/find_remocao_de_arquivos_e_diretorios_vazios.php#.VGSyAZOS1xU" >Dicas-L</a>, <br />
+e replicado aqui para efeito de arquivo.
 {: .notice-warning }
 
 
@@ -36,14 +36,28 @@ O comando acima irá localizar tanto arquivos quanto diretórios. Para localizar
 
 Para localizar apenas diretórios:
 
+{% highlight Bash linenos=table %}
   find . -type d -empty
+{% endhighlight %}
+
 Para remover os arquivos encontrados:
 
+{% highlight Bash linenos=table %}
   find . -type d -empty | xargs rm
+{% endhighlight %}
+
 Para remover os arquivos ou diretórios vazios, apenas no diretório corrente:
 
+{% highlight Bash linenos=table %}
   find . -maxdepth 1 -type d -empty | xargs rmdir
+{% endhighlight %}
+
 ou
 
+{% highlight Bash linenos=table %}
   find . -maxdepth 1 -type f -empty | xargs rm
-Lembrando, em sistemas GNU/Linux, um diretório também é um arquivo. Se não houver nenhum arquivo ou subdiretório, o arquivo identificador do diretório possui tamanho zero e atende aos requisitos de busca ilustrados neste texto.
+{% endhighlight %}
+
+Lembrando, em sistemas GNU/Linux, um diretório também é um arquivo. Se não 
+houver nenhum arquivo ou subdiretório, o arquivo identificador do diretório 
+possui tamanho zero e atende aos requisitos de busca ilustrados neste texto.
