@@ -1,3 +1,12 @@
+tecnologianosocial:
+   name: Tecnologia No Social
+   aliases: [tecnologiasocial]
+   
+perfil:
+   Name: Perfil de Personalidades
+   excerpt: "Lista detalhes pessoais de personalidades importantes ligadas as tecnlogias que trabalho"
+   aliases: [profile, perfis]
+   
 linuxwindowsmac:
    name: Linux, Windows e Mac
    aliases: [linux, windows, mac]

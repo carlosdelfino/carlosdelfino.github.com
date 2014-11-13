@@ -8,16 +8,17 @@ layout: archive
 
 
 {% if page.categories %}
-{{ page.categories }}
    {% for category in page.categories %}
       {% assign categoryid = category %}
-      {% for post in site.categories[categoryid] %}
+      {% if post.feature.category %}
          {% include post-grid.html %}
-      {% endfor %}
+      {% endif %}
    {% endfor %}
 {% elsif page.category %} 
    {% assign categoryid = page.category %}
    {% for post in site.categories[categoryid] %}
-      {% include post-grid.html %}
+      {% if post.feature.category %}
+         {% include post-grid.html %}
+      {% endif %}
    {% endfor %}
 {% endif %}
