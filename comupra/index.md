@@ -8,14 +8,14 @@ share: true
 feature:
  index: true
 image:
- feature: tecnologianosocial-801x814.png
- teaser: tecnologianosocial-400x406.png
+ feature: comupra/caixoeira_araaoreis-800x174.jpg
+ teaser: comupra/logo-comupra-onca-200x186.png
 ---
 
 <center><strong>Aguarde!!</strong> em breve mais informações sobre o comupra, página criada para concensar meu trabalho voluntário no comupra.</center>
-{: .notice }
+{: .notice-warning }
 
-Obtenha mais informações na página: [HTTP://comupra.org.br](http://comupra.org.br)
+Obtenha mais informações na página oficinal da instituição: [www.comupra.org.br](http://comupra.org.br)
 
 ## Minha Agenda no Comupra
 <iframe src="https://www.google.com/calendar/embed?src=carlosdelfino.eti.br_nmfu68oj1cl492hhec64lctf68%40group.calendar.google.com&ctz=America/Sao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
