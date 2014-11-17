@@ -15,4 +15,6 @@ image:
 <center><strong>Aguarde!!</strong></center>
 {: .notice }
 
+[Para informações sobre a parceria firmada com o COMUPRA, click aqui.](/tecnologianosocial/comupra/)
+
 Obtenha mais informações na página: [http://facebook.com/TecnologiaNosocial](http://facebook.com/TecnologiaNosocial)

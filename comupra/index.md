@@ -1,5 +1,7 @@
 ---
-permalink: /comupra/
+redirect_from:
+ - "/comupra/"
+permalink: /tecnologianosocial/comupra/
 title: COMUPRA
 excerpt: Informações relativas ao Comupra 
 tags: [social, comupra, Ribeiro de Abreu, Belo Horizonte, Minas Gerais, BRasil, Brazil, Projetos, Politica, politica publica, Deixe o Onça Beber Agua]
