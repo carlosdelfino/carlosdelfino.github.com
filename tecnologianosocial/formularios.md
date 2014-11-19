@@ -1,8 +1,8 @@
 ---
 permalink: "/tecnologianosocial/formularios/"
-title: COMUPRA - Formulários
+title: Tecnologia no Social - Formulários
 excerpt: Formulários usados nos projetos Tecnologia no Social. 
-tags: [social, comupra, Ribeiro de Abreu, Belo Horizonte, Minas Gerais, BRasil, Brazil, Projetos, Politica, politica publica, formulário, Deixe o Onça Beber Agua]
+tags: [social, Tecnologia no Social, Ribeiro de Abreu, Belo Horizonte, Minas Gerais, BRasil, Brazil, Projetos, Politica, politica publica, formulário, Deixe o Onça Beber Agua]
 layout: default
 share: true 
 feature:
