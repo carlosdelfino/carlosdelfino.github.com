@@ -12,12 +12,14 @@ image:
 Carlos Delfino Carvalho Pinheiro
 
 ###### PROFISSÃO:
-Consultor /  Desenvolvedor /Programador / Analista de Suporte e Sistemas
+Consultor / Desenvolvedor /Programador / Analista de Suporte e Sistemas
 
 ###### BIO:
 27 anos de mercado, iniciei profissionalmente com programação e com a demanda por profissionais qualificado em suporte a rede de computadores, me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
-Em paralelo atuei de estagiário a consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
+Em paralelo atuei como consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
+
+Durante minha vida acadêmica, que pretendo voltar em breve, me formei no curso de projeto e implementação de redes de computadores, onde tive a oportunidade de atuar como bolsista de dois professores em seus respectivos projetos de mestrado, Prof. Aminadabe com o projeto [An Algorithm for Fault Location in SDH/WDM Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.9439) (http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks) e colaborando com o Prof Inácio em [Uma Proposta Para Descoberta e Monitoramento de Recursos em Redes de Computadores Usando Agentes Móveis](http://www.uece.br/mpcomp/index.php/arquivos/doc_download/177-dissertacao-18), também fiz diversos cursos ligados a segurançade redes com linux, programação com a linguagem Java, e consultoria em gestão de projetos pela ótica do PMI (PMBOK).
 
 Atualmente ministro cursos com Arduino, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
 
