@@ -1,22 +1,30 @@
 {% if page.ads.show %}
 
-{% unless page.ads.style %}
-   {% assign pageadsstyle = "vertical" %}
-{% else %}
-   {% assign pageadsstyle = page.ads.style %}   
-{% endunless %} 
-
-{% if site.data.ads[pageadsstyle] %}
-   {% assign style = site.data.ads[pageadsstyle].style %}
-   {% assign slot = site.data.ads[pageadsstyle].slot %}
-   
-   {% if site.data.ads[pageadsstyle].client %}
-      {% assign client = site.data.ads[pageadsstyle].client %}
+   {% unless page.ads.style %}
+      {% assign pageadsstyle = "vertical" %}      
    {% else %}
-      {% assign client = site.google.adsense.client %}
-   {% endif %}
-{% endif %}
-<div class="ads">
+      {% assign pageadsstyle = page.ads.style %}   
+   {% endunless %}
+   
+  
+
+   {% if site.data.ads[pageadsstyle] %}
+      {% assign style = site.data.ads[pageadsstyle].style %}
+      {% assign slot = site.data.ads[pageadsstyle].slot %}
+   
+      {% if site.data.ads[pageadsstyle].client %}
+         {% assign client = site.data.ads[pageadsstyle].client %}
+      {% else %}
+         {% assign client = site.google.adsense.client %}
+      {% endif %}
+
+      {% if style.class %}
+         {% assign divclassads = style.class %}
+      {% else %}
+         {% assign divclassads = "ads" %}   
+      {% endif %} 
+   
+<div class="{{ divclassads }}">
 <style>
 .responsive-ads { 
   {% if style.display %}display: {{ style.display }};{% endif %}
@@ -33,4 +41,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div><!-- /.ads -->
+   {% else %}
+      <!-- Não estilo "{{ pageadsstyle }} defino para uso! veja a configuração "page.ads.style" para ver se está correto -->
+   {% endif %}
 {% endif %}

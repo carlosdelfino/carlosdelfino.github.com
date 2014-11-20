@@ -9,10 +9,14 @@ horizontal:
       display: "inline-block"
       width: 728
       height: 90
+      class: "adsh"
       min:
         - basewidth: 728
           width: 728
-          height: 90
+          height: 80
+        - basewidth: 520
+          width: 468
+          height: 60
 
 vertical:
    description: "Layout para uso vertical nas páginas de artigos"
@@ -20,6 +24,7 @@ vertical:
    style:
       width: 300
       height: 200
+      class: "adsv"
       min:
          - basewidth: 520 
            width: 468
@@ -27,4 +32,6 @@ vertical:
          - basewidth: 768 
            width: 160
            height: 600
-   
+
+block:
+   description: "Layout para uso anuncios em blocos"   
