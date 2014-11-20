@@ -7,6 +7,8 @@ layout: article
 share: true
 toc: false 
 comments: true
+feature:
+  category: false
 ads: 
  show: true
 image:
