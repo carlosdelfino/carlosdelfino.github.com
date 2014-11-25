@@ -1,5 +1,5 @@
 ---
-title: Haja o que Houver - Madredeus
+title: O Sonho - Madredeus
 exerpt: Os Madredeus são um dos grupos musicais portugueses de maior projecção mundial. A sua música combina influências da música tradicional portuguesa com a música erudita e com a música popular contemporânea.
 categories: [Musicas]
 tags: [madredeus, músicas, haja o que houver, fado, portuguesa, erudidta, classica, violão]
