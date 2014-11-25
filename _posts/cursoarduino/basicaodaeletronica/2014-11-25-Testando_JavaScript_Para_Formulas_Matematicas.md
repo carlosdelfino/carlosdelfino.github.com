@@ -28,7 +28,7 @@ e blocos
 
 ----
 
-In line: define $$\mathbf{Y}$$ as the network edges, ...
+Inline: define $$\mathbf{Y}$$ como arestas do grafo, ...
 
 e em blocos:
 
@@ -37,4 +37,6 @@ P(\mathbf{Y} = \mathbf{y}|\mathbf{X}) = exp[{\theta } ^{T} g(\mathbf{y},\mathbf{
 $$
 
 ## Fontes:
+
  * http://christopherpoole.github.io/using-mathjax-on-github-pages/
+ * http://docs.mathjax.org/en/latest/mathjax.html
