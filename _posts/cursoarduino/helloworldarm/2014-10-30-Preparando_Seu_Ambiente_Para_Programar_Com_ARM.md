@@ -1,12 +1,14 @@
 ---
-redirect_from: "/cursoarduino/Hello_ARM/"
 title: Preparando Seu Ambiente Para Programar Com ARM
 excerpt: Neste artigo vou apresentar os passos que segui para ter sucesso na montagem de meu ambiente de desenvolvimento com o ARM, em especial, usando a placa de aprendizado, SAM4S Xplained.
-tags: [ ARM, SAM4, SAM4S, Xplained, ATmel, Programação, Assembly, Assembler, Eclipse, IDE, GCC, GNU, None-EABI, EABI, Protótipos, Curso, Hello World ARM, Hello World Arduino, Arduino Zero, Arduino DUE]
+tags: [ARM, SAM4, SAM4S, Xplained, ATmel, Programação, Assembly, Assembler, Eclipse, IDE, GCC, GNU, None-EABI, EABI, Protótipos, Curso, Hello World ARM, Hello World Arduino, Arduino Zero, Arduino DUE]
 layout: article
 categories: [helloworldarm]
 comments: true
 share: true
+feature: 
+  index: true
+  category: true
 ads: 
  show: true
 toc: true
@@ -472,4 +474,9 @@ necessária para gerar tal arquivo, isso somente será explicado no próximo art
 
 **Aguarde**, postarei o link aqui assim que estiver pronto.
 {: .notice-warning } 
+
+## O que aprender agora?
+
+ * [Programando e Aprendendo Sem Ter Um ARM](/helloworldarm/Programando_e_Aprendo_Sem_Ter_Um_ARM/)
+ 
 
