@@ -42,7 +42,7 @@ para uso com IoT.
 Além disso a Biblioteca Radio Head vem amparada com dezenas de protocolos muito 
 úteis para uso com IoT.
 
-## Equipamentos compátiveis com 433Mhz e a Biblioteca
+## Equipamentos compátiveis com 433Mhz e a Biblioteca RC Switch
 
  * [Proteam HO1853 - Set Remote Sockets](http://www.amazon.co.uk/Proteam-HO1853-Set-Remote-Sockets/dp/B0029Z9YUQ)
  * [Rolson Tools 60027 2pc Remote Controlled Socket](http://www.amazon.co.uk/Rolson-60027-Remote-Controlled-Socket/dp/B001B4RE4O)
@@ -57,7 +57,6 @@ Os projetos abaixo são projetos que usam a biblioteca RC-Switch de alguma forma
  * [funkcontrol-over-net](https://code.google.com/p/funkcontrol-over-net/)
    webserver e webinterface totalmente plug-and-play para controlar lampadas e 
    outros eletrodomésticos, pode ser usado com o Arduino e Shield Ethernet. 
-
  * [homecontrol4.me](http://www.homecontrol4.me/)
    Automatize sua casa, usando seu Smartphone.
  * [OpenplacOS](http://openplacos.github.io/openplacos/)
