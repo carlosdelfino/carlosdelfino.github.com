@@ -5,7 +5,8 @@ categories: [Musicas]
 layout: article
 comments: false
 share: true
-ads: true
+ads: 
+ show: true
 image:
   category: true
 ---
