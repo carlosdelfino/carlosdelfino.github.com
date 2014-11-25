@@ -20,8 +20,9 @@ assim que o artigo seja direcionado conforme as necessidades de cada um.
 <hr />
  
 <div class="tiles">
-{% for post in site.posts %}
+{% for post in site.posts limit:20 %}
    {% if post.feature.index %}
+   
       {% include post-grid.html %}	
    {% endif %}
 {% endfor %}
