@@ -16,7 +16,7 @@ image:
 
 A musicalidade do grupo sempre foi erroneamente referida como fado, género musical português mais conhecido internacionalmente, sobretudo pela imprensa fora de Portugal. O grupo nunca se descreveu desta forma, ainda que declarasse existir uma aproximação ao "espírito musical" do fado.
 Fonte: [Madredeus-Wikipia](http://pt.wikipedia.org/wiki/Madredeus)
-{: .notice.warning }
+{: .notice-info }
 
 <figure>
 <iframe width="420" height="315" src="//www.youtube.com/embed/scDhb6DNhD0" frameborder="0" allowfullscreen></iframe>
