@@ -12,8 +12,8 @@ feature:
  index: true
  category: true
 image:
-  teaser: pensamento/passaro_1-504x346.jpg
-  feature: pensamento/arvore_1-1280x800.jpg
+  teaser: pensamentos/passaro_1-504x346.jpg
+  feature: pensamentos/arvore_1-1280x800.jpg
 ---
 
 Hoje pela manhã, saindo de casa vi um passarinho pousado na lixeira. Ele se 
