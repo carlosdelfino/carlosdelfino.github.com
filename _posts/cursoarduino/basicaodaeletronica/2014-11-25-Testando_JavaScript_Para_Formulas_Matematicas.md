@@ -25,3 +25,16 @@ Inline \\( 1/x^{2} \\)
 e blocos
 
 \\[ \frac{1}{n^{2}} \\]
+
+----
+
+In line: define $$\mathbf{Y}$$ as the network edges, ...
+
+e em blocos:
+
+$$ 
+P(\mathbf{Y} = \mathbf{y}|\mathbf{X}) = exp[{\theta } ^{T} g(\mathbf{y},\mathbf{X})]/k(\theta ) 
+$$
+
+## Fontes:
+ * http://christopherpoole.github.io/using-mathjax-on-github-pages/
