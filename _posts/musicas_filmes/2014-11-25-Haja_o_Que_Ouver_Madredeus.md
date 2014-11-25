@@ -6,6 +6,8 @@ tags: [madredeus, músicas, Sonho, fado, portuguesa, erudidta, classica, violão
 layout: article
 comments: false
 share: true
+feature:
+ category: true
 ads: 
  show: true
 image:

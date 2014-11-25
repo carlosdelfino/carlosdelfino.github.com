@@ -8,6 +8,8 @@ comments: false
 share: true
 ads: 
  show: true
+feature:
+ category: true
 image:
   category: true
 ---
