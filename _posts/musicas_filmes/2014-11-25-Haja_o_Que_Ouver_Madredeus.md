@@ -1,5 +1,5 @@
 ---
-title: O Sonho - Madredeus
+title: Haja o Que Ouver - Madredeus
 exerpt: Os Madredeus são um dos grupos musicais portugueses de maior projecção mundial. A sua música combina influências da música tradicional portuguesa com a música erudita e com a música popular contemporânea.
 categories: [Musicas]
 tags: [madredeus, músicas, Sonho, fado, portuguesa, erudidta, classica, violão]
@@ -19,6 +19,6 @@ Fonte: [Madredeus-Wikipia](http://pt.wikipedia.org/wiki/Madredeus)
 {: .notice.warning }
 
 <figure>
-<iframe width="420" height="315" src="//www.youtube.com/embed/scDhb6DNhD0" frameborder="0" allowfullscreen></iframe>
-<figcaption>O Sonho - Madredeus</figcaption>
+<iframe width="420" height="315" src="//www.youtube.com/embed/hhxti4nFTdc" frameborder="0" allowfullscreen></iframe>
+<figcaption>Haja o que houver - Madredeus</figcaption>
 </figure>
