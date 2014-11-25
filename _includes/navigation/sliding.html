@@ -1,6 +1,6 @@
 <nav role="navigation" class="js-menu sliding-menu-content">
 	<ul class="menu-item">
-		{% for link in site.data.navigation %}<li>
+		{% for link in site.data.sliding %}<li>
       {% unless link.url contains 'http' %}
         {% assign domain = site.url %}
       {% endunless %}

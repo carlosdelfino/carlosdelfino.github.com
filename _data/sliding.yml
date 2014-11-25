@@ -10,6 +10,16 @@
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino-400x286.png
 
+- title: Pensamentos
+  url: /pensamentos/
+  excerpt: Pensamentos e Reflexões
+  image: pensamentos/pensamento1-200x200.png
+
+- title: Músicas
+  url: /musicas/
+  excerpt: Músicas que Gosto de Ouvir
+  image: musicas_filmes/mesadesom-300x144.jpg
+
 - title: Links
   url: /colecaodelinks/
   excerpt: Coleção de Links Interessantes e Úteis
