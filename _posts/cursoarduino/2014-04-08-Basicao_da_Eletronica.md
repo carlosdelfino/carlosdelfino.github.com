@@ -8,7 +8,8 @@ share: true
 toc: false 
 comments: true
 feature:
-  category: false
+  index: false
+  category: true
 ads: 
  show: true
 image:
