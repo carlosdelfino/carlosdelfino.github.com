@@ -14,6 +14,19 @@ feature:
  category: true
 ---
 
+## Qual o melhor lugar para começar a estudar o QEMU
+
+Inici seus estudos lendo todo este artigo, se souber inglês ou tiver
+facil entendimento de textos traduzidos livremente pelo tratutor do
+google, use o link para o [Documentation/GettingStartedDevelopers](http://wiki.qemu.org/Documentation/GettingStartedDevelopers)
+
+Se leu o link acima, viu que antes de começar é preciso ter um profundo
+conhecimento do que já foi desenvolvido, portanto não faça nada antes
+de ter absoluta certeza que conhece o codigo do QEMU e principalmente
+domina o que pretende mudar. Leia detalhamente todo o código que pretende
+intervir e se certifique que não há algo similar ou outra pessoa já discutindo 
+tal mudança.
+
 ## Preparando o GIT para Commits e Patchs
 
 Para que tenha bons resultados na proposta de seus Patchs para o QEMU é 
