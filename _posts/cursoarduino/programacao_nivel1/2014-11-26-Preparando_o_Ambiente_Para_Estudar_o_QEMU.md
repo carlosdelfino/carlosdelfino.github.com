@@ -38,9 +38,10 @@ de algumas.
 Baseado em [Getting confused when exploring Qemu source? gcc comes to rescue!](http://the-hydra.blogspot.com.br/2011/04/getting-confused-when-exploring-qemu.html)
 
 Se a leitura do código está confusa, devido ao excessivo uso de macros
-veja os códigos gerados em arquivos temporários adicionando a diretiva
-`-save-temps` com o GCC. O GCC deverá ter esta opção ativa em sua 
-compilação, caso contrário você terá que recompila-lo.
+e a concatenação de tokens no preprocessador do GCC, veja os códigos 
+gerados em arquivos temporários adicionando a diretiva `-save-temps` 
+com o GCC. O GCC deverá ter esta opção ativa em sua compilação, caso 
+contrário você terá que recompila-lo.
 
 ### Verificando os Patch 
 
@@ -85,5 +86,5 @@ para pular o pre-commit. Seja cuidadoso ao usar este recurso.
  
  * [http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)
  * [http://wiki.qemu.org/Documentation/GettingStartedDevelopers](http://wiki.qemu.org/Documentation/GettingStartedDevelopers)
- 
+ * [How to automatically run checkpatch.pl when developing QEMU](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)
  
