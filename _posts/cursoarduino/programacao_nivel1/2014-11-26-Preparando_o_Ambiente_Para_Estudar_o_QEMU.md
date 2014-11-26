@@ -33,6 +33,15 @@ Para que tenha bons resultados na proposta de seus Patchs para o QEMU é
 preciso que siga algumas orientações. Abaixo irei falar superficilamente
 de algumas.
 
+## Se estiver achando o código confuso, veja isso
+
+Baseado em [Getting confused when exploring Qemu source? gcc comes to rescue!](http://the-hydra.blogspot.com.br/2011/04/getting-confused-when-exploring-qemu.html)
+
+Se a leitura do código está confusa, devido ao excessivo uso de macros
+veja os códigos gerados em arquivos temporários adicionando a diretiva
+`-save-temps` com o GCC. O GCC deverá ter esta opção ativa em sua 
+compilação, caso contrário você terá que recompila-lo.
+
 ### Verificando os Patch 
 
 Esta seção é baseada no link "[How to automatically run checkpatch.pl when developing QEMU](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)",
@@ -62,8 +71,19 @@ Algun commit que vilar o padrão de codificação como verificado por
 Se vier a encontrar algum falso positivo, use `git commit --no-verify` 
 para pular o pre-commit. Seja cuidadoso ao usar este recurso.
 
+## Alguns Repositorios de código
+
+
+ * git://git.linaro.org/people/pmaydell/qemu-arm.git
+   ARM Guest - Paul Brook, Peter Maydell
+ * http://git.linaro.org/qemu/qemu-linaro.git
+   Linaro QEMU; see https://wiki.linaro.org/WorkingGroups/ToolChain/QEMU
+ * git://git.qemu-project.org/qemu.git
+   Original QEMU
+
 ## Fontes:
  
  * [http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)
+ * [http://wiki.qemu.org/Documentation/GettingStartedDevelopers](http://wiki.qemu.org/Documentation/GettingStartedDevelopers)
  
  
