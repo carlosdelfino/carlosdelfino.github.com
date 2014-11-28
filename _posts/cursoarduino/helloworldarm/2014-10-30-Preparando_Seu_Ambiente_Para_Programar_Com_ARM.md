@@ -20,6 +20,7 @@ image:
 imagebase: "/images/helloworldarm/"
 google:
   plusone: true
+tagcloud: true
 ---
 
 O primeiro passo para deixar seu ambiente preparado para programar com microcontroladores 

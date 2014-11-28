@@ -12,6 +12,7 @@ toc: true
 feature:
  index: true
  category: true
+tagcloud: true
 ---
 
 Porém iniciei meus estudos do QEMU  para ARM faz um a dois meses e não 
