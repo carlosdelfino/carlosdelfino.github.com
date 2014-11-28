@@ -13,6 +13,7 @@ feature:
 comments: true
 ads: 
  show: true
+tagcloud: true
 ---
 
 A tabela possui em seu formato original, caractéres codificados como números de 0 a 9, letras de a até z

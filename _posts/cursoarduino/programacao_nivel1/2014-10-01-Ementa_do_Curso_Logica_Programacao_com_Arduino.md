@@ -16,6 +16,7 @@ image:
   feature: logica_programacao/algoritmo-jogo-900x673.png
   credit: Carlos Delfino 
   creditlink: 
+tagcloud: true
 ---
 Um dos grandes desafios no curso de Arduino é quando o aluno, mesmo tendo um 
 excelente conhecimento em eletrônica, não tem experiência com lógica de programação 

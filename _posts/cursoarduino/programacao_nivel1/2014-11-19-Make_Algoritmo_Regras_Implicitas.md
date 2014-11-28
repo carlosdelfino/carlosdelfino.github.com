@@ -12,6 +12,7 @@ toc: true
 feature:
  index: true
  category: true
+tagcloud: true
 ---
 Com base no 
 [Manual do GNU Make](https://www.gnu.org/software/make/manual/html_node/Implicit-Rule-Search.html#Implicit-Rule-Search)

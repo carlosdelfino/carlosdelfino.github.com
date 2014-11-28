@@ -12,20 +12,47 @@ toc: true
 feature:
  index: true
  category: true
+tagcloud: true
 ---
 
 ## Qual o melhor lugar para começar a estudar o QEMU
 
-Inici seus estudos lendo todo este artigo, se souber inglês ou tiver
-facil entendimento de textos traduzidos livremente pelo tratutor do
+Comece seus estudos lendo todo este artigo, se souber inglês ou tiver
+fácil entendimento de textos traduzidos livremente pelo tratutor do
 google, use o link para o [Documentation/GettingStartedDevelopers](http://wiki.qemu.org/Documentation/GettingStartedDevelopers)
 
-Se leu o link acima, viu que antes de começar é preciso ter um profundo
-conhecimento do que já foi desenvolvido, portanto não faça nada antes
-de ter absoluta certeza que conhece o codigo do QEMU e principalmente
-domina o que pretende mudar. Leia detalhamente todo o código que pretende
-intervir e se certifique que não há algo similar ou outra pessoa já discutindo 
-tal mudança.
+Se leu o link acima, deve ter percebido que antes de começar é preciso
+ter um profundo conhecimento do que já foi desenvolvido, portanto não 
+faça nada antes de ter absoluta certeza que conhece o codigo do QEMU 
+e principalmente domina o que pretende mudar. Leia detalhamente todo 
+o código que pretende intervir e se certifique que não há algo similar 
+ou outra pessoa já discutindo tal mudança.
+
+## Clonando o repositório
+
+Eu estou mantendo 3 clones referentes ao QEMU em meu workspace, assim
+posso estudar o que está acontecendo em cada um deles, e sugiro fazer
+o mesmo, portanto segue os links:
+
+ * git://git.qemu-project.org/qemu.git
+   Repositório oficial do QEMU.
+   
+ * git://git.linaro.org/people/pmaydell/qemu-arm.git
+ 
+ * http://git.linaro.org/qemu/qemu-linaro.git
+
+## Por onde começar nos código
+
+Bem, antes de começar recomendo que leia o arquivo `HACKING`
+que está no raiz do repositorio oficinal do QEMU, este
+arquivo vem algumas orientações que podem contribuir com seu
+entendimento de porque as coisas são feitas como são e também
+ir se acostumando com os padrões de códigos.
+
+Leia também o arquivo `CODING_STYLE`, este arquivo irá lhe 
+apresentar o estilo de codificação adotado, ajutando também
+a copreender o porques e lhe treinando como deve ser escrito 
+o código do QEMU.
 
 ## Preparando o GIT para Commits e Patchs
 
@@ -87,4 +114,5 @@ para pular o pre-commit. Seja cuidadoso ao usar este recurso.
  * [http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)
  * [http://wiki.qemu.org/Documentation/GettingStartedDevelopers](http://wiki.qemu.org/Documentation/GettingStartedDevelopers)
  * [How to automatically run checkpatch.pl when developing QEMU](http://blog.vmsplice.net/2011/03/how-to-automatically-run-checkpatchpl.html)
- 
+ * [http://stackoverflow.com/questions/3812670/what-are-the-internal-processes-involved-for-a-c-compilation/3814007#3814007](http://stackoverflow.com/questions/3812670/what-are-the-internal-processes-involved-for-a-c-compilation/3814007#3814007)
+  
