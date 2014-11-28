@@ -3,7 +3,7 @@ title: Porque odeio matemática
 excerpt: Essa publicação me foi motivada, durante a leitura do artigo do proessor Edglei, veja na seção abiaxo fontes, o link.
 tags: [professores, tutores, herois, matemática, estudos]
 categories: [extra,educacao,matematica]
-layout: link
+layout: article
 share: true
 toc: true
 comments: true
@@ -18,6 +18,7 @@ image:
   credit: Prof. Edigley Alexandre
   creditlink: http://www.prof-edigleyalexandre.com/2011/11/ensino-de-matematica-com-o-contexto-e.html
 imagebase: "/images/extra/"
+tagcloud: true
 ---
 
 Eu não odeio matemática, mas esta publicação com esse título similar me
