@@ -14,6 +14,7 @@ image:
   credit: Starting Eletronics
   creditlink: http://startingelectronics.com/beginners/components/LCD/
 tags: [Arduino, LCD, Liquid Crystal, Arduino, Display, visor]
+tagcloud: true
 ---
 Veja no video abaixo como deve ser conectado a fiação para usar dois ou mais LCDs com o Arduino.
 <figure>

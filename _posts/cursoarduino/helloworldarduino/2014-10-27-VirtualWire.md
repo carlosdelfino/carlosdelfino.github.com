@@ -15,6 +15,7 @@ image:
    teaser: arduino/virtualwire/td_libs_VirtualWire_3-680x286.jpg
    feature: arduino/virtualwire/td_libs_VirtualWire_3-680x286.jpg
 imagebase: "/images/pensamentos/"
+tagcloud: true
 ---
 
 Este Artigo foi baseado no tutorial 

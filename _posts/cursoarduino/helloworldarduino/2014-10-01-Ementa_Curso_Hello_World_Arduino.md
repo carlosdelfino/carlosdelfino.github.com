@@ -12,6 +12,7 @@ image:
   feature: cursoarduino/cursohelloworldarduino-400x286.png
   credit: Carlos Delfino 
   creditlink: /sobre_mim/
+tagcloud: true
 ---
 Abaixo apresentamos a ementa do curso [Hello World Arduino](/helloworldarudino/)
 

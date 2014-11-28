@@ -6,9 +6,11 @@ tags: [Arduino, UNO, MEGA, Leonardo, DUE, AVR, ARM, pino, porta, recurso, corren
 layout: article
 comments: true
 share: true
-ads: true
+ads: 
+ show: true
 image:
   category: true
+tagcloud: true
 ---
 
 <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>

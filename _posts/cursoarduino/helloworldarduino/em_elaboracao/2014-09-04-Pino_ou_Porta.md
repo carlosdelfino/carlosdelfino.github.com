@@ -6,9 +6,11 @@ tags: [Arduino, UNO, MEGA, Leonardo, DUE, AVR, ARM, pino, porta, recurso, grupo]
 layout: article
 comments: true
 share: true
-ads: true
+ads: 
+ show: true
 image:
   category: true
+tagcloud: true
 ---
 
 

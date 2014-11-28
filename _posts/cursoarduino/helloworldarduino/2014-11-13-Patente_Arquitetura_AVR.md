@@ -14,6 +14,7 @@ feature:
 image:
  feature: helloworldarduino/patente_avr/Patente_Chip_AVR_ATmel-1024x576.jpg
  teaser: helloworldarduino/Atmel_AVR_(logo)-257x113.png
+tagcloud: true
 ---
 
 A patente do Microcontrolador **AVR**, um microcontrolador de 8 bits, foi registrada 

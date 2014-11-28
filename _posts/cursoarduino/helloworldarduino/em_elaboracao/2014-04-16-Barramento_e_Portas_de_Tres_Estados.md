@@ -7,10 +7,14 @@ layout: article
 comments: true
 toc: true
 share: true
+ads: 
+ show: true
 image:
   teaser: cursoarduino/cursohelloworldarduino-400x286.png
   feature: cursoarduino/cursohelloworldarduino-400x286.png
-  credit: Carlos Delfino <consultoria@carlosdelfino.eti.br
+  credit: Carlos Delfino 
+  creditlink: /sobre_mim/
+tagcloud: true
 ---
 Veja no fly postado em nossa fan page mais detalhes sobre este tópico. 
 <Figure>

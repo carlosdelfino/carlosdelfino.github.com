@@ -11,12 +11,27 @@ share: true
 feature:
  index: false
  category: false
+tagcloud: true
 ---
 
 **Aguarde:** Capítulo 1
 {: .notice-warning }
 
-Primeiro codigo básico, usando o display LCD5110 do Nokia 5110;
+Este tutorial mostra como criar um pequeno e simples multimetro microcontrolado.
+
+## Material Necessário
+
+ * Um Arduino UNO (preferivel com chip  ATMega328 DIP, se cometer um erro e queima-lo será fácil substítu-lo)
+ * Em torno de 9 jumpers
+ * Uma protoboard média
+ * um Modulo com LCD do tipo LCD5110 (aquele usado no celular Nókia 5110)
+ * Uma chave push button
+
+## Primeiro código básico
+
+O código abaixo é um primeiro passo para construir seu multímetro.
+No próximo capítulo explico como montar o circuito, vamos primeiro analisar
+ o código.
 
 {% highlight C linenos=table %}
 /*
@@ -101,3 +116,29 @@ void loop()
 
 }
 {% endhighlight %}
+
+## Analisando o código
+
+O código é muito simples incluimos a biblioteca SPI
+
+## Primeiro contato com o Módulo LCD5110
+
+Tenho 2 dois modelos do módulo LCD5110, um comprado diretamente na DX, e outro
+com nosso parceiro [Arduino Omega](http://arduinomega.com.br/index.php?route=product/product&product_id=60&search=5110)
+
+Ambos são baseados no mesmo LCD e no controlador `PCD8544` da PHILIPS, porém 
+cada um tem um backlight diferente e a pinagem do módulo em local diferente,
+mas ambos são conectados usando o barramento SPI, que é uma caracteristica do PCD8544.
+
+Mas este controlador usa 3,3V como alimentação, e não é seguro liga-lo a 5V,
+isso irá queima-lo, veremos no próximo cápitulo como conecta-lo corretamente.
+
+## Montando o Circuito
+
+iremos ver a montagem do circuito no próximo cápitulo, para evitarmos que o artigo fique 
+grande, e para que possamos discutir livremente cada etapa do projeto., além claro
+de pudermos fazer pequenos ajustes conforme a necessidade do projeto.
+
+Se já entendeu todo o código, agora você pode ir para [O Cápitulo 2](2014-11-17-Meu_Voltmetro_Com_Arduino_LCD5110_CAP_2.md). 
+
+ 

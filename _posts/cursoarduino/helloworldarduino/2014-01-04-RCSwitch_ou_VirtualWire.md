@@ -12,6 +12,7 @@ ads:
 feature:
  index: true
  category: true
+tagcloud: true
 ---
 
 ## A Biblioteca RC Switch

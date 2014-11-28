@@ -12,6 +12,7 @@ ads:
 comments: true
 toc: true
 share: true
+tagcloud: true
 ---
 O que você acha é linguagem, dialeto ou é apenas um framework?
 

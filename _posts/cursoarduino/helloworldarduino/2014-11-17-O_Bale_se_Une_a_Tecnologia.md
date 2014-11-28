@@ -17,6 +17,7 @@ image:
  teaser: e-textile/e-traces-shoes-2-400x250.jpg
  credit: Andrew Salomone
  creditlink: http://makezine.com/2014/11/06/e-traces-ballet-slippers-that-make-drawings-from-the-dancers-movements/e-traces-shoes-2/
+tagcloud: true
 ---
 
 Veja este nosso post em nossa fan page no facebook.

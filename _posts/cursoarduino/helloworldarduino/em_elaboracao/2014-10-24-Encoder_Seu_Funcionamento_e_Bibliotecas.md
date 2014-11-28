@@ -7,12 +7,15 @@ layout: article
 share: true
 toc: true
 comments: true
+ads: 
+ show: true
 image:
   teaser: encoder/take_2__0107.jpg
   feature: encoder/take_2__0107.jpg
   credit: USDigital
   creditlink: http://www.usdigital.com/products/a2k
 imagebase: "/images/encoder/"
+tagcloud: true
 ---
 
 Neste artigo iremos tratar especialmente dos encoders giratórios, porém o funcionamento dos 
