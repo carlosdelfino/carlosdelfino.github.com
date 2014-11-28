@@ -2,7 +2,7 @@
 title: Preparando o Ambiente para Estudar o QEMU
 excerpt: "O QEMU é um emulador de que nos permite executar códigos desenvolvidos para determinados processadores em outros, por exemplo tendo um código desenvolvido para ARM posso executa-lo em uma maquina i386, porém em muitos casos é preciso o respectivo sistema operacional. Neste estudo estarei propondo estudos com QEMU para uso da arquitetura Cortex-M na modalidade BareMetal e no máximo com RTOS como FreeRTOS"
 category: [logicadeprogramacao]
-tags: [QEMU, Bare Metal, Emulador, Make, Programação, Lógica, Compilação, Scripts, Shell, Ferramentas, Tools, Dicas, Algoritmo, Variáveis Automáticas, Variáveis, Variáveis Mágicas, Visibilidade de Variáveis, i386, ARM]
+tags: [QEMU, Bare Metal, Emulador, Make, Programação, Lógica, Compilação, Scripts, Shell, Ferramentas, Tools, Dicas, Algoritmo, Variáveis Automáticas, Variáveis, Variáveis Mágicas, Visibilidade de Variáveis, i386, ARM, virtualização, hiper-v, simulador]
 layout: article
 comments: true
 share: true
