@@ -1,7 +1,7 @@
 ---
 title: Porque odeio matemática
 excerpt: Essa publicação me foi motivada, durante a leitura do artigo do proessor Edglei, veja na seção abiaxo fontes, o link.
-tags: [professores, tutores, herois, matemática, estudos]
+tags: [professores, tutores, herois, matemática, estudos, educação, ensino, tática, estratégia, planejamento, adolescente, metodológia, empátia]
 categories: [extra,educacao,matematica]
 layout: article
 share: true
