@@ -9,6 +9,11 @@ ads:
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
+{% if page.tagcloud  %}
+			<aside id="tagcloud"></aside>
+			{% include gadget/d3-tagcloud.html container="tagcloud" height=250 width=600 %}
+{% endif %}
+				 
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
@@ -21,6 +26,7 @@ ads:
 				</footer><!-- /.footer -->
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
+					{% if page.amazon.productcloud == true %}{% include gadget/amazon/product-cloud-gadget.html %}{% endif %}
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->

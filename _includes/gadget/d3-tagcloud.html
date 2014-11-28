@@ -1,0 +1,43 @@
+{% unless d3-cloud %}
+<script src="{{ site.url }}/js/d3-cloud/lib/d3/d3.js"></script>
+<script src="{{ site.url }}/js/d3-cloud/d3.layout.cloud.js"></script>
+{% assign d3-cloud = true %}
+{% endunless %}
+
+
+
+<script>
+  var fill = d3.scale.category20();
+  
+  d3.layout.cloud().size(
+		  [{% if include.width  %}{{ include.width  }}{% else %}300{% endif %}, 
+		   {% if include.height %}{{ include.height }}{% else %}300{% endif %}]
+		  )
+      .words(["{{ page.tags | join: ', ' | replace: ', ','", "' | downcase}}"].map(function(d) {
+        return {text: d, size: 10 + Math.random() * 90};
+      }))
+      .padding(5)
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .font("Impact")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw)
+      .start();
+  function draw(words) {
+	  d3.select("{% if include.container %}#{{ include.container }}{% else %}#content{% endif %}").append("svg")
+        .attr("width", {% if include.width %}{{ include.width }}{% else %}300{% endif %})
+        .attr("height", {% if include.height %}{{ include.height }}{% else %}300{% endif %})
+      .append("g")
+        .attr("transform", "translate({% if include.width  %}{{ include.width | divided_by:2 }}{% else %}150{% endif %},{% if include.height %}{{ include.height | divided_by:2 }}{% else %}150{% endif %})")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+        .style("fill", function(d, i) { return fill(i); })
+        .attr("text-anchor", "middle")
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.text; });
+  }
+</script>
