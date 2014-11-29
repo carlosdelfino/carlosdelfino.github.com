@@ -9,7 +9,10 @@ feature:
  index: true
  category: true
 tagcloud: true
-ads: true
+ads: 
+ show: true
+share: true
+comments: true
 image:
  feature: extra/linus-eff-you-1200x673.png
  teaser: extra/linus-250x187.jpg
@@ -18,6 +21,7 @@ image:
 Tradução livre do e-mail: [http://harmful.cat-v.org/software/c++/linus](http://harmful.cat-v.org/software/c++/linus)
 
 <cite>
+
 Você está cheio de merda.
 
 C ++ é uma linguagem horrível. É feito mais horrível pelo fato de que uma grande quantidade
@@ -66,4 +70,5 @@ resultado é uma confusão horrível e insustentável.
 Mas eu tenho certeza que você gostaria que fosse mais do que git.
 
              Linus
+
 </cite>
