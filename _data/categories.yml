@@ -3,7 +3,7 @@ tecnologianosocial:
    aliases: [tecnologiasocial]
    
 perfil:
-   Name: "Perfil de Personalidades"
+   name: "Perfil de Personalidades"
    excerpt: "Lista detalhes pessoais de personalidades importantes ligadas as tecnologias que trabalho, Ciêntistas, Pesquisadores e Engenheiros"
    aliases: [profile, perfis]
    
