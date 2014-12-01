@@ -339,6 +339,11 @@
 	@include media($large) {
 		padding: 3em;
 	}
+	-webkit-transition: background 1000ms ease-in;
+-moz-transition: background 1000ms ease-in;
+-ms-transition: background 1000ms ease-in;
+-o-transition: background 1000ms ease-in;
+transition: background 1000ms ease-in;
 	h1 {
 		@include font-size(48);
 		@include media($medium) {
@@ -347,6 +352,10 @@
 		@include media($large) {
 			@include font-size(72);
 		}
+		 // needs latest Compass, add '@import "compass"' to your scss
+		@include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
+		// IE9 SVG, needs conditional override of 'filter' to 'none'
+		$experimental-support-for-svg: true;
 	}
 	h2 {
 		@include font-size(20);
@@ -356,10 +365,23 @@
 		@include media($large) {
 			@include font-size(32);
 		}
+		 // needs latest Compass, add '@import "compass"' to your scss
+		 @include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
+		 // IE9 SVG, needs conditional override of 'filter' to 'none'
+		 $experimental-support-for-svg: true;
+		 @include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
+
 	}
 	h4 {
 		font-size: 1.3rem;
 		line-height: 1.2;
+		
+		// needs latest Compass, add '@import "compass"' to your scss
+		@include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
+		// IE9 SVG, needs conditional override of 'filter' to 'none'
+		$experimental-support-for-svg: true;
+		@include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
+
 	}
 }
 // page header
