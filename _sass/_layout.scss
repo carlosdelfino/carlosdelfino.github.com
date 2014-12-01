@@ -352,10 +352,11 @@ transition: background 1000ms ease-in;
 		@include media($large) {
 			@include font-size(72);
 		}
-		 // needs latest Compass, add '@import "compass"' to your scss
-		@include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
+		// campass not working on github pages
+		// needs latest Compass, add '@import "compass"' to your scss
+		//@include filter-gradient(#ffffff, #ffffff, vertical); // IE6-8
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
-		$experimental-support-for-svg: true;
+		//$experimental-support-for-svg: true;
 	}
 	h2 {
 		@include font-size(20);
@@ -365,10 +366,12 @@ transition: background 1000ms ease-in;
 		@include media($large) {
 			@include font-size(32);
 		}
-		 // needs latest Compass, add '@import "compass"' to your scss
-		 @include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
-		 // IE9 SVG, needs conditional override of 'filter' to 'none'
-		 $experimental-support-for-svg: true;
+		// campass not working on github pages
+		// needs latest Compass, add '@import "compass"' to your scss
+		// @include filter-gradient(#ffffff, #ffffff, vertical); // IE6-8
+		// IE9 SVG, needs conditional override of 'filter' to 'none'
+		//$experimental-support-for-svg: true;
+		 
 		 @include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
 
 	}
@@ -376,10 +379,11 @@ transition: background 1000ms ease-in;
 		font-size: 1.3rem;
 		line-height: 1.2;
 		
+		// campass not working on github pages
 		// needs latest Compass, add '@import "compass"' to your scss
-		@include filter-gradient(#ffffff, #00ffffff, vertical); // IE6-8
+		//@include filter-gradient(#ffffff, #ffffff, vertical); // IE6-8
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
-		$experimental-support-for-svg: true;
+		//$experimental-support-for-svg: true;
 		@include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
 
 	}
