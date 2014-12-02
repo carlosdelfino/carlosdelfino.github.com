@@ -1,6 +1,6 @@
 ---
 title: FTDI Fake vs Real
-excerpt: Como diferenciar um Chip Fake de um Real? e como solucionar o problema que surgiu depois que a 
+excerpt: Como diferenciar um Chip Fake de um Real? e como solucionar o problema que surgiu depois que a FTDI bloqueou o uso do driver original com chips Fakes.
 tags: [FTDI, FAKE, REAL, Fake vs Real, Correção, Recuperação]
 categories: [HelloWorldArduino]
 layout: article
