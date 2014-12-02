@@ -13,8 +13,8 @@ feature:
  index: true
  category: true
 image:
-  teaser: cursoarduino/FTDI/ftdi-FT232RL-real-vs-fake-400x250.jpg
-  feature: cursoarduino/FTDI/ftdi-FT232RL-real-vs-fake-1200x592.jpg
+  teaser: helloworldarduino/FTDI/ftdi-FT232RL-real-vs-fake-400x250.jpg
+  feature: helloworldarduino/FTDI/ftdi-FT232RL-real-vs-fake-1200x592.jpg
   credit:  Zeptobars
   creditlink: http://zeptobars.ru/en/read/FTDI-FT232RL-real-vs-fake-supereal
 tagcloud: true
@@ -35,7 +35,7 @@ o chip falso, e até o momento a única forma encontrada é pela inscrição do
 código do chip, sendo original escrito a Laser, e o falsificado apenas impresso.
 
 <figure>
-<img src="/images/cursoarduino/FTDI/ftdi-FT232RL-real-vs-fake-1200x592.jpg" />
+<img src="{{site.url}}/images/helloworldarduino/FTDI/ftdi-FT232RL-real-vs-fake-1200x592.jpg" />
 <figcaption>
 Na foto ao lado que obtive no [Artigo](http://zeptobars.ru/en/read/FTDI-FT232RL-real-vs-fake-supereal), 
 é possível ver a diferença de impressão.
