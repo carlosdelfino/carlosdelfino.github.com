@@ -63,11 +63,11 @@ mais baratos desde que originais.
 
 ## Solucionando o problema, caso seu chip parou de funcionar
 
-[este link encontrei a solução abaixo](http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl):
+[Nesse link encontrei a solução abaixo](http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl):
 
 ## Resetando o PID com o Windows 8.1
 
- * Download FT_Prog no link [https://code.google.com/p/libcomm14cux/wiki/ModifyFTDIFirmwareWithLinux](https://code.google.com/p/libcomm14cux/wiki/ModifyFTDIFirmwareWithLinux)
+ * Download FT_Prog no link http://www.ftdichip.com/Support/Utilities.htm#FT_Prog](http://www.ftdichip.com/Support/Utilities.htm#FT_Prog)
  * Download o Driver VCP no link [http://www.ftdichip.com/Drivers/VCP.htm](http://www.ftdichip.com/Drivers/VCP.htm)
  * Extraia e edite o arquivo `ftdibus.inf` e altere todos os valores `PID` de 6001 para 0000
  * Ative carregando o driver não assinado (no canto da tela -> alterar configuraçòes do PC -> Atualizaçòes -> Restaurar Windows -> Inicio Avançado -> Solucionar Problema -> Escolher opções avançadas ->  Desativar assinatura do drive reiniciar a carga do driver modificado no gerenciador de Hardware)
@@ -91,5 +91,6 @@ mais baratos desde que originais.
 ## fontes:
 
  * https://www.sparkfun.com/news/1629
+ * http://www.ftdichipblog.com/?p=1053
  * http://zeptobars.ru/en/read/FTDI-FT232RL-real-vs-fake-supereal
  * http://www.reddit.com/r/arduino/comments/2k0i7x/watch_that_windows_update_ftdi_drivers_are/clgviyl
