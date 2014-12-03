@@ -27,6 +27,7 @@ ads:
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 					{% if page.amazon.productcloud == true %}{% include gadget/amazon/product-cloud-gadget.html %}{% endif %}
+					{% if page.coinbase.show == true %}{% include bitcoin/coinbase.html %}{% endif %}
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
