@@ -13,6 +13,8 @@ ads:
  show: true
 share: true
 comments: true
+coinbase:
+  show: true
 image:
  feature: extra/linus-eff-you-1200x673.png
  teaser: extra/linus-250x187.jpg
@@ -20,7 +22,7 @@ image:
 
 Tradução livre do e-mail: [http://harmful.cat-v.org/software/c++/linus](http://harmful.cat-v.org/software/c++/linus)
 
-<cite>
+<blockquote>
 
 Você está cheio de merda.
 
@@ -71,4 +73,5 @@ Mas eu tenho certeza que você gostaria que fosse mais do que git.
 
              Linus
 
-</cite>
+
+</blockquote>

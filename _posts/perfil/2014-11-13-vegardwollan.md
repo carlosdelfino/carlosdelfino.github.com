@@ -11,6 +11,8 @@ share: true
 feature:
  index: true
  category: true
+coinbase:
+  show: true
 image:
  feature: perfil/vegard-wollen_paul-rako_avr-ease-of-use-610x360.jpg
  teaser: perfil/Vegard_Wollan_SLB3588-250x169.jpg
