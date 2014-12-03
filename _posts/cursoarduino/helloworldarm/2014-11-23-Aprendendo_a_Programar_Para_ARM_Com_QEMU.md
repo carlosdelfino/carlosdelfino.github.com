@@ -13,6 +13,8 @@ feature:
  index: true
  category: true
 tagcloud: true
+coinbase:
+  show: true
 ---
 
 Porém iniciei meus estudos do QEMU  para ARM faz um a dois meses e não 

@@ -7,6 +7,8 @@ excerpt: Neste artigo apresentou uma solução simples para adaptar um sensor PI
 comments: true
 share: true
 toc: true
+coinbase:
+  show: true
 ads:
  show: true
 feature:

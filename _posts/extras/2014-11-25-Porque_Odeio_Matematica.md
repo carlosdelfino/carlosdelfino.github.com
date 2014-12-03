@@ -19,6 +19,8 @@ image:
   creditlink: http://www.prof-edigleyalexandre.com/2011/11/ensino-de-matematica-com-o-contexto-e.html
 imagebase: "/images/extra/"
 tagcloud: true
+coinbase:
+  show: true
 ---
 
 Eu não odeio matemática, mas esta publicação com esse título similar me

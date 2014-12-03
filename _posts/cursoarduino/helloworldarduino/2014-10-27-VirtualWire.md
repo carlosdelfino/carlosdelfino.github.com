@@ -16,6 +16,8 @@ image:
    feature: arduino/virtualwire/td_libs_VirtualWire_3-680x286.jpg
 imagebase: "/images/pensamentos/"
 tagcloud: true
+coinbase:
+  show: true
 ---
 
 Este Artigo foi baseado no tutorial 

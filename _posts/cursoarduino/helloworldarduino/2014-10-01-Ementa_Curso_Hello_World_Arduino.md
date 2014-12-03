@@ -15,6 +15,8 @@ image:
   credit: Carlos Delfino 
   creditlink: /sobre_mim/
 tagcloud: true
+coinbase:
+  show: true
 ---
 Abaixo apresentamos a ementa do curso [Hello World Arduino](/helloworldarudino/)
 

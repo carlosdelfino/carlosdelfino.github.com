@@ -12,6 +12,8 @@ feature:
 ads: 
  show: true
 toc: true
+coinbase:
+  show: true
 image:
   teaser: helloworldarm/SAM4SxPlained-255x180.png
   feature: helloworldarm/SAM4SxPlained-400x280.jpg

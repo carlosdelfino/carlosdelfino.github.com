@@ -11,9 +11,12 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 image:
    teaser: pbx_digital/asterisk-400x250.png
    feature: pbx_digital/asterisk-640x359.png
+   credit: Asterisk
 ---
   * PBX (Private Branch Exchange)
 é uma pequena central telefonica que pode ter apenas dois pontos de conexão telefônicos ou até mesmo centenas.

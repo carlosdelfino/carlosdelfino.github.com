@@ -12,6 +12,8 @@ ads:
 feature:
  index: true
  category: true
+coinbase:
+  show: true
 image:
   teaser: helloworldarduino/FTDI/ftdi-FT232RL-real-vs-fake-400x250.jpg
   feature: helloworldarduino/FTDI/ftdi-FT232RL-real-vs-fake-1200x592.jpg

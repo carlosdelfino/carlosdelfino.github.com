@@ -12,6 +12,8 @@ ads:
 comments: true
 toc: true
 share: true
+coinbase:
+  show: true
 image:
  feature: e-textile/e-traces-shoes-2-800x600.jpg
  teaser: e-textile/e-traces-shoes-2-400x250.jpg

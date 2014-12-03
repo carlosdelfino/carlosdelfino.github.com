@@ -13,6 +13,8 @@ ads:
 share: true
 image: 
  category: true
+coinbase:
+  show: true
 ---
 
 Os grupos listados abaixo são moderados por mim, os grupos foram criados inicialmente

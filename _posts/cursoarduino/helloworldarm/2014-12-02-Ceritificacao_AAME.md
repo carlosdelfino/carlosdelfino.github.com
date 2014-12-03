@@ -12,6 +12,8 @@ ads:
  show: true
 share: true
 comments: true
+coinbase:
+  show: true
 image:
  feature: helloworldarm/grafico_aame-1200x552.jpg
  teaser: helloworldarm/grafico_aame-450x250.jpg

@@ -13,6 +13,8 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 image:
   teaser: /arduino/dicas/Ouija_Board-300x150.jpg
   feature: /arduino/dicas/Ouija_Board-700x350.jpg

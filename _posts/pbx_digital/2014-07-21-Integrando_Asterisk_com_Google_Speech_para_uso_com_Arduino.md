@@ -11,10 +11,12 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 image:
   teaser: pbx_digital/asterisk-255x180.png
   feature: pbx_digital/asterisk-640x359.png
-  credit: 
+  credit: Asterisk
   creditlink: http://www.asterisk.org/
 tags:
 ---

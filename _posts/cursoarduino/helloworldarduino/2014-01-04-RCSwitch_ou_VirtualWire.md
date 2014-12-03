@@ -13,6 +13,8 @@ feature:
  index: true
  category: true
 tagcloud: true
+coinbase:
+  show: true
 ---
 
 ## A Biblioteca RC Switch

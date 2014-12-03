@@ -13,6 +13,8 @@ comments: true
 toc: true
 share: true
 tagcloud: true
+coinbase:
+  show: true
 ---
 O que você acha é linguagem, dialeto ou é apenas um framework?
 

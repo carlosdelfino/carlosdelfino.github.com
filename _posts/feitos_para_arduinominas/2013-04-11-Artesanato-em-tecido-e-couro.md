@@ -9,6 +9,8 @@ share: true
 toc: true
 ads:
  show: true
+coinbase:
+  show: true
 feature:
  index: true
  category: true
