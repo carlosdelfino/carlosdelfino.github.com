@@ -357,6 +357,8 @@ transition: background 1000ms ease-in;
 		//@include filter-gradient(#ffffff, #ffffff, vertical); // IE6-8
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
 		//$experimental-support-for-svg: true;
+
+		@include background-image(linear-gradient(top,  rgba(255,255,255,.9) 20%,rgba(255,255,255,.2) 80%));
 	}
 	h2 {
 		@include font-size(20);
@@ -372,7 +374,7 @@ transition: background 1000ms ease-in;
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
 		//$experimental-support-for-svg: true;
 		 
-		 @include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
+		@include background-image(linear-gradient(top,  rgba(255,255,255,,9) 20%,rgba(255,255,255,.2) 80%));
 
 	}
 	h4 {
@@ -384,7 +386,8 @@ transition: background 1000ms ease-in;
 		//@include filter-gradient(#ffffff, #ffffff, vertical); // IE6-8
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
 		//$experimental-support-for-svg: true;
-		@include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%));
+
+		@include background-image(linear-gradient(top,  rgba(255,255,255,.9) 20%,rgba(255,255,255,.2) 80%));
 
 	}
 }
