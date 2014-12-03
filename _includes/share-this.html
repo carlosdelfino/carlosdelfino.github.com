@@ -5,18 +5,18 @@
 {% assign shareurl = page.url | replace:'index.html','' | prepend: site.url %}
 {% endif %}
 <center>
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ shareurl }}&amp;via={{ site.owner.twitter }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/twitter.png" alt="Twitter" /></a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ shareurl }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/facebook.png" alt="Facebook" /></a></a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url={{ shareurl }}" target="_blan"><img width="40px" src="{{ site.url }}/images/social-btn/google.png" alt="Google" /></a> 	
+	<a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ shareurl }}&amp;via={{ site.owner.twitter }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/twitter.png" alt="Twitter" /></a>
+	<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/facebook.png" alt="Facebook" /></a></a>
+	<a class="google-plus"  href="https://plus.google.com/share?url={{ shareurl }}" target="_blan"><img width="30px" src="{{ site.url }}/images/social-btn/google.png" alt="Google" /></a> 	
 <!-- LinkedIn -->
-<a class="btn-social linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ shareurl }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/linkedin.png" alt="LinkedIn" /></a> 
+<a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/linkedin.png" alt="LinkedIn" /></a> 
 <!-- Digg -->
-<a class="btn-social digg"href="http://www.digg.com/submit?url={{ shareurl }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/diggit.png" alt="Digg" /></a>
+<a class="digg"href="http://www.digg.com/submit?url={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/diggit.png" alt="Digg" /></a>
 <!-- Reddit -->
-<a class="btn-social reddit" href="http://reddit.com/submit?url={{ shareurl }}&title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/reddit.png" alt="Reddit" /></a>
+<a class="reddit" href="http://reddit.com/submit?url={{ shareurl }}&title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/reddit.png" alt="Reddit" /></a>
 <!-- StumbleUpon-->
-<a class="btn-social stumbleupon" href="http://www.stumbleupon.com/submit?url={{ shareurl }}title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/stumbleupon.png" alt="StumbleUpon" /></a>
+<a class="stumbleupon" href="http://www.stumbleupon.com/submit?url={{ shareurl }}title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/stumbleupon.png" alt="StumbleUpon" /></a>
 <!-- Email -->
-<a class="btn-social email" href="mailto:?Subject={{ page.title | escape | replace:' ','%20' }}&Body={{ shareurl | escape | replace:' ','%20' }}%20{{ page.excerpt | escape | replace:' ','%20' }}"><img width="40px" src="{{ site.url }}/images/social-btn/email.png" alt="Email" /></a>
+<a class="email" href="mailto:?Subject={{ page.title | escape | replace:' ','%20' }}&Body={{ shareurl | escape | replace:' ','%20' }}%20{{ page.excerpt | escape | replace:' ','%20' }}"><img width="30px" src="{{ site.url }}/images/social-btn/email.png" alt="Email" /></a>
 </center>
 </div><!-- /.share-this -->
