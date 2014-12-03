@@ -1,7 +1,7 @@
 ---
 title: FTDI Fake vs Real
 excerpt: Como diferenciar um Chip Fake de um Real? e como solucionar o problema que surgiu depois que a FTDI bloqueou o uso do driver original com chips Fakes.
-tags: [FTDI, FAKE, REAL, Fake vs Real, Correção, Recuperação]
+tags: [FTDI, FAKE, REAL, Fake vs Real, Correção, Recuperação, Windows, Linux, Mac]
 categories: [HelloWorldArduino]
 layout: article
 share: true
@@ -78,12 +78,15 @@ mais baratos desde que originais.
 
 ### Solucionando o problema no ubuntu
 
- * Verifique em [https://code.google.com/p/libcomm14cux/wiki/ModifyFTDIFirmwareWithLinux](https://code.google.com/p/libcomm14cux/wiki/ModifyFTDIFirmwareWithLinux)
- * Use o comando abaixo
+ [A solução abaixo pode ser vista neste link.](http://www.minipwner.com/index.php/unbrickftdi000)
 
-{% highlight bash %}
-sudo ./ft232r_prog --new-pid 0x6001
-{% endhighlight %}
+ * Conecte seu dispotivo, execute o comando "lsusb" e verá algo como  "0403:0000".
+ * Download [ft232r_prog (v1.24)](http://rtr.ca/ft232r/ft232r_prog-1.24.tar.gz) e extraia o programa.
+ * Instale as dependenncias usando por exemplo o comando "sudo apt-get install make gcc libftdi-dev"
+ * Altere para o diretório onde descompactou o ft232r_prog onde está o arquivo ft232r_prog.c.
+ * Execute o comando "make"
+ * Agora execute "sudo ./ft232r_prog --old-pid 0x0000 --new-pid 0x6001"
+ * Tudo pronto. desconte seu equipamento e reconecte, rode novamente o comando "lsusb". Ele deve mostrar o ID 0403:6001
 
 ## fontes:
 
