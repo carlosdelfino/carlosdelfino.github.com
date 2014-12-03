@@ -10,6 +10,8 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 image:
  teaser: pensamentos/pensamento1-400x200.jpg
  feature: pensamentos/pensamento1-400x200.jpg

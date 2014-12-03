@@ -12,4 +12,6 @@ feature:
  index: true
  category: true
 toc: true
+coinbase:
+  show: true
 ---

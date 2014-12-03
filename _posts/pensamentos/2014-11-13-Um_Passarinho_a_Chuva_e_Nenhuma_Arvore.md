@@ -1,5 +1,5 @@
 ---
-title: Um Passárinho a Chuva e Nenhuma Árvore
+title: Um Passarinho a Chuva e Nenhuma Árvore
 excerpt: Mais um dia de chuva, graças a Deus, mas graças a nós nenhuma ávore para nós abrigarmos, e muito menos para os passáros. 
 category: pensamentos
 tags: [natureza, passaro, arvore, vida, cuidado, atitude]
