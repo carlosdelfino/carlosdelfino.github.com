@@ -67,6 +67,7 @@ mais baratos desde que originais.
 
 ## Resetando o PID com o Windows 8.1
 
+ * Certifique que o .Net 4.0 esteja instalado
  * Download FT_Prog no link http://www.ftdichip.com/Support/Utilities.htm#FT_Prog](http://www.ftdichip.com/Support/Utilities.htm#FT_Prog)
  * Download o Driver VCP no link [http://www.ftdichip.com/Drivers/VCP.htm](http://www.ftdichip.com/Drivers/VCP.htm)
  * Extraia e edite o arquivo `ftdibus.inf` e altere todos os valores `PID` de 6001 para 0000
