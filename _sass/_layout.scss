@@ -374,7 +374,7 @@ transition: background 1000ms ease-in;
 		// IE9 SVG, needs conditional override of 'filter' to 'none'
 		//$experimental-support-for-svg: true;
 		 
-		@include background-image(linear-gradient(top,  rgba(255,255,255,,9) 20%,rgba(255,255,255,.2) 80%));
+		@include background-image(linear-gradient(top,  rgba(255,255,255,.9) 20%,rgba(255,255,255,.2) 80%));
 
 	}
 	h4 {
