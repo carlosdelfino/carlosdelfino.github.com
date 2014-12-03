@@ -13,6 +13,8 @@ feature:
 ads: 
  show: true
 math: true
+coinbase:
+  show: true
 image:
    teaser: /extra/ensino_de_matematica_com_contexto_e_aplicacoes-400x267.jpg
    feature: /extra/formulas_matematicas-1200x778.jpg

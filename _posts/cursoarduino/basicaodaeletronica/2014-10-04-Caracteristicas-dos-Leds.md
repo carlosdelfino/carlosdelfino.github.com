@@ -12,6 +12,8 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 ---
 A figura abaixo foi postada no facebook na página [http://facebook.com/BasicaoDaEletronica](http://facebook.com/BasicaoDaEletronica/) 
 

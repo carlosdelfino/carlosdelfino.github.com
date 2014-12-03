@@ -11,6 +11,8 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 toc: true
 ---
 

@@ -11,6 +11,8 @@ feature:
  category: true
 ads: 
  show: true
+coinbase:
+  show: true
 image:
    feature: /basicaodaeletronica/jumpers-900x500.jpg
    teaser: /basicaodaeletronica/jumpers-300x200.jpg
