@@ -1,5 +1,5 @@
 ---
-permalink: /cursoarduino/
+permalink: /ArduinoDay14BH/
 redirect_to: /ArduinoDay14BH/
 title: Arduino Day 2014
 excerpt: "Organização Arduino Day 2014"
