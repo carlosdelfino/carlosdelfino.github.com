@@ -43,9 +43,12 @@ saída de um dispositivo que está acoplado ao endereço indicado, registradores
 de controle também podem ser usados assim, seja a arquitetura AVR ou ARM
 tal recurso é amplamente utilizado.
 
-Não confunda os registradores do processador, que auxiliam nas operações
-internas de manipulação de dados, com os registradores de dispositivos, como
-conversor Analógico Digital, Portas Seriais, entre diversos outros.
+Não confunda os registradores de uso geral do processador, que auxiliam 
+nas operações internas de manipulação de dados, com os registradores de 
+dispositivos, como conversor Analógico Digital, Portas Seriais, entre 
+diversos outros. Ambos são mapeados na memória RAM mesmo que sendo somente 
+leitura.
+{: notice-warning }
 
 Veja que quando se utiliza as constantes para tais aplicações, acesso a 
 dispositivos internos ao chip acomplados ao Microcontrolador, é preciso
@@ -77,6 +80,8 @@ Um exemplo de uma representação textual de um valor é a constante PI, sem dú
 que é mais fácil do que digitar todas vezes que preciso o número `3.14159265359`
 mas qual o impacto deu usar uma macro ou uma constante? bem do primeiro ponto de 
 vista não há muito impacto.
+
+## Analisando o código usando Macro de pre-preprocessamento
 
 Fiz alguns testes usando o Arduino para demonstrar tal impacto, e não percebi 
 diferença prática alguma no resutlado final, e isso pode ser facilmente constatado
@@ -115,21 +120,21 @@ Já na linha 12 do código em assembly temos:
 Este códigos são números em exadecimal, o primeiro `d4`, é a linha
 de nosso códio assembly, em seguida temos `6d e0` que é o código que
 diz a CPU para fazer uma carga imediata no registrador r22 do valor 
-`0x0D` que nada mais nada menos que o valor decimal `13`, ou seja
+`0x0D` que é, nada mais nada menos, o valor decimal `13`, ou seja
 ai está o ponto a macro foi convertida ao seu valor. A representação 
-textual de tal comando é `ldi r22, 0x0D`
+textual (mnemônico) de tal comando é `ldi r22, 0x0D`.
 
 Vejamos outro ponto do código onde em C/c++ (linha 10 e 19), calculamos
 inicialmente um valor inteiro da divisão `CONST_MACRO/5` que é armazenado
 na variável `int var_int`, veja que usamos tal variável apenas uma única
-vez no código na linha 19, portanto como o Arduino ao compilar tal código
+vez no código na linha 19, portanto como o Arduino ao compilar o código
 usa optimizaçõa máxima a váriavel deixa de existir, e assim temos o valor
-obtido no calculo sado diretamente como parametro para a chamada da função
+obtido no cálculo sendo diretamente como parametro para a chamada da função
 que imprime o valor na serial.
 
-Veja isso nas linhas 42 até 48, o valor que está extamente sendo carregado
-no registrador `r22` na linha 44 (em assembly linha 118), representado pelos
-códigos: 
+Veja isso nas linhas 42 até 48 do codigo assembly, o valor que está extamente 
+sendo carregado no registrador `r22` na linha 44 (em assembly linha 118), 
+representado pelos códigos: 
 
 `118:   62 e0           ldi     r22, 0x02       ; 2` 
 
@@ -138,11 +143,33 @@ e o valor 0x02 é o resultado obtido no calculo `CONST_MACRO/5` ou seja
 `13/5`, como estamos lidando com um valores inteiros temos apenas a parte 
 inteira do cálculo.
 
-Aguarde estou terminando esta postagem
-{: notice-warning }   
+## Analisando o código usando constantes
 
+Vejamos abaixo o códio para o arduino usando constante.
+
+<script src="http://pastebin.com/embed_js.php?i=TZ1ZDZwh"></script>
+
+E abaixo vemos o código assembly gerado.
+
+<script src="http://pastebin.com/embed_js.php?i=EhX9y71e"></script>
+
+Podemos ver que há pouco diferença no trato dos valores, 
+com exceção das linhas 25 a 35 e 36 a 45 no código assembly logo 
+acima, onde é usado o ponteiro (linhas 20 e 21 do código em C/C++), 
+nesta linhas temos acesso ao valor que representa o ponteiro.
+
+A vantagem em termos o valor de ponteiro sem dúvida é que podemos
+optimizar muitas operações, mas ao nível de simplicidade de tais códigos
+não é tão interessante, já que o próprio optimizador do GCC, nos
+oculta diversas questões que teoricamente existem, mas na prática
+desaparecem com tal optimização.
+
+de qualquer forma fica o código para uma analise minusiosa de quem
+quer dominar a programação do Arduino e partir para níveis mais altos
+adotando o AVR e seus macetes como o caminho para um código de qualidade.
+ 
 
 ## Fontes
  
  * [http://www.cs.ust.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter03.html#Heading134](http://www.cs.ust.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter03.html#Heading134)
- 
+ * [http://www.tfinley.net/notes/cps104/floating.html](http://www.tfinley.net/notes/cps104/floating.html) 
