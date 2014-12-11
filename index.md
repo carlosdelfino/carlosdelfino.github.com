@@ -10,15 +10,24 @@ image:
 title: "Início"
 ---
 
-**Estamos trabalhando em um novo site, agora usando o Jekyll, com o layout Skinny Bones.**
-
-Em cada artigo/post há a possibilidae de deixar sua sugestão e dúvidas sobre o tema tratádo.
-Mesmo que um artigo ainda esteja sendo escrito, quando já for possível abrir uma debate sobre
-o tema estarei publicando para que todos possam contribuir com comentários e dúvidas, permitindo
+Em cada artigo/post há a possibilidae de deixar sua sugestão e dúvidas 
+sobre o tema tratádo. Mesmo que um artigo ainda esteja sendo escrito, 
+quando já for possível abrir uma debate sobre o tema estarei publicando 
+para que todos possam contribuir com comentários e dúvidas, permitindo
 assim que o artigo seja direcionado conforme as necessidades de cada um.
 
 <hr />
- 
+
+Abaixo estão listados as últimas 20 publicações que fiz até agora, para 
+encontrar outras publicações visite o link [Categorias](/categorias/), ou 
+procure por "[tags](/tags)". 
+
+Temos também uma seção sobre nossos [cursos](/cursosarduino/), apesar de 
+alguns não estarem consolidados, posso ministra-los conforme a demanda.
+
+<hr />
+
+# Artigos 
 <div class="tiles">
 {% for post in site.posts limit:20 %}
    {% if post.feature.index %}
