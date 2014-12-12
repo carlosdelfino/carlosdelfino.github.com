@@ -15,7 +15,11 @@ Carlos Delfino Carvalho Pinheiro
 Consultor / Desenvolvedor /Programador / Analista de Suporte e Sistemas
 
 ###### BIO:
-27 anos de mercado, iniciei profissionalmente com programação e com a demanda por profissionais qualificado em suporte a rede de computadores, me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
+Já com 30 anos de mercado, iniciei profissionalmente como programador e 
+com a demanda por profissionais qualificado em suporte a rede de computadores,
+e tendo grande afinidade com infraestrutura me especializei iniciando com o 
+Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este 
+começou a dominar o mercado em 1996.
 
 Em paralelo atuei como consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
 
@@ -44,12 +48,13 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 * E-mail: consultoria@carlosdelfino.eti.br
 
 ###### Redes Sociais (Midias entre outros)
-* Facebook: http://www.facebook.com.br/carlosdelfinocarvalhopinheiro
-* Twitter: http://twitter.com/fullsrv
-* Linked-in: http://linkedin.com/in/carlosdelfino
-* GlobalShare: https://www.globallshare.com/carlosdelfino
-* Copy: https://copy.com?r=3GWJwr
-* Dropbox: https://db.tt/Yiwpb6Q
+* Facebook: [http://www.facebook.com.br/carlosdelfinocarvalhopinheiro](http://www.facebook.com.br/carlosdelfinocarvalhopinheiro)
+* Twitter: [http://twitter.com/fullsrv](http://twitter.com/fullsrv)
+* Linked-in: [http://linkedin.com/in/carlosdelfino](http://linkedin.com/in/carlosdelfino)
+* GlobalShare: [https://www.globallshare.com/carlosdelfino](https://www.globallshare.com/carlosdelfino)
+* Copy: [https://copy.com?r=3GWJwr](https://copy.com?r=3GWJwr)
+* Dropbox: [https://db.tt/Yiwpb6Q](https://db.tt/Yiwpb6Q)
+* Reddit: [http://www.reddit.com/user/CarlosDelfino/](http://www.reddit.com/user/CarlosDelfino/)
 
 ###### TESOUROS:
 <ul class="th-grid">
