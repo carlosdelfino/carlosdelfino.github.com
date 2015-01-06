@@ -1,5 +1,5 @@
 ---
-redirect_from: "/mobilidade_humana/"
+redirect_from: "/mobilidadehumana/"
 title: Projeto Mobilidade Humana
 excerpt: Mobilidade Humana
 tags: [ARM, AVR, Plataforma de Desenvolvimento, Eclipse, IDE, CMSIS, Mobilidade Humana, FES, AMG, eletrodo, Neuro Ciencia, Pesquisa, PMBoK, Projeto, Desenvolvimento, Pesquisa, Oportunidade, Emprego]
