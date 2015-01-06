@@ -2,7 +2,7 @@
 redirect_from: "/mobilidadehumana/"
 title: Projeto Mobilidade Humana
 excerpt: Mobilidade Humana
-tags: [ARM, AVR, Plataforma de Desenvolvimento, Eclipse, IDE, CMSIS, Mobilidade Humana, FES, AMG, eletrodo, Neuro Ciencia, Pesquisa, PMBoK, Projeto, Desenvolvimento, Pesquisa, Oportunidade, Emprego]
+tags: [Mobilidade Humana, FES, EMG, Eletródo, Neuro Ciência, Pesquisa, PMBoK, Projeto, Desenvolvimento, Oportunidade, Emprego, Estágio, Ciência, Fisioterápia, Mobilidade, Cadeira de Rodas, Controle, Corpo Humano, Musculatura, Nervos, Neurónios]
 categories: [Projetos]
 layout: article
 share: true
@@ -14,7 +14,7 @@ google:
   plusone: true
 ads:
  show: true
-tagcloud: true
+tagcloud: false
 ---
 ### Contexto: 
 Mobilidade Humana
