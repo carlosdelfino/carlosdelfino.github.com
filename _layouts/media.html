@@ -12,7 +12,7 @@ layout: default
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
 		{% endif %}
-		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+		{% include breadcrumbs.html %}
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
@@ -30,6 +30,6 @@ layout: default
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		{% if page.ads.show %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+		{% if page.ads.show == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
 	</article><!-- /.wrap -->
 </div><!-- /#main -->
