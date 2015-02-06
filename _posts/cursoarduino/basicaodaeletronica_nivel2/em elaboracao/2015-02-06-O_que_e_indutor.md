@@ -32,7 +32,7 @@ Quando a corrente passa pelo fio esta induz um campo magnético
 que ao ser interceptado por outro campo interfere assim no fluxo 
 da corrente.
 
-<img src="images/basicaodaeletronica/indutores/indutor_basico_e_ideal-364x200.png" />
+<img src="/images/basicaodaeletronica/indutores/indutor_basico_e_ideal-364x200.png" />
 
 Como o Indutor é composto de diversos loops a própría corrente 
 sobre sua estrutura interferência em seu fluxo pelo campo magnético 
@@ -55,13 +55,13 @@ literatura, e pode variar conforme o circuito aplicado.
 O termo Bobina, Choque, e até mesmo Reator reference ao mesmo 
 componente. 
 
-<img src="images/basicaodaeletronica/indutores/magnetic_ballasts_237x200.jpg" />
+<img src="/images/basicaodaeletronica/indutores/magnetic_ballasts_237x200.jpg" />
 Os _Reatores_ são um tipo de bobina utilizados especialmente 
 em lampadas florescentes, são grandes e pessados e hoje em 
 muitos casos são substituidos por circuitos especiais, sua 
 função é regular o fluxo de corrente.
 
-<img src="images/basicaodaeletronica/indutores/common-mode-choke-800x308.png" />
+<img src="/images/basicaodaeletronica/indutores/common-mode-choke-800x308.png" />
 O Termo _Choke_ ou _Choque_ vem do inglês _choking_ ou seja
 bloquear, quando usado em filtros que eliminam altas frequências.
 Os Choques são normalmente construidos em pares de forma que
@@ -78,7 +78,7 @@ um fio enrolado como uma bobina.
 Todos os indutores tem um formato similar, podendo variar
 na forma do rolamento, seu núcleo e se são do tipo duplo.
 
-<img src="images/basicaodaeletronica/indutores/indutor_nucleo_ar-219x200.png" /> 
+<img src="/images/basicaodaeletronica/indutores/indutor_nucleo_ar-219x200.png" /> 
 Os indutores podem ser enrolados sobre o ar ou si mesmos,
 são chamados simplesmente de "Indutores de Núcleo de Ar".
 Tais indutores não possuem núcleo, ou quando possuem são
@@ -99,7 +99,7 @@ Há indutores que são construidos de forma a terem seu núcleo
 ajustados, tendo assim suas caracteristicas alteradas conforme
 o núcleo é inserido na bobina.
 
-<img src="images/basicaodaeletronica/indutores/indutor_nucleo_ferrite-248x200.png" />
+<img src="/images/basicaodaeletronica/indutores/indutor_nucleo_ferrite-248x200.png" />
 Há indutores de ferrite que são construidos também em formato
 toroidal, são compactos e de excelente estabilidade. Uma das
 grandes qualidades dos Indutores Toroidal, é o fato de sofrerem
@@ -122,7 +122,7 @@ artigo sobre o assunto. Portando iremos cosiderar aqui apenas seu
 valor medido em Henris e será cosiderado os demais valores como 
 sendo um componente ideal.
 
-<img src="images/basicaodaeletronica/indutores/escala_indutancia_multimetro_minipa_et-2082c-800x480.jpg" />
+<img src="/images/basicaodaeletronica/indutores/escala_indutancia_multimetro_minipa_et-2082c-800x480.jpg" />
 Os indutores dificilmente terão valores maiores que 100mH (Cem 
 Milionesimos de Henry) ou menores que 1uH (Um Micro Henry),
 Porém você irá encontrar multimetros que  tem escalas com leituras 
@@ -135,6 +135,8 @@ valores somados ou divididos da mesma forma que resistores.
 
 ## Construindo seus Próprios Indutores
 
+Em analise das melhores opções para construção.
+{: .notice-warning }
 
 ## Fontes
  
