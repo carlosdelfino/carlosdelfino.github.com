@@ -1,6 +1,7 @@
 ---
+redirect_from: "/basicaodaeletronica/Fazendo_Seus_Proprios_Jumpers/"
 title: Fazendo seus próprios Jumpers
-categories: [BasicaoDaEletronica]
+categories: [BasicaoDaEletronica, Nivel 1]
 exerpt: Um video prático explicando como fazer seus próprios jumpers para que possa desenvolver seus protótipos, sem fios embolados.
 layout: article
 tags: [jumpers, conexões, eletrônica básica, estilete, protoboard, breadboard, circuitos, protótipos]

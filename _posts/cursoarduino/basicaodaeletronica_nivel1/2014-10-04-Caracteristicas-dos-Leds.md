@@ -1,8 +1,9 @@
 ---
+redirect_from: "/basicaodaeletronica/Caracteristicas-dos-Leds/"
 title: Parâmetros e Caractersíisticas para se Usar LEDs
 excerpt: Neste post falamos um pouco sobre as Caracteristicas de cada LED, são caracteristicas que determinam sua luminosidade e como usa-los sem danifica-los
 tags: [Eletrônica, LCD, LED, Caracteristicas Ténicas, Datasheet]
-categories: [BasicaoDaEletronica]
+categories: [BasicaoDaEletronica, Nivel 1]
 layout: article
 share: true
 toc: true

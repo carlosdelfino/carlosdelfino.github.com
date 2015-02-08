@@ -1,7 +1,8 @@
 ---
+redirect_from: "/basicaodaeletronica/Testando_JavaScript_Para_Formulas_Matematicas/"
 title: Testando JavaScript para uso com formulas Matemáticas
 excerpt: Sempre que estamos apresentando material técnico de eletrônica e até mesmo programaçào, precisamos de fórmulas para apresentar funcionamento de circuitos ou alguns tipos de algoritmos.
-categories: [basicaodaeletronica]
+categories: [extras]
 tags: [Latex, matemática, fórmulas]
 layout: article
 tags: [jumpers, conexões, eletrônica básica, estilete, protoboard, breadboard, circuitos, protótipos, Matemática, Fórmulas]
