@@ -9,6 +9,7 @@ comments: true
 feature:
  index: true
  category: true
+tagcloud: true
 ads: 
  show: true
 coinbase:
