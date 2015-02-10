@@ -5,8 +5,11 @@
 {% assign shareurl = page.url | replace:'index.html','' | prepend: site.url %}
 {% endif %}
 <center>
+<!-- Twitter -->
 	<a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ shareurl }}&amp;via={{ site.owner.twitter }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/twitter.png" alt="Twitter" /></a>
+<!-- Facebook -->
 	<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/facebook.png" alt="Facebook" /></a></a>
+<!-- Google Plus -->
 	<a class="google-plus"  href="https://plus.google.com/share?url={{ shareurl }}" target="_blan"><img width="30px" src="{{ site.url }}/images/social-btn/google.png" alt="Google" /></a> 	
 <!-- LinkedIn -->
 <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/linkedin.png" alt="LinkedIn" /></a> 
@@ -16,6 +19,8 @@
 <a class="reddit" href="http://reddit.com/submit?url={{ shareurl }}&title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/reddit.png" alt="Reddit" /></a>
 <!-- StumbleUpon-->
 <a class="stumbleupon" href="http://www.stumbleupon.com/submit?url={{ shareurl }}title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/stumbleupon.png" alt="StumbleUpon" /></a>
+<!-- ARM Connected -->
+<a class="ARM-Connected" href="javascript:c%3Dfunction(p)%7Btry%7Breturn((eval(p))%3F(b(eval(p%2B%27()%27))):t)%7Dcatch(ex)%7Breturn(a)%7D%7D%3Bd%3Dfunction(p)%7Bz%3Dc(p)%3Bif(z)%7Breturn(z)%7Delse%7Bfor(i%3D0%3Bi<frames.length%3Bi%2B%2B)%7Bz%3Dc(%27frames%5B%27%2Bi%2B%27%5D.%27%2Bp)%3Bif(z)%7Breturn(z)%7D%7D%7Dreturn(a)%7D%3Bb%3Dfunction(p)%7Breturn(encodeURIComponent(p))%7D%3Ba%3D%27%27%3Bf%3Dwindow.open(%27http://community.arm.com/create-favorite-bookmarklet!input.jspa%3Furl%3D%27%2Bb(location.href)%2B%27%26notes%3D%27%2Bd(%27window.getSelection%27)%2B%27%26subject%3D%27%2Bb(document.title),%27jive_sbs_favorite%27,%27height%3D630,width%3D615,scrollbars%3Dyes,resizable%27)%3Bf.focus()%3B"target="_blank"><img width="40px" src="{{ site.url }}/images/social-btn/arm-connected.png" alt="Arm Connected" /></a>
 <!-- Email -->
 <a class="email" href="mailto:?Subject={{ page.title | escape | replace:' ','%20' }}&Body={{ shareurl | escape | replace:' ','%20' }}%20{{ page.excerpt | escape | replace:' ','%20' }}"><img width="30px" src="{{ site.url }}/images/social-btn/email.png" alt="Email" /></a>
 </center>
