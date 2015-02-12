@@ -23,26 +23,8 @@ coinbase:
  show: true
 --- 
 
-Para dar início aos nossos estudos sobre o uso do Bluetooth em 
-especial com o Arduino, irei propor o circuito do esquema abaixo.
-Tal esquema não precisa ser seguido a risca, porém será a base
-para os comentários neste artigo. 
-<figure>
-<img src="/images/helloworldarduino/bluetooth/Bluetooth_Esquematico-1000x830.png" />
-<figcaption>
-O esquema de um pequeno circuito básico para teste e uso em nosso tutorial.
-</figcaption>
-</figure>
-
-A seguir apresento o mesmo esquema acima porem montado na visão
-protoboard do Fritizing, que facilita a montagem para os que
-estão dando os primeiros passos com o Arduino.
-<figure>
-<img src="/images/helloworldarduino/bluetooth/Bluetooth_bb-1800x1113.png" />
-<figcaption>
-A montagem do esquema apresentado na imagem anterior, agora na protoboard.
-</figcaption>
-</figure>
+Vamos começar estudando alguns conceitos. Depois veremos como 
+usar básicamente o Bluetooth no Arduino.
 
 ## Conceitos Básicos do BlueTooth
 
@@ -183,7 +165,7 @@ Os dispositivos podem ter um nome com até 248 caracteres,
 e podem até compartilhar nomes, porém os dois últimos digitos
 do MAC será adicionado ao nome para diferencia-los.
 
-## O Processo de conexão
+### O Processo de conexão
 
 O processo de conexão com dispotivos bluetoot é composto por alguns 
 passos e definidos por três estados, listados abaixo:
@@ -224,7 +206,7 @@ Bluetooth e Celulares, tal processo é definido durante o ato de "Parear" os
 Dispositivos, onde cada um armazena informações de segurança relativas ao outro
 em sua mémoria.
 
-## Perfil do Bluetooth
+### Perfil do Bluetooth
 
 A especificação do Bluetooth, define perfis que podem ser adotados 
 por cada dispositivo, na tabela abaixo estão listados alguns perfis.
@@ -239,6 +221,103 @@ que para este artigo apenas o SPP nos atenderá, mas caso deseje
 conhecer quais perfis podem exister, existe uma excelente 
 [Lista de perfis no Wikipedia](http://pt.wikipedia.org/wiki/Perfis_Bluetooth).
 
+## Conectando o Arduino ao Bluetooth
+
+O esquema abaixo é nossa referência para os projetos. estaremos usando
+neste tutorial o móduo Bluetooth RN-42 da Sparkfun, este módulo é bastante
+versátil, atuando como Slave e Master, e com outros profiles para HID além
+do SSP. 
+
+<figure>
+<img src="/images/helloworldarduino/bluetooth/Bluetooth_Esquematico-1000x830.png" />
+<figcaption>
+O esquema de um pequeno circuito básico para teste e uso em nosso tutorial.
+</figcaption>
+</figure>
+
+A seguir está este mesmo esquema montado em uma protoboard. 
+<figure>
+<img src="/images/helloworldarduino/bluetooth/Bluetooth_bb-1800x1113.png" />
+<figcaption>
+A montagem do esquema apresentado na imagem anterior, agora na protoboard.
+</figcaption>
+</figure>
+
+
+### Significado da sinalização dos LEDs
+
+Há dois LEDS normalmente nos modens Bluetooth e no RN-42 eles se
+comportam da seguinte forma:
+
+ * O LED vermelho com a indicação "Stat":
+   * piscando 10 vezes por segundo está em modo de configuração
+   * piscando 2 vezes por segundo, o móduo não está em configuração, mas o tempo para entrar no modo está contando.
+   * piscando 1 vez por segundo está nos modos "Discoverable"/"Inquiring"/"Idle", fora do modo de configuração, e o tempo de configuração venceu.
+
+### Um primeiro código
+
+Abaixo está um primeiro código que usaremos para comunicar 
+diretamente com o Bluetooth é sugerido pela Sparkfun e 
+neste estágio nos atende perfeitamente, já que nosso 
+objetivo é apenas testar a comunicação com o Modem Bluetooth
+em modo de Comando.
+
+{% highlight C linenos=table %} 
+language:c
+/*
+  Example Bluetooth Serial Passthrough Sketch
+ by: Jim Lindblom
+ SparkFun Electronics
+ date: February 26, 2013
+ license: Public domain
+
+ Este sketch de exemplo converte um modulo bluetooth RN-42
+ para comunicar em 9600 bps (dos 115200 padrões), e passa
+ algum dado serial entre o "Serial Monitor" e o moduo.
+ */
+
+// O projeto precisa da SotwareSerial para usar os pinos
+// 2 e 3 como porta serial.
+#include <SoftwareSerial.h>  
+
+#define bluetoothTx  2  // TX-O pin of bluetooth mate, Arduino D2
+#define bluetoothRx  3  // RX-I pin of bluetooth mate, Arduino D3
+
+// veja não precisamos de um objeto especial para lidar com o módulo
+SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
+
+void setup()
+{
+  Serial.begin(9600);  // Inicializa o serial monitor em 9600bps
+
+  bluetooth.begin(115200);  // O Bluetooth inicia a conexão em 115200bps
+  
+  bluetooth.print("$");  // Deve ser impressos três "$" individualmente!
+  bluetooth.print("$");
+  bluetooth.print("$");  // Para entrar em modo de comando
+  
+  delay(100);  // Aguarda 100 mS para entrar em modo CMD
+  
+  bluetooth.println("U,9600,N");  // Altera o baudrate para 9600, sem paridade.
+  // 115200 pode ser muito rápido para uso com SoftwareSerial
+  bluetooth.begin(9600);  // Iniciar bluetooth serial em 9600
+}
+
+void loop()
+{
+  if(bluetooth.available())  // Se o Módulo Bluetooth enviar algum caracter
+  {
+    // envia o caracter recebido do módulo para o Serial Monitor
+    Serial.print((char)bluetooth.read());  
+  }
+  if(Serial.available())  // Se algo foi digitado e enviado no Serial Monitor
+  {
+    // Envia o caracter para o Módulo Bluetooth
+    bluetooth.print((char)Serial.read());
+  }
+  // Fica em loop infinitamente!!!
+}
+{% endhighlight  %} 
 
 ## Fontes
  
@@ -250,3 +329,4 @@ conhecer quais perfis podem exister, existe uma excelente
  * [https://www.bluetooth.org/en-us/specification/adopted-specifications](https://www.bluetooth.org/en-us/specification/adopted-specifications?utm_source=carlosdelfino&utm_medium=online&utm_content=text)
  * [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3478807/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3478807/?utm_source=carlosdelfino&utm_medium=online&utm_content=text)
  * [http://en.wikipedia.org/wiki/MAC_address](http://en.wikipedia.org/wiki/MAC_address?utm_source=carlosdelfino&utm_medium=online&utm_content=text)
+ * [https://developer.bluetooth.org/TechnologyOverview/Pages/Profiles.aspx](https://developer.bluetooth.org/TechnologyOverview/Pages/Profiles.aspx?utm_source=carlosdelfino&utm_medium=online&utm_content=text)
