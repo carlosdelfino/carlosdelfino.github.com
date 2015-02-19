@@ -10,6 +10,7 @@ perfil:
 linuxwindowsmac:
    name: Linux, Windows e Mac
    aliases: [linux, windows, mac]
+   
 clones: 
    name: Clones e Similares
    aliases: [similares, compativeis, copias]
@@ -88,3 +89,17 @@ ASCII:
 ascii:
    name: ASCII
    alias: ASCII
+
+nivel_1:
+	name: Nível 1
+	alias: ["Nível 01", "Nível 1", Nivel 01", Nivel 1"]
+nivel_2:
+	name: Nível 2
+	alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2"]
+nivel_3:
+	name: Nível 3
+	alias: ["Nível 03", "Nível 3", Nivel 03", Nivel 3"]
+nivel_4:
+	name: Nível 4
+	alias: ["Nível 04", "Nível 4", Nivel 04", Nivel 4"]
+	
