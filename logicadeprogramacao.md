@@ -3,6 +3,7 @@ redirect_from:
  - "/logica/"
  - "/logicaprogramacao/"
  - "/logicaeprogramacao/"
+ - "/programacao/"
 permalink: /logicadeprogramacao/
 title: Lógica e Programação
 excerpt: Um curso sobre programação com C e C++, e outras linguagens de apoio como Java e Processing
