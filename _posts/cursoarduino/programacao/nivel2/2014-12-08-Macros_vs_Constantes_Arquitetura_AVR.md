@@ -1,8 +1,9 @@
 ---
+redirect_from: "/logicadeprogramacao/Macros_vs_Constantes_Arquitetura_AVR/"
 title: Usar Macros ou Constantes, qual a melhor opção.
 excerpt: Programar para microcontroladores se torna um desafio maior quando a densidade de informações a serem manipuladas (variaveis e constantes) se torna grande, então alguns valores em especiais aqueles que são constantes precisam ser bem alocados para que não se disperdice nenhum espaço.
 tags: [Arduino, Curso, Arduino Mega, Arduino Due, Arduino Uno, Lógica, Programação, Algoritimos, Estrutura de Dados, Assembly, AVR, ATMega, ATTiny, ARM, Ementa, C, C++, C/C++, Variáveis, Constantes, Macros, Volateis, PROGMEN, Mémoria de Programa, Memória Flash, Mémoria RAM, SRAM, RAM, Optimização]
-category: logicadeprogramacao
+category: [logicadeprogramacao,nivel_2]
 layout: article
 share: true
 toc: true
