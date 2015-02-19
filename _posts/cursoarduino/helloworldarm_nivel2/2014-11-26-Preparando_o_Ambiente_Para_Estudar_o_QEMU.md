@@ -13,8 +13,8 @@ feature:
  index: true
  category: true
 image:
- feature: programacao/arm-nucleus-1200-677.jpg
- teaser: programacao/chip-arm-A15-390x250.jpg
+ feature: logica_programacao/arm-nucleus-1200-677.jpg
+ teaser: logica_programacao/chip-arm-A15-390x250.jpg
  credit: Juergen Jagst
  creditlink: http://community.arm.com/groups/processors/blog?start=15
 tagcloud: true
