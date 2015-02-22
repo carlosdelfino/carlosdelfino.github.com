@@ -1,7 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
   <head>
+	{% unless page.charset and site.charset %}
     <meta charset="utf-8">
+    {% endunless %}
+    {% if page.charset %}
+    <meta charset="{{ page.charset }}">
+    {% elsif site.charset %} 
+	<meta charset="{{ site.charset }}">
+    {% endif %}
+    
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}

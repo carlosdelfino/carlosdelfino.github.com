@@ -12,6 +12,17 @@
 <!-- Google Plus -->
 	<a class="google-plus"  href="https://plus.google.com/share?url={{ shareurl }}" target="_blan"><img width="30px" src="{{ site.url }}/images/social-btn/google.png" alt="Google" /></a> 	
 <!-- LinkedIn -->
+{% if site.linkedin.api %}
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> 
+	lang: {{ site.locale  }}    
+	api_key:   {{ site.linkedin.api }}
+	{% if page.linkedin.authorize %}
+    authorize: {{ page.linkedin.authorize }}
+	{% elsif site.linkedin.authorize %}
+    authorize: {{ site.linkedin.authorize }}
+    {% endif %}
+</script>
+{% endif %}
 <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/linkedin.png" alt="LinkedIn" /></a> 
 <!-- Digg -->
 <a class="digg"href="http://www.digg.com/submit?url={{ shareurl }}" target="_blank"><img width="30px" src="{{ site.url }}/images/social-btn/diggit.png" alt="Digg" /></a>
