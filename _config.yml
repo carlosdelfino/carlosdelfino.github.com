@@ -9,10 +9,16 @@ keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xP
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
-#url: http://localhost:4000
-url: http://carlosdelfino.eti.br
+charset: utf-8
+url: http://localhost:4000
+#url: http://carlosdelfino.eti.br
 ads: true
 
+linkedin:
+   api: "78s8yjpx4xhlmj"
+   TokenOAuth: "5cfbf5d6-8924-490b-860e-6da465590801"
+   authorize: true
+   
 disqus:
    shortname: carlosdelfino
 
