@@ -20,26 +20,32 @@ image:
 tagcloud: true
 ---
 
-Turmas fechadas para empresas e grupos tem descontos progressivos iniciando em 15%, tendo um decréscimo no desconto de 3% por Alunos. Mais que 5 alunos serão negociados outros métodos.
+Turmas fechadas para empresas e grupos tem descontos progressivos 
+iniciando em 15%, tendo um decréscimo no desconto de 3% por Alunos. 
+Mais que 5 alunos serão negociados outros métodos.
 
 ## Veja abaixo:
 
 ### Para 5 alunos
+
 #### sem desconto:
-R$ 380 * 5 = R$ 1900,00
-R$ 380 por aluno
+
+ * R$ 380 * 5 = R$ 1900,00
+   R$ 380 por aluno
 
 #### com desconto:
-380 + 1520 
-(R$ 380 + ((4 * R$ 380) *(1 - (15%+12%+9%+6%)))) = 1261,60 
-R$ 252,32 por aluno
 
+ * (R$ 380 + ((4 * R$ 380) *(1 - (15%+12%+9%+6%)))) = 1261,60 
+   R$ 252,32 por aluno
 
 ### Para 3 alunos
+
 #### sem desconto:
-R$ 380 * 3 = R$ 1140,00
-R$ 380 por aluno
+
+ * R$ 380 * 3 = R$ 1140,00
+   R$ 380 por aluno
 
 #### com desconto:
-(R$ 380 + ((2 * R$ 380) * (1 - (15%+12%)))) = R$ 934,80 
-R$ 311,60 por aluno
+
+ * (R$ 380 + ((2 * R$ 380) * (1 - (15%+12%)))) = R$ 934,80 
+   R$ 311,60 por aluno
