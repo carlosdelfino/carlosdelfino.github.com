@@ -18,34 +18,46 @@ image:
  credit: Juergen Jagst
  creditlink: http://community.arm.com/groups/processors/blog?start=15
 tagcloud: true
+math: true
 ---
 
 Turmas fechadas para empresas e grupos tem descontos progressivos 
-iniciando em 15%, tendo um decréscimo no desconto de 3% por Alunos. 
+iniciando em 20%, tendo um decréscimo no desconto conforme as formulas abaixo.
+
+Na tabela a seguir o indice de descontos:
+
+| Número de Alunos | Valor da Aula | Descontos para alunos extras | Valor Final Por Aluno |
+|----|----|----|----|
+| 1 | R$ 400,00 |  0% | R$ 400,00 |
+| 2 | R$ 400,00 | 20% | R$ 360,00 |
+| 3 | R$ 400,00 | 35% | R$ 307,00 |
+| 4 | R$ 400,00 | 47% | R$ 259,00 |
+| 5 | R$ 400,00 | 56% | R$ 220,00 |   
+
 Mais que 5 alunos serão negociados outros métodos.
 
-## Veja abaixo:
+## Veja abaixo as fórmulas:
 
 ### Para 5 alunos
 
-#### sem desconto:
+*Sem desconto:*
 
- * R$ 380 * 5 = R$ 1900,00
-   R$ 380 por aluno
+ * R$ 400 por aluno
 
-#### com desconto:
+*Com desconto:*
 
- * (R$ 380 + ((4 * R$ 380) *(1 - (15%+12%+9%+6%)))) = 1261,60 
-   R$ 252,32 por aluno
+ * \\(R$ 400 + \\(\\(4 * R$ 400\\) * \\(1 - \\(20%+15%+12%+9%\\)\\)\\)\\) = R$ 1104,00 
+
+Ficando o valor por aluno em  *R$ 220,00*
 
 ### Para 3 alunos
 
-#### sem desconto:
+*Sem desconto*
 
- * R$ 380 * 3 = R$ 1140,00
-   R$ 380 por aluno
+ * R$ 400 por aluno
 
-#### com desconto:
+*Com desconto*
 
- * (R$ 380 + ((2 * R$ 380) * (1 - (15%+12%)))) = R$ 934,80 
-   R$ 311,60 por aluno
+ * \\(R$ 400 + \\(\\(2 * R$ 380\\) * \\(1 - \\(20%+15%\\)\\)\\)\\) = R$ 920,00 
+ 
+Ficando o valor por aluno em *R$ 307,00*
