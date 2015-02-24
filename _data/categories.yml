@@ -73,6 +73,11 @@ cursoarduino:
    author: carlosdelfino
    cursos: [cursoarduino]
 
+cursoarduinominas:
+   name: "Curso Arduino Minas"
+   author: carlosdelfino
+   cursos: [cursoarduino]
+
 pbx_digital:
    name: "PBX Digital (Asterisk)"
    author: carlosdelfino

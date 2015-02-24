@@ -2,7 +2,7 @@
 title: Plano de Descontos para Turmas Fechadas
 excerpt: "Turmas fechadas ou montadas para grupos especiais seja para empresas ou escolas tem descontos progressivos conforme sugerido nesta tabela, consulte para turmas especiais em escolas particulares do ensino médio"
 category: [cursoarduinominas]
-tags: [Curso, Turmas, Planos, Desconto, Matrícula, Planos de Descontos, Turmas Fechadas, Ensino Médio, Escola Privada, Escola Particular, Curso Particular, Agenda de Cursos, Arduino, Due, Tre, Uno, Mega, Zero]
+tags: [Curso, Turmas, Planos, Desconto, Matrícula, Planos de Descontos, Turmas Fechadas, Ensino Médio, Escola Privada, Escola Particular, Curso Particular, Agenda de Cursos, Arduino, Due, Tre, Uno, Mega, Zero, Rateio]
 layout: article
 comments: true
 share: true
