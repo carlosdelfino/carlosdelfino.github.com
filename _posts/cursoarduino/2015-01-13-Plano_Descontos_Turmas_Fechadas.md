@@ -46,7 +46,7 @@ Mais que 5 alunos serão negociados outros métodos.
 
 *Com desconto:*
 
- * \\(R$ 400 + ((4 * R$ 400) * (1 - (20%+15%+12%+9%)))\\) = R$ 1104,00 
+ * (R$ 400 + ((4 * R$ 400) * (1 - (20% + 15% + 12% + 9%)))) = R$ 1104,00 
 
 Ficando o valor por aluno em  *R$ 220,00*
 
@@ -58,6 +58,6 @@ Ficando o valor por aluno em  *R$ 220,00*
 
 *Com desconto*
 
- * \\(R$ 400 + ((2 * R$ 380) * (1 - (20%+15%)))\\) = R$ 920,00 
+ * (R$ 400 + ((2 * R$ 380) * (1 - (20% + 15%)))) = R$ 920,00 
  
 Ficando o valor por aluno em *R$ 307,00*
