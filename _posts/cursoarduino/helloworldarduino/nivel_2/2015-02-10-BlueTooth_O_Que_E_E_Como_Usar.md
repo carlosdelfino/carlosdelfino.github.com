@@ -253,6 +253,16 @@ comportam da seguinte forma:
    * piscando 10 vezes por segundo está em modo de configuração
    * piscando 2 vezes por segundo, o móduo não está em configuração, mas o tempo para entrar no modo está contando.
    * piscando 1 vez por segundo está nos modos "Discoverable"/"Inquiring"/"Idle", fora do modo de configuração, e o tempo de configuração venceu.
+   
+### Configurando e controlando o Módulo Bluetooth
+   
+O Módulo Bluetooth indepedente de sua funcionalidade principal
+pode estar em dois modos principais, um é no modo de configuração
+o outro é quando está em comunicação com o outro Bluetooth, assim
+seu canal de comunicação, normalmente a serial, se torna a via de
+comunicação física do tunel formado pelo protocolo Bluetooth entre
+os equipamentos.
+
 
 ### Um primeiro código
 
