@@ -1,0 +1,19 @@
+{% if page.uservoice.enable or site.uservoice.enableall %}
+<script>
+// Include the UserVoice JavaScript SDK (only needed once on a page)
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/ExACyRWj4N5IuylvTWGQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+// Set colors
+UserVoice.push(['set', {
+  accent_color: '{{ site.uservoice.accentcolor }}',
+  trigger_color: '{{ site.uservoice.triggercolor }}',
+  trigger_background_color: '{{ site.uservoice.triggerbackgroundcolor }}
+}]);
+
+// Add default trigger to the bottom-right corner of the window:
+UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
+
+// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+UserVoice.push(['autoprompt', {}]);
+</script>
+{% endif %}

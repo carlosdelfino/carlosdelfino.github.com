@@ -78,6 +78,10 @@
     {% include tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
+
+	{% if page.uservoice.enable or site.uservoice.enableall %}
+		{% include uservoice.html %}
+	{% endif %}
   </body>
 
 </html>
