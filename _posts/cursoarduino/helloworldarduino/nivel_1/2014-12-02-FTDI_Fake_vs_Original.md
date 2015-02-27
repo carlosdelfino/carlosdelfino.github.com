@@ -1,8 +1,9 @@
 ---
-title: FTDI Fake vs Real
-excerpt: Como diferenciar um Chip Fake de um Real? e como solucionar o problema que surgiu depois que a FTDI bloqueou o uso do driver original com chips Fakes.
-tags: [FTDI, FAKE, REAL, Fake vs Real, Correção, Recuperação, Windows, Linux, Mac]
-categories: [HelloWorldArduino]
+redirect_from: "helloworldarduino/FTDI_Fake_vs_Real/"
+title: FTDI Fake vs Original
+excerpt: Como diferenciar um Chip Fake (falso) de um Original? e como solucionar o problema que surgiu depois que a FTDI bloqueou o uso do driver original com chips Fakes (Falsos).
+tags: [FTDI, FAKE, REAL, Fake vs Original, Original vs Original, Correção, Recuperação, Windows, Linux, Mac, Falso, Falsificado, FTDI, Serial. Driver, Porta, Conexão, Instalação, Correção, Firmware, Atualização, Bloqueio, Original, Chip]
+categories: [HelloWorldArduino, Nivel_1]
 layout: article
 share: true
 toc: true
