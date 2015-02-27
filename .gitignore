@@ -16,3 +16,4 @@ _asset_bundler_cache
 .sass-cache
 Gemfile.lock
 /_plugins
+/.externalToolBuilders
