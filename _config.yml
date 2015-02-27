@@ -14,6 +14,12 @@ charset: utf-8
 url: http://carlosdelfino.eti.br
 ads: true
 
+uservoice:
+   accentcolor: '#448dd6'
+   triggercolor: 'white'
+   triggerbackgroundcolor: 'rgba(46, 49, 51, 0.6)'
+   enableall: true
+
 linkedin:
    api: "78s8yjpx4xhlmj"
    TokenOAuth: "5cfbf5d6-8924-490b-860e-6da465590801"
