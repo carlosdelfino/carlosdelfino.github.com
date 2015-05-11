@@ -1,6 +1,6 @@
 ---
 title: "Meu Ambiente de Programação Java"
-excerpt: "Eu programo em java a mais de 10 anos, apesar de ter conhecido a linguagem logo que foi idealizada, no tempo que se chamava OAK, quando comprei meu primeiro CD de instalação do Linux, um Slakware, fiquei alguns anos longe da programação de sistemas de uma forma geral, me dedicando a programação para sites e manutenção de servidores, através de scripts com Perl, Python e Bash. Nos meados de 2004 trabalhei em uma empresa com EJB 2.1 e usavamos o JBoss como container, eu já tinha um forte atração por este container J2EE, e desde em então me dediquei aos estudos de seu uso, em meados de 2007,2008 me dediquei muito a aplicações desenvolvidas para uso no Tomcat, era um sistema distribuido que tinha seu proprio canal de comunicação duplamente encriptado. Porém devido a forças além de mim, foquei apenas na programação web com PHP e dediquei um bom tempo ao JOOMLA e em seguida adicionei o MOODLE a carteira de sistemas que eu desenvolvia plugins. Em seguida o Arduino tomou alguns anos de investimento, e atualmente mantenho trabalhando apenas com o Arduino e agora estou retomando o Java em especial com o JBoss EAP para somar ao meu portfolio de conhecimento para desenvolvimento de soluções."
+excerpt: "Eu programo em java a mais de 10 anos, apesar de ter conhecido a linguagem logo que foi idealizada, no tempo que se chamava OAK, quando comprei meu primeiro CD de instalação do Linux, um Slakware..."
 tags: [jboss, datasource, jdbc, jee, j2ee, java, MySQL, JBoss EAP, JPA, JDO, Hibernate, Persistencia, módulos, biblioteca, jar, war, ear, deploy]
 category: [programacao,java,jee,jboss]
 layout: article
@@ -21,6 +21,24 @@ tagcloud: true
 coinbase:
  show: true
 --- 
+
+Eu programo em java a mais de 10 anos, apesar de ter conhecido a linguagem 
+logo que foi idealizada, no tempo que se chamava OAK, quando comprei meu 
+primeiro CD de instalação do Linux, um Slakware, fiquei alguns anos longe 
+da programação de sistemas de uma forma geral, me dedicando a programação 
+para sites e manutenção de servidores, através de scripts com Perl, Python 
+e Bash. Nos meados de 2004 trabalhei em uma empresa com EJB 2.1 e usavamos 
+o JBoss como container, eu já tinha um forte atração por este container J2EE, 
+e desde em então me dediquei aos estudos de seu uso, em meados de 2007,2008 
+me dediquei muito a aplicações desenvolvidas para uso no Tomcat, era um 
+sistema distribuido que tinha seu proprio canal de comunicação duplamente 
+encriptado. Porém devido a forças além de mim, foquei apenas na programação 
+web com PHP e dediquei um bom tempo ao JOOMLA e em seguida adicionei o MOODLE 
+a carteira de sistemas que eu desenvolvia plugins. Em seguida o Arduino tomou 
+alguns anos de investimento, e atualmente mantenho trabalhando apenas com o 
+Arduino e agora estou retomando o Java em especial com o JBoss EAP para somar 
+ao meu portfolio de conhecimento para desenvolvimento de soluções."
+
 
 ## Meu Ambiente de Desenvolvimento
 
