@@ -27,7 +27,7 @@ comuns entre eles, e muitas vezes tais bibliotecas ocupam um espaço
 consideravel e causam uma maior demora para que seja feito o envio do 
 arquivo para o servidor. Para evitar tal problema, temos o recurso de módulos.
 
-<!--  more -->
+<!--more-->
 
 Veremos neste artigo como se beneficiar deste recurso inicialmente para a carga
 dos drivers JDBC para o banco de dados, permitindo assim que estes drivers 
