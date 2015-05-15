@@ -124,9 +124,10 @@ driver mysql:
         /5.0.8
 {% endhighlight %}
 
-{% assign mysqljconnector = site.data.link['mysqljconnector'] %}
+{% assign mysqljconnector = site.data.links['mysqljconnector'] %}
 Agora vamos copiar o arquivo do MySQL JConnector para a pasta main, [baixe
-o pacote do conector do site oficial clicando aqui, {{ mysqljconnector.name }}]({{ mysqljconnector.link }}).
+o pacote do conector do site oficial clicando aqui,
+( {{ mysqljconnector.name }}]({{ mysqljconnector.link }}) ).
 Usaremos a versão 5.1.35 que é a atual para a data que escrevemos este arquivo.
 Caso baixe uma versão mais atual ou inferior, ajuste os nomes dos arquivos para
 esta nova versão.
@@ -150,7 +151,7 @@ o nosso módelo abaixo, para obter mais informações neste formato, vá na
 pasta `docs` de sua instalação do JBoss e entre na subpasta `schemas`, onde
 poderá encontrar os arquivos XSD que definem este XML.
 
-{% assign schema_module_xsd = site.data.link['schema_module_xsd'] %}
+{% assign schema_module_xsd = site.data.links['schema_module_xsd'] %}
 No link a seguir você pode ter acesso ao XSD na integra para a versão JBoss 
 EAP 6.3 [{{ schema_module_xsd.name }}]({{ schema_module_xsd.link }}).
 
