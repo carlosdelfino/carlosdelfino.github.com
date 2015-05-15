@@ -4,7 +4,7 @@ safe: true
 lsi: false
 
 title: Carlos Delfino
-description: "Consultoria e Serviços, Desenvolvimento com Microcontroladores AVR, ARM e Prototipagem com Arduino"
+description: "Consultoria e Serviços, Desenvolvimento em Java e PHP e com Microcontroladores AVR, ARM e Prototipagem com Arduino"
 keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Cursos, EAD, Treinamento, Cursos
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
@@ -12,7 +12,9 @@ locale: pt_BR
 charset: utf-8
 #url: http://localhost:4000
 url: http://carlosdelfino.eti.br
-ads: true
+ads: true 
+
+excerpt_separator: <!--more-->
 
 uservoice:
    accentcolor: '#448dd6'
