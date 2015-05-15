@@ -1,5 +1,5 @@
 ---
-permalink: /java/
+permalink: /programacao/java/
 title: Analise e Programação Java
 layout: categorylist
 category: java
