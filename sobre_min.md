@@ -75,6 +75,11 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
  * Copy: [https://copy.com?r=3GWJwr](https://copy.com?r=3GWJwr) 
  * Dropbox: [https://db.tt/Yiwpb6Q](https://db.tt/Yiwpb6Q)
  * Reddit: [http://www.reddit.com/user/CarlosDelfino/](http://www.reddit.com/user/CarlosDelfino/)
+ * StackExchange: [http://stackexchange.com/users/2125633](http://stackexchange.com/users/2125633)
+
+     <a href="http://stackexchange.com/users/2125633?theme=clean">
+     <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+     </a>
 
 ###### TESOUROS:
 <ul class="th-grid">
