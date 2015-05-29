@@ -13,7 +13,7 @@ ads:
  show: true
 image:
   feature: logica_programacao/language_stack-250x182.gif
-  teaser: http://area51.stackexchange.com/ads/proposal/87631.png'
+  teaser: http://area51.stackexchange.com/ads/proposal/87631.png
   credit: Carlos Delfino
   creditlink: http://carlosdelfino.eti.br
 tagcloud: true
