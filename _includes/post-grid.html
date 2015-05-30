@@ -3,7 +3,11 @@
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
 {% if post.image %}
   {% if post.image.teaser %}
+    {% if post.image.teaser contains 'http://' or post.image.teaser contains 'https://' %}
+    <img src="{{ post.image.teaser }}" alt="teaser" itemprop="image">
+    {% else %}
     <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
+    {% endif %}
   {% elsif post.image.category %}
     {% assign categoryid = post.categories | first | cgi_escape %}
     {% assign postcat = site.data.categories[categoryid] %}
