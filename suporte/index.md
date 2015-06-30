@@ -1,5 +1,5 @@
 ---
-permalink: /suporte
+permalink: /suporte/
 title: Suporte em Geral
 tags: [Pesquisa, Faculdade, FIC, Faculdade Integrada do Ceara, Artigos, Desenvolvimento, Inovação, TCP/IP, IVN, Intelligent Vehicular Network, DTN, Delay-Tolerant Network, Disruption-Tolerant Network, VDTN, Vehicular Delay-Tolerant Network]
 layout: categorylist
