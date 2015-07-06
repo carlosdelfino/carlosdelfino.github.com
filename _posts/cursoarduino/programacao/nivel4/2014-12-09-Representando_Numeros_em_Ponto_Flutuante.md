@@ -1,6 +1,6 @@
 ---
 redirect_from: "/logicadeprogramacao/Representando_Numeros_em_Ponto_Flutuante/"
-title: Representando Números de Ponto Flutuante com IEEE 745
+title: Representando Números de Ponto Flutuante com IEEE 754
 excerpt: "Como o ponto flutuante é presentando em binário? existem padrões que normatizam tais representações? Como lidar com tais números em assembly?" 
 tags: [Arduino, Curso, Arduino Mega, Arduino Due, Arduino Uno, Lógica, Programação, Algoritimos, Estrutura de Dados, Assembly, AVR, ATMega, ATTiny, ARM, Ementa, C, C++, C/C++, Variáveis, Constantes, Macros, Volateis, PROGMEN, Mémoria de Programa, Memória Flash, Mémoria RAM, SRAM, RAM, Optimização, Ponto Flutuante, Fração, Denominador, Divisor, IEEE, IEEE 754]
 category: [logicadeprogramacao, nivel_4]
