@@ -11,7 +11,8 @@ teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
 charset: utf-8
 #url: http://localhost:4000
-url: http://carlosdelfino.eti.br
+#url: http://carlosdelfino.eti.br
+url: http://carlosdelfino.github.io/
 ads: true 
 
 excerpt_separator: <!--more-->
