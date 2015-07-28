@@ -59,7 +59,8 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 
 ##### TELEFONE:
 
- * Oi: +55 31 87319450
+ * OI: +55 85 985-205-490 (atenção ao prefixo - Fortaleza/CE)
+ * WhatsApp: +55 31 87319450
 
 ###### OUTROS CONTATOS:
 
@@ -69,13 +70,14 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 ###### Redes Sociais (Midias entre outros)
 
  * Facebook: [http://www.facebook.com.br/carlosdelfinocarvalhopinheiro](http://www.facebook.com.br/carlosdelfinocarvalhopinheiro)
- * Twitter: [http://twitter.com/fullsrv](http://twitter.com/fullsrv)
- * Linked-in: [http://linkedin.com/in/carlosdelfino](http://linkedin.com/in/carlosdelfino)
- * GlobalShare: [https://www.globallshare.com/carlosdelfino](https://www.globallshare.com/carlosdelfino)
- * Copy: [https://copy.com?r=3GWJwr](https://copy.com?r=3GWJwr) 
- * Dropbox: [https://db.tt/Yiwpb6Q](https://db.tt/Yiwpb6Q)
- * Reddit: [http://www.reddit.com/user/CarlosDelfino/](http://www.reddit.com/user/CarlosDelfino/)
- * StackExchange: [http://stackexchange.com/users/2125633](http://stackexchange.com/users/2125633)
+ * [Twitter: http://twitter.com/fullsrv](http://twitter.com/fullsrv)
+ * [Linked-in: http://linkedin.com/in/carlosdelfino](http://linkedin.com/in/carlosdelfino)
+ * [GlobalShare: https://www.globallshare.com/carlosdelfino](https://www.globallshare.com/carlosdelfino)
+ * [Copy: https://copy.com?r=3GWJwr](https://copy.com?r=3GWJwr) 
+ * [Dropbox: https://db.tt/Yiwpb6Q](https://db.tt/Yiwpb6Q)
+ * [Reddit: http://www.reddit.com/user/CarlosDelfino/](http://www.reddit.com/user/CarlosDelfino/)
+ * [StackExchange: http://stackexchange.com/users/2125633](http://stackexchange.com/users/2125633)
+ * [Research Gate: https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro](https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro)
 
      <a href="http://stackexchange.com/users/2125633?theme=clean">
      <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
