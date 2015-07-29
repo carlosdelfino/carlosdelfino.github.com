@@ -77,6 +77,7 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
  * [Dropbox: https://db.tt/Yiwpb6Q](https://db.tt/Yiwpb6Q)
  * [Reddit: http://www.reddit.com/user/CarlosDelfino/](http://www.reddit.com/user/CarlosDelfino/)
  * [StackExchange: http://stackexchange.com/users/2125633](http://stackexchange.com/users/2125633)
+ * [Quora: http://www.quora.com/Carlos-Delfino](http://www.quora.com/Carlos-Delfino)
  * [Research Gate: https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro](https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro)
 
      <a href="http://stackexchange.com/users/2125633?theme=clean">
