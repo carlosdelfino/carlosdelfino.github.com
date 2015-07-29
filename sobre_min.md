@@ -69,7 +69,7 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 
 ###### Redes Sociais (Midias entre outros)
 
- * Facebook: [http://www.facebook.com.br/carlosdelfinocarvalhopinheiro](http://www.facebook.com.br/carlosdelfinocarvalhopinheiro)
+ * [Facebook: http://www.facebook.com.br/carlosdelfinocarvalhopinheiro](http://www.facebook.com.br/carlosdelfinocarvalhopinheiro)
  * [Twitter: http://twitter.com/fullsrv](http://twitter.com/fullsrv)
  * [Linked-in: http://linkedin.com/in/carlosdelfino](http://linkedin.com/in/carlosdelfino)
  * [GlobalShare: https://www.globallshare.com/carlosdelfino](https://www.globallshare.com/carlosdelfino)
@@ -79,6 +79,9 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
  * [StackExchange: http://stackexchange.com/users/2125633](http://stackexchange.com/users/2125633)
  * [Quora: http://www.quora.com/Carlos-Delfino](http://www.quora.com/Carlos-Delfino)
  * [Research Gate: https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro](https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro)
+ * [Academia: https://independent.academia.edu/CarlosDelfino](https://independent.academia.edu/CarlosDelfino)
+
+<a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Follow me on Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
 
      <a href="http://stackexchange.com/users/2125633?theme=clean">
      <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
