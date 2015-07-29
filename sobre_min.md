@@ -63,9 +63,20 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
  * WhatsApp: +55 31 87319450
 
 ###### OUTROS CONTATOS:
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
  * Skype: fullservice.admin
  * E-mail: consultoria@carlosdelfino.eti.br
+ * <div id="SkypeButton_Call_fullservice.admin_1">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_fullservice.admin_1",
+      "participants": ["fullservice.admin"],
+      "imageSize": 32
+    });
+  </script>
+</div>
 
 ###### Redes Sociais (Midias entre outros)
 
@@ -82,6 +93,8 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
  * [Academia: https://independent.academia.edu/CarlosDelfino](https://independent.academia.edu/CarlosDelfino)
 
 <a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Follow me on Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
+
+
 
      <a href="http://stackexchange.com/users/2125633?theme=clean">
      <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
