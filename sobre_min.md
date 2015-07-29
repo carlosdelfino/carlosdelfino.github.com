@@ -66,16 +66,17 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
  * <a href="mailto:consultoria@carlosdelfino.eti.br">E-mail: consultoria@carlosdelfino.eti.br</a>
- * <div id="SkypeButton_Call_fullservice.admin_1">
-  <script type="text/javascript">
-    Skype.ui({
-      "name": "dropdown",
-      "element": "SkypeButton_Call_fullservice.admin_1",
-      "participants": ["fullservice.admin"],
-      "imageSize": 32
-    });
-  </script>
-</div>
+ * <div id="SkypeButton_Call_fullservice.admin_1"></div>
+
+<script type="text/javascript">
+Skype.ui({
+  "name": "dropdown",
+  "element": "SkypeButton_Call_fullservice.admin_1",
+  "participants": ["fullservice.admin"],
+  "imageSize": 32
+});
+</script>
+
 
 ###### Redes Sociais (Midias entre outros)
 
@@ -95,7 +96,7 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 
 <a href="http://stackexchange.com/users/2125633?theme=clean">
      <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-     </a>
+</a>
 
 ###### TESOUROS:
 <ul class="th-grid">
