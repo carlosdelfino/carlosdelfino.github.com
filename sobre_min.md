@@ -91,6 +91,7 @@ Skype.ui({
  * [Quora: http://www.quora.com/Carlos-Delfino](http://www.quora.com/Carlos-Delfino)
  * [Research Gate: https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro](https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro)
  * [Academia: https://independent.academia.edu/CarlosDelfino](https://independent.academia.edu/CarlosDelfino)
+ * [Kaggle: https://www.kaggle.com/carlosdelfino/](https://www.kaggle.com/carlosdelfino)
 
 <a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Follow me on Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
 
