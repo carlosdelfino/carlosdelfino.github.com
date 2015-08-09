@@ -12,10 +12,13 @@ feature:
 ads: 
  show: true
 tagcloud: true
-coinbase:
+donate:
  show: true
-flattr:
- show: true
+ coinbase:
+  show: true
+ flattr:
+  show: true
+shortlink: http://bit.ly/GCCExplorer
 ---
  
 
@@ -50,6 +53,9 @@ seguintes plataformas:
  * x86 (diversos sabores GCC)
  * e também AVR, 
  
+<figure>
+<img src="{{ site.url }}/images/programacao/ccplusplus/Screenshot-from-2015-08-07-152220-1024x415.png" />
+<figcaption>Screenshot obtido no site "GCC Explorer da Parallella</figcaption></figure>
 Porém não achei ainda como usar códigos do Arduino, o que seria muito bom para
 estudantes e pesquisadores.
 
