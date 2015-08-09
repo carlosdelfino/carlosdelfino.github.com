@@ -113,3 +113,4 @@ nivel_4:
    
 C_Cplusplus:
    name: "C/C++"
+   alias: [CCplusplus, "C C++", "C/Cplusplus"] 
