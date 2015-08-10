@@ -5,7 +5,7 @@
 		f = document.createElement('iframe');
 		f.src = '//api.flattr.com/button/view/?uid={{ site.flattr.login }}&button=compact&url='
 				+ encodeURIComponent(document.URL);
-		f.title = '{{ page.title }}';
+		f.title = '{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}';
 		f.height = 20;
 		f.width = 110;
 		f.style.borderWidth = 0;
