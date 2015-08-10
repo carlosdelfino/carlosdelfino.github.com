@@ -27,7 +27,9 @@ ads:
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 					{% if page.amazon.productcloud == true %}{% include gadget/amazon/product-cloud-gadget.html %}{% endif %}
-					{% if page.coinbase.show == true %}{% include bitcoin/coinbase.html %}{% endif %}
+					<!-- start if donate -->
+					{% if page.donate.show != false %}{% include donate/donate.html %}{% endif %}
+					<!-- end if donate -->
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
