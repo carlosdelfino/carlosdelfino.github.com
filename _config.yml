@@ -39,6 +39,11 @@ google:
       client: ca-pub-1710447158146560
       slot: 8511319937
 
+flattr:
+   id: fbzv3r5
+   login: CarlosDelfino
+   title: Flattr
+
 facebook:
   appid: 351518334888083
   uselogin: false
