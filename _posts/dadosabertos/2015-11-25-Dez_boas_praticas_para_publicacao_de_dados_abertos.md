@@ -16,7 +16,9 @@ coinbase:
  show: true
 ---
 O texto abaixo foi retirado do curso "Publicação de Dados em Formato Aberto", 
-sugere 10 boas práticas para a publicação de dados abertos conforme Hyland (Hyland, et al., 2014):
+sugere 10 boas práticas para a publicação de dados abertos
+<!--more-->
+conforme Hyland (Hyland, et al., 2014):
 
 1. Preparar os Stakeholders: esta etapa é voltada para a formação dos usuários que irão criar e manter os dados abertos conectados;
 
