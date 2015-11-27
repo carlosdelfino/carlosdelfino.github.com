@@ -44,7 +44,7 @@ os demais colegas que possam estar buscando soluções.
     operacional possa entende-lo. Um "bindings" é uma estrutura de de como os disposítivos é descrito no device tree.
     "Bindings" para uma coleção de dispositivos são bem estabelecidas e documentadas. Você pode ler sobre isso
     nas seguintes documentações 
-    "[POWER.ORG™ STANDARD FOR EMBEDDED POWER ARCHITECTURE™ PLATFORM REQUIREMENTS (EPAPR)](https://www.power.org/documentation/epapr-version-1-1/)" 
+    ["POWER.ORG™ STANDARD FOR EMBEDDED POWER ARCHITECTURE™ PLATFORM REQUIREMENTS (EPAPR)"](https://www.power.org/documentation/epapr-version-1-1/)
     e na norma IEEE 1275 (OpenFirmware).
 
 Bem, por hora não irei detalhar mais informações, já que para nós isso é mais que suficiente para entendermos
