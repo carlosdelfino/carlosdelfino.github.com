@@ -1,5 +1,5 @@
 ---
-title: "Device Tree" 
+title: "Device Tree - Iniciando Estudos" 
 tags: [Linux, Device, Tree, Device Tree, Sistemas Operacionais, Boot]
 category: [Sistemas Operacionais, Linux, Boot]
 layout: article
