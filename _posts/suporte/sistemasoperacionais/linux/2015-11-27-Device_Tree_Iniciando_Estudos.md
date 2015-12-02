@@ -59,3 +59,4 @@ Abaixo segue as fontes sugeridas para um estudo mais aprofundado:
   * [Linux Kernel device tree bindings: dts-bindings](http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=tree;f=Documentation/powerpc/dts-bindings;h=6096c2cc88a90bfac0b1f0c319689e788817f54a;hb=326ba5010a5429a5a528b268b36a5900d4ab0eba)
   * [Device Tree on ARM Linux kernel work](https://wiki.ubuntu.com/KernelTeam/ARMDeviceTrees)
   * [FreeBSD Device Tree support](http://wiki.freebsd.org/FlattenedDeviceTree)
+  * https://community.arm.com/docs/DOC-10498?et=watches.email.outcome
