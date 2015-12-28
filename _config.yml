@@ -58,7 +58,7 @@ sass:
 permalink: /:categories/:title/
 
 markdown: kramdown
-highlighter: pygments
+#highlighter: pygments
 
 gems:
  - jekyll-redirect-from
