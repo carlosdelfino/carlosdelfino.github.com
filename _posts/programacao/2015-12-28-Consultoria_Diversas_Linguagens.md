@@ -1,7 +1,7 @@
 ---
-title: "Consultoria em Desenvolvimento de Sistemas" 
-tags: [Linux, Sistemas Operacionais, Desenvolvimenot, Integração, Analise, Codificação, Automação, C, C++, Java, R, Julia, AVR, ARM, MCU, EAD, BigData, JBoss, RichFaces, Dados Abertos, Dados Conectados]
-category: [Sistemas Operacionais, Linux, Boot]
+title: "Consultoria em Desenvolvimento de Sistema em diversas linguagenss" 
+tags: [Linux, Sistemas Operacionais, Desenvolvimenot, Integração, Analise, Codificação, Automação, C, C++, Java, R, Julia, JavaScript, Perl, Python, AVR, ARM, MCU, EAD, BigData, JBoss, RichFaces, Dados Abertos, Dados Conectados]
+category: [programacao, consultoria]
 layout: article
 share: true
 toc: true
