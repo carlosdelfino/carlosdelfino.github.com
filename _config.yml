@@ -4,8 +4,8 @@ safe: true
 lsi: false
 
 title: Carlos Delfino
-description: "Consultoria e Serviços, Desenvolvimento em Java e PHP e com Microcontroladores AVR, ARM e Prototipagem com Arduino"
-keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, Arduino, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Cursos, EAD, Treinamento, Cursos
+description: "Consultoria e Serviços, Desenvolvimento em diversas linguagens com Microcontroladores AVR, ARM e Prototipagem com Arduino"
+keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
@@ -71,7 +71,7 @@ owner:
    name: Carlos Delfino
    email: consultoria@carlosdelfino.eti.br
    twitter: fullsrv
-   bio: Analista de Suporte em Redes Windows e Linux, Analista de Desenvolvimento Java, PHP e C/C++ para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
+   bio: Analista de Redes Windows e Linux, Analista de Desenvolvimento em diversas linguagens, incluindo para Microcontroladores, Consultor, mais de 20 anos de experiência no mercado de TICs
    avatar: carlosdelfino.png
    google:
       plus: +CarlosDelfinoCarvalhoPinheiro
