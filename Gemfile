@@ -2,14 +2,11 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem 'jekyll-redirect-from'
 gem "jekyll-sitemap"
 gem "jekyll-mentions"
 gem "jekyll-sass-converter"
 gem "jekyll-textile-converter"
-gem "jekyll-mentions"
 gem "jekyll-redirect-from"
-gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "jekyll-gist"
 gem "jekyll-paginate"
