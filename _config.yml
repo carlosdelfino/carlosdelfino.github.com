@@ -59,14 +59,20 @@ permalink: /:categories/:title/
 
 markdown: kramdown
 highlighter: pygments
+pygments: true
 
 gems:
- - jekyll-redirect-from
+ - jekyll-feed	
+ - jekyll-gist	
+ - jekyll-paginate	
  - jekyll-sitemap
  - jekyll-mentions
- - jemoji
+ - jekyll-coffeescript
+ - jekyll-redirect-from
  - jekyll-sass-converter
  - jekyll-textile-converter	
+ - jekyll-redirect-from	
+ - jekyll-seo-tag	
  - kramdown	
  - rdiscount	
  - redcarpet	
@@ -74,15 +80,6 @@ gems:
  - liquid	
  - rouge	
  - jemoji	
- - jekyll-mentions	
- - jekyll-redirect-from	
- - jekyll-sitemap
- - jekyll-feed	
- - jekyll-gist	
- - jekyll-paginate	
- - github-pages-health-check
- - jekyll-coffeescript
- - jekyll-seo-tag	
  - html-pipeline	
  - sass	
  - safe_yaml
