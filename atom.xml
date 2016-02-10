@@ -13,12 +13,12 @@ limit: 25
 		<icon>{{ site.url }}/apple-touch-icon-precomposed.png</icon>
     <subtitle>{{ site.description }}</subtitle>
     <link href="{{ base }}{{ page.url }}" rel="self"/>
-    <link href="{{ base }}/" rel="alternate" type="text/html"/>
+    <link href="{{ base }}" rel="alternate" type="text/html"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ base }}/</id>
+    <id>{{ base }}</id>
     <author>
 			<name>{{ site.owner.name | xml_escape }}</name>
-			<uri>{{ site.url }}/</uri>
+			<uri>{{ site.url }}</uri>
 			{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
 		</author>
 
@@ -30,7 +30,7 @@ limit: 25
         <id>{{ base }}{{ post.id }}</id>
         <author>
 					<name>{{ site.owner.name | xml_escape }}</name>
-					<uri>{{ site.url }}/</uri>
+					<uri>{{ site.url }}</uri>
 					{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
 				</author>
         <content type="html">
