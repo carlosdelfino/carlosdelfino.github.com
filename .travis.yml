@@ -11,31 +11,16 @@ before_script:
 script: ./script/cibuild
 
 rvm:
-  - &ruby1 2.3.0
-  - &ruby2 2.2.4
-  - &ruby3 2.1.8
-  - &ruby4 2.0.0-p648
-  - &jruby jruby-9.0.4.0
-  - &rhead ruby-head
+  - 2.3.0
 
-matrix:
-  fast_finish: true
-  allow_failures:
-    - rvm: *jruby
-    - rvm: *rhead
 env:
   matrix:
     - TEST_SUITE=test
     - TEST_SUITE=cucumber
 
-notifications:
-  irc:
-    template: "%{repository}#%{build_number} (%{branch}) %{message} %{build_url}"
-    channels: irc.freenode.org#jekyll
-
   email:
     recipients:
-      - jordon@envygeeks.io
+      - consultoria@carlosdelfino.eti.br
 
 
 # branch whitelist, only for GitHub Pages
