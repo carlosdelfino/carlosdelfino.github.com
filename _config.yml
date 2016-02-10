@@ -58,8 +58,7 @@ sass:
 permalink: /:categories/:title/
 
 markdown: kramdown
-highlighter: pygments
-pygments: true
+highlighter: rouge
 
 gems:
  - jekyll-feed	
