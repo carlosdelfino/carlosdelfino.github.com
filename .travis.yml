@@ -23,11 +23,6 @@ env:
       - consultoria@carlosdelfino.eti.br
 
 
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
-  
-
 # branch whitelist
 branches:
   only:
