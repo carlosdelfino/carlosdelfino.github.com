@@ -48,6 +48,10 @@ facebook:
   uselogin: false
   scope: [user_friends, email]
   wellcomemsg: "Olá "
+  
+# Exibe o mosquito aedes aegypti, campanha contra o mosquito
+aedes:
+  show: true
 
 # Jekyll configuration
 
