@@ -8,17 +8,10 @@ image:
    feature: carlosdelfino-palestra-400x161.png
 title: "Início"
 ---
-Seja Bem-Vindo ao meu site, aqui você vai encontrar:
+Seja Bem-Vindo!
 
- * Dicas e Macetes em geral;
- * Artigos sobre microcontroladores AVR, ARM e Prototipação com Arduino, e outros;
- * Programação em Java e PHP para Web Sistem distribuidos. 
- * Consultoria em Linux, JBoss, Joomla e Moodle.
-
-<!-- more -->
-
-Abaixo estão listados as últimas 20 publicações que fiz até agora, para 
-encontrar outras publicações visite o link [Categorias](/categorias/), ou 
+Abaixo estão listadas as últimas 20 publicações de meu site, para 
+ outras publicações visite o link [Categorias](/categorias/), ou 
 procure por "[tags](/tags)".  
 
 <hr />

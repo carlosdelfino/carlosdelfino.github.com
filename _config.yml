@@ -4,8 +4,8 @@ safe: true
 lsi: false
 
 title: Carlos Delfino
-description: "Consultoria e Serviços, Desenvolvimento em diversas linguagens com Microcontroladores AVR, ARM e Prototipagem com Arduino"
-keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado
+description: "Consultoria e Serviços em TICs, Desenvolvimento em diversas linguagens com Microcontroladores AVR, ARM e Prototipagem com Arduino"
+keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado, EAD, E-Learning, Moodle, AVA, CVA, CMS, Joomla, Aprendizado, Ensino a Distância
 logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
