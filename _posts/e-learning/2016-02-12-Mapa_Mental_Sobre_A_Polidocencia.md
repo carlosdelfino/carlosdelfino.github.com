@@ -39,4 +39,4 @@ ferramenta aprópriada de mapa mental.
 
 Segue a imagem, usem se desejarem o campo de comentários para sugerirem melhoras:
 
-![Mapa Mental a Polidocencia V-0.1](/images/e-learnng/polidocencia/a_polidocencia_v_0_1.gif)
+![Mapa Mental a Polidocencia V-0.1](/images/e-learning/polidocencia/a_polidocencia_v_0_1.gif)
