@@ -1,7 +1,7 @@
 ---
 title: Haja o Que Ouver - Madredeus
 categories: [Musicas]
-tags: [madredeus, músicas, Sonho, fado, portuguesa, erudidta, classica, violão]
+tags: [madredeus, músicas, Sonho, fado, portuguesa, erudidta, classica, violão, paz, sabedoria]
 layout: article
 comments: false
 share: true
