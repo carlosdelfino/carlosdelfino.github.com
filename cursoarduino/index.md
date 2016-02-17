@@ -1,5 +1,11 @@
 ---
-permalink: /cursoarduino/
+redirect_from: 
+ - /Arduino/
+ - /arduino/
+ - /cursoarduino/
+ - /CursoArduinoMinas/
+ - /cursoarduinominas/
+permalink: /CursoArduino/
 title: Curso Arduino Minas
 excerpt: "Abaixo estão listados os cursos que ministramos, ou estamos elaborando, use o campo comentário para obter mais informações."
 layout: categorylist
