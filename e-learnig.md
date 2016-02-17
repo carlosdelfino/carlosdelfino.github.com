@@ -11,5 +11,5 @@ share: true
 ads:
  show: true
 comments: true
-category: e-lenaring
+category: e-learning
 --- 
