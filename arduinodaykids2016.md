@@ -7,6 +7,6 @@ redirect_from:
  - /arduinodaykids2016/
  - /arduinodaykids16/
  - /arduinodaykids/
-redirect_to: ArduinoDayKids/
+redirect_to: /ArduinoDayKids/
 --- 
 
