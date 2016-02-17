@@ -17,7 +17,7 @@ image:
   feature: pbx_digital/asterisk-640x359.png
   credit: Asterisk
   creditlink: http://www.asterisk.org/
-tags:
+tags: [pbx, digital, voip, google, text-to-speech,google-speech,voz, telefonia,audio,pbx-digital]
 ---
 O Google possui um serviço de reconhecimento da fala, e um complementar que é o de leitura de texto, o primeiro Chamado de Google Speech-to-Text e o segundo chamado de Google Text-to-Speech. Usando os dois serviços podemos obter novas funcionalidades no Asterisk, como a leitura de noticias, dados que possam estar disponível em serviços internos da empresa relativos a relatórios montados automaticamente ou mesmo pelo funcionário.
 <!-more->
