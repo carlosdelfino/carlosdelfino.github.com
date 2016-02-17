@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Conceitos relacionados ao uso do Asterisk e VOIP
-excerpt: Em todo contexto de trabalho com TIC (Tecnologia da Informação e Comunicação) temos conceitos que precisam ser assimilados, vejamos neste artigo alguns palavras e conceitos usados no ASTERISK, quais seus significados e relação.
 category: pbx_digital
 tags: [pbx, pbxdigital, voip, voz sobre ip, telefonia, comunicação, celular, pabx]
 share: true
@@ -18,6 +17,10 @@ image:
    feature: pbx_digital/asterisk-640x359.png
    credit: Asterisk
 ---
+Em todo contexto de trabalho com TIC (Tecnologia da Informação e Comunicação) temos conceitos que precisam ser assimilados, vejamos neste artigo alguns palavras e conceitos usados no ASTERISK, quais seus significados e relação.
+
+<!-more->
+
   * PBX (Private Branch Exchange)
 é uma pequena central telefonica que pode ter apenas dois pontos de conexão telefônicos ou até mesmo centenas.
 
