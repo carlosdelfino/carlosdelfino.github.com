@@ -1,15 +1,12 @@
 ---
 redirect_from: 
- - /Musicas/
-permalink: /musicas/
-title: Músicas
-excerpt: "Músicas que Gosto"
-layout: categorylist
-category: musicas
-share: true
-comments: true
-ads:
-  layout: horizontal
-  show: true 
+ - /ArduinoDayKids-2016/
+ - /ArduinoDayKids16/
+ - /ArduinoDayKids2016/
+ - /ArduinoDayKids2016/
+ - /arduinodaykids2016/
+ - /arduinodaykids16/
+ - /arduinodaykids/
+redirect_to: ArduinoDayKids/
 --- 
 
