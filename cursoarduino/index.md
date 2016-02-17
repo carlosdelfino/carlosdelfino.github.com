@@ -3,6 +3,8 @@ redirect_from:
  - /Arduino/
  - /arduino/
  - /cursoarduino/
+ - /Cursoarduino/
+ - /cursoArduino/
  - /CursoArduinoMinas/
  - /cursoarduinominas/
 permalink: /CursoArduino/
