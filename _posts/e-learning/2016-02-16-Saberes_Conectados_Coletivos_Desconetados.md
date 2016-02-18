@@ -18,7 +18,7 @@ coinbase:
 
 As mensagens individuais podem ser classificadas segundo uma escala baseada na teoria do saber conectado e destacado.
 
-<!--more->
+<!--more-->
 
 Essa teoria pode ajudá-lo a olhar para as interações humanas de uma maneira nova. Ele descreve duas maneiras diferentes que podemos avaliar e aprender sobre as coisas que veem e ouvem.
 
