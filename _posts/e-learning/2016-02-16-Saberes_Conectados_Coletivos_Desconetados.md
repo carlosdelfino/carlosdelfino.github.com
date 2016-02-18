@@ -46,33 +46,13 @@ Os resultados não são usados ​​para avaliar os alunos de forma alguma, ele
 
 No caso de você estiver interessado, aqui estão algumas referências a documentos elaborados pelos autores que originalmente desenvolveram estas ideias:
 
-Belenky, M.F., Clinchy, B.M., Goldberger, N.R., & Tarule, J.M. (1986). 
-
-Women's ways of knowing: the development of self, voice, and mind. New York, 
-
-NY: Basic Books.
-Clinchy, B.M. (1989a). The development of thoughtfulness in college women: 
-
-Integrating reason and care. American Behavioural Scientist, 32(6), 647-657.
-Clinchy, B.M. (1989b). On critical thinking & connected knowing. Liberal 
-
-education, 75(5), 14-19.
-Clinchy, B.M. (1996). Connected and separate knowing; Toward a marriage 
-
-of two minds. In N.R. Goldberger, Tarule, J.M., Clinchy, B.M. &
-Belenky, M.F. (Eds.), Knowledge, Difference, and Power; Essays inspired 
-
-by “Women’s Ways of Knowing” (pp. 205-247). New York, NY: 
-
-Basic Books.
-Galotti, K. M., Clinchy, B. M., Ainsworth, K., Lavin, B., & Mansfield, 
-
-A. F. (1999). A New Way of Assessing Ways of Knowing: The Attitudes Towards 
-
-Thinking and Learning Survey (ATTLS). Sex Roles, 40(9/10), 745-766.
-Galotti, K. M., Reimer, R. L., & Drebus, D. W. (2001). Ways of knowing 
-
-as learning styles: Learning MAGIC with a partner. Sex Roles, 44(7/8), 419-436. 
+ - Belenky, M.F., Clinchy, B.M., Goldberger, N.R., & Tarule, J.M. (1986). 
+ - Women's ways of knowing: the development of self, voice, and mind. New York, NY: Basic Books.
+ - Clinchy, B.M. (1989a). The development of thoughtfulness in college women: Integrating reason and care. American Behavioural Scientist, 32(6), 647-657.
+ - Clinchy, B.M. (1989b). On critical thinking & connected knowing. Liberal education, 75(5), 14-19.
+ - Clinchy, B.M. (1996). Connected and separate knowing; Toward a marriage of two minds. In N.R. Goldberger, Tarule, J.M., Clinchy, B.M. & Belenky, M.F. (Eds.), Knowledge, Difference, and Power; Essays inspired by “Women’s Ways of Knowing” (pp. 205-247). New York, NY: Basic Books.
+ - Galotti, K. M., Clinchy, B. M., Ainsworth, K., Lavin, B., & Mansfield, A. F. (1999). A New Way of Assessing Ways of Knowing: The Attitudes Towards Thinking and Learning Survey (ATTLS). Sex Roles, 40(9/10), 745-766.
+ - Galotti, K. M., Reimer, R. L., & Drebus, D. W. (2001). Ways of knowing as learning styles: Learning MAGIC with a partner. Sex Roles, 44(7/8), 419-436. 
 
 
 ## fonte:
