@@ -1,18 +1,6 @@
-{% if page.disqus.identifier != empty %}
-		{% assign identifier = page.disqus.identifier %}
-{% else %}
-		{% assign identifier = page.category + page.title %}		
-{% endif %}
-{% if page.disqus.title != empty %}
-		{% assign title = page.disqus.title %}
-{% else %}
-		{% assign title = page.title %}		
-{% endif %}
-{% if page.disqus.category != empty %}
-		{% assign category = page.disqus.category %}
-{% else %}
-		{% assign category = page.category %}		
-{% endif %}
+{% assign identifier = page.disqus.identifier | default: page.id %}		
+{% assign title = page.disqus.title | default: page.title %}
+{% assign category = page.disqus.category | default: page.category %}		
 
 <hr />
 <div id="disqus_thread"></div>
