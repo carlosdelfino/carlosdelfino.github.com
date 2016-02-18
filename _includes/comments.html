@@ -1,3 +1,19 @@
+{% if page.disqus.identifier != empty %}
+		{% assign identifier = page.disqus.identifier %}
+{% else %}
+		{% assign identifier = page.category + page.title %}		
+{% endif %}
+{% if page.disqus.title != empty %}
+		{% assign title = page.disqus.title %}
+{% else %}
+		{% assign title = page.title %}		
+{% endif %}
+{% if page.disqus.category != empty %}
+		{% assign category = page.disqus.category %}
+{% else %}
+		{% assign category = page.category %}		
+{% endif %}
+
 <hr />
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -5,8 +21,10 @@
 	var disqus_shortname = '{{ site.disqus.shortname }}';
 
 	var disqus_config = function () {
+		this.page.title = '{{ title }}';
+		this.page.category_id = '{{ category }}';
 		this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = '{{ site.disqus.shortname }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		this.page.identifier = '{{ identifier }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 	/* * * DON'T EDIT BELOW THIS LINE * * */
 	(function() {
