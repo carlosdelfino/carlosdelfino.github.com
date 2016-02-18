@@ -4,7 +4,7 @@
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 	var disqus_shortname = '{{ site.disqus.shortname }}';
 
-	this.page.url = '{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = '{{ site.disqus.shortname }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 
 	/* * * DON'T EDIT BELOW THIS LINE * * */
