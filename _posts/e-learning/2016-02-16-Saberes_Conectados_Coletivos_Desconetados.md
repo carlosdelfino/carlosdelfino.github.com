@@ -22,7 +22,8 @@ As mensagens individuais podem ser classificadas segundo uma escala baseada na t
 
 Essa teoria pode ajudá-lo a olhar para as interações humanas de uma maneira nova. Ele descreve duas maneiras diferentes que podemos avaliar e aprender sobre as coisas que veem e ouvem.
 
-**Atenção** Tradução livre da descrição no Moodle e no link: https://docs.moodle.org/24/en/Separate_and_Connected_ways_of_knowing {: .notice-warning }
+**Atenção** Tradução livre da descrição no Moodle e no link: https://docs.moodle.org/24/en/Separate_and_Connected_ways_of_knowing 
+{: .notice }
 
 Embora cada um de nós poça usar estes dois métodos em proporções e em momentos diferentes, pode ser útil imaginar duas pessoas como exemplos, aquele que é um conhecedor isolado (Jim) e o outro uma conhecedora colectiva ou conectada (Mary).
 
