@@ -2,7 +2,7 @@
 title: Basicão da Eletronica
 excerpt: Curso Básico e Introdutório a Eletrônica para uso com o Arduino
 tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Eletrônica, Eletrônica Anlógica, Eletrônica Digital]
-category: CursoArduino
+category: cursoarduino
 layout: article
 share: true
 toc: false 

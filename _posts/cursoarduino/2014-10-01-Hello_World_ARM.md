@@ -2,7 +2,7 @@
 title: Hello World ARM
 excerpt: Curso Básico e Introdutório a arquitetura ARM, sua lógica de programaçãom e recursos básicos para os primeiros passos
 tags: [Arduino, Curso, Shields, Modulos, Arduino Due, Lógica, Programação, FIFO, Algoritimos, Estrutura de Dados, Assembly, ATMel, ARM]
-category: CursoArduino
+category: cursoarduino
 layout: article
 share: true
 toc: true

@@ -2,7 +2,7 @@
 title: Hello World Arduino
 excerpt: Curso Básico e Introdutório ao universo do Arduino
 tags: [Arduino, Curso, Shield, Modulo, Mega, Due, Uno, AVR, ARM]
-category: CursoArduino
+category: cursoarduino
 layout: article
 share: true
 toc: true

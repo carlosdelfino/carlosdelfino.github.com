@@ -2,7 +2,7 @@
 title: Telefonia e Automação com Arduino
 excerpt: Workshop de Telefonia e Automação usando o Arduino, Abrangendo Asterisk
 tags: [Arduino, Curso, Shield, Modulo, Mega, Due, Uno, AVR, ARM, Telefonia, GPRS, GSM, Celular, Asterisk]
-category: CursoArduino
+category: cursoarduino
 layout: article
 share: true
 toc: true
