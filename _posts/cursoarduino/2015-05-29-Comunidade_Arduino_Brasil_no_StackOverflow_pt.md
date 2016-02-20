@@ -1,7 +1,7 @@
 ---
 title: "Comunidade Arduino Brasil no StackOverflow PT" 
 tags: [Arduino, Arduino Brasil, Comunidade, Forum, Q&A, FAQ, Tira Dúvidas, Expert, UNO, Mega, DUE, Yun, Galileu, Maker, Projetos, Hobby, Eletronica, Engenharia, Eletronica, Resistor, Transistor, Diodo, LED, AVR, ARM, GCC]
-category: [cursoarduino]
+category: Arduino
 layout: article
 share: true
 toc: true
