@@ -28,12 +28,21 @@ O Arduino não é nosso, nunca foi, mas e agora, que tomamos posse de tal marca 
 
 Num rápida busca no dia 20 de fevereiro, já com 31 eventos cadastrados, quais ja usam o nome Genuino Day? Ainda nenhum parece estar usando o novo Kit com o nome Genuino:
 
- * http://emjuizdefora.com/gdgjf/eventos/arduino-day/
- * https://lhc.net.br/wiki/Arduino_Day_2016
- * https://garoa.net.br/wiki/Arduino_Day
- * https://www.facebook.com/ArduinoDayRecife
- * https://www.facebook.com/GIM.UFRN/
- * https://www.facebook.com/arduinodayfortaleza/
+<div itemscope itemtype="http://schema.org/Event">
+<ul>
+ <li>
+  <a itemprop="url" href="http://emjuizdefora.com/gdgjf/eventos/arduino-day/">http://emjuizdefora.com/gdgjf/eventos/arduino-day/</a>
+ <li>
+  <a itemprop="url" href="https://lhc.net.br/wiki/Arduino_Day_2016">https://lhc.net.br/wiki/Arduino_Day_2016</a>
+ <li>
+  <a itemprop="url" href="https://garoa.net.br/wiki/Arduino_Day">https://garoa.net.br/wiki/Arduino_Day</a>
+ <li>
+  <a itemprop="url" href="https://www.facebook.com/ArduinoDayRecife">https://www.facebook.com/ArduinoDayRecife</a>
+ <li>
+  <a itemprop="url" href="https://www.facebook.com/GIM.UFRN/">https://www.facebook.com/GIM.UFRN/</a>
+ <li>
+  <a itemprop="url" href="https://www.facebook.com/arduinodayfortaleza/">https://www.facebook.com/arduinodayfortaleza/</a>
+</div>
 
 O que que acarretaria se todos não seguirem a diretriz da proprietária da marca? Seria um ato de rebeldia, ou defesa da liberdade provocada por eles mesmo quando criaram este conceito?
 
