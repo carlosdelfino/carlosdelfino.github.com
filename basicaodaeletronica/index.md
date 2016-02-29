@@ -1,5 +1,7 @@
 ---
-permalink: /basicaodaeletronica/
+redirect_from:
+ - /basicaodaeletronica/
+permalink: /BasicaoDaEletronica/
 title: Basicão da Eletronica
 layout: categorylist
 category: basicaodaeletronica
@@ -10,4 +12,5 @@ especialmente para quem vai trabalhar com microcontroladores, ensinando
 conceitos básicos como uso de resistores, capacitores, diodos, leds e 
 transitores, além de transformadores, de forma simples e uma didática
 totalmente de forma prática.
+
 <!--more-->
