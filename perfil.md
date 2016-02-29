@@ -4,10 +4,9 @@ redirect-from:
  - "profiles"
  - "perfis"
 permalink: /perfil/
-title: Tecnologia no Social
-excerpt: Programa que agrega projetos que buscam levar soluções Tecnologicas para a comunidade, buscando torna-las mais focadas no social. 
+title: Perfis
 layout: categorylist
-category: TecnologiaNoSocial
+category: perfil
 share: true 
 feature:
  index: true
@@ -16,7 +15,8 @@ image:
  teaser:  
 ---
 
+Programa que agrega projetos que buscam levar soluções Tecnológicas para a comunidade, buscando torná-las mais focadas no social. 
 
-Nesta página listo os perfis que tenh olevantado de pessoas importantes ligadas as
-tecnologias que trabalho e relacionados ao contexto que me encontro.
+<!--more-->
 
+Nesta página listo os perfis que tenho levantado de pessoas importantes ligadas as tecnologias que trabalho e relacionados ao contexto que me encontro.
