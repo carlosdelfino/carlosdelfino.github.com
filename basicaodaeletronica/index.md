@@ -22,5 +22,5 @@ de bairros e cidades, em especial em situação de risco e na periferia
 conhecimentos básicos de eletrônica para que tenha a oportunidade e 
 identificar com a prática e assim reconstruir e consolidar conhecimentos.
 
-Vejam mais informações sobre as (Oficinas Basicão da Eletrônica)[./Oficinas] neste 
+Vejam mais informações sobre as [Oficinas Basicão da Eletrônica](./Oficinas) neste 
 link.
