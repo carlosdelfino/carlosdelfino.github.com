@@ -2,7 +2,7 @@
 title: O Menino da Internet: a História de Aaron Swartz
 excerpt: Aaron Hillel Swartz (Chicago, 8 de novembro de 1986  – Nova Iorque, 11 de janeiro de 2013) 1 foi um programador americano, escritor, organizador político e ativista na Internet. Swartz é co-autor da especificação RSS. Foi um dos fundadores do Reddit2 e da organização ativista online Demand Progress. Era também membro do Centro Experimental de Ética da Universidade Harvard......
 tags: [O Menino da Internet, a História, Aaron Swartz, Ativismo, Cyber, Cyber Ativismo, Cyber Cultura, Internet, Genios, ]
-categories: [BasicaoDaEletronica]
+categories: [perfil]
 layout: article
 share: true
 toc: true
