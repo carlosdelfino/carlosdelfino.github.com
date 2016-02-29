@@ -25,10 +25,10 @@ As mensagens individuais podem ser classificadas segundo uma escala baseada na t
 
 Essa teoria pode ajudá-lo a olhar para as interações humanas de uma maneira nova. Ele descreve duas maneiras diferentes que podemos avaliar e aprender sobre as coisas que veem e ouvem.
 
-**Atenção** Tradução livre da descrição da descrição da escala no Moodle e do link: https://docs.moodle.org/24/en/Separate_and_Connected_ways_of_knowing 
+**Atenção** Tradução livre da descrição da escala no próprio Moodle e do link: https://docs.moodle.org/24/en/Separate_and_Connected_ways_of_knowing 
 {: .notice }
 
-Embora cada um de nós poça usar estes dois métodos em proporções e em momentos diferentes, pode ser útil imaginar duas pessoas como exemplos, aquele que é um conhecedor isolado (Jim) e o outro uma conhecedora colectiva ou conectada (Mary).
+Embora cada um de nós possa usar estes dois métodos em proporções e em momentos diferentes, pode ser útil imaginar duas pessoas como exemplos, aquele que é um conhecedor isolado (Jim) e o outro uma conhecedora colectiva ou conectada (Mary).
 
  * Jim gosta de permanecer como "objetiva" quanto possível sem incluir os seus sentimentos e emoções. Quando em uma discussão com outras pessoas que podem ter ideias diferentes, ele gosta de defender suas próprias ideias, usando a lógica para encontrar falhas nas ideias de seu oponente. Ele é crítico de novas ideias a menos que sejam fatos de fontes confiáveis ​​comprovada tais como livros e professores respeitados ou sua própria experiência direta. Jim é o típico aluno isolado.
 

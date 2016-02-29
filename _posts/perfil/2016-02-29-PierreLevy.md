@@ -15,7 +15,7 @@ comments: true
 coinbase:
   show: true
 image:
- feature: extra/pierrelevy-1265x550.png
+ feature: extra/pierrelevy-1265x550.jpg
  teaser: extra/pierrelevy_640x426.jpg
 ---
 
