@@ -13,13 +13,13 @@ feature:
  index: true
 ---  
 As oficinas Basicão da Eletrônica são oficinas práticas tipo minicurso, 
-que ocorrem periodicamente visando levar aos jovens de forma livrre 
-conheicmento de eletrônica, as oficinas não subestimam nem levaam conhecimento 
-preformatado, mas dão a oportunidade dos participantes interagirem e aplicar 
+que ocorrem periodicamente visando levar aos jovens de forma livre 
+conhecimento de eletrônica, as oficinas não subestimam nem levam conhecimento 
+pré-formatado, mas dão a oportunidade dos participantes interagirem e aplicar 
 os conhecimentos, inclusive que a prática de desconstrução, ou seja, sem que 
 se permita a quebra da autoestima, é dado a chance de errar, o jovem tenta 
-primeiro fazer o que possui de conheicmento, dali parte para novas etapas, 
-ou reconstrõe seu saber buscnado o sucesso em caso de falha.
+primeiro fazer o que possui de conhecimento, dali parte para novas etapas, 
+ou reconstruir seu saber buscando o sucesso em caso de falha.
 
 <!--more-->
 
@@ -41,21 +41,21 @@ que serão usados em toda a vida do jovem caso ele se envolva com qualquer
 prática profissional ou por hobby (maker) que se utilize em algum nível
 de tais conhecimentos.
 
-As oficinas podem ser oferecidas para crianças apartir de 8 anos, estas
+As oficinas podem ser oferecidas para crianças a partir de 8 anos, estas
 já nas primeiras oportunidades tem contato com equipamentos de testes
-como multimetros digitais e com componentes que instigam sua curiosidade, 
-já que sua funcionalidade como os LEDs são intrigantes e agradaveis a todos.
+como multímetros digitais e com componentes que instigam sua curiosidade, 
+já que sua funcionalidade como os LEDs são intrigantes e agradáveis a todos.
 
 Durante as oficinas usamos LEDs, Fitas de LEDs, motores e componentes de apoio
-como resitores, baterias e até capacitores, sempre desafiando seus limites
+como resistores, baterias e até capacitores, sempre desafiando seus limites
 de forma a reconstruir o conhecimento quando necessário. 
 
 Nas Oficinas Basicão da Eletrônica, são também inseridos conhecimentos
-relativos a robôtica e automação, abrindo gancho para novas oficinas como 
+relativos a robótica e automação, abrindo gancho para novas oficinas como 
 a [Oficina Hello World Arduino](/HelloWorldArduino/Oficinas).
 
 Portanto as Oficinas sugeridas são na verdade um programa que envolve
 diversas atividades ocupando o tempo da criança, e sem dúvida são
-grande oportunidade para que se una com outros projetos de cidadânia 
+grande oportunidade para que se una com outros projetos de cidadania 
 levando ao jovem conhecimento e oportunidade de valorização e inserção
 na sociedade além de seu contexto local.
