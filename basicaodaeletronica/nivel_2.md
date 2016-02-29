@@ -5,6 +5,9 @@ excerpt: Basicão da Eletronica é um curso básico de eletrônica preparado esp
 layout: categorylist
 category: [BasicaoDaEletronica, Nivel 2]
 share: true 
+comments: true 
+feature:
+ index: true
 --- 
 
 # Nível 2 de Estudos para o Curso Basicão da Eletrônica
