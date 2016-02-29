@@ -28,5 +28,5 @@ Devido a nossa parceria com o ForHacker e Arduino-Ce que se inaugura no
 Arduino Day 2016, estaremos trazendo novas propostas para o nosso curso
 e em especial para nossa oficina.
 
-Veja mais informações (neste link)[/BasicaoDaEletronica] para o curso
+Veja mais informações [neste link](/BasicaoDaEletronica) para o curso
 e [neste link sobre as oficinas](/BasicaoDaEletronica/Oficinas)
