@@ -1,8 +1,8 @@
 --- 
 redirect-from: 
- - "profile"
- - "profiles"
- - "perfis"
+ - "/profile/"
+ - "/profiles/"
+ - "/perfis/"
 permalink: /perfil/
 title: Perfis
 layout: categorylist
@@ -10,6 +10,8 @@ category: perfil
 share: true 
 feature:
  index: true
+ads:
+ show: true
 image:
  feature:  
  teaser:  
