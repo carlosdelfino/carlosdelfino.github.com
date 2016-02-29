@@ -18,7 +18,7 @@ image:
   feature: pbx_digital/asterisk-640x359.png
   credit: Asterisk
   creditlink: http://www.asterisk.org/
-category: "PBX_Digital"
+category: PBX_Digital
 ---
 Antes de começarmos é importante lembrar que Asterisk foi desenvolvido para o SO Linux, porém há ports para outros SOs como FreeBSD, MACOSX e até para Windows, mas o mais interessante e o fato de haver ports para que possa ser usado com RaspberryPI e até para Beagle Bone.
 
