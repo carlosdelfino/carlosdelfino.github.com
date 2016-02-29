@@ -19,7 +19,7 @@ image:
   feature: pbx_digital/asterisk-640x359.png
   credit: Asterisk
   creditlink: http://www.asterisk.org/
-category: "PBX_Digital"
+pbx_digital
 ---
 **Atenção:** Acredito que você ja tenha tido sucesso em instalar o Asterisk conforme o tutorial [Instalação do Asterisk para Uso com Arduinos](/pbx_digital/Instalacao_do_Asterisk_para_uso_com_Arduino/) 
 {: .notice-warning }
