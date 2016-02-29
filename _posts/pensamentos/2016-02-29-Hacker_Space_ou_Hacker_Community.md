@@ -9,6 +9,9 @@ comments: true
 feature:
  category: true
  index: true
+image:
+ teaser: pensamentos/pensamento1-400x200.jpg
+ feature: pensamentos/pensamento1-400x200.jpg
 ads: 
  show: true
 tagcloud: true
@@ -50,9 +53,9 @@ Percebi que no decorrer do tempo, as listas virtuais tanto do Hacker Space Minas
 
 E ainda me pergunto, quem pode vir a ser culpado? Ninguém é culpado, mas sem dúvida há a responsabilidade dos que promovem e lideram as iniciativas, em esclarecer o que é um hackerspace e não se render a tendência de da maioria esmagadora, que muitas vezes não tem o perfil para estar congregando em um hackerspace, já que não querem a prática de compartilhar seus conhecimentos ou desafiá-los diretamente.
 
-Então um hackerspace é um lugar para se desafiar os demais e derrubar seus conhecimentos? não, e claro que não, o HackerSpace é um lugar para se compartilhar conhecimento e reconstrui-lo na ótica da comunidade, agregando novos paradigmas ao que foi construido individualmente.
+Então um hackerspace é um lugar para se desafiar os demais e derrubar seus conhecimentos? não, e claro que não, o HackerSpace é um lugar para se compartilhar conhecimento e reconstruí-lo na ótica da comunidade, agregando novos paradigmas ao que foi construído individualmente.
 
-Hackerspace é um lugar coletivo que não pertence a nenhum inviduo ou facção tecnológica, Hackerspace é um lugar que visa a troca de experiências e mais importante HackerSpace não é sala de aula, mas se aproxima mais a uma sala de debate.
+Hackerspace é um lugar coletivo que não pertence a nenhum individuo ou facção tecnológica, Hackerspace é um lugar que visa a troca de experiências e mais importante HackerSpace não é sala de aula, mas se aproxima mais a uma sala de debate.
 
 Não importa se mesa redonda ou quadrada, o hackerspace precisa de espaços para interação e troca de conhecimento entre seus frequentadores, sejam eles membros efetivos mantenedores ou apenas visitantes, curiosos, e aprendizes. O HackerSpace tem que estar povoado ao meu ver por pessoas que desejam interagir visualmente, e serem interlocutores em ações de reconstrução do conhecimento, assim o naturalmente o conhecimento trafega sobre e através de todos ali presentes, dando oportunidade ao hacker como já dito rever seus conceitos, e ao aprendiz adquirir novos conhecimentos, mas nunca ver o hackerspace como lugar para se obter lucro e ministrar cursos de cunho lucrativo, mas claro o curso pode ser ofertado e pode-se até naturalmente remunerar quem o ministra, mas isso não é premissa.
 

@@ -2,7 +2,7 @@
 title: Pierre Lévy
 category: [perfil]
 layout: article
-tags: [Filosofia, Filosofo, Virtual, Cyberespaço, Cybercultura]
+tags: [Filosofia, Filosofo, Virtual, Cyberespaço, Cybercultura, Pierre Lévy, Reflexão]
 tagcloud: true
 feature:
  index: true
