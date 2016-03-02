@@ -3,6 +3,9 @@ redirect_from:
  - /basicaodaeletronica/oficinas/
  - /BasicaoDaEletronica/oficinas/
  - /basicaodaeletronica/Oficinas/
+ - /basicaodaeletronica/oficina/
+ - /BasicaoDaEletronica/oficina/
+ - /basicaodaeletronica/Oficina/
 permalink: /BasicaoDaEletronica/Oficinas/
 title: Oficinas Basicão da Eletrônica
 layout: article
