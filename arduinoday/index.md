@@ -1,6 +1,7 @@
 ---
 permalink: /arduinoday/
 redirect_to: /eventos/arduinoday/Arduino-Day-2014/
+redirect_from: /ArduinoDay14BH/
 title: Arduino Day 2014
 excerpt: "Organização Arduino Day 2014"
 layout: categorylist
