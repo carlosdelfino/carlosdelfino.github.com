@@ -422,8 +422,8 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
 <figure>
 <center>
 <img alt="Arquitetura do SELinux" src="/images/linuxmacwindows/SELinux-Architecture.gif" />
-<figcaption>**Arquiteura do SELinux - Figura 1**  
-*Fonte:  [IBM-Part1-SELinux]
+<figcaption><b>Arquiteura do SELinux - Figura 1</b><br />  
+Fonte:  [IBM-Part1-SELinux]
 </center>
 </figcaption>
 </figure>
@@ -432,11 +432,12 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
 <figure>
 <center>
 <img src="/images/linuxmacwindows/AppArmor-Architecture.png" alt="Arquitetura do AppArmor" />  
- <figcaption>**Arquitetura do AppArmor - Figura 2**  
-*Fonte: [Linuxformat-AppArmor]*
+ <figcaption><b>Arquitetura do AppArmor - Figura 2</b><br />
+Fonte: [Linuxformat-AppArmor]*
 </center>
 </figcaption>
 </figure>
+
 ## Conclusão (Resumo do Estudo com Abertura para Possíveis novos Trabalhos)
 
 Sem dúvida alguma ambas as ferramentas atingem seus objetivos, e são as melhores escolhas, a SElinux com a chancela da NSA propõem um modelo aparentemente mais robusto desenvolvido em praticamente 10 anos depesquisas, já o modelo AppArmor apresenta uma maior facilidade de uso, atendendo as necessidades do usuário menos especialista, sem deixar de lado a segurança necessária.
