@@ -409,7 +409,7 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
 
 <figure>
 <center>
-![Arquitetura do SELinux](../images/linuxmacwindows/../images/linuxmacwindows/SELinux-Architecture.gif)
+<img alt="Arquitetura do SELinux" src="/images/linuxmacwindows/SELinux-Architecture.gif" />
 <figcaption>**Arquiteura do SELinux - Figura 1**  
 *Fonte:  [IBM-Part1-SELinux]
 </center>
@@ -418,10 +418,9 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
 
 
 </figure>
- <figcaption>
 <center>
-![Arquitetura do AppArmor](../images/linuxmacwindows/AppArmor-Architecture.png)  
-**Arquitetura do AppArmor - Figura 2**  
+<img src="/images/linuxmacwindows/AppArmor-Architecture.png" alt="Arquitetura do AppArmor" />  
+ <figcaption>**Arquitetura do AppArmor - Figura 2**  
 *Fonte: [Linuxformat-AppArmor]*
 </center>
 <figcaption>
