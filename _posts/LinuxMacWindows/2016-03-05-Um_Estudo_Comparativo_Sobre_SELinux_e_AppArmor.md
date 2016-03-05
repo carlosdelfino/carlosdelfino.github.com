@@ -57,7 +57,7 @@ maior segurança, mesmo com a criação de hard-links, neste caso negando o aces
 
 A tabela abaixo foi baseada em outra disponível em [suse-selinux-comparison], onde a empresa Novell responsável pela distribuição de mesmo nome, apresenta as diferenças entre as estruturas de segurança AppArmor e SELinux, considerando esta distribuição.
 
-
+<figure>
 <table class="table_comparison table_text">
                         <thead>
                             <tr>
@@ -146,10 +146,14 @@ Investimento considerável para treinamento</li>
                             </tr>
 </tbody>
 </table>
+<figcaption>Tabela comparativa das principais diferenças das estruturas.
+</figcaption>
+</figure>
 
 ### Automação
 Conforme também [suse-selinux-comparison] a automação para criação de profiles é bem mais simples e rápida veja a tabela adaptada:
 
+<figure>
 <table class="table_comparison table_text">
 	<thead>
 		<tr>
@@ -213,12 +217,15 @@ Conforme também [suse-selinux-comparison] a automação para criação de profi
                             </tr>
                         </tbody>
                     </table>
-
+<figcaption>Tabela comparativa do processo automatizado.
+</figcaption>
+</figure>
 
 #### Eficiência
 
 O Código de descrição dos perfis no AppArmor parecem ser mais eficiente, veja a tabela abaixo adaptada de [suse-selinux-compararison]:
 
+<figure>
 <table class="table_comparison table_text">
                         <thead>
                             <tr>
@@ -337,13 +344,15 @@ O Código de descrição dos perfis no AppArmor parecem ser mais eficiente, veja
                             </tr>
 </tbody>
 </table>
-
+<figcaption>Tabela comparativa da eficiência em representar as regras.
+</figcaption>
+</figure>
 
 
 ### Auditória
 
 O código dos profiles também conforme [suse-selinux-comparision] se apresenta mais legível de fácil auditória:
-
+<figure>
 <table class="table_comparison table_text">
                         <thead>
                             <tr>
@@ -404,6 +413,9 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
                             </tr>
 </tbody>
 </table>
+<figcaption>Tabela Comparativa da facilidade de auditória do código
+</figcaption>
+</figure>
 
 ### Arquitetura do SELinux vs AppArmor
 
@@ -413,17 +425,17 @@ O código dos profiles também conforme [suse-selinux-comparision] se apresenta 
 <figcaption>**Arquiteura do SELinux - Figura 1**  
 *Fonte:  [IBM-Part1-SELinux]
 </center>
-<figcaption>
+</figcaption>
 </figure>
 
 
-</figure>
+<figure>
 <center>
 <img src="/images/linuxmacwindows/AppArmor-Architecture.png" alt="Arquitetura do AppArmor" />  
  <figcaption>**Arquitetura do AppArmor - Figura 2**  
 *Fonte: [Linuxformat-AppArmor]*
 </center>
-<figcaption>
+</figcaption>
 </figure>
 ## Conclusão (Resumo do Estudo com Abertura para Possíveis novos Trabalhos)
 
