@@ -438,6 +438,7 @@ Fonte: [Linuxformat-AppArmor]*
 </figcaption>
 </figure>
 
+Posteriormente estarei fazendo um estudo sobre a arquitetura interna do Linux relativa ao sistema de segurança.
 
 ## Conclusão (Resumo do Estudo com Abertura para Possíveis novos Trabalhos)
 
