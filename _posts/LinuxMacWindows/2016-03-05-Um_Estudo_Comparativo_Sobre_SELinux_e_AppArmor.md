@@ -438,6 +438,7 @@ Fonte: [Linuxformat-AppArmor]*
 </figcaption>
 </figure>
 
+
 ## Conclusão (Resumo do Estudo com Abertura para Possíveis novos Trabalhos)
 
 Sem dúvida alguma ambas as ferramentas atingem seus objetivos, e são as melhores escolhas, a SElinux com a chancela da NSA propõem um modelo aparentemente mais robusto desenvolvido em praticamente 10 anos depesquisas, já o modelo AppArmor apresenta uma maior facilidade de uso, atendendo as necessidades do usuário menos especialista, sem deixar de lado a segurança necessária.
