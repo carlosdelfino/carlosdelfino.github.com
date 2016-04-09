@@ -75,17 +75,17 @@ Agora podemos ver duas novas abas dentro da aba topologia, uma como foi dito é 
 
 Agora selecione a aba canais e veremos a tela abaixo, clique no botão e carregue o arquivo e carregue o arquivo `canais.can`, os arquivos de configuração de canais tem a extensão `can`.
  
-![Carregando Biblioteca](/images/instalando_alf/canais_1.PNG)
+![Carregando Biblioteca](/images/instalando_alf/canais_1.png)
 
 A carga dos canais é bem mais lenta, porque é bastante complexa sua leitura, já que a topologia é desmembrada na composição descrita pela biblioteca, cada nó da topologia vira um conjunto de componentes/equipamentos.
 
 DA mesma forma que em topologia, há duas novas abas uma para canais apresentado de forma hierárquica em uma arvore e a outra em forma de gráfico.
 
-![Carregando Biblioteca](/images/instalando_alf/canais_3.PNG)
+![Carregando Biblioteca](/images/instalando_alf/canais_3.png)
 
-Já na aba grafica os canais podem ser vistos em parte, é preciso rolar a tela para ver toda a imagem, é normal que os componetes fiquem vibrando, isto acontece porque o software tenta manter o grafico organizado, para evitar que isso aconteça, aperte a tecla *F7*.
+Já na aba gráfica os canais podem ser vistos em parte, é preciso rolar a tela para ver toda a imagem, é normal que os componentes fiquem vibrando, isto acontece porque o software tenta manter o gráfico organizado, para evitar que isso aconteça, aperte a tecla *F7*.
 
-![Carregando Biblioteca](/images/instalando_alf/canais_3.PNG)
+![Carregando Biblioteca](/images/instalando_alf/canais_4.png)
 
 ##Gerenciando a Rede.
 
