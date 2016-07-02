@@ -1,13 +1,28 @@
 ---
 layout: article
-title: Arduino Day 2014 - Slides
+title: "Arduino Day 2014 - Slides"
 tags: [Eventos, Encontro, Arduino, ArduinoDay, Day, Aniverário, Slides]
 categories: [Eventos, ArduinoDay, Slides]
-author: Carlos Delfino
+author: "Carlos Delfino" 
+share: true
+toc: false
+comments: true
+image:
+ teaser: pensamentos/pensamento1-400x200.jpg
+ feature: pensamentos/pensamento1-400x200.jpg
+feature:
+ category: true
+ index: true
+ads: 
+ show: true
+tagcloud: true
+coinbase:
+ show: true
 ---
 Arduino Day 2014, Slides usados no evento.
 
 <--!more-->
+Segue abaixo
 
 <a href="http://day.arduinoday.cc">
   <img border="0" alt="Arduino Day 2014" align="left"

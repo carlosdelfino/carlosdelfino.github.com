@@ -1,6 +1,6 @@
 ---
 title: "Usando o Algorítimo Localizador de Falhas" 
-tags: [Mestrado, Aminadabe, WDM, SDH, Analise, Falhas, Correção, Detector, Localizador, Java, Estatística, ]
+tags: [Mestrado, Aminadabe, WDM, SDH, Analise, Falhas, Correção, Detector, Localizador, Java, Estatística]
 category: [pesquisa, infraestrutura]
 layout: article
 share: true
