@@ -118,9 +118,11 @@ driver mysql:
 
 
 {% highlight sh %}
+
     > com/mysql
         /main
         /5.0.8
+
 {% endhighlight %}
 
 {% assign mysqljconnector = site.data.links['mysqljconnector'] %}
@@ -136,10 +138,12 @@ Descompacte o pacote, e copie o arquivo que terá o nome
 
 
 {% highlight sh %}
+
    > com/mysql
         /main
            mysql-connector-java-5.1.35-bin.jar
         /5.0.8
+
 {% endhighlight %}
 
 ### Arquivo Module.xml
@@ -155,7 +159,7 @@ No link a seguir você pode ter acesso ao XSD na integra para a versão JBoss
 EAP 6.3 [{{ schema_module_xsd.name }}]({{ schema_module_xsd.link }}).
 
 Abaixo está o exemplo que atende as nossas necessidades para o MySQL J/Connector
-{% gist carlosdelfino/d4c084202f820b1a4d11 module.xml-exemplo %}
+{% gist d4c084202f820b1a4d11 %}
 
 Na linha 2 temos o parametro `name`, este parametro define o nome do pacote, e
 deve ser um reflexo da estrutura de diretórios criada para conter os arquivos
