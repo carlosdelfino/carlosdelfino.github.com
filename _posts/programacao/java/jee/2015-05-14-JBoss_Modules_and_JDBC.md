@@ -1,6 +1,5 @@
 ---
-title: "Módulos do JBoss e JDBC"
-excerpt_separator: <!--more-->
+title: "Módulos do JBoss e JDBC" 
 tags: [jboss, datasource, jdbc, jee, j2ee, java, MySQL, JBoss EAP, JPA, JDO, Hibernate, Persistencia, módulos, biblioteca, jar, war, ear, deploy]
 category: [programacao,java,jee,jboss]
 layout: article
@@ -105,7 +104,7 @@ Então em uma pasta temporária qualquer crie uma estrutura de diretório que
 represente a estrutura a abaixo:
 
 {% highlight sh %}
- > com/mysql
+   > com/mysql
         /main
 {% endhighlight %}
 
@@ -119,7 +118,7 @@ driver mysql:
 
 
 {% highlight sh %}
- > com/mysql
+    > com/mysql
         /main
         /5.0.8
 {% endhighlight %}
@@ -137,7 +136,7 @@ Descompacte o pacote, e copie o arquivo que terá o nome
 
 
 {% highlight sh %}
- > com/mysql
+   > com/mysql
         /main
            mysql-connector-java-5.1.35-bin.jar
         /5.0.8
