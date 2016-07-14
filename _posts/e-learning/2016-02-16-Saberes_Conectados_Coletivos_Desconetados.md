@@ -1,6 +1,6 @@
 ---
 title: "Saberes Desconectados e Coletivos" 
-tags: [ead,e-learning, moocs,m-learning,moodle, polidocencia, tutor, professor, professor formador, tutor virtual tutor presencial, atividades obrigações, forum, saberes, saberes coletivos, saberes conectados, saberes desconectatos]
+tags: [ead,e-learning, moocs,m-learning,moodle, polidocência, tutor, professor, professor formador, tutor virtual tutor presencial, atividades obrigações, forum, saberes, saberes coletivos, saberes conectados, saberes desconectatos]
 category: [e-learning, consultoria]
 layout: article
 share: true
