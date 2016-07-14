@@ -1,4 +1,3 @@
-
 ---
 title: "Como escolher o periódico certo para o seu artigo científico?" 
 tags: [Apostila, Livros, Artigos, Publicação, Qualis, CAPES, Pesquisa, Ciêntifica, Acadêmica, Pesquisador, Aprendizado, Qualificação, Periódico]
