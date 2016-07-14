@@ -1,6 +1,6 @@
 ---
-title: "Mapa Mental a Polidocencia" 
-tags: [ead,e-learning, moocs,m-learning,moodle, polidocencia, tutor, professor, professor formador, tutor virtual tutor presencial, atividades obrigações]
+title: "Mapa Mental a Polidocência" 
+tags: [ead,e-learning, moocs,m-learning,moodle, polidocência, tutor, professor, professor formador, tutor virtual tutor presencial, atividades obrigações]
 category: [e-learning, consultoria]
 layout: article
 share: true
@@ -28,7 +28,7 @@ encontre alternativas para a representação similar ao que foi feito com
 o Caso de Uso.
 
 Vejam que este diagrama visa representar as relações entre tutores e professor
-na polidocencia, e suas responsabilidades no processo educativo para EaD.
+na polidocência, e suas responsabilidades no processo educativo para EaD.
 
 Vejam também que nesta versão há a presença do aluno, ja que ele está inserido 
 em todas as interações.
