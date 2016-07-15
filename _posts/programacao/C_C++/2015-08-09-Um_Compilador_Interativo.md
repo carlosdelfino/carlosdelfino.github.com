@@ -1,7 +1,7 @@
 ---
 title: "GCC Explorer - Um Compilador Interativo"
 tags: [C, C++, Compilador, GCC Explorer, GCC, Navegador, Tempo Real, Aprendizado, ARM, Parallella, Epiphany, ARM64, AVR, x86, PowerPC]
-category: [programacao, CCplusplus]
+category: [programacao, Cplusplus]
 layout: article
 share: true
 toc: true
