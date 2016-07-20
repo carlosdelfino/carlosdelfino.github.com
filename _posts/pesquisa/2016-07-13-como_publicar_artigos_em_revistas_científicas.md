@@ -1,6 +1,6 @@
 ---
-title: "Como Publicar seu Artigo em Revistas Ciêntificas" 
-tags: [Apostila, Livros, Artigos, Publicação, Qualis, CAPES, Pesquisa, Ciêntifica, Acadêmica, Pesquisador, Aprendizado, Qualificação, Periódico]
+title: "Como Publicar seu Artigo em Revistas Cientificas"  
+tags: [Apostila, Livros, Artigos, Publicação, Qualis, CAPES, Pesquisa, Cientifica, Acadêmica, Pesquisador, Aprendizado, Qualificação, Periódico]
 category: [pesquisa]
 layout: article
 share: true
@@ -22,15 +22,15 @@ Uma das grandes perguntas que todo iniciante em pesquisa no Brasil tem é o que 
 
 <!--more-->
 
-Bem, sempre que encontramos algo que não conhecemos num discurso de outro pesquisador, em especial seu coordenador, procuramos pergunta-lo do que se trata, e sinceramente eu nunca recebi uma boa resposta sobre o assunto, apesar que possam ter tentado, mas para mim não foi satisfatório.
+Bem, sempre que encontramos algo que não conhecemos num discurso de outro pesquisador, em especial seu coordenador, procuramos perguntá-lo do que se trata, e sinceramente eu nunca recebi uma boa resposta sobre o assunto, apesar que possam ter tentado, mas para mim não foi satisfatório.
 
-Diante disso, procurei na internet, havia achado uma boa definição no próprio site da CAPES, o lugar mais óbvio para se procurar, já que a definião Qualis de periodicos acaddêmicos foi definido por eles. Mas mesmo assim ainda não ficou muito claro e de fácil entendimento para quem está começando, então apesar de ter entendido e assimilado o conceito, ao encontrar o artigo abaixo achei muito válido compartilha-lo.
+Diante disso, procurei na internet, havia achado uma boa definição no próprio site da CAPES, o lugar mais óbvio para se procurar, já que a definição Qualis de periódicos acadêmicos foi definido por eles. Mas mesmo assim ainda não ficou muito claro e de fácil entendimento para quem está começando, então apesar de ter entendido e assimilado o conceito, ao encontrar o artigo abaixo achei muito válido compartilhá-lo.
 
-O Artigo foi visto primeiro numa mensagem de meu colega de estudos Wesley Brito, em um grupo de estudos, e posteriormente achei no site Software Livre Educação, no link a seguir.(https://softwarelivrenaeducacao.wordpress.com/2009/10/28/como-publicar-artigos-em-revistas-cientificas/), apesar do artigo ser de 2009 ainda é bem válido e vou replica-lo na integra abaixo:
+O Artigo foi visto primeiro numa mensagem de meu colega de estudos Wesley Brito, em um grupo de estudos, e posteriormente achei no site Software Livre Educação, no link a seguir.(https://softwarelivrenaeducacao.wordpress.com/2009/10/28/como-publicar-artigos-em-revistas-cientificas/), apesar do artigo ser de 2009 ainda é bem válido e vou replicá-lo na integra abaixo:
 
 ---
 
-Essa dica eu recebi do prof. Ernani, via comunidade do Orkut.Bom, quem gosta ou quem precisa publicar artigos cientificos, precisa entender alguns fatos. As revistas são catalogadas por Qualis (criterio de avaliação do MEC/CAPES), da sequinte forma:
+Essa dica eu recebi do prof. Ernani, via comunidade do Orkut.Bom, quem gosta ou quem precisa publicar artigos científicos, precisa entender alguns fatos. As revistas são catalogadas por Qualis (critério de avaliação do MEC/CAPES), da seguinte forma:
 
  * A1 e A2 – Excelência internacional
 
@@ -72,8 +72,8 @@ Até a próxima dica!
 
 ---
 
-Bem como podem ver o mais interessante é que nem sempre é tão dificil publicar em periódico Qualis B2 para cima, e que o fato de se ter sido desclassificado para um inferior não significa que seu artigo não seja bom apenas ainda não atingiu a maturidade ou ainda não está no formato que é desejado pelo periódico.
+Bem como podem ver o mais interessante é que nem sempre é tão difícil publicar em periódico Qualis B2 para cima, e que o fato de se ter sido desclassificado para um inferior não significa que seu artigo não seja bom apenas ainda não atingiu a maturidade ou ainda não está no formato que é desejado pelo periódico.
 
 Reveja sempre seus artigos e o deixe pronto para adequar a qualquer periódico conforme as oportunidade.
 
-Eu pergunta que eu ainda não tenho respondida, é porque meu artigo pode ser desqualificado, no sentindo de se tornar ruim, se ainda não foi aprovado por um periódigo de qualificação mais elevada, mas foi aceito em um inferior?
+Eu pergunta que eu ainda não tenho respondida, é porque meu artigo pode ser desqualificado, no sentindo de se tornar ruim, se ainda não foi aprovado por um periódico de qualificação mais elevada, mas foi aceito em um inferior?
