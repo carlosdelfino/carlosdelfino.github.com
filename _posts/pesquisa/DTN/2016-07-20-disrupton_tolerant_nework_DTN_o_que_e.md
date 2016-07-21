@@ -2,7 +2,7 @@
 ---
 title: "Disruption Tolerant Networking" 
 tags: [Pesquisa, low-Earth orbit, near-Earth orbit, deep space, DTN, SSI, Solar System Internet, Space Internet, ISS, International Spacial Station, Baixa orbita, orbita próxima, espaço profundo, Internet do Sistema Solar, Estação Espacial Internacional, Ground Station, Estações Terrestres, Daly/Disruption Tolerant  Network, Rede tolerante a disrupção e atrasos, Disrupção, Atrasos, Reliable Solar System Internet Connection, Reliable Solar System Internet, NASA Advanced Exploration Systems, AES, Consultative Committee for Space Data Systems, CCSDS, Internet Engineering Task Force, IETF, Interplanetary Overlay Network, ION]
-category: [pesquisa]
+category: [pesquisa,dtn]
 layout: article
 share: true
 toc: true
