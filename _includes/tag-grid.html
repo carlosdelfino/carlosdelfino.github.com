@@ -2,16 +2,17 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 	<!-- begin tags -->	
 	<div class="box">
-{% assign tagid = tag | first | downcase | remove:' ' | remove:'-' | cgi_escape %}
-{% assign catdetail = site.data.tags[tagid] %} 
+{% assign tagid = tag | downcase | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
+{% assign tagdetail = site.data.tags[tagid] %} 
 		<h5><a id="tag_{{ tagid }}" 
 				name="{{ tagid }}" />
-{% if catdetail %}
-			{{ catdetail.name }}
+{% if tagdetail %}
+	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}}
+	{{ tagname }}
 {% else %}
-			{{ tagid }}
+	{{ tag }}
 {% endif %}
-		</a></h5>
+		</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
    {% for post in posts %}
@@ -26,5 +27,6 @@
 {% endfor %}
 		</ul>
 	</div>
-</article>
+    <!-- END tags -->	
+	</article>
 <!-- /.tile -->

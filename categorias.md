@@ -16,6 +16,4 @@ share: true
 {% for category in site.categories %}
    {% include category-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
-
-
+</div>
