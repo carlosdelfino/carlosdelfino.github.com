@@ -27,4 +27,6 @@ gem "liquid"
 gem "rouge"
 gem "bourbon"
 gem "compass"
-gem "neat" 
+gem "neat"  
+gem 'github-pages'
+gem 'html-proofer'
