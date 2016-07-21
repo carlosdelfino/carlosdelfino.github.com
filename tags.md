@@ -9,6 +9,7 @@ share: true
 {% for tag in site.tags %}
    {% include tag-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div>
+ 
 
 

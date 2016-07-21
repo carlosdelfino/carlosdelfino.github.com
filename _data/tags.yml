@@ -8,13 +8,16 @@ religi%C3%A3o:
 
 anivers%C3%A1rio:
         name: "Aniversário"
+		
 com%C3%A9rcioexterior:
         name: "Comercio Exterior"
+
 c%2B%2B:
         name: "C++"
 
 codifica%C3%A7%C3%A3o:
         name: "Codificação"
+
 decodifica%C3%A7%C3%A3o:
         name: "Decodificação"
 
@@ -82,3 +85,7 @@ caracteristicast%C3%A9nicas:
 
 liquidcrystal:
         name: "Liquid Crystal"
+
+tabeladecaracteres:
+		name: "Tabela de Caracteres"
+		
