@@ -2,15 +2,16 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 	<!-- begin categories -->	
 	<div class="box">
-{% assign categoryid = category | downcase | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
+{% assign categoryname = category | first | downcase | strip | remove:'"' | cgi_escape %}
+{% assign categoryid = categoryname  remove:' ' | remove:'-' %}
 {% assign catdetail = site.data.categories[categoryid] %} 
 		<h5><a id="category_{{ categoryid }}" 
 				name="{{ categoryid }}" />
 {% if catdetail %}
-	{% assign catname = caddetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
+	{% assign catname = catdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
 	{{ catname }}
 {% else %}
-	{{ category }}
+	{{ categoryname }}
 {% endif %}
 		</a></h5>
 		<ul class="postList">
