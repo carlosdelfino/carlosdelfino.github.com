@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Arduino Day 2014 - Slides"
-tags: [Eventos, Encontro, Arduino, ArduinoDay, Day, Aniverário, Slides]
+tags: [Eventos, Encontro, Arduino, ArduinoDay, Day, Aniverário, Slides, 2014]
 categories: [Eventos, ArduinoDay, Slides]
 author: "Carlos Delfino" 
 share: true
@@ -22,6 +22,7 @@ coinbase:
 Arduino Day 2014, Slides usados no evento.
 
 <--!more-->
+
 Segue abaixo
 
 <a href="http://day.arduinoday.cc">
