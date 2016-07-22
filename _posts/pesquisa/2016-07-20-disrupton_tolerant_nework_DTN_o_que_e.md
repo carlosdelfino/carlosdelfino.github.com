@@ -1,8 +1,7 @@
-
 ---
-title: "Disruption Tolerant Networking" 
+title: "Disruption Tolerant Networking, o que é?" 
 tags: [Pesquisa, low-Earth orbit, near-Earth orbit, deep space, DTN, SSI, Solar System Internet, Space Internet, ISS, International Spacial Station, Baixa orbita, orbita próxima, espaço profundo, Internet do Sistema Solar, Estação Espacial Internacional, Ground Station, Estações Terrestres, Daly/Disruption Tolerant  Network, Rede tolerante a disrupção e atrasos, Disrupção, Atrasos, Reliable Solar System Internet Connection, Reliable Solar System Internet, NASA Advanced Exploration Systems, AES, Consultative Committee for Space Data Systems, CCSDS, Internet Engineering Task Force, IETF, Interplanetary Overlay Network, ION]
-category: [pesquisa,dtn]
+categories: [pesquisa, dtn]
 layout: article
 share: true
 toc: true
@@ -11,27 +10,26 @@ feature:
  category: true
  index: true
 image:
- teaser: pensamentos/pensamento1-400x200.jpg
+ teaser: dtn/dtn-identifier.png
  feature: pensamentos/pensamento1-400x200.jpg
 ads: 
  show: true
 tagcloud: true
 coinbase:
- show: true
+ show: false
 ---
-
 Reliable Solar System Internet Connection também conhecido como Disruption Tolerant Network (DTN).
 
 A comunicação da terra com qualquer espaçonave é uma missão complexa, amplamente envolve extremas distâncias. Quando o dado transmitido e recebido attravés de milhares a milhões de milhas, o atraso e o potencial para quebra (disrupção) da conexão ou perda de dados é bastante significante. Delay/Disruption Tolerant Networking (DTN) é a solução da NASA para conexão entre redes para missões no espaço de forma confiável.
 
 <!--more-->
 
-Tradução livre de: https://www.nasa.gov/content/dtn
+Tradução livre de: [https://www.nasa.gov/content/dtn](https://www.nasa.gov/content/dtn)
 
 A Lua está em torno de 250 mil milhas de distancia e Marte está a 140 milhões de distância na média. Para comunicar através destas vastas distâncias, NASA gerencia três redes de comunicações compostas de estações terrestres distribuídas e satélites repetidores no espaço para transmissão e recepção que suporta tanto a NASA como missões de outras empresas. Esta são a Deep Space Network - DNS (Rede do Espaço Profundo), a Near Eart Network - NEN (Rede próxima a Terra), e a Space Network - SN (Rede do Espaço)
 
 <figure>
-![Identificador para Disruption Tolerant Network](/images/dtn/dtn-identifier.png)
+<img alt="Identificador para Disruption Tolerant Network" src="/images/dtn/dtn-identifier.png"/>
 <figcaption>
 As missões da NASA tem usado relés de comunicação simpes ou direto, mas em missões futuras, irá requerer comunicação similar a Internet (Internet-like).
 </figcaption>
@@ -47,10 +45,10 @@ Como a internet terrestre, a SSI irá oferecer usos bem definidos, plataformas p
 ## Como a DTN funciona
  
 <figure>
-![Concept image depicting the Disruption Tolerant Network](dtn-ssi.png)
-<figcap>
+<img alt="Concept image depicting the Disruption Tolerant Network" src="/images/dtn/dtn-ssi.png" />
+<figcapion>
 O Protocolo DTN (Disruption Tolerant Network Protocol) irá ativar a Solar System Internet, pertindo que dados sejam armazenados em nós até ser transmitidos com sucesso.
-</figcap>
+</figcapion>
 </figure>
 
 DTN é um modelo de rede computacional e um sistema de regras para transmissão de informações, oferece referência para uma suíte de protocolos, que estende a  capacidade da internet terrestre para se comunicar em ambientes desafiantes no espaço onde a internet convencional não funciona adequadamente. Estes ambientes são tipicamente sujeitos a frequente desrupção (corte), links que são limitados em uma direção, possibilidades de longos atrasos e altas taxas de erros.
@@ -68,14 +66,7 @@ Porém DTN foi desenvolvido com aplicações espaciais em mente, os benefícios 
 * **Qualidade de Serviço (QoS)**: O Suíte do Protocolo DTN permite muitos níveis de prioridade aser definido para diferentes tipos de dados, assegurando que o dado mais importante seja recebido na frente do dado sem importância.
 
 ## O Futuro do DTN
-O Suíte de protocolos DTN está em desenvolvimento pelo projeto DTN da NASA Advanced Exploration Systems (AES) (NASA Advanced Exploration Systems (AES) DTN). A equipe AES DTN é também suporte para a padronização do DTN tanto pelo Comite Consultivo para Sistemas de Dados Espaciais (Conultative Committee Space Data Systems - CCSDS) e a Engineering Task Force (IETF) e todos os protocolos DTN que serão padrões internacionais abertos, suportado por softwares Open-Source. Várias implementações DTN existem e estão publicamente disponíveis, incluindo a implementação da nada do Interplanetary Overlay Network (ION)
- 
-<figure>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/0gCMIiJdYPQ" frameborder="0" allowfullscreen></iframe>
-<figcap>This animation shows how our traditional Internet Protocols (IP) can be disrupted and cause delays or data losses, then shows how the Delay/Disruption Tolerant Network (DTN) allows data to be transmitted even when there is poor connectivity.
-<br/>Credits: NASA
-</figcap>
-<figure>
+O Suíte de protocolos DTN está em desenvolvimento pelo projeto DTN da NASA Advanced Exploration Systems (AES) (NASA Advanced Exploration Systems (AES) DTN). A equipe AES DTN é também suporte para a padronização do DTN tanto pelo Comite Consultivo para Sistemas de Dados Espaciais (Conultative Committee Space Data Systems - CCSDS) e a Engineering Task Force (IETF) e todos os protocolos DTN que serão padrões internacionais abertos, suportado por softwares Open-Source. Várias implementações DTN existem e estão publicamente disponíveis, incluindo a implementação da nada do Interplanetary Overlay Network (ION).
 
 Em Maio de 2016, a Estação Espacial Internacional (ISS), implementou um serviço de DTN institucional para suporte a cargas úteis. A implementação do DTN Institucional da ISS aperfeiçoa imensamente a confiabilidade da transmissão de dados de carga útil cientifica e reduz a sobrecarga operacional e planejamento, e prove uma arquitetura para suporte para missões de suporte, enquanto avança a tecnologia DTN para suportar o futuro do SSI.
 
@@ -96,3 +87,10 @@ Várias outras missões da NASA tem usado DTN, tais como o experimento Deep Impa
 * [CCSDS Solar System Internetwork (SSI) Architecture](http://public.ccsds.org/publications/archive/730x1g1.pdf)
 * [Rationale, Scenarios, and Requirements for DTN in Space](http://public.ccsds.org/publications/archive/734x0g1e1.pdf)
 * [Bundle Protocol Specification RFC5050](https://tools.ietf.org/html/rfc5050)
+
+<figure>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/0gCMIiJdYPQ" frameborder="0" allowfullscreen></iframe>
+<figcap>This animation shows how our traditional Internet Protocols (IP) can be disrupted and cause delays or data losses, then shows how the Delay/Disruption Tolerant Network (DTN) allows data to be transmitted even when there is poor connectivity.
+<br/>Credits: NASA
+</figcap>
+<figure>

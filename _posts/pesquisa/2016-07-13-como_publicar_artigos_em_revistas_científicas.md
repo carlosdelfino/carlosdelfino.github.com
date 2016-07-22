@@ -28,7 +28,7 @@ Diante disso, procurei na internet, havia achado uma boa definição no próprio
 
 O Artigo foi visto primeiro numa mensagem de meu colega de estudos Wesley Brito, em um grupo de estudos, e posteriormente achei no site Software Livre Educação, no link a seguir.(https://softwarelivrenaeducacao.wordpress.com/2009/10/28/como-publicar-artigos-em-revistas-cientificas/), apesar do artigo ser de 2009 ainda é bem válido e vou replicá-lo na integra abaixo:
 
----
+----------
 
 Essa dica eu recebi do prof. Ernani, via comunidade do Orkut.Bom, quem gosta ou quem precisa publicar artigos científicos, precisa entender alguns fatos. As revistas são catalogadas por Qualis (critério de avaliação do MEC/CAPES), da seguinte forma:
 
