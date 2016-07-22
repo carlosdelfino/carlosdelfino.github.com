@@ -118,11 +118,9 @@ driver mysql:
 
 
 {% highlight sh %}
-
     > com/mysql
         /main
         /5.0.8
-
 {% endhighlight %}
 
 {% assign mysqljconnector = site.data.links['mysqljconnector'] %}
@@ -138,12 +136,10 @@ Descompacte o pacote, e copie o arquivo que terá o nome
 
 
 {% highlight sh %}
-
    > com/mysql
         /main
            mysql-connector-java-5.1.35-bin.jar
         /5.0.8
-
 {% endhighlight %}
 
 ### Arquivo Module.xml
@@ -159,7 +155,7 @@ No link a seguir você pode ter acesso ao XSD na integra para a versão JBoss
 EAP 6.3 [{{ schema_module_xsd.name }}]({{ schema_module_xsd.link }}).
 
 Abaixo está o exemplo que atende as nossas necessidades para o MySQL J/Connector
- gist d4c084202f820b1a4d11 %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 module.xml-exemplo %}
 
 Na linha 2 temos o parametro `name`, este parametro define o nome do pacote, e
 deve ser um reflexo da estrutura de diretórios criada para conter os arquivos
@@ -209,8 +205,7 @@ O arquivo module.xml deve ser ajustado na linha 2 adicionado o parametro `slot`,
 e na linha 4, para a nova versão do arquivo `JAR`. Deixando todos os demais 
 dados intactatos. Veja abaixo como deve ficar.
 
-module.xml-exemplo-2-slots
-{% gist d4c084202f820b1a4d11  %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 module.xml-exemplo-2-slots %}
 
 
 ## Registrando o novo Módulo
@@ -256,8 +251,7 @@ You are disconnected at the moment. Type 'connect' to connect to the server or '
 Antes de darmos o próximo passo que seria digitar o comando abaixo no promp da 
 ferramenta `jboss-cli`, vamos compreender como é estruturado este comando. 
 
- driver-jdbc-jboss-cli-standalone-command
-{% gist d4c084202f820b1a4d11 %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 driver-jdbc-jboss-cli-standalone-command %}
 
 Na linha 1 identificamos o `subsystema` que será usado no caso `datasources`, 
 separado por uma barra segue a seção que receberá o comando `jdbc-driver`, e 
@@ -287,8 +281,8 @@ em uma unica linha sem as barras invertidas.
 
 Você deverá receber de retorno a seguinte resposta da ferramenta:
 
-driver-jdbc-jboss-cli-standalone-command-result
-{% gist d4c084202f820b1a4d11  %}
+
+{% gist carlosdelfino/d4c084202f820b1a4d11 driver-jdbc-jboss-cli-standalone-command-result %}
 
 Finalmente depois disso, você já poderá usar o Driver-JDBC ao configurar um 
 novo DataSource. Não iremos discutir aqui como fazer a configuração do 
@@ -302,22 +296,19 @@ para cada datasource, assim o comando de registro é muito simples, basta
 adicionar um paramtro extra que informa qual slot usar, veja o comando 
 ajustado abaixo 
 
- driver-jdbc-slot-jboss-cli-standalone-command
-{% gist d4c084202f820b1a4d11 %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 driver-jdbc-slot-jboss-cli-standalone-command %}
 
 Na linha 5 está o novo parametro `module-slot` que recebe o valor definido para 
 o slot do módulo, conforme registrado acima, `5.0.8`.
 
 Ao executar o comando o resultado será o mesmo:
 
-driver-jdbc-jboss-cli-standalone-command-result
-{% gist d4c084202f820b1a4d11  %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 driver-jdbc-jboss-cli-standalone-command-result %}
 
 E nos LOGs para ambos os casos também se vé o informe de sucesso da carga do
 novo driver:
 
- driver-jdbc-jboss-cli-standalone-command-result-log
-{% gist d4c084202f820b1a4d11 %}
+{% gist carlosdelfino/d4c084202f820b1a4d11 driver-jdbc-jboss-cli-standalone-command-result-log %}
 
 ## Próximos passos
 
