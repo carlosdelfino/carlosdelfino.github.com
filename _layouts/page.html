@@ -78,11 +78,7 @@
     {% include header.html %}
     {% include navigation/sliding.html %}
 
-{% if site.url contains '://localhost' or site.url contains '://127.0.0.1' or site.url contains '://::1' %}
-<p>ShortLink: {{ page.shortlink }}</p>
-<p>URL: {{ site.url}} </p> 
-{% endif %}
-
+{% include debug/debug_output_url.html %}
 {{ content }}
 
     {% include footer.html %}
