@@ -90,7 +90,7 @@ Várias outras missões da NASA tem usado DTN, tais como o experimento Deep Impa
 
 <figure>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/0gCMIiJdYPQ" frameborder="0" allowfullscreen></iframe>
-<figcap>This animation shows how our traditional Internet Protocols (IP) can be disrupted and cause delays or data losses, then shows how the Delay/Disruption Tolerant Network (DTN) allows data to be transmitted even when there is poor connectivity.
+<figcaption>Esta animação mostra como o protocolo de Internet (IP) tradicional, pode ser interrompido e causar atrasos ou perdas de dados, então mostramos como o Delay/Disruption Tolerant Network (DTN) permite dados serem transmitidos mesmo que a conetividade seja ruim.
 <br/>Credits: NASA
-</figcap>
+</figcaption>
 <figure>
