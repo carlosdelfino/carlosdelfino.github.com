@@ -1,3 +1,4 @@
+
 # Site wide configuration
 
 # Ativa depuração no site, desde que no localhost
@@ -102,6 +103,7 @@ owner:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
 compress_html:
+  enable: true
   comments: ["<!-- ", " -->"]
   ignore:
     envs: [local]
