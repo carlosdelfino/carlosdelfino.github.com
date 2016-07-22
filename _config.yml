@@ -102,12 +102,10 @@ owner:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
 compress_html:
-  clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
   ignore:
     envs: [local]
-  blanklines: false
+  blanklines: true
   profile: true
   only_local_profile: true
 
