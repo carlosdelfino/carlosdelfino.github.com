@@ -18,8 +18,7 @@ tagcloud: true
 coinbase:
  show: true
 ---
-
-Continuando minhas leituras sobre como públicar um artigo, achei um outro material muito bom publicado no site Pos Graduando.
+Continuando minhas leituras sobre como públicar um artigo, achei um outro material muito bom publicado no site Pós Graduando.
 
 <!-more->
 
@@ -27,7 +26,7 @@ Abaixo copio o artigo na integra, e este pode ter o original com os comentários
 
 Texto escrito por Gustavo Henrique Silva de Souza, mestrando em Psicologia (Comportamento Empreendedor) pela Universidade Federal de Alagoas e pesquisador do Laboratório de Avaliação e Medida Cognitiva-Emocional (LAMCE/CNPq).
 
----
+----------
 
 Agora que terminei de escrever o artigo científico, como faço para escolher o periódico certo para publicá-lo?
 
