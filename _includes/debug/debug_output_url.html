@@ -1,11 +1,13 @@
-{% if site.url contains '://localhost' or site.url contains '://127.0.0.1' or site.url contains '://::1' %}
+{% if site.debug %}
+   {% if site.url contains '://localhost' or site.url contains '://127.0.0.1' or site.url contains '://::1' %}
 <div id="debug">
 <hr />
-{% unless include.short %}
+   {% unless include.short %}
 Modo manutenção ativado quando em LocalHost<br />
-{% endunless %}
+   {% endunless %}
 ShortLink: {{ page.shortlink }}<br />
 URL: {{ site.url}} <br /> 
 <hr />
 <div>
+   {% endif %}
 {% endif %}
