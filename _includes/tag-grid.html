@@ -9,7 +9,7 @@
 	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}}
 {% endif %}
 		<h5><a id="tag_{{ tagid }}" 
-				name="{{ tagid }}" />{{ tagname }}</a> </h5>
+				name="{{ tagid }}" >{{ tagname }}</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
    {% for post in posts %}
