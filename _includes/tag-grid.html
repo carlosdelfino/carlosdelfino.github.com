@@ -2,18 +2,14 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 	<!-- begin tags -->	
 	<div class="box">
-{% assign tagname = category | first | downcase | strip | remove:'"' | cgi_escape %}
-{% assign tagid = categoryname  remove:' ' | remove:'-' %}
+{% assign tagname = tag | first | downcase | strip | remove:'"' | cgi_escape %}
+{% assign tagid = tagname | remove:' ' | remove:'-' %}
 {% assign tagdetail = site.data.tags[tagid] %} 
-		<h5><a id="tag_{{ tagid }}" 
-				name="{{ tagid }}" />
 {% if tagdetail %}
 	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}}
-	{{ tagname }}
-{% else %}
-	{{ tagname }}
 {% endif %}
-		</a> </h5>
+		<h5><a id="tag_{{ tagid }}" 
+				name="{{ tagid }}" >{{ tagname }}</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
    {% for post in posts %}

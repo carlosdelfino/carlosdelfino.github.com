@@ -3,17 +3,18 @@
 	<!-- begin categories -->	
 	<div class="box">
 {% assign categoryname = category | first | downcase | strip | remove:'"' | cgi_escape %}
-{% assign categoryid = categoryname  remove:' ' | remove:'-' %}
+{% assign categoryid = categoryname | remove:' ' | remove:'-' %}
 {% assign catdetail = site.data.categories[categoryid] %} 
-		<h5><a id="category_{{ categoryid }}" 
-				name="{{ categoryid }}" />
+{% include debug/debug_output_variables.html value1_name="categoryname" value1=categoryname  %}
 {% if catdetail %}
-	{% assign catname = catdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
-	{{ catname }}
-{% else %}
-	{{ categoryname }}
+	{% assign categoryname = catdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
 {% endif %}
-		</a></h5>
+{% include debug/debug_output_variables.html 
+        value1_name="categoryname" value1=categoryname 
+		value2_name="categoryid" value2=categoryid 
+		value3_name="catdetail" value3=catdetail %}
+		<h5><a id="category_{{ categoryid }}" 
+				name="{{ categoryid }}" >{{ categoryname }}</a></h5>
 		<ul class="postList">
 {% for posts in category %}
    {% for post in posts %}
