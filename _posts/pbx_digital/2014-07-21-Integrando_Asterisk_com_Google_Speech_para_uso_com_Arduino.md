@@ -21,7 +21,7 @@ image:
 ---
 O Google possui um serviço de reconhecimento da fala, e um complementar que é o de leitura de texto, o primeiro Chamado de Google Speech-to-Text e o segundo chamado de Google Text-to-Speech. Usando os dois serviços podemos obter novas funcionalidades no Asterisk, como a leitura de noticias, dados que possam estar disponível em serviços internos da empresa relativos a relatórios montados automaticamente ou mesmo pelo funcionário.
 
-<!-more->
+<!--more->
 
 Mas o mais interessante no nosso contexto, em especial considerando a Internet das Coisas (IoT - Internet of Things) onde podemos dar voz as coisas quando estas se comunicando pelo Asterisk. A ideia é quando o usuário fizer uma ligação para um determinado ramal que pertença a algo que está integrado este lhe informe detalhes de seu estado, ou mesmo quando algo atingir um determinado limite como uma planta com pouca agua, seja feita uma ligação interconectando quem cuida da planta com esta, e assim a planta enviando uma mensagem informando o que deseja, podendo ser que seja regada ou mesmo que seja mudado sua posição devido a temperatura do ambiente.
 

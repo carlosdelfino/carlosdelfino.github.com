@@ -21,7 +21,7 @@ coinbase:
 ---
 Arduino Day 2014, Slides usados no evento.
 
-<--!more-->
+<!--more-->
 
 Segue abaixo
 
