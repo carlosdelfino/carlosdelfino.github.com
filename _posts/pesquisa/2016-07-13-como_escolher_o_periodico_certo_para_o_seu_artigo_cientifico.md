@@ -20,7 +20,7 @@ coinbase:
 ---
 Continuando minhas leituras sobre como públicar um artigo, achei um outro material muito bom publicado no site Pós Graduando.
 
-<!--more->
+<!--more-->
 
 Abaixo copio o artigo na integra, e este pode ter o original com os comentários referêntes no link: (http://posgraduando.com/como-escolher-o-periodico-certo-para-o-seu-artigo/).
 
