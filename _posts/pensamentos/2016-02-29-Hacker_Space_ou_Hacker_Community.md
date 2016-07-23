@@ -18,8 +18,7 @@ tagcloud: true
 coinbase:
  show: true
 ---
-
-Refletindo sobre a experiência de tentar criar um HackerSpace em Minas Gerais, Belo Horizonte, e ao ler o livro "O que é o Virtual?" de [Pierre Lévy]({% post_url 2016-02-29-PierreLevy %}), somando ao momento que o Hackerspace de Fortaleza está vivendo (ForHacker), resolvi escrever este post.
+Refletindo sobre a experiência de tentar criar um HackerSpace em Minas Gerais, Belo Horizonte, e ao ler o livro "O que é o Virtual?" de Pierre Lévy, somando ao momento que o Hackerspace de Fortaleza está vivendo (ForHacker), resolvi escrever este post.
 
 <!--more--> 
 
