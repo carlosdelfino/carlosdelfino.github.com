@@ -20,13 +20,13 @@ coinbase:
 ---
 Reliable Solar System Internet Connection também conhecido como Disruption Tolerant Network (DTN).
 
-A comunicação da terra com qualquer espaçonave é uma missão complexa, amplamente envolve extremas distâncias. Quando o dado transmitido e recebido attravés de milhares a milhões de milhas, o atraso e o potencial para quebra (disrupção) da conexão ou perda de dados é bastante significante. Delay/Disruption Tolerant Networking (DTN) é a solução da NASA para conexão entre redes para missões no espaço de forma confiável.
+A comunicação da terra com qualquer espaçonave é uma missão complexa, envolve amplamente extremas distâncias. Quando o dado transmitido e recebido attravés de milhares a milhões de milhas, o atraso e o potencial para quebra (disrupção) da conexão ou perda de dados é bastante significante. Delay/Disruption Tolerant Networking (DTN) é a solução da NASA para conexão entre redes para missões no espaço de forma confiável.
 
 <!--more-->
 
 Tradução livre de: [https://www.nasa.gov/content/dtn](https://www.nasa.gov/content/dtn)
 
-A Lua está em torno de 250 mil milhas de distancia e Marte está a 140 milhões de distância na média. Para comunicar através destas vastas distâncias, NASA gerencia três redes de comunicações compostas de estações terrestres distribuídas e satélites repetidores no espaço para transmissão e recepção que suporta tanto a NASA como missões de outras empresas. Esta são a Deep Space Network - DNS (Rede do Espaço Profundo), a Near Eart Network - NEN (Rede próxima a Terra), e a Space Network - SN (Rede do Espaço)
+A Lua está em torno de 250 mil milhas de distância e Marte está a 140 milhões de distância na média. Para comunicar através destas vastas distâncias, a NASA gerencia três redes de comunicações compostas de estações terrestres distribuídas e satélites repetidores no espaço para transmissão e recepção que suporta tanto a NASA como missões de outras empresas. Esta e a Rede do Espaço Profundo (Deep Space Network - DNS), a Rede próxima a Terra (Near Eart Network - NEN), e a Rede do Espaçial (Space Network - SN)
 
 <figure>
 <img alt="Identificador para Disruption Tolerant Network" src="/images/dtn/dtn-identifier.png"/>
@@ -35,19 +35,18 @@ As missões da NASA tem usado relés de comunicação simpes ou direto, mas em m
 </figcaption>
 </figure>
 
-Paras missões anteriores da orbita low-Earth para o espaço profundo, a NASA tem usado "point-to-point" (conexão direta), ou links simples por relé para comunicar com as espaçonaves; estas operações são bem similares a comunicação por sistemas telefônicos que se conectam diretamente dois nós de comunicação. Enquanto este abordagem tem sido um sucesso para as missões já realizadas, nas explorações conceitualmente para o futuro será introduzido muito mais necessidades complexas de comunicação, com a transferência de dados entre muitos nós. Estas transmissões será necessária operar como o a internet na Terra - Envolvendo muitos saltos (hops) via espaconáveis de relé e outros nós intermediários, criando a fundação para a "Solar System Internet" - SSI (Internet do Sistema Solar).
+Paras missões já realizadas em baixa orbita na terra (Low-Earth Orbit) para o espaço profundo, a NASA tem usado "point-to-point" (conexão direta), ou links simples por chaveadores de dados para comunicar com as espaçonaves; estas operações são bem similares a comunicação por sistemas telefônicos que se conectam diretamente dois nós de comunicação. Enquanto esta abordagem tem sido um sucesso para as missões já realizadas, nas explorações conceitualmente para o futuro será introduzido muito mais necessidades complexas de comunicação, com a transferência de dados entre muitos nós. Estas transmissões será necessária operar como a internet na Terra - Envolvendo muitos saltos (hops) via espaconáveis de chaveamento de dados (relés) e outros nós intermediários, criando a fundação para a Internet do Sistema Solar ("Solar System Internet" - SSI).
 
 ![Imagem conceitual da rede de comunicação de dados baseada em Relé por Salto Simples (Single-Hope-Relê)](/images/dtn/dtn-single-hop.png)
 
-Como a internet terrestre, a SSI irá oferecer usos bem definidos, plataformas padronizadas onde será construído uma vasta variedade de aplicações pela seleção de serviços end-to-end (fim a fim). A SSI irá utilizar o pacote de protocolos DTN (Delay/Disruption Tolerant Network), que pode ser usado em alguns senários,incluindo aqueles com tempos maiores que a transmissão da luz (delay) ou frequente perda de link (disruption), onde o protocolo da internet (IP) falha.
-
+Como a internet terrestre, a SSI irá oferecer usos bem definidos, plataformas padronizadas onde será construído uma vasta variedade de aplicações pela seleção de serviços fim a fim. A SSI irá utilizar o pacote de protocolos DTN (Delay/Disruption Tolerant Network), que pode ser usado em alguns senários,incluindo aqueles com tempos maiores que a transmissão da luz (delay) ou frequente perda de link (disruption), onde o protocolo da internet (IP) falha.
 
 ## Como a DTN funciona
  
 <figure>
 <img alt="Concept image depicting the Disruption Tolerant Network" src="/images/dtn/dtn-ssi.png" />
 <figcapion>
-O Protocolo DTN (Disruption Tolerant Network Protocol) irá ativar a Solar System Internet, pertindo que dados sejam armazenados em nós até ser transmitidos com sucesso.
+O Protocolo DTN (Disruption Tolerant Network Protocol) irá ativar a Solar System Internet, permitindo que dados sejam armazenados em nós até ser transmitidos com sucesso.
 </figcapion>
 </figure>
 
