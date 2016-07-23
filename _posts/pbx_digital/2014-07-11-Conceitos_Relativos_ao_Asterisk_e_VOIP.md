@@ -19,7 +19,7 @@ image:
 ---
 Em todo contexto de trabalho com TIC (Tecnologia da Informação e Comunicação) temos conceitos que precisam ser assimilados, vejamos neste artigo alguns palavras e conceitos usados no ASTERISK, quais seus significados e relação.
 
-<!--more->
+<!--more-->
 
   * PBX (Private Branch Exchange)
 é uma pequena central telefonica que pode ter apenas dois pontos de conexão telefônicos ou até mesmo centenas.
