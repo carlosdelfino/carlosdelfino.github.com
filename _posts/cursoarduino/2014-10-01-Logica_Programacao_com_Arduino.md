@@ -23,3 +23,9 @@ Aguarde em Breve mais Informações.
 
 <a href="/logicaprogramacao/Ementa_do_Curso_Logica_Programacao_com_Arduino/" class="btn-success">Ementa do Curso</a>
 
+------------
+
+Atualização: 24/07/2016
+
+Estamos trabalhando na apostila do curso, algumas informações já podem ser obtidas no link: http://carlosdelfino.eti.br/programacao/Introducao_a_Linguagem_de_programacao/
+
