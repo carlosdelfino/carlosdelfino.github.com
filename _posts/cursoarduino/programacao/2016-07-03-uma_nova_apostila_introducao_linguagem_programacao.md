@@ -10,8 +10,8 @@ feature:
  category: true
  index: true
 image:
- teaser: pensamentos/pensamento1-400x200.jpg
- feature: pensamentos/pensamento1-400x200.jpg
+  teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
+  feature: logica_programacao/algoritmo-jogo-900x673.png
 ads: 
  show: true
 tagcloud: true
