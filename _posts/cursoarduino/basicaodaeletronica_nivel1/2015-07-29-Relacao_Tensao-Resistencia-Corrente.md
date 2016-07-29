@@ -20,7 +20,7 @@ Representação animada da relação Corrente X Tensão x Resistência.
 
 <!--more-->
 
-Conheçam nossa fan page: http://facebook.com/BasicaoDaEletronica e aprenda mais sobre a eletrônica básica fundamental para os primeiros passos com o Arduino.
+[Conheçam nossa fan page Basicão da Eletrônica](http://facebook.com/BasicaoDaEletronica) e aprenda mais sobre a eletrônica básica fundamental para os primeiros passos com o Arduino.
 
 Não há questionamento quando se diz que o primeiro passo na eletrônica é compreender a relação existente entre as três grandes: Tensão, Corrente e Resistência.
 
@@ -48,4 +48,4 @@ Vejamos, se eu tiver uma bateria que me proporciona 2 Volts (2V) e eu tiver um c
 
 Abaixo tenho um gráfico que exemplifica na prática o que acontece com a mudança da resistência.
  
-![Representação Animada da Relação Corrente X Tensão X Resistência](/images/basicaodaeletronica/gifs/resistencia_tensão_corrente.gif)
+![Representação Animada da Relação Corrente X Tensão X Resistência](/images/basicaodaeletronica/gifs/resistencia_tensao_corrente.gif)
