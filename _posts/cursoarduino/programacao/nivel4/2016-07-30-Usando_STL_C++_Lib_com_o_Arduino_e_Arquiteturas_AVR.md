@@ -28,7 +28,7 @@ O texto abaixo é a tradução livre da [Introdução ao STL da SGI](http://www.
 
 ## Introdução à Biblioteca Padrão de Template
 
-A Biblioteca Padrão de Template, ou STL da seu nome em ingês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post url 2016-07-31-O_que_e_um_Template em_C++.md %}).
+A Biblioteca Padrão de Template, ou STL da seu nome em ingês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post_url 2016-07-31-O_que_e_um_Template em_C++ %}).
 
 ## Containers e algoritmos
 
