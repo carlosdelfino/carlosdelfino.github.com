@@ -116,4 +116,10 @@ Primeiro, o STL inclui varios utilitários: conceitos muito básicos e funções
 Segundo, o STL inclue alguns mecanismos de baixo nível para alocação de desalocação de memória. **Allocators** são muito especializados, e você pode seguramente ignorar para alguns todos os propositos.
 
 Finalmente, o STL inclue uma grande coleção de objetos de função, também conhecidos como **functors**. Exatamente como iterators são generalizações de ponteiros. objetos de função são generalizações de funções: um objeto de função é qualquer coisa que você possa chamar usando um sintaxe ordinária de função. Há vários conceitos diferentes relacionados a objetos de função, incluindo **Unary function** (um objeto de função que recebe apenas um parametro, por exemplo, os que são chamados  como `f(x)`) e **Binary Function** (um objeto de função que recebe dois argumentos, por exemplo os que são chamados como `f(x, y)). Objetos de função  são uma parte importante da programação com genericos (Generic Programming) porque eles são abstrações não apenas sobre tipos de objetos, mas também sobre operações que estão sendo executadas.
+
+----------------
+
+## Conclusão
+
+Como podem ver o STL traz grandes beneficios ao programador, e quando trabalhamos com coleções de dados e pequenos objetos pode ser muito útil. Há um mito que diz não podemos usar STL em sistemas embarcados e microcontroladores como AVR, veremos no [próximo artigo porque o mido do uso de Templates não é um problema]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados.md %}}
  
