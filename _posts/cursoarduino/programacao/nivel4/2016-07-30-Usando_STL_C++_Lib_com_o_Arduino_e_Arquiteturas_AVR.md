@@ -28,7 +28,7 @@ O texto abaixo é a tradução livre da [Introdução ao STL da SGI](http://www.
 
 ## Introdução à Biblioteca Padrão de Template
 
-A Biblioteca Padrão de Template, ou STL da seu nome em ingês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post url 2016-07-31-O_que_e_um_Template em_C++.md %}).
+A Biblioteca Padrão de Template, ou STL da seu nome em ingês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post_url 2016-07-31-O_que_e_um_Template em_C++.md %}).
 
 ## Containers e algoritmos
 
@@ -95,6 +95,25 @@ Uma pergunta muito importante a ser feita sobre qual a função do template, nã
 **Conceitos** não parte da linguagem C++; eles são uma forma de declarar um conceito em um programa, ou declarar que um tipo particular é um modelo de um conceito. Mesmo assim, conceios são uma parte extremamente importante do STL. Usando conceitos torna possível escrevre programas que claramente separam interfaces de implementação: o autor do algorimo `find` somente tem de considerar a interface especificada pelo conceito **Input Iterator**. ao invez de da implementação  de cada tipo possível conforme cada conceito. Similarmente, se você deseja usar `find`, você precisa somente se assegurar que os argumentos que você passa para ele são do modelo **Input Iterator**. Esta é a razão que `find` e `reverse` podem ser usada com `list`s, `vector`s, arrays em C, e muitos outros tipos: programando em termos de **conceitos**, ao invez de termos de tipos especificos torna possível reutilizar o componente de software e então combinar componentes conjuntamente.
 
 
-## Refinamentos
+# Refinamentos
 
-Estou finalizando esta tradução.
+**Input Iterator** é, de fato, um fraco conceito: isto é, ele impõem alguns requisitos. Um **Input Iterator** deve suportar um subconjunto da aritimética de ponteiros (ele deve ser possível incrementar um **Input Iterator** usando o perador ++ prefixado ou pósfixado), mas não precisa suportar todos os peradroes de aritimética de ponteiros. Isto é suficiente para o `find`, mas alguns outros algortimos requerem que seus argumentos satisfaça requisitos adicionais. `reverse`, por exemplo, deve ser apto a decrementar seus argumentos também e incrementa-los; ele usa a expressão `--last`. Em termos de conceito, nos dizemos que os argumentos do `reverse` devem ser modelos de um **Bidirectional Iterator** ao invez de um **Input Iterator**.
+
+O conceito **Bidirectional Iterator** é muito similar ao conceito **Input Iterator**: ele simplesmente impõem alguns requisitos adicionais. Os tipos que são modelos do **Bidirectional Iterator** são um subconjunto dos tipos que são modelos para o **Input Iterator**: cada tipo que é um modelo do **Bidirectional Iterator** é também um modelo do **Iterator**. `int*`, por exemplo, é ambo um modelo para **Bidirectional Iterator** e um modelo para **Input Iterator**, mas `istream_iterator`, é somente um modelo de `input iterator`: ele não atende os requisitos mais rigorosos do **Bidirectional Iterator**.
+
+Nos descrevemos a relalação entre Input Iterator e Bidirectional Iterator dizendo que **Bidirectional Iterator** é um refinamento de **Input Iterator**. Refinamentos de conceitos é muito parecido com erança de classes em C++; a principal razão para nós usarmos uma palavra diferente, ao invez de simplesmente dizer que é uma "erança", é enfatizar que o refinamento se aplica a conceitos ao invez de se aplicar ao tipo em questão.
+
+Há atualmente três outros conceitos de interator em adição aos dois que nos temos já discutidos aqui: Os cinco interators são **Output Iterator**, **Input Iterator**, **Forward Iterator**, **Bidirectional Iterator**, e **Rando Access Iterator**; **Forward Iterator** é o refinamento do *Input Iterator**, **Bidirectional Iterator** é um refinamento de **Forward Iterator**, e **Random Access Iterator** é um refinamento de **Bidirectional Iterator**. (**Output Iterator** é relacionado a outros 4 conceitos, mas ele não é parte da hieraquia de refinamentos: ele não é um refinamento de nenhum dos outros conceitos de iterator, e nenhum dos outros conceitos de interator são refinamentos dele). Na página [Iterator Overview](http://www.sgi.com/tech/stl/Iterators.html) há mais informações sobre iterator em geral.
+
+Classes Containers, como iterators, são organizadas em uma hieraquia de conceitos. Todos os conteiners são modelos de conceitos de Conteiners; Conceitos mais refinados, tais como uma **Sequence** e um **Associative Container**, descreve tipos especificos de conteiners.
+
+## Outras partes do STL
+
+Se você entendeu algortimos, iterators e conteriners, então você entendeu práticamente tudo que há para se conhecer sobre STL. O STL , porém, inclui varios outros tipos de componentes.
+
+Primeiro, o STL inclui varios utilitários: conceitos muito básicos e funções que são usadas em diferentes partes da biblioteca. O conceito **Assignable**, por exemplo, descreve tipos que ~tem operadores de atribuição e construtores de cópia; na maioria das classes STL são modelos de **Assignable**, e a maioria dos algortimos exigem que seus argumentos sejam modelos de **Assignable**.
+
+Segundo, o STL inclue alguns mecanismos de baixo nível para alocação de desalocação de memória. **Allocators** são muito especializados, e você pode seguramente ignorar para alguns todos os propositos.
+
+Finalmente, o STL inclue uma grande coleção de objetos de função, também conhecidos como **functors**. Exatamente como iterators são generalizações de ponteiros. objetos de função são generalizações de funções: um objeto de função é qualquer coisa que você possa chamar usando um sintaxe ordinária de função. Há vários conceitos diferentes relacionados a objetos de função, incluindo **Unary function** (um objeto de função que recebe apenas um parametro, por exemplo, os que são chamados  como `f(x)`) e **Binary Function** (um objeto de função que recebe dois argumentos, por exemplo os que são chamados como `f(x, y)). Objetos de função  são uma parte importante da programação com genericos (Generic Programming) porque eles são abstrações não apenas sobre tipos de objetos, mas também sobre operações que estão sendo executadas.
+ 
