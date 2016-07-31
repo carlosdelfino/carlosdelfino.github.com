@@ -29,7 +29,8 @@ O texto abaixo é a tradução livre da [Introdução ao STL da SGI](http://www.
 
 ## Introdução à Biblioteca Padrão de Template
 
-A Biblioteca Padrão de Template, ou STL da seu nome em ingês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post_url 2016-07-31-O_que_e_um_Template em_C++.md %}).
+A Biblioteca Padrão de Template, ou STL da seu nome em inglês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post_url 2016-07-31-O_que_e_um_Template em_C++.md %}).
+
 
 ## Containers e algoritmos
 
@@ -76,6 +77,7 @@ Iterators são um mecanismo que torna possível desacoplar algoritmos dos contai
           return first;
       }
 ```
+
 O `find` espera três argumentos: dois iterators que define a faixa, e um valor para ser pesquisado dentro da faixa. Ele examina cada iterator na faixa [first, last], partindo do início  até o fim, e parando quando ele encontra um iterator que aponta para o valor ou quando ele chega ao final da faixa.
 
 `first` e `last` são declarados  como do tipo `InputIterator`, e `InputIterator` é um parametro do tipo template. Isto é, não há na verdade algum tipo chamado `inputIterator`: quando você chama `find`, o compilador substitui o atual tipo do argumento pelo o tipo formal dos parâmetros `InputIterator` e `T`. se os dois primeiros argumentos para o `find` são do tipo `int*` e o terceiro é do tipo `int`, então é como se você tivesse chamado a função:
