@@ -1,4 +1,5 @@
 ---
+redirect_from: "/cursoarduino/nivel_4/Usando_STL_C%20%20_Lib_com_o_Arduino_e_Arquiteturas_AVR/"
 title: "Usando STL C++ Lib com o Arduino e Arquiteturas AVR"
 tags: [Arduino, Curso, Shields, Modulos, Arduino Mega, Arduino Due, Arduino Uno, Lógica, Programação, FIFO, Algoritimos, Estrutura de Dados, Assembly, AVR, ATMega, ATTiny, ARM, STL, C++, Library, Biblioteca Padrão de Templates, Standart Template Library, SGI]
 category: [cursoarduino, nivel_4]
@@ -76,9 +77,10 @@ Iterators são um mecanismo que torna possível desacoplar algoritmos dos contai
           return first;
       }
 ```
+
 O `find` espera três argumentos: dois iterators que define a faixa, e um valor para ser pesquisado dentro da faixa. Ele examina cada iterator na faixa [first, last], partindo do início  até o fim, e parando quando ele encontra um iterator que aponta para o valor ou quando ele chega ao final da faixa.
 
-`first` e `last` são declarados  como do tipo `InputIterator`, e `InputIterator` é um parametro do tipo template. Isto é, não há na verdade algum tipo chamado `inputIterator`: quando você chama `find`, o compilador substitui o atual tipo do argumento pelo o tipo formal dos parametros `InputIterator` e `T`. se os dois primeiros argumentos para o `find` são do tipo `int*` e o terceiro é do tipo `int`, então é como se você tivesse chamado a função:
+`first` e `last` são declarados  como do tipo `InputIterator`, e `InputIterator` é um parametro do tipo template. Isto é, não há na verdade algum tipo chamado `inputIterator`: quando você chama `find`, o compilador substitui o atual tipo do argumento pelo o tipo formal dos parâmetros `InputIterator` e `T`. se os dois primeiros argumentos para o `find` são do tipo `int*` e o terceiro é do tipo `int`, então é como se você tivesse chamado a função:
 
 ```
       int* find(int* first, int* last, const int& value) {
@@ -89,7 +91,7 @@ O `find` espera três argumentos: dois iterators que define a faixa, e um valor 
 
 ## Conceitos e Modelagem
 
-Uma pergunta muito importante a ser feita sobre qual a função do template, não exatamente sobre algortimos do STL, é qual o conjunto de tipos que pode ser corretamente substituito para um parametro formal do template. Esclarecendo, por exemplo, `int*`ou `double*`pode ser substituido por parametros formais do tipo `InputIterator` do `find` . Igualmente, `int` ou `double` não pode: `find` usa a expressão `*first`, e o operador de referência do ponteiro não faz sentido para um objeto do tipo `int` ou do tipo `double`. A resposta simples, então , é que `find` define de forma implicita um conjunto de requerimentos nos tipos, e que ele pode ser instanciado com algum tipo que satisfaz estes requisitos. Portanto, o tipo é substituido por `InputStream` que fornece certos tipos de operações: deve ser possível comparar dois objetos conforme a igualdade de seu tipo, deve ser possível incrementar um objeto deste tipo, deve ser possível fazer referência pelo ponteiro de um objeto do tipo obtido pleo objeto que ele aponta, e assim por diante.
+Uma pergunta muito importante a ser feita sobre qual a função do template, não exatamente sobre algortimos do STL, é qual o conjunto de tipos que pode ser corretamente substituito para um parametro formal do template. Esclarecendo, por exemplo, `int*`ou `double*`pode ser substituido por parâmetros formais do tipo `InputIterator` do `find` . Igualmente, `int` ou `double` não pode: `find` usa a expressão `*first`, e o operador de referência do ponteiro não faz sentido para um objeto do tipo `int` ou do tipo `double`. A resposta simples, então , é que `find` define de forma implicita um conjunto de requerimentos nos tipos, e que ele pode ser instanciado com algum tipo que satisfaz estes requisitos. Portanto, o tipo é substituido por `InputStream` que fornece certos tipos de operações: deve ser possível comparar dois objetos conforme a igualdade de seu tipo, deve ser possível incrementar um objeto deste tipo, deve ser possível fazer referência pelo ponteiro de um objeto do tipo obtido pleo objeto que ele aponta, e assim por diante.
 
 `find` não é o unico algortimo do STL que tem tal conjunto de requisitos; os argumentos do `for_each` e do `count`, e outros algortimos, devem satisfazer os mesmos requisitos. Estes requisitos são suficientemente importantes para que nos demos então um nome: nos chamaos tais conjuntos de requisitos de "Conceito", e nos chamamos este conceito em particular de **Input Iterator** porque `int*` fornece todo as operações que são especificadas pelos requisitos do **Input Iterator**.
 
