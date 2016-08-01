@@ -10,7 +10,9 @@ share: true
 toc: true
 comments: true
 feature:
-  category: true
+ category: true
+ index: true
+tagcloud: true
 ads: 
  show: true
 image:
@@ -30,7 +32,6 @@ Com base na introdução apresentada no site http://www.sgi.com/tech/stl/stl_int
 O texto abaixo é a tradução livre da [Introdução ao STL da SGI](http://www.sgi.com/tech/stl/stl_introduction.html), e pela explicação sobre o STL da SGI introduz muito bem o que é o STL e seu beneficio, em caso de dúvida no final da página você poderá apresenta-la assim amadureço o texto de forma a amadurecer eventuais pontos que tenha ficado pouco claro.
 
 ## Introdução à Biblioteca Padrão de Template
-
 
 A Biblioteca Padrão de Template, ou STL da seu nome em inglês "Standart Template Library", é uma biblioteca do C++ para classes de containers, algortimos e interators; ela prové a maioria dos algorimos basicos e struturas de dados para ciência de computador. O STL é uma biblioteca generica, de forma que seus componentnes são fortemente parametrizados: a maioria dos componentes do STL são templates. Você precisa se grantir que entende bem o que são templates no C++ antes de usar STL, para isso aomenos leia antes o artigo [O que é um Template em C++]({% post_url 2016-07-31-O_que_e_um_Template_em_CPlusPlus %}).
 
@@ -126,5 +127,5 @@ Finalmente, o STL inclue uma grande coleção de objetos de função, também co
 
 ## Conclusão
 
-Como podem ver o STL traz grandes beneficios ao programador, e quando trabalhamos com coleções de dados e pequenos objetos pode ser muito útil. Há um mito que diz não podemos usar STL em sistemas embarcados e microcontroladores como AVR, veremos no próximo artigo ["O Mito que impede o uso de templates em sistemas embarcados"]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %}}
+Como podem ver o STL traz grandes beneficios ao programador, e quando trabalhamos com coleções de dados e pequenos objetos pode ser muito útil. Há um mito que diz não podemos usar STL em sistemas embarcados e microcontroladores como AVR, veremos no próximo artigo "[O Mito que impede o uso de templates em sistemas embarcados]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %})".
  

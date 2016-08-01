@@ -7,7 +7,9 @@ share: true
 toc: true
 comments: true
 feature:
-  category: true
+ category: true
+ index: true
+tagcloud: true
 ads: 
  show: true
 image:
