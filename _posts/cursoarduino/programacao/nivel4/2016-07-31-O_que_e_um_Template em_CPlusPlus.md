@@ -17,8 +17,7 @@ image:
   creditlink: 
 ---
 
-Templates um recurso amplamente utilizado em C++, veremos um pouco de sua história e como pode ser útil até mesmo no desenvolvimento de sistemas embarcados, e quais os mitos envolvidos que faz muitos desenvolvedores evita-lo.
+Templates um recurso amplamente utilizado em C++, sendo um dos grandes diferenciais da lingaugem.Veremos um pouco de sua história e como pode ser útil até mesmo no desenvolvimento de sistemas embarcados, e quais os mitos envolvidos que faz muitos desenvolvedores evita-lo.
 
 <!--more-->
 
-Aguardem.
