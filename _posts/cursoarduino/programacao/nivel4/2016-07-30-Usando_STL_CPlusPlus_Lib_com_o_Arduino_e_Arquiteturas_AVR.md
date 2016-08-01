@@ -10,7 +10,9 @@ share: true
 toc: true
 comments: true
 feature:
-  category: true
+ category: true
+ index: true
+tagcloud: true
 ads: 
  show: true
 image:
@@ -125,5 +127,5 @@ Finalmente, o STL inclue uma grande coleção de objetos de função, também co
 
 ## Conclusão
 
-Como podem ver o STL traz grandes beneficios ao programador, e quando trabalhamos com coleções de dados e pequenos objetos pode ser muito útil. Há um mito que diz não podemos usar STL em sistemas embarcados e microcontroladores como AVR, veremos no próximo artigo ["O Mito que impede o uso de templates em sistemas embarcados"]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %}}
+Como podem ver o STL traz grandes beneficios ao programador, e quando trabalhamos com coleções de dados e pequenos objetos pode ser muito útil. Há um mito que diz não podemos usar STL em sistemas embarcados e microcontroladores como AVR, veremos no próximo artigo "[O Mito que impede o uso de templates em sistemas embarcados]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %})".
  
