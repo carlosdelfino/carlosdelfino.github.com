@@ -35,7 +35,7 @@ Os fatos envolvidos na construção de um template determinando requisitos para 
 
 O uso de template é muito restrito, e não se aplica a aplicações finais, pelo a não ser que seja necessário criar uma classe genérica, algo como um conteiner de classes de sua aplicação o que já torna esta classe mais especializada, mesmo que seja generica dentro de seu contexto, o ideal para se usar Templates é quando se cria classes genericas para uso em qualquer aplicação ou num contexto bastante amplo de uso, de forma que possa ser compartilhado com outros colegas.
 
-Templates hoje são amplamente usado devido a biblioteca STL também explicada no artigo acima, graças ao templates é possível a criação de algoritmos genericos para operadores como no caso de usarmos o operador unário `++` em classes, ou mesmo o uso de pares `[` e `]` para acesso tanto em array do C como da mesma forma vetores, listas e mapas do C++ que são definidos no STL, e claro funções especiais como funções genericas para manipulação dos tipos de containers citados.
+Templates hoje são amplamente usado devido a biblioteca STL também explicada no post citado logo acima, graças ao templates é possível a criação de algoritmos genericos para operadores como no caso de usarmos o operador unário `++` em classes, ou mesmo o uso de pares `[` e `]` para acesso tanto em array do C como da mesma forma vetores, listas e mapas do C++ que são definidos no STL, e claro funções especiais como funções genericas para manipulação dos tipos de containers citados.
 
 Abaixo podemos ver a sintaxe usada para definir um template para uma função simples:
 
@@ -61,9 +61,12 @@ Na sitaxe para se definir um template também é permitido usar a palavra chave 
       }
 ```
 
-Portanto `InputIterator` fica claro que é o nome de um tipo que será informado quando a função for chamada, e assim também para `T`.
+Portanto, fica claro que `InputIterator` é o nome para um local onde haverá substituição do tipo para o que será informado quando a função for chamada, e assim também para `T`.
 
-E qual o problema relativo a queixa de códigos ficarem maiores com o uso de Templates do C++, isso é verdade? Veremos isso na publicação "[O mito que impede o uso de templates em sistemas embarcados]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %})
+Quem usa **Generics** em java, pode ficar tentando a perguntar como usar templates com curinga `?`, já de imediato digo que não é necessário, todo template é um curinga como no Generics do java, e se eu quiser limitar a um determinado grupo de classes pertencentes a uma determinada hierarquia? bem neste caso é bem mais complexo e varia bastante o código necessário entre o C11 e C14, portanto não vou entrar nesta questão aqui, realmente isso daria um novo post, quem sábe no futuro?
+
+E qual o problema relativo a queixa de códigos ficarem maiores com o uso de Templates do C++, isso é verdade? Veremos isso na publicação "[O mito que impede o uso de templates em sistemas embarcados]({% post_url 2016-07-31-O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados %}).
+
 ------
 
 ## Fontes: 
