@@ -1,6 +1,7 @@
 ---
 title: Uma Reflexão Sobre Diferenças de Classes - Texto de George Orwell.
 categories: [Pensamentos]
+tags: [Problema no Paraíso, Estudo, Escola, Aprendizado, Ensino, George Orwell, Zizeque, Filosofia, Classes, Classismo, Pensamento, Reflexão, Sociedade, Mudanças, Slavoj Žižek, 1937]
 layout: article
 share: true
 toc: true
