@@ -21,7 +21,7 @@ Abaixo uma coleção de funções que podem ser usadas para construção de rede
 
 <!--more-->
 
-Abaixo apresentaremos alguns funções muito importante para a compreenção de como funciona as redes neurais, as funções do tipo degrau podem ser usadas para ativar ou desativar um grupo de neuronios, por exemplo.
+Abaixo apresentaremos alguns funções muito importante para a compreenção de como funciona as redes neurais, as funções do tipo degrau podem ser usadas para ativar ou desativar um grupo de neurônios, por exemplo.
 
 Já as funções logística e tangente hiperbólicas podem ser usada também no processo de ativação e desativação de redes mais complexas como LTSM, que veremos mais no final desta série de postagens.
 
@@ -83,7 +83,7 @@ Neste caso tanto o valor $$l$$ é ajustado conforme os limites desejados para a 
 
 ## Funções totalmente diferenciáveis.
 
-Temos 4 funções diferenciáveis que podem ser usadas como solução para nossos neuronios, tais funções são apresentadas abaixo e possuem suas diferenciais de primeira ordem conhecidas em todos os pontos de domínio de definição.
+Temos 4 funções diferenciáveis que podem ser usadas como solução para nossos neurônios, tais funções são apresentadas abaixo e possuem suas diferenciais de primeira ordem conhecidas em todos os pontos de domínio de definição.
 
 ### Função Logística
 
@@ -232,6 +232,10 @@ f(x) = x * \sigma
 $$
 
 Neste caso $$\sigma$$ será o fator de multiplicação para nivelar os sinais da rede.
+
+No próximo post comento um pouco sobre as [Redes do tipo Perceptron]({% post_url 2016-08-02-Introducao_Redes_Neurais_Perceptron %}).
+
+Caso esteja buscando aprender mais e compartilhar conhecimento, participe de nosso grupo no facebook: [Artificial Intelligence and Neural Network](https://www.facebook.com/groups/ArtificialNeuralNetwork/)
 
 ## Ferramentas usadas para construir os gráficos
 
