@@ -171,14 +171,14 @@ Na fórmula acima `e` é o número de Euler, $$ e= 2.718281828459045235360287$$,
 No gráfico abaixo apresento a mesma função em um formato tridimencional, onde o eixo z é a variação das alternativas para $$\beta$$.
 
 <figure>
-<figcaption>Influência do Parãmetro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de Beta</figcaption>
+<figcaption>Influência do Parãmetro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de $$\beta$$</figcaption>
 <img src="/images/redesneurais/introducao/tangente-hiperbolica-1-3d.gif" />
 </figure> 
 
 ### Função Gausiana
 
 $$
-f(x) = e ^{- {/frac{(x-c)^2}{2*(\sigma)^2}}
+f(x) = e ^ { - { \frac{(x - c)^2}{2 \; * \; \sigma^2 } } }
 $$
 
 | x | f(x;-10) | f(x;-2) | f(x;6) |
@@ -234,6 +234,8 @@ $$
 Neste caso $$\sigma$$ será o fator de multiplicação para nivelar os sinais da rede.
 
 ## Ferramentas usadas para construir os gráficos
+
+Nos links abaixo estão as ferramentas utilizadas para construir as formulas e gráficos, além de gerar os dados.
 
 * http://developer.wolframalpha.com/widgetbuilder/?_ga=1.243513221.1439349164.1470078370
 * http://www.mathe-fa.de/pt#result
