@@ -21,6 +21,14 @@ Abaixo uma coleção de funções que podem ser usadas para construção de rede
 
 <!--more-->
 
+Abaixo apresentaremos alguns funções muito importante para a compreenção de como funciona as redes neurais, as funções do tipo degrau podem ser usadas para ativar ou desativar um grupo de neuronios, por exemplo.
+
+Já as funções logística e tangente hiperbólicas podem ser usada também no processo de ativação e desativação de redes mais complexas como LTSM, que veremos mais no final desta série de postagens.
+
+Temos também as funções Gausianas são usadas em sistemas neurais que determinam um ponto central de classificação com base em umam édia e a Função linear, é a mais simples de todas e são usadas em redes neurais para nivelar sinais para se equiprar nívies de entradas, como um sistema de acoplamento, elas podem ter entradas e saidas com valores iguais ou proporcionais direta ou inversamente.
+
+Na próxima postagem veremos os tipos de redes neurais existentes e como estas funções podem ser aplicadas nelas.
+
 ## As funções do tipo degrau.
 
 Há funções simples do tipo degrau conhecidas do inglês como *Heavyside/band limiter*, são funções com algortimos de tomada de decisão bem simples baseada em um *IF* por neuronio, sendo o valor potencial da sinapse maior que zero provoca assim a ativação do neuronio, ou mesmo duas faixas limites quando for uma função degrau bipolar ou função sinal tambem conhecida do inglês de *Symmetric board limiter*, a ativação tendo dois estágios, um positivo outro negativo.
@@ -110,13 +118,18 @@ Na formula acima `e` é o número de euler portanto $$ e= 2.71828182845904523536
 | 900 | 1,000 | 1,000 | 1,000 | 1,000 | 1,000 |
 | 1.000 | 1,000 | 1,000 | 1,000 | 1,000 | 1,000 |
 
-|[Influência do Parametro $$\beta$$ na função de Ativação Tangente Hiperbólica](/images/redesneurais/introducao/logistica-1.png)
+<figure>
+<figcaption>Influência do Parametro $$\beta$$ na função de Ativação Tangente Hiperbólic</figcaption>
+<img src="/images/redesneurais/introducao/logistica-1.png" />
+</figure>
 
 
 No gráfico abaixo apresento a mesma função em um formato tridimencional, onde o eixo z é a variação das alternativas para $$\beta$$.
 
-|[Influência do Parametro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de Beta](/images/redesneurais/introducao/logistica-1-3d.gif)
-
+<figure>
+<figcaption>Influência do Parametro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de Beta</figcaption>
+<img src="/images/redesneurais/introducao/logistica-1-3d.gif" />
+</figure>
 
 ### Função Tangente Hiperbólica 
 
@@ -150,9 +163,80 @@ Na fórmula acima `e` é o número de Euler, $$ e= 2.718281828459045235360287$$,
 | 900 | 1,000 | 1,000 | 1,000 | 1,000 | 1,000 |
 | 1.000 | 1,000 | 1,000 | 1,000 | 1,000 | 1,000 |
 
-|[Influência do Parâmetro $$\beta$$ na função de Ativação Tangente Hiperbólica](/images/redesneurais/introducao/tangente-hiperbolica-1.png)
+<figure>
+<figcaption>Influência do Parâmetro $$\beta$$ na função de Ativação Tangente Hiperbólica</figcaption>
+<img src="/images/redesneurais/introducao/tangente-hiperbolica-1.png" />
+</figure>
 
 No gráfico abaixo apresento a mesma função em um formato tridimencional, onde o eixo z é a variação das alternativas para $$\beta$$.
 
-|[Influência do Parãmetro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de Beta](/images/redesneurais/introducao/tangente-hiperbolica-1-3d.gif)
+<figure>
+<figcaption>Influência do Parãmetro $$\beta$$ na função de Ativação Tangente Hiperbólica Visão Tridimensional ocnforme variação de Beta</figcaption>
+<img src="/images/redesneurais/introducao/tangente-hiperbolica-1-3d.gif" />
+</figure> 
 
+### Função Gausiana
+
+$$
+f(x) = e ^{- {/frac{(x-c)^2}{2*(\sigma)^2}}
+$$
+
+| x | f(x;-10) | f(x;-2) | f(x;6) |
+| --- | --- | --- | --- |
+| -1.000 | 0,000 | 0,000 | 0,000 |
+| -900 | 0,000 | 0,000 | 0,000 |
+| -800 | 0,000 | 0,000 | 0,000 |
+| -700 | 0,000 | 0,000 | 0,000 |
+| -600 | 0,000 | 0,000 | 0,000 |
+| -500 | 0,000 | 0,000 | 0,000 |
+| -400 | 0,000 | 0,000 | 0,000 |
+| -300 | 0,000 | 0,000 | 0,000 |
+| -200 | 0,000 | 0,000 | 0,000 |
+| -100 | 0,000 | 0,000 | 0,000 |
+| 0 | 0,801 | 0,991 | 0,923 |
+| 100 | 0,000 | 0,000 | 0,000 |
+| 200 | 0,000 | 0,000 | 0,000 |
+| 300 | 0,000 | 0,000 | 0,000 |
+| 400 | 0,000 | 0,000 | 0,000 |
+| 500 | 0,000 | 0,000 | 0,000 |
+| 600 | 0,000 | 0,000 | 0,000 |
+| 700 | 0,000 | 0,000 | 0,000 |
+| 800 | 0,000 | 0,000 | 0,000 |
+| 900 | 0,000 | 0,000 | 0,000 |
+| 1.000 | 0,000 | 0,000 | 0,000 |
+
+
+<figure>
+<figcaption>função de Ativação Gausiana</figcaption>
+<img src="/images/redesneurais/introducao/gausiana-1.png" />
+</figure>
+
+No gráfico abaixo temos a mesma função em um formato tridimencional, onde o eixo z é a variação da posição do eixo central z, $$\sigma$$ foi mantido fixo no valor 1.
+
+<figure>
+<figcaption>função de Ativação Gausiana, demonstrando a variação da dispersão $$\sigma$$ conforme o eixo central $$c$$, sendo a formula de referência: $$f(x) = e ^{-/frac{(x-c)^2}{2\sigma^2}
+$$</figcaption>
+<img src="/images/redesneurais/introducao/gausiana-1-3d.gif" />
+</figure>
+
+### Função Linear
+
+$$
+f(x) = x
+$$
+
+A função linear pode ser do tipo identidade como na formula acima, ou pode ser proporcional, sendo seu objetivo acoplar a saida de uma rede neural a outra rede, compatiblizando nível de valores:
+
+$$
+f(x) = x * \sigma
+$$
+
+Neste caso $$\sigma$$ será o fator de multiplicação para nivelar os sinais da rede.
+
+## Ferramentas usadas para construir os gráficos
+
+* http://developer.wolframalpha.com/widgetbuilder/?_ga=1.243513221.1439349164.1470078370
+* http://www.mathe-fa.de/pt#result
+* http://detexify.kirelabs.org/classify.html
+* http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+* https://domchristie.github.io/to-markdown/
