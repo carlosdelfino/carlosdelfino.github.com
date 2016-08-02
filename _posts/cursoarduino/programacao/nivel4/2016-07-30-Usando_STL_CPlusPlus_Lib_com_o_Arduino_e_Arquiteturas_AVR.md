@@ -16,10 +16,8 @@ tagcloud: true
 ads: 
  show: true
 image:
-  teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
-  feature: logica_programacao/fluxograma_planejamento-300x199.jpg
-  credit: Carlos Delfino 
-  creditlink: 
+   teaser: pensamentos/pensamento2-400x200.jpg
+   feature: pensamentos/pensamento2-400x200.jpg
 ---
 Diante do amadurecimento de projetos e a demanda de bibliotecas mais avançadas para lidar com coleções de dados e comunicação mais complexa via rede, me deparei com a necessiadde de uso de containers como Vetores e Maps, porém o GCC para AVR não possui a biblioteca padrão de templates que nos permite tal uso.
 
