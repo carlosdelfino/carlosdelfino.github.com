@@ -2,12 +2,15 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 	<!-- begin categories -->	
 	<div class="box">
-{% assign categoryname = category | first | downcase | strip | remove:'"' | cgi_escape %}
-{% assign categoryid = categoryname | remove:' ' | remove:'-' %}
+{% assign categoryname = category | first | remove:'"' %}
+{% assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape %}
 {% assign catdetail = site.data.categories[categoryid] %} 
-{% include debug/debug_output_variables.html value1_name="categoryname" value1=categoryname  %}
+{% include debug/debug_output_variables.html 
+		value1_name="categoryname" value1=categoryname  
+		value2_name="categoryid" value2=categoryid 
+		%}
 {% if catdetail %}
-	{% assign categoryname = catdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
+	{% assign categoryname = catdetail.name %}
 {% endif %}
 {% include debug/debug_output_variables.html 
         value1_name="categoryname" value1=categoryname 
