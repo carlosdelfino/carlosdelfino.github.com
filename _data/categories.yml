@@ -1,6 +1,16 @@
+Cole%C3%A7%C3%A3odeLinks:
+   name: "Coleção de Links"
+   aliases: [colecaodelinks, ColecaoDeLinks]
+   
 automa%C3%A7%C3%A3o:
    name: "Automação"
    aliases: [automacao]
+
+educacao:
+   name: "Educação"
+   
+extra:
+   name: "Extra"
 
 tecnologianosocial:
    name: Tecnologia No Social
@@ -48,6 +58,13 @@ colecaodelinks:
    name: Coleção de Links
    aliases: [link,links,colecaolinks]
 
+importacao:
+   name: "Importação"
+
+HelloWorldARM:
+   name: "Hello World ARM"
+   alias: helloworldarm
+   
 helloarm:
    name: Hello World ARM
    alias: helloworldarm
@@ -56,16 +73,38 @@ helloworldarm:
    name: Hello World ARM
    author: carlosdelfino
    cursos: [cursoarduino,helloworldarm]
-   aliases: [helloarm]
+   aliases: [helloarm, HelloWorldARM]
    image:
       teaser: helloworldarm/SAM4SxPlained-255x180.png
       feature: helloworldarm/SAM4SxPlained-400x280.jpg
       credit: Carlos Delfino 
       creditlink: /sobre_min/
 
+MinasM%C3%BAsicasPreferidas:
+   name: "Minhas Músicas"
+   aliases: [minhasmusicaspreferidas, MinasM%C3%BAsicas, minhasmusicas]
+   
+MinasM%C3%BAsicas:
+   name: "Minhas Músicas"
+   
+minasmusicas:
+   name: "Minhas Músicas"
+
+minhasmusicaspreferidas:
+   name: "Minhas Músicas"
+
+PensamentoseReflex%C3%B5es:
+   name: "Pensamentos e Reflexões"
+   alias: [pensamentos, pensamentosereflex%C3%B5es]
+
+pensamentosereflex%C3%B5es:
+   name: "Pensamentos e Reflexões"
+   alias: [pensamentos, pensamentosereflex%C3%B5es]
+
 pensamentos:
    name: "Pensamentos e Reflexões"
    author: carlosdelfino
+   alias: [pensamentos, pensamentosereflex%C3%B5es, PensamentoseReflex%C3%B5es]
 
 helloworldarduino:
    name: "Hello World Arduino"
@@ -105,8 +144,12 @@ nivel_1:
    
 nivel_2:
    name: "Nível 2"
-   alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2"]
+   alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
    
+N%C3%ADvel2:
+   name: "Nível 2"
+   alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
+
 nivel_3:
    name: "Nível 3"
    alias: ["Nível 03", "Nível 3", Nivel 03", Nivel 3"]

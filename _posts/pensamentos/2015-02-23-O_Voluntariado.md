@@ -1,6 +1,5 @@
 ---
 title: "O Voluntáriado"
-excerpt: Segundo definição das Nações Unidas, "o voluntário é o jovem ou o adulto que, devido a seu interesse pessoal e ao seu espírito cívico, dedica parte do seu tempo, sem remuneração alguma, a diversas formas de atividades, organizadas ou não, de bem estar social, ou outros campos..."
 tags: [Voluntáriado, Sociedade, Social, Religião]
 category: [pensamentos]
 layout: article
@@ -22,6 +21,9 @@ coinbase:
  show: true
 --- 
 
+Segundo definição das Nações Unidas, "o voluntário é o jovem ou o adulto que, devido a seu interesse pessoal e ao seu espírito cívico, dedica parte do seu tempo, sem remuneração alguma, a diversas formas de atividades, organizadas ou não, de bem estar social, ou outros campos..."
+
+<!--more-->
 
 Em recente estudo realizado na Fundação Abrinq pelos Direitos da 
 Criança, definiu-se o voluntário como ator social e agente de 

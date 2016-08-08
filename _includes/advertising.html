@@ -1,12 +1,14 @@
 {% if page.ads.show %}
 
    {% unless page.ads.style %}
-      {% assign pageadsstyle = "vertical" %}      
+      {% if page.layout == "categorylist" %}
+        {% assign pageadsstyle = "horizontal" %}      
+      {% else %}
+        {% assign pageadsstyle = "vertical" %}
+	  {% endif %}
    {% else %}
       {% assign pageadsstyle = page.ads.style %}   
-   {% endunless %}
-   
-  
+   {% endunless %}  
 
    {% if site.data.ads[pageadsstyle] %}
       {% assign style = site.data.ads[pageadsstyle].style %}
