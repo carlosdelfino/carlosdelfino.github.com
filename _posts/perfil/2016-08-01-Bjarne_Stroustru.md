@@ -19,7 +19,7 @@ image:
  teaser: perfil/Bjarne_Stroustrup.jpg
 ---
 
-![Bjarne Stroustrup](/image/perfil/Bjarne_Stroustrup.jpg)
+![Bjarne Stroustrup](/images/perfil/Bjarne_Stroustrup.jpg)
 
 Diretor da divisão de tecnologia da Morgan Stanley na cidade de Nova York nos estados unidos, e professor visitante em ciência da computação na Universidade de Columbia.
 
