@@ -17,7 +17,7 @@ image:
    feature: pensamentos/pensamento2-400x200.jpg
 math: true
 ---
-Os perceptrons são o tipo de rede neural artificial mais antigo, foi idealizado pelo pesquisador Rosenblatt em 1958, desejava criar um mecnismo de reconhecimento de padrões geometricos inspirado no funcionamento da retina.
+Os perceptrons são o tipo de rede neural artificial mais antigo e mais simples, foi idealizado pelo pesquisador Rosenblatt em 1958, ele desejava criar um mecanismo de reconhecimento de padrões geometricos inspirado no funcionamento da retina.
 
 <!--more-->
 
@@ -28,13 +28,13 @@ O perceptron padrão pode ser descrito pela seguinte equação:
 $$
 \begin{cases}
    i = \sum_{i=1}^n w_i \; * \; x_i -  \theta \\ 
-   y = g(u)
+   y = g(i)
 \end{cases}
 $$
 
-Uma boa aplicação do perceptron, seria um algortimo de controle de um sistema de irrigação, feito com o arduino, o perceptron pode facilmente ser implementado para rodar em um arduino recebendo sinais via porta analógica e assim acionando uma porta digital ou mesmo alterando o valor em uma porta pwm.
+Uma boa aplicação do perceptron, seria um algortimo de controle de um sistema de irrigação, feito com o arduino, o perceptron pode facilmente ser implementado para rodar em um arduino recebendo sinais do mundo externo via uma ou mais portas analógicas e assim acionando uma porta digital ou mesmo alterando o valor em uma porta pwm.
 
-Veremos num artigo apropria a implementação deste perceptron.
+Veremos num artigo a frente a implementação deste perceptron.
 
 ## Uma rede perceptron de dois neurônios
 
@@ -45,7 +45,7 @@ A melhor representação do uso do perceptron é a rede neural do tipo XOR como 
 <img src="/images/redesneurais/introducao/perceptron-xor.png" />
 </figure>
 
-Segue a baixo a tabela da verdade para o perceptron.
+Segue a baixo a tabela da verdade para o perceptron que símula o XOR.
 
 | x | y | xor |
 | --- | --- | --- |
@@ -53,5 +53,9 @@ Segue a baixo a tabela da verdade para o perceptron.
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
+
+
+## Onde obter mais informações?
+
 
 Caso esteja buscando aprender mais e compartilhar conhecimento, participe de nosso grupo no facebook: [Artificial Intelligence and Neural Network](https://www.facebook.com/groups/ArtificialNeuralNetwork/)

@@ -74,7 +74,7 @@ $$
   f(x) =
 \begin{cases}
    l, \text{se} \; x \gt l \\ 
-   x, \text{se} \; -l \le x \ge l \\ 
+   x, \text{se} \; -l \le x \le l \\ 
   -l, \text{se} \; x \lt -l
 \end{cases}
 $$
@@ -214,8 +214,10 @@ $$
 No gráfico abaixo temos a mesma função em um formato tridimencional, onde o eixo z é a variação da posição do eixo central z, $$\sigma$$ foi mantido fixo no valor 1.
 
 <figure>
-<figcaption>função de Ativação Gausiana, demonstrando a variação da dispersão $$\sigma$$ conforme o eixo central $$c$$, sendo a formula de referência: $$f(x) = e ^{-/frac{(x-c)^2}{2\sigma^2}
-$$</figcaption>
+<figcaption>
+função de Ativação Gausiana, demonstrando a variação da dispersão $$\sigma$$ conforme o eixo central $$c$$, sendo a formula de referência:  $$f(x) = e ^{-/frac{(x-c)^2}{2\sigma^2}$$
+
+</figcaption>
 <img src="/images/redesneurais/introducao/gausiana-1-3d.gif" />
 </figure>
 
