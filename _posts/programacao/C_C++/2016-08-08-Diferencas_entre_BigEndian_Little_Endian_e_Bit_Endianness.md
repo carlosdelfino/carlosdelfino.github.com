@@ -53,7 +53,7 @@ $$
 Temos então a seguinte ordenação dos bits para a representação do número 180 em Little Endian, onde o bit menos significativo é tratado como sendo o bit 0 e o bit 7 é o bit mais significativo.
 
 <figure>
-<img src="/images/programcao/ccplusplus/LSB-0-bit-numbering-300px-Lsb0.svg.png" />
+<img src="/images/programacao/ccplusplus/LSB-0-bit-numbering-300px-Lsb0.svg.png" />
 <figcaption>Representação gráfica do Little Endian</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ $$
 $$
 
 <figure>
-<img src="/images/programcao/ccplusplus/LSB-0-bit-numbering-300px-Lsb0.svg.png" />
+<img src="/images/programacao/ccplusplus/LSB-0-bit-numbering-300px-Lsb0.svg.png" />
 <figcaption>Representação gráfica do Little Endian</figcaption>
 </figure>
 
@@ -75,12 +75,12 @@ Vejamos agora como é tratado o conceito **endianess** quando se trata de bytes,
 As imagem abaixo representam dois números inteiros armazenado na memória de um microcontrolador qualquer que seja do tipo **Little Endian**, a primeira representa um número de 16bits ou seja um Word, o segundo um número de 32 bits, Double Word (DWord).
 
 <figure>
-<img src="/images/programcao/ccplusplus/Big_Endian_Byte-Word.png" />
+<img src="/images/programacao/ccplusplus/Big_Endian_Byte-Word.png" />
 <figcaption>Representação gráfica do Little Endian para um Word</figcaption>
 </figure>
 
 <figure>
-<img src="/images/programcao/ccplusplus/Big_Endian_Byte-DWord.png" />
+<img src="/images/programacao/ccplusplus/Big_Endian_Byte-DWord.png" />
 <figcaption>Representação gráfica do Little Endian para um DWord</figcaption>
 </figure>
 
@@ -89,13 +89,13 @@ Como pode ver o byte mais significativo é armazenado no endereço mais baixo da
 Vejamos agora como o mesmo número fica representado em um sistema Little Endian. Temos a seguir os mesmos números usados na representação anterior, porém agora utilizado o mecanismo Little Endian para armazená-lo.
 
 <figure>
-<img src="/images/programcao/ccplusplus/Little_Endian_Byte-Word.png" />
+<img src="/images/programacao/ccplusplus/Little_Endian_Byte-Word.png" />
 <figcaption>Representação gráfica do Little Endian para um Word</figcaption>
 </figure>
 
 <figure>
 <figcaption>Representação gráfica do Little Endian para um DWord</figcaption>
-<img src="/images/programcao/ccplusplus/Little_Endian_Byte-DWord.png" />
+<img src="/images/programacao/ccplusplus/Little_Endian_Byte-DWord.png" />
 </figure>
 
 Ouve épocas que tal conflito quando se transferindo dados entre computadores que usavam sistemas diferentes (chamdos bytesex), ou seja transmitindo de um sistema Little Endian para um sistema Big Endian a string **UNIX**, foi identificado como ***NUXI Problem***, ou seja o "problema **NUXI**", devido a inversão da String "UNIX".
@@ -141,7 +141,7 @@ int main(void)
 ```
 <figure>
 <figcaption>Resultado para um Word</figcaption>
-<img src="/images/programcao/ccplusplus/exemplo_little_endian_c_word" />
+<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_word" />
 </figure>
 
 --------
@@ -185,7 +185,7 @@ int main(void)
 ```
 <figure>
 <figcaption>Resultado para um DWord</figcaption>
-<img src="/images/programcao/ccplusplus/exemplo_little_endian_c_dword" />
+<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_dword" />
 </figure>
 
 ## Outras formas de representação
