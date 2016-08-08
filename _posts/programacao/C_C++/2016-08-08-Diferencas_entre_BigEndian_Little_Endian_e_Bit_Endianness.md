@@ -64,7 +64,7 @@ $$
 $$
 
 <figure>
-<img src="/images/programacao/ccplusplus/LSB-0-bit-numbering-300px-Lsb0.svg.png" />
+<img src="/images/programacao/ccplusplus/MSB-0-bit-numbering-300px-Msb0.svg.png" />
 <figcaption>Representação gráfica do Little Endian</figcaption>
 </figure>
 
