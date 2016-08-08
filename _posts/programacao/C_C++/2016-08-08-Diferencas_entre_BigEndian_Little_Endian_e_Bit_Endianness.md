@@ -10,7 +10,7 @@ feature:
  category: true
  index: true
 tagcloud: true
-ads: 
+ads:
  show: true
 image:
    teaser: pensamentos/pensamento2-400x200.jpg
@@ -115,17 +115,17 @@ Neste exemplo mostramos como um inteiro de 2 bytes (16bits) é armazenado na mem
 struct DWORD
    {
       uint8_t a0;
-      uint8_t a1; 
+      uint8_t a1;
    } ;
 
-    
+
 int main(void)
 {
 	struct DWORD dw;  
- 
+
 	dw.a0 = 0xDF;
 	dw.a1 = 0xEA;  
-    
+
 	printf("Endereço 0: %#X\nEndereço 1: %#X\n: %#X\n", dw.a0, dw.a1);
 
 	uint32_t dw1;
@@ -160,16 +160,16 @@ struct DWORD
       uint8_t a3;
    } ;
 
-    
+
 int main(void)
 {
 	struct DWORD dw;  
- 
+
 	dw.a0 = 0xDF;
-	dw.a1 = 0xEA; 
+	dw.a1 = 0xEA;
 	dw.a2 = 0xAB;
-	dw.a3 = 0xCF; 
-    
+	dw.a3 = 0xCF;
+
 	printf("Endereço 0: %#X\nEndereço 1: %#X\nEndereço 2: %#X\nEndereço 3: %#X\n", dw.a0, dw.a1, dw.a2, dw.a3);
 
 	uint32_t dw1;
