@@ -5,10 +5,13 @@ redirect_from:
  - "/celular/"
 permalink: /telefoniaeautomacao/
 title: Telefonia e Automação
-excerpt: Workshop de Telefonia e Automacao com Arduino, abrangendo Asterisk.
 layout: categorylist
 category: telefoniaeautomacao
-share: true 
---- 
+share: true
+---
 
+Workshop de Telefonia e Automacao com Arduino, abrangendo Asterisk e modulos GSM e GPRS.
 
+<!--more-->
+
+Informações técnicas e projetos relativos ao uso de telefonia para automação.
