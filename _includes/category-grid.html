@@ -1,27 +1,30 @@
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-	<!-- begin categories -->	
+	<!-- begin categories -->
 	<div class="box">
-{% assign categoryname = category | first | downcase | strip | remove:'"' | cgi_escape %}
-{% assign categoryid = categoryname | remove:' ' | remove:'-' %}
-{% assign catdetail = site.data.categories[categoryid] %} 
-{% include debug/debug_output_variables.html value1_name="categoryname" value1=categoryname  %}
+{% assign categoryname = category | first | remove:'"' %}
+{% assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape %}
+{% assign catdetail = site.data.categories[categoryid] %}
+{% include debug/debug_output_variables.html
+		value1_name="categoryname" value1=categoryname
+		value2_name="categoryid" value2=categoryid
+		%}
 {% if catdetail %}
-	{% assign categoryname = catdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
+	{% assign categoryname = catdetail.name %}
 {% endif %}
-{% include debug/debug_output_variables.html 
-        value1_name="categoryname" value1=categoryname 
-		value2_name="categoryid" value2=categoryid 
+{% include debug/debug_output_variables.html
+        value1_name="categoryname" value1=categoryname
+		value2_name="categoryid" value2=categoryid
 		value3_name="catdetail" value3=catdetail %}
-		<h5><a id="category_{{ categoryid }}" 
-				name="{{ categoryid }}" >{{ categoryname }}</a></h5>
+		<h5><a id="category_{{ categoryid }}"
+				name="{{ categoryid }}" href="/{{ categoryid }}">{{ categoryname }}</a></h5>
 		<ul class="postList">
 {% for posts in category %}
    {% for post in posts %}
       {% if post.url %}
-			<li><a href="{{ post.url }}" 
+			<li><a href="{{ post.url }}"
 				title="{{ post.excerpt }}">
-				{{ post.title }} | 
+				{{ post.title }} |
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
        {% endif %}
@@ -29,6 +32,6 @@
 {% endfor %}
 		</ul>
 	</div>
-	<!-- END categories -->	
+	<!-- END categories -->
 </article>
 <!-- /.tile -->

@@ -5,3 +5,10 @@
 
 
 [![Build Status](https://travis-ci.org/carlosdelfino/carlosdelfino.github.com.svg)](https://travis-ci.org/carlosdelfino/carlosdelfino.github.com)
+
+
+## Como rodar o servidor local
+```
+ bundle exec ~/.gem/ruby/gems/jekyll-3.1.6/bin/jekyll serve --watch --incremental
+```
+
