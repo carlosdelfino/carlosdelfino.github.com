@@ -142,7 +142,7 @@ int main(void)
 
 <figure>
 <figcaption>Resultado para um Word</figcaption>
-<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_word" />
+<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_word.png" />
 </figure>
 
 --------
@@ -187,7 +187,7 @@ int main(void)
 
 <figure>
 <figcaption>Resultado para um DWord</figcaption>
-<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_dword" />
+<img src="/images/programacao/ccplusplus/exemplo_little_endian_c_dword.png" />
 </figure>
 
 ## Outras formas de representação
