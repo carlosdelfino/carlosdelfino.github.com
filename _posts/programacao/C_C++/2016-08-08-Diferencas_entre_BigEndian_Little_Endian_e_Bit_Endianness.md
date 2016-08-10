@@ -72,16 +72,16 @@ Em se tratando de bits o conceito **Endianess** afeta mais o hardware no que tan
 
 Vejamos agora como é tratado o conceito **endianess** quando se trata de bytes, o que afeta mais a manipulação do dado na memória quando é representado com mais de dois bytes, por exemplo números inteiros e short int em maquinas 32 bits.
 
-As imagem abaixo representam dois números inteiros armazenado na memória de um microcontrolador qualquer que seja do tipo **Little Endian**, a primeira representa um número de 16bits ou seja um Word, o segundo um número de 32 bits, Double Word (DWord).
+As imagem abaixo representam dois números inteiros armazenado na memória de um microcontrolador qualquer que seja do tipo **Big Endian**, a primeira representa um número de 16bits ou seja um Word, o segundo um número de 32 bits, Double Word (DWord).
 
 <figure>
 <img src="/images/programacao/ccplusplus/Big_Endian_Byte-Word.png" />
-<figcaption>Representação gráfica do Little Endian para um Word</figcaption>
+<figcaption>Representação gráfica do Big Endian para um Word</figcaption>
 </figure>
 
 <figure>
 <img src="/images/programacao/ccplusplus/Big_Endian_Byte-DWord.png" />
-<figcaption>Representação gráfica do Little Endian para um DWord</figcaption>
+<figcaption>Representação gráfica do Big Endian para um DWord</figcaption>
 </figure>
 
 Como pode ver o byte mais significativo é armazenado no endereço mais baixo da memória, sendo então acessado primeiramente, e o byte menos significativo é armazenando posteriormente. Na representação o endereço de memória começa a contar em `a`.
@@ -122,10 +122,10 @@ struct DWORD
 
 int main(void)
 {
-	struct DWORD dw;  
+	struct DWORD dw;
 
 	dw.a0 = 0xDF;
-	dw.a1 = 0xEA;  
+	dw.a1 = 0xEA;
 
 	printf("Endereço 0: %#X\nEndereço 1: %#X\n: %#X\n", dw.a0, dw.a1);
 
@@ -165,7 +165,7 @@ struct DWORD
 
 int main(void)
 {
-	struct DWORD dw;  
+	struct DWORD dw;
 
 	dw.a0 = 0xDF;
 	dw.a1 = 0xEA;
