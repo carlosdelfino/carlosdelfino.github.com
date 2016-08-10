@@ -26,7 +26,7 @@ A equipe tem investido tempo na melhoria do FreeBSD utilizado como sistema opera
 
 <figure>
 <img alt="Netflix diagrama do modelo SendFile"
-src="/images/extrai/netflix/netflix-sendfile.png" />
+src="/images/extra/netflix/netflix-sendfile.png" />
 <figcaption>Modelo Sendfile proposto e usado pelo Netflix</figcaption>
 </figure>
 
