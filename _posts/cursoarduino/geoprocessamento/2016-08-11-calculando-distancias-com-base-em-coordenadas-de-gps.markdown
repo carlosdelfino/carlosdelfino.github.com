@@ -14,12 +14,13 @@ tagcloud: true
 ads:
  show: true
 image:
-  teaser: cursoarduino/geoprorcessamento/GPS_UP501_teaser.jpg
-  feature: cursoarduino/geoprorcessamento/GPS_UP501_feature.jpg
+  teaser: cursoarduino/geoprocessamento/GPS_UP501_teaser.jpg
+  feature: cursoarduino/geoprocessamento/GPS_UP501_feature.jpg
 math:
    enable: true
    align: "left"
 ---
+
 O primeiro conseito que é preciso conhecer e entender bem para se converter pares de coordenadas de um GPS para distâncias em quilometros é a Milha Nautica que tem como simbolo comum `NM` quem vem do inglês **Nautical Miles**.
 
 <!--more-->
@@ -44,9 +45,9 @@ Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que 
 
 Iremos discutir aqui três cenários, o primeiro distâncias pequenas, inferiores a 7° que se baseiam apenas na mudança de latitude ou longitude unicamente, depois distâncias pequenas, inferiores a 7° que tem variação de ambos, Latitude e Longitude. E o terceiro caso, grandes distãncias ou seja superior a 7°.
 
-Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distãncias acima deste valor.
+Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distãncias entre um estado e outro no Brasil.
 
-A escolha deste angulo se dá pelo fato de percebermos facilmente a curvatura da terra quando já temos uma distância de 777,84Km.
+A escolha deste ângulo se dá pelo fato de percebermos facilmente a curvatura da terra quando já temos uma distância de 777,84Km.
 
 ### Calculando Pequenas Distâncias com apenas a Latitude ou Longitude
 
@@ -101,7 +102,7 @@ Agore tente obter duas Longitudes e faça o mesmo calculo, o principio é o mesm
 
 ### Calculando Pequenas distâncias variando Longitude e Latitude
 
-Ainda considerando que qualquer distância que varie menos de 7 graus não é necessário levar em consideração a curvatura da Terra, usaremos então apenas o calculo da Hipotenusa para descobrirmos a distância entre os dois pontos quando se varia tanto a Longitude quando a Latitude, o calculo é bem simples também Vejamos.
+Ainda considerando que qualquer distância que varie menos de 7 graus não é necessário ledouble em consideração a curvatura da Terra, usaremos então apenas o calculo da Hipotenusa para descobrirmos a distância entre os dois pontos quando se varia tanto a Longitude quando a Latitude, o calculo é bem simples também Vejamos.
 
 Basta fazermos o calculo de cada distancia separadamente pra começar, sendo assim calculamos o DLA (Distância Latitudinal) e DLO (Distância Longitudinal) seja em metros ou KM, em seguida calculamos a hipotenusa destas distâncias:
 
@@ -165,38 +166,12 @@ Iremos ver agora como proceder o calculo para grandes distãncias, consideraremo
 
 ## Codigos de exemplo
 
-### Código em PHP
-
-Abaixo é apresentado um código em PHP que foi obtido no site Stackoverflow e que é muito simples, este código pode ser usado para se calcular a distância entre dois pontos com base em sua latitude e longitude.
-
-{% highlight php %}
-function calcDistancia($lat_inicial, $long_inicial, $lat_final, $long_final)
-{
-    $d2r = 0.017453292519943295769236;
-
-    $dlong = ($long_final - $long_inicial) * $d2r;
-    $dlat = ($lat_final - $lat_inicial) * $d2r;
-
-    $temp_sin = sin($dlat/2.0);
-    $temp_cos = cos($lat_inicial * $d2r);
-    $temp_sin2 = sin($dlong/2.0);
-
-    $a = ($temp_sin * $temp_sin) + ($temp_cos * $temp_cos) * ($temp_sin2 * $temp_sin2);
-    $c = 2.0 * atan2(sqrt($a), sqrt(1.0 - $a));
-
-    return 6368.1 * $c;
-}
-{% endhighlight %}
-
-
-### Codigo em C e C++
-
-O Codigo abaixo é o código simplificado considerando a curvatura da terra, veja que ele não difere muito do código usado na linguagem PHP, e este código pode ser usado diretamente no Arduino UNO, Mega, DUE ou qualquer outro, lembrando que o Arduino UNO e Mega não tem funções nativas para trigonometria, portanto pode ser um pouco lento sua execução, mas veremos logo a frente um código que é alternativa para este problema quando usamos distâncias menores que 7°.
+O Codigo abaixo é o código simplificado considerando a curvatura da terra, este código pode ser usado diretamente no Arduino UNO, Mega, DUE ou qualquer outro, lembrando que o Arduino UNO e Mega não tem funções nativas para trigonometria, portanto pode ser um pouco lento sua execução, mas veremos logo a frente um código que é alternativa para este problema quando usamos distâncias menores que 7°.
 
 {% highlight C %}
 double calcDistancia(double lat_inicial, double long_inicial, double lat_final, double long_final) {
 
-    double d2r = 0.017453292519943295769236;
+    double d2r = 0.017453292519943295769236; // PI / 180
 
     double dlong = (long_final - long_inicial) * d2r;
     double dlat = (lat_final - lat_inicial) * d2r;
@@ -208,12 +183,96 @@ double calcDistancia(double lat_inicial, double long_inicial, double lat_final, 
     double a = (temp_sin * temp_sin) + (temp_cos * temp_cos) * (temp_sin2 * temp_sin2);
     double c = 2.0 * atan2(sqrt(a), sqrt(1.0 - a));
 
-    return 6368.1 * c;
+    return 6368.1 * c; // convert radius to KM, (minimal radius 6,357 maximal radius 6,378)
 }
 {% endhighlight %}
 
+### Outros Cálculos interessantes
+
+#### Obtendo Distância e Angulo
+
+{% highlight C %}
+// Retorna um array com distância e angulo
+double* calcDistanciaEAngulo(double lat_inicial, double long_inicial, double lat_final, double long_final) {
+    // convert angles to radians
+    double lat_inicial = lat_inicial * PI / 180;
+    double long_inicial = long_inicial * PI / 180;
+    double lat_final = lat_final * PI / 180;
+    double long_final = long_final * PI / 180;
+    // find cartesian coordinates
+    double x1 = cos(lat_inicial) * cos(long_inicial);
+    double y1 = cos(lat_inicial) * sin(long_inicial);
+    double z1 = sin(lat_inicial);
+    double x2 = cos(lat_final) * cos(long_final);
+    double y2 = cos(lat_final) * sin(long_final);
+    double z2 = sin(lat_final);
+    // vector from initial to terminal point
+    double xv = x2 - x1;
+    double yv = y2 - y1;
+    double zv = z2 - z1;
+
+    // distance
+    double distanceChordal = sqrt(xv * xv + yv * yv + zv * zv);
+    double distance = 2 * asin(distanceChordal / 2);
+
+    // magic formula for azimuth from  http://en.wikipedia.org/wiki/Azimuth
+    double Azimuth = atan(sin(long_final - long_inicial) / (cos(lat_inicial) * tan(lat_final) - sin(lat_inicial) * cos(long_final - long_inicial)));
+    if (lat_final < lat_inicial) {
+        Azimuth = Azimuth + PI;
+    }
+
+    // output
+    double azimuth = Azimuth * 180 / PI;
+    double resp[] = {distance, azimuth};
+    return resp;
+}
+{% endhighlight %}
+
+#### Calculando cordenada do destino
+
+{% highlight C %}
+double g(latitude, longitude, azimuth, distance) {
+
+    // convert angles to radians
+    double latitude = latitude * PI / 180;
+    double longitude = longitude * PI / 180;
+    double Azimuth = azimuth * PI / 180;
+
+    // find cartesian coordinates
+    double x1 = cos(latitude) * cos(longitude);
+    double y1 = cos(latitude) * sin(longitude);
+    double z1 = sin(latitude);
+
+    // unit vectors pointing East and North
+    double xEast = -y1 / sqrt(x1 * x1 + y1 * y1);
+    double yEast = x1 / sqrt(x1 * x1 + y1 * y1);
+    double zEast = 0;
+    double xNorth = -x1 * z1 / sqrt(x1 * x1 + y1 * y1);
+    double yNorth = -y1 * z1 / sqrt(x1 * x1 + y1 * y1);
+    double zNorth = sqrt(x1 * x1 + y1 * y1);
+
+    // unit vector with the given azimuth angle
+    double xv = xNorth * cos(Azimuth) + xEast * sin(Azimuth);
+    double yv = yNorth * cos(Azimuth) + yEast * sin(Azimuth);
+    double zv = zNorth * cos(Azimuth) + zEast * sin(Azimuth);
+
+    // terminal point in Cartesian coordinates
+    double x2 = x1 * cos(distance) + xv * sin(distance);
+    double y2 = y1 * cos(distance) + yv * sin(distance);
+    double z2 = z1 * cos(distance) + zv * sin(distance);
+
+    // terminal point in spherical coordinates
+    double lat2 = asin(z2) * 180 / PI;
+    double lng2 = atan2(y2, x2) * 180 / PI;
+
+    // output
+    return {lat2,lng2};
+}
+{% endhighlight %}
 
 ## Fontes:
+
+Abaixo listo algumas fontes interessante de conhecimento e testes dos conceitos aqui discutidos.
 
 * http://www.pilotopolicial.com.br/calculando-distancias-e-direcoes-utilizando-coordenadas-geograficas/
 * http://mundoestranho.abril.com.br/materia/por-que-a-milha-nautica-ediferente-da-milha-terrestre
@@ -221,3 +280,8 @@ double calcDistancia(double lat_inicial, double long_inicial, double lat_final, 
 * https://pt.wikipedia.org/wiki/Tr%C3%B3pico
 * https://pt.wikipedia.org/wiki/C%C3%ADrculo_Polar_%C3%81rtico
 * https://pt.wikipedia.org/wiki/C%C3%ADrculo_Polar_Ant%C3%A1rtico
+* http://stackexchange.com/questions/286835/distance-measurement-between-latitude-longiture-pairs?rq=1
+* https://en.wikipedia.org/wiki/Earth_radius
+* http://geographiclib.sourceforge.net/
+* http://www.movable-type.co.uk/scripts/latlong.html
+* http://www.sunearthtools.com/pt/tools/distance.php
