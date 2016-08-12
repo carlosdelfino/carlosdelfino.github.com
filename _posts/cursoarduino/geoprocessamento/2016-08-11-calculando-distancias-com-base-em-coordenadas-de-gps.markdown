@@ -3,7 +3,7 @@ layout: post
 title: "Calculando Distâncias com base em coordenadas de GPS"
 date: "2016-08-11 09:19:03 -0300"
 tags: [GPS, Milhas Náuticas, Milhas Terrestres, Longitude, Latitude, Coordenadas, Distância, Cálculo]
-categories: [cursoarduino, geoprorcessamento]
+categories: [cursoarduino, geoprocessamento]
 share: true
 toc: true
 comments: true
