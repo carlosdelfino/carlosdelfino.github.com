@@ -7,13 +7,13 @@ layout: compress_html/compress
     {% if page.shortlink %}
     <link rel='shortlink' href="{{ page.shortlink }}" />
     {% endif %}
-    
+
     {% if page.charset %}
     <meta charset="{{ page.charset }}">
-    {% elsif site.charset %} 
+    {% elsif site.charset %}
 	<meta charset="{{ site.charset }}">
     {% endif %}
-    
+
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -56,9 +56,7 @@ layout: compress_html/compress
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 {% if page.math %}
-	 <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+  {% include mathjax.html %}
 {% endif %}
 
 {% if site.aedes.show == true %}
@@ -66,9 +64,9 @@ layout: compress_html/compress
 {% endif %}
 
   </head>
-  
+
   <body>
-  
+
   	{% if site.facebook.appid %}
   	{% include facebook/basescript.js %}
   	{% endif %}
@@ -80,10 +78,10 @@ layout: compress_html/compress
 {{ content }}
 
     {% include footer.html %}
-    
+
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-    
+
     {% include tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
