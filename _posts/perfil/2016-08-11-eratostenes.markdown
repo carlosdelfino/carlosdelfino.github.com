@@ -19,7 +19,7 @@ image:
  feature: perfil/Eratostenes_feature.jpg
  teaser: perfil/Eratostenes_teaser.jpg
 ---
-Eratóstenes de Cirene (em grego: Ἐρατοσθένης, transl.: Eratosthéni̱s; Cirene, 276 a.C. — Alexandria, 194 a.C.) foi um matemático, gramático, poeta, geógrafo, bibliotecário e astrônomo da Grécia Antiga.
+Eratóstenes de Cirene (em grego: Ἐρατοσθένης, transl.: Eratosthéni̱s); Cirene, 276 A.E.C. (Era Comum) — Alexandria, 194 A.E.C. foi um matemático, gramático, poeta, geógrafo, bibliotecário e astrônomo da Grécia Antiga.
 
 <!--more-->
 
