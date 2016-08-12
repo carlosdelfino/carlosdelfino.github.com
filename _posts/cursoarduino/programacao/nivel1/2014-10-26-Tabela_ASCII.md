@@ -11,7 +11,7 @@ feature:
  index: true
  category: true
 comments: true
-ads: 
+ads:
  show: true
 tagcloud: true
 coinbase:
@@ -19,18 +19,18 @@ coinbase:
 ---
 
 A tabela possui em seu formato original, caractéres codificados como números de 0 a 9, letras de a até z
-minúsculas e maiúsculas, simbolos de pontuação básicos comumente usados, códigos de controle, usados até 
+minúsculas e maiúsculas, simbolos de pontuação básicos comumente usados, códigos de controle, usados até
 hoje em impressores matriciais, criados na época dos teletipos, além de espaço.
 
 Como dito a tabela foi criada para uso com teletipos e seu primeiro uso data de 6 de outubro de 1960.
 Sendo o primeira versão do padrão lançado em 1963, a maior revisão foi em 1967, e a mais atual revisão
-em 1986, atualmente utilizamos uma versão de 256 bytes, acrescida de caracteres utilizados em outros 
+em 1986, atualmente utilizamos uma versão de 256 bytes, acrescida de caracteres utilizados em outros
 idiomas em especial de origem latina.
 
 A tabela ascii atualmente somente peder em uso para a tabela de caracteres UTF-8 conhecido como Conjunto
 de caracter UTF-8 (ou CharSet UTF-8).
 
-Abaixo apresentamos a tabela básica, que de maior interesse para uso com o Arduino, e a seguir a extensão da tabela. 
+Abaixo apresentamos a tabela básica, que de maior interesse para uso com o Arduino, e a seguir a extensão da tabela.
 
 ## Porque Conhecer a Tabela ascii?
 
@@ -38,7 +38,7 @@ Conhecer a tabela ascii é fundamental para qualquer programador, e sem dúvida 
 que irá lidar com microcontrolador e com linguagens de baixo nível, aquelas linguagens que irão lidar
 mais intimamente com bits e bytes.
 
-O conhecimento da tabela ascii demonstra, intimidade com conceitos técnicos e fundamentais para tal 
+O conhecimento da tabela ascii demonstra, intimidade com conceitos técnicos e fundamentais para tal
 atuação e permite o uso de padrões e facilidade de compreenção do protocolo adotado para comunicação
 em seus equipamentos.
 
@@ -47,15 +47,15 @@ a adoção da tabela ascii para envio de controle e caracteres que irão compor 
 para a manutenção desta comunicação sem complicações e reinvenções desnecessárias.
 
 ## Conhecendo a Tabela
- 
+
 Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda tabela com números décimais.
 
 ### Tabela indexada por números hexadecimal
 
-|      | 0x00 | 0x01 | 0x02 | 0x03 | 0x04 | 0x05 | 0x06 | 0x07 | 0x08 | 0x09 | 0x0A | 0x0B | 0x0C | 0x0D | 0x0E | 0x0F |      | 
+|      | 0x00 | 0x01 | 0x02 | 0x03 | 0x04 | 0x05 | 0x06 | 0x07 | 0x08 | 0x09 | 0x0A | 0x0B | 0x0C | 0x0D | 0x0E | 0x0F |      |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -----|
-| 0x00 | [NUL](/ascii/000-null) | [SOH](/ascii/001-soh) | [STX](/ascii/002-stx) | [ETX](/ascii/003-etx) | [EOT](/ascii/004-eot) | [ENQ](/ascii/005-enq) | [ACK](/ascii/006-ack) | [BEL](/ascii/007-bel) | [BS](/ascii/008-bs)  | TAB | LF  | VT  | FF  | CR  | SO  | SI  | 0x0F | 
-| 0x10 | DLE  | DC1  | DC2  | DC3  | DC4  | NAK  | SYN  | ETB  | CAN  | EM   | SUB  | ESC  | FS   | GS   | RS   | US   | 0x1F |
+| 0x00 | [NUL](/ascii/000-null) | [SOH](/ascii/001-soh) | [STX](/ascii/002-stx) | [ETX](/ascii/003-etx) | [EOT](/ascii/004-eot) | [ENQ](/ascii/005-enq) | [ACK](/ascii/006-ack) | [BEL](/ascii/007-bel) | [BS](/ascii/008-bs)  | TAB | LF  | VT  | FF  | CR  | SO  | SI  | 0x0F |
+| 0x10 | DLE  | DC1  | DC2  | DC3  | DC4  | NAK  | SYN  | ETB  | CAN  | EM   | SUB  | [ESC](/ascii/027-esc)  | FS   | GS   | RS   | US   | 0x1F |
 | 0x20 |      | !    | "    | #    | $    | %    | &    | '    | (    | )    | *    | +    | ,    | -    | .    | /    | 0x2F |
 | 0x30 | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | :    | ;    | <    | =    | >    | ?    | 0x3F |
 | 0x40 | @    | A    | B    | C    | D    | E    | F    | G    | H    | I    | J    | K    | L    | M    | N    | O    | 0x4F |
@@ -84,24 +84,24 @@ Inicialmente apresento a tabela indexa com números hexadecimais, e na segunda t
 
 ## Tabela Extendida
 
-A tabela ASCII em seu modelo original não atende a todos os idiomas, já que foi 
-criada para o idioma Inglês, então para resolver esta cararência, foi criada o 
+A tabela ASCII em seu modelo original não atende a todos os idiomas, já que foi
+criada para o idioma Inglês, então para resolver esta cararência, foi criada o
 conceito de página de código.
 
-Quem é do tempo do DOS, e inclusive UNIX e Xenix, deve se lembrar das configurações 
+Quem é do tempo do DOS, e inclusive UNIX e Xenix, deve se lembrar das configurações
 relativas á Code-Page, a mais usada no Brasil foi a 850.
 
-Bem tais páginas de código definem como será composta a extensão da tabela ASCII, 
+Bem tais páginas de código definem como será composta a extensão da tabela ASCII,
 esta extensão são so codigos presentes nas posições 128 até 255.
 
 Na imagens abaixo estão presente duas extensões, da tabela ASCII, usei imagens
-devido o fato de alguns códigos não serem possíveis reproduzir no navegador. As 
+devido o fato de alguns códigos não serem possíveis reproduzir no navegador. As
 extensões abaixo são para a ANSI e OEM.
 
 #### A TAbela ASCII OEM
 
-A tabela abaixo foi criada para uso com terminais físicos, e somente foi usado 
-no DOS, veja que ela é composta além de acentos por simbolos capazes de montar 
+A tabela abaixo foi criada para uso com terminais físicos, e somente foi usado
+no DOS, veja que ela é composta além de acentos por simbolos capazes de montar
 paineis na tela, simulando asim janelas, ou agrupamentos de informações.
 <figure>
 <img src="{{ site.url }}/images/logica_programacao/ascii_oem-500x290.gif" />
