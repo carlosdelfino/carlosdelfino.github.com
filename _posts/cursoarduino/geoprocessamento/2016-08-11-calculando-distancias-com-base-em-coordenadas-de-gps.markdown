@@ -20,7 +20,6 @@ math:
    enable: true
    align: "left"
 ---
-
 O primeiro conseito que é preciso conhecer e entender bem para se converter pares de coordenadas de um GPS para distâncias em quilometros é a Milha Nautica que tem como simbolo comum `NM` quem vem do inglês **Nautical Miles**.
 
 <!--more-->
@@ -51,7 +50,7 @@ A escolha deste angulo se dá pelo fato de percebermos facilmente a curvatura da
 
 ### Calculando Pequenas Distâncias com apenas a Latitude ou Longitude
 
-Vamos começar fazendo o calculo de distância entre dois pontos de forma simples, sem considerar a curvatura da terra. Vamos considerar dois *Pontos A* e *B* que variem apenas em sua Latitude:
+Vamos começar fazendo o calculo de distância entre dois pontos de forma simples, sem considerar a curvatura da terra. Vamos considerar dois Pontos A e B que variem apenas em sua Latitude:
 
 * Ponto A
   * Longitude:  38°31'21.72"O
@@ -60,9 +59,9 @@ Vamos começar fazendo o calculo de distância entre dois pontos de forma simple
   * Longitude:  38°31'21.72"O
   * Latitude:    3°48'21.28"S
 
-Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latítude, chamamos esta variação de $$DLA$$ (Distancia Latitudinal).
+Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latítude, chamamos esta variação de DLA (Distancia Latitudinal).
 
-Então aplicamos a fórmula para descobrir o $$DLA$$, onde $$LA_F$$ é a *Latitude Final*, e $$LA_I$$ é a *Latitude Inicial*:
+Então aplicamos a fórmula para descobrir o **DLA**, onde **LA_F** é a *Latitude Final*, e **LA_I** é a *Latitude Inicial*:
 
 Para medidas em graus decimais:
 $$
@@ -89,14 +88,14 @@ $$
 Agora temos nossa distãncia longitudinal que é `0.1587` e assim podemos calcular quantos quilometros temos de distancia entre os dois pontos apenas multiplicando pelo relação existente de 1' (Um minuto) para a Milha Maritima é 1NM e que 1 NM são 1852Mt, então basta fazer a multiplicação final:
 
 $$
-DT = DLA * 1852 \\
-DT = 0.1587 * 1852 \\
+DT = DLA * 1852
+DT = 0.1587 * 1852
 DT = 293.91
 $$
 
-Como desejamos o cálculo em Mt multiplicamos por 1852, se quissermos em Km deveriamos ter usado 1.852.
+Como desejamos o cálculo em Mt multiplicamos por 1852, se quissemos em Km deveriamos ter usado 1.852.
 
-Assim a distância entre o *Ponto A* e *Ponto B* no Castelão é de 293.91Mt, vamos arredonar para 294Mt, Ainda não podemos conferir a distância está correta porque optamos em usar apenas uma das coordenada considerando que a outra está fixa, mas se formos ver na realidade o Castelão não está alinhado com meridiano, então a Longitude também altera.
+Assim a distância entre o Pnto A e Ponto B no castelão é de 293.91Mt, vamos arredonar para 294Mt, Ainda não podemos conferir a distância está correta porque optamos em usar apenas uma das coordenada considerando que a outra está fixa, mas se formos ver na realidade o Castelão não está alinhado com meridiano, então a Longitude também altera.
 
 Agore tente obter duas Longitudes e faça o mesmo calculo, o principio é o mesmo.
 
@@ -139,7 +138,7 @@ DLO = 0.0137 * 1.852 \\
 DLO = 25.3724Mt \\
 $$
 
-Agora que temos o $$DLO$$ e o $$DLA$$ calculamos a hipotenusa.
+Agora que temos o DLO e o DLA calculamos a hipotenusa.
 
 $$
 DT = \sqrt{DLA^2 + DLO^2} \\
@@ -163,8 +162,6 @@ Coordenadas do Estádio Castelão em Fortaleza, CE, a imagem ao lado permite vis
 ### Calculo para Grandes Distâncias
 
 Iremos ver agora como proceder o calculo para grandes distãncias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
-
-
 
 ## Codigos de exemplo
 
