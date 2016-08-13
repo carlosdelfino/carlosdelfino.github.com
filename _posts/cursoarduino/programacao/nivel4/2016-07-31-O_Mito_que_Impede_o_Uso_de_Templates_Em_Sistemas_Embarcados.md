@@ -13,10 +13,8 @@ tagcloud: true
 ads: 
  show: true
 image:
-  teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
-  feature: logica_programacao/fluxograma_planejamento-300x199.jpg
-  credit: Carlos Delfino 
-  creditlink: 
+   teaser: pensamentos/pensamento2-400x200.jpg
+   feature: pensamentos/pensamento2-400x200.jpg
 ---
 
 Há um mito que diz que o uso de templates causa uma sobrecarga na programação para embarcados, tornando seu código redundante e pesado. Será?, veremos isso neste artigo e convidamos você testar e nos apresentar provas que tal mito é verdade ou não.

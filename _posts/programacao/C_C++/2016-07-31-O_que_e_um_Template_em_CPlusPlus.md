@@ -13,10 +13,8 @@ tagcloud: true
 ads: 
  show: true
 image:
-  teaser: logica_programacao/fluxograma_planejamento-300x199.jpg
-  feature: logica_programacao/fluxograma_planejamento-300x199.jpg
-  credit: Carlos Delfino 
-  creditlink: 
+   teaser: pensamentos/pensamento2-400x200.jpg
+   feature: pensamentos/pensamento2-400x200.jpg
 ---
 
 Templates um recurso amplamente utilizado em C++, sendo um dos grandes diferenciais da lingaugem. Veremos um pouco de sua história e como pode ser útil até mesmo no desenvolvimento de sistemas embarcados, e quais os mitos envolvidos que faz muitos desenvolvedores evita-lo.
