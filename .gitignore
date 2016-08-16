@@ -1,5 +1,6 @@
+Gemfile.local
+_config.yml.local
 *.psd
-_config.yml
 *.plist
 *.key
 *.swp

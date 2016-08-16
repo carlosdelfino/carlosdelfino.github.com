@@ -4,7 +4,7 @@
 # Ativa depuração no site, desde que no localhost
 debug: false
 
-safe: true
+safe: false
 lsi: false
 
 title: Carlos Delfino
@@ -14,11 +14,11 @@ logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
 charset: utf-8
-#url: http://localhost:4000
-url: http://carlosdelfino.eti.br
+url: http://localhost:4000
+#url: http://carlosdelfino.eti.br
 #url: http://carlosdelfino.github.io/
 
-ads: true 
+ads: true
 
 excerpt_separator: <!--more-->
 
@@ -32,7 +32,7 @@ linkedin:
    api: "78s8yjpx4xhlmj"
    TokenOAuth: "5cfbf5d6-8924-490b-860e-6da465590801"
    authorize: true
-   
+
 disqus:
    shortname: carlosdelfino
 
@@ -46,14 +46,14 @@ google:
 
 flattr:
    id: fbzv3r5
-   login: CarlosDelfino 
+   login: CarlosDelfino
 
 facebook:
   appid: 351518334888083
   uselogin: false
   scope: [user_friends, email]
   wellcomemsg: "Olá "
-  
+
 # Exibe o mosquito aedes aegypti, campanha contra o mosquito
 aedes:
   show: false
@@ -70,27 +70,34 @@ markdown: kramdown
 highlighter: rouge
 
 gems:
- - jekyll-feed	
- - jekyll-gist	
- - jekyll-paginate	
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-paginate
  - jekyll-sitemap
  - jekyll-mentions
  - jekyll-coffeescript
  - jekyll-redirect-from
  - jekyll-sass-converter
- - jekyll-textile-converter	
- - jekyll-redirect-from	
- - jekyll-seo-tag	
- - kramdown	
- - rdiscount	
- - redcarpet	
- - RedCloth	
- - liquid	
- - rouge	
- - jemoji	
- - html-pipeline	
- - sass	
+ - jekyll-textile-converter
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-multiple-languages
+ - kramdown
+ - rdiscount
+ - redcarpet
+ - RedCloth
+ - liquid
+ - rouge
+ - jemoji
+ - sass
  - safe_yaml
+ - jekyll-multiple-languages
+
+# The all languages used
+languages: ['en', 'pt']
+
+# If not config, the first item of languages will be used as the default.
+language_default: 'pt'
 
 # Site owner
 owner:

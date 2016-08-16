@@ -1,7 +1,27 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
+gem 'jekyll-feed'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
+gem 'jekyll-mentions'
+gem 'jekyll-coffeescript'
+gem 'jekyll-sass-converter'
+gem 'jekyll-redirect-from'
+gem 'jekyll-seo-tag'
+gem 'jekyll-multiple-languages'
+gem 'jekyll-textile-converter'
 gem 'jekyll-gist'
 gem 'html-proofer'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'html-pipeline'
+#gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'ffi'
+gem 'rdiscount'
+gem 'redcarpet'
+gem 'kramdown'
+gem 'RedCloth'
+gem 'liquid'
+gem 'rouge'
+gem 'jemoji'
+gem 'sass'
+gem 'safe_yaml'
