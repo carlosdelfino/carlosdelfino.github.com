@@ -20,19 +20,20 @@ math:
    enable: true
    align: "left"
 ---
-O primeiro conseito que é preciso conhecer e entender bem para se converter pares de coordenadas de um GPS para distâncias em quilometros é a Milha Nautica que tem como simbolo comum `NM` quem vem do inglês **Nautical Miles**.
+
+O primeiro conceito que é preciso conhecer e entender bem para se converter pares de coordenadas de um GPS para distâncias em quilômetros é a Milha Náutica que tem como simbolo comum `NM` quem vem do inglês **Nautical Miles**.
 
 <!--more-->
 
-A milha náutica é o equivalente a 1' (um minuto) no grande circulo terrestre, ou seja considerando que se está no equador e que se movimente a fração de angulo de 1' (um minuto) sobre o mar em direção sul ou norte, terá andando uma milha náutica, portanto: `1' = 1NM`. Na Inglaterra e Estado Unidos, apesar de não ser um sistema aceito oficialmente pelos orgãos normativos internacionais, ainda é usado uma medida chamada Milhas Terrestres, este sistema foi baseado na medida Romana de distância, onde 1000 passos dados por um centuirão (Comandante de uma Milicia Romana), ou seja Mile Passus, passos que eram duplos com relação aos nossos passos normais e mediam o equivalente a 63360 polegadas, o que em metros mede 1851,85 metros, arredondando temos então 1852Mt.
+A milha náutica é o equivalente a 1' (um minuto) no grande circulo terrestre, ou seja considerando que se está no equador e que se movimente a fração de angulo de 1' (um minuto) sobre o mar em direção sul ou norte, terá andando uma milha náutica, portanto: `1' = 1NM`. Na Inglaterra e Estado Unidos, apesar de não ser um sistema aceito oficialmente pelos órgãos normativos internacionais, ainda é usado uma medida chamada Milhas Terrestres, este sistema foi baseado na medida Romana de distância, onde 1000 passos dados por um centurião (Comandante de uma Milicia Romana), ou seja Mile Passus, passos que eram duplos com relação aos nossos passos normais e mediam o equivalente a 63360 polegadas, o que em metros mede 1851,85 metros, arredondando temos então 1852Mt.
 
-A Milha Náutica foi baseada em principios ciêntificos, baseada na curvatura da terra qualquer linha a contorná-la terá 360 graus. A linha do Equador mede aproximadamente 40000Km a medida feita por [Eratostenes]({% post_url 2016-08-11-eratostenes %}) em 240 A.E.C., hoje a ciência comprovou que a medida não é muito distante, sendo 40072Km. Dividindo então esta linha por 360 graus, depois por 60 minutos e finalmente por 60 segundos (360° equivale a 60' - minutos), teremos então a distância aproximada de de 1851,85 mt para cada arco minuto (1').
+A Milha Náutica foi baseada em princípios científicos, baseada na curvatura da terra qualquer linha a contorná-la terá 360 graus. A linha do Equador mede aproximadamente 40000Km a medida feita por [Eratostenes]({% post_url 2016-08-11-eratostenes %}) em 240 A.E.C., hoje a ciência comprovou que a medida não é muito distante, sendo 40072Km. Dividindo então esta linha por 360 graus, depois por 60 minutos e finalmente por 60 segundos (360° equivale a 60' - minutos), teremos então a distância aproximada de de 1851,85 mt para cada arco minuto (1').
 
 Assim fica claro que a cada 1' (um minuto de arco) temos uma milha que são 1852Mt.
 
-Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que nosso intuito é didatico portanto não entraremos profundamente na questão. Esstaremos lidando com o conceito de coordenadas Geográficas com relação a curvatura da Terra, e devido a sua imperfeição teremos valores arredondados e aproximados do real.
+Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que nosso intuito é didático portanto não entraremos profundamente na questão. Estaremos lidando com o conceito de coordenadas Geográficas com relação a curvatura da Terra, e devido a sua imperfeição teremos valores arredondados e aproximados do real.
 
-**Latitude** é o angulo entre o equador e uma determinada posição na terra quando nos movemos diretamente para um dos polos seja polo sul ou polo norte, sendo o limite de cada polo o angulo de 90°, ou seja a distancia entre os dois polos é de 180°. A letra grega &phi;. A terra é riscada para indicar latitudes especificas e de grande importancia que são chamados de ***paralelos*** dentre os mais importantes tempos:
+**Latitude** é o angulo entre o equador e uma determinada posição na terra quando nos movemos diretamente para um dos polos seja polo sul ou polo norte, sendo o limite de cada polo o angulo de 90°, ou seja a distancia entre os dois polos é de 180°. A letra grega &phi;. A terra é riscada para indicar latitudes especificas e de grande importância que são chamados de ***paralelos*** dentre os mais importantes tempos:
 
 * O Equador, divide a terra ao meio, tendo um lado o hemisfério sul, e do outro, o hemisfério norte.
 * O trópico de Câncer é o trópico ao norte do equador terrestre, correspondendo ao paralelo 23.4378° (23º26’16") de latitude norte. Junto com o equador, delimita a zona tropical norte.
@@ -42,9 +43,9 @@ Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que 
 
 ## Calculando a Distâncias
 
-Iremos discutir aqui três cenários, o primeiro distâncias pequenas, inferiores a 7° que se baseiam apenas na mudança de latitude ou longitude unicamente, depois distâncias pequenas, inferiores a 7° que tem variação de ambos, Latitude e Longitude. E o terceiro caso, grandes distãncias ou seja superior a 7°.
+Iremos discutir aqui três cenários, o primeiro distâncias pequenas, inferiores a 7° que se baseiam apenas na mudança de latitude ou longitude unicamente, depois distâncias pequenas, inferiores a 7° que tem variação de ambos, Latitude e Longitude. E o terceiro caso, grandes distancias ou seja superior a 7°.
 
-Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distãncias acima deste valor.
+Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distancias acima deste valor.
 
 A escolha deste angulo se dá pelo fato de percebermos facilmente a curvatura da terra quando já temos uma distância de 777,84Km.
 
@@ -59,7 +60,7 @@ Vamos começar fazendo o calculo de distância entre dois pontos de forma simple
   * Longitude:  38°31'21.72"O
   * Latitude:    3°48'21.28"S
 
-Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latítude, chamamos esta variação de DLA (Distancia Latitudinal).
+Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latitude, chamamos esta variação de DLA (Distancia Latitudinal).
 
 Então aplicamos a fórmula para descobrir o **DLA**, onde **LA_F** é a *Latitude Final*, e **LA_I** é a *Latitude Inicial*:
 
@@ -73,7 +74,7 @@ $$
 DLA = | (LAG_F * 60) + LAM_F + (LAS_F / 60) - (LAG_I * 60) + LAM_I + (LAS_I / 60) |
 $$
 
-Como podemos ver o DLA é a distância em graus (seja na notação padrão ou decimal), LAG, LAM e LAS são respetivamente, Graus da Latitude, Minutos da Latitude, Segundos da Latitude, e devemos trabalhar com o módulo da distância, apenas usamos o sinal se desejarmos saber qual a direção que seguimos, o quenão é o caso aqui, então considerando as duas latitudes informadas,  3°48'30.80"S e 3°48'21.28"S basta subtrai-las, individualmente para cada unidade, veja que quando a latitude é ao sul (S) usamos valores negativos, e quando a Longitude é a Oeste (O) usamos também valores negativos. Ficando assim nosso cálculo:
+Como podemos ver o DLA é a distância em graus (seja na notação padrão ou decimal), LAG, LAM e LAS são respetivamente, Graus da Latitude, Minutos da Latitude, Segundos da Latitude, e devemos trabalhar com o módulo da distância, apenas usamos o sinal se desejarmos saber qual a direção que seguimos, o que não é o caso aqui, então considerando as duas latitudes informadas,  3°48'30.80"S e 3°48'21.28"S basta subtrai-las, individualmente para cada unidade, veja que quando a latitude é ao sul (S) usamos valores negativos, e quando a Longitude é a Oeste (O) usamos também valores negativos. Ficando assim nosso cálculo:
 
 $$
 DLA_G = ( -3) - ( -3)       * 60 = 0   \\
@@ -85,7 +86,7 @@ DLA =   0   +   0   + 0.1587 \\
 DLA = 0.1587
 $$
 
-Agora temos nossa distãncia longitudinal que é `0.1587` e assim podemos calcular quantos quilometros temos de distancia entre os dois pontos apenas multiplicando pelo relação existente de 1' (Um minuto) para a Milha Maritima é 1NM e que 1 NM são 1852Mt, então basta fazer a multiplicação final:
+Agora temos nossa distancia longitudinal que é `0.1587` e assim podemos calcular quantos quilômetros temos de distancia entre os dois pontos apenas multiplicando pelo relação existente de 1' (Um minuto) para a Milha Marítima é 1NM e que 1 NM são 1852Mt, então basta fazer a multiplicação final:
 
 $$
 DT = DLA * 1852
@@ -148,7 +149,7 @@ $$
 
 A diferença em relação ao outro calculo é pequena devido a pequena inclinação Longitudinal.
 
-Vejam se está certo medindo a distância entre os dois pontos no google Maps. Poderá haver pequenas diferenças de 50 metros uma vez que os pontos não estão 100% sincronizados.
+Vejam se está certo medindo a distância entre os dois pontos no Google Maps. Poderá haver pequenas diferenças de 50 metros uma vez que os pontos não estão 100% sincronizados.
 
 Abaixo está a imagem do Google Earth que usamos.
 
@@ -161,9 +162,9 @@ Coordenadas do Estádio Castelão em Fortaleza, CE, a imagem ao lado permite vis
 
 ### Calculo para Grandes Distâncias
 
-Iremos ver agora como proceder o calculo para grandes distãncias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
+Iremos ver agora como proceder o calculo para grandes distancias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
 
-## Codigos de exemplo
+## Códigos de exemplo
 
 ### Código em PHP
 
@@ -189,9 +190,9 @@ function calcDistancia($lat_inicial, $long_inicial, $lat_final, $long_final)
 {% endhighlight %}
 
 
-### Codigo em C e C++
+### Código em C e C++
 
-O Codigo abaixo é o código simplificado considerando a curvatura da terra, veja que ele não difere muito do código usado na linguagem PHP, e este código pode ser usado diretamente no Arduino UNO, Mega, DUE ou qualquer outro, lembrando que o Arduino UNO e Mega não tem funções nativas para trigonometria, portanto pode ser um pouco lento sua execução, mas veremos logo a frente um código que é alternativa para este problema quando usamos distâncias menores que 7°.
+O Código abaixo é o código simplificado considerando a curvatura da terra, veja que ele não difere muito do código usado na linguagem PHP, e este código pode ser usado diretamente no Arduino UNO, Mega, DUE ou qualquer outro, lembrando que o Arduino UNO e Mega não tem funções nativas para trigonometria, portanto pode ser um pouco lento sua execução, mas veremos logo a frente um código que é alternativa para este problema quando usamos distâncias menores que 7°.
 
 {% highlight C %}
 double calcDistancia(double lat_inicial, double long_inicial, double lat_final, double long_final) {

@@ -27,6 +27,6 @@ Mas o JavaScript não se limite a sites, ela é amplamente usada também em serv
 
 Se deseja se aprofundar no JavaScript e ainda não começou ou está tendo dificuldades, experimente o Livro JavaScript Eloquente, escrito originalmente em inglês por [Marijn Haverbeke] o livro foi traduzido por [Eric Douglas](https://github.com/ericdouglas) e muitos outros colaboradores.
 
-Eu fiz um fork do livro e o coloquei no Gitbook para que todos possam le-lo na Web e está no link: [http://javaeloquente-js.ed.carlosdelfino.eti.br], acesse o livro se gostar compartilhe com amigos e colegas de trabalho.
+Eu fiz um fork do livro e o coloquei no Gitbook para que todos possam le-lo na Web e está no link: [http://javaeloquente-js.ed.carlosdelfino.eti.br](http://javaeloquente-js.ed.carlosdelfino.eti.br), acesse o livro se gostar compartilhe com amigos e colegas de trabalho.
 
-A versão original em inglês pode ser encontrada no link: http://eloquentjavascript.net/
+A versão original em inglês pode ser encontrada no link: [http://eloquentjavascript.net/](http://eloquentjavascript.net/)
