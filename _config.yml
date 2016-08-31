@@ -26,7 +26,7 @@ uservoice:
    accentcolor: '#448dd6'
    triggercolor: 'white'
    triggerbackgroundcolor: 'rgba(46, 49, 51, 0.6)'
-   enableall: true
+   enableall: false
 
 linkedin:
    api: "78s8yjpx4xhlmj"
