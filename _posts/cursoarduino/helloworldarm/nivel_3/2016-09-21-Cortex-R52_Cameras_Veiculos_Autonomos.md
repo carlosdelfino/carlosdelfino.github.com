@@ -26,8 +26,8 @@ Poderemos ver um pouco mais de Cortex-R quando tivermos o Curso de RTOS que ser�
 
 A ARM lançou a pouco tempo o Cortex-R52 um processador para sistema Real time, seu uso é destinado a sistema que precisam de alta responsividade enquanto mantem altos padrões de segurança. Fazendo isso través de separação física dos softwares de segurança critica de outros softwares rodando no mesmo chip.
 
-Um exemplo e aplicação são automóveis autônomos e também robótica, como pode ser visto no artigo: http://fortune.com/2016/09/20/arm-self-driving-robots/
+Um exemplo e aplicação são automóveis autônomos e também robótica, como pode ser visto no artigo: [http://fortune.com/2016/09/20/arm-self-driving-robots/](http://fortune.com/2016/09/20/arm-self-driving-robots/)
 
-Além disso os processadores Cortex-R52 estão empoderando microcontroladores especialmente desenvolvidos para estabilização de imagens em câmeras fotográficas com duplo espelhamento como pode ser visto neste artigo: http://www.stuff.tv/my/news/xiaomi-backed-xiaoyi-mirrorless-camera-looks-bargain
+Além disso os processadores Cortex-R52 estão empoderando microcontroladores especialmente desenvolvidos para estabilização de imagens em câmeras fotográficas com duplo espelhamento como pode ser visto neste artigo: [http://www.stuff.tv/my/news/xiaomi-backed-xiaoyi-mirrorless-camera-looks-bargain](http://www.stuff.tv/my/news/xiaomi-backed-xiaoyi-mirrorless-camera-looks-bargain)
 
-
+[Visite e conheça nosso curso EAD](http://arduino-minas.moodlecloud.com).
