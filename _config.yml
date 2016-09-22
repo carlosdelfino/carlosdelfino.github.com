@@ -111,4 +111,10 @@ compress_html:
   profile: true
   only_local_profile: true
 
+resolvermaps
+  enable:true
+  size: 201
+  font: arial
+  id: 0bwpn194rsa
+
 exclude: ["vendor", "lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", _backup]
