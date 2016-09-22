@@ -111,7 +111,7 @@ compress_html:
   profile: true
   only_local_profile: true
 
-resolvermaps
+resolvermaps:
   enable:true
   size: 201
   font: arial
