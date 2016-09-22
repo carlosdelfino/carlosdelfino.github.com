@@ -112,7 +112,7 @@ compress_html:
   only_local_profile: true
 
 resolvermaps:
-  enable:true
+  enable: true
   size: 201
   font: arial
   id: 0bwpn194rsa
