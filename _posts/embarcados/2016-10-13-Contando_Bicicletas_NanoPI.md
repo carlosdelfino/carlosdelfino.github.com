@@ -18,24 +18,26 @@ tagcloud: true
 coinbase:
  show: true
 ---
-Com construir um contador de ciclistas, ou mesmo um contador de objetos, talvez pessoas em uma passarela, ou quem sabe de carros? Tudo isso em uma caixinha de aproximadamente 10x10 cm.
+Como construir um contador de ciclistas, ou mesmo um contador de objetos, talvez pessoas em uma passarela, ou quem sabe um contador de carros? Tudo isso em uma caixinha de aproximadamente 10x10 cm, um computador de R$ 200,oo e uma câmera de R$ 40,00?
 
 <!--more-->
 
-A uns 2 anos talvez um pouco mais, estava fazendo um trabalho para a Strata Engenharia, e lá queria ter desenvolvido um equipamento para contabilizar carros na rodovia, mas não tinha ainda o conhecimento necessário e os equipamentos para tal aparelho, que envolvia software especializado e um hardware que na época achava que tinha a necessidade de ser um computador comum.
+A uns 2 anos talvez um pouco mais, eu estava fazendo um trabalho para a Strata Engenharia, e lá queria ter desenvolvido um equipamento para contabilizar carros na rodovia, mas não tinha ainda o conhecimento necessário e os equipamentos para tal aparelho, que envolvia software especializado e um hardware que na época achava que tinha a necessidade de ser um computador comum. O Raspberry já existia e apesar de todos falarem muito bem, não acreditava nele, e acertei mesmo na época sendo sendo um grande lançamento até hoje ele não é a solução adequada para um projeto como este.
 
-Como todos nós sabemos hoje temos o que alguns erroneamente tem  chamado de Pocket PCs, mas na verdade o nome certo é Module PC, ou seja um Computador Pessoal em um módulo, um PC na verdade para ser um Pocket PC envolve termos uma unidade de processamento, memória para armazenamento quando desligado, HID (Human Interface Device) que envolve normalmente teclado, mouse e monitor, Softwares como agenda, contatos, pequeno editor de texto e planilha, e claro uma conexão com a internet preferencialmente WiFI, porque hoje ninguém vive mais ligados a cabo. 
+Como todos nós sabemos hoje temos o que alguns erroneamente tem  chamado de Pocket PCs, mas na verdade o nome certo é Module PC, ou seja um Computador Pessoal em um módulo. Na verdade para ser um Pocket PC envolve termos uma unidade de processamento, memória para armazenamento quando desligado, HID (Human Interface Device) que envolve normalmente teclado, mouse e monitor, Softwares como agenda, contatos, pequeno editor de texto e planilha, e claro uma conexão com a internet preferencialmente WiFI, porque hoje ninguém vive mais ligados a cabo, não é mesmo. 
 
-Mas o Module PC pode por um lado extrapolar este requisitos como por outro pode não atender a todos, por exemplo o novo Module PC NanoPI-M3 (veja imagem abaixo) da FriendlyARM produzido com um microprocessador ARM da família Cortex-A, fabricado pela Sansung e empoderado por um Cortex-A53, este processador possui 8 núcleos em um pequeno chip, realmente bem pequeno em dimensões para seu poder, e velocidade que chega a 1.4Ghz, habilidades preemptivas que permite um bom cache de instruções o que lhe dá um excelente desempenho e baixo consumo, este Module PC construído em uma pequena placa quadrada de aproximadamente 6,5cm. 
+Mas o Module PC pode por um lado extrapolar este requisitos como por outro pode não atender a todos, por exemplo o novo Module PC NanoPI-M3 (veja imagem abaixo) da FriendlyARM produzido com um microprocessador ARM da família Cortex-A, fabricado pela Sansung e empoderado por um Cortex-A53, este processador possui 8 núcleos em um pequeno chip, realmente bem pequeno em dimensões para seu poder, e velocidade que chega a 1.4Ghz, e funciona com um fonte de 5V por 2 A, tem habilidades preemptivas que permite prever qual código deve ser executado, tem um bom cache de instruções adequado a este senário preemptivo, o que lhe dá um excelente desempenho e baixo consumo, este Module PC construído em uma pequena placa quadrada de aproximadamente 6,5cm. Muito poder, porém para se tornar um PocketPC deve ser acrecido de uma tela touch screen que deve ser adquirida a parte e ter instalado os softwares necessários para tal habilidade.
 
 <figure>
 <img src="/images/embarcados/nanopi-m3-detalhestecnicos-640x460.png" alt="Algumas características do NanoPI-M3"/>
 <figcaption>Algumas características do NanoPI-M3 fornecido pela FrindlyARM</figcaption>
 </figure>
 
-Ao receber este presente da FriendlyARM para testes pensei inicialmente em fazer um computador de bordo para bicicletas, mas este projeto que tenho em mente envolve muitos sensores e iria demorar ficar pronto, então atendendo um chamado de um colega, para colocar em funcionamento um contador de ciclistas que foi produzido pela LabProdam de São Paulo, vi que este projeto de contador seria perfeito para o NanoPI M3, pois demandaria apenas uma câmera e poderia ter seus primeiros testes em minha própria mesa. E seria um desafio transformá-lo em um contador de veículos.
+Ao receber este presente da FriendlyARM para testes pensei inicialmente em fazer um computador de bordo para bicicletas, mas este projeto que tenho em mente envolve muitos sensores e iria demorar ficar pronto, então atendendo um chamado de um colega para colocar em funcionamento um contador de ciclistas que foi produzido pela LabProdam de São Paulo, vi que este projeto de contador seria perfeito para o NanoPI M3, pois demandaria apenas uma câmera e poderia ter seus primeiros testes em minha própria mesa. E seria um desafio transformá-lo em um contador de veículos, com os recursos que idealizei nos tempos que trabalhava na Strata Engenharia.
 
-Então, partir logo para ver o que precisava fazer, em primeiro instante, pensei que teria que fazer grandes intervenções no código, mas minha maior surpresa foi que ao compilar o código original no NanoPI M3, este funcionou imediatamente, sem nenhuma intervenção sem contar que o consumo de processamento é mínimo e até o momento apenas a câmera tem deixado a desejar, vejamos um pouco mais do projeto, baixo já apresento um GIF demonstra o consumo de processamento na versão que tenho em mãos fiz pequenas alterações mas nada que justifique o desempenho atual este já era o mesmo antes das alterações:
+Então, partir logo para ver o que precisava fazer, em primeiro instante, pensei que teria que fazer grandes intervenções no código, mas minha maior surpresa foi que ao compilar o código original no NanoPI M3, este funcionou imediatamente, sem nenhuma intervenção sem contar que o consumo de processamento é mínimo e até o momento apenas a câmera tem deixado a desejar já que gastei R$ 20,00 não posso esperar muito dela.
+
+Vejamos um pouco mais do projeto. abaixo já apresento um GIF que demonstra o consumo de processamento do código na versão que tenho em mãos e baixado diretamente do site do repositório da LabProdam com pequenas alterações que fiz, mas nada que justifique o desempenho atual este já era o mesmo antes das alterações:
 
 <figure>
 <img src="/images/embarcados/desempenho no Cortex-A53.gif" alt="GIF Animado apresentando o uso dos recursos computacionais do processador" />
@@ -44,9 +46,15 @@ Então, partir logo para ver o que precisava fazer, em primeiro instante, pensei
 
 O projeto será documentado na página <a href="http://carlosdelfino.eti.br/ContadorDeCiclistas" >http://carlosdelfino.eti.br/ContadorDeCiclistas</a> e mesmo que eu venha a ter sucesso na migração para contagem de veículos, já que este é um grande desafio e necessita de amplos conhecimentos sobre processamento de imagens e detecção de padrões, eu ainda assim manterei o projeto com o mesmo nome original, até que seja interessante sua mudança.
 
-Por falta de vídeos de transito em Ciclo Faixas e Ciclo Vias não tenho tido como fazer um teste mais real, mas os testes que fiz provocam processamento real no módulo exigindo do processador a mesma demanda que seria exigida com vídeos reais.
+Por falta de vídeos de trânsito em Ciclo Faixas e Ciclo Vias não tenho tido como fazer um teste mais real, mas os testes que fiz provocam processamento real no módulo exigindo do processador a mesma demanda que seria exigida com vídeos reais.
+
+## Como ajudar e fazer uma parceria para o sucesso
 
 Querendo ajudar no projeto a melhor forma no momento é compartilhar vídeos que trafego de bicicletas em ciclo vias e ciclo faixas, preferencialmente com visadas aéreas onde se possa ver uma faixa mínima de 20 metros da pista, um angulo de visão de 45 graus, de foma que dê para identificar visualmente o perfil da bicicleta e evitar filmar o rosto do ciclista.
+
+Caso queria participar na codificação, o momento é o melhor, pois quero passar a fazer identificação de formas geométricas na imagem, ou seja, identificar as rodas (círculos) o quadro (triângulos e trapézios) e quem sabe identificar o rosto dos ciclistas quando houver filmagem frontal. Só de identificar as rodas, e as linhas que formam o corpo do ciclista já será um grande passo neste projeto.
+
+## O que tenho feito no código atual
 
 A versão atual do projeto está sendo reescrito usando conceitos OO mais consolidados, e buscando a redução ao máximo de passagens de parâmetros em chamadas de funções dentro de loops. Criei uma nova classe para gerir toda a configuração é uma classe grande com muitos métodos e aparentemente pesada, mas sua função é apenas concentrar os parâmetros da aplicação, salvando os parâmetros em um aquivo do tipo *JSON* quando for importante restaurá-los entre seções. Também removi da função `main`, o ponto de entrada do aplicativo as operações especificas do programa, ficando ali apenas a instanciação das classes iniciais e pontos de entrada do processamento. que fica agora a carga da Classe `CycloTracker`, esta classe tem 5 estágios importantes:
 
@@ -56,9 +64,15 @@ A versão atual do projeto está sendo reescrito usando conceitos OO mais consol
  4) Obtenção dos parâmetros da câmera
  5) e finalmente processamento do loop.
 
-As demais classes não sofreram ainda intervenção a não ser quando é necessário o uso da classe `CycloConfig`, Ouve uma pequena alteração na classe responsável por gravar os objetos identificados e gravar um cópia da imagem em seu procedimento de montagem da *string* de contagem e nome do arquivo. A classe `InteractionHandler` teve mudanças leves no procedimento de reconfiguração das áreas e removi o uso de classes estáticas ao máximo encapsulando melhor o procedimento e sua interação com a classe `CycloConfig`. Além disso adicionei mais mensagens do processo interno demonstrando em que estágio o programa se encontra e ajudando assim na depuração.
+As demais classes não sofreram ainda intervenção a não ser quando é necessário o uso da classe `CycloConfig`.
+
+Ouve uma pequena alteração na classe responsável por gravar os objetos identificados e gravar um cópia da imagem em seu procedimento de montagem da *string* de contagem e nome do arquivo. 
+
+A classe `InteractionHandler` teve mudanças leves no procedimento de reconfiguração das áreas e removi o uso de classes estáticas ao máximo encapsulando melhor o procedimento e sua interação com a classe `CycloConfig`. 
 
 As demais classes como Câmera e `CoordTransform` sofreram mudanças para seguir o mesmo modelo e foi criada a classe `CameraConfig` para ajudar na gravação dos parâmetros da câmera porém nenhuma delas é usada no projeto atual a não ser para testes.
+
+Além disso adicionei mais mensagens do processo interno demonstrando em que estágio o programa se encontra e ajudando assim na depuração.
 
 Agora no próximo estágio do projeto estarei estudando como funciona o sistema de rastreio de objetos e como melhorá-lo, torná-lo reaproveitável para uso em diversos tipos de projeto de rastreamento por visão computacional, tornando as classes mais genéricas e parametrizáveis possível. Esta interferência irá ocorrer em especial nas classes `ObjectTracker` e `ObjectCounter`.
 
