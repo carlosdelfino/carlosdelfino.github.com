@@ -10,8 +10,8 @@ feature:
  category: true
  index: true
 image:
- feature: /embarcados/nanopi-m3-03-1024x445.png
- teaser: /embarcados/nanopi-m3-03-300x174.png
+ feature: embarcados/nanopi-m3-03-1024x445.png
+ teaser: embarcados/nanopi-m3-03-300x174.png
 ads: 
  show: true
 tagcloud: true
