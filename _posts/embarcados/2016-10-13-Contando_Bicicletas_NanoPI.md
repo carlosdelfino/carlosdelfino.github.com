@@ -42,7 +42,7 @@ Então, partir logo para ver o que precisava fazer, em primeiro instante, pensei
 <figcaption>GIF Animado apresentando o uso dos recursos computacionais do processador</figcaption>
 </figure>
 
-O projeto será documentado na página <a href="http://carlosdelfino.eti.br/ContadorDeCiclista" >http://carlosdelfino.eti.br/ContadorDeCiclista</a> e mesmo que eu venha a ter sucesso na migração para contagem de veículos, já que este é um grande desafio e necessita de amplos conhecimentos sobre processamento de imagens e detecção de padrões, eu ainda assim manterei o projeto com o mesmo nome original, até que seja interessante sua mudança.
+O projeto será documentado na página <a href="http://carlosdelfino.eti.br/ContadorDeCiclistas" >http://carlosdelfino.eti.br/ContadorDeCiclistas</a> e mesmo que eu venha a ter sucesso na migração para contagem de veículos, já que este é um grande desafio e necessita de amplos conhecimentos sobre processamento de imagens e detecção de padrões, eu ainda assim manterei o projeto com o mesmo nome original, até que seja interessante sua mudança.
 
 Por falta de vídeos de transito em Ciclo Faixas e Ciclo Vias não tenho tido como fazer um teste mais real, mas os testes que fiz provocam processamento real no módulo exigindo do processador a mesma demanda que seria exigida com vídeos reais.
 
@@ -78,4 +78,4 @@ Em resumo, como podem ver o projeto tem demonstrado ser perfeitamente executáve
 
 Sozinho sem dúvida chegar a algum lugar com este projeto, mas devido a sua natureza tanto de estudos, pesquisa como desenvolvimento de conhecimento compartilhado é importante a colaboração da comunidade colegas e amigos sejam do setor de TICs ou sejam de outros setores, em especial com filmagens de câmeras.
 
-Em breve posto mais notícias sobre o projeto, por hora deixo o convite para acompanhá-lo pelo GitHub, veja detalhes na pagina: <a href="http://carlosdelfino.eti.br/ContadorDeCiclista" >http://carlosdelfino.eti.br/ContadorDeCiclista</a>
+Em breve posto mais notícias sobre o projeto, por hora deixo o convite para acompanhá-lo pelo GitHub, veja detalhes na pagina: <a href="http://carlosdelfino.eti.br/ContadorDeCiclistas" >http://carlosdelfino.eti.br/ContadorDeCiclistas</a>
