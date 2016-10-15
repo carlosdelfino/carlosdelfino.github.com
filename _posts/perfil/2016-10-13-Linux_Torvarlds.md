@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Linus Torvalds"
-date: "2016-10-14 12:34:08 -0300"
 tags: [Linus Torvalds, Linux, Unix, Kernel, OpenSource, x86, ARM, Arquitetura, Sistemas Operacionais, Ciência da Computação]
 category: [perfil]
 tagcloud: true
