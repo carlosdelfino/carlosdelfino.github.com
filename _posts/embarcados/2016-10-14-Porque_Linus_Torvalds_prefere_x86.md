@@ -1,5 +1,5 @@
 ---
-title: "Dizem que Linus Torvalds" 
+title: "Dizem que Linus Torvalds prefere x86" 
 tags: [Linux, Linus Torvalds, Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM]
 categories: [Embarcados]
 layout: article
