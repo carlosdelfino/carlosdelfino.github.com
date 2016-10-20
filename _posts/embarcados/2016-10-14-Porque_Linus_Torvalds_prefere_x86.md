@@ -1,6 +1,6 @@
 ---
 title: "Dizem que Linus Torvalds prefere x86" 
-tags: [Linux, Linus Torvalds, Cortex-A, , ARM, Linaro, Fireside Chat, David Rusling, x86, Intel, Arquitetura, ISA, Infraestrutura]
+tags: [Linux, Linus Torvalds, Cortex-A, ARM, Linaro, Fireside Chat, David Rusling, x86, Intel, Arquitetura, ISA, Infraestrutura]
 categories: [Embarcados]
 layout: article
 share: true
