@@ -85,6 +85,7 @@ wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.11/o
 unzip opencv-2.4.11.zip
 cd opencv-2.4.11
 ```
+
 Crie um diretório para trabalhar com a compilaçãod o pcaote, não faça a compilação no diretório onde está o fonte, você pode criar algo como demonstrado abaixo:
 
 ```bash
@@ -92,7 +93,7 @@ mkdir release
 cd release
 ```
 
-agora precisamos criar o arquivo Makefile, para isso o OpenCV já nos dá um pré script baseado no cmake, bastando por tanto executar o comando abaixo, veja que estou apenas compilando o core sem os módulos, exemplos e docs, que serão feitos depois.
+Agora precisamos criar o arquivo Makefile, para isso o OpenCV já nos dá um pré script baseado no cmake, bastando por tanto executar o comando abaixo, veja que estou apenas compilando o core sem os módulos, exemplos e docs, que serão feitos depois.
 
 ```bash
 cmake -G "Unix Makefiles" \
@@ -139,10 +140,4 @@ O comando acima está otimizado para uso apenas em Detecção e para uso no Cort
 ```bash
 make all -j4 # 4 cores
 sudo make install
- 
-# ignore libdc1394 error http://stackoverflow.com/questions/12689304/ctypes-error-libdc1394-error-failed-to-initialize-libdc1394
- 
-#python
-#> import cv2
-#> cv2.SIFT
-#<built-in function SIFT>
+```
