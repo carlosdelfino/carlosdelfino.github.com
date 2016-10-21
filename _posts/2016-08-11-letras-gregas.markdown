@@ -142,3 +142,8 @@ Neste post listo as gregas e outros simbolos relevantes para a matemática, e co
 | Colchete em ângulo esquerdo | &amp;lang; | &amp;#9001; | &amp;#x2329; | ⟨ |
 | Colchete em ângulo direito | &amp;rang; | &amp;#9002; | &amp;#x232A; | ⟩ |
 | Losango | &amp;loz; | &amp;#9674; | &amp;#x25CA; | ◊ |
+
+## Fontes e outras referências
+
+ * http://rabbit.eng.miami.edu/info/htmlchars.html
+ * http://www.w3schools.com/html/html_symbols.asp
