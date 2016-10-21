@@ -22,123 +22,123 @@ Neste post listo as gregas e outros simbolos relevantes para a matemática, e co
 <!--more-->
 
 | Descrição | Alfabético | Decimal | Hexadecimal | Exibição |
-| Letra f minúscula | &fnof; | &#402; | &#x192; | ƒ |
-| Letra grega alfa maiúscula | &Alpha; | &#913; | &#x391; | Α |
-| Letra grega beta maiúscula | &Beta; | &#914; | &#x392; | Β |
-| Letra grega gama maiúscula | &Gamma; | &#915; | &#x393; | Γ |
-| Letra grega delta maiúscula | &Delta; | &#916; | &#x394; | Δ |
-| Letra grega epsílon maiúscula | &Epsilon; | &#917; | &#x395; | Ε |
-| Letra grega zeta maiúscula | &Zeta; | &#918; | &#x396; | Ζ |
-| Letra grega eta maiúscula | &Eta; | &#919; | &#x397; | Η |
-| Letra grega teta maiúscula | &Theta; | &#920; | &#x398; | Θ |
-| Letra grega iota maiúscula | &Iota; | &#921; | &#x399; | Ι |
-| Letra grega capa maiúscula | &Kappa; | &#922; | &#x39A; | Κ |
-| Letra grega lambda maiúscula | &Lambda; | &#923; | &#x39B; | Λ |
-| Letra grega mu maiúscula | &Mu; | &#924; | &#x39C; | Μ |
-| Letra grega nu maiúscula | &Nu; | &#925; | &#x39D; | Ν |
-| Letra grega csi maiúscula | &Xi; | &#926; | &#x39E; | Ξ |
-| Letra grega omícron maiúscula | &Omicron; | &#927; | &#x39F; | Ο |
-| Letra grega pi maiúscula | &Pi; | &#928; | &#x3A0; | Π |
-| Letra grega rô maiúscula | &Rho; | &#929; | &#x3A1; | Ρ |
-| Letra grega sigma maiúscula | &Sigma; | &#931; | &#x3A3; | Σ |
-| Letra grega tau maiúscula | &Tau; | &#932; | &#x3A4; | Τ |
-| Letra grega ipsílon maiúscula | &Upsilon; | &#933; | &#x3A5; | Υ |
-| Letra grega fi maiúscula | &Phi; | &#934; | &#x3A6; | Φ |
-| Letra grega qui maiúscula | &Chi; | &#935; | &#x3A7; | Χ |
-| Letra grega psi maiúscula | &Psi; | &#936; | &#x3A8; | Ψ |
-| Letra grega ômega maiúscula | &Omega; | &#937; | &#x3A9; | Ω |
-| Letra grega alfa minúscula | &alpha; | &#945; | &#x3B1; | α |
-| Letra grega beta minúscula | &beta; | &#946; | &#x3B2; | β |
-| Letra grega gama minúscula | &gamma; | &#947; | &#x3B3; | γ |
-| Letra grega delta minúscula | &delta; | &#948; | &#x3B4; | δ |
-| Letra grega epsílon minúscula | &epsilon; | &#949; | &#x3B5; | ε |
-| Letra grega zeta minúscula | &zeta; | &#950; | &#x3B6; | ζ |
-| Letra grega eta minúscula | &eta; | &#951; | &#x3B7; | η |
-| Letra grega teta minúscula | &theta; | &#952; | &#x3B8; | θ |
-| Letra grega iota minúscula | &iota; | &#953; | &#x3B9; | ι |
-| Letra grega capa minúscula | &kappa; | &#954; | &#x3BA; | κ |
-| Letra grega lambda minúscula | &lambda; | &#955; | &#x3BB; | λ |
-| Letra grega mu minúscula | &mu; | &#956; | &#x3BC; | μ |
-| Letra grega nu minúscula | &nu; | &#957; | &#x3BD; | ν |
-| Letra grega csi minúscula | &xi; | &#958; | &#x3BE; | ξ |
-| Letra grega omícron minúscula | &omicron; | &#959; | &#x3BF; | ο |
-| Letra grega pi minúscula | &pi; | &#960; | &#x3C0; | π |
-| Letra grega rô minúscula | &rho; | &#961; | &#x3C1; | ρ |
-| Letra grega sigma final minúscula | &sigmaf; | &#962; | &#x3C2; | ς |
-| Letra grega sigma minúscula | &sigma; | &#963; | &#x3C3; | σ |
-| Letra grega tau minúscula | &tau; | &#964; | &#x3C4; | τ |
-| Letra grega ipsílon minúscula | &upsilon; | &#965; | &#x3C5; | υ |
-| Letra grega fi minúscula | &phi; | &#966; | &#x3C6; | φ |
-| Letra grega qui minúscula | &chi; | &#967; | &#x3C7; | χ |
-| Letra grega psi minúscula | &psi; | &#968; | &#x3C8; | ψ |
-| Letra grega ômega minúscula | &omega; | &#969; | &#x3C9; | ω |
-| Símbolo grego teta | &thetasym; | &#977; | &#x3D1; | ϑ |
-| Símbolo grego ipsílon | &upsih; | &#978; | &#x3D2; | ϒ |
-| Símbolo grego pi | &piv; | &#982; | &#x3D6; | ϖ |
-| Pequeno círculo | &bull; | &#8226; | &#x2022; | • |
-| Reticências | &hellip; | &#8230; | &#x2026; | … |
-| Minutos | &prime; | &#8242; | &#x2032; | ′ |
-| Segundos | &Prime; | &#8243; | &#x2033; | ″ |
-| Traço superior | &oline; | &#8254; | &#x203E; | ‾ |
-| Barra de fração | &frasl; | &#8260; | &#x2044; | ⁄ |
-| Potência | &weierp; | &#8472; | &#x2118; | ℘ |
-| Parte imaginária | &image; | &#8465; | &#x2111; | ℑ |
-| Parte real | &real; | &#8476; | &#x211C; | ℜ |
-| Marca registrada | &trade; | &#8482; | &#x2122; | ™ |
-| Alef (1ª letra do alfabeto hebraico) | &alefsym; | &#8501; | &#x2135; | ℵ |
-| Seta esquerda | &larr; | &#8592; | &#x2190; | ← |
-| Seta acima | &uarr; | &#8593; | &#x2191; | ↑ |
-| Seta direita | &rarr; | &#8594; | &#x2192; | → |
-| Seta abaixo | &darr; | &#8595; | &#x2193; | ↓ |
-| Seta esquerda e direita | &harr; | &#8596; | &#x2194; | ↔ |
-| Retorno de linha | &crarr; | &#8629; | &#x21B5; | ↵ |
-| Seta dupla esquerda | &lArr; | &#8656; | &#x21D0; | ⇐ |
-| Seta dupla acima | &uArr; | &#8657; | &#x21D1; | ⇑ |
-| Seta dupla direita | &rArr; | &#8658; | &#x21D2; | ⇒ |
-| Seta dupla abaixo | &dArr; | &#8659; | &#x21D3; | ⇓ |
-| Seta dupla esquerda e direita | &hArr; | &#8660; | &#x21D4; | ⇔ |
-| Para todo | &forall; | &#8704; | &#x2200; | ∀ |
-| Diferencial parcial | &part; | &#8706; | &#x2202; | ∂ |
-| Existência | &exist; | &#8707; | &#x2203; | ∃ |
-| Conjunto vazio | &empty; | &#8709; | &#x2205; | ∅ |
-| Nabla | &nabla; | &#8711; | &#x2207; | ∇ |
-| Elemento de | &isin; | &#8712; | &#x2208; | ∈ |
-| Não elemento de | &notin; | &#8713; | &#x2209; | ∉ |
-| Contém como elemento | &ni; | &#8715; | &#x220B; | ∋ |
-| Sinal de produto | &prod; | &#8719; | &#x220F; | ∏ |
-| Sinal de soma | &sum; | &#8721; | &#x2211; | ∑ |
-| Sinal menos | &minus; | &#8722; | &#x2212; | − |
-| Operador asterisco | &lowast; | &#8727; | &#x2217; | ∗ |
-| Raiz quadrada | &radic; | &#8730; | &#x221A; | √ |
-| Proporcional a | &prop; | &#8733; | &#x221D; | ∝ |
-| Infinito | &infin; | &#8734; | &#x221E; | ∞ |
-| Ângulo | &ang; | &#8736; | &#x2220; | ∠ |
-| E lógico | &and; | &#8743; | &#x2227; | ∧ |
-| OU lógico | &or; | &#8744; | &#x2228; | ∨ |
-| Interseção | &cap; | &#8745; | &#x2229; | ∩ |
-| União | &cup; | &#8746; | &#x222A; | ∪ |
-| Integral | &int; | &#8747; | &#x222B; | ∫ |
-| Portanto | &there4; | &#8756; | &#x2234; | ∴ |
-| Similar a | &sim; | &#8764; | &#x223C; | ∼ |
-| Aproximadamente igual a | &cong; | &#8773; | &#x2245; | ≅ |
-| Quase igual a | &asymp; | &#8776; | &#x2248; | ≈ |
-| Diferente de | &ne; | &#8800; | &#x2260; | ≠ |
-| Idêntico a | &equiv; | &#8801; | &#x2261; | ≡ |
-| Menor ou igual a | &le; | &#8804; | &#x2264; | ≤ |
-| Maior ou igual a | &ge; | &#8805; | &#x2265; | ≥ |
-| Contido em | &sub; | &#8834; | &#x2282; | ⊂ |
-| Contém | &sup; | &#8835; | &#x2283; | ⊃ |
-| Não contido em | &nsub; | &#8836; | &#x2284; | ⊄ |
-| Contido em ou igual a | &sube; | &#8838; | &#x2286; | ⊆ |
-| Contém ou igual a | &supe; | &#8839; | &#x2287; | ⊇ |
-| Soma direta | &oplus; | &#8853; | &#x2295; | ⊕ |
-| Produto vetorial | &otimes; | &#8855; | &#x2297; | ⊗ |
-| Perpendicular | &perp; | &#8869; | &#x22A5; | ⊥ |
-| Produto escalar | &sdot; | &#8901; | &#x22C5; | ⋅ |
-| Superior esquerdo | &lceil; | &#8968; | &#x2308; | ⌈ |
-| Superior direito | &rceil; | &#8969; | &#x2309; | ⌉ |
-| Inferior esquerdo | &lfloor; | &#8970; | &#x230A; | ⌊ |
-| Inferior direito | &rfloor; | &#8971; | &#x230B; | ⌋ |
-| Colchete em ângulo esquerdo | &lang; | &#9001; | &#x2329; | ⟨ |
-| Colchete em ângulo direito | &rang; | &#9002; | &#x232A; | ⟩ |
-| Losango | &loz; | &#9674; | &#x25CA; | ◊ |
+| Letra f minúscula | &amp;fnof; | &amp;#402; | &amp;#x192; | ƒ |
+| Letra grega alfa maiúscula | &amp;Alpha; | &amp;#913; | &amp;#x391; | Α |
+| Letra grega beta maiúscula | &amp;Beta; | &amp;#914; | &amp;#x392; | Β |
+| Letra grega gama maiúscula | &amp;Gamma; | &amp;#915; | &amp;#x393; | Γ |
+| Letra grega delta maiúscula | &amp;Delta; | &amp;#916; | &amp;#x394; | Δ |
+| Letra grega epsílon maiúscula | &amp;Epsilon; | &amp;#917; | &amp;#x395; | Ε |
+| Letra grega zeta maiúscula | &amp;Zeta; | &amp;#918; | &amp;#x396; | Ζ |
+| Letra grega eta maiúscula | &amp;Eta; | &amp;#919; | &amp;#x397; | Η |
+| Letra grega teta maiúscula | &amp;Theta; | &amp;#920; | &amp;#x398; | Θ |
+| Letra grega iota maiúscula | &amp;Iota; | &amp;#921; | &amp;#x399; | Ι |
+| Letra grega capa maiúscula | &amp;Kappa; | &amp;#922; | &amp;#x39A; | Κ |
+| Letra grega lambda maiúscula | &amp;Lambda; | &amp;#923; | &amp;#x39B; | Λ |
+| Letra grega mu maiúscula | &amp;Mu; | &amp;#924; | &amp;#x39C; | Μ |
+| Letra grega nu maiúscula | &amp;Nu; | &amp;#925; | &amp;#x39D; | Ν |
+| Letra grega csi maiúscula | &amp;Xi; | &amp;#926; | &amp;#x39E; | Ξ |
+| Letra grega omícron maiúscula | &amp;Omicron; | &amp;#927; | &amp;#x39F; | Ο |
+| Letra grega pi maiúscula | &amp;Pi; | &amp;#928; | &amp;#x3A0; | Π |
+| Letra grega rô maiúscula | &amp;Rho; | &amp;#929; | &amp;#x3A1; | Ρ |
+| Letra grega sigma maiúscula | &amp;Sigma; | &amp;#931; | &amp;#x3A3; | Σ |
+| Letra grega tau maiúscula | &amp;Tau; | &amp;#932; | &amp;#x3A4; | Τ |
+| Letra grega ipsílon maiúscula | &amp;Upsilon; | &amp;#933; | &amp;#x3A5; | Υ |
+| Letra grega fi maiúscula | &amp;Phi; | &amp;#934; | &amp;#x3A6; | Φ |
+| Letra grega qui maiúscula | &amp;Chi; | &amp;#935; | &amp;#x3A7; | Χ |
+| Letra grega psi maiúscula | &amp;Psi; | &amp;#936; | &amp;#x3A8; | Ψ |
+| Letra grega ômega maiúscula | &amp;Omega; | &amp;#937; | &amp;#x3A9; | Ω |
+| Letra grega alfa minúscula | &amp;alpha; | &amp;#945; | &amp;#x3B1; | α |
+| Letra grega beta minúscula | &amp;beta; | &amp;#946; | &amp;#x3B2; | β |
+| Letra grega gama minúscula | &amp;gamma; | &amp;#947; | &amp;#x3B3; | γ |
+| Letra grega delta minúscula | &amp;delta; | &amp;#948; | &amp;#x3B4; | δ |
+| Letra grega epsílon minúscula | &amp;epsilon; | &amp;#949; | &amp;#x3B5; | ε |
+| Letra grega zeta minúscula | &amp;zeta; | &amp;#950; | &amp;#x3B6; | ζ |
+| Letra grega eta minúscula | &amp;eta; | &amp;#951; | &amp;#x3B7; | η |
+| Letra grega teta minúscula | &amp;theta; | &amp;#952; | &amp;#x3B8; | θ |
+| Letra grega iota minúscula | &amp;iota; | &amp;#953; | &amp;#x3B9; | ι |
+| Letra grega capa minúscula | &amp;kappa; | &amp;#954; | &amp;#x3BA; | κ |
+| Letra grega lambda minúscula | &amp;lambda; | &amp;#955; | &amp;#x3BB; | λ |
+| Letra grega mu minúscula | &amp;mu; | &amp;#956; | &amp;#x3BC; | μ |
+| Letra grega nu minúscula | &amp;nu; | &amp;#957; | &amp;#x3BD; | ν |
+| Letra grega csi minúscula | &amp;xi; | &amp;#958; | &amp;#x3BE; | ξ |
+| Letra grega omícron minúscula | &amp;omicron; | &amp;#959; | &amp;#x3BF; | ο |
+| Letra grega pi minúscula | &amp;pi; | &amp;#960; | &amp;#x3C0; | π |
+| Letra grega rô minúscula | &amp;rho; | &amp;#961; | &amp;#x3C1; | ρ |
+| Letra grega sigma final minúscula | &amp;sigmaf; | &amp;#962; | &amp;#x3C2; | ς |
+| Letra grega sigma minúscula | &amp;sigma; | &amp;#963; | &amp;#x3C3; | σ |
+| Letra grega tau minúscula | &amp;tau; | &amp;#964; | &amp;#x3C4; | τ |
+| Letra grega ipsílon minúscula | &amp;upsilon; | &amp;#965; | &amp;#x3C5; | υ |
+| Letra grega fi minúscula | &amp;phi; | &amp;#966; | &amp;#x3C6; | φ |
+| Letra grega qui minúscula | &amp;chi; | &amp;#967; | &amp;#x3C7; | χ |
+| Letra grega psi minúscula | &amp;psi; | &amp;#968; | &amp;#x3C8; | ψ |
+| Letra grega ômega minúscula | &amp;omega; | &amp;#969; | &amp;#x3C9; | ω |
+| Símbolo grego teta | &amp;thetasym; | &amp;#977; | &amp;#x3D1; | ϑ |
+| Símbolo grego ipsílon | &amp;upsih; | &amp;#978; | &amp;#x3D2; | ϒ |
+| Símbolo grego pi | &amp;piv; | &amp;#982; | &amp;#x3D6; | ϖ |
+| Pequeno círculo | &amp;bull; | &amp;#8226; | &amp;#x2022; | • |
+| Reticências | &amp;hellip; | &amp;#8230; | &amp;#x2026; | … |
+| Minutos | &amp;prime; | &amp;#8242; | &amp;#x2032; | ′ |
+| Segundos | &amp;Prime; | &amp;#8243; | &amp;#x2033; | ″ |
+| Traço superior | &amp;oline; | &amp;#8254; | &amp;#x203E; | ‾ |
+| Barra de fração | &amp;frasl; | &amp;#8260; | &amp;#x2044; | ⁄ |
+| Potência | &amp;weierp; | &amp;#8472; | &amp;#x2118; | ℘ |
+| Parte imaginária | &amp;image; | &amp;#8465; | &amp;#x2111; | ℑ |
+| Parte real | &amp;real; | &amp;#8476; | &amp;#x211C; | ℜ |
+| Marca registrada | &amp;trade; | &amp;#8482; | &amp;#x2122; | ™ |
+| Alef (1ª letra do alfabeto hebraico) | &amp;alefsym; | &amp;#8501; | &amp;#x2135; | ℵ |
+| Seta esquerda | &amp;larr; | &amp;#8592; | &amp;#x2190; | ← |
+| Seta acima | &amp;uarr; | &amp;#8593; | &amp;#x2191; | ↑ |
+| Seta direita | &amp;rarr; | &amp;#8594; | &amp;#x2192; | → |
+| Seta abaixo | &amp;darr; | &amp;#8595; | &amp;#x2193; | ↓ |
+| Seta esquerda e direita | &amp;harr; | &amp;#8596; | &amp;#x2194; | ↔ |
+| Retorno de linha | &amp;crarr; | &amp;#8629; | &amp;#x21B5; | ↵ |
+| Seta dupla esquerda | &amp;lArr; | &amp;#8656; | &amp;#x21D0; | ⇐ |
+| Seta dupla acima | &amp;uArr; | &amp;#8657; | &amp;#x21D1; | ⇑ |
+| Seta dupla direita | &amp;rArr; | &amp;#8658; | &amp;#x21D2; | ⇒ |
+| Seta dupla abaixo | &amp;dArr; | &amp;#8659; | &amp;#x21D3; | ⇓ |
+| Seta dupla esquerda e direita | &amp;hArr; | &amp;#8660; | &amp;#x21D4; | ⇔ |
+| Para todo | &amp;forall; | &amp;#8704; | &amp;#x2200; | ∀ |
+| Diferencial parcial | &amp;part; | &amp;#8706; | &amp;#x2202; | ∂ |
+| Existência | &amp;exist; | &amp;#8707; | &amp;#x2203; | ∃ |
+| Conjunto vazio | &amp;empty; | &amp;#8709; | &amp;#x2205; | ∅ |
+| Nabla | &amp;nabla; | &amp;#8711; | &amp;#x2207; | ∇ |
+| Elemento de | &amp;isin; | &amp;#8712; | &amp;#x2208; | ∈ |
+| Não elemento de | &amp;notin; | &amp;#8713; | &amp;#x2209; | ∉ |
+| Contém como elemento | &amp;ni; | &amp;#8715; | &amp;#x220B; | ∋ |
+| Sinal de produto | &amp;prod; | &amp;#8719; | &amp;#x220F; | ∏ |
+| Sinal de soma | &amp;sum; | &amp;#8721; | &amp;#x2211; | ∑ |
+| Sinal menos | &amp;minus; | &amp;#8722; | &amp;#x2212; | − |
+| Operador asterisco | &amp;lowast; | &amp;#8727; | &amp;#x2217; | ∗ |
+| Raiz quadrada | &amp;radic; | &amp;#8730; | &amp;#x221A; | √ |
+| Proporcional a | &amp;prop; | &amp;#8733; | &amp;#x221D; | ∝ |
+| Infinito | &amp;infin; | &amp;#8734; | &amp;#x221E; | ∞ |
+| Ângulo | &amp;ang; | &amp;#8736; | &amp;#x2220; | ∠ |
+| E lógico | &amp;and; | &amp;#8743; | &amp;#x2227; | ∧ |
+| OU lógico | &amp;or; | &amp;#8744; | &amp;#x2228; | ∨ |
+| Interseção | &amp;cap; | &amp;#8745; | &amp;#x2229; | ∩ |
+| União | &amp;cup; | &amp;#8746; | &amp;#x222A; | ∪ |
+| Integral | &amp;int; | &amp;#8747; | &amp;#x222B; | ∫ |
+| Portanto | &amp;there4; | &amp;#8756; | &amp;#x2234; | ∴ |
+| Similar a | &amp;sim; | &amp;#8764; | &amp;#x223C; | ∼ |
+| Aproximadamente igual a | &amp;cong; | &amp;#8773; | &amp;#x2245; | ≅ |
+| Quase igual a | &amp;asymp; | &amp;#8776; | &amp;#x2248; | ≈ |
+| Diferente de | &amp;ne; | &amp;#8800; | &amp;#x2260; | ≠ |
+| Idêntico a | &amp;equiv; | &amp;#8801; | &amp;#x2261; | ≡ |
+| Menor ou igual a | &amp;le; | &amp;#8804; | &amp;#x2264; | ≤ |
+| Maior ou igual a | &amp;ge; | &amp;#8805; | &amp;#x2265; | ≥ |
+| Contido em | &amp;sub; | &amp;#8834; | &amp;#x2282; | ⊂ |
+| Contém | &amp;sup; | &amp;#8835; | &amp;#x2283; | ⊃ |
+| Não contido em | &amp;nsub; | &amp;#8836; | &amp;#x2284; | ⊄ |
+| Contido em ou igual a | &amp;sube; | &amp;#8838; | &amp;#x2286; | ⊆ |
+| Contém ou igual a | &amp;supe; | &amp;#8839; | &amp;#x2287; | ⊇ |
+| Soma direta | &amp;oplus; | &amp;#8853; | &amp;#x2295; | ⊕ |
+| Produto vetorial | &amp;otimes; | &amp;#8855; | &amp;#x2297; | ⊗ |
+| Perpendicular | &amp;perp; | &amp;#8869; | &amp;#x22A5; | ⊥ |
+| Produto escalar | &amp;sdot; | &amp;#8901; | &amp;#x22C5; | ⋅ |
+| Superior esquerdo | &amp;lceil; | &amp;#8968; | &amp;#x2308; | ⌈ |
+| Superior direito | &amp;rceil; | &amp;#8969; | &amp;#x2309; | ⌉ |
+| Inferior esquerdo | &amp;lfloor; | &amp;#8970; | &amp;#x230A; | ⌊ |
+| Inferior direito | &amp;rfloor; | &amp;#8971; | &amp;#x230B; | ⌋ |
+| Colchete em ângulo esquerdo | &amp;lang; | &amp;#9001; | &amp;#x2329; | ⟨ |
+| Colchete em ângulo direito | &amp;rang; | &amp;#9002; | &amp;#x232A; | ⟩ |
+| Losango | &amp;loz; | &amp;#9674; | &amp;#x25CA; | ◊ |
