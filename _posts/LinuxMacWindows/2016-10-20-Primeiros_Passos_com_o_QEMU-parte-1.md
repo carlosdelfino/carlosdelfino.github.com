@@ -177,4 +177,4 @@ Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá
 
 Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta para lhe ajudar a instalar tudo que precisa no MSYS2.
 
-Pronto estamos preparados para começar a compilação do QEMU, veja como faze-lo na segunda parte deste tutorial.
+Pronto estamos preparados para começar a compilação do QEMU, [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-parte-2/).
