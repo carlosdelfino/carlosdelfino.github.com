@@ -28,12 +28,58 @@ Agora vamos clonar o projeto do QEMU usando meu fork:
 
 	git clone git@github.com:carlosdelfino/qemu.git qemu-delfino
 
-Veja que você também precisa as bibliotecas *pixman* e *dtc* estejam instaladas, caso não as tenha, use um dos seguintes comandos para instalar as que faltam.
+Veja que você também precisa de diversas bibliotecas além das que por padrão já estão como sub-modulos do repositório, como a *pixman* e *dtc*, por isso eu já deixei tudo organizado como submódulo no projeto principal em meu repositório assim basta usar o comando `submodule` do git para baixar a versão correta e compilar.
 
-	git submodule update --init pixman
-	git submodule update --init dtc
+Vejamos o que devemos fazer para cada biblioteca
 
-Bem, agora finalmente podemos dar um passo em direção a compilação do QEMU.
+### Compilando a Biblioteca libffi
+
+Abaixo estão os comandos que devem ser executados, veja que a linha de comando abaixo o que vem antes do dolar ($) representa o diretório onde o comando deve ser digitado, portanto `build $` que dizer que você está dentro do diretório `build`
+
+```bash
+gitclone/qemu-delifno/ $ git submodule update --init libffi
+gitclone/qemu-delifno/libffi $ ./autogen.sh
+gitclone/qemu-delifno/libffi $ cd ..
+gitclone/qemu-delifno/ $ mkdir build
+gitclone/qemu-delifno/build $ mkdir libffi
+gitclone/qemu-delifno/build $ cd libffi
+gitclone/qemu-delifno/build/libffi $ ../../libffi/configure --prefix \
+					/mingw64 --build=x86_64-w64-mingw32 \
+					CC=x86_64-w64-mingw32-gcc \
+					CXX=x86_64-w64-mingw32-g++ \
+					--disable-docs
+```
+
+No quarto comando acima faremos a configuração da compilação, a diretiva `--prefix` informa que a instalação será feita na pasta `/mingw64`, você pode mudar isso caso queira criar uma pasta especial para o QEMU, por exemplo `/mingw64-qemu`.
+
+Além desabilitei também através da diretiva `--diable-docs` a geração de documentos, assim economizamos tempo e problemas com a instalação da ferramenta `makeinfo`.
+
+Finalmente podemos compilar e instalar com os dois comandos a seguir:
+
+```bash
+gitclone/qemu-delfino/build/libffi $ make
+gitclone/qemu-delfino/build/libffi $ make install
+```
+
+não deverá ser apresentada nenhuma mensagem de erro qualquer dúvida me informe nos comentários abaixo.
+
+### Compilando a Biblioteca gettext
+
+```bash
+gitclone/qemu-delifno/ $ git submodule update --init gettext
+gitclone/qemu-delfino/ $ cd gettext
+gitclone/qemu-delfino/gettext $ ./autogen.sh
+gitclone/qemu-delfino/gettext $ cd ../build 
+gitclone/qemu-delfino/build $ mkdir gettext
+gitclone/qemu-delfino/build $ cd gettext
+gitclone/qemu-delfino/build/gettext $
+gitclone/qemu-delfino/build/gettext $ make
+gitclone/qemu-delfino/build/gettext $ make install
+```
+
+
+
+### Compilando o QEMU
 
 Crie um diretório para trabalhar por exemplo eu criei uma pasta chamada "build" dentro da pasta onde fiz o clone do QEMU 
 
@@ -42,18 +88,7 @@ Crie um diretório para trabalhar por exemplo eu criei uma pasta chamada "build"
 	qemu-delfino $ cd build
     build $
 
-Agora vamos configurar o ambiente para a compilação digite o seguinte comando abaixo:
-
-	build $ PATH=$PATH:/mingw64/bin/  ../configure  \
-		--source-path=.. \
-		--cross-prefix=x86_64-w64-mingw32- \
-		--target-list="gnuarmeclipse-softmmu" \
-
-O comando irá configura a compilação no diretório corrente usando como compilador o gcc que tenha o prefixo *x86_64-w64-mingw32*, eu também atualizei a variável de ambiente `PATH` para que use o caminho /mingw64/bin para encontrar as ferramentas prefixadas. E finalmente informei que desejo compilar apenas o QEMU para uso com o **GNU ARM Eclipse**, que é a versão gerada pelo Livius.
-
-Em seguida, execute o comando *make*, este levará um tempo razoável para compilar tudo que é preciso. Caso tenha problemas poste nos comentário os detalhes de seu ambiente para termos corrigir.
-
-Veremos na terceira parte como instalar este novo QEMU.
+Nesta pasta iremos criar também uma pasta para cada biblioteca que formos compilar para uso no QEMU, assim evitamos poluir o diretório dos fontes com arquivos compilados e caso algo dê errado e quiser começar do zero, basta apagar tal pasta e criar novamente sem ter que baixar todo o repositório mais uma vez.
 
 -----------------------------------------------
 
@@ -69,3 +104,7 @@ Veremos na terceira parte como instalar este novo QEMU.
  * git@github.com:gnuarmeclipse/qemu.git
  * git@github.com:beckus/qemu_stm32.git
  * git@github.com:carlosdelfino/qemu.git
+ * git://git.gnome.org/gtk+
+ * git@github.com:libffi/libffi.git
+ * it://git.savannah.gnu.org/gettext.git
+ * git://git.savannah.gnu.org/libiconv.git

@@ -66,22 +66,17 @@ Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de co
 	$ pacman -Syu
 	$ pacman -Su
 
-Você verá algumas mensagens, informando que estão sendo baixados e instalados alguns pacotes,  e ficará claro que tudo deu certo ou algo deu errado, neste ultimo caso entre em contato comigo pelos comentários abaixo.
+Você verá algumas mensagens, informando que estão sendo baixados e instalados alguns pacotes,  e ficará claro que tudo deu certo ou algo deu errado, neste ultimo caso entre em contato comigo pelos comentários.
 
-    $ pacman -Ss pkg-config
-    mingw32/mingw-w64-i686-pkg-config 0.29.1-2 (mingw-w64-i686-toolchain)
-    	A system for managing library compile/link flags (mingw-w64)
-    mingw64/mingw-w64-x86_64-pkg-config 0.29.1-2 (mingw-w64-x86_64-toolchain)
-    	A system for managing library compile/link flags (mingw-w64)
-    msys/pkg-config 0.29.1-1 (base-devel) [instalado]
-   		A system for managing library compile/link flags
-    
-O comando acima listou o que temos disponível para instalar o `pkg-config` escolhi este pacote exatamente para facilitar a escolha do que iremos instalar, veja que nosso foco é compilar o GCC, e no meu caso estou usando uma plataforma 64bits, portanto vou precisar do ToolChain completo para compilar em C/C++ para 64Bits, assim vou escolher instalar o pacote `git`, `mingw-w64-x86_64-toolchain`, `mingw64/mingw-w64-x86_64-glib2` e todas as dependências
+vamos precisar do ToolChain completo para compilar em C/C++ para 64Bits, assim vou escolher instalar o pacote `git`, `mingw-w64-x86_64-toolchain`, `mingw64/mingw-w64-x86_64-glib2`, entre outros e todas as dependências
 
 Digite o comando
 
 	$ pacman -S git autoconf automake-wrapper\
+		patch \
 		msys/libtool \
+		msys/bison \
+		mingw64/mingw-w64-x86_64-diffutils \
 		mingw64/mingw-w64-x86_64-libtool \
 		mingw64/mingw-w64-x86_64-glib2 \
 		mingw-w64-x86_64-toolchain 
@@ -162,19 +157,15 @@ Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá
  * make
  * tols-git
  * winpthreads-git
- * python2
- * pkg-config
- * expat
- * gettext
- * libffi
+ * python2 
+ * expat 
  * libtre-git
- * libsystre
- * tcl
- * tk
+ * libsystre 
  * glib2
  * autoconf
+ * bison
  * e muitos outros
 
 Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta para lhe ajudar a instalar tudo que precisa no MSYS2.
 
-Pronto estamos preparados para começar a compilação do QEMU, [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-parte-2/).
+Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-parte-2/).
