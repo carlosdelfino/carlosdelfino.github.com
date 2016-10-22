@@ -74,6 +74,7 @@ Digite o comando
 
 	$ pacman -S git autoconf automake-wrapper\
 		patch \
+		groff \
 		msys/libtool \
 		msys/bison \
 		mingw64/mingw-w64-x86_64-diffutils \
