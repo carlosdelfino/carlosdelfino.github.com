@@ -80,9 +80,11 @@ Digite o comando
 		msys/liblzma \
 		msys/libtool \
 		msys/bison \
+		msys/ncurses-devel \
 		mingw64/mingw-w64-x86_64-diffutils \
 		mingw64/mingw-w64-x86_64-libtool \
 		mingw64/mingw-w64-x86_64-glib2 \
+		mingw64/mingw-w64-x86_64-ncurses \
 		mingw-w64-x86_64-toolchain 
 
 e receberá uma mensagem similar a esta abaixo:

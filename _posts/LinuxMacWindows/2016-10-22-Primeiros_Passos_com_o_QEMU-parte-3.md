@@ -20,6 +20,18 @@ coinbase:
 ---
 
 <!--more-->
+
+### Compilando o QEMU
+
+Crie um diretório para trabalhar por exemplo eu criei uma pasta chamada "build" dentro da pasta onde fiz o clone do QEMU 
+
+	$ cd qemu-delfino
+	qemu-delfino $ mkdir build
+	qemu-delfino $ cd build
+    build $
+
+Nesta pasta iremos criar também uma pasta para cada biblioteca que formos compilar para uso no QEMU, assim evitamos poluir o diretório dos fontes com arquivos compilados e caso algo dê errado e quiser começar do zero, basta apagar tal pasta e criar novamente sem ter que baixar todo o repositório mais uma vez.
+
 Agora vamos configurar o ambiente para a compilação digite o seguinte comando abaixo:
 
 	build $ PATH=$PATH:/mingw64/bin/  ../configure  \ 

@@ -65,7 +65,7 @@ não deverá ser apresentada nenhuma mensagem de erro qualquer dúvida me inform
 
 ### Compilando a biblioteca zlib
 
-A biblioteca zlib é importante para lidar com arquivos compactados, assim dá poder ao  software de lidar com arquivos que foram compactados.
+A biblioteca zlib é importante para lidar com arquivos compactados, ela é importante para o QEMU diretamente.
 
 Veja que esta biblioteca não tem como ser compilada fora de seu diretório original, onde estão os fontes, portanto seja cuidadoso ao limpar o diretório se desejar refazer a compilação. Caso tenha problemas use o comando `git checkout TAG --force`, onde a palavra `TAG`deve ser substituída pela *TAG* da versão selecionada para trabalho.
 
@@ -79,7 +79,7 @@ gitclone/qemu-delfino/ $ git checkout v1.2.8
 Agora use o comando abaixo para configurar a compilação:
 
 ```sh
-    CROSS_PREFIX=x86_64-w64-mingw32- \
+gitclone/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32- \
 		PREFIX=/mingw64 
 		./configure  
 ``` 
@@ -87,15 +87,119 @@ Agora use o comando abaixo para configurar a compilação:
 e para compilar e instalar digite o comando:
 
 ```sh
-    make -f win32/Makefile.gcc install \
+gitclone/qemu-delifno/zlib $ make -f win32/Makefile.gcc install \
 		CFLAGS="-pipe" \
         LDFLAGS="-v" \
-        PREFIX="x86_64-w64-mingw32-" \
         INCLUDE_PATH="/mingw64/include" \
         LIBRARY_PATH="/mingw64/lib" \
-        BINARY_PATH="/mingw64/bin" 
+        BINARY_PATH="/mingw64/bin" \
+        PREFIX="x86_64-w64-mingw32-" \
+		prefix=/mingw64 \
+		install
 ```
 Pronto para usarmos vamos a próxima biblioteca.
+
+### Compilando a biblitoeca GnuLib
+
+GNULib é importante para a biblioteca GetText e libiconv.
+
+```bash
+gitclone/qemu-delifno/ $ git submodule update --init gnulib
+```
+
+
+
+### Compilando a Biblioteca libiconv
+
+A instalação do libiconv é bem simples, é importante fazemos a instalação dela antes e compilar o gettext.
+
+Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout da versão v1.9.2.
+
+```sh
+gitclone/qemu-delifno/ $ git submodule update --init libiconv
+gitclone/qemu-delifno/ $ cd libiconv
+gitclone/qemu-delifno/libiconv/ $ git checkout v1.9.2
+```
+
+Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e configuramos o Makefile com os parâmetros de nosso ambiente:
+
+```sh
+gitclone/qemu-delifno/ $ cd ../build
+gitclone/qemu-delifno/build $ mkdir libiconv
+gitclone/qemu-delifno/build $ cd libiconv
+gitclone/qemu-delifno/build/libiconv $ cd libiconv
+gitclone/qemu-delifno/build/libiconv $ ../../libiconv/configure \
+				--prefix /mingw64 \
+				--build=x86_64-w64-mingw32 \
+				--disable-docs \
+				CC=x86_64-w64-mingw32-gcc \
+				CXX=x86_64-w64-mingw32-g++ 
+```
+
+E finalmente executamos a compilação e a instalação.
+
+```sh
+gitclone/qemu-delifno/build/libiconv $ make
+gitclone/qemu-delifno/build/libiconv $ make install
+```
+
+### Compilando a Biblioteca gettext
+
+Gettext para ser compilado na versão 0.19.8.1 precisa de uma versão especifica do GNULib, portanto iremos primeiro atualizar nosso repositório pra esta versão com o seguinte comando:
+
+```sh
+gitclone/qemu-delfino/ $ cd gnulib
+gitclone/qemu-delfino/gnulib/ $ git checkout 6f9206d --force
+```
+
+Agora podemos prosseguir com o gettext, como ele já está como submódulo, basta atualizá-lo com os seguintes comandos:
+
+```sh
+gitclone/qemu-delifno/ $ git submodule update --init gettext
+gitclone/qemu-delfino/ $ cd gettext
+gitclone/qemu-delfino/gettext $  git checkout v0.19.8.1
+```
+
+precisamos atualizar as configurações antes de executá-las para criar o `Makefile` e então compilar o projeto no diretório de trabalho.
+
+```sh
+gitclone/qemu-delfino/gettext $  GNULIB_SRCDIR=../gnulib \
+            GNULIB_TOOL=../gnulib-tool \
+            ./autogen.sh
+```
+
+
+```sh
+~/qemu-delfino/gettext $ cd ../build 
+~/qemu-delfino/build/ $ mkdir gettext
+~/qemu-delfino/build/ $ cd gettext
+~/qemu-delfino/build/gettext $  ../../gettext/configure \
+		--host=x86_64-w64-mingw32 \
+		--prefix=/mingw64 \
+		--with-gnu-ld \
+		--without-bzip2 \
+		--without-xz \
+		--without-emacs \
+		--without-lispdir \
+		--without-cvs \
+		--disable-java \
+		--disable-native-java \
+		--disable-c++ \
+		--disable-libasprintf \
+		--disable-openmp \
+		--disable-csharp \
+		--enable-threads=win32 \
+		--enable-relocatable \
+		--build=x86_64-w64-mingw32
+```
+E finalmente podemos compilar o gettext.
+
+```sh
+~/qemu-delfino/build/gettext $ make
+~/qemu-delfino/build/gettext $ make install
+```
+
+
 
 
 
