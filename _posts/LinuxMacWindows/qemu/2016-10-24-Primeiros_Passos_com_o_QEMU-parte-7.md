@@ -33,7 +33,7 @@ Para compilar a Glib com sucesso é fundamental ter o Python 2.7 instalado, cert
 
 Não use outra versão além do Python 2.7.
 
-Coloque o python e o GCC que estamos usando no path usando o seguinte comando no shell do Msys2:
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
 
 ```sh
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
@@ -75,9 +75,16 @@ E atualizar seus scripts de configuração:
 ```
 
 ```sh
-~/qemu-delfino/glib $ configure -prefix=/c/mingw-builds/mingw64 -with-pcre=internal -disable-static -disable-gtk-doc -enable-silent-rules -build=x86_64-w64-mingw32
-make
-make install
+~/qemu-delfino/glib $ cd ../build
+~/qemu-delfino/glib $ mdkir glib
+~/qemu-delfino/glib $ cd glib
+~/qemu-delfino/glib $ ../../glib/configure -prefix=/mingw64 \
+		-with-pcre=internal \
+		-disable-static \
+		-enable-silent-rules \
+		-build=x86_64-w64-mingw32
+~/qemu-delfino/glib $ make
+~/qemu-delfino/glib $ make install
 ```
 
 

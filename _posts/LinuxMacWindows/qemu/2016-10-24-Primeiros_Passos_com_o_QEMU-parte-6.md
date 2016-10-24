@@ -28,22 +28,30 @@ O Gettext é uma biblioteca muito útil para internacionalização da aplicaçã
 Gettext para ser compilado na versão 0.19.8.1 precisa de uma versão específica do GNULib, portanto iremos primeiro atualizar nosso repositório pra esta versão com o seguinte comando:
 
 ```sh
-gitclone/qemu-delfino/ $ cd gnulib
-gitclone/qemu-delfino/gnulib/ $ git checkout 6f9206d --force
+~/qemu-delfino/ $ cd gnulib
+~/qemu-delfino/gnulib/ $ git checkout 6f9206d --force
+```
+
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
+
+```sh
+~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
+~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
+~/qemu-delfino/ $ export PATH
 ```
 
 Agora podemos prosseguir com o gettext, como ele já está como submódulo, basta atualizá-lo com os seguintes comandos:
 
 ```sh
-gitclone/qemu-delifno/ $ git submodule update --init gettext
-gitclone/qemu-delfino/ $ cd gettext
-gitclone/qemu-delfino/gettext $  git checkout v0.19.8.1
+~/qemu-delifno/ $ git submodule update --init gettext
+~/qemu-delfino/ $ cd gettext
+~/qemu-delfino/gettext $  git checkout v0.19.8.1
 ```
 
 precisamos atualizar as configurações antes de executá-las para criar o `Makefile` e então compilar o projeto no diretório de trabalho.
 
 ```sh
-gitclone/qemu-delfino/gettext $  GNULIB_SRCDIR=../gnulib \
+~/qemu-delfino/gettext $  GNULIB_SRCDIR=../gnulib \
             GNULIB_TOOL=../gnulib-tool \
             ./autogen.sh
 ```

@@ -27,11 +27,18 @@ GNULib não precisa ser compilada basta baixaremos apenas como um módulo do meu
  
 
 ```bash
-gitclone/qemu-delifno/ $ git submodule update --init gnulib
+~/qemu-delifno/ $ git submodule update --init gnulib
 ```
 
 Agora podemos já trabalhar com a próxima biblioteca.
 
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
+
+```sh
+~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
+~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
+~/qemu-delfino/ $ export PATH
+```
 
 ### Compilando a Biblioteca libiconv
 
@@ -40,19 +47,19 @@ A instalação do libiconv é bem simples, é importante fazemos a instalação 
 Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout da versão v1.9.2.
 
 ```sh
-gitclone/qemu-delifno/ $ git submodule update --init libiconv
-gitclone/qemu-delifno/ $ cd libiconv
-gitclone/qemu-delifno/libiconv/ $ git checkout v1.9.2
+~/qemu-delifno/ $ git submodule update --init libiconv
+~/qemu-delifno/ $ cd libiconv
+~/qemu-delifno/libiconv/ $ git checkout v1.9.2
 ```
 
 Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e configuramos o Makefile com os parâmetros de nosso ambiente:
 
 ```sh
-gitclone/qemu-delifno/ $ cd ../build
-gitclone/qemu-delifno/build $ mkdir libiconv
-gitclone/qemu-delifno/build $ cd libiconv
-gitclone/qemu-delifno/build/libiconv $ cd libiconv
-gitclone/qemu-delifno/build/libiconv $ ../../libiconv/configure \
+~/qemu-delifno/ $ cd ../build
+~/qemu-delifno/build $ mkdir libiconv
+~/qemu-delifno/build $ cd libiconv
+~/qemu-delifno/build/libiconv $ cd libiconv
+~/qemu-delifno/build/libiconv $ ../../libiconv/configure \
 				--prefix /mingw64 \
 				--build=x86_64-w64-mingw32 \
 				--disable-docs \
@@ -63,8 +70,8 @@ gitclone/qemu-delifno/build/libiconv $ ../../libiconv/configure \
 E finalmente executamos a compilação e instalação.
 
 ```sh
-gitclone/qemu-delifno/build/libiconv $ make
-gitclone/qemu-delifno/build/libiconv $ make install
+~/qemu-delifno/build/libiconv $ make
+~/qemu-delifno/build/libiconv $ make install
 ```
 
 Pronto, tendo alguma dúvida ou dificuldade use os comentários abaixo.

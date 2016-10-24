@@ -30,8 +30,7 @@ Abaixo estão os comandos que devem ser executados, veja que a linha de comando 
 ```sh
 gitclone/qemu-delifno/ $ git submodule update --init libffi
 ```
-
-Coloque o python e o GCC que estamos usando no path usando o seguinte comando no shell do Msys2:
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
 
 ```sh
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH

@@ -29,14 +29,22 @@ Veja que esta biblioteca não tem como ser compilada fora de seu diretório orig
 Usaremos por hora a versão **1.2.8** portanto a *TAG* usada será ***v1.2.8***.
 
 ```sh
-gitclone/qemu-delifno/ $ git submodule update --init zlib
-gitclone/qemu-delfino/ $ cd zlib
-gitclone/qemu-delfino/ $ git checkout v1.2.8
+~/qemu-delifno/ $ git submodule update --init zlib
+~/qemu-delfino/ $ cd zlib
+~/qemu-delfino/ $ git checkout v1.2.8
 ```
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
+
+```sh
+~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
+~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
+~/qemu-delfino/ $ export PATH
+```
+
 Agora use o comando abaixo para configurar a compilação:
 
 ```sh
-gitclone/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32- \
+~/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32- \
 		PREFIX=/mingw64 
 		./configure  
 ``` 
@@ -44,7 +52,7 @@ gitclone/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32- \
 e para compilar e instalar digite o comando:
 
 ```sh
-gitclone/qemu-delifno/zlib $ make -f win32/Makefile.gcc install \
+~/qemu-delifno/zlib $ make -f win32/Makefile.gcc install \
 		CFLAGS="-pipe" \
         LDFLAGS="-v" \
         INCLUDE_PATH="/mingw64/include" \
