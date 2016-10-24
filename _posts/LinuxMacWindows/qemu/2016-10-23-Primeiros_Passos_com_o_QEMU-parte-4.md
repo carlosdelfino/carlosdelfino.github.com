@@ -57,8 +57,7 @@ gitclone/qemu-delifno/zlib $ make -f win32/Makefile.gcc install \
 Pronto para usarmos vamos a próxima biblioteca, se tiver alguma dúvida poste nos comentários e tentarei ajudar.
 
 
-
-
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-5/)
 
 
 

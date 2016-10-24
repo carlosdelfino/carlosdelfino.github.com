@@ -49,3 +49,4 @@ veremos nos próximos passos como obter cada uma delas e como compilá-las.
 
 Depois de tudo pronto vou rever todos os passos e adicionar detalhes sobre como obter cada biblioteca, para que serve e sua importância no projeto.
 
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-3/)

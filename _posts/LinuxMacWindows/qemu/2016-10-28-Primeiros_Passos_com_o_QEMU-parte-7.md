@@ -37,7 +37,7 @@ Coloque o python e o GCC que estamos usando no path usando o seguinte comando no
 
 ```sh
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
-~/qemu-delfino/ $ PATH= /mingw64/bin/:$PATH
+~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
 ~/qemu-delfino/ $ export PATH
 ```
 
@@ -79,3 +79,6 @@ E atualizar seus scripts de configuração:
 make
 make install
 ```
+
+
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-8/)

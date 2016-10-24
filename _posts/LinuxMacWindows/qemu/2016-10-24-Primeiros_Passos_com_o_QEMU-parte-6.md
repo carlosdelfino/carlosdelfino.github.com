@@ -84,7 +84,4 @@ Pronto já temos agora o Gettext instalado, o LibIconv, GnuLib e Zlib, agora o p
 
 Como sempre se tiver alguma dúvida poste abaixo nos comentários.
 
-
-
-
-
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-7/)
