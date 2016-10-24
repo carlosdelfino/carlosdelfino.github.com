@@ -70,6 +70,8 @@ Você verá algumas mensagens, informando que estão sendo baixados e instalados
 
 vamos precisar do ToolChain completo para compilar em C/C++ para 64Bits, assim vou escolher instalar o pacote `git`, `mingw-w64-x86_64-toolchain`, `mingw64/mingw-w64-x86_64-glib2`, entre outros e todas as dependências
 
+Veja que estou usando os pacotes para plataforma 64bits x86 `x86_64`, se deseja instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
+
 Digite o comando
 
 	$ pacman -S git autoconf automake-wrapper\
@@ -77,10 +79,12 @@ Digite o comando
 		groff \
 		gperf \
 		wget \
+		texinfo \
 		msys/liblzma \
 		msys/libtool \
 		msys/bison \
 		msys/ncurses-devel \
+		mingw64/mingw-w64-x86_64-emacs \
 		mingw64/mingw-w64-x86_64-diffutils \
 		mingw64/mingw-w64-x86_64-libtool \
 		mingw64/mingw-w64-x86_64-glib2 \

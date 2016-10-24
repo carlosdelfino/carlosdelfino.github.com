@@ -19,29 +19,65 @@ coinbase:
  show: true
 ---
 
-<!--more-->
+### Compilando a Biblioteca gettext
 
-### Compilando o QEMU
+Gettext para ser compilado na versão 0.19.8.1 precisa de uma versão especifica do GNULib, portanto iremos primeiro atualizar nosso repositório pra esta versão com o seguinte comando:
 
-Crie um diretório para trabalhar por exemplo eu criei uma pasta chamada "build" dentro da pasta onde fiz o clone do QEMU 
+```sh
+gitclone/qemu-delfino/ $ cd gnulib
+gitclone/qemu-delfino/gnulib/ $ git checkout 6f9206d --force
+```
 
-	$ cd qemu-delfino
-	qemu-delfino $ mkdir build
-	qemu-delfino $ cd build
-    build $
+Agora podemos prosseguir com o gettext, como ele já está como submódulo, basta atualizá-lo com os seguintes comandos:
 
-Nesta pasta iremos criar também uma pasta para cada biblioteca que formos compilar para uso no QEMU, assim evitamos poluir o diretório dos fontes com arquivos compilados e caso algo dê errado e quiser começar do zero, basta apagar tal pasta e criar novamente sem ter que baixar todo o repositório mais uma vez.
+```sh
+gitclone/qemu-delifno/ $ git submodule update --init gettext
+gitclone/qemu-delfino/ $ cd gettext
+gitclone/qemu-delfino/gettext $  git checkout v0.19.8.1
+```
 
-Agora vamos configurar o ambiente para a compilação digite o seguinte comando abaixo:
+precisamos atualizar as configurações antes de executá-las para criar o `Makefile` e então compilar o projeto no diretório de trabalho.
 
-	build $ PATH=$PATH:/mingw64/bin/  ../configure  \ 
-		--prefix=/mingw64/qemu
-		--source-path=.. \
-		--cross-prefix=x86_64-w64-mingw32- \
-		--target-list="gnuarmeclipse-softmmu" \
+```sh
+gitclone/qemu-delfino/gettext $  GNULIB_SRCDIR=../gnulib \
+            GNULIB_TOOL=../gnulib-tool \
+            ./autogen.sh
+```
 
-O comando irá configura a compilação no diretório corrente usando como compilador o gcc que tenha o prefixo *x86_64-w64-mingw32*, eu também atualizei a variável de ambiente `PATH` para que use o caminho /mingw64/bin para encontrar as ferramentas prefixadas. E finalmente informei que desejo compilar apenas o QEMU para uso com o **GNU ARM Eclipse**, que é a versão gerada pelo Livius.
 
-Em seguida, execute o comando *make*, este levará um tempo razoável para compilar tudo que é preciso. Caso tenha problemas poste nos comentário os detalhes de seu ambiente para termos corrigir.
+```sh
+~/qemu-delfino/gettext $ cd ../build 
+~/qemu-delfino/build/ $ mkdir gettext
+~/qemu-delfino/build/ $ cd gettext
+~/qemu-delfino/build/gettext $  ../../gettext/configure \
+        --host=x86_64-w64-mingw32 \
+        --build=x86_64-w64-mingw32 \
+        --prefix=/mingw64 \
+        --with-gnu-ld \
+        --without-bzip2 \
+        --without-xz \
+        --without-emacs \
+        --without-lispdir \
+        --without-cvs \
+        --disable-doc \
+        --disable-java \
+        --disable-native-java \
+        --disable-c++ \
+        --disable-libasprintf \
+        --disable-openmp \
+        --disable-csharp \
+        --enable-threads=win32 \
+        --enable-relocatable
+```
+E finalmente podemos compilar o gettext.
 
-Veremos na terceira parte como instalar este novo QEMU.
+```sh
+~/qemu-delfino/build/gettext $ make
+~/qemu-delfino/build/gettext $ make install
+```
+
+
+
+
+
+
