@@ -1,7 +1,7 @@
 ---
-title: "Primeiros Passos com o QEMU, parte 3" 
+title: "Primeiros Passos com o QEMU, parte 6" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, ]
-categories: [Emulação e Virtualização]
+categories: [Emulação e Virtualização, QEMU, Compilando]
 layout: article
 share: true
 toc: true
@@ -19,9 +19,13 @@ coinbase:
  show: true
 ---
 
+Bem, fiz todos os testes necessários para se ter sucesso com o GetText, segui alguns caminhos não foram bons e isso é um aprendizado muito valioso, pois permite entendermos como tudo é feito e como deve realmente ser feito.
+
 ### Compilando a Biblioteca gettext
 
-Gettext para ser compilado na versão 0.19.8.1 precisa de uma versão especifica do GNULib, portanto iremos primeiro atualizar nosso repositório pra esta versão com o seguinte comando:
+O Gettext é uma biblioteca muito útil para internacionalização da aplicação, com ela podemos ter as mensagens de nossa aplicação traduzidas para diversos idiomas de uma forma bem fácil e simples.
+
+Gettext para ser compilado na versão 0.19.8.1 precisa de uma versão específica do GNULib, portanto iremos primeiro atualizar nosso repositório pra esta versão com o seguinte comando:
 
 ```sh
 gitclone/qemu-delfino/ $ cd gnulib
@@ -49,7 +53,7 @@ gitclone/qemu-delfino/gettext $  GNULIB_SRCDIR=../gnulib \
 ~/qemu-delfino/gettext $ cd ../build 
 ~/qemu-delfino/build/ $ mkdir gettext
 ~/qemu-delfino/build/ $ cd gettext
-~/qemu-delfino/build/gettext $  ../../gettext/configure \
+~/qemu-delfino/build/gettext $  ../../gettext/gettext-runtime/configure \
         --host=x86_64-w64-mingw32 \
         --build=x86_64-w64-mingw32 \
         --prefix=/mingw64 \
@@ -76,6 +80,9 @@ E finalmente podemos compilar o gettext.
 ~/qemu-delfino/build/gettext $ make install
 ```
 
+Pronto já temos agora o Gettext instalado, o LibIconv, GnuLib e Zlib, agora o próximo a ser compilado é GLib.
+
+Como sempre se tiver alguma dúvida poste abaixo nos comentários.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Primeiros Passos com o QEMU, parte 1" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, ]
-categories: [Emulação e Virtualização]
+categories: [Emulação e Virtualização, QEMU, Compilando]
 layout: article
 share: true
 toc: true
@@ -18,11 +18,11 @@ tagcloud: true
 coinbase:
  show: true
 ---
-Acho que o maior desafio para um programador C ou C++ é ter todos os ambientes que precisa disponíveis em sua maquina para testar seus programas, entenda todos os ambientes como múltiplos sistemas operacionais, e múltiplas configurações, empacotamentos. Vamos ver então como fazer isso com o QEMU.
+Acho que o maior desafio para um programador C ou C++ é ter todos os ambientes que precisa disponíveis em sua máquina para compilar e testar seus programas, entenda todos os ambientes como múltiplos sistemas operacionais, múltiplas configurações e empacotamentos. Vamos ver então como fazer isso com o QEMU.
 
 <!--more-->
 
-Bem eu escolhi o Fork do Liviu Ionescu para trabalhar com o QEMU, seu fork foi criado para permitir emular embarcados e microcontroladores baseados em Cortex-M, e gostei de seu trabalho, e desejo amplia-lo para o Arduino DUE o que se tornou para mim um desafio, em especial para rodar seu Sistema Operacional em Tempo Real - RTOS para Cortex-M chamado &Mu;OS.
+Bem eu escolhi o Fork do Liviu Ionescu para trabalhar com o QEMU, seu fork foi criado para permitir emular embarcados e microcontroladores baseados em Cortex-M, e gostei de seu trabalho, e desejo ampliá-lo para o Arduino DUE o que se tornou para mim um desafio, em especial para rodar seu Sistema Operacional em Tempo Real - RTOS para Cortex-M chamado &Mu;OS.
 
 Minha intenção é gerar apenas o QEMU para trabalhar com a família Cortex, seja A ou M, e talvez R, a família Cortex-A eu vou focar no Cortex-A53 a Família Cortex-M eu irei focar no que precisar e principalmente no que faltar no que o Lonesco estiver trabalhando. Se vier a trabalhar com o Cortex-R inicialmente pretendo focar no Cortex-R52. Para saber porque me consulte através dos comentários.
 
@@ -59,8 +59,7 @@ Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei
 
 O primeiro passo é instalar o MSYS em seu computador, baixe a ferramenta do link: https://msys2.github.io/, escolha o pacote conforme sua plataforma.
 
-Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de comandos para atualiza-lo, em cada comando reinicialize o shell.
-
+Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de comandos para atualizá-lo, em cada comando reinicialize o shell.
 
     $ pacman -Sy pacman
 	$ pacman -Syu
@@ -177,5 +176,7 @@ Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá
  * e muitos outros
 
 Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta para lhe ajudar a instalar tudo que precisa no MSYS2.
+
+## Próximo passo
 
 Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-parte-2/).
