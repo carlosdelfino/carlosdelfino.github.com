@@ -23,4 +23,4 @@ Aguarde, chegaremos aqui logo logo.
 
 
 
-[Estamos trabalhando no passo 7.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-7/)
+[Estamos trabalhando no passo 8.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-8/)
