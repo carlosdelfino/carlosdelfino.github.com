@@ -73,7 +73,8 @@ Veja que estou usando os pacotes para plataforma 64bits x86 `x86_64`, se deseja 
 
 Digite o comando
 
-	$ pacman -S git autoconf automake-wrapper\
+```sh
+~ $ pacman -S git autoconf automake-wrapper\
 		patch \
 		groff \
 		gperf \
@@ -83,15 +84,18 @@ Digite o comando
 		msys/libtool \
 		msys/bison \
 		msys/ncurses-devel \
+        msys/mercurial \
 		mingw64/mingw-w64-x86_64-emacs \
 		mingw64/mingw-w64-x86_64-diffutils \
 		mingw64/mingw-w64-x86_64-libtool \
 		mingw64/mingw-w64-x86_64-glib2 \
 		mingw64/mingw-w64-x86_64-ncurses \
 		mingw-w64-x86_64-toolchain 
+```
 
 e receberá uma mensagem similar a esta abaixo:
 
+```
 	:: Há 16 membros no grupo mingw-w64-x86_64-toolchain:
 	:: Repositório mingw64
 	   1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git  3) mingw-w64-x86_64-gcc
@@ -102,7 +106,7 @@ e receberá uma mensagem similar a esta abaixo:
 	   15) mingw-w64-x86_64-tools-git  16) mingw-w64-x86_64-winpthreads-git
 
 	Digite uma seleção (padrão=todos):
-
+```
 Então apenas tecle enter e logo a seguir receberá a lista do que será instalado no meu caso apresentou a seguinte lista:
 
     atenção: mingw-w64-x86_64-binutils-2.27-2 está atualizado -- reinstalando
