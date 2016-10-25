@@ -29,15 +29,15 @@ Para compilar o SDL pode se obter o fonte de diversas formas, nos usaremos o nos
 Para obter em nosso repositório use o comando:
 
 ```sh
-git submodule update --init SDL
+~/qemu-delfino/ $ git submodule update --init SDL
 ```
 
 
 Execute os seguintes comandos para começar a preparar o ambiente.
 
 ```sh
-cd SDL
-./autogen.sh
+~/qemu-delfino/ $ cd SDL
+~/qemu-delfino/SDL $ ./autogen.sh
 ```
 Durante o processo se viver a ter problemas com a falta da biblioteca será necessário baixar o pacote OpenGL development headers e descompacte na pasta /mingw64:
 	http://www.libsdl.org/extras/win32/common/opengl-devel.tar.gz
@@ -60,16 +60,16 @@ Agora vamos preparar as variáveis de ambinte para nossa compilação.
 Fique atento a definição das variáveis, mesmo que já tenha definido antes, certifique todas estão corretas.
 
 ```sh
-../../glib/configure \
+~/qemu-delfino/SDL $ cd ../build
+~/qemu-delfino/build $ mkdir sdl
+~/qemu-delfino/build $ cd sdl
+~/qemu-delfino/build/sdl $ ../../glib/configure \
             --prefix=/mingw64 \
             --build=x86_64-w64-mingw32 \
             --host=x86_64-w64-mingw32 \
             --target=x86_64-w64-mingw32 
-make
-make install
+~/qemu-delfino/build/sdl $ make
+~/qemu-delfino/build/sdl $ make install
 ```
 
-Pronto podemos partir agora para o próximo passo.
-
-
-[Estamos trabalhando no passo 10.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-10/)
+[Pronto podemos partir agora para o próximo passo.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-10/)
