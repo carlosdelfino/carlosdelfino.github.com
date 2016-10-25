@@ -38,7 +38,13 @@ Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso 
 ~/qemu-delfino/ $ export PATH
 ```
 
-abora vamos compilar o projeto.
+Abaixo definimos que o compilador C será x86_64-w64-mingw32-gcc e o compilador C++ será x86_64-w64-mingw32-g++
+```sh
+~/qemu-delfino/ $ export CC=x86_64-w64-mingw32-gcc 
+~/qemu-delfino/ $ export CXX=x86_64-w64-mingw32-g++
+```
+				
+Agora vamos compilar o projeto.
 
 ```sh
 gitclone/qemu-delifno/libffi $ ./autogen.sh
@@ -46,10 +52,9 @@ gitclone/qemu-delifno/libffi $ cd ..
 gitclone/qemu-delifno/ $ mkdir build
 gitclone/qemu-delifno/build $ mkdir libffi
 gitclone/qemu-delifno/build $ cd libffi
-gitclone/qemu-delifno/build/libffi $ ../../libffi/configure --prefix \
-					/mingw64 --build=x86_64-w64-mingw32 \
-					CC=x86_64-w64-mingw32-gcc \
-					CXX=x86_64-w64-mingw32-g++ \
+gitclone/qemu-delifno/build/libffi $ ../../libffi/configure \
+                    --prefix /mingw64 \
+                    --build=x86_64-w64-mingw32 \
 					--disable-docs
 ```
 

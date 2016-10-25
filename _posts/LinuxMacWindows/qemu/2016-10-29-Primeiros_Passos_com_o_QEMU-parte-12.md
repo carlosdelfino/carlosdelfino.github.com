@@ -25,7 +25,11 @@ Vamos nesta parte compilar o QEMU propriamente, até agora estamos apenas prepar
 
 
 
-[Estamos trabalhando no passo 8.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-8/)
+Aguarde, chegaremos aqui logo logo.
+
+
+
+[Estamos trabalhando no passo 10.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-10
 
 ### Compilando o QEMU
 
@@ -83,6 +87,7 @@ Em seguida, execute o comando *make*, este levará um tempo razoável para compi
  * https://www.gnu.org/software/autoconf/manual/autoconf-2.65/html_node/Specifying-Target-Triplets.html
  * https://www.betaarchive.com/forum/viewtopic.php?t=28834
  * https://en.wikibooks.org/wiki/QEMU/MinGW
+ * https://www.libsdl.org/extras/win32/mingw32/README.txt
 
 ## Repositórios relacionados
 
@@ -90,6 +95,7 @@ Em seguida, execute o comando *make*, este levará um tempo razoável para compi
  * git@github.com:gnuarmeclipse/qemu.git
  * git@github.com:beckus/qemu_stm32.git
  * git@github.com:carlosdelfino/qemu.git
+ * git@github.com:carlosdelfino/sdl.git
  * git@github.com:madler/zlib.git
  * git@github.com:libffi/libffi.git
  * git://git.savannah.gnu.org/gnulib.git
