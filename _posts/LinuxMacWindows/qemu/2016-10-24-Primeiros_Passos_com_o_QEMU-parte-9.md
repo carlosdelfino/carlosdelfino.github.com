@@ -1,7 +1,8 @@
 ---
+redirect_from: /emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-9/
 title: "Primeiros Passos com o QEMU, parte 9" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, SDL, Games, Hardware, OpenGL, DirectX, Mouse, Keyboard, Video, Simple Direct Media Layar, Joystick ]
-categories: [Emulação e Virtualização, QEMU, Compilando]
+categories: [EmulacaoEVirtualizacao, QEMU, Compilando]
 layout: article
 share: true
 toc: true
@@ -55,6 +56,8 @@ Agora vamos preparar as variáveis de ambinte para nossa compilação.
 ~/qemu-delfino/SDL $ export GLIB_LIBS=""
 ~/qemu-delfino/SDL $ export LIBFFI_CFLAGS='-I /mingw64/lib/libffi-3.99999/include'
 ~/qemu-delfino/SDL $ export LIBFFI_LIBS=-lffi
+ export CFLAGS="-m64 -pipe"
+
 ```
 
 Fique atento a definição das variáveis, mesmo que já tenha definido antes, certifique todas estão corretas.
@@ -63,8 +66,9 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 ~/qemu-delfino/SDL $ cd ../build
 ~/qemu-delfino/build $ mkdir sdl
 ~/qemu-delfino/build $ cd sdl
-~/qemu-delfino/build/sdl $ ../../glib/configure \
+~/qemu-delfino/build/sdl $ ../../sdl/configure \
             --prefix=/mingw64 \
+			--exec-prefix=/mingw64
             --build=x86_64-w64-mingw32 \
             --host=x86_64-w64-mingw32 \
             --target=x86_64-w64-mingw32 
