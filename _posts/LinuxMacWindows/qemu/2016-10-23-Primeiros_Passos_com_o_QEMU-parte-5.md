@@ -11,8 +11,8 @@ feature:
  category: true
  index: true
 image:
- feature: embarcados/nanopi-m3-03-1024x445.png
- teaser: embarcados/nanopi-m3-03-300x174.png
+  teaser: programacao/ccplusplus/programacao-660x300.png
+  feature: programacao/ccplusplus/programacao-660x300.png
 ads: 
  show: true
 tagcloud: true
@@ -78,3 +78,5 @@ E finalmente executamos a compilação e instalação.
 Pronto, tendo alguma dúvida ou dificuldade use os comentários abaixo.
 
 
+
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-6/)

@@ -11,8 +11,8 @@ feature:
  category: true
  index: true
 image:
- feature: embarcados/nanopi-m3-03-1024x445.png
- teaser: embarcados/nanopi-m3-03-300x174.png
+  teaser: programacao/ccplusplus/programacao-660x300.png
+  feature: programacao/ccplusplus/programacao-660x300.png
 ads: 
  show: true
 tagcloud: true

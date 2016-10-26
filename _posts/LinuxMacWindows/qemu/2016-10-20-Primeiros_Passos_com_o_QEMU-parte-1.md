@@ -11,8 +11,8 @@ feature:
  category: true
  index: true
 image:
- feature: embarcados/nanopi-m3-03-1024x445.png
- teaser: embarcados/nanopi-m3-03-300x174.png
+ feature: linuxmacwindows/allOS-logos-900x210.png
+ teaser: linuxmacwindows/macwindowslinux-500x210.png
 ads: 
  show: true
 tagcloud: true
@@ -78,11 +78,13 @@ Procure fazer sempre backup da pasta antes de fazer qualquer alteração em sua 
 
 Fique atento toda as dicas estão sendo feitas considerando que tem uma maquina Windows com 64 Bits e rodando o Mingw, a pasta de instalação dos binários gerados será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas abaixo no configure a não ser quando informado o contrário:
 
+```sh
 ../../glib/configure \
             --prefix=/mingw64 \
             --build=x86_64-w64-mingw32 \
             --host=x86_64-w64-mingw32 \
             --target=x86_64-w64-mingw32
+```
 
 Em caso de dúvida use os comentários de cada passo para esclarecer sua dúvida.
 
@@ -220,4 +222,4 @@ Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta
 
 ## Próximo passo
 
-Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-parte-2/).
+Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-2/).
