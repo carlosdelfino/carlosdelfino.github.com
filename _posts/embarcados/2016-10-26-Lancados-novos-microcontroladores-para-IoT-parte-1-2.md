@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Lançados novos Microcontroladores para IoT"
+title: "Lançados novos Microcontroladores para IoT - Parte 1/2"
 date: "2016-10-26 09:14:56 -0300"
-tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, CortexM0+, Cortex-M1, Cortex-M22, Cortex-M33,
+tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, CortexM0+, Cortex-M1, Cortex-M23, Cortex-M33,
 Cortex-M3, Cortex-M4 e Cortex-M7]
 categories: [ARM, Cortex-M, IoT]
 share: true
@@ -15,7 +15,7 @@ tagcloud: true
 ads:
  show: true
 image:
-  teaser: arm/Cortex-M22-33-350x155.png
+  teaser: arm/Cortex-M23-33-350x155.png
   feature: arm/ARMv6-7-8-M-800x500.png
 ---
 Esta semana do dia 26 de outubro de 2016 foi lançado dois novos 
@@ -23,12 +23,40 @@ microcontroladores ARM da Família Cortex-M com foco exclusivo em IoT.
 
 <!--more-->
 
-**Em elaboração!**
+## o Lançamento da Família Cortex-M
+
+A família cortex-M nasceu em 19 de outubro de 2004, quando a ARM revolucionou o
+mercado trazendo um conceito de chips 32bit para o nicho de microcontroladores,
+até então todos se gabavam, e até hoje alguns ainda insistem em viver no passado
+com o argumento que não precisam mais de 8 bits para desenvolver suas soluções.
+Sem dúvida muitas soluções se resolvem com menos de 8 bits, porém não é só de bits
+que se trata este novo conceito de processadores para microcontroladores.
+
+A adoção dos microcontroladores ARM desde então foi rápida e sem traumas, já
+que a ARM manteve compátibilidade entre as familias usando subconjuntos de 
+instruções, facilitando assim a migração dos programadores ARM de outros nichos
+sem traumas para o nicho de microcontroladores.
+
+Desde então a família de microcontroladores tem crescido, sendo composta hoje 
+pelos microcontroladores Cortex-M0, CortexM0+, Cortex-M1, Cortex-M23, Cortex-M33,
+Cortex-M3, Cortex-M4 e Cortex-M7.
+
+Cada um destes microcontroladores busca atender um nicho dentro do mercado de 
+microcontroladores, trazendo sempre a arquiteutra Risc de 32 bits como sendo 
+sua base, e o conjunto de instruções ARM Thumb de 16bits, porém capaz de tratar
+dados e transferi-los em blocos de 32 bits, com exceção dos novos
+Cortex-M33 e Cortex-M23 que são também com instruções de 32bits.
 
 Em novembro de 2010 a ARM lançou mais um perfil arquitetural para sua família de 
 microcontroladores chamado ARMv8-M, que traz novos recursos para uso em IoT
 fundamentados na segurança através da tecnologia TrustZone, entre outros
 recursos. 
+
+Já em 25 de outubro de 2016, nesta semana a arm lança os dois primeiros chips
+que usam a arquitetura ARMv8-M especifica para microcontroladores, vejamos um 
+pouco mais desta arquitetura para entendermos o que ela nos trás de tão importante.
+
+## A arquitetura ARMv8-M
 
 O perfil ARMv8 está presente nas três familias de processadores ARM, sendo
 ARMv8-A, ARMv8-R e ARMv8-M com destaque nos recursos apresentados na figura
@@ -43,7 +71,7 @@ Como pode ser visto, todos possuem instruções 32bits, sendo o Cortex-M provido
 apenas com o conjunto de instruções T32/Thumb&trade;
 
 Abaixo está o video de Mike Muller, CTO da ARM, anunciando esta semana o 
-lançamento de dois novos processadores Cortex-M baseados na arquitetura ARMv8-m.
+lançamento de dois novos processadores Cortex-M baseados na arquitetura ARMv8-M.
 
 <figure>
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FARMfans%2Fvideos%2F10154688274139588%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
@@ -51,26 +79,7 @@ lançamento de dois novos processadores Cortex-M baseados na arquitetura ARMv8-m
 IoT na #ARMTechCon 2016.</figcaption>
 </figure>
 
-Em 19 de outubro de 2004 foi anunciado o primeiro Cortex-M trazendo um novo 
-avanço para a comunidade e o mercado de microcontroladores. 
 
-A adoção dos microcontroladores ARM desde então foi rápida e sem traumas, já
-que a ARM manteve compátibilidade entre as familias usando subconjuntos de 
-instruções, facilitando assim a migração dos programadores ARM de outros nichos
-sem traumas para o nicho de microcontroladores.
-
-Desde então a família de microcontroladores tem crescido, sendo composta hoje 
-pelos microcontroladores Cortex-M0, CortexM0+, Cortex-M1, Cortex-M22, Cortex-M33,
-Cortex-M3, Cortex-M4 e Cortex-M7.
-
-Cada um destes microcontroladores busca atender um nicho dentro do mercado de 
-microcontroladores, trazendo sempre a arquiteutra Risc de 32 bits como sendo 
-sua base, e o conjunto de instruções ARM Thumb de 16bits, com exceção dos novos
-Cortex-M22 e Cortex-M23 que são 32bits.
-
-Nosso foco então será neste novo par de microcontroladores, o Cortex-A22 e 
-Cortex-A33, que vieram para atender o mercado de IoT que vem crescendo 
-vertiginosamente nos últimos meses.
 
 ## A arquitetura ARMv8-M
 
@@ -163,11 +172,6 @@ embarcado além do processador. Este padrão de interconexão adiciona controles
 segurança como também extende os tipos de mémoria requeridos para embarcados de 
 alta performance e suporte.
 
-<figure>
-<img src="/images/arm/emabarcados-inteligentes-usando-cortex-m.png" alt="Embarcados inteligentes que usam Cortex-M"/>
-<figcaption>Embarcados Inteligentes que usam Cortex-M</figcaption>
-<figure>
-
 A Família ARM então recebe agora os dois novos microcontroladorres empoderados
 com a arquitetura ARMv8-M, sendo o Cortex-M23 para dispositívos de menor tamanho
 e restrições de energia, e o Cortex-M33 para uso em dispositivos mais complexos.
@@ -176,35 +180,21 @@ Ambos os microcontroladores já tem fornecedores trabalhando para sua produção
 em breve veremos no mercado os novos chips. 
 
 <figure>
-<img src="/images/arm/Cortex-M22-33-vendors-1024x300.png" alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33"/>
+<img src="/images/arm/Cortex-M23-33-vendors-1024x300.png" alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33"/>
 <figcaption>Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33</figcaption>
 <figure>
 
-Tais chips não nascerão sem um ecosistema capaz de desenvolver código específico
+Tais chips **não nascerão sem** um ecosistema capaz de desenvolver código específico
 e otimizado para seus novos recursos, além de permitir rodar naturalmente os 
 códigos escritos para seus irmãos da Família Cortex-M, sem os recursos de segurança. 
 As grandes ferramentas de desenvolvimento do mercado já estão se preparando para
-gerar códigos  nativos para os novos microcontroladores, veja na figura:
-
+gerar códigos natívos para os novos microcontroladores, veja na figura:
 
 <figure>
-<img src="/images/arm/Cortex-M22-33-ecosystem-1024x600.png" alt="Ferramentas de desenvolvimeto que já estão se preparando para o Cortex-M23 e Cortex-M33"/>
+<img src="/images/arm/Cortex-M23-33-ecosystem-1024x600.png" alt="Ferramentas de desenvolvimeto que já estão se preparando para o Cortex-M23 e Cortex-M33"/>
 <figcaption>Ferramentas de desenvolvimeto que já estão se preparando para o Cortex-M23 e Cortex-M33</figcaption>
 <figure>
-## Fontes
-
-Fontes de referência sobre Cortex-M
-
-  * http://www.arm.com/products/processors/instruction-set-architectures/armv8-m-architecture.php
-  * https://community.arm.com/groups/processors/blog/2016/10/25/cortex-m23-and-cortex-m33-security-foundation-for-billions-of-devices
   
-
-Para quem deseja avançar no uso do Cortex-M 23 e cortex-M vai uma lista de links interessantes:
-
- * [ARMv8-M Architecture Reference Manual - beta](http://infocenter.arm.com/help/topic/com.arm.doc.ddi0553a.b/index.html)
- * [ARMv8-M architecture: what’s new for developers - YouTube](https://www.youtube.com/embed/V5zr5mPjAvU?rel=0&autoplay=1)
- * [ARM Compiler Software Development Guide : Chapter 8 Building Secure and Non-secure Images Using ARMv8-M Security Extensi…](http://infocenter.arm.com/help/topic/com.arm.doc.dui0773e/pge1446115999905.html)
- * [ARMv8-M Security Extensions: Requirements on Development Tools - ARM Information Center](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ecm0359818/index.html)
- * [The Next Steps in the Evolution of Embedded Processors for the Smart Connected Era](https://community.arm.com/docs/DOC-11532)
- * [Enhanced Security and Energy Efficiency of Microcontrollers and SoCs](https://community.arm.com/docs/DOC-11533)
- * [ARMv8-M document on developer.arm.com](https://developer.arm.com/products/architecture/m-profile/docs)
+[Continua, clique aqui para segunda parte](/arm/cortex-m/iot/Lancados-novos-microcontroladores-para-IoT-parte-2-3/)
+  
+  
