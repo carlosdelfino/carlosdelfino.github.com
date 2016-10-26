@@ -151,7 +151,7 @@ o lado não seguro é mantido disponível como antes para uso como milhões de o
 programadores já o fazem nos atuais microcontroladores Cortex-M.
 
 <figure>
-<img src="/images/arm/Cortex-M33-Arquitetura-800x846.png" alt="Arquitetura em Blocos do Cortex-M33"/>
+<img src="/images/arm/TrustZone-ARMv8-280x460.png" alt="Arquitetura em Blocos do Cortex-M33"/>
 <figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
 </figure>
 
@@ -167,6 +167,20 @@ programadores já o fazem nos atuais microcontroladores Cortex-M.
 	<li>Extensive banking of interrupt or exception control, SysTick</li>
 	<li>Memory protection unit for each of the secure and non-secure side</li>
 </ul>
+
+O Cortex-M33 tem uma interface para coprocessador fortemente acoplada com um barramento 
+para instruções e outro para dados, o que permite a transferência simultânea para
+até 8 coprocessadores.
+
+O MPU no Cortex-M33 funciona como no Cortex-M23, usando a arquiteura PMSAv8.
+
+Uma extenção especial de 85 instruções pode ser usada com o Cortex-M33 para processamento
+de sinais digitais (DSP). Um conjunto de 16 novos registradores de 64bits
+podem ser também adicioandos para processamento de ponto flutuante conforme o padrão 
+IEEE754-2008 e mais 45 instruções para manipulação destes pontos flutuantes, baseado
+no IEEE754-2008, o uso deste coprocessador (FPU) aumenta em 10 vezes a velocidade 
+de manipulação de ponto flutante no Cortex-33, e é mantido em um domínio de 
+energia separado, para que possa ser desativado quando não está sendo usado.
 
 
 ## Fontes
