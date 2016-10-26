@@ -28,7 +28,7 @@ Até o momento a nossa instalação tem apresentado alguns problemas e estarei a
 Estarei em paralelo a esta fase trabalhando no path para usar o AVR, então em seguida os testes com a integração do FORK para Cortex-M criado pelo Livius Ionesco.
 
 
-[Estamos trabalhando na fase 2 passo 1.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-fase-2-parte-1)
+[Estamos trabalhando na fase 2 passo 1.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-fase-2-parte-1)
  
 
  

@@ -71,4 +71,4 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 
 
 
-[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11)
+[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11)

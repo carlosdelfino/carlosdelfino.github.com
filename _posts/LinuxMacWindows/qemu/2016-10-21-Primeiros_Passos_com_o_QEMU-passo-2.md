@@ -1,5 +1,7 @@
 ---
-redirect_from:  "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-2/"
+redirect_from:  
+   - "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-2/"
+   - "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/"
 title: "Primeiros Passos com o QEMU, Passo 2" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS ]
 categories: [EmulacaoEVirtualizacao, QEMU, Compilando]
@@ -25,7 +27,7 @@ Começamos tudo instalando o MSYS2, vejo que para você foi um sucesso como foi 
 
 Mas, não adianta seguir se são teve sucesso no passo anterior. Seja honesto com você mesmo, faça cada passo até ter sucesso.
 
-Caso tenha chegado aqui antes de tentar o primeiro passo, retorne a ele para fazê-lo até que tudo dê certo. [Clique aqui](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/Primeiros_Passos_com_o_QEMU-passo-1/ "Clique Aqui").
+Caso tenha chegado aqui antes de tentar o primeiro passo, retorne a ele para fazê-lo até que tudo dê certo. [Clique aqui](http://carlosdelfino.eti.br/emulacaoevirtualizacao/Primeiros_Passos_com_o_QEMU-passo-1/ "Clique Aqui").
 
 Agora vamos clonar o projeto do QEMU usando meu fork:
 
@@ -50,4 +52,4 @@ veremos nos próximos passos como obter cada uma delas e como compilá-las.
 
 Depois de tudo pronto vou rever todos os passos e adicionar detalhes sobre como obter cada biblioteca, para que serve e sua importância no projeto.
 
-[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-3/)
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-3/)

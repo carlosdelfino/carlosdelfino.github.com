@@ -76,4 +76,4 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 ~/qemu-delfino/build/sdl $ make install
 ```
 
-[Pronto podemos partir agora para o próximo passo.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-10/)
+[Pronto podemos partir agora para o próximo passo.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-10/)

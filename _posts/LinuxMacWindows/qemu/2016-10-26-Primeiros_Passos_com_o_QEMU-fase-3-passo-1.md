@@ -29,7 +29,7 @@ Aguarde, chegaremos aqui logo logo.
 
 
 
-[Estamos trabalhando na fase 3 passo 1.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-fase-3-parte-1)
+[Estamos trabalhando na fase 3 passo 1.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-fase-3-parte-1)
  
 
  

@@ -68,7 +68,7 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 Como podem ver pela diretiva `target-list`, serão compiladas apenas as arquiteturas x86_64, ARM, xtensaeb e xtensa, futuramente estarei adicionando também AVR. em ARM e xtensa respetivamente uma Placa Arduino e um ESP-01 para testes.
 
 
-[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11)
+[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11)
 
 ## Sites das bibliotecas, frameworks e tudo usado neste projeto
 

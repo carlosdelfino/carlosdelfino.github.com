@@ -224,4 +224,4 @@ Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta
 
 ## Próximo passo
 
-Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/).
+Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/).
