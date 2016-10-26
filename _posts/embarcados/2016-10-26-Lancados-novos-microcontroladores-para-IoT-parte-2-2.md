@@ -127,19 +127,19 @@ O NVIC pode ser configurado para suportar até 480 interrupções externas com a
 <figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
 </figure>
 <ul>
-	<li>MPU Memory Protection Unit
-	<li>DSP Digital Signal processing
-	<li>FPU Floating Point Unit
-	<li>SP Single Precision
-	<li>ETM Embedded Trace Macrocell
-	<li>MTB Micro Trace Buffer
-	<li>BPU Break Point unit
-	<li>DWT Data Watch and Trace Unit
-	<li>ITM Instrumentation Trace Macrocell
-	<li>NVIC Nested Vectored Interrupt Controller
-	<li>WIC Wake-up Interrupt Controller
-	<li>AHB Advanced High Performance Bus
-	<li>AMBA Advanced Microcontroller Bus Architecture
+	<li>MPU Memory Protection Unit</li>
+	<li>DSP Digital Signal processing</li>
+	<li>FPU Floating Point Unit</li>
+	<li>SP Single Precision</li>
+	<li>ETM Embedded Trace Macrocell</li>
+	<li>MTB Micro Trace Buffer</li>
+	<li>BPU Break Point unit</li>
+	<li>DWT Data Watch and Trace Unit</li>
+	<li>ITM Instrumentation Trace Macrocell</li>
+	<li>NVIC Nested Vectored Interrupt Controller</li>
+	<li>WIC Wake-up Interrupt Controller</li>
+	<li>AHB Advanced High Performance Bus</li>
+	<li>AMBA Advanced Microcontroller Bus Architecture</li>
 </ul>
 
 Com o Trustzone o Cortex-M33 tem dois estados de segurança, mais dois estados
@@ -156,16 +156,16 @@ programadores já o fazem nos atuais microcontroladores Cortex-M.
 </figure>
 
 <ul>
-	<li>Secure state
-	<li>Non-secure state
-	<li>Four stacks and four stack pointer registers
-	<li>Hardware stack-limit checking
-	<li>Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit
-	<li>Interface para sistema de indicação de segurança
-	<li>Visibility of secure code from non-secure (NS) domain restricted to predefined entry points
-	<li>Exception hardware automatically saves and clears secure register state when switching to non-secure
-	<li>Extensive banking of interrupt or exception control, SysTick
-	<li>Memory protection unit for each of the secure and non-secure side
+	<li>Secure state</li>
+	<li>Non-secure state</li>
+	<li>Four stacks and four stack pointer registers</li>
+	<li>Hardware stack-limit checking</li>
+	<li>Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit</li>
+	<li>Interface para sistema de indicação de segurança</li>
+	<li>Visibility of secure code from non-secure (NS) domain restricted to predefined entry points</li>
+	<li>Exception hardware automatically saves and clears secure register state when switching to non-secure</li>
+	<li>Extensive banking of interrupt or exception control, SysTick</li>
+	<li>Memory protection unit for each of the secure and non-secure side</li>
 </ul>
 
 
