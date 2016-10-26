@@ -181,7 +181,7 @@ em breve veremos no mercado os novos chips.
 
 <figure>
 <img src="/images/arm/Cortex-M23-33-vendors-1024x300.png" 
-	alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33" ></img>
+	alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33" />
 <figcaption>Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33</figcaption>
 </figure>
 

@@ -89,15 +89,86 @@ As instruções do Cortex-M23 foram extendida sem que se perdesse sua caracteris
 relativa a baixo perfil de consumo de energia, ampliando o perfil ARMv6-M e adotando
 algumas instruções do ARMv7-M, com exceção da sisntruções relativas ao TrustZone. 
 
-Load and store exclusive instructions from ARMv7-M have been added to improve the architecture consistency of Cortex-M23 processor in multicore systems where semaphores between processors can be handled with the same mechanism. In addition, to provide atomic support for C11/C++11, the load-acquire and store-release instructions are included from ARMv8-A (Thumb 32 version), including exclusive access variant of those instructions.
+Instruções para carga e amazenamento de dados de form aexclusiva do ARMv7-M foram
+adicionadas pra melhorar a consitência da arquitetura do Cortex-M23 em sistemas
+multicore onde semaforos entre processadores pode ser manipulados com o mesmo 
+mecanismo. Além disso, foi melhorado o suporte a atomicidade para linguagem
+C11/C++11, as instruções load-acquire e store-release são incluidas do ARMv8-A 
+(versão Thumb 32), incluindo uma vaiação de acesso exclusivo para estas instruções.
+
+
 
 ## Cortex-M33
+
+O Cortex-M33 é uma implementação completa do ARMv8-M, além do TrustZone tem 
+também a implementação para manipulação de sinais digitais, DSP. Este processador
+tem diversas possibilidades de configuração, além de permitir coprocessadores
+através de usa interface especializada para soluções que demandam grande procesamento
+computacional.
+
+O Cortex-M33 é uma excelente escolha entre Performance, consumo de energia, segurança,
+e produtividade para sistemas embarcados relacionados a IoT e SoCs complexos.
+
 
 <figure>
 <img src="/images/arm/Cortex-M33-455x328.png" alt="Cortex-M33"/>
 <figcaption>Cortex-M33</figcaption>
 </figure>
  
+O Cortex-M33 tem um pipeline de 3 estágios com o objetivo de manter seu consumo de
+energia baixo, muitas instruções são executadas em apenas dois estágios, já outras
+demandam os 3 estágios para completarem.
+
+O NVIC pode ser configurado para suportar até 480 interrupções externas com até
+256 níveis de prioridades.
+
+<figure>
+<img src="/images/arm/Cortex-M33-Arquitetura-800x846.png" alt="Arquitetura em Blocos do Cortex-M33"/>
+<figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
+</figure>
+<ul>
+	<li>MPU Memory Protection Unit
+	<li>DSP Digital Signal processing
+	<li>FPU Floating Point Unit
+	<li>SP Single Precision
+	<li>ETM Embedded Trace Macrocell
+	<li>MTB Micro Trace Buffer
+	<li>BPU Break Point unit
+	<li>DWT Data Watch and Trace Unit
+	<li>ITM Instrumentation Trace Macrocell
+	<li>NVIC Nested Vectored Interrupt Controller
+	<li>WIC Wake-up Interrupt Controller
+	<li>AHB Advanced High Performance Bus
+	<li>AMBA Advanced Microcontroller Bus Architecture
+</ul>
+
+Com o Trustzone o Cortex-M33 tem dois estados de segurança, mais dois estados
+ortogonais como podem ser visto na figura abaixo. Abrindo assim um novo horizonte
+para novas aplicações e modelos de uso. o Firmware pode ser protegido de diversas 
+formas, um servisor de código pode ser colocado no estado seguro que pode ser 
+usado para recuprar o sistema após um ataque ou uma operação não desejada, Enquanto
+o lado não seguro é mantido disponível como antes para uso como milhões de outros 
+programadores já o fazem nos atuais microcontroladores Cortex-M.
+
+<figure>
+<img src="/images/arm/Cortex-M33-Arquitetura-800x846.png" alt="Arquitetura em Blocos do Cortex-M33"/>
+<figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
+</figure>
+
+<ul>
+	<li>Secure state
+	<li>Non-secure state
+	<li>Four stacks and four stack pointer registers
+	<li>Hardware stack-limit checking
+	<li>Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit
+	<li>Interface para sistema de indicação de segurança
+	<li>Visibility of secure code from non-secure (NS) domain restricted to predefined entry points
+	<li>Exception hardware automatically saves and clears secure register state when switching to non-secure
+	<li>Extensive banking of interrupt or exception control, SysTick
+	<li>Memory protection unit for each of the secure and non-secure side
+</ul>
+
+
 ## Fontes
 
 Fontes de referência sobre Cortex-M
