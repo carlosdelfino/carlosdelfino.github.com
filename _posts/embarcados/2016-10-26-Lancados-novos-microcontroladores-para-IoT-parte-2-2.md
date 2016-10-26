@@ -70,14 +70,26 @@ O novo modelo de proteção de memória, Memory Protection Unity (MPU) foi basea
 no PMSAv8 que foi adicionado de forma opcional, permitindo proteger até 16 regiões
 para cada estado de segurança do processador.
 
-Em sistemas multitarefa, durante a troca de tarefas as regiões podem ser reprogramadas
-para cada tarefa.
+Em sistemas multitarefa, durante a troca de contextos as regiões podem ser 
+reprogramadas para cada tarefa.
 
 <figure>
 <img src="/images/arm/PMSA-Regionsx420x90.png" alt="Regiões de memória protegida no PMSAv7 e PMSAv8"/>
 <figcaption>Regiões de memória protegida no PMSAv7 e PMSAv8</figcaption>
 </figure>
 
+A arquitetura de proteção de memória do Cortex-M23 adota um estílo de comparação
+de limites para definir a região de memória, em oposição ao estilo anterior com 
+tamanho baseado na potência de dois e esquema de alinhamento por tamanho. Esta
+nova melhoria simplifica o desenvolvimento de software, e em alguns casos, reduz 
+a perda de memória por demandas que não se encaixam perfeitamene no tamanho equivalente
+na potência de 2.
+
+As instruções do Cortex-M23 foram extendida sem que se perdesse sua caracterisca
+relativa a baixo perfil de consumo de energia, ampliando o perfil ARMv6-M e adotando
+algumas instruções do ARMv7-M, com exceção da sisntruções relativas ao TrustZone. 
+
+Load and store exclusive instructions from ARMv7-M have been added to improve the architecture consistency of Cortex-M23 processor in multicore systems where semaphores between processors can be handled with the same mechanism. In addition, to provide atomic support for C11/C++11, the load-acquire and store-release instructions are included from ARMv8-A (Thumb 32 version), including exclusive access variant of those instructions.
 
 ## Cortex-M33
 
@@ -92,7 +104,9 @@ Fontes de referência sobre Cortex-M
 
  * [http://www.arm.com/products/processors/instruction-set-architectures/armv8-m-architecture.php](http://www.arm.com/products/processors/instruction-set-architectures/armv8-m-architecture.php)
  * [https://community.arm.com/groups/processors/blog/2016/10/25/cortex-m23-and-cortex-m33-security-foundation-for-billions-of-devices](https://community.arm.com/groups/processors/blog/2016/10/25/cortex-m23-and-cortex-m33-security-foundation-for-billions-of-devices)
-
+ * [https://community.arm.com/groups/processors/blog/2016/10/25/five-key-features-of-the-arm-cortex-m23-processor](https://community.arm.com/groups/processors/blog/2016/10/25/five-key-features-of-the-arm-cortex-m23-processor)
+ * [https://developer.arm.com/products/processors/cortex-m/introduction-to-arm-cortex-m23-and-cortex-m33](https://developer.arm.com/products/processors/cortex-m/introduction-to-arm-cortex-m23-and-cortex-m33)
+ 
 Para quem deseja avançar no uso do Cortex-M 23 e cortex-M vai uma lista de links interessantes:
 
  * [ARMv8-M Architecture Reference Manual - beta](http://infocenter.arm.com/help/topic/com.arm.doc.ddi0553a.b/index.html)

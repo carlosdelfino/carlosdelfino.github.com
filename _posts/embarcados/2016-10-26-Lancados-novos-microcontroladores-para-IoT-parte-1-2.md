@@ -63,7 +63,7 @@ ARMv8-A, ARMv8-R e ARMv8-M com destaque nos recursos apresentados na figura
 abaixo.
 
 <figure>
-<img src="/images/arm/ARMv8-profile-800x450.png" alt="Profile ARquitetural ARMv8"/>
+<img src="/images/arm/ARMv8-profile-800x450.png" alt="Profile ARquitetural ARMv8" />
 <figcaption>Perfil arquitetural ARMv8</figcaption>
 </figure>
 
@@ -180,9 +180,10 @@ Ambos os microcontroladores já tem fornecedores trabalhando para sua produção
 em breve veremos no mercado os novos chips. 
 
 <figure>
-<img src="/images/arm/Cortex-M23-33-vendors-1024x300.png" alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33"/>
+<img src="/images/arm/Cortex-M23-33-vendors-1024x300.png" 
+	alt="Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33" ></img>
 <figcaption>Fabricantes que já estão trabalhando para disponibilizar suas versões de chips empoderados com o Cortex-M23 e Cortex-M33</figcaption>
-<figure>
+</figure>
 
 Tais chips **não nascerão sem** um ecosistema capaz de desenvolver código específico
 e otimizado para seus novos recursos, além de permitir rodar naturalmente os 
@@ -193,7 +194,7 @@ gerar códigos natívos para os novos microcontroladores, veja na figura:
 <figure>
 <img src="/images/arm/Cortex-M23-33-ecosystem-1024x600.png" alt="Ferramentas de desenvolvimeto que já estão se preparando para o Cortex-M23 e Cortex-M33"/>
 <figcaption>Ferramentas de desenvolvimeto que já estão se preparando para o Cortex-M23 e Cortex-M33</figcaption>
-<figure>
+</figure>
   
 [Continua, clique aqui para segunda parte](/arm/cortex-m/iot/Lancados-novos-microcontroladores-para-IoT-parte-2-3/)
   
