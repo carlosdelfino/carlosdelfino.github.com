@@ -1,3 +1,11 @@
+emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o:
+   name: Emulação e Virtualização
+   aliases ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao] 
+
+emulacaoevirtualizacao:
+   name: Emulação e Virtualização
+   aliases ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao] 
+
 Cole%C3%A7%C3%A3odeLinks:
    name: "Coleção de Links"
    aliases: [colecaodelinks, ColecaoDeLinks]

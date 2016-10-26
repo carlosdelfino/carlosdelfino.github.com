@@ -1,5 +1,5 @@
 ---
-title: "Primeiros Passos com o QEMU, parte 11" 
+title: "Primeiros Passos com o QEMU, fase 2 - parte 1" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, ]
 categories: [Emulação e Virtualização, QEMU, Compilando]
 layout: article
@@ -19,7 +19,7 @@ coinbase:
  show: true
 ---
 
-Vamos nesta parte compilar o QEMU propriamente, até agora estamos apenas preparando o ambiente para este momento.
+Vamos agora entrar na fase 2, que usar o QEMU compilado por nós e fazer alguns testes básicos de criação de imagem de ambientes.
 
 <!--more-->
 
@@ -33,26 +33,7 @@ Aguarde, chegaremos aqui logo logo.
 
 ### Compilando o QEMU
 
-Crie um diretório para trabalhar por exemplo eu criei uma pasta chamada "build" dentro da pasta onde fiz o clone do QEMU 
-
-	$ cd qemu-delfino
-	qemu-delfino $ mkdir build
-	qemu-delfino $ cd build
-    build $
-
-Nesta pasta iremos criar também uma pasta para cada biblioteca que formos compilar para uso no QEMU, assim evitamos poluir o diretório dos fontes com arquivos compilados e caso algo dê errado e quiser começar do zero, basta apagar tal pasta e criar novamente sem ter que baixar todo o repositório mais uma vez.
-
-Agora vamos configurar o ambiente para a compilação digite o seguinte comando abaixo:
-
-	build $ PATH=$PATH:/mingw64/bin/  ../configure  \ 
-		--prefix=/mingw64/qemu
-		--source-path=.. \
-		--cross-prefix=x86_64-w64-mingw32- \
-		--target-list="gnuarmeclipse-softmmu" \
-
-O comando irá configura a compilação no diretório corrente usando como compilador o gcc que tenha o prefixo *x86_64-w64-mingw32*, eu também atualizei a variável de ambiente `PATH` para que use o caminho /mingw64/bin para encontrar as ferramentas prefixadas. E finalmente informei que desejo compilar apenas o QEMU para uso com o **GNU ARM Eclipse**, que é a versão gerada pelo Livius.
-
-Em seguida, execute o comando *make*, este levará um tempo razoável para compilar tudo que é preciso. Caso tenha problemas poste nos comentário os detalhes de seu ambiente para termos corrigir.
+ 
 
 
 
@@ -88,6 +69,8 @@ Em seguida, execute o comando *make*, este levará um tempo razoável para compi
  * https://www.betaarchive.com/forum/viewtopic.php?t=28834
  * https://en.wikibooks.org/wiki/QEMU/MinGW
  * https://www.libsdl.org/extras/win32/mingw32/README.txt
+ * https://www.betaarchive.com/forum/viewtopic.php?t=28834
+ * https://en.wikibooks.org/wiki/QEMU/MinGW
 
 ## Repositórios relacionados
 

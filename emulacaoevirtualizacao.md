@@ -1,8 +1,8 @@
 ---
 redirect_from: 
-	- "emulaçãoevirtualização"
-	- "emulação%20e%20virtualização"
-permalink: /emulacoesvirtualizacao/
+	- "/emulaçãoevirtualização"
+	- "/emulação%20e%20virtualização"
+permalink: /emulacaoevirtualizacao/
 title: Emulações e Virtualização 
 layout: categorylist
 share: true
