@@ -1,5 +1,5 @@
 ---
-permalink: /emulacaoevirtualizacao/
+permalink: /qemu/
 title: QEMU
 layout: categorylist
 share: true

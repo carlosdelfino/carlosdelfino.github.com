@@ -1,6 +1,6 @@
 ---
 redirect_from: "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-3/"
-title: "Primeiros Passos com o QEMU, parte 3" 
+title: "Primeiros Passos com o QEMU, Passo 3" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS]
 categories: [EmulacaoEVirtualizacao, QEMU, Compilando]
 layout: article
@@ -72,5 +72,5 @@ gitclone/qemu-delfino/build/libffi $ make install
 
 Não deverá ser apresentada nenhuma mensagem de erro qualquer dúvida me informe nos comentários abaixo.
 
-[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-4/)
+[Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-4/)
 

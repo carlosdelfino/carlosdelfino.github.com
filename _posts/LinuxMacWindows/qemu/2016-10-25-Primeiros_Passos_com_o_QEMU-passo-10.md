@@ -1,6 +1,6 @@
 ---
 redirect_from:  "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-10/"
-title: "Primeiros Passos com o QEMU, parte 10" 
+title: "Primeiros Passos com o QEMU, Passo 10" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, pixman, xTensa, AVR]
 categories: [EmulacaoEVirtualizacao, QEMU, Compilando]
 layout: article
@@ -71,4 +71,4 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 
 
 
-[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-11)
+[Estamos trabalhando no passo 11.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11)

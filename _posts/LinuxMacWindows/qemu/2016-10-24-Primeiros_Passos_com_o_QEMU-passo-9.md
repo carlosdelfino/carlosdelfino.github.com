@@ -1,6 +1,6 @@
 ---
 redirect_from:  "/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-9/"
-title: "Primeiros Passos com o QEMU, parte 9" 
+title: "Primeiros Passos com o QEMU, Passo 9" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, SDL, Games, Hardware, OpenGL, DirectX, Mouse, Keyboard, Video, Simple Direct Media Layar, Joystick ]
 categories: [EmulacaoEVirtualizacao, QEMU, Compilando]
 layout: article
@@ -76,4 +76,4 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 ~/qemu-delfino/build/sdl $ make install
 ```
 
-[Pronto podemos partir agora para o próximo passo.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-parte-10/)
+[Pronto podemos partir agora para o próximo passo.](http://carlosdelfino.eti.br/emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-10/)

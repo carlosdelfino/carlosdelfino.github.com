@@ -1,5 +1,5 @@
 ---
-title: "Primeiros Passos com o QEMU, fase 2 - parte 1" 
+title: "Primeiros Passos com o QEMU, fase 2 - Passo 1" 
 tags: [Cortex-A, Cortex-53, RaspberryPI, Cortex-A53, NanoPI, FrendlyARM, ARM, Intel, TBB,  Emulação, Virtualização, KVM, QEMU, VMware, VirtualBox, VBox, Hiper-V, Xen, GNU ARM Eclipse, Eclipse, Windows, RTOS, uOS, imagens]
 categories: [EmulacaoEVirtualizacao, QEMU, Paths]
 layout: article
