@@ -50,6 +50,11 @@ layout: compress_html/compress
     </style>
 
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+{% if page.highlighter.css %}
+    <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}">
+{% elsif site.css.highlighter %}
+    <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
+{% endif %}
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>

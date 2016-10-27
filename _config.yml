@@ -14,8 +14,10 @@ logo: logo-fullservice-120x120.png
 teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
 charset: utf-8
+css:
+   highlighter: syntax.css
 #url: http://localhost:4000
-url: http://carlosdelfino.eti.br
+#url: http://carlosdelfino.eti.br
 #url: http://carlosdelfino.github.io/
 
 ads: true 
@@ -67,7 +69,7 @@ sass:
 permalink: /:categories/:title/
 
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 
 gems:
  - jekyll-feed	
@@ -87,6 +89,7 @@ gems:
  - RedCloth	
  - liquid	
  - rouge	
+ - pygments
  - jemoji	
  - html-pipeline	
  - sass	

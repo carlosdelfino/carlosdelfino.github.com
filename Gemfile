@@ -5,3 +5,5 @@ gem 'jekyll-gist'
 gem 'html-proofer'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'ffi'
+gem 'pygments.rb'
+gem 'rouge'
