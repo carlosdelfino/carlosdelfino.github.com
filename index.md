@@ -10,7 +10,17 @@ title: "Início"
 ---
 Seja Bem-Vindo!
 
-Abaixo estão listadas as últimas 20 publicações de meu site, para 
+<p>
+	<strong>
+		<center>
+	Para conhecer nosso Ambiente EAD, visite [http://arduino-minas.moodlecloud.com](http://arduino-minas.moodlecloud.com).
+		</center>
+	</strong>
+</p>
+
+<hr />
+
+Abaixo estão listadas as últimas 30 publicações de meu site, para 
  outras publicações visite o link [Categorias](/categorias/), ou 
 procure por "[tags](/tags)".  
 
@@ -18,7 +28,7 @@ procure por "[tags](/tags)".
 
 # Artigos 
 <div class="tiles">
-{% for post in site.posts limit:20 %}
+{% for post in site.posts limit:30 %}
    {% if post.feature.index %}   
       {% include post-grid.html %}	
    {% endif %}
