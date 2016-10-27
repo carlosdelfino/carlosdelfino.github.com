@@ -1,0 +1,24 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<br />
+
+
+{% if page.categories %}
+   {% for category in page.categories %}
+      {% assign categoryid = category %}
+      {% if post.feature.category %}
+         {% include glossary/grid.html %}
+      {% endif %}
+   {% endfor %}
+{% elsif page.category %} 
+   {% assign categoryid = page.category %}
+   {% for post in site.categories[categoryid] %}
+      {% if post.feature.category %}
+         {% include glossary/grid.html %}
+      {% endif %}
+   {% endfor %}
+{% endif %}
