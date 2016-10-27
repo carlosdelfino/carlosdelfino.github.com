@@ -22,7 +22,7 @@ coinbase:
 
 O GLib é uma biblioteca multiplataforma, é uma biblioteca de uso geral que disponibiliza vários tipos de dados, macros, funções para conversão de tipos, utilitários para manipulação de strings e de arquivos, um laço de eventos, além de outras implementações.
 
-<!--more-->>
+<!--more-->
 
 Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
 

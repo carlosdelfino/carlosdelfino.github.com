@@ -22,7 +22,7 @@ coinbase:
 
 Pixman é importante para o QEMU para manipular de pixels em imagens, fornecendo recursos para composição e rasterização de trapezoides. 
 
-<!--more->
+<!--more-->
 
 O Pixman é importante apenas para versões do qemu acima de 1.3.
 

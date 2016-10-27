@@ -19,10 +19,13 @@ tagcloud: true
 coinbase:
  show: true
 ---
-SDL de Simple DirectMedia Layer no inglês, é uma biblioteca cross-plataforma que permite o desenvolvimento de aplicações que acessam diretamente o hardware como áudio keyboard, mouse, joystick e gráficos via OpenGL ou Direct3D.
+
+SDL de Simple DirectMedia Layer no inglês, é uma biblioteca cross-plataforma 
+que permite o desenvolvimento de aplicações que acessam diretamente o hardware 
+como áudio keyboard, mouse, joystick e gráficos via OpenGL ou Direct3D.
 
 <!--more->
-
+	
 Este biblioteca é muito usada por softwares para exibição de vídeos, emuladores como o QEMU e jogos populares.
 
 Para compilar o SDL pode se obter o fonte de diversas formas, nos usaremos o nosso submódulo em nosso repositório, porém o oficial se encontra em um repositório baseado no Mercurial, uma ferramenta de controle de versão similar ao GIT `hg clone http://hg.libsdl.org/SDL`.

@@ -19,6 +19,9 @@ tagcloud: true
 coinbase:
  show: true
 ---
+Gerando um novo PKG-Config para nossa demanda.
+
+<!--more-->
 
 Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
 
