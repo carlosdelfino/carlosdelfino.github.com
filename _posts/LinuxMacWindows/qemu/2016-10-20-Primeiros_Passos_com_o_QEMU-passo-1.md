@@ -21,22 +21,40 @@ tagcloud: true
 coinbase:
  show: true
 ---
-Penso que o maior desafio para um programador C ou C++ é ter todos os ambientes que precisa disponíveis em sua máquina para compilar e testar seus programas, entenda todos os ambientes como múltiplos sistemas operacionais, múltiplas configurações e empacotamentos. Vamos ver então como fazer isso com o QEMU.
+Penso que o maior desafio para um programador C ou C++ é ter todos os ambientes 
+que precisa disponíveis em sua máquina para compilar e testar seus programas, 
+entenda todos os ambientes como múltiplos sistemas operacionais, múltiplas 
+configurações e empacotamentos. Vamos ver então como fazer isso com o QEMU.
 
 <!--more-->
 
-Bem eu escolhi o Fork do Liviu Ionescu para trabalhar com o QEMU, seu fork foi criado para permitir emular embarcados e microcontroladores baseados em Cortex-M, e gostei de seu trabalho. Com isso, desejo ampliá-lo para o Arduino DUE o que se tornou para mim um desafio, em especial para rodar seu Sistema Operacional em Tempo Real - RTOS para Cortex-M chamado &Mu;OS.
+Bem eu escolhi o Fork do Liviu Ionescu para trabalhar com o QEMU, seu fork foi 
+criado para permitir emular embarcados e microcontroladores baseados em Cortex-M, 
+e gostei de seu trabalho. Com isso, desejo ampliá-lo para o Arduino DUE o que se 
+tornou para mim um desafio, em especial para rodar seu Sistema Operacional em 
+Tempo Real - RTOS para Cortex-M chamado &Mu;OS.
 
-Minha intenção é gerar apenas o QEMU para trabalhar com a família Cortex, seja A ou M, e talvez R, a família Cortex-A eu vou focar no Cortex-A53 a Família Cortex-M eu irei focar no que precisar e principalmente no que faltar no trabalho do Liviu Ionesco. Se vier a trabalhar com o Cortex-R inicialmente pretendo focar no Cortex-R52. Para saber porque, me consulte através dos comentários.
+Minha intenção é gerar apenas o QEMU para trabalhar com a família Cortex, seja 
+A ou M, e talvez R, a família Cortex-A eu vou focar no Cortex-A53 a Família 
+Cortex-M eu irei focar no que precisar e principalmente no que faltar no trabalho 
+do Liviu Ionesco. Se vier a trabalhar com o Cortex-R inicialmente pretendo focar 
+no Cortex-R52. Para saber porque, me consulte através dos comentários.
 
-Conforme eu ampliar meu domínio sobre o QEMU principalmente em seu desenvolvimento, pretendo agregar o que tenho visto de melhor em outros Forks, inclusive AVR e xTensa, por hora estarei trabalhando também com:
+Conforme eu ampliar meu domínio sobre o QEMU principalmente em seu desenvolvimento, 
+pretendo agregar o que tenho visto de melhor em outros Forks, inclusive AVR e
+xTensa, por hora estarei trabalhando também com:
 
  * O origingal http://www.qemu.org
  * Fork do Liviu Ionesco: gnuarmeclipse.livius.net/qemu
  * Fork do Beckus para Cortex-M: git@github.com:beckus/qemu_stm32.git
  * Path AVR de Michael Rolnik e Richard Henderson: https://lists.nongnu.org/archive/html/qemu-devel/2016-09/msg03962.html
 
-Estarei dividindo as publicações sobre este trabalho em partes, conforme eu for tendo sucesso na geração de material, portanto não sei quantas partes terei, mas a primeira será introdutória e como gerar o QEMU para o Windows diretamente do fonte usando o MSYS2.
+Os procesadores intel e emulação de pc serão usadas para testes com o Linux.
+
+Estarei dividindo as publicações sobre este trabalho em partes, conforme eu for 
+tendo sucesso na geração de material, portanto não sei quantas partes terei, mas 
+a primeira será introdutória e como gerar o QEMU para o Windows diretamente dom o
+fonte usando o MSYS2.
 
 ## O que é exatamente o QEMU
 
@@ -48,23 +66,44 @@ Em tradução livre:
 
 > QEMU é um emulador de processador RÁPIDO! que usa tradução dinâmica para atingir boa velocidade de emulação.
 
-O QEMU tem dois modos de operação, um onde emula um sistema completo, como um computador, sendo todos os dispositivos de entrada e saída, acesso a memória. Neste modo podemos rodar um sistema operacional por completo dentro de outro sistema, por exemplo rodar o Linux dentro do Windows.
+O QEMU tem dois modos de operação, um onde emula um sistema completo, como um 
+computador, sendo todos os dispositivos de entrada e saída, acesso a memória. 
+Neste modo podemos rodar um sistema operacional por completo dentro de outro 
+sistema, por exemplo rodar o Linux dentro do Windows.
 
-No segundo modo, o QEMU funciona em modo de emulação, ele emula apenas o processador, sendo usado para rodar uma aplicação como o Wine que permite executar aplicativos Windows dentro do Linux.
+No segundo modo, o QEMU funciona em modo de emulação, ele emula apenas o processador, 
+sendo usado para rodar uma aplicação como o Wine que permite executar aplicativos 
+Windows dentro do Linux.
 
-O QEMU é muito interessante tanto pela sua simplicidade de operação, um simples comando com varias diretivas que permitem carrarmos imagens e simularmos HD para armazenarmos dados, além de bastante dinâmico é bem rápido.
+O QEMU é muito interessante tanto pela sua simplicidade de operação, um simples 
+comando com varias diretivas que permitem carrarmos imagens e simularmos HD para 
+armazenarmos dados, além de bastante dinâmico é bem rápido.
 
-O principal uso que darei ao QEMU é fazer testes unitários e de sistema usando ambiente como o Trevis para testar códigos em diversos ambientes, já que o Trevis roda especificamente Linux, eu preciso do QEMU para simular um Cortex-M como o usado no Arduino DUE ou mesmo um Cortex-A como usado no NanoPI, em especial estarei usando imediatamente com o "Contador de Ciclistas"
+O principal uso que darei ao QEMU é fazer testes unitários e de sistema usando 
+ambiente como o Trevis para testar códigos em diversos ambientes, já que o Trevis 
+roda especificamente Linux, eu preciso do QEMU para simular um Cortex-M como o 
+usado no Arduino DUE ou mesmo um Cortex-A como usado no NanoPI, em especial 
+estarei usando imediatamente com o "Contador de Ciclistas"
 
 ## Algumas dicas de sucesso para estes passos.
 
-Primeiro você deve seguir atentamente cada orientação dada nestes passos. A cada parte do processo você deve observar se o passo anterior não influência no atual, evitando assim que um erro vá causar um problema no final da compilação em um passo a frente.
+Primeiro você deve seguir atentamente cada orientação dada nestes passos. A 
+cada parte do processo você deve observar se o passo anterior não influência no 
+atual, evitando assim que um erro vá causar um problema no final da compilação 
+em um passo a frente.
 
-As variáveis exportadas são o maior causador de problemas, procure ter cuidado ao definir as variáveis e veja se não há alguma dependência com alguma variável definida anteriormente.
+As variáveis exportadas são o maior causador de problemas, procure ter cuidado 
+ao definir as variáveis e veja se não há alguma dependência com alguma variável 
+definida anteriormente.
 
-Não crie diretórios usando nomes com espaços, caracteres especiais e muito menos com caminhos muito extensos, isso pode se virar contra você na hora de buscar soluções para problemas.
+Não crie diretórios usando nomes com espaços, caracteres especiais e muito menos 
+com caminhos muito extensos, isso pode se virar contra você na hora de buscar 
+soluções para problemas.
 
-Fique atento ao `PATH` configurado, procure observar se os comandos que estão sendo executados são na versão esperada e para o **target** desejado. Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo a não ser quando orientado do contrário:
+Fique atento ao `PATH` configurado, procure observar se os comandos que estão 
+sendo executados são na versão esperada e para o **target** desejado. 
+Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo 
+a não ser quando orientado do contrário:
 
 ```sh
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
@@ -72,13 +111,20 @@ Fique atento ao `PATH` configurado, procure observar se os comandos que estão s
 ~/qemu-delfino/ $ export PATH
 ```
 
-Fique atento as redefinições de variáveis, de um passo para outro uma variável que define diretivas de compilação podem mudar, ou mesmo serem apagadas.
+Fique atento as redefinições de variáveis, de um passo para outro uma variável 
+que define diretivas de compilação podem mudar, ou mesmo serem apagadas.
 
-Fique atento com o diretório onde o comando deve ser executado, comandos como `git`, `hg`, `autogen.sh`, `autoreconf`, `configure`, `make` outros ligados ao GCC, devem ser executados exatamente no diretório indicado, se não será falta.
+Fique atento com o diretório onde o comando deve ser executado, comandos como 
+`git`, `hg`, `autogen.sh`, `autoreconf`, `configure`, `make` outros ligados ao 
+GCC, devem ser executados exatamente no diretório indicado, se não será fatal.
 
-Procure fazer sempre backup da pasta antes de fazer qualquer alteração em sua estrutura, e evite alterar arquivos a não ser que seja explicitamente indicado.
+Procure fazer sempre backup da pasta antes de fazer qualquer alteração em sua 
+estrutura, e evite alterar arquivos a não ser que seja explicitamente indicado.
 
-Fique atento toda as dicas estão sendo feitas considerando que tem uma maquina Windows com 64 Bits e rodando o Mingw, a pasta de instalação dos binários gerados será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas abaixo no configure a não ser quando informado o contrário:
+Fique atento toda as dicas estão sendo feitas considerando que tem uma maquina 
+Windows com 64 Bits e rodando o Mingw, a pasta de instalação dos binários gerados 
+será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas abaixo 
+no configure a não ser quando informado o contrário:
 
 ```sh
 ../../glib/configure \
@@ -92,23 +138,36 @@ Em caso de dúvida use os comentários de cada passo para esclarecer sua dúvida
 
 ## Começando a preparara para compilar meu primeiro QEMU
 
-Você não precisa compilar seu QEMU na internet você irá encontrar versões prontas para windows e Linux, tanto do QEMU original como Forks como o disponibilizado pelo Liviu Ionesco.
+Você não precisa compilar seu QEMU, na internet você irá encontrar versões prontas 
+para windows e Linux, tanto do QEMU original como Forks como o disponibilizado 
+pelo Liviu Ionesco.
 
-Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei usar como referência meu fork que é baseado no trabalho do Livius, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
+Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei 
+usar como referência para o meu fork que é baseado no trabalho do Livius e no 
+fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
 
-O primeiro passo é instalar o MSYS em seu computador, baixe a ferramenta do link: https://msys2.github.io/, escolha o pacote conforme sua plataforma.
+## Instalando o Msys2
 
-Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de comandos para atualizá-lo, em cada comando reinicialize o shell.
+O primeiro passo é instalar o MSYS2 em seu computador, baixe a ferramenta do 
+link: https://msys2.github.io/, escolha o pacote conforme sua plataforma.
+
+Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de 
+comandos para atualizá-lo, em cada comando reinicialize o shell.
 
     $ pacman -Sy pacman
 	$ pacman -Syu
 	$ pacman -Su
 
-Você verá algumas mensagens, informando que estão sendo baixados e instalados alguns pacotes,  e ficará claro que tudo deu certo ou algo deu errado, neste ultimo caso entre em contato comigo pelos comentários.
+Você verá algumas mensagens, informando que estão sendo baixados e instalados 
+alguns pacotes,  e ficará claro que tudo deu certo ou algo deu errado, neste 
+último caso entre em contato comigo pelos comentários.
 
-vamos precisar do ToolChain completo para compilar em C/C++ para 64Bits, assim vou escolher instalar o pacote `git`, `mingw-w64-x86_64-toolchain`, `mingw64/mingw-w64-x86_64-glib2`, entre outros e todas as dependências
+vamos precisar do ToolChain completo para compilar em C/C++ para 64Bits, assim 
+vou escolher instalar o pacote `git`, `mingw-w64-x86_64-toolchain`, 
+`mingw64/mingw-w64-x86_64-glib2`, entre outros e todas as dependências.
 
-Veja que estou usando os pacotes para plataforma 64bits x86 `x86_64`, se deseja instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
+Veja que estou usando os pacotes para plataforma 64bits x86 `x86_64`, se deseja 
+instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
 
 Digite o comando
 
@@ -132,9 +191,9 @@ Digite o comando
 		mingw-w64-x86_64-toolchain 
 ```
 
-e receberá uma mensagem similar a esta abaixo:
+E receberá uma mensagem similar a esta abaixo:
 
-```
+```sh
 	:: Há 16 membros no grupo mingw-w64-x86_64-toolchain:
 	:: Repositório mingw64
 	   1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git  3) mingw-w64-x86_64-gcc
@@ -146,7 +205,9 @@ e receberá uma mensagem similar a esta abaixo:
 
 	Digite uma seleção (padrão=todos):
 ```
-Então apenas tecle enter e logo a seguir receberá a lista do que será instalado no meu caso apresentou a seguinte lista:
+
+Então apenas tecle enter e logo a seguir receberá a lista do que será instalado 
+no meu caso apresentou a seguinte lista:
 
     atenção: mingw-w64-x86_64-binutils-2.27-2 está atualizado -- reinstalando
     atenção: mingw-w64-x86_64-crt-git-5.0.0.4745.d2384c2-1 está atualizado -- reinstalando
@@ -189,7 +250,9 @@ Então apenas tecle enter e logo a seguir receberá a lista do que será instala
 
 Basta teclar [enter] novamente e esperar o termino da instalação:
 
-**ATENÇÃO:** Se receber uma mensagem informando algo relativo a diretório `/mingw32` ou /mingw64` basta criar este diretório no raiz. a mensagem é similar a apresentada abaixo:
+**ATENÇÃO:** Se receber uma mensagem informando algo relativo a diretório `/mingw32` 
+ou /mingw64` basta criar este diretório no raiz. a mensagem é similar a apresentada 
+abaixo:
 
 	erro: falha em submeter a transação (arquivos conflitantes)
 	mingw-w64-i686-libiconv: /mingw32 existe no sistema de arquivos
@@ -197,7 +260,10 @@ Basta teclar [enter] novamente e esperar o termino da instalação:
 
 Repita então o processo de instalação depois de criado os diretórios.
 
-Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá selecionar instalar um deles, e repetir o processo, ou mesmo repetir o processo fazendo referência direta a cada pacote, só deve tomar cuidado para não esquecer nada, você vai precisar nó minimo dos pacotes que instalam:
+Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá 
+selecionar instalar um deles, e repetir o processo, ou mesmo repetir o processo 
+fazendo referência direta a cada pacote, só deve tomar cuidado para não esquecer 
+nada, você vai precisar nó minimo dos pacotes que instalam:
 
  * ncurses
  * readline
@@ -218,10 +284,10 @@ Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá
  * bison
  * e muitos outros
 
-Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta para lhe ajudar a instalar tudo que precisa no MSYS2.
-
-
+Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta 
+para lhe ajudar a instalar tudo que precisa no MSYS2.
 
 ## Próximo passo
 
-Pronto estamos preparados para começar a compilação do QEMU (começar), [veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/).
+Pronto estamos preparados para começar a compilação do QEMU (começar!), 
+[veja como fazê-lo na segunda parte deste tutorial](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/).
