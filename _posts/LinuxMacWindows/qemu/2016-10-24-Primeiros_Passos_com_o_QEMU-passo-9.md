@@ -24,7 +24,7 @@ SDL de Simple DirectMedia Layer no inglês, é uma biblioteca cross-plataforma
 que permite o desenvolvimento de aplicações que acessam diretamente o hardware 
 como áudio keyboard, mouse, joystick e gráficos via OpenGL ou Direct3D.
 
-<!--more->
+<!--more-->
 	
 Este biblioteca é muito usada por softwares para exibição de vídeos, emuladores como o QEMU e jogos populares.
 
