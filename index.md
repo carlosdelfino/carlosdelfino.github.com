@@ -13,7 +13,8 @@ Seja Bem-Vindo!
 <p>
 	<strong>
 		<center>
-	Para conhecer nosso Ambiente EAD, visite [http://arduino-minas.moodlecloud.com](http://arduino-minas.moodlecloud.com).
+	Para conhecer nosso Ambiente EAD, visite 
+	<a href="http://arduino-minas.moodlecloud.com">http://arduino-minas.moodlecloud.com</a>.
 		</center>
 	</strong>
 </p>
