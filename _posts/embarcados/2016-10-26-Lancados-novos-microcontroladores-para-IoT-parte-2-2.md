@@ -130,20 +130,20 @@ O NVIC pode ser configurado para suportar até 480 interrupções externas com a
 <img src="/images/arm/Cortex-M33-Arquitetura-800x846.png" alt="Arquitetura em Blocos do Cortex-M33"/>
 <figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
 </figure>
-<ul>
-	<li>[MPU Memory Protection Unit](/arm/tecnologias/MPU)</li>
-	<li>[DSP Digital Signal processing](/arm/tecnologias/DSP]</li>
-	<li>[FPU Floating Point Unit](/arm/tecnologias/FPU]</li>
-	<li>[SP Single Precision](/arm/tecnologias/SP]</li>
-	<li>[ETM Embedded Trace Macrocell](/arm/tecnologias/ETM</li>
-	<li>[MTB Micro Trace Buffer](/arm/tecnologias/MTB]</li>
-	<li>[BPU Break Point unit](/arm/tecnologias/BPU]</li>
-	<li>[DWT Data Watch and Trace Unit](/arm/tecnologias/DWT]</li>
-	<li>[ITM Instrumentation Trace Macrocell](/arm/tecnologias/ITM]</li>
-	<li>[NVIC Nested Vectored Interrupt Controller](/arm/tecnologias/NVIC]/</li>
-	<li>[WIC Wake-up Interrupt Controller](/arm/tecnologias/WIC]</li>
-	<li>[AHB Advanced High Performance Bus](/arm/tecnologias/AHB]</li>
-	<li>[AMBA Advanced Microcontroller Bus Architecture](/arm/tecnologias/AMBA]</li>
+
+ * [MPU Memory Protection Unit](/arm/tecnologias/MPU)
+ * [DSP Digital Signal processing](/arm/tecnologias/DSP)
+ * [FPU Floating Point Unit](/arm/tecnologias/FPU)
+ * [SP Single Precision](/arm/tecnologias/SP)
+ * [ETM Embedded Trace Macrocell](/arm/tecnologias/ETM)
+ * [MTB Micro Trace Buffer](/arm/tecnologias/MTB)
+ * [BPU Break Point unit](/arm/tecnologias/BPU)
+ * [DWT Data Watch and Trace Unit](/arm/tecnologias/DWT)
+ * [ITM Instrumentation Trace Macrocell](/arm/tecnologias/ITM)
+ * [NVIC Nested Vectored Interrupt Controller](/arm/tecnologias/NVIC)
+ * [WIC Wake-up Interrupt Controller](/arm/tecnologias/WIC)
+ * [AHB Advanced High Performance Bus](/arm/tecnologias/AHB)
+ * [AMBA Advanced Microcontroller Bus Architecture](/arm/tecnologias/AMBA)
 </ul>
 
 Com o TrustZone o Cortex-M33 tem dois estados de segurança, mais dois estados
@@ -160,17 +160,16 @@ programadores já o fazem nos atuais microcontroladores Cortex-M.
 </figure>
 
 <ul>
-	<li>Secure state</li>
-	<li>Non-secure state</li>
-	<li>Quatro stacks e quatro registradores para ponteiros de stack</li>
-	<li>Hardware stack-limit checking</li>
-	<li>Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit</li>
-	<li>Interface para sistema de indicação de segurança</li>
-	<li>Visibility of secure code from non-secure (NS) domain restricted to predefined entry points</li>
-	<li>Exception hardware automatically saves and clears secure register state when switching to non-secure</li>
-	<li>Extensive banking of interrupt or exception control, SysTick</li>
-	<li>Memory protection unit for each of the secure and non-secure side</li>
-</ul>
+ * Secure state
+ * Non-secure state
+ * Quatro stacks e quatro registradores para ponteiros de stack
+ * Hardware stack-limit checking
+ * Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit
+ * Interface para sistema de indicação de segurança
+ * Visibility of secure code from non-secure (NS) domain restricted to predefined entry points
+ * Exception hardware automatically saves and clears secure register state when switching to non-secure
+ * Extensive banking of interrupt or exception control, SysTick
+ * Memory protection unit for each of the secure and non-secure side
 
 O Cortex-M33 tem uma interface para coprocessador fortemente acoplada com um barramento 
 para instruções e outro para dados, o que permite a transferência simultânea para
