@@ -1,21 +1,36 @@
+{% if site.size.tags.excerpt %}
+    {% assign size = site.size.tags.excerpt %}
+{% else %}
+    {% assign size = 300 %}
+{% endif %}
+{% if site.size.tags.title %}
+    {% assign sizetitle = site.size.tags.title %}
+{% else %}
+    {% assign sizetitle = 60 %}
+{% endif %}
+{% if site.size.tags.name %}
+    {% assign sizetagname = site.size.tags.name %}
+{% else %}
+    {% assign sizetagname = 22 %}
+{% endif %}
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 	<!-- begin tags -->	
 	<div class="box">
-{% assign tagname = tag | first | downcase | strip | remove:'"' | cgi_escape %}
-{% assign tagid = tagname | remove:' ' | remove:'-' %}
+{% assign tagname = tag | first | strip | remove:'"' %}
+{% assign tagid = tagname | downcase | cgi_escape | remove:' ' | remove:'-' %}
 {% assign tagdetail = site.data.tags[tagid] %} 
 {% if tagdetail %}
-	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}}
+	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
 {% endif %}
 		<h5><a id="tag_{{ tagid }}" 
-				name="{{ tagid }}" >{{ tagname }}</a> </h5>
+				name="{{ tagid }}" >{{ tagname | truncate: sizetagname }}</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
    {% for post in posts %}
       {% if post.url %}
 			<li><a href="{{ post.url }}" 
-				title="{{ post.excerpt }}">
+				title="{{ post.excerpt | truncate: sizetitle }}">
 				{{ post.title }} | 
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>

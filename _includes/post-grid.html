@@ -1,3 +1,13 @@
+{% if site.size.post.excerpt %}
+    {% assign size = site.size.post.excerpt %}
+{% else %}
+    {% assign size = 300 %}
+{% endif %}
+{% if site.size.post.title %}
+    {% assign sizetitle = site.size.post.title %}
+{% else %}
+    {% assign sizetitle = 60 %}
+{% endif %}
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
@@ -20,7 +30,7 @@
 {% endif %}
   </a>
   {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
-  <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 220 }}</p>
+  <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title | truncate: sizetitle }}</a></h2>
+  <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: size }}</p>
 </article>
 <!-- /.tile -->

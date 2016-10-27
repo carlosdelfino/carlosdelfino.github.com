@@ -1,3 +1,75 @@
+dtn:
+   name: Delay/Disruption Tolerant Network
+
+introducao:
+   name: Introdução
+   
+cplusplus:
+   name: C++
+
+html:
+   name: HTML
+   
+javascript:
+   name: JavaScript
+
+processadores:
+   name: Processadores
+   
+autores:
+   name: Autores
+   
+consultoria:
+   name: Consultoria
+   
+e-learning:
+   name: "e-Learning"
+ 
+suporte:
+   name: "Suporte"
+   
+redes:
+   name: Redes
+
+java:
+   name: Java
+   
+infraestrutura:
+   name: Infraestrutura
+
+assembly:
+   name: Assembly
+   
+pesquisa:
+   name: Pesquisa
+   
+sistemaoperacional:
+   name: "Sistema Operacional"
+
+matematica:
+   name: "Matemática"
+dicas:
+   name: "Dicas"
+grupos:
+   name: "Grupos"
+mercosul:
+   name: "Mercosul"   
+internet:
+   name: Internet
+   
+irc:
+   name: IRC
+   excerpt: "Internet Relay Chat"
+   
+extra:
+   name: Extra
+   
+redesneurais:
+   name: "Redes Neurais"   
+   
+geoprocessamento:
+   name: "Geo Processamento"
+
 emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o:
    name: Emulação e Virtualização
    aliases: ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao] 
@@ -149,23 +221,32 @@ ascii:
 nivel_1:
    name: "Nível 1"
    alias: ["Nível 01", "Nível 1", Nivel 01", Nivel 1"]
+   noshow: true
    
 nivel_2:
    name: "Nível 2"
    alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
+   noshow: true
    
 N%C3%ADvel2:
    name: "Nível 2"
    alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
+   noshow: true
 
 nivel_3:
    name: "Nível 3"
    alias: ["Nível 03", "Nível 3", Nivel 03", Nivel 3"]
+   noshow: true
    
 nivel_4:
    name: "Nível 4"
    alias: ["Nível 04", "Nível 4", Nivel 04", Nivel 4"]
+   noshow: true
    
 C_Cplusplus:
+   name: "C/C++"
+   alias: [CCplusplus, "C C++", "C/Cplusplus"] 
+
+ccplusplus:
    name: "C/C++"
    alias: [CCplusplus, "C C++", "C/Cplusplus"] 
