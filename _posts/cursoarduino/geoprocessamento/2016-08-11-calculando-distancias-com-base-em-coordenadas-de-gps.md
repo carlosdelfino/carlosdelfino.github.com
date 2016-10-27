@@ -14,18 +14,29 @@ tagcloud: true
 ads:
  show: true
 image:
-  teaser: cursoarduino/geoprorcessamento/GPS_UP501_teaser.jpg
-  feature: cursoarduino/geoprorcessamento/GPS_UP501_feature.jpg
+  teaser: cursoarduino/geoprocessamento/GPS_UP501_teaser.jpg
+  feature: cursoarduino/geoprocessamento/GPS_UP501_feature.jpg
 math:
    enable: true
    align: "left"
 ---
 
-O primeiro conceito que é preciso conhecer e entender bem para se converter pares de coordenadas de um GPS para distâncias em quilômetros é a Milha Náutica que tem como simbolo comum `NM` quem vem do inglês **Nautical Miles**.
+O primeiro conceito que é preciso conhecer e entender bem para se converter 
+pares de coordenadas de um GPS é a Milha Náutica*.
 
 <!--more-->
 
-A milha náutica é o equivalente a 1' (um minuto) no grande circulo terrestre, ou seja considerando que se está no equador e que se movimente a fração de angulo de 1' (um minuto) sobre o mar em direção sul ou norte, terá andando uma milha náutica, portanto: `1' = 1NM`. Na Inglaterra e Estado Unidos, apesar de não ser um sistema aceito oficialmente pelos órgãos normativos internacionais, ainda é usado uma medida chamada Milhas Terrestres, este sistema foi baseado na medida Romana de distância, onde 1000 passos dados por um centurião (Comandante de uma Milicia Romana), ou seja Mile Passus, passos que eram duplos com relação aos nossos passos normais e mediam o equivalente a 63360 polegadas, o que em metros mede 1851,85 metros, arredondando temos então 1852Mt.
+A milha náutica, que tem como simbolo comum `NM` do inglês **Nautical Miles*,
+é o equivalente a 1' (um minuto) no grande circulo terrestre, ou seja
+considerando que se está no equador e que se movimente a fração de angulo de 
+1' (um minuto) sobre o mar em direção sul ou norte, terá andando ma milha 
+náutica, portanto: `1' = 1NM`. Na Inglaterra e Estado Unidos, apesar de não ser 
+um sistema aceito oficialmente pelos órgãos normativos internacionais, ainda é 
+usado uma medida chamada Milhas Terrestres, este sistema foi baseado na medida 
+Romana de distância, onde 1000 passos dados por um centurião (Comandante de uma 
+Milicia Romana), ou seja Mile Passus, passos que eram duplos com relação aos 
+nossos passos normais e mediam o equivalente a 63360 polegadas, o que em metros 
+mede 1851,85 metros, arredondando temos então 1852Mt.
 
 A Milha Náutica foi baseada em princípios científicos, baseada na curvatura da terra qualquer linha a contorná-la terá 360 graus. A linha do Equador mede aproximadamente 40000Km a medida feita por [Eratostenes]({% post_url 2016-08-11-eratostenes %}) em 240 A.E.C., hoje a ciência comprovou que a medida não é muito distante, sendo 40072Km. Dividindo então esta linha por 360 graus, depois por 60 minutos e finalmente por 60 segundos (360° equivale a 60' - minutos), teremos então a distância aproximada de de 1851,85 mt para cada arco minuto (1').
 
@@ -62,14 +73,17 @@ Vamos começar fazendo o calculo de distância entre dois pontos de forma simple
 
 Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latitude, chamamos esta variação de DLA (Distancia Latitudinal).
 
-Então aplicamos a fórmula para descobrir o **DLA**, onde **LA_F** é a *Latitude Final*, e **LA_I** é a *Latitude Inicial*:
+Então aplicamos a fórmula para descobrir o **DLA**, onde **LA_F** é a 
+*Latitude Final*, e **LA_I** é a *Latitude Inicial*:
 
 Para medidas em graus decimais:
+
 $$
 DLA = | LA_F - LA_I |
 $$
 
 Pra medidas em graus padrão:
+
 $$
 DLA = | (LAG_F * 60) + LAM_F + (LAS_F / 60) - (LAG_I * 60) + LAM_I + (LAS_I / 60) |
 $$
@@ -160,7 +174,7 @@ Coordenadas do Estádio Castelão em Fortaleza, CE, a imagem ao lado permite vis
 </figcaption>
 </figure>
 
-### Calculo para Grandes Distâncias
+### Cálculo para Grandes Distâncias
 
 Iremos ver agora como proceder o calculo para grandes distancias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
 
