@@ -22,6 +22,8 @@ coinbase:
 
 Agora iremos obter uma biblioteca muito importante para as duas seguintes, ela é base para LibIconv e GetText. Iremos também compilar já a Libiconv.
 
+<!--moe-->
+
 ### Compilando a biblitoeca GnuLib
 
 GNULib não precisa ser compilada basta baixaremos apenas como um módulo do meu repositório como já informei.

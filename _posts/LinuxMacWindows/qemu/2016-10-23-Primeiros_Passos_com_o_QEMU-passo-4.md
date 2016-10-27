@@ -21,6 +21,8 @@ coinbase:
 ---
 Vamos agora compilar a biblioteca zlib, responsável por nos fornecer a API para compactação e descompactação de dados, como usado no ZIP, BZIP e GZip.
 
+<!--more-->
+
 ### Compilando a biblioteca zlib
 
 A biblioteca zlib é importante para lidar com arquivos compactados, ela é importante para o QEMU diretamente.

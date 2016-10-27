@@ -22,6 +22,8 @@ coinbase:
 
 Bem, fiz todos os testes necessários para se ter sucesso com o GetText, segui alguns caminhos não foram bons e isso é um aprendizado muito valioso, pois permite entendermos como tudo é feito e como deve realmente ser feito.
 
+<!--more-->
+
 ### Compilando a Biblioteca gettext
 
 O Gettext é uma biblioteca muito útil para internacionalização da aplicação, com ela podemos ter as mensagens de nossa aplicação traduzidas para diversos idiomas de uma forma bem fácil e simples.
