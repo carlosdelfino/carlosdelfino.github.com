@@ -2,8 +2,8 @@
 layout: post
 title: "Lançados novos Microcontroladores para IoT - Parte 2/2"
 date: "2016-10-26 09:14:56 -0300"
-tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, CortexM0+, Cortex-M1, Cortex-M23, Cortex-M33,
-Cortex-M3, Cortex-M4 e Cortex-M7]
+tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, Cortex-M0+, Cortex-M1, Cortex-M23, Cortex-M33,
+Cortex-M3, Cortex-M4, Cortex-M7, AMBA]
 categories: [ARM, Cortex-M, IoT]
 share: true
 toc: true
@@ -19,16 +19,17 @@ image:
   feature: arm/emabarcados-inteligentes-usando-cortex-m.png
 ---
 
-Continuaremos aqui vendo em mais detalhes os dois novos microcontroladores da família
-Cortex-M.
+Continuamos neste parte dando mais detalhes sobre os dois novos microcontroladores
+da família Cortex-M.
 
 <!--more-->
 
 ## O Cortex-M23
 
-O microcontroladores que foram Cortex-M23 serão fabricados para atender a demanda
-de microcontroladores de pequeno tamanho, baixo consumo de energia, e alta eficiência
-em código, sem deixar de lado a segurança provida pela tecnologia TrustZone.
+O microcontroladores que adotarem o modelo Cortex-M23 serão fabricados para 
+atender a demanda de microcontroladores de pequeno tamanho, baixo consumo de 
+energia, e alta eficiência em código, sem deixar de lado a segurança provida 
+pela tecnologia TrustZone.
 
 <figure>
 <img src="/images/arm/Cortex-M23-400x270.png" alt="Cortex-M23"/>
@@ -36,30 +37,34 @@ em código, sem deixar de lado a segurança provida pela tecnologia TrustZone.
 </figure>
 
 Nos outros microcontroladores Cortex-M era necessário ter pelo dois núcleos para 
-se atingir estados de segurança separados, separando assim cada processador um 
-executando o código confiável, e o outro executando o código inseguro, tendo assim
-uma separação fisica e honerosa para o microcontrolador.
+se atingir estados de segurança separados, assim cada processador executava um
+perfil de código, o código confiável era executado em um processador e o outro 
+executando o código inseguro, tendo assim uma separação fisica e honerosa para 
+o microcontrolador.
 
-No Cortex-M23 com o uso do TrustZone há dois estados de segurança:
+No Cortex-M23 com o uso do TrustZone há dois estados de segurança, mesmo que 
+tenhamos apenas um core no microcontrolador:
 
- * Estado seguro - que pode ser acessado que pode acessar tanto recursos seguros 
-   como não seguros (mémorias, periféricos e etc)
+ * Estado seguro - que pode pode acessar tanto recursos seguros 
+   como não seguros (sejam eles: mémorias, periféricos e etc)
  * Estado Não seguro - que somente acessa recursos nãos seguros
 
-A trasição de execução do código e dados nos dois estados é policiado pelo hardware
-minimizando o overhead de troca entre estados e garantindo o determinismo.]
+A transição de execução do código e dados nos dois estados é policiado pelo 
+hardware minimizando o overhead de troca entre estados e garantindo o determinismo.
 
 Um fato interessante no Cortex-M23 é o fato dele adotar a arquitetura Von-Neumann
-com um pipeline de dois estágios, mantendo a compátibilidade com o ISA do Cortex-M0+,
-aceitando todas as instruções 16 bits por ele usadas. Adicionando algumas instruções
-32 bits que trazem ganho de eficência em especial em operações condicionais, acesso 
-muamente exclusivo e operações de divisão por hardware, movimentação imediata. Sendo
-assim todo conjunto de instruções ARMv6-M, usadas no Cortex-M0 e Cortex-M0+ são 
-compátiveis podendo o codígo ser migrado diretamente de um processador para o outro.
+com um pipeline de dois estágios, mantendo a compatibilidade com o ISA do 
+Cortex-M0+. Aceitando todas as instruções 16 bits já oferecidas no Cortex-M0+,
+adicionando algumas instruções 32 bits que trazem ganho de eficência em especial 
+em operações condicionais, acesso mutiamente exclusivo e operações de divisão por 
+hardware, movimentação imediata. Sendo assim todo conjunto de instruções ARMv6-M, 
+usadas no Cortex-M0 e Cortex-M0+ são compátiveis podendo o codígo ser migrado 
+diretamente do processador anterior para o novo.
 
-Quem é familiarizado com o Cortex-M0+ como or exemplo quem usa o Arduino Zero Pro.
-Poderá migrar seus códigos diretamente para outro ARduino que use o Cortex-M23 sem
-perceber diferenças no funcionamento. Mais ainda para os fabricantes do Arduino.
+Quem é familiarizado com o Cortex-M0+ como por exemplo quem usa o Arduino Zero 
+Pro. Poderá migrar seus códigos diretamente para outro Arduino que venha a usar 
+o Cortex-M23 sem perceber diferenças no funcionamento, porém com aumento de 
+desempenho. Sendo melhor aproveitado pelos fabricantes do Arduino.
 
 No que tange a depuração e rastreio de dados no microcontrolador foi adotado de 
 forma opcional o Embedded Trace Macrocell além do Micro Trace Buffer (MTB) que
@@ -67,8 +72,8 @@ forma opcional o Embedded Trace Macrocell além do Micro Trace Buffer (MTB) que
 funcionalidades de rastreamento ou um custo mais efetivo.
 
 O novo modelo de proteção de memória, Memory Protection Unity (MPU) foi baseado
-no PMSAv8 que foi adicionado de forma opcional, permitindo proteger até 16 regiões
-para cada estado de segurança do processador.
+no PMSAv8 que foi adicionado de forma opcional, permitindo proteger até 16 
+regiões para cada estado de segurança do processador.
 
 Em sistemas multitarefa, durante a troca de contextos as regiões podem ser 
 reprogramadas para cada tarefa.
@@ -82,32 +87,31 @@ A arquitetura de proteção de memória do Cortex-M23 adota um estílo de compar
 de limites para definir a região de memória, em oposição ao estilo anterior com 
 tamanho baseado na potência de dois e esquema de alinhamento por tamanho. Esta
 nova melhoria simplifica o desenvolvimento de software, e em alguns casos, reduz 
-a perda de memória por demandas que não se encaixam perfeitamene no tamanho equivalente
-na potência de 2.
+a perda de memória por demandas que não se encaixam perfeitamene no tamanho 
+equivalente na potência de 2.
 
 As instruções do Cortex-M23 foram extendida sem que se perdesse sua caracterisca
-relativa a baixo perfil de consumo de energia, ampliando o perfil ARMv6-M e adotando
-algumas instruções do ARMv7-M, com exceção da sisntruções relativas ao TrustZone. 
+relativa a baixissimo consumo de energia, ampliando o perfil ARMv6-M e adotando
+algumas instruções do ARMv7-M, com exceção das instruções relativas ao TrustZone. 
 
-Instruções para carga e amazenamento de dados de form aexclusiva do ARMv7-M foram
+Instruções para carga e amazenamento de dados de forma exclusiva do ARMv7-M foram
 adicionadas pra melhorar a consitência da arquitetura do Cortex-M23 em sistemas
 multicore onde semaforos entre processadores pode ser manipulados com o mesmo 
 mecanismo. Além disso, foi melhorado o suporte a atomicidade para linguagem
 C11/C++11, as instruções load-acquire e store-release são incluidas do ARMv8-A 
-(versão Thumb 32), incluindo uma vaiação de acesso exclusivo para estas instruções.
-
-
+(versão Thumb 32), incluindo uma variação de acesso exclusivo para estas instruções.
 
 ## Cortex-M33
 
 O Cortex-M33 é uma implementação completa do ARMv8-M, além do TrustZone tem 
-também a implementação para manipulação de sinais digitais, DSP. Este processador
-tem diversas possibilidades de configuração, além de permitir coprocessadores
-através de usa interface especializada para soluções que demandam grande procesamento
-computacional.
+também uma extenção para manipulação de sinais digitais, DSP. Este processador
+tem diversas possibilidades de configuração, permitindo aos  coprocessadores,
+através de usa interface especializada para soluções que demandam grande 
+procesamento computacional.
 
-O Cortex-M33 é uma excelente escolha entre Performance, consumo de energia, segurança,
-e produtividade para sistemas embarcados relacionados a IoT e SoCs complexos.
+O Cortex-M33 é uma excelente escolha entre Performance, consumo de energia, 
+segurança e produtividade para sistemas embarcados relacionados a IoT e SoCs 
+complexos.
 
 
 <figure>
@@ -115,9 +119,9 @@ e produtividade para sistemas embarcados relacionados a IoT e SoCs complexos.
 <figcaption>Cortex-M33</figcaption>
 </figure>
  
-O Cortex-M33 tem um pipeline de 3 estágios com o objetivo de manter seu consumo de
-energia baixo, muitas instruções são executadas em apenas dois estágios, já outras
-demandam os 3 estágios para completarem.
+O Cortex-M33 tem um pipeline de 3 estágios com o objetivo de manter seu consumo 
+de energia baixo, muitas instruções são executadas em apenas dois estágios, já 
+outras demandam os 3 estágios para completarem.
 
 O NVIC pode ser configurado para suportar até 480 interrupções externas com até
 256 níveis de prioridades.
@@ -127,25 +131,25 @@ O NVIC pode ser configurado para suportar até 480 interrupções externas com a
 <figcaption>Arquitetura em Blocos do Cortex-M33</figcaption>
 </figure>
 <ul>
-	<li>MPU Memory Protection Unit</li>
-	<li>DSP Digital Signal processing</li>
-	<li>FPU Floating Point Unit</li>
-	<li>SP Single Precision</li>
-	<li>ETM Embedded Trace Macrocell</li>
-	<li>MTB Micro Trace Buffer</li>
-	<li>BPU Break Point unit</li>
-	<li>DWT Data Watch and Trace Unit</li>
-	<li>ITM Instrumentation Trace Macrocell</li>
-	<li>NVIC Nested Vectored Interrupt Controller</li>
-	<li>WIC Wake-up Interrupt Controller</li>
-	<li>AHB Advanced High Performance Bus</li>
-	<li>AMBA Advanced Microcontroller Bus Architecture</li>
+	<li>[MPU Memory Protection Unit](/arm/tecnologias/MPU)</li>
+	<li>[DSP Digital Signal processing](/arm/tecnologias/DSP]</li>
+	<li>[FPU Floating Point Unit](/arm/tecnologias/FPU]</li>
+	<li>[SP Single Precision](/arm/tecnologias/SP]</li>
+	<li>[ETM Embedded Trace Macrocell](/arm/tecnologias/ETM</li>
+	<li>[MTB Micro Trace Buffer](/arm/tecnologias/MTB]</li>
+	<li>[BPU Break Point unit](/arm/tecnologias/BPU]</li>
+	<li>[DWT Data Watch and Trace Unit](/arm/tecnologias/DWT]</li>
+	<li>[ITM Instrumentation Trace Macrocell](/arm/tecnologias/ITM]</li>
+	<li>[NVIC Nested Vectored Interrupt Controller](/arm/tecnologias/NVIC]/</li>
+	<li>[WIC Wake-up Interrupt Controller](/arm/tecnologias/WIC]</li>
+	<li>[AHB Advanced High Performance Bus](/arm/tecnologias/AHB]</li>
+	<li>[AMBA Advanced Microcontroller Bus Architecture](/arm/tecnologias/AMBA]</li>
 </ul>
 
-Com o Trustzone o Cortex-M33 tem dois estados de segurança, mais dois estados
-ortogonais como podem ser visto na figura abaixo. Abrindo assim um novo horizonte
+Com o TrustZone o Cortex-M33 tem dois estados de segurança, mais dois estados
+ortogonais, como podem ser visto na figura abaixo. Abrindo assim um novo horizonte
 para novas aplicações e modelos de uso. o Firmware pode ser protegido de diversas 
-formas, um servisor de código pode ser colocado no estado seguro que pode ser 
+formas, um supervisor de código pode ser colocado no estado seguro que pode ser 
 usado para recuprar o sistema após um ataque ou uma operação não desejada, Enquanto
 o lado não seguro é mantido disponível como antes para uso como milhões de outros 
 programadores já o fazem nos atuais microcontroladores Cortex-M.
@@ -158,7 +162,7 @@ programadores já o fazem nos atuais microcontroladores Cortex-M.
 <ul>
 	<li>Secure state</li>
 	<li>Non-secure state</li>
-	<li>Four stacks and four stack pointer registers</li>
+	<li>Quatro stacks e quatro registradores para ponteiros de stack</li>
 	<li>Hardware stack-limit checking</li>
 	<li>Suporte para MPU programável como a Uidade de Atribuição de segurança (SAU - Security Attribution Unit</li>
 	<li>Interface para sistema de indicação de segurança</li>
@@ -172,15 +176,16 @@ O Cortex-M33 tem uma interface para coprocessador fortemente acoplada com um bar
 para instruções e outro para dados, o que permite a transferência simultânea para
 até 8 coprocessadores.
 
-O MPU no Cortex-M33 funciona como no Cortex-M23, usando a arquiteura PMSAv8.
+O MPU no Cortex-M33 funciona como no Cortex-M23, usando também a arquitetura PMSAv8.
 
-Uma extenção especial de 85 instruções pode ser usada com o Cortex-M33 para processamento
-de sinais digitais (DSP). Um conjunto de 16 novos registradores de 64bits
-podem ser também adicioandos para processamento de ponto flutuante conforme o padrão 
-IEEE754-2008 e mais 45 instruções para manipulação destes pontos flutuantes, baseado
-no IEEE754-2008, o uso deste coprocessador (FPU) aumenta em 10 vezes a velocidade 
-de manipulação de ponto flutante no Cortex-33, e é mantido em um domínio de 
-energia separado, para que possa ser desativado quando não está sendo usado.
+Uma extenção especial de 85 instruções pode ser usada com o Cortex-M33 para 
+processamento de sinais digitais (DSP). Um conjunto de 16 novos registradores 
+de 64bits podem ser também adicioandos para processamento de ponto flutuante 
+conforme o padrão IEEE754-2008 e mais 45 instruções para manipulação destes 
+pontos flutuantes, baseado no IEEE754-2008, o uso deste coprocessador (FPU) 
+aumenta em 10 vezes a velocidade de manipulação de ponto flutante no Cortex-33, 
+e é mantido em um domínio de energia separado, para que possa ser desativado 
+quando não está sendo usado.
 
 
 ## Fontes
