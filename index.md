@@ -29,7 +29,12 @@ procure por "[tags](/tags)".
 
 # Artigos 
 <div class="tiles">
-{% for post in site.posts limit:30 %}
+{% if site.excerpt.index.limit %}
+    {% assign limit = site.excerpt.index.size %}
+{% else %}
+    {% assign limit = 30 %}
+{% endif %}
+{% for post in site.posts limit:limit %}
    {% if post.feature.index %}   
       {% include post-grid.html %}	
    {% endif %}
