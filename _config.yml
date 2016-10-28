@@ -69,7 +69,7 @@ sass:
 permalink: /:categories/:title/
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 gems:
  - jekyll-feed	
