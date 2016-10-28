@@ -60,7 +60,7 @@ artigo.
 
 <figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/JGFOdaVMd6k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-<figcapture>Neste video é apresentado os resultados durante a execução dos comandos</figcaption>
+<figcaption>Neste video é apresentado os resultados durante a execução dos comandos</figcaption>
 </figure>
 
 ## Ajustando o PATH.
