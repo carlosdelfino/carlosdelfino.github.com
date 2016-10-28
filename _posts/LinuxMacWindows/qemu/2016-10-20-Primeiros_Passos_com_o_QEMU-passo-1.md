@@ -100,51 +100,12 @@ Não crie diretórios usando nomes com espaços, caracteres especiais e muito me
 com caminhos muito extensos, isso pode se virar contra você na hora de buscar 
 soluções para problemas.
 
-Fique atento ao `PATH` configurado, procure observar se os comandos que estão 
-sendo executados são na versão esperada e para o **target** desejado. 
-Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo 
-a não ser quando orientado do contrário:
 
-```sh
-~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
-~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
-~/qemu-delfino/ $ export PATH
-```
+# Instale o Python 2.7.
 
-Fique atento as redefinições de variáveis, de um passo para outro uma variável 
-que define diretivas de compilação podem mudar, ou mesmo serem apagadas.
-
-Fique atento com o diretório onde o comando deve ser executado, comandos como 
-`git`, `hg`, `autogen.sh`, `autoreconf`, `configure`, `make` outros ligados ao 
-GCC, devem ser executados exatamente no diretório indicado, se não será fatal.
-
-Procure fazer sempre backup da pasta antes de fazer qualquer alteração em sua 
-estrutura, e evite alterar arquivos a não ser que seja explicitamente indicado.
-
-Fique atento toda as dicas estão sendo feitas considerando que tem uma maquina 
-Windows com 64 Bits e rodando o Mingw, a pasta de instalação dos binários gerados 
-será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas abaixo 
-no configure a não ser quando informado o contrário:
-
-```sh
-../../glib/configure \
-            --prefix=/mingw64 \
-            --build=x86_64-w64-mingw32 \
-            --host=x86_64-w64-mingw32 \
-            --target=x86_64-w64-mingw32
-```
-
-Em caso de dúvida use os comentários de cada passo para esclarecer sua dúvida.
-
-## Começando a preparara para compilar meu primeiro QEMU
-
-Você não precisa compilar seu QEMU, na internet você irá encontrar versões prontas 
-para windows e Linux, tanto do QEMU original como Forks como o disponibilizado 
-pelo Liviu Ionesco.
-
-Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei 
-usar como referência para o meu fork que é baseado no trabalho do Livius e no 
-fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
+O QEMU e algumas ferramentas usaram o Python, podemos optar em usar o python do
+MSYS2, mas é melhor instalar o pacote do Python para windows comum. Também não
+esqueça que você deve instalar o Python 2.7. Nem mais nem menos.
 
 ## Instalando o Msys2
 
@@ -154,9 +115,11 @@ link: https://msys2.github.io/, escolha o pacote conforme sua plataforma.
 Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de 
 comandos para atualizá-lo, em cada comando reinicialize o shell.
 
-    $ pacman -Sy pacman
-	$ pacman -Syu
-	$ pacman -Su
+{% highlight bash linenos %}
+~ $ pacman -Sy pacman
+~ $ pacman -Syu
+~ $ pacman -Su
+{% endhighlight %}
 
 Você verá algumas mensagens, informando que estão sendo baixados e instalados 
 alguns pacotes,  e ficará claro que tudo deu certo ou algo deu errado, neste 
@@ -171,7 +134,7 @@ instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
 
 Digite o comando
 
-```sh
+{% highlight bash linenos %}
 ~ $ pacman -S git autoconf automake-wrapper\
 		patch \
 		groff \
@@ -189,11 +152,11 @@ Digite o comando
 		mingw64/mingw-w64-x86_64-glib2 \
 		mingw64/mingw-w64-x86_64-ncurses \
 		mingw-w64-x86_64-toolchain 
-```
+{% endhighlight %}
 
 E receberá uma mensagem similar a esta abaixo:
 
-```sh
+{% highlight bash linenos %}
 	:: Há 16 membros no grupo mingw-w64-x86_64-toolchain:
 	:: Repositório mingw64
 	   1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git  3) mingw-w64-x86_64-gcc
@@ -204,11 +167,12 @@ E receberá uma mensagem similar a esta abaixo:
 	   15) mingw-w64-x86_64-tools-git  16) mingw-w64-x86_64-winpthreads-git
 
 	Digite uma seleção (padrão=todos):
-```
+{% endhighlight %}
 
 Então apenas tecle enter e logo a seguir receberá a lista do que será instalado 
 no meu caso apresentou a seguinte lista:
 
+{% highlight bash linenos %}
     atenção: mingw-w64-x86_64-binutils-2.27-2 está atualizado -- reinstalando
     atenção: mingw-w64-x86_64-crt-git-5.0.0.4745.d2384c2-1 está atualizado -- reinstalando
     atenção: mingw-w64-x86_64-gcc-6.2.0-2 está atualizado -- reinstalando
@@ -246,7 +210,7 @@ no meu caso apresentou a seguinte lista:
     Alteração no tamanho:   322,45 MiB
     
     :: Continuar a instalação? [S/n]
-    
+{% endhighlight %}    
 
 Basta teclar [enter] novamente e esperar o termino da instalação:
 
@@ -254,9 +218,10 @@ Basta teclar [enter] novamente e esperar o termino da instalação:
 ou /mingw64` basta criar este diretório no raiz. a mensagem é similar a apresentada 
 abaixo:
 
+{% highlight bash linenos %}
 	erro: falha em submeter a transação (arquivos conflitantes)
 	mingw-w64-i686-libiconv: /mingw32 existe no sistema de arquivos
-
+{% endhighlight %}
 
 Repita então o processo de instalação depois de criado os diretórios.
 
@@ -286,6 +251,63 @@ nada, você vai precisar nó minimo dos pacotes que instalam:
 
 Aprenda o máximo que puder sobre a ferramenta `pacman`, ela sera sua ferramenta 
 para lhe ajudar a instalar tudo que precisa no MSYS2.
+
+<figure>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ebUf_m8fRZ4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
+<figcaption>Video apresentando cada commando digitado neste video</figcatpion>
+</figure>
+
+
+
+## Acerte o PATH
+
+Fique atento ao `PATH` configurado, procure observar se os comandos que estão 
+sendo executados são na versão esperada e para o **target** desejado. 
+Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo 
+a não ser quando orientado do contrário:
+
+{% highlight bash linenos %}
+~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
+~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
+~/qemu-delfino/ $ export PATH
+{% endhighlight %}
+
+Fique atento as redefinições de variáveis, de um passo para outro uma variável 
+que define diretivas de compilação podem mudar, ou mesmo serem apagadas.
+
+Fique atento com o diretório onde o comando deve ser executado, comandos como 
+`git`, `hg`, `autogen.sh`, `autoreconf`, `configure`, `make` outros ligados ao 
+GCC, devem ser executados exatamente no diretório indicado, se não será fatal.
+
+Procure fazer sempre backup da pasta antes de fazer qualquer alteração em sua 
+estrutura, e evite alterar arquivos a não ser que seja explicitamente indicado.
+
+Fique atento toda as dicas estão sendo feitas considerando que tem uma maquina 
+Windows com 64 Bits e rodando o Mingw, a pasta de instalação dos binários gerados 
+será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas abaixo 
+no `configure`, comando que prepara o arquivo com os parametros de compilação,
+ a não ser quando informado o contrário:
+
+{% highlight bash linenos %}
+../../glib/configure \
+            --prefix=/mingw64 \
+            --build=x86_64-w64-mingw32 \
+            --host=x86_64-w64-mingw32 \
+            --target=x86_64-w64-mingw32
+{% endhighlight %}
+
+Em caso de dúvida use os comentários de cada passo para esclarecer sua dúvida.
+
+## Começando a preparara para compilar meu primeiro QEMU
+
+Você não precisa compilar seu QEMU, na internet você irá encontrar versões prontas 
+para windows e Linux, tanto do QEMU original como Forks como o disponibilizado 
+pelo Liviu Ionesco.
+
+Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei 
+usar como referência para o meu fork que é baseado no trabalho do Livius e no 
+fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
+
 
 ## Próximo passo
 
