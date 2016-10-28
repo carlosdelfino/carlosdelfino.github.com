@@ -254,10 +254,8 @@ para lhe ajudar a instalar tudo que precisa no MSYS2.
 
 <figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ebUf_m8fRZ4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
-<figcaption>Video apresentando cada commando digitado neste video</figcatpion>
+<figcaption>Video apresentando cada commando digitado neste video</figcaption>
 </figure>
-
-
 
 ## Acerte o PATH
 
