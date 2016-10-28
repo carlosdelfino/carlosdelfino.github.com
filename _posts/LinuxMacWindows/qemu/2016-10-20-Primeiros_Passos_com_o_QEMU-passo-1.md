@@ -115,7 +115,7 @@ link: https://msys2.github.io/, escolha o pacote conforme sua plataforma.
 Depois de instalado entre no shell do MSYS2, execute a seguinte sequência de 
 comandos para atualizá-lo, em cada comando reinicialize o shell.
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ~ $ pacman -Sy pacman
 ~ $ pacman -Syu
 ~ $ pacman -Su
@@ -134,7 +134,7 @@ instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
 
 Digite o comando
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ~ $ pacman -S git autoconf automake-wrapper\
 		patch \
 		groff \
@@ -156,7 +156,7 @@ Digite o comando
 
 E receberá uma mensagem similar a esta abaixo:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 	:: Há 16 membros no grupo mingw-w64-x86_64-toolchain:
 	:: Repositório mingw64
 	   1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git  3) mingw-w64-x86_64-gcc
@@ -172,7 +172,7 @@ E receberá uma mensagem similar a esta abaixo:
 Então apenas tecle enter e logo a seguir receberá a lista do que será instalado 
 no meu caso apresentou a seguinte lista:
 
-{% highlight bash linenos %}
+{% highlight bash %}
     atenção: mingw-w64-x86_64-binutils-2.27-2 está atualizado -- reinstalando
     atenção: mingw-w64-x86_64-crt-git-5.0.0.4745.d2384c2-1 está atualizado -- reinstalando
     atenção: mingw-w64-x86_64-gcc-6.2.0-2 está atualizado -- reinstalando
@@ -218,7 +218,7 @@ Basta teclar [enter] novamente e esperar o termino da instalação:
 ou /mingw64` basta criar este diretório no raiz. a mensagem é similar a apresentada 
 abaixo:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 	erro: falha em submeter a transação (arquivos conflitantes)
 	mingw-w64-i686-libiconv: /mingw32 existe no sistema de arquivos
 {% endhighlight %}
@@ -264,7 +264,7 @@ sendo executados são na versão esperada e para o **target** desejado.
 Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo 
 a não ser quando orientado do contrário:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
 ~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
 ~/qemu-delfino/ $ export PATH
@@ -286,7 +286,7 @@ será também sempre `/mingw64` e serão sempre usados no mínimo as diretivas a
 no `configure`, comando que prepara o arquivo com os parametros de compilação,
  a não ser quando informado o contrário:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 ../../glib/configure \
             --prefix=/mingw64 \
             --build=x86_64-w64-mingw32 \
