@@ -20,28 +20,36 @@ coinbase:
  show: true
 ---
 
-Agora iremos obter uma biblioteca muito importante para as duas seguintes, ela é base para LibIconv e GetText. Iremos também compilar já a Libiconv.
+Agora iremos obter uma biblioteca muito importante para as duas seguintes, 
+ela é base para LibIconv e GetText. Iremos também compilar já a Libiconv.
 
-<!--moe-->
+<!--more-->
 
-### Compilando a biblitoeca GnuLib
+Vejamos então como proceder com a GnuLib e a Libiconv
 
-GNULib não precisa ser compilada basta baixaremos apenas como um módulo do meu repositório como já informei.
+### Preparando a biblitoeca GnuLib
+
+GNULib não precisa ser compilada basta baixaremos apenas como um módulo do meu 
+repositório como já informei.
  
 
-```bash
+{% highlight bash %}
 ~/qemu-delifno/ $ git submodule update --init gnulib
-```
+~/qemu-delifno/ $ cd gnulib
+~/qemu-delifno/ $ git checkout master
+{% endhighlight %}
+
+video do procedimento adotado relativo aos comandos acima:
+<figure>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/EcNWMiW0wRM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<figcaption>Preparando o GNULib</figcaption>
+</figure>
 
 Agora podemos já trabalhar com a próxima biblioteca.
 
-Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso usando o seguinte comando no shell do Msys2:
+Certifique-se novamente que o python e o GCC estejam acessiveis pelo `PATH`, se
+preciso faça isso usando o seguinte comando:
 
-```sh
-~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
-~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
-~/qemu-delfino/ $ export PATH
-```
 
 ### Compilando a Biblioteca libiconv
 
@@ -49,15 +57,15 @@ A instalação do libiconv é bem simples, é importante fazemos a instalação 
 
 Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout da versão v1.9.2.
 
-```sh
+{% highlight bash %}
 ~/qemu-delifno/ $ git submodule update --init libiconv
 ~/qemu-delifno/ $ cd libiconv
 ~/qemu-delifno/libiconv/ $ git checkout v1.9.2
-```
+{% endhighlight %}
 
 Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e configuramos o Makefile com os parâmetros de nosso ambiente:
 
-```sh
+{% highlight bash %}
 ~/qemu-delifno/ $ cd ../build
 ~/qemu-delifno/build $ mkdir libiconv
 ~/qemu-delifno/build $ cd libiconv
@@ -68,14 +76,14 @@ Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e 
 				--disable-docs \
 				CC=x86_64-w64-mingw32-gcc \
 				CXX=x86_64-w64-mingw32-g++ 
-```
+{% endhighlight %}
 
 E finalmente executamos a compilação e instalação.
 
-```sh
+{% highlight bash %}
 ~/qemu-delifno/build/libiconv $ make
 ~/qemu-delifno/build/libiconv $ make install
-```
+{% endhighlight %}
 
 Pronto, tendo alguma dúvida ou dificuldade use os comentários abaixo.
 
