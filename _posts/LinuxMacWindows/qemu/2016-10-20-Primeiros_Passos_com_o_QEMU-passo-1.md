@@ -265,8 +265,8 @@ Principalmente para o Toolchain do GCC e Python. Procure usar o `PATH` a baixo
 a não ser quando orientado do contrário:
 
 {% highlight bash %}
-~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
-~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
+~/qemu-delfino/ $ PATH=$PATH:/c/Python27:/c/Python27/DLLs
+~/qemu-delfino/ $ PATH=$PATH:/mingw64/bin/
 ~/qemu-delfino/ $ export PATH
 {% endhighlight %}
 
