@@ -136,22 +136,26 @@ Digite o comando
 
 {% highlight bash %}
 ~ $ pacman -S git autoconf automake-wrapper\
-		patch \
-		groff \
-		gperf \
-		wget \
-		texinfo \
-		msys/liblzma \
-		msys/libtool \
-		msys/bison \
-		msys/ncurses-devel \
+        patch \
+        groff \
+        gperf \
+        wget \
+        texinfo \
+        gettext \
+        msys/liblzma \
+        msys/libtool \
+        msys/bison \
+        msys/ncurses-devel \
         msys/mercurial \
-		mingw64/mingw-w64-x86_64-emacs \
-		mingw64/mingw-w64-x86_64-diffutils \
-		mingw64/mingw-w64-x86_64-libtool \
-		mingw64/mingw-w64-x86_64-glib2 \
-		mingw64/mingw-w64-x86_64-ncurses \
-		mingw-w64-x86_64-toolchain 
+        msys/perl \
+        msys/perl-Encode-Locale \
+        msys/perl-Locale-Gettext \
+        mingw64/mingw-w64-x86_64-emacs \
+        mingw64/mingw-w64-x86_64-diffutils \
+        mingw64/mingw-w64-x86_64-libtool \
+        mingw64/mingw-w64-x86_64-glib2 \
+        mingw64/mingw-w64-x86_64-ncurses \
+        mingw-w64-x86_64-toolchain 
 {% endhighlight %}
 
 E receberá uma mensagem similar a esta abaixo:
@@ -306,6 +310,24 @@ Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei
 usar como referência para o meu fork que é baseado no trabalho do Livius e no 
 fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
 
+## Atualizações
+
+Se você já leu este post alguma vez, deve ter percebido que mudei algumas coisas.
+hoje dia 29 de outubro de 2016, já é a quarta ou quinta vez que compilo algumas
+parte deste projeto numa tentativa de melhorar o processo.
+
+Por exemplo adicionei a instalação de pacotes o Gettext, mesmo que ele seja 
+recompilado em nossos passos, optei em insta-lo para que todas as biblitoecas 
+sejam atualizadas já com ele, não adianta eu compila-lo já no promeiro passo, 
+mas com certeza irei reordenar os passos para que possamos compilar o Gettext
+o quanto antes possível e assim usar a nossa versão atualizada.
+
+Isso não atrabalha o nosso projeto, mas para gosta de compilar todos os binários
+como eu gosto, isso é importante pois temos um código bem enchuto e tunado para
+o nosso computador.
+
+Nesta ordenação de prioridades já estou ajustando o nossos submódulos, isso
+não impacta em desempeho, mas espelha as prioridades de disponibilidade.
 
 ## Próximo passo
 
