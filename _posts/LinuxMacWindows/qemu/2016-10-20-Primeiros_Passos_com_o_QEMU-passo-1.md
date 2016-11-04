@@ -135,13 +135,14 @@ instalar para 32bits substitua nos nomes dos pacotes o `X86_64`por `i686`.
 Digite o comando
 
 {% highlight bash %}
-~ $ pacman -S git autoconf automake-wrapper\
+~ $ pacman -S git autoconf automake-wrapper \
         patch \
         groff \
         gperf \
         wget \
         texinfo \
         gettext \
+        pkg-config \
         msys/liblzma \
         msys/libtool \
         msys/bison \
@@ -150,6 +151,7 @@ Digite o comando
         msys/perl \
         msys/perl-Encode-Locale \
         msys/perl-Locale-Gettext \
+        msys/mingw-w64-cross-binutils \
         mingw64/mingw-w64-x86_64-emacs \
         mingw64/mingw-w64-x86_64-diffutils \
         mingw64/mingw-w64-x86_64-libtool \
@@ -229,6 +231,9 @@ abaixo:
 
 Repita então o processo de instalação depois de criado os diretórios.
 
+Alguns comandos serão regerados pelo processo, mas não se preocupe, apenas instale
+como sugerido.
+
 Claro quando ele te consultar sobre quais pacotes deseja instalar, você poderá 
 selecionar instalar um deles, e repetir o processo, ou mesmo repetir o processo 
 fazendo referência direta a cada pacote, só deve tomar cuidado para não esquecer 
@@ -274,6 +279,13 @@ a não ser quando orientado do contrário:
 ~/qemu-delfino/ $ export PATH
 {% endhighlight %}
 
+Caso venha receber mensagens se queixando que o LC_ALL não está setado, basta
+digitar o comando abaixo durante a seção de compilação.
+
+{% highlight bash %}
+~/qemu-delfino/ $ export LC_ALL="C"
+{% endhighlight %}
+
 Fique atento as redefinições de variáveis, de um passo para outro uma variável 
 que define diretivas de compilação podem mudar, ou mesmo serem apagadas.
 
@@ -311,6 +323,15 @@ usar como referência para o meu fork que é baseado no trabalho do Livius e no
 fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
 
 ## Atualizações
+
+### 03 de Novembro de 2016
+
+Adicionado o pacote `msys/mingw-w64-cross-binutils`, o comando `x86_64-w64-mingw32-ar`
+não estava presente no ambiente e é adiconado com este pacote.
+
+Outras correções.
+
+### 29 de Outubro de 2016
 
 Se você já leu este post alguma vez, deve ter percebido que mudei algumas coisas.
 hoje dia 29 de outubro de 2016, já é a quarta ou quinta vez que compilo algumas
