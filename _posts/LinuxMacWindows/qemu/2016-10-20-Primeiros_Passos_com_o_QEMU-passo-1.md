@@ -151,6 +151,8 @@ Digite o comando
         msys/perl \
         msys/perl-Encode-Locale \
         msys/perl-Locale-Gettext \
+        msys/libutil-linux-devel \
+        msys/util-linux \
         msys/mingw-w64-cross-binutils \
         mingw64/mingw-w64-x86_64-emacs \
         mingw64/mingw-w64-x86_64-diffutils \
@@ -280,7 +282,10 @@ a não ser quando orientado do contrário:
 {% endhighlight %}
 
 Caso venha receber mensagens se queixando que o LC_ALL não está setado, basta
-digitar o comando abaixo durante a seção de compilação.
+digitar o comando abaixo durante a seção de compilação. Para maiores informações
+relativas a problemas com variáveis de [Internacionalização (I18N) e Localização
+(L10N) clique aqui](http://pubs.opengroup.org/onlinepubs/7908799/xbd/envvar.html)
+e também [nesse outro link](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html#The-LANGUAGE-variable).
 
 {% highlight bash %}
 ~/qemu-delfino/ $ export LC_ALL="C"
@@ -323,6 +328,15 @@ usar como referência para o meu fork que é baseado no trabalho do Livius e no
 fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
 
 ## Atualizações
+
+### 05 de Novembro de 2016
+
+Adiconado os pacotes:
+
+ * msys/libutil-linux-devel
+ * msys/util-linux 
+
+Ambos os pacotes foram adicionados para permitir ampliar a compilação do QEMU.
 
 ### 03 de Novembro de 2016
 
