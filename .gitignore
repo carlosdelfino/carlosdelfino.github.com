@@ -18,3 +18,5 @@ Gemfile.lock
 /_plugins
 /.externalToolBuilders
 .jekyll-metadata
+*.*~
+*~
