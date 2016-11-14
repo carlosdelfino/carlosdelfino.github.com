@@ -55,7 +55,9 @@ e branch correto. Estude um pouco do git para comprender melhor como funciona
 os submódulos.
 
 {% highlight bash %}
-~/qemu-delifno/ $ git submodule update libffi --depth=1
+~/qemu-delifno/ $ git submodule update  --init libffi
+~/qemu-delfino/ $ cd libffi
+~/qemu-delfino/libffi $ git checkout v3.2.1
 {% endhighlight %}
 
 Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso 
@@ -112,7 +114,7 @@ gerar nossa biblioteca.
 ~/qemu-delifno/build/libffi $ ../../libffi/configure \
                     --prefix /mingw64 \
                     --build=x86_64-w64-mingw32 \
-					--disable-docs
+                    --with-gnu-ld
 {% endhighlight %}
 
 No comando `configure` acima faremos a configuração da compilação. A diretiva 
@@ -142,6 +144,15 @@ A seguir o video do processo sendo executado por mim.
 </figure>
 Qualquer dúvida me informe 
 nos comentários abaixo.
+
+## Atualizações
+
+### 12 de Novembro, 
+
+Adotei a versão 3.2.1 identificada pela tag v3.2.1.
+
+Adotei a opção para usar o LD como gnu-ld.
+
 
 [Clique aqui para a próxima etapa.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-4/)
 

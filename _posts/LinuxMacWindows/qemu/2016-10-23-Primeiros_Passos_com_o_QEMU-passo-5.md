@@ -31,15 +31,18 @@ Vejamos então como proceder com a GnuLib e a Libiconv
 
 GNULib não precisa ser compilada basta baixaremos apenas como um módulo do meu 
 repositório como já informei.
+
+Iremos usar um commit importante para o sucesso de nosso trabalho ele
+está no commit de hash 6f9206d 
  
 
 {% highlight bash %}
 ~/qemu-delifno/ $ git submodule update --init gnulib
 ~/qemu-delifno/ $ cd gnulib
-~/qemu-delifno/ $ git checkout master
+~/qemu-delifno/ $ git checkout 6f9206d --force
 {% endhighlight %}
 
-video do procedimento adotado relativo aos comandos acima:
+Abaixo está o video do procedimento adotado relativo aos comandos acima:
 <figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/EcNWMiW0wRM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 <figcaption>Preparando o GNULib</figcaption>
@@ -53,9 +56,11 @@ preciso faça isso usando o seguinte comando:
 
 ### Compilando a Biblioteca libiconv
 
-A instalação do libiconv é bem simples, é importante fazemos a instalação dela antes e compilar o gettext.
+A instalação do libiconv é bem simples, é importante fazemos a instalação dela 
+antes e compilar o gettext.
 
-Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout da versão v1.9.2.
+Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout 
+da versão v1.9.2.
 
 {% highlight bash %}
 ~/qemu-delifno/ $ git submodule update --init libiconv
@@ -63,7 +68,15 @@ Primeiro atualizamos o módulo que já deixamos pré pronto e fazemos o checkout
 ~/qemu-delifno/libiconv/ $ git checkout v1.9.2
 {% endhighlight %}
 
-Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e configuramos o Makefile com os parâmetros de nosso ambiente:
+Defina o valor das variáveis LC_ALL e LANG como abaixo.
+
+{% highlight bash %}
+~/qemu-delifno/libiconv/ $ export LC_ALL="C"
+~/qemu-delifno/libiconv/ $ export LANG="pt-BR.UTF8"
+{% endhighlight %}
+
+Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e 
+configuramos o Makefile com os parâmetros de nosso ambiente:
 
 {% highlight bash %}
 ~/qemu-delifno/ $ cd ../build
@@ -71,11 +84,15 @@ Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e 
 ~/qemu-delifno/build $ cd libiconv
 ~/qemu-delifno/build/libiconv $ cd libiconv
 ~/qemu-delifno/build/libiconv $ ../../libiconv/configure \
-				--prefix /mingw64 \
-				--build=x86_64-w64-mingw32 \
-				--disable-docs \
-				CC=x86_64-w64-mingw32-gcc \
-				CXX=x86_64-w64-mingw32-g++ 
+                --prefix /mingw64 \
+                --build=x86_64-w64-mingw32 \
+                --disable-docs \
+                CC="x86_64-w64-mingw32-gcc" \
+                CXX="x86_64-w64-mingw32-g++" \
+                LD="x86_64-w64-mingw32-ld" \
+                NM="x86_64-w64-mingw32-nm" \
+                AR="x86_64-w64-mingw32-ar" \
+                RANLIB="x86_64-w64-mingw32-ranlib"
 {% endhighlight %}
 
 E finalmente executamos a compilação e instalação.

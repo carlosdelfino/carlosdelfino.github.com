@@ -58,9 +58,11 @@ para a compilação, mesm compilando o sistema para rodar neste mesma maquina, o
 em colocar esta informação para evitar que possa ser usado outro compilador:
 
 {% highlight bash %}
-~/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32- \
-        PREFIX=/mingw64 \
-        ./configure  
+~/qemu-delifno/zlib $ CROSS_PREFIX=x86_64-w64-mingw32-         \
+                      PREFIX=/mingw64  \       
+                      ./configure  --64  \
+                      --prefix=/mingw64/ \
+                      --libdir=/mingw64/lib   
 {% endhighlight %} 
 
 e para compilar e instalar digite o comando:
