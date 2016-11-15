@@ -68,6 +68,7 @@ conforme nosso ambiente e as novas bibliotecas, assim comece digitando:
 ~/qemu-delfino/ $ export LINGUAS="en pt pt_BR"
 ~/qemu-delfino/ $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
 ~/qemu-delfino/ $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool"
+~/qemu-delfino/ $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
 {% endhighlight %}
 
 Vamos entender algumas coisas importantes, primeiro a versão escolhida, como ao 
