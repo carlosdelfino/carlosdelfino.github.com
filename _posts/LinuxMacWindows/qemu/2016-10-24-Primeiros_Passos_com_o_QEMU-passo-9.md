@@ -39,29 +39,34 @@ Para obter em nosso repositório use o comando:
 
 Execute os seguintes comandos para começar a preparar o ambiente.
 
+
+
+Agora vamos preparar as variáveis de ambinte para nossa compilação.
+
+{% highlight bash %}
+~/qemu-delfino/build/glib $ export LIBFFI_CFLAGS=`pkg-config.exe libffi --cflags`
+~/qemu-delfino/build/glib $ export LIBFFI_LIBS=`pkg-config.exe libffi --libs`
+~/qemu-delfino/build/glib $ export lt_cv_deplibs_check_method="pass_all"
+~/qemu-delfino/build/glib $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include -m64"
+~/qemu-delfino/build/glib $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
+~/qemu-delfino/build/glib $ export LDFLAGS="-L/mingw64/lib "
+~/qemu-delfino/build/glib $ export LINGUAS="en pt pt_BR"
+~/qemu-delfino/build/glib $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
+~/qemu-delfino/build/glib $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool"
+~/qemu-delfino/build/glib $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include" 
+~/qemu-delfino/SDL $ export GLIB_CFLAGS="-I /mingw64/include/glib-2.0 -I /mingw64/lib/glib-2.0/include"
+~/qemu-delfino/SDL $ export GLIB_LIBS="-lglib-2.0"
+
+```
+
 ```sh
 ~/qemu-delfino/ $ cd SDL
 ~/qemu-delfino/SDL $ ./autogen.sh
 ```
-Durante o processo se viver a ter problemas com a falta da biblioteca será necessário baixar o pacote OpenGL development headers e descompacte na pasta /mingw64:
-	http://www.libsdl.org/extras/win32/common/opengl-devel.tar.gz
+Durante o processo se vier a ter problemas com a falta da biblioteca será necessário baixar o pacote OpenGL development headers e descompacte na pasta /mingw64:
+    http://www.libsdl.org/extras/win32/common/opengl-devel.tar.gz
 
 e repita o processo.
-
-Agora vamos preparar as variáveis de ambinte para nossa compilação.
-
-```sh
-~/qemu-delfino/SDL $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
-~/qemu-delfino/SDL $ export GNULIB_TOOL="~/qemu-delfino/gnulib-tool"
-~/qemu-delfino/SDL $ export GLIB_CFLAGS="-I /mingw64/include/glib-2.0 -I /mingw64/lib/glib-2.0/include"
-~/qemu-delfino/SDL $ export GLIB_LIBS="-lglib-2.0"
-~/qemu-delfino/SDL $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
-~/qemu-delfino/SDL $ export GLIB_LIBS=""
-~/qemu-delfino/SDL $ export LIBFFI_CFLAGS='-I /mingw64/lib/libffi-3.99999/include'
-~/qemu-delfino/SDL $ export LIBFFI_LIBS=-lffi
- export CFLAGS="-m64 -pipe"
-
-```
 
 Fique atento a definição das variáveis, mesmo que já tenha definido antes, certifique todas estão corretas.
 
@@ -71,7 +76,7 @@ Fique atento a definição das variáveis, mesmo que já tenha definido antes, c
 ~/qemu-delfino/build $ cd sdl
 ~/qemu-delfino/build/sdl $ ../../sdl/configure \
             --prefix=/mingw64 \
-			--exec-prefix=/mingw64
+            --exec-prefix=/mingw64 \
             --build=x86_64-w64-mingw32 \
             --host=x86_64-w64-mingw32 \
             --target=x86_64-w64-mingw32 
