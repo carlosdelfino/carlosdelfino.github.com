@@ -143,6 +143,7 @@ Digite o comando
         texinfo \
         gettext \
         pkg-config \
+        msys/gtk-doc \
         msys/liblzma \
         msys/libtool \
         msys/bison \
@@ -154,6 +155,7 @@ Digite o comando
         msys/libutil-linux-devel \
         msys/util-linux \
         msys/mingw-w64-cross-binutils \
+        mingw64/mingw-w64-x86_64-indent \
         mingw64/mingw-w64-x86_64-emacs \
         mingw64/mingw-w64-x86_64-diffutils \
         mingw64/mingw-w64-x86_64-libtool \
@@ -289,6 +291,7 @@ e também [nesse outro link](https://www.gnu.org/software/gettext/manual/html_no
 
 {% highlight bash %}
 ~/qemu-delfino/ $ export LC_ALL="C"
+~/qemu-delfino/ $ export LC_MESSAGES="pt_BR.utf8"
 {% endhighlight %}
 
 Fique atento as redefinições de variáveis, de um passo para outro uma variável 
