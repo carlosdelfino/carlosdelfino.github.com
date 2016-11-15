@@ -136,14 +136,22 @@ Finalmente podemos compilar e instalar com os dois comandos a seguir:
 
 Não deverá ser apresentada nenhuma mensagem de erro.
 
+Para finalizar adicone o diretório `/mingw64/lib/pkgconfig` a variável
+`PKG_CONFIG_PATH` para que seja usado pela ferramenta **pkg-config**, apartir
+de agora, faça isso sempre que for compilar algum pacote.
+
+{% highlight bash %}
+~/qemu-delfino/ $ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/mingw64/lib/pkgconfig
+~/qemu-delfino/ $ export PKG_CONFIG_PATH
+{% endhighlight %}
+
 A seguir o video do processo sendo executado por mim.
 
 <figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/RJu2h9xOAcI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 <figcaption>video apresentando o processo de compilação da  biblioteca libFFI</figcaption>
 </figure>
-Qualquer dúvida me informe 
-nos comentários abaixo.
+Qualquer dúvida me informe nos comentários abaixo.
 
 ## Atualizações
 
