@@ -1,6 +1,6 @@
 ---
-permalink: /arm/tecnologia/AMBA
-title: ARM - AMBA
+permalink: /arm/tecnologia/BPU
+title: ARM - BPU
 tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M]
 layout: glossary
 categories: [ARM]
