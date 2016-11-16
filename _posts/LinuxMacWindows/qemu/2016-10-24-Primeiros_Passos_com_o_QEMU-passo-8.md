@@ -19,7 +19,7 @@ tagcloud: true
 coinbase:
  show: true
 ---
-Gerando um novo PKG-Config para nossa demanda.
+Gerando um novo Pkg-Config para nossa demanda.
 
 <!--more-->
 
@@ -29,6 +29,12 @@ Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso 
 ~/qemu-delfino/ $ PATH=/c/Python27:/c/Python27/DLLs:$PATH
 ~/qemu-delfino/ $ PATH=/mingw64/bin/:$PATH
 ~/qemu-delfino/ $ export PATH
+{% endhighlight %}
+
+
+{% highlight bash %}
+~/qemu-delfino/ $ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/mingw64/lib/pkgconfig
+~/qemu-delfino/ $ export PKG_CONFIG_PATH
 {% endhighlight %}
 
 ## Compilando o pkg-config
@@ -47,9 +53,8 @@ compila-lo diretamente no diretório do fonte.
 
 {% highlight bash %}
 ~/qemu-delfino/pkg-config/ $ export GLIB_CFLAGS="-I /mingw64/include/glib-2.0 -I /mingw64/lib/glib-2.0/include"
-~/qemu-delfino/pkg-config/ $ export GLIB_LIBS="-lglib-2.0"
 ~/qemu-delfino/pkg-config/ $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
-~/qemu-delfino/pkg-config/ $ export GLIB_LIBS=""
+~/qemu-delfino/pkg-config/ $ export GLIB_LIBS="-lglib-2.0"
 ~/qemu-delfino/pkg-config/ $ cd ../build && mkdir pkg-config && cd pkg-config
 ~/qemu-delfino/build/pkg-config/ $ ../../pkg-config/configure -prefix=/mingw64 \
             --build=x86_64-w64-mingw32 \
@@ -74,17 +79,24 @@ volte ao diretório de compilação e limpe o diretório
 Certifique-se que as variáveis abaixo já foram exportadas:
 
 {% highlight bash %}
+~/qemu-delfino/build/glib $ export LC_ALL="C"
+~/qemu-delfino/build/glib $ export LC_MESSAGES="pt_BR.utf8"
+~/qemu-delfino/build/glib $ export LINGUAS="en pt pt_BR"
+
+~/qemu-delfino/build/glib $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include -m64"
+~/qemu-delfino/build/glib $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
+~/qemu-delfino/build/glib $ export LDFLAGS="-L/mingw64/lib -m64"
+
 ~/qemu-delfino/build/glib $ export LIBFFI_CFLAGS=`pkg-config.exe libffi --cflags`
 ~/qemu-delfino/build/glib $ export LIBFFI_LIBS=`pkg-config.exe libffi --libs`
+
 ~/qemu-delfino/build/glib $ export lt_cv_deplibs_check_method="pass_all"
-~/qemu-delfino/build/glib $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include"
-~/qemu-delfino/build/glib $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
-~/qemu-delfino/build/glib $ export LDFLAGS="-L/mingw64/lib "
-~/qemu-delfino/build/glib $ export LINGUAS="en pt pt_BR"
+
 ~/qemu-delfino/build/glib $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
 ~/qemu-delfino/build/glib $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool"
-~/qemu-delfino/build/glib $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
 ~/qemu-delfino/build/glib $ export GLIB_LIBS=""
+
+~/qemu-delfino/build/glib $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
 {% endhighlight %}
 
 {% highlight bash %}

@@ -35,10 +35,6 @@ Para obter em nosso repositório use o comando:
 
 ```
 
-
-
- 
-
 Agora vamos preparar as variáveis de ambiente para nossa compilação. 
 Fique atento a definição das variáveis, mesmo que já tenha definido antes, 
 certifique todas estão corretas.
@@ -47,13 +43,19 @@ certifique todas estão corretas.
 ~/qemu-delfino/pixman $ export LIBFFI_CFLAGS=`pkg-config.exe libffi --cflags`
 ~/qemu-delfino/pixman $ export LIBFFI_LIBS=`pkg-config.exe libffi --libs`
 ~/qemu-delfino/pixman $ export lt_cv_deplibs_check_method="pass_all"
+
 ~/qemu-delfino/pixman $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include -m64"
 ~/qemu-delfino/pixman $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
+
 ~/qemu-delfino/pixman $ export LDFLAGS="-L/mingw64/lib "
+
 ~/qemu-delfino/pixman $ export LINGUAS="en pt pt_BR"
+
 ~/qemu-delfino/pixman $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
 ~/qemu-delfino/pixman $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool"
+
 ~/qemu-delfino/pixman $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include" 
+
 ~/qemu-delfino/pixman $ export GLIB_CFLAGS="-I /mingw64/include/glib-2.0 -I /mingw64/lib/glib-2.0/include"
 ~/qemu-delfino/pixman $ export GLIB_LIBS="-lglib-2.0"
 {% endhighlight %}

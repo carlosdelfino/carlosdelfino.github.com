@@ -332,6 +332,10 @@ fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu
 
 ## Atualizações
 
+### 15 de Novembro de 2016
+
+Adicionado a biblioteca libssh2 para a compilação do QEMU e também o pacote DTC
+
 ### 05 de Novembro de 2016
 
 Adiconado os pacotes:

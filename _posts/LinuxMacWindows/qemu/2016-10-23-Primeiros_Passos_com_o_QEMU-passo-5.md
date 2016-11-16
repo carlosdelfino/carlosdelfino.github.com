@@ -73,6 +73,7 @@ Defina o valor das variáveis LC_ALL e LANG como abaixo.
 {% highlight bash %}
 ~/qemu-delifno/libiconv/ $ export LC_ALL="C"
 ~/qemu-delifno/libiconv/ $ export LANG="pt-BR.UTF8"
+export LD_RUN_PATH=/mingw64/lib
 {% endhighlight %}
 
 Criamos o diretório onde vamos compilar a biblioteca como padrão que adotei e 

@@ -44,7 +44,10 @@ dentro do diretório home do usuário `~`.
 {% highlight bash %}
 ~/ $ git clone --depth=1 git@github.com:carlosdelfino/qemu.git qemu-delfino
 ~/ $ cd qemu-delfino
-~/qemu-delfino/ $ git submodule update --init --depth=1
+~/qemu-delfino/ $ git submodule update --init 
+it checkout v2.7.0-rc4 --force
+git checkout .gitmodules
+
 {% endhighlight %}
 
 Usaremos por hora a versão de desenvolvimento, na terceira fase iremos adotar

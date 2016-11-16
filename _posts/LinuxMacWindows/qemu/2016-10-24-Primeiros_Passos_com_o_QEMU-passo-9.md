@@ -38,24 +38,44 @@ Para obter em nosso repositório use o comando:
 ~/qemu-delfino/SDL $ git checkout  release-2.0.5
 {% endhighlight %}
 
+Se ainda não colocou o o python e o GCC que estamos usando no path, faça isso 
+usando o seguinte comando no shell do Msys2:
+
+{% highlight bash %}
+~/qemu-delfino/ $ PATH=$PATH:/c/Python27:/c/Python27/DLLs
+~/qemu-delfino/ $ PATH=$PATH:/mingw64/bin/
+~/qemu-delfino/ $ export PATH
+{% endhighlight %}
+
+Abaixo definimos que o compilador C será x86\_64-w64-mingw32-gcc e o compilador 
+C++ será x86\_64-w64-mingw32-g++
+
+{% highlight bash %}
+~/qemu-delfino/ $ export CC=x86_64-w64-mingw32-gcc 
+~/qemu-delfino/ $ export CXX=x86_64-w64-mingw32-g++
+{% endhighlight %}
 
 Execute os seguintes comandos para começar a preparar o ambiente.
 
-
-
-Agora vamos preparar as variáveis de ambinte para nossa compilação.
-
 {% highlight bash %}
-~/qemu-delfino/build/glib $ export LIBFFI_CFLAGS=`pkg-config.exe libffi --cflags`
-~/qemu-delfino/build/glib $ export LIBFFI_LIBS=`pkg-config.exe libffi --libs`
-~/qemu-delfino/build/glib $ export lt_cv_deplibs_check_method="pass_all"
-~/qemu-delfino/build/glib $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include -m64"
-~/qemu-delfino/build/glib $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
-~/qemu-delfino/build/glib $ export LDFLAGS="-L/mingw64/lib "
-~/qemu-delfino/build/glib $ export LINGUAS="en pt pt_BR"
-~/qemu-delfino/build/glib $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
-~/qemu-delfino/build/glib $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool"
-~/qemu-delfino/build/glib $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include" 
+~/qemu-delfino/build/SDL $ export LC_ALL="C"
+~/qemu-delfino/build/SDL $ export LC_MESSAGES="pt_BR.utf8"
+~/qemu-delfino/build/SDL $ export LINGUAS="en pt pt_BR"
+
+~/qemu-delfino/build/SDL $ export CFLAGS="-O0 -g -pipe -Wall -mms-bitfields -mthreads -I/mingw64/include -m64"
+~/qemu-delfino/build/SDL $ export CPPFLAGS="-DG_ATOMIC_OP_USE_GCC_BUILTINS=1"
+~/qemu-delfino/build/SDL $ export LDFLAGS="-L/mingw64/lib -m64"
+
+~/qemu-delfino/build/SDL $ export LIBFFI_CFLAGS=`pkg-config.exe libffi --cflags`
+~/qemu-delfino/build/SDL $ export LIBFFI_LIBS=`pkg-config.exe libffi --libs`
+
+~/qemu-delfino/build/SDL $ export lt_cv_deplibs_check_method="pass_all"
+
+~/qemu-delfino/build/SDL $ export GNULIB_SRCDIR="~/qemu-delfino/gnulib"  
+~/qemu-delfino/build/SDL $ export GNULIB_TOOL="~/qemu-delfino/gnulib/gnulib-tool" 
+
+~/qemu-delfino/build/SDL $ export ZLIB_CFLAGS="-I /mingw64/include/ -I /mingw64/include"
+
 ~/qemu-delfino/SDL $ export GLIB_CFLAGS="-I /mingw64/include/glib-2.0 -I /mingw64/lib/glib-2.0/include"
 ~/qemu-delfino/SDL $ export GLIB_LIBS="-lglib-2.0"
 {% endhighlight %}
