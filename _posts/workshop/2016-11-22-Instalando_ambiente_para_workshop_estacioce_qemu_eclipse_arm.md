@@ -2,7 +2,7 @@
 redirect_from: /workshop/estacio_ceara/20162/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/
 title: "Instalando ferramentas e preparando ambiente"
 categories: [workshop, estacio_ceara, "2016_2"]
-tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi]
+tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop]
 layout: article
 share: true
 toc: true
@@ -26,9 +26,11 @@ O objetivo deste post é registrar os passos para preparar o ambiente para o Wor
 
 Abaixo estão os passos resumidos para cada instalação, detalhes serão discutidos durante o workshop.
 
+Em todas as instalações evite espaços nos nomes dos diretórios, mesmo que o windows trate bem tal situação, algumas ferramentas podem não lidar bem com os espaço, sem falar no incoveniente de de termos que usar aspas para agregar nomes de caminhos.
+
 ## Instalando o GCC para ARM
 
-Primeiro passo é baixar o GCC para ARM, o mesmo se chama GCC ARM None EABI e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
+Primeiro passo é baixar o GCC para ARM, o mesmo se chama GCC ARM None EABI e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). Faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
 
 O instalador irá lhe perguntar se deseja abrir o shell do GCC, você deixa esta opção marcada, porém a opção para adicionar ao path o diretório do GCC deve ficar desmarcada evitando que seu path seja alterado e você tenha problemas caso precise usar mais uma versão de GCC.
 
@@ -81,7 +83,13 @@ Veja que em ambos os métodos você terá que informar um diretório que será o
 
 Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga o processo até finalizar, normalmente ele irá informar que não há atualizações, mas se ouver, basta aceitar os contratos de licença e as chaves de verificação e finalizar a atualização aguardando a mensagem que completado.
 
+## Instalando o OpenOCD
 
+O OpenOCD deve apenas ser instalado com o básico, para que que os participantes do Workshop o configurem durante as atividades do evento.
+
+Com nos outros softwares você deve escolher o pacote conforme sua arquitetura, portanto para clique nos links a seguir para baixar para [arquitetura 32-bit](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win32-0.10.0-201610281609-dev-setup.exe) e para [arquitetura 64-bit neste link](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win64-0.10.0-201610281609-dev-setup.exe)
+
+No meu ambiente de trabalho uso a pasta `C:\GNU_ARM_Eclipse\OpenOCD\0.10.0-201610281609-dev` para instalar o QEMU, veja que a subpasta muda conforme a versão instalada `0.10.0-201610281609-dev`, sendo esta instalação nesta versão, futuramente este diretório poderá ter outro nome, eu mantenho o histórico dos instaladores para que possa detectar **bugs**.
 
 ## Resumo para facilitar
 
@@ -94,5 +102,6 @@ Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R) para facilitar para 
  * https://launchpad.net/gcc-arm-embedded
  * http://msys2.github.io/
  * http://www.eclipse.org/downloads/eclipse-packages/
+ * https://github.com/gnuarmeclipse/openocd/releases
  * http://gnuarmeclipse.github.io/install/
  * 
