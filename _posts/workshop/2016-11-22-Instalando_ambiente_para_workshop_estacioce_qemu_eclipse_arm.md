@@ -24,11 +24,28 @@ O objetivo deste post é registrar os passos para preparar o ambiente para o Wor
 
 <!--more-->
 
-Primeiro passo é baixar o GCC para ARM, o mesmo se chama GCC ARM None EABI. e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
+Abaixo estão os passos resumidos para cada instalação, detalhes serão discutidos durante o workshop.
+
+## Instalando o GCC para ARM
+
+Primeiro passo é baixar o GCC para ARM, o mesmo se chama GCC ARM None EABI e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
+
+O instalador irá lhe perguntar se deseja abrir o shell do GCC, você deixa esta opção marcada, porém a opção para adicionar ao path o diretório do GCC deve ficar desmarcada evitando que seu path seja alterado e você tenha problemas caso precise usar mais uma versão de GCC.
+
+
+Para confirmar se a instalação ocorreu corretamente, se o shell não abriu logo em seguida vá na pasta `bin` na pasta que você seleciou para instalação e execute o arquivo `gccvar.bat` e no novo shell digite `arm-none-eabi-gcc --version`, e a seguinte mensagem será apresentada:
+
+```
+arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496]
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
 
 ## Instalando o MSys2
 
-Em seguida instale o MSys2 escolha a plataforma [32-Bit](http://repo.msys2.org/distrib/i686/msys2-i686-20161025.exe) ou [64-Bit](http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe) (em um dos links) conforme seu ambiente.
+Em seguida instale o MSys2 escolhendo a plataforma em dos links a seguir, [arquitetura 32-Bit](http://repo.msys2.org/distrib/i686/msys2-i686-20161025.exe) ou [arquitetura 64-Bit](http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe) conforme seu ambiente.
 
 Instale o MSys2 no diretório `c:\msys` para arquitetura 32-bit ou `c:\msys64`para arquitetura 64-bit.
 
@@ -68,7 +85,7 @@ Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga
 
 ## Resumo para facilitar
 
-Eu gravei tudo no mega drive para facilitar para que posssam baixar posteriormente os aquivos usados no Workshop.
+Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R) para facilitar para que posssam baixar posteriormente os aquivos usados no Workshop.
 
 [Também tem estes post que ajuda na instalação do MSys2](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-1/)
 
