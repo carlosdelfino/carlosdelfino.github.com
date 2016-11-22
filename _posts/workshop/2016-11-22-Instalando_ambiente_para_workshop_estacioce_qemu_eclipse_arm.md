@@ -89,6 +89,14 @@ Com nos outros softwares você deve escolher o pacote conforme sua arquitetura, 
 
 No meu ambiente de trabalho uso a pasta `C:\GNU_ARM_Eclipse\OpenOCD\0.10.0-201610281609-dev` para instalar o QEMU, veja que a subpasta muda conforme a versão instalada `0.10.0-201610281609-dev`, sendo esta instalação nesta versão, futuramente este diretório poderá ter outro nome, eu mantenho o histórico dos instaladores para que possa detectar **bugs**.
 
+## Instalando o QEMU do ARM GNU Eclipse
+
+A instalação do QEMU deverá ser feita também com antecedência, para que os alunos possam usa-lo durante o evento, sendo apenas o processo básico de instalação necessário.
+
+Baixe o pacote dos links a seguir para sua [arquitetura 32-bit](https://github.com/gnuarmeclipse/qemu/releases/download/gae-2.7.0-20161029/gnuarmeclipse-qemu-win32-2.7.0-201610290751-setup.exe) ou [arquitetura 64-bit](https://github.com/gnuarmeclipse/qemu/releases/download/gae-2.7.0-20161029/gnuarmeclipse-qemu-win64-2.7.0-201610290751-setup.exe) e instale indicando diretório `C:\GNU_ARM_Eclipse\QEMU\2.7.0-201610290751` como sendo o destino oficial.
+
+Deixe as opções solicitadas como padrão e siga o processo padrão de instalação.
+
 ## Instalando o ARM GNU Eclipse
 
 Como o foco do Workshop é instalar o **ARM GNU Eclipse** é preciso que se baixe o [pacote deste link para facilitar tal instalação](https://github.com/gnuarmeclipse/plug-ins/releases/download/v3.1.1-201606210758/ilg.gnuarmeclipse.repository-3.1.1-201606210758.zip), este pacote deve ser baixado em cada máquina e deixado no desktop de forma fácil para que o aluno o encontre.
@@ -96,6 +104,14 @@ Como o foco do Workshop é instalar o **ARM GNU Eclipse** é preciso que se baix
 Veja que o ARM GNU Eclipse como é um plugin do Eclipse ele não precisa diferenciar entre Arquitetura 32-bit e Arquitetura 64-bit, o Eclipse cuidará apatir e agora disso.
 
 Detalhes de instalação será apresentados no Workshop.
+
+## Instalando os Plugins para o ARM GNU Eclipse e o QEMU
+
+Detalhes de instalação serão apresentados no Workshop.
+
+## Parametrização do Ambiente
+
+Será tratado durante o Workshop.
 
 ## Resumo para facilitar
 
