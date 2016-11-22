@@ -1,6 +1,6 @@
 ---
 title: "Instalando ferramentas e preparando ambiente"
-categories: [workshop,estacio_ceara,2016_2]
+categories: [workshop, estacio_ceara, "2016_2"]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi]
 layout: article
 share: true
@@ -43,11 +43,25 @@ O primeiro comando atualiza o próprio Pacman, o segundo atualiza todo o sistema
 
 ## Instalando o Eclipse
 
-https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win32.exe
-https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win64.exe
+O eclipse pode ser instalado de duas formas, em ambas o java 1.8 ou maior deve estar instalado e preferencialmente no path.
 
-http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32-x86_64.zip
-http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32.zip
+Você pode baixar o instalador do Eclipse, através do instalador você terá que fazer o processo máquina por máquina, use os links a seguir para a arquitetura que for suas máquinas:
+
+ * [Instalador 32-bit](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win32.exe)
+ * [Instalador 64-bit](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win64.exe)
+ 
+Seja qual instalador que tenha escolhido quando executa-lo será questionado o pacote que deseja instalar, escolha o pacote de nome **"Eclipse IDE for C/C++ Developers"**, este pacote deve ser instalado como é oferecido neste pacote nada mais.
+
+Você tem a opção de baixar este pacote manualmente e apenas descompacta-lo, portanto isso facilita a instalação para mais de uma máquina podendo inclusive customizar a instalação de alguma forma para usar em todas as máquinas, mas aqui iremos usar apenas o básico, portanto escolha a arquitetura de seus ambiente e baixe o arquivo.
+
+ * [Pacote para 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32.zip)
+ * [Pacote para 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32-x86_64.zip)
+
+Ao finalizar a instalação basta executar o arquivo `eclipse.exe`.
+
+Veja que em ambos os métodos você terá que informar um diretório que será o espaço de trabalho para fazer o primeiro teste, use o que ele oferecer como sugestões evitando surpresas posteriores.
+
+Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga o processo até finalizar, normalmente ele irá informar que não há atualizações, mas se ouver, basta aceitar os contratos de licença e as chaves de verificação e finalizar a atualização aguardando a mensagem que completado.
 
 
 
