@@ -83,11 +83,19 @@ Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga
 
 ## Instalando o OpenOCD
 
-O OpenOCD deve apenas ser instalado com o básico, para que que os participantes do Workshop o configurem durante as atividades do evento.
+O OpenOCD deve apenas ser instalado com o básico, e dos links apresentados a seguir, não deve ser usado outro OpenOCD, pois este foi preparado para que que quem usa o ARM GNU Eclipse possa usa-lo com o QEMI e os participantes do Workshop irão configura-lo  durante as atividades do evento.
 
 Com nos outros softwares você deve escolher o pacote conforme sua arquitetura, portanto para clique nos links a seguir para baixar para [arquitetura 32-bit](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win32-0.10.0-201610281609-dev-setup.exe) e para [arquitetura 64-bit neste link](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win64-0.10.0-201610281609-dev-setup.exe)
 
 No meu ambiente de trabalho uso a pasta `C:\GNU_ARM_Eclipse\OpenOCD\0.10.0-201610281609-dev` para instalar o QEMU, veja que a subpasta muda conforme a versão instalada `0.10.0-201610281609-dev`, sendo esta instalação nesta versão, futuramente este diretório poderá ter outro nome, eu mantenho o histórico dos instaladores para que possa detectar **bugs**.
+
+## Instalando o ARM GNU Eclipse
+
+Como o foco do Workshop é instalar o **ARM GNU Eclipse** é preciso que se baixe o [pacote deste link para facilitar tal instalação](https://github.com/gnuarmeclipse/plug-ins/releases/download/v3.1.1-201606210758/ilg.gnuarmeclipse.repository-3.1.1-201606210758.zip), este pacote deve ser baixado em cada máquina e deixado no desktop de forma fácil para que o aluno o encontre.
+
+Veja que o ARM GNU Eclipse como é um plugin do Eclipse ele não precisa diferenciar entre Arquitetura 32-bit e Arquitetura 64-bit, o Eclipse cuidará apatir e agora disso.
+
+Detalhes de instalação será apresentados no Workshop.
 
 ## Resumo para facilitar
 
