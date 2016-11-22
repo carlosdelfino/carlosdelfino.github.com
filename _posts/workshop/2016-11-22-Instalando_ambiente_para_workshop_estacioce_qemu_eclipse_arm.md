@@ -25,11 +25,31 @@ O objetivo deste post é registrar os passos para preparar o ambiente para o Wor
 
 Primeiro passo é baixar o GCC para ARM, o mesmo se chama GCC ARM None EABI. e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
 
+## Instalando o MSys2
+
 Em seguida instale o MSys2 escolha a plataforma [32-Bit](http://repo.msys2.org/distrib/i686/msys2-i686-20161025.exe) ou [64-Bit](http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe) (em um dos links) conforme seu ambiente.
 
 Instale o MSys2 no diretório `c:\msys` para arquitetura 32-bit ou `c:\msys64`para arquitetura 64-bit.
 
 Em seguida abra o shell executando o script `msys2_shell.cmd` que será encontrado na pasta onde foi instalado o MSys2 e execute os seguintes comandos, se a tela ao finalizar o comando, não se preocupe é normal, feche normalmente mesmo com alerta, e abra novamente e execute o próximo.
+
+{% highlight sh %}
+pacman -Suy pacman
+pacman -Suy
+pacman -Suy
+{% endhighlight %}
+
+O primeiro comando atualiza o próprio Pacman, o segundo atualiza todo o sistema, o terceiro é apenas para se ter certeza que tudo foi realmente atualizado, execute-o até que a mensagem lhe deixe claro que tudo está atualizado. Lembre-se se algum deles terminar e não voltar ao prompt (você perceberá depois que ele parar lhe dar mensagens de andamento dos processos), você pode fechar a janela e abrir de novo, normalmente isso irá acontecer apenas no primeiro comando e no máximo no segundo.
+
+## Instalando o Eclipse
+
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win32.exe
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win64.exe
+
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32-x86_64.zip
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32.zip
+
+
 
 ## Resumo para facilitar
 
@@ -40,5 +60,7 @@ Eu gravei tudo no mega drive para facilitar para que posssam baixar posteriormen
 ## Páginas Oficiais
 
  * https://launchpad.net/gcc-arm-embedded
- * http://gnuarmeclipse.github.io/install/
  * http://msys2.github.io/
+ * http://www.eclipse.org/downloads/eclipse-packages/
+ * http://gnuarmeclipse.github.io/install/
+ * 
