@@ -46,5 +46,6 @@ Abaixo apresento o planejamento do Workshop de uso do QEMU com Eclipse e GNU ARM
  
 ## dúvidas em geral
 
- * Gancho futuro - RTOS, FreeRTOS, DuinOS e uOS
+ * Usem o formulário a baixo.
+ * Gancho futuro - [RTOS](/RTOS), [FreeRTOS](FreeRTOS), [DuinOS](/DuinOS] e [uOS](/uos/)
  
