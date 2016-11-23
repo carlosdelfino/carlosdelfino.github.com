@@ -20,13 +20,13 @@ coinbase:
  show: true
 ---
 
-O objetivo deste post é registrar os passos para preparar o ambiente para o Workshop de uso QEMU, Eclipse e ARM na estácio do Ceará.
+O objetivo deste post é registrar os passos para preparar o ambiente para o Workshop de uso do QEMU, Eclipse e ARM na estácio do Ceará.
 
 <!--more-->
 
 Abaixo estão os passos resumidos para cada instalação, detalhes serão discutidos durante o workshop.
 
-Em todas as instalações evite espaços nos nomes dos diretórios, mesmo que o windows trate bem tal situação, algumas ferramentas podem não lidar bem com os espaço, sem falar no incoveniente de de termos que usar aspas para agregar nomes de caminhos e arquivos com espaço.
+Em todas as instalações evite espaços nos nomes dos diretórios, mesmo que o windows trate bem tal situação, algumas ferramentas podem não lidar bem com os espaço, sem falar no incoveniente de termos que usam aspas para agregar nomes de caminhos e arquivos com espaço.
 
 ## Instalando o GCC para ARM
 
@@ -57,7 +57,7 @@ pacman -Suy
 pacman -Suy
 {% endhighlight %}
 
-O primeiro comando atualiza o próprio Pacman, o segundo atualiza todo o sistema, o terceiro é apenas para se ter certeza que tudo foi realmente atualizado, execute-o até que a mensagem lhe deixe claro que tudo está atualizado. Lembre-se se algum deles terminar e não voltar ao prompt (você perceberá depois que ele parar lhe dar mensagens de andamento dos processos), você pode fechar a janela e abrir de novo, normalmente isso irá acontecer apenas no primeiro comando e no máximo no segundo.
+O primeiro comando atualiza o próprio Pacman, o segundo atualiza todo o sistema, o terceiro é apenas para se ter certeza que tudo foi realmente atualizado, execute-o até que a mensagem lhe deixe claro que tudo está atualizado. Lembre-se, se algum deles terminar e não voltar ao prompt (Isso você perceberá depois que o comando parar de lhe apresentar mensagens de andamento dos processos), você pode fechar a janela e abrir de novo, normalmente isso irá acontecer apenas no primeiro comando e no máximo no segundo.
 
 ## Instalando o Eclipse
 
@@ -70,22 +70,22 @@ Você pode baixar o instalador do Eclipse, através do instalador você terá qu
  
 Seja qual instalador que tenha escolhido quando executa-lo será questionado o pacote que deseja instalar, escolha o pacote de nome **"Eclipse IDE for C/C++ Developers"**, este pacote deve ser instalado como é oferecido neste pacote nada mais.
 
-Você tem a opção de baixar este pacote manualmente e apenas descompacta-lo, portanto isso facilita a instalação para mais de uma máquina podendo inclusive customizar a instalação de alguma forma para usar em todas as máquinas, mas aqui iremos usar apenas o básico, portanto escolha a arquitetura de seus ambiente e baixe o arquivo.
+Você tem a opção de baixar este pacote manualmente e apenas descompacta-lo, portanto isso facilita a instalação para mais de uma máquina podendo inclusive customizar a instalação de alguma forma para usar em todas as máquinas, mas aqui iremos usar apenas o básico, portanto escolha a arquitetura de seu ambiente e baixe o arquivo.
 
  * [Pacote para 32-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32.zip)
  * [Pacote para 64-bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-win32-x86_64.zip)
 
 Ao finalizar a instalação basta executar o arquivo `eclipse.exe`.
 
-Veja que em ambos os métodos você terá que informar um diretório que será o espaço de trabalho para fazer o primeiro teste, use o que ele oferecer como sugestões evitando surpresas posteriores.
+Veja que em ambos os métodos você terá que informar um diretório que será o espaço de trabalho para fazer o primeiro teste, use o que ele oferecer como sugestão evitando surpresas posteriores.
 
-Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga o processo até finalizar, normalmente ele irá informar que não há atualizações, mas se ouver, basta aceitar os contratos de licença e as chaves de verificação e finalizar a atualização aguardando a mensagem que completado.
+Finalmente vá no menu _"Help"_ e escolha a opção _"Check for Updates"_ e siga o processo até finalizar, normalmente ele irá informar que não há atualizações, mas se ouver, basta aceitar os contratos de licença e as chaves de verificação e finalizar a atualização aguardando a mensagem "completado".
 
 ## Instalando o OpenOCD
 
-O OpenOCD deve apenas ser instalado com o básico, e dos links apresentados a seguir, não deve ser usado outro OpenOCD, pois este foi preparado para que que quem usa o ARM GNU Eclipse possa usa-lo com o QEMI e os participantes do Workshop irão configura-lo  durante as atividades do evento.
+O OpenOCD deve apenas ser instalado com o básico, e dos links apresentados a seguir, não deve ser usado outro OpenOCD, pois este foi preparado para que quem usa o ARM GNU Eclipse possa usa-lo com o QEMU e os participantes do Workshop irão configura-lo  durante as atividades do evento.
 
-Com nos outros softwares você deve escolher o pacote conforme sua arquitetura, portanto para clique nos links a seguir para baixar para [arquitetura 32-bit](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win32-0.10.0-201610281609-dev-setup.exe) e para [arquitetura 64-bit neste link](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win64-0.10.0-201610281609-dev-setup.exe)
+Como nos outros softwares você deve escolher o pacote conforme sua arquitetura, portanto, clique nos links a seguir para baixar para [arquitetura 32-bit](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win32-0.10.0-201610281609-dev-setup.exe) e para [arquitetura 64-bit neste link](https://github.com/gnuarmeclipse/openocd/releases/download/gae-0.10.0-20161028/gnuarmeclipse-openocd-win64-0.10.0-201610281609-dev-setup.exe)
 
 No meu ambiente de trabalho uso a pasta `C:\GNU_ARM_Eclipse\OpenOCD\0.10.0-201610281609-dev` para instalar o QEMU, veja que a subpasta muda conforme a versão instalada `0.10.0-201610281609-dev`, sendo esta instalação nesta versão, futuramente este diretório poderá ter outro nome, eu mantenho o histórico dos instaladores para que possa detectar **bugs**.
 
@@ -103,7 +103,7 @@ Como o foco do Workshop é instalar o **ARM GNU Eclipse** é preciso que se baix
 
 Veja que o ARM GNU Eclipse como é um plugin do Eclipse ele não precisa diferenciar entre Arquitetura 32-bit e Arquitetura 64-bit, o Eclipse cuidará apatir e agora disso.
 
-Detalhes de instalação será apresentados no Workshop.
+Detalhes de instalação serão apresentados no Workshop.
 
 ## Instalando os Plugins para o ARM GNU Eclipse e o QEMU
 
