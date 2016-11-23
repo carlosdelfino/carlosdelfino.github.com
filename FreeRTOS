@@ -1,8 +1,8 @@
 ---
 redirect_from:
  - "/FREERTOS/"
- - "/freertos/"
  - "/FreeRTOS/"
+ - "/freeRTOS/"
 permalink: /freertos/
 title: FreeRTOS
 layout: categorylist
