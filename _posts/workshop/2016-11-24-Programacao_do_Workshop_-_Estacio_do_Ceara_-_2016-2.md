@@ -11,7 +11,7 @@ feature:
  index: true
 image:
  feature: linuxmacwindows/allOS-logos-900x210.png
- teaser: linuxmacwindows/Quarta -500x210.png
+ teaser: linuxmacwindows/macwindowslinux-500x210.png
 ads: 
  show: true
 tagcloud: true
@@ -21,7 +21,7 @@ coinbase:
 
 Abaixo apresento o planejamento do Workshop de uso do QEMU com Eclipse e GNU ARM Eclipse para programação de Embarcados usando microcontroladores Cortex-M.
 
-<--more--!>
+<!--more-->
 
 ## 30 Minutos
 
