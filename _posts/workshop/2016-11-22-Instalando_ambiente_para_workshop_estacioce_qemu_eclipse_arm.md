@@ -2,7 +2,7 @@
 redirect_from: /workshop/estacio_ceara/20162/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/
 title: "Instalando ferramentas e preparando ambiente"
 categories: [workshop, estacio_ceara, "2016_2"]
-tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop]
+tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Estácio, Ceará, instalação, ambiente, preparação]
 layout: article
 share: true
 toc: true
