@@ -1,7 +1,8 @@
 ---
 redirect_from:
  - "/RTOS/"
- - "/rtos/"
+ - "/Rtos/"
+ - "/RTos/"
 permalink: /rtos/
 title: RTOS
 layout: categorylist
