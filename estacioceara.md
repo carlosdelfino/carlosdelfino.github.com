@@ -1,7 +1,7 @@
 ---
 redirect_from:
- - estacio_ceara
- - estacio%20ceara
+ - "estacio_ceara"
+ - "estacio%20ceara"
 permalink: /estacioceara/
 title: Estácio do Ceará - FIC
 layout: categorylist
