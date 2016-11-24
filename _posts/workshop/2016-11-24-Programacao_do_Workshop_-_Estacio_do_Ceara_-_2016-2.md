@@ -38,12 +38,12 @@ Abaixo apresento o planejamento do Workshop de uso do QEMU com Eclipse e GNU ARM
  * [Instalação e Parametrização no Eclipse para uso do GNU ARM Eclipse](workshop/estacio_ceara/2016_2/instalacao_parametrizacao_no_eclipse_pra_uso_do_gnu_arm_eclipse/)
  * [Pequenos detalhes da instalação do Eclipse com referência ao ARM GNU Eclipse](/workshop/estacio_ceara/2016_2/pequenos_detalhes_da-instalacao_do_Eclipse_com_referência_ao_ARM_GNU_Eclipse)
  * [Parametrização do Eclipse para uso com o OpenOCD](/workshop/estacio_ceara/2016_2/parametrizacao_do_eclipse_para_uso_com_o_openocd)
- * Parametrização do Eclipse para uso com o QEMU](/workshop/estacio_ceara/2016_2/parametrizacao_do_eclipse_para_uso_do_QEMU)
+ * [Parametrização do Eclipse para uso com o QEMU](/workshop/estacio_ceara/2016_2/parametrizacao_do_eclipse_para_uso_do_QEMU)
  
 ## 60 - 120 Programação
 
- * Hello World ARM Cortex-M3
- * Hello World ARM Cortex-M4
+ * [Hello World ARM Cortex-M3 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M3-QEMU)
+ * [Hello World ARM Cortex-M4 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M4-QEMU)
  * Outros Algoritmos para aprendizado
  
 ## dúvidas em geral
