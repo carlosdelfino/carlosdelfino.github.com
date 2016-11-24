@@ -1,5 +1,6 @@
 ---
 title: Pequenos detalhes da instalação do Eclipse com referência ao ARM GNU Eclipse
+date: 2016-11-29 02:30:00 -0300
 categories: [workshop, estacio_ceara, "2016_2"]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, instalação]
 layout: article
