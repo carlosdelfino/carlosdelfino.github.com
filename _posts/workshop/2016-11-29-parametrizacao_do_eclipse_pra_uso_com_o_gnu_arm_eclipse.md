@@ -57,3 +57,16 @@ Escolha também a opção _"Show print margin"_ e indique a quantidade de caract
 
 Outros paramtros podem ser setados conforme sua demanda de trabalho e interesse de personalizar o editor, fique a vontad,e mas lembre-se de anotar quais parametros mudou, até que domine toda a interface.
 
+### Parametros específicos para o C e C++.
+
+Há outros parametros que somente estão disponíveis no Ecipse quando o plugin para programação em C e C++ estão instalados corretamente. Você pode ir até a arvore de parametros e escolher a opção _"C/C++"_ e então verá uma lista de conjunos de parametros.
+
+Veja o que pode lhe atender melhor, o mais importante é você negociar com sua equipe aquilo que pode impactar no formato final do arquivo causando transtorno, especialmente na hora de fazer o processo de **Merge** de códigos entre programadores, pois se cada um usar quantidas de caracteres de espaço no lugar do TAB diferentes e usar uma formação de código diferente e sempre pedir a alto formatação irá ter problemas, pois a cada **commit** no repositório iremos ter pequenas mudanças irelevantes na escrita estrutural do código nada impacta em seu funcionamento mas será pecerbidas pelas ferramentas de versionamento.
+
+### Ajustando a Formatação do código
+
+Para ajustar a formatação de código para se ter entre todos os programadores o mesmo layout, você pode definir profiles de layout, o Eclipse já oferece alguns Laoyous prontos, e não iremos entrar em detalhes de como se criar um novo, pois não é o Objetivo deste Workshop, mas sim do Workshop Preparando seu Ambinte para **"[Projetos Open Source e Equipes distribuidas com Sistemas de Versionamento tipo GIT](Projetos Open Source e Equipes distribuidas com Sistemas de Versionamento tipo GIT)"**.
+
+Siga então na janela de preferencias até o conjunto de parametros através do caminho _"C/C++"_, _"Code Style"_, _"Formatter"_., você verá então na parte direita as opções para escolher ou criar um novo formato, apenas escolha na lista o formato _"GNU [built-in]"_, este formato é o mais geral para projetos baseados em código criado pela comunidade **GNU**. Você pode altera-lo conforme negociado com sua equipe. Vale muito apena dedicar um reunião para este ajuste com a equipe.
+
+
