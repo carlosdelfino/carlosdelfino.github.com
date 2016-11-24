@@ -69,4 +69,18 @@ Para ajustar a formatação de código para se ter entre todos os programadores 
 
 Siga então na janela de preferencias até o conjunto de parametros através do caminho _"C/C++"_, _"Code Style"_, _"Formatter"_., você verá então na parte direita as opções para escolher ou criar um novo formato, apenas escolha na lista o formato _"GNU [built-in]"_, este formato é o mais geral para projetos baseados em código criado pela comunidade **GNU**. Você pode altera-lo conforme negociado com sua equipe. Vale muito apena dedicar um reunião para este ajuste com a equipe.
 
+## Indexando seu código em C/C++
+
+Para usufruir adequadamente do auto completar do Eclipse quando se programa em **C/C++** os arquivos fonte de seu programa precisam ser automáticamente indexados, assim o Eclipse irá automáticamente lhe ajudar a identificar erros antes que eles aconteçam e lhe apresentar sugestões para autocompeltar quando estiver digitando.
+
+Para isso abra novamente a tela de preferências e vá na avore de parametros até a coleção _"C/C++"_, _"Indexer"_. no conjunto "Indexing strategy", selecione ambas as opções _"Automatically update the index"_ e _"Update index immediately after every file-save"_, se já não estiverem selecionada, e selecionte também a opção _"Use active build configuration".
+
+## Conclusão.
+
+Como ver pela janela de configuração, há mais que uma centena de parametros que irão lhe ajudar a ter um abiente bem parametrizado e customizado conforme sua forma de trabalhar, para que se sinta mais a vontde e possa se comunicar com sua equipe perfeitamente, dependendo apenas de uma rápida reunião de definião de boas práticas para obter sucesso na qualidade do código gerado, e isso vale muito para o desenvolvimento de embarcados.
+
+E o mais importante destes parametros para nós hoje são as opções citadas acima.
+
+Boa Sorte.
+
 
