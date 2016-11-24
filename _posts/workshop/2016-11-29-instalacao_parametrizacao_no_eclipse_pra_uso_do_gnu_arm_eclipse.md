@@ -52,3 +52,17 @@ Ao clicar em OK, será apresentada a lista que selecionou, e confirme clicando e
 No final da instalação será perguntado se você aceitar instalar alguns softwares que não estão assinados pelo Eclipse, isso é normal, pois nem todo plugin é homologado, mas este é de fonte confiável e pode instalar sem problemas. Para maior garantia sempre baixe o pacote direto da fonte, fizemos desta forma para agilizar durante o Workshop.
 
 Reinicialize o Eclipse e o Plugin estará instalado. Se você seguir todos os passos que dei não terá nenhum problema.
+
+## Parametrização e Inicial do Eclipse
+
+Neste ponto é fundamental que o GCC para ARM já esteja instalado, no caso esta instalação já foi feita pois é simples e não necessita muitos detalhes, mas caso queira ver como foi o processo sugiro que leia o artigo [Instalando o ambiente base, ferramentas e preparando o ambiente de desenvolvimento](/workshop/estacio_ceara/2016_2/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/)
+
+Se você tem seguido as orientações que estou apresentando neste workshop não terá nenhuma surpresa, mas se não segui, você pode ter surpresas aqui, discutiremos isso no Workshop ao vivo.
+
+Entre na janela de preferências do Eclipse, siga a arvore de parametros pelo caminho _"C/C++"_, _"Build"_, _"Global Tools Paths"_, será apresentado a tela para informar o caminho para as ferramentas que irão auxiliar na construção dos códigos, e a pasta onde foi instalado o GNU GCC (o Toolchain"
+
+Ao lado da caixa para instalar o _"Build tools folder"_, clique no botão _"Browser..."_ e selecione na pasta onde foi instalado o Msys2, a pasta que estão os binários que nos ajudaram a compilar nossos nossos softwares `usr\bin`. Seu path ficará provalmente da seguinte forma: `c:\msys64\usr\bin`.
+
+Deixe as demais opções conforme o padrão, _"GNU Tools for ARM Embedded Processors"_ e vamos agora indicar em qual pasta está o GNU GCC para ARM que já foi também instalado no processo apresentado no artigo sugerido acima. Clique no botão _"Browser..."_ ao lado da caixa de texto que permite informar o _"Toolchain folder"_. Click em _"Apply"_ e feche a janela clicando no botão _"Ok"_.
+
+
