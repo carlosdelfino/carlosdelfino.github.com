@@ -19,3 +19,7 @@ coinbase:
  show: true
 ---
  
+O que é importante para os primeiros passos com o OpenOCD e o Eclipse, quais parametros precisam ser ajustados?
+
+<!--more-->
+
