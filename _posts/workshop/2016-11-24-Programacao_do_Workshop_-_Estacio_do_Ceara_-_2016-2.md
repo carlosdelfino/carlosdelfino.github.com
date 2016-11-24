@@ -34,10 +34,10 @@ Abaixo apresento o planejamento do Workshop de uso do QEMU com Eclipse e GNU ARM
 ## 30 - 60 Instalação e configuração do Ambiente
 
  * [Revisão da Instalação Base](/workspace/estacio_ceara/2016_2/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/)
+ * [Instalação e Parametrização no Eclipse para uso do GNU ARM Eclipse](/workspace/estacio_ceara/2016_2/instalacao_parametrizacao_no_eclipse_pra_uso_do_gnu_arm_eclipse)
  * [Pequenos detalhes da instalação do Eclipse com referência ao ARM GNU Eclipse](/workspace/estacio_ceara/2016_2/pequenos_detalhes_da-instalacao_do_Eclipse_com_referência_ao_ARM_GNU_Eclipse)
- * [Parametrização do Eclipse para uso com o GNU ARM Eclipse](/workspace/estacio_ceara/2016_2/parametrizacao_do_eclipse_pra_uso_com_o_gnu_arm_eclipse)
  * [Parametrização do Eclipse para uso com o OpenOCD](/workspace/estacio_ceara/2016_2/parametrizacao_do_eclipse_para_uso_com_o_openocd)
- * Parametrização do Eclipse para uso com o QEMU
+ * Parametrização do Eclipse para uso com o QEMU](/workspace/estacio_ceara/2016_2/parametrizacao_do_eclipse_para_uso_do_QEMU)
  
 ## 60 - 120 Programação
 
