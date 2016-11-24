@@ -43,5 +43,17 @@ Já em "New text file line delimiter", você deve selecinar também a caixa que 
 
 Finalmente basta você clicar no botão **Apply**, e para fechar a janela clique no botão **Ok**.
 
+## Número de linhas e número máximo de caracteres por linha.
 
+E bom ao se programar no Eclipse definir que sejam apresentaqdas os números de linhas para que facilite encontrar o ponto exato onde está ocorrendo um erro quando sua aplicação falha ao ser executada, o Eclipse nos permite definir que o editor nos mostre estas linhas.
+
+Além disso, é bom também delimitar uma margem para o número máximo de caracteres em uma linha, o Eclipse não irá lhe impedir que continue escrevendo nesta linhas, mas será apresentada uma linha que ajuda a identificar tal limite.
+
+Para isso, abra novamente a janela de preferências como explicado acima. E siga na arvore de paramtros até _"General"_, _"Editors"_, _"Text Editors"_. No conjunto de parametros relativos a _"Text Editors"_, você poderá definir além destas informações todo o comportamento do editor de texto do Eclipse para qualquer linguagem e tipo de edição.
+
+Escolha então que deseja inserir espaços no lugar do caracter de controle **"Tab"**, _"Insert spaces for tabs"_.
+
+Escolha também a opção _"Show print margin"_ e indique a quantidade de caracteres, _"Print margin column:"_, como sendo no máximo 80, você pode negociar com sua equipe um valor diferente adequado a todos, mas lembren-se que nem todos tem monitores gigantes de alta definição.
+
+Outros paramtros podem ser setados conforme sua demanda de trabalho e interesse de personalizar o editor, fique a vontad,e mas lembre-se de anotar quais parametros mudou, até que domine toda a interface.
 
