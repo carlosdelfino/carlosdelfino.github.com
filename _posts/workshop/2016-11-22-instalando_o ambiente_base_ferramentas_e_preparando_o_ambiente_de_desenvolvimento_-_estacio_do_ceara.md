@@ -120,7 +120,7 @@ Será tratado durante o Workshop.
 
 A instalação dos pacotes de templates deveria ser tratado durante o Workshop, porém por ser um pacote complexo e de grande tamanho, podemos levar até 1 hora esperando para fazer o download, além de ser um pacote muito requisitado pode haver falhas em tentativas simultáneas de acesso.
 
-Para evitar tal problema gravei no {seguinte link uma imagem compactada]() que deve ser disponibilizada no Desktop de forma que possa ser fácilmente descompactado com o [WinRAR](http://www.win-rar.com/fileadmin/winrar-versions/winrar/wrar540.exe).
+Para evitar tal problema gravei no [seguinte link uma imagem compactada](https://mega.nz/#!o4kWQaST) que deve ser disponibilizada no Desktop de forma que possa ser fácilmente descompactado com o [WinRAR](http://www.win-rar.com/fileadmin/winrar-versions/winrar/wrar540.exe).
 
 ## Resumo para facilitar
 
