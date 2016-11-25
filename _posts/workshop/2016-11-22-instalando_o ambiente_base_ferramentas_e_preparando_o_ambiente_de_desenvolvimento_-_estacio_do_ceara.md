@@ -124,7 +124,7 @@ Para evitar tal problema gravei no [seguinte link uma imagem compactada](https:/
 
 ## Resumo para facilitar
 
-Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R) para facilitar para que posssam baixar posteriormente os aquivos usados no Workshop.
+Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R!g6bAAWEfJY7KnZ2ydRh9gw) para facilitar para que posssam baixar posteriormente os aquivos usados no Workshop.
 
 [Também tem estes post que ajuda na instalação do MSys2](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-1/)
 
