@@ -19,3 +19,13 @@ tagcloud: true
 coinbase:
  show: true
 ---
+
+Ao Instalar o QEMU é preciso observar alguns detalhes, nada complexo, porém são detalhes de suma importancia para o seu bom uso.
+
+<!--more-->
+
+
+
+
+
+ 
