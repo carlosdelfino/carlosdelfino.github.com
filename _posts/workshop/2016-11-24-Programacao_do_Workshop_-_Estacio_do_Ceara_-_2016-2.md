@@ -42,6 +42,7 @@ Abaixo apresento o planejamento do Workshop de uso do QEMU com Eclipse e GNU ARM
  
 ## 60 - 120 Programação
 
+ * [Como Instalar os Templates](/workshop/estacio_ceara/2016_2/Como_Instalar_os_Templates_para_Nosso_Workshop/).
  * [Hello World ARM Cortex-M3 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M3-QEMU)
  * [Hello World ARM Cortex-M4 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M4-QEMU)
  * Outros Algoritmos para aprendizado
