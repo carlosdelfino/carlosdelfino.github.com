@@ -115,6 +115,12 @@ Detalhes de instalação serão apresentados no Workshop.
 
 Será tratado durante o Workshop.
 
+## Instalação dos Pacotes de Templates
+
+A instalação dos pacotes de templates deveria ser tratado durante o Workshop, porém por ser um pacote complexo e de grande tamanho, podemos levar até 1 hora esperando para fazer o download, além de ser um pacote muito requisitado pode haver falhas em tentativas simultáneas de acesso.
+
+Para evitar tal problema gravei no {seguinte link uma imagem compactada]() que deve ser disponibilizada no Desktop de forma que possa ser fácilmente descompactado com o [WinRAR](http://www.win-rar.com/fileadmin/winrar-versions/winrar/wrar540.exe).
+
 ## Resumo para facilitar
 
 Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R) para facilitar para que posssam baixar posteriormente os aquivos usados no Workshop.
