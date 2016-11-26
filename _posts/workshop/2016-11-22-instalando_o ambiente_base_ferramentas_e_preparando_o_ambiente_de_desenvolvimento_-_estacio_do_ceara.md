@@ -6,7 +6,7 @@ title: "Instalando o ambiente base, ferramentas e preparando o ambiente de desen
 date: 2016-11-29 01:10:00 -0300
 categories: [workshop, estacio_ceara, "2016_2"]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Estácio, Ceará, instalação, ambiente, preparação]
-layout: article
+layout: article-workshop-estacio-2016-1
 share: true
 toc: true
 comments: true
