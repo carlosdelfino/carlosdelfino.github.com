@@ -3,7 +3,7 @@ title: "Como Instalar os Templates para Nosso Workshop"
 date: 2016-11-29 03:10:00 -0300
 categories: [workshop, estacio_ceara, "2016_2"]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, templates, keyl, stm32f3,stm32f4,stmicroeletronics]
-layout: article
+layout: article-workshop-estacio-2016-1
 share: true
 toc: true
 comments: true
