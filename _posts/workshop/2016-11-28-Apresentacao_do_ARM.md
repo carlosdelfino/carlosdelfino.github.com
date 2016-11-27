@@ -20,7 +20,7 @@ Do que se trata o nome ARM? é uma empresa, um produto ou apenas um nome fantasi
 <!--more-->
 
 <figure>
-<img src="/images/arm/arm-cortex-a15-350x200.png/images/arm/arm-cortex-a15-350x200.png"></img>
+<img src="/images/arm/ARM-Cortex-logo.png" />
 </figure>
 
 ARM é o nome da empresa que dá origem a série de processadores mais utilizaod no mundo para dispositivos móveis, é bem provável que seu celular tenha um processaador baseado na Arquitetura definida pela ARM.
@@ -48,7 +48,7 @@ Não entraremos aqui nos detalhes de cada arquitura e os procesadores ARM, apena
 Abaixo está um gráfico de como os processadores foram distribuidos e suas aplicações, este gráfico não apresenta ainda os processadores Cortex-M33, Cortex-M23:
 
 <figure>
-<img src="/images/arm/processadores-arm-performance-vs-aplicacao.png"></img>
+<img src="/images/arm/processadores-arm-performance-vs-aplicacao.png" />
 <figcapture></figcapture>
 </figure>
 
@@ -56,17 +56,16 @@ Abaixo está um gráfico de como os processadores foram distribuidos e suas apli
 
 Nosso trabalho será com o Cortex-M3 e Cortex-M4, como o QEMU está sendo extendido, este ainda não possui targets para emular os novos processadores Cortex-M7, Cortex-M23 e Cortex-M33 que foram lançados a pouco tempo, sendo os dois últimos criados especialmente para [IoT](/IoT/).
 
-Abaixo apesento a [ISA](/arm/isa/ dos microcontroladores [Cortex-M3](/arm/familia/cortex-m3/) e [Cortex-M4](/arm/familia/cortex-m4/).
+Abaixo apesento a [ISA](/arm/isa/) dos microcontroladores [Cortex-M3](/arm/familia/cortex-m3/) e [Cortex-M4](/arm/familia/cortex-m4/).
 
 <figure>
 <img src="/images/arm/isa-cortex-m0-7.png"></img>
 <figcapture></figcapture>
 </figure>
 
-<figure>
-<img src="/images/arm/Cortex-M3-Arquitetura-800x846.png"></img>
-<figcapture></figcapture>
-</figure>
+### Cortex-M4
+
+Abaixo apresentanmos a Arquitetura ARMv7-M usada no microcontrolador Cortex-M4
 
 <figure>
 <img src="/images/arm/Cortex-M4-Arquitetura-800x846.png"></img>
