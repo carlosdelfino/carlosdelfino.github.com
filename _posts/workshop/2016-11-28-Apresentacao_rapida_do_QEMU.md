@@ -10,12 +10,11 @@ comments: true
 feature:
  category: true
  index: true
-image:
- feature: linuxmacwindows/allOS-logos-900x210.png
- teaser: linuxmacwindows/macwindowslinux-500x210.png
-ads: 
- show: true
 tagcloud: true
 coinbase:
  show: true
 ---
+
+QEMU um emulador de alto desempenho para criação de hardware virtual.
+
+<!--more-->

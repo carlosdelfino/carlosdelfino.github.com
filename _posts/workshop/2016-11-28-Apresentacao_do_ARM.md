@@ -10,11 +10,6 @@ comments: true
 feature:
  category: true
  index: true
-image:
- feature: linuxmacwindows/allOS-logos-900x210.png
- teaser: linuxmacwindows/macwindowslinux-500x210.png
-ads: 
- show: true
 tagcloud: true
 coinbase:
  show: true
@@ -23,6 +18,10 @@ coinbase:
 Do que se trata o nome ARM? é uma empresa um produto ou apenas um nome fantasia?
 
 <!--more-->
+
+<figure>
+<img src="/images/arm/arm-cortex-a15-350x200.png/images/arm/arm-cortex-a15-350x200.png"></img>
+</figure>
 
 ARM é o nome da empresa que dá origem a série de processadores mais utilizaod no mundo para dispositivos móveis, é bem provável que seu celular tenha um processaador baseado na Arquitetura definida pela ARM.
 

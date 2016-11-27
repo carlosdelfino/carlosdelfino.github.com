@@ -10,17 +10,12 @@ comments: true
 feature:
  category: true
  index: true
-image:
- feature: linuxmacwindows/allOS-logos-900x210.png
- teaser: linuxmacwindows/macwindowslinux-500x210.png
-ads: 
- show: true
 tagcloud: true
 coinbase:
  show: true
 ---
 
-Para usar o Plugin GNU ARM Eclipse o ideal é que seja baixado os templates de cada microprocessador, como iremos trabalhar apenas neste Workshop com as placas de prototipação [STM32F3-Discovery](/arm/cortex-m4/stm/STM32F3-Discovery) e [STM32F4-Discovery](/arm/cortex-m4/stm/STM32F4-Discovery) produzido pela [STMicroeletronics](/arm/cortex-m4/STM/) e usa respectivamente o processador [STM32F407VG](/arm/cortex-m3/stm/STM32F407XX/STM32F407VG) e [STM32F303VC](/arm/cortex-m3/stm/STM32F407XX/STM32F303VC).
+Para usar o Plugin GNU ARM Eclipse o ideal é que seja baixado os templates de cada microprocessador.
 
 <!--more-->
 
