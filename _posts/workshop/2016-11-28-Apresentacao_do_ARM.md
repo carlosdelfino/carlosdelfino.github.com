@@ -15,7 +15,7 @@ coinbase:
  show: true
 ---
 
-Do que se trata o nome ARM? é uma empresa um produto ou apenas um nome fantasia?
+Do que se trata o nome ARM? é uma empresa, um produto ou apenas um nome fantasia?
 
 <!--more-->
 
@@ -45,9 +45,34 @@ Temos 3 principais arquiteturas muito usadas, são a arquitetura ARMv6, ARMv7 e 
 
 Não entraremos aqui nos detalhes de cada arquitura e os procesadores ARM, apenas os usaremos em nosso workshop.
 
-Abaixo está um gráfico de como os processadores foram distribuidos e suas aplicações, este gráfico não apresenta ainda os processadores Cortex-M33, Cortex-M23 e Cortex-A53 (este usado no NanoPi):
+Abaixo está um gráfico de como os processadores foram distribuidos e suas aplicações, este gráfico não apresenta ainda os processadores Cortex-M33, Cortex-M23:
 
 <figure>
 <img src="/images/arm/processadores-arm-performance-vs-aplicacao.png"></img>
 <figcapture></figcapture>
 </figure>
+
+## Cortex-M
+
+Nosso trabalho será com o Cortex-M3 e Cortex-M4, como o QEMU está sendo extendido, este ainda não possui targets para emular os novos processadores Cortex-M7, Cortex-M23 e Cortex-M33 que foram lançados a pouco tempo, sendo os dois últimos criados especialmente para [IoT](/IoT/).
+
+Abaixo apesento a [ISA](/arm/isa/ dos microcontroladores [Cortex-M3](/arm/familia/cortex-m3/) e [Cortex-M4](/arm/familia/cortex-m4/).
+
+<figure>
+<img src="/images/arm/isa-cortex-m0-7.png"></img>
+<figcapture></figcapture>
+</figure>
+
+<figure>
+<img src="/images/arm/Cortex-M3-Arquitetura-800x846.png"></img>
+<figcapture></figcapture>
+</figure>
+
+<figure>
+<img src="/images/arm/Cortex-M4-Arquitetura-800x846.png"></img>
+<figcapture></figcapture>
+</figure>
+
+
+
+

@@ -16,3 +16,9 @@ coinbase:
 ---
 
 Aguarde ainda hoje a máquina virtual estará disponível.
+
+<!--more-->
+
+Tempo médio de upload para o cloud: 103 horas.
+
+As 3:34 da manhã 1% upado.
