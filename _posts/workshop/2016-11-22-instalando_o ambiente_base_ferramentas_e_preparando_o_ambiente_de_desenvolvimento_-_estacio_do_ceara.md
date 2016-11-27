@@ -6,7 +6,7 @@ title: "Instalando o ambiente base, ferramentas e preparando o ambiente de desen
 date: 2016-11-29 01:10:00 -0300
 categories: [workshop, estacio_ceara, "2016_2"]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Estácio, Ceará, instalação, ambiente, preparação]
-layout: article
+layout: article-workshop-estacio-2016-1
 share: true
 toc: true
 comments: true
@@ -18,21 +18,21 @@ coinbase:
  show: true
 ---
 
-O objetivo deste post é registrar os passos para preparar o ambiente para o Workshop de uso do QEMU, Eclipse e ARM na estácio do Ceará.
+O objetivo desta página é registrar os passos necessário para preparar o ambiente que será usado para o Workshop de uso do QEMU, Eclipse e ARM no Centro Universitário Estácio do Ceará (FIC - Moreira Campos).
 
 <!--more-->
 
-Abaixo estão os passos resumidos para cada instalação, detalhes serão discutidos durante o workshop.
+Abaixo estão os passos resumidos para cada instalação que deve ser realizada pela equipe de suporte, os demais detalhes da instalação serão discutidos durante o workshop. Porém apartir de terça todos estes detalhes estarão disponínveis neste site.
 
-Em todas as instalações evite espaços nos nomes dos diretórios, mesmo que o windows trate bem tal situação, algumas ferramentas podem não lidar bem com os espaço, sem falar no incoveniente de termos que usam aspas para agregar nomes de caminhos e arquivos com espaço.
+Em todas as instalações, **evite usar espaços nos nomes dos diretórios e arquivos**, mesmo que o windows trate bem tal situação, algumas ferramentas como **autoconf** e **automake** podem não lidar bem com os espaço, sem falar no incoveniente de termos que usam aspas para agregar nomes de caminhos e arquivos.
 
 ## Instalando o GCC para ARM
 
-Primeiro passo é baixar o GCC para ARM, o mesmo se chama **GCC ARM None EABI** e deve ser obtido para o [Windows 32bits Clicando Aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). Faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4 2016q3`.
+Primeiro passo é baixar o GCC para ARM, o **GCC ARM None EABI** e deve ser obtido para o [Windows 32bits ou 64bits clicando aqui](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe). Faça a instalação do pacote na pasta: `C:\GNU_Tools_ARM_Embedded\5.4_2016q3`.
 
-O instalador irá lhe perguntar se deseja abrir o shell do GCC, você deve deixar esta opção marcada, porém, a opção para adicionar ao _PATH_ o diretório onde foi instalado o **GCC** deve ficar desmarcada, evitando que o **PATH** do sistema operacional que usa seja alterado e você tenha problemas caso precise usar mais uma versão de GCC.
+O instalador irá lhe perguntar se deseja abrir o shell do GCC, você deve deixar esta opção marcada, porém, a opção para adicionar ao _PATH_ o diretório onde foi instalado o **GCC** **deve ficar _desmarcada_**, evitando que o **PATH** do sistema operacional seja alterado e você tenha problemas caso precise usar mais de uma versão de GCC.
 
-Para confirmar se a instalação ocorreu corretamente e se o shell não abriu logo em seguida, vá na pasta `bin` de onde você seleciou para instalação e execute o arquivo `gccvar.bat`,  no novo terminal do shell que se abrir digite `arm-none-eabi-gcc --version`, a seguinte mensagem será apresentada:
+Para confirmar se a instalação ocorreu corretamente no novo terminal do shell que se abrir digite `arm-none-eabi-gcc --version`, a seguinte mensagem será apresentada:
 
 ```
 arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496]
@@ -41,11 +41,13 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
+Se o shell não abriu logo em seguida (seja por qualquer motivo), vá na pasta `bin` no diretório que foi indicado como sugerido acima,  execute o arquivo `gccvar.bat`,  
+ 
 ## Instalando o MSys2
 
 Em seguida instale o MSys2 escolhendo a plataforma em um dos links a seguir, [arquitetura 32-Bit](http://repo.msys2.org/distrib/i686/msys2-i686-20161025.exe) ou [arquitetura 64-Bit](http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20161025.exe) conforme seu ambiente.
 
-Instale o MSys2 no diretório `c:\msys` para arquitetura 32-bit ou `c:\msys64`para arquitetura 64-bit.
+Instale o MSys2 no diretório `c:\msys32` para arquitetura 32-bit ou `c:\msys64`para arquitetura 64-bit, não mude estes diretórios.
 
 Em seguida abra o shell executando o script `msys2_shell.cmd` que será encontrado na pasta onde foi instalado o MSys2 e execute os seguintes comandos, se a tela ao finalizar o comando, não se preocupe é normal, feche normalmente mesmo com alerta, e abra novamente e execute o próximo.
 
@@ -131,6 +133,9 @@ Eu gravei tudo no [mega drive](https://mega.nz/#F!0hs0mT5R!g6bAAWEfJY7KnZ2ydRh9g
  * https://github.com/gnuarmeclipse/openocd/releases
  * http://gnuarmeclipse.github.io/install/
 
-### [Programação Oficial](http://carlosdelfino.eti.br/workshop/estacio_ceara/2016_2/Programacao_do_Workshop_-_Estacio_do_Ceara_-_2016-2/)
+### Programação Oficial
 
-### [Outros Artigos Relacionados](http://carlosdelfino.eti.br/estacio_ceara/)
+ * [Programação Oficial do Workshop](http://carlosdelfino.eti.br/workshop/estacio_ceara/2016_2/Programacao_do_Workshop_-_Estacio_do_Ceara_-_2016-2/)
+ * [Programação Oficialde todo o evento](http://siconect.pe.hu)
+
+Para [outros artigos relacionados a Estácio visite este link](http://carlosdelfino.eti.br/estacio_ceara/).

@@ -1,0 +1,41 @@
+---
+layout: default
+ads:
+  show: false
+---
+
+<div id="main" role="main">			
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+    <figure>
+      <img src="/images/estacio_do_ceara/siconect/banner-estacio-siconect-2016-2-carlosdelfino.jpg"></img>
+    </figure>
+		<div class="inner-wrap" style="width: 100%; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;  margin-left: 0px;">
+			<nav class="toc"></nav><!-- /.toc -->
+			<div id="content" class="page-content" itemprop="articleBody">
+{% if page.tagcloud  %}
+			<aside id="tagcloud"></aside>
+			{% include gadget/d3-tagcloud.html container="tagcloud" height=250 width=600 %}
+{% endif %}
+				 
+				{{ content }}
+				<hr />
+				<footer class="page-footer">
+					{% if page.categories %}
+						{% include paginator/article.html %}
+						{% include page-author.html %}
+					{% endif %}
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+					{% if page.amazon.productcloud == true %}{% include gadget/amazon/product-cloud-gadget.html %}{% endif %}
+					<!-- start if donate -->
+					{% if page.donate.show != false %}{% include donate/donate.html %}{% endif %}
+					<!-- end if donate -->
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
