@@ -22,11 +22,13 @@ QEMU um emulador de alto desempenho para criação de hardware virtual.
 > A physicist, an engineer, and a computer scientist were discussing the nature of God. “Surely a Physicist,” said the physicist, “because early in the Creation, God made Light; and you know, Maxwell's equations, the dual nature of electromagnetic waves, the relativistic consequences...” “An Engineer!,” said the engineer, “because before making Light, God split the Chaos into Land and Water; it takes a hell of an engineer to handle that big amount of mud, and orderly separation of solids from liquids...” The computer scientist shouted: “And the Chaos, where do you think it was coming from, hmm?”
 —Anonymous
 
-Não que eu queira dizer que o QEMU seja um caos, pelo contrário, ele é sem dúvida uma excelente opção quando se precisa lidar com diversos modelos de maquinas diferentes. Sua capacidade de emular tanto o processador como o hardware nos permite criar uma infidade de modelos de máquinas sem um gasto excessívo com novos equipamentos.
+Não que eu queira dizer que o QEMU seja um caos, pelo contrário, ele é sem dúvida uma excelente opção quando se precisa lidar com diversos modelos de máquinas diferentes. Sua capacidade de emular tanto o processador como o hardware nos permite criar uma infidade de modelos de máquinas sem um gasto excessívo com novos equipamentos.
 
-O QEMU além de emular maquinas ele também virtualiza sobre o hardware existentes novas instâncias de um sistema operacional, seja ou até mesmo aplicativos bare-metal quando for o caso.
+O QEMU além de emular maquinas ele também virtualiza sobre o hardware existentes novas instâncias de um sistema operacional,  e quando emulando hardware premite até mesmo aplicativos bare-metal quando por exemplo com microcontroladores e até sobre processadores ARM ou outros.
 
-Porém desenvolver um novo hardware para o Eclipse não é tão simples assim além do domínio da arquitetura da maquina que seja emular, é preciso compreender bem como se programar para o QEMU e criar novos **Targets**, mas o mais interessante é que temos grandes profissionais dispostos a fazer tal trabalho e até mesmo nos orientar como chegarmos a um nível para que possamos contribuir.
+O Desempenho do QEMU é excelente, e quase equivalente ao desempenho do hardware nativo que faz o papel de host, isso se deve a estratégia de tradução dinâmica das instruções Assembly de uma arquitura (ISA) para outra diretamente.
+
+Porém desenvolver um novo hardware para o QEMU não é tão simples assim além do domínio da arquitetura do processador envolvido, é preciso compreender bem como se programar para o QEMU e criar novos **Targets**, a programação do QEMU é feita em C, e utiliza amplamente o recurso de macros de pré processamento, mas o mais interessante é que temos grandes profissionais dispostos a fazer tal trabalho e até mesmo nos orientar como chegarmos a um nível para que possamos contribuir.
 
 O maior exemplo para um bom trabalho para emulação de hardware é o trabalho desenvolvido pelo Engenheiro Senior de Software Liviu Iunesco, esponsável pela criação do **TArget** que permite rodar emuladores de placas de prototipação da STMicroeletrônics, as placas Discovery tanto para Cortex-M3 como para Cortex-M4.
 

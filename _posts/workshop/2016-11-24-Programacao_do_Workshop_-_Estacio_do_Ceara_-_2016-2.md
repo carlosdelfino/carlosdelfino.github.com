@@ -39,7 +39,7 @@ Os temas foram separados conforme o tempo que será dedicado ao seu grupo de inf
  
 ## 60 - 120 Programação
 
- * [Como Instalar os Templates](/workshop/estacio_ceara/2016_2/Como_Instalar_os_Templates_para_Nosso_Workshop/).
+ * [Como Instalar os Templates e Pacotes CMSIS](/workshop/estacio_ceara/2016_2/como_instalar_os_templates_e_pacotes_cmsis_para_nosso_workshop/).
  * [Hello World ARM Cortex-M3 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M3-QEMU)
  * [Hello World ARM Cortex-M4 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M4-QEMU)
  * Outros Algoritmos para aprendizado
