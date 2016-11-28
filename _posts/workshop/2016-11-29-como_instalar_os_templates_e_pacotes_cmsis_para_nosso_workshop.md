@@ -25,11 +25,11 @@ Para usar o Plugin GNU ARM Eclipse o ideal é tenhamos os templates para cada ar
 
 Os Templates são layouts e exemplos de códigos, você pode criar seus próprios templates, porém por hora iremos usar os que já estão prontos.
 
-Ao instalar o plugin GNU ARM Eclipse selecione também o plugin "GNU ARM C/C++ Generic Cortex-M Project Template" na verdade um extenão do plugin GNU ARM Eclipse. Veja a imagem abaixo:
+Ao instalar o plugin GNU ARM Eclipse selecione também o plugin "GNU ARM C/C++ Generic Cortex-M Project Template" e "GNU ARM C/C++ STM32Fx Project Templates" na verdade um extenção do plugin GNU ARM Eclipse. Veja a imagem abaixo:
 
 ![](/images/workshop/estaciodoceara/siconect/2016-2/helloword_arm_cortex-m/ampliando_plugins-instalados-do-gnuarm-eclipse-templates.png)
 
-Se selecionou este pacote durante a instalação pode faze-lo agora sem problemas. Siga o processo de instalação padrão do Eclipse.
+Se não selecionou este pacote durante a instalação, pode faze-lo agora sem problemas. Siga o processo de instalação padrão do Eclipse.
 
 ## Pacotes CMSIS
 
@@ -52,4 +52,11 @@ A instalação dos pacotes devem normalmente ser feita diretamente pelo Eclipse,
 Já na tela de gerenciamento (Perspectiva) dos pacotes CMSIS, basta clicar no icone atualizar, mas como já teremos um pacote preprocessador para ajudar no download faremos apenas a título de prática, já que tal pacote tem mais de 500Mbs de dados úteis.
 
 [Interface/perspectiva do Eclipse para instalação de pacotes do CMSIS](/images/workshop/estaciodoceara/siconect/2016-2/instalando_pacotes_cmsis.png)
+
+Atualmente o CMSIS versão 5 está disponível como código aberto e é possível não só estuda-lo mas também contribuir com sua expansão.
+para baixo-lo [visite o repositório do projeto no GitHUB](https://github.com/ARM-software/CMSIS_5), nesta versão já há suporte para Cortex-M23 e Cortex-M33 que adota a arquitetura [ARMV8-M](/arm/arquitetura/ARMv8-M)
+
+## Fontes
+
+ * https://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
 
