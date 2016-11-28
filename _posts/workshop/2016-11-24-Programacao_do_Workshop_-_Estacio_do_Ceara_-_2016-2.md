@@ -40,7 +40,7 @@ Os temas foram separados conforme o tempo que será dedicado ao seu grupo de inf
 
  * [Como Instalar os Templates e Pacotes CMSIS](/workshop/estacio_ceara/2016_2/como_instalar_os_templates_e_pacotes_cmsis_para_nosso_workshop/).
  * [Hello World ARM Cortex-M4 usando o QEMU](/workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M4-QEMU)
- * Outros Algoritmos para aprendizado
+ * [Outros metodos para aprendizado](/workshop/estacio_ceara/2016_2/outros_metodos_para_aprendizado)
  
 ## dúvidas em geral
 
