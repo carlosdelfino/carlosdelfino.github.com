@@ -58,4 +58,8 @@ Ao lado da caixa para instalar o _"Build tools folder"_, clique no botão _"Brow
 
 Deixe as demais opções conforme o padrão, _"GNU Tools for ARM Embedded Processors"_ e vamos agora indicar em qual pasta está o GNU GCC para ARM que já foi também instalado no processo apresentado no artigo sugerido acima. Clique no botão _"Browser..."_ ao lado da caixa de texto que permite informar o _"Toolchain folder"_. Click em _"Apply"_ e feche a janela clicando no botão _"Ok"_.
 
+## Parametrizando para uso com o QEMU
 
+Na tela de configuração do Eclipse siga a arvore de parametros e vá até _"Run/Debug"_, _"QEMU"_, na janela informe o PATH onde o QEMU foi instalado, caso o Eclipse já tenha encontrado confirme ser o diretório usada durante a nossa instalação.
+
+![Parametrização do QEMU no Eclipse](/images/workshop/estaciodoceara/siconect/2016-2/configurando-qemu-gnu-arm-eclipse.png)
