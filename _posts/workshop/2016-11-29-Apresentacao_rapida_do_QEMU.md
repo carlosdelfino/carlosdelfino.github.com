@@ -42,3 +42,50 @@ O QEMU também poderá ser usado para programar para AVR, estou responsável par
 
 Hoje oque mais tem atrasado para o desenvolvimento com o QEMU é a compilação da biblioteca SDL pois esta tem apresentado problemas em meu ambiente, mas assim que resolver tal problema, integrarei o AVR e posteriormente irei unir esforços com o Livius Iunesco para produzir novos recursos para o Cortex-M.
 
+## Modos de Operação
+
+O QEMU Possuem dois modos de operação:
+
+ * Emulação total do sistema, onde um sistema completo seja um PC ou um módulo como [RaspeberryPI](/raspberrypi) ou [NanoPI](/nanopi), incluindo todos os seus recursos e periféricos são emulados pode ser usado para uso com um sistema operacional igual ou diferente do hospeiro ou mesmo programação bare-metal seja qual for o processador escolhido.
+ * Emulação em modo usuário, neste modo o QEMU executa um processo, um aplicativo por exemplo um editor de texto ou outra aplicação que você possa ter sido compilado em uma CPU na CPU do HOST não importando a diferença, por exemplo ele pode ser usado para rodar o [WINE](http://www.winehq.org) para ARM no Linux que está sobre um INTEL Core I7, para testes, depuração (cross-debug) ou até produção.
+
+## Sistemas oficialmente emulados
+
+### Emulação completa
+
+ * PC (x86 or x86_64 processor)
+ * ISA PC (old style PC without PCI bus)
+ * PREP (PowerPC processor)
+ * G3 Beige PowerMac (PowerPC processor)
+ * Mac99 PowerMac (PowerPC processor, in progress)
+ * Sun4m/Sun4c/Sun4d (32-bit Sparc processor)
+ * Sun4u/Sun4v (64-bit Sparc processor, in progress)
+ * Malta board (32-bit and 64-bit MIPS processors)
+ * MIPS Magnum (64-bit MIPS processor)
+ * ARM Integrator/CP (ARM)
+ * ARM Versatile baseboard (ARM)
+ * ARM RealView Emulation/Platform baseboard (ARM)
+ * Spitz, Akita, Borzoi, Terrier and Tosa PDAs (PXA270 processor)
+ * Luminary Micro LM3S811EVB (ARM Cortex-M3)
+ * Luminary Micro LM3S6965EVB (ARM Cortex-M3)
+ * Freescale MCF5208EVB (ColdFire V2).
+ * Arnewsh MCF5206 evaluation board (ColdFire V2).
+ * Palm Tungsten|E PDA (OMAP310 processor)
+ * N800 and N810 tablets (OMAP2420 processor)
+ * MusicPal (MV88W8618 ARM processor)
+ * Gumstix "Connex" and "Verdex" motherboards (PXA255/270).
+ * Siemens SX1 smartphone (OMAP310 processor)
+ * AXIS-Devboard88 (CRISv32 ETRAX-FS).
+ * Petalogix Spartan 3aDSP1800 MMU ref design (MicroBlaze).
+ * Avnet LX60/LX110/LX200 boards (Xtensa)
+
+### Emulação em modo usuário
+
+Para emulação em modo usuário, as CPUs suportadas são: x86 (32 ou 64bit), Power PC (32 ou 64bit), ARM, MIPS (32 bit somente), Sparc (32 e 64bit), Alpha, ColdFire (m68k), CRISv32 e MicroBlaze.
+
+
+## Forks do QEMU (Não oficiais)
+
+### ARM Cortex-M
+
+### AVR (ATMega e ATtiny)
