@@ -20,6 +20,25 @@ Ao Instalar o QEMU é preciso observar alguns detalhes, nada complexo, porém s�
 <!--more-->
 
 
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/formatacao-1.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/workspace-1.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/workspace-2.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/workspace-3.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/workspace-4.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/text-editor-1.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/text-editor-2.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/index-1.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/index-2.png)
+
+![](/images/workshop/estaciodoceara/siconect/2016-2/configuracoes-importantes-eclipse/.png)
 
 
 
