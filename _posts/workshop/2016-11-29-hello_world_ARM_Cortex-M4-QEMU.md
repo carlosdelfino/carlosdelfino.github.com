@@ -27,3 +27,4 @@ Abra o Eclipse e em seguida a janela para criar um novo projeto, selecione o pro
 
 Um projeto será criado com o template para processadores da família [STM32F407xx](/arm/cortex-m3/stm/STM32F407XX), se ainda não tiver um template na lista a seguir, siga para o artigo [Como Instalar os Templates](/workshop/estacio_ceara/2016_2/Como_Instalar_os_Templates_para_Nosso_Workshop/).
 
+

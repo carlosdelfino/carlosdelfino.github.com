@@ -19,6 +19,8 @@ QEMU um emulador de alto desempenho para criação de hardware virtual.
 
 <!--more-->
 
+![QEMU](/images/QEMU/Qemu-logo.png)
+
 > A physicist, an engineer, and a computer scientist were discussing the nature of God. “Surely a Physicist,” said the physicist, “because early in the Creation, God made Light; and you know, Maxwell's equations, the dual nature of electromagnetic waves, the relativistic consequences...” “An Engineer!,” said the engineer, “because before making Light, God split the Chaos into Land and Water; it takes a hell of an engineer to handle that big amount of mud, and orderly separation of solids from liquids...” The computer scientist shouted: “And the Chaos, where do you think it was coming from, hmm?”
 —Anonymous
 
@@ -83,9 +85,51 @@ O QEMU Possuem dois modos de operação:
 
 Para emulação em modo usuário, as CPUs suportadas são: x86 (32 ou 64bit), Power PC (32 ou 64bit), ARM, MIPS (32 bit somente), Sparc (32 e 64bit), Alpha, ColdFire (m68k), CRISv32 e MicroBlaze.
 
-
 ## Forks do QEMU (Não oficiais)
 
 ### ARM Cortex-M
+
+#### Versão Beckus
+
+É um Fork do QEMU 2.1.3 criada por [Andre Beckus](https://github.com/beckus) para adicionar recursos para Cortex-M3 e CortexM1 (para FPGA)
+
+Módulos de prototipação:
+
+ * [Olimex STM32-P103 development board](https://github.com/beckus/qemu_stm32/blob/stm32/hw/arm/stm32_p103.c)
+ * [Olimex Olimexino STM32 Maple Development Board](https://github.com/beckus/qemu_stm32/blob/stm32/hw/arm/stm32_maple.c)
+ 
+Códigos de exemplo podem ser obitidos no link [https://github.com/beckus/stm32_p103_demos](https://github.com/beckus/stm32_p103_demos)
+
+Maiores informações visite o link [https://beckus.github.io/qemu_stm32/](https://beckus.github.io/qemu_stm32/)
+
+#### Pebble QEMU
+
+É um Fork do QEMU 2.1.1 para emular o Pebble Smartwatch.
+
+![Pebble Smartwatch](/images/pebble/pebble_classic_smartwatch-black.jpg)
+
+Maiores informações em [https://github.com/pebble/qemu](https://github.com/pebble/qemu) e [https://developer.pebble.com/](https://developer.pebble.com/)
+
+#### GNU ARM Eclipse QEMU
+
+O QEMU para uso com o GNU ARM Eclipse foi desenvolvido pelo Enenheiro de sofware Liviu Iunesco, que iniciou o trabalho em 2003 onde lançou o primeiro release do QEMU para ARM, em seguida em 2006 lançançou a primeira versão do plugin que tem sido melhorado e ampliado em cada novo release.
+
+O QENU para ARM produzido pelo Liviu Iunesco, já tem um módulo de prototipação da STMicroeletrônics que permite a execução de softwares para Cortex-M3 e Cortex-M4, porém os perifericos ainda não estão amplamente desenvolvidos.
+
+Para mais informações entre no site: [http://gnuarmeclipse.github.io/qemu/](http://gnuarmeclipse.github.io/qemu/)
+
+### Cortex-A
+
+#### QEMU ARM TrustZone
+
+Para testes do ARM TrustZone qu é responsável por segurança de código em processsadores ARM, apesar de desenvolvido para o Cortex-A, está sendo adotado no Cortex-M com arquitetura ARMv8-M.
+
+[![QEMU TrustZone](/images/QEMU/trustzone/qemu-trusted.jpg)](https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/)
+
+Foi produzido pela equipe da Linaro
+
+![Linaro](/images/linaro/linaro-log.png)
+
+https://www.linaro.org/blog/core-dump/testing-qemu-arm-trustzone/
 
 ### AVR (ATMega e ATtiny)
