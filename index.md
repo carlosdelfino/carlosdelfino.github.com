@@ -8,19 +8,11 @@ image:
    feature: carlosdelfino-palestra-400x161.png
 title: "Início"
 ---
-Seja Bem-Vindo!
-
-<p>
-	<strong>
-		<center>
-	Para conhecer nosso Ambiente EAD, visite 
-	<a href="http://arduino-minas.moodlecloud.com">http://arduino-minas.moodlecloud.com</a>.
-		</center>
-	</strong>
-</p>
+<section>
+{% include home/boasvindas.html %}
 
 <hr />
-
+</section>
 Abaixo estão listadas as últimas 30 publicações de meu site, para 
  outras publicações visite o link [Categorias](/categorias/), ou 
 procure por "[tags](/tags)".  

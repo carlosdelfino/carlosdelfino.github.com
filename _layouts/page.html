@@ -11,7 +11,9 @@ layout: compress_html/compress
     {% if page.charset %}
     <meta charset="{{ page.charset }}">
     {% elsif site.charset %} 
-	<meta charset="{{ site.charset }}">
+    <meta charset="{{ site.charset }}">
+    {% else %}
+    <meta charset="utf-8">
     {% endif %}
     
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
