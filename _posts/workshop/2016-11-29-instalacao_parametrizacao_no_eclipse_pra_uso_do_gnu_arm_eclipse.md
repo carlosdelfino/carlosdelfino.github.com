@@ -34,10 +34,8 @@ Então como faremos a instalação local, clique no botão _"Add"_, assim, será
 Nesta lista você pode até selecionar todos os pacotes, mas iremos usar apenas os seguntes pacotes neste Workshop:
 
  * GNU ARM C/C++ Cross Compiler
- * GNU ARM C/C++Documentation (Placeholder)
+ * GNU ARM C/C++ Documentation (Placeholder)
  * GNU ARM C/C++ Generic Cortex-M Project Template
- * GNU ARM C/C++ J-Link Debugging
- * GNU ARM C/C++ OpenOCD Debugging
  * GNU ARM C/C++ Packs (Experimental)
  * GNU ARM C/C++ QEMU Debugging
  * GNU ARM C/C++ STM32Fx Project Templates
