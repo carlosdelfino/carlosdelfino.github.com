@@ -25,7 +25,7 @@ Vamos agora entrar na fase 2, que é usar o QEMU compilado por nós e fazer algu
 
 Até o momento a nossa instalação tem apresentado alguns problemas e estarei ajustando o processo de compilação, mas nada que impeça seu funcionamento para nossos testes, caso queira relatar sua experiência não deixe de me enviar um e-mail ou comentar abaixo.
 
-Estarei em paralelo a esta fase trabalhando no path para usar o AVR, então em seguida os testes com a integração do FORK para Cortex-M criado pelo Livius Ionesco.
+Estarei em paralelo a esta fase trabalhando no path para usar o AVR, então em seguida os testes com a integração do FORK para Cortex-M criado pelo Liviu Ionesco.
 
 
 [Estamos trabalhando na fase 2 passo 1.](http://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-fase-2-parte-1)

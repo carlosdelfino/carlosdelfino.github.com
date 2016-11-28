@@ -19,7 +19,7 @@ Como instalar o plugin _**GNU ARM Eclipse**_, as parametrizações necessárias 
 
 <!--more-->
 
-Iremos agora instalar o Plugin _*"GNU ARM Eclipse"*_ Criado por Livius Iunesco, um Engenheiro de Software Sénior, especializado em instrumentação aeronáutica. Ele tem diversos projetos de software relacionados a arquitetura ARM e é uma excelente fonte de conhecimento, Ele é muito aberto ao dialogo e a troca de conhecimento neste contexto e seus projetos são opensource. 
+Iremos agora instalar o Plugin _*"GNU ARM Eclipse"*_ Criado por Liviu Ionesco, um Engenheiro de Software Sénior, especializado em instrumentação aeronáutica. Ele tem diversos projetos de software relacionados a arquitetura ARM e é uma excelente fonte de conhecimento, Ele é muito aberto ao dialogo e a troca de conhecimento neste contexto e seus projetos são opensource. 
 
 Sou colaborar em seu projeto em especial na parte de tradução e testes do uOS, um Sistema Operacional para aplicações em Tempo Real com embarcados, este projeto é minha continuidade do DuinOS.
 

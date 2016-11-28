@@ -324,7 +324,7 @@ para windows e Linux, tanto do QEMU original como Forks como o disponibilizado
 pelo Liviu Ionesco.
 
 Para compilar seu QEMU você precisa baixar o Fonte original ou um FORK, eu irei 
-usar como referência para o meu fork que é baseado no trabalho do Livius e no 
+usar como referência para o meu fork que é baseado no trabalho do Liviu e no 
 fonte original, que pode ser encontrado link http://gnuarmeclipse.github.io/qemu/.
 
 ## Atualizações

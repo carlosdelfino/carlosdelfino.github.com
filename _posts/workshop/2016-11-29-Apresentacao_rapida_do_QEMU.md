@@ -32,7 +32,7 @@ O Desempenho do QEMU é excelente, e quase equivalente ao desempenho do hardware
 
 Porém desenvolver um novo hardware para o QEMU não é tão simples assim além do domínio da arquitetura do processador envolvido, é preciso compreender bem como se programar para o QEMU e criar novos **Targets**, a programação do QEMU é feita em C, e utiliza amplamente o recurso de macros de pré processamento, mas o mais interessante é que temos grandes profissionais dispostos a fazer tal trabalho e até mesmo nos orientar como chegarmos a um nível para que possamos contribuir.
 
-O maior exemplo para um bom trabalho para emulação de hardware é o trabalho desenvolvido pelo Engenheiro Senior de Software Liviu Iunesco, esponsável pela criação do **TArget** que permite rodar emuladores de placas de prototipação da STMicroeletrônics, as placas Discovery tanto para Cortex-M3 como para Cortex-M4.
+O maior exemplo para um bom trabalho para emulação de hardware é o trabalho desenvolvido pelo Engenheiro Senior de Software Liviu Ionesco, esponsável pela criação do **TArget** que permite rodar emuladores de placas de prototipação da STMicroeletrônics, as placas Discovery tanto para Cortex-M3 como para Cortex-M4.
 
 Tais **targets** emulados ainda não são capazes de ter 100% de funcionalidade, mas hoje já temos as principais instruções ARM para Cortex-M3 e Cortex-M4 sendo interpretadas, e também já temos a caminho novos hardwares funcionais, hoje apenas os LEDS (4 coloridos) funcionam.
 
@@ -42,7 +42,7 @@ Neste Workshop iremos usar portando o QEMU para descobrirmos como darmos nosso s
 
 O QEMU também poderá ser usado para programar para AVR, estou responsável para agregar o Código de um **TArget** AVR para que possa também ser usado no QEMU com o plugin AVR para Eclipse.
 
-Hoje oque mais tem atrasado para o desenvolvimento com o QEMU é a compilação da biblioteca SDL pois esta tem apresentado problemas em meu ambiente, mas assim que resolver tal problema, integrarei o AVR e posteriormente irei unir esforços com o Livius Iunesco para produzir novos recursos para o Cortex-M.
+Hoje oque mais tem atrasado para o desenvolvimento com o QEMU é a compilação da biblioteca SDL pois esta tem apresentado problemas em meu ambiente, mas assim que resolver tal problema, integrarei o AVR e posteriormente irei unir esforços com o Liviu Ionesco para produzir novos recursos para o Cortex-M.
 
 ## Modos de Operação
 
@@ -112,9 +112,9 @@ Maiores informações em [https://github.com/pebble/qemu](https://github.com/peb
 
 #### GNU ARM Eclipse QEMU
 
-O QEMU para uso com o GNU ARM Eclipse foi desenvolvido pelo Enenheiro de sofware Liviu Iunesco, que iniciou o trabalho em 2003 onde lançou o primeiro release do QEMU para ARM, em seguida em 2006 lançançou a primeira versão do plugin que tem sido melhorado e ampliado em cada novo release.
+O QEMU para uso com o GNU ARM Eclipse foi desenvolvido pelo Enenheiro de sofware Liviu Ionesco, que iniciou o trabalho em 2003 onde lançou o primeiro release do QEMU para ARM, em seguida em 2006 lançançou a primeira versão do plugin que tem sido melhorado e ampliado em cada novo release.
 
-O QENU para ARM produzido pelo Liviu Iunesco, já tem um módulo de prototipação da STMicroeletrônics que permite a execução de softwares para Cortex-M3 e Cortex-M4, porém os perifericos ainda não estão amplamente desenvolvidos.
+O QENU para ARM produzido pelo Liviu Ionesco, já tem um módulo de prototipação da STMicroeletrônics que permite a execução de softwares para Cortex-M3 e Cortex-M4, porém os perifericos ainda não estão amplamente desenvolvidos.
 
 Para mais informações entre no site: [http://gnuarmeclipse.github.io/qemu/](http://gnuarmeclipse.github.io/qemu/)
 

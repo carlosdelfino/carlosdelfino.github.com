@@ -27,7 +27,7 @@ expresso pelo seu nome FFI - Foreing Function Interface.
 <!--more-->
 
 Antes de continuarmos gostaria de esclarecer minha escolha em apresentar tais 
-passos em detrimento de usar um script pronto, inclusive o projeto do Livius 
+passos em detrimento de usar um script pronto, inclusive o projeto do Liviu 
 tem um excelente script. A escolha é puramente didatica, pois o aluno seguindo
 estes passos tem a oportunidade de interagir com o processo completo de construção
 de uma aplicação e sua compilação sem usar a IDE, interagindo com cada comando
