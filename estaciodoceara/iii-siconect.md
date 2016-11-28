@@ -3,8 +3,9 @@ redirect_from:
  - /siconect/
  - /iii-sisconect/
  - /III-SIconect/
-permalink: /iii-siconect/
-title: Estácio do Ceará - FIC
+ - /iii-siconect/
+permalink: /III-Siconect/
+title: III - Siconect (2016-2) - Estácio do Ceará - FIC
 layout: categorylist
 share: true
 ads:
