@@ -5,7 +5,7 @@ redirect_from:
  - /III-SIconect/
  - /iii-siconect/
 permalink: /III-Siconect/
-title: III - Siconect (2016-2) - Estácio do Ceará - FIC
+title: III - S&#x1d09;conect (2016-2) - Estácio do Ceará - FIC
 layout: categorylist
 share: true
 ads:
@@ -14,7 +14,7 @@ comments: true
 category: estacio_ceara
 ---
 
-Postagens Relativas ao III SIConect Estácio do Ceará - FIC
+Postagens Relativas ao III S&#x1d09;Conect - Estácio do Ceará - FIC
 
 <!--more-->
 
