@@ -19,8 +19,8 @@ Aguarde ainda hoje a máquina virtual estará disponível.
 
 <!--more-->
 
-Tempo médio de upload para o cloud: 21 horas.
+Tempo médio de upload para o cloud: 42 horas.
 
-As 9:57 da manhã 23% upado.
+As 22:04 de 27 de Novembro: 46% upado de 8G.
 
 [Faça o Download da Imagem da VM Clicando Aqui](https://mega.nz/#F!Vx0jBACL!Wdds_Mskp5eO9jA25lttKQ)
