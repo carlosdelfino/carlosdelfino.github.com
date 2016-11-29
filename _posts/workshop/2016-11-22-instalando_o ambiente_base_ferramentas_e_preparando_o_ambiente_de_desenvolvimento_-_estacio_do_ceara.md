@@ -2,9 +2,10 @@
 redirect_from: 
  - /workshop/estacio_ceara/20162/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/
  - /workshop/estacio_ceara/2016_2/Instalando_ambiente_para_workshop_estacioce_qemu_eclipse_arm/
+ - /workshop/estacio_ceara/2016_2/instalando_o-ambiente_base_ferramentas_e_preparando_o_ambiente_de_desenvolvimento_-_estacio_do_ceara/
 title: "Instalando o ambiente base, ferramentas e preparando o ambiente de desenvolvimento"
-date: 2016-11-29 01:10:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+date: 2016-11-22 02:10:00 -0300
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Estácio, Ceará, instalação, ambiente, preparação]
 layout: article-workshop-estacio-2016-1
 share: true

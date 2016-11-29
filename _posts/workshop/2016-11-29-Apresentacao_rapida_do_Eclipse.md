@@ -1,7 +1,8 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/Apresentacao_rapida_do_Eclipse/
 title: "Apresentação Rápida do Eclipse"
 date: 2016-11-29 01:30:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, apresentação]
 layout: article-workshop-estacio-2016-1
 share: true

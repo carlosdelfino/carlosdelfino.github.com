@@ -1,7 +1,8 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/instalacao_parametrizacao_no_eclipse_pra_uso_do_gnu_arm_eclipse/
 title: "Instalação e Parametrização no Eclipse para uso do GNU ARM Eclipse"
 date: 2016-11-29 02:20:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, Instalação, Parametrização]
 layout: article-workshop-estacio-2016-1
 share: true

@@ -1,8 +1,9 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/Programacao_do_Workshop_-_Estacio_do_Ceara_-_2016-2/
 title: "Programação do Workshop - Estácio do Ceará - 2016_2"
-date: 2016-11-24 00:00:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
-tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, pranejamento]
+date: 2016-11-22 00:00:00 -0300
+categories: [III-SiConect]
+tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, pranejamento, workshop, estacio_ceara, "2016_2"]
 layout: article-workshop-estacio-2016-1
 share: true
 toc: true

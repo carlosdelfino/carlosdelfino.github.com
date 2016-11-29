@@ -1,8 +1,9 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/Apresentacao_rapida_do_QEMU/
 title: Apresentação rápida do QEMU
 date: 2016-11-29 02:20:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
-tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, pranejamento]
+categories: [III-SiConect]
+tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, pranejamento, SS&#x1d09;conect]
 layout: article-workshop-estacio-2016-1
 share: true
 toc: true
@@ -117,6 +118,20 @@ O QEMU para uso com o GNU ARM Eclipse foi desenvolvido pelo Enenheiro de sofware
 O QENU para ARM produzido pelo Liviu Ionesco, já tem um módulo de prototipação da STMicroeletrônics que permite a execução de softwares para Cortex-M3 e Cortex-M4, porém os perifericos ainda não estão amplamente desenvolvidos.
 
 Para mais informações entre no site: [http://gnuarmeclipse.github.io/qemu/](http://gnuarmeclipse.github.io/qemu/)
+
+### Quem usa o QEMU como apoio e como usar
+
+#### Mathlab
+
+https://www.mathworks.com/help/supportpkg/armcortexm/ug/build-and-run-executable-on-arm-cortex-m-processors.html?requestedDomain=www.mathworks.com
+
+#### Zephyr 
+
+https://wiki.zephyrproject.org/view/ARM_Cortex-M3_Emulation_(QEMU
+
+#### Linaro
+
+https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/
 
 ### Cortex-A
 

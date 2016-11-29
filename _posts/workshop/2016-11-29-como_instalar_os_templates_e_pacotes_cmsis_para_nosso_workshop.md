@@ -1,9 +1,10 @@
 ---
 redirect_from: 
+ - /workshop/estacio_ceara/2016_2/como_instalar_os_templates_e_pacotes_cmsis_para_nosso_workshop/
  - "/workshop/estacio_ceara/2016_2/Como_Instalar_os_Templates_para_Nosso_Workshop/"
 title: "Como Instalar os Templates e Pacotes CMSIS para Nosso Workshop"
 date: 2016-11-29 03:10:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, templates, keyl, stm32f3,stm32f4,stmicroeletronics]
 layout: article-workshop-estacio-2016-1
 share: true

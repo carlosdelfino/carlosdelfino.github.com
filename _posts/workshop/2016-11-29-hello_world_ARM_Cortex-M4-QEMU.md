@@ -1,7 +1,8 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/hello_world_ARM_Cortex-M4-QEMU/
 title: "Hello World ARM Cortex-M4 usando o QEMU"
 date: 2016-11-29 03:30:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Hello World Cortex-M4, Hello World ARM]
 layout: article-workshop-estacio-2016-1
 share: true

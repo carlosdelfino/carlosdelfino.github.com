@@ -1,7 +1,8 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/pequenos_detalhes_da-instalacao_do_Eclipse_com_referência_ao_ARM_GNU_Eclipse/
 title: Pequenos detalhes da instalação do Eclipse com referência ao ARM GNU Eclipse
 date: 2016-11-29 02:30:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, instalação]
 layout: article-workshop-estacio-2016-1
 share: true

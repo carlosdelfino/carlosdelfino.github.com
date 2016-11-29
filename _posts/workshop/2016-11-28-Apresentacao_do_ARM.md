@@ -1,7 +1,8 @@
 ---
+redirect_from: /workshop/estacio_ceara/2016_2/Apresentacao_do_ARM/
 title:  Apresentação da ARM
 date: 2016-11-29 01:10:00 -0300
-categories: [workshop, estacio_ceara, "2016_2"]
+categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, arm, gnu, eclipse, plugin, gcc, none, eabi, Workshop, Apresentação]
 layout: article-workshop-estacio-2016-1
 share: true
