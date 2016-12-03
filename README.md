@@ -9,6 +9,6 @@
 
 ## Como rodar o servidor local
 ```
- bundle exec ~/.gem/ruby/gems/jekyll-3.1.6/bin/jekyll serve --watch --incremental
+ bundle exec jekyll serve --watch --incremental
 ```
 
