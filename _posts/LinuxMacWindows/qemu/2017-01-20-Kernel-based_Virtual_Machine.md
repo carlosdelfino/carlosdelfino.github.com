@@ -1,0 +1,1 @@
+https://coelhorjc.wordpress.com/2015/04/01/using-kvm-linux-hypervisor-with-libvirt-virtsh-virt-install-and-guestfishlibguestfs/
