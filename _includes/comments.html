@@ -1,0 +1,24 @@
+{% assign identifier = page.disqus.identifier | default: page.id %}		
+{% assign title = page.disqus.title | default: page.title %}
+{% assign category = page.disqus.category | default: page.category %}		
+
+<hr />
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = '{{ site.disqus.shortname }}';
+
+	var disqus_config = function () {
+		this.page.title = '{{ title }}';
+//		this.page.category_id = '{{ category }}';
+		this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = '{{ identifier }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

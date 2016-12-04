@@ -1,0 +1,10 @@
+[submodule "tutoriais/audio/wav2c"]
+	path = tutoriais/audio/wav2c
+	url = https://github.com/olleolleolle/wav2c
+
+[submodule "js/d3-cloud"]
+    path = js/d3-cloud
+      url = https://github.com/jasondavies/d3-cloud.git
+[submodule "js/jquery-base64"]
+    path = js/jquery-base64
+      url = https://github.com/carlo/jquery-base64.git

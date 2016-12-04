@@ -1,0 +1,60 @@
+{% if site.size.categories.excerpt %}
+    {% assign size = site.size.categories.excerpt %}
+{% else %}
+    {% assign size = 300 %}
+{% endif %}
+{% if site.size.categories.post_excerpt %}
+    {% assign sizecatexecerpt = site.size.categories.post_excerpt %}
+{% else %}
+    {% assign sizecatexecerpt = 300 %}
+{% endif %}
+{% if site.size.categories.title %}
+    {% assign sizetitle = site.size.categories.title %}
+{% else %}
+    {% assign sizetitle = 60 %}
+{% endif %}
+{% if site.size.categories.name %}
+    {% assign sizename = site.size.categories.name %}
+{% else %}
+    {% assign sizename = 40 %}
+{% endif %} 
+<!-- .tile -->
+{% assign categoryname = category | first | remove:'"' %}
+{% assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape %}
+{% assign catdetail = site.data.categories[categoryid] %}
+{% include debug/debug_output_variables.html
+		value1_name="categoryname" value1=categoryname
+		value2_name="categoryid" value2=categoryid
+		%}
+{% if catdetail %}
+	{% assign categoryname = catdetail.name %}
+	{% assign categoryexcerpt = catdetail.excerpt %}
+{% endif %}
+{% unless catdetail.noshow %}
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+	<!-- begin categories -->
+	<div class="box">
+   {% include debug/debug_output_variables.html
+        value1_name="categoryname" value1=categoryname
+		value2_name="categoryid" value2=categoryid
+		value3_name="catdetail" value3=catdetail %}
+		<h5><a id="category_{{ categoryid }}" title="{{ categoryexcerpt | truncate: sizecatexecerpt }}"
+				name="{{ categoryid }}" href="/{{ categoryid }}">{{ categoryname | truncate: sizename }}</a></h5>
+		<ul class="postList">
+   {% for posts in category %}
+      {% for post in posts %}
+         {% if post.url %}
+			<li><a href="{{ post.url }}"
+				title="{{ post.excerpt  | truncate: size }}">
+				{{ post.title | truncate: sizetitle }} |
+				<span>{{ post.date | date: '%d.%m.%y' }}</span>
+			</a></li>
+         {% endif %}
+      {% endfor %}
+   {% endfor %}
+		</ul>
+	</div>
+	<!-- END categories -->
+</article>
+{% endunless %}
+<!-- /.tile -->

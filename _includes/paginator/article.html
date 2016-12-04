@@ -1,0 +1,11 @@
+<nav class="breadcrumbs">
+{% if page.previous %}
+	<a class="prev" href="{{ site.url }}{{ page.previous.url }}">Anterior: {{ page.previous.title }}</a>
+{% endif %}
+{% if page.previous and page.next %}
+	<span class="divider"> | </span>
+{% endif %}	 
+{% if page.next %}
+  	<a class="next" href="{{ site.url }}{{ [page.next.url }}">Próximo: {{ page.next.title }}</a>
+{% endif %}
+</nav>

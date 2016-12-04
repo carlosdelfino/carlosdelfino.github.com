@@ -1,0 +1,29 @@
+<iframe id="coinbase_inline_iframe_27b001a30a6e967d52c55cef6b745edc" 
+	src="https://www.coinbase.com/checkouts/27b001a30a6e967d52c55cef6b745edc/inline?c=Site-CarlosDelfino" 	 
+	style="width: 630px; height: 450px; border: none; box-shadow: 0 1px 3px rgba(0,0,0,0.25);" 
+ 	allowtransparency="true" frameborder="0">
+ </iframe>
+ <script type="text/javascript">
+  // Add an event listener for messages posted to this window
+  window.addEventListener('message', receiveMessage, false);
+
+  // Define the message handler function
+  function receiveMessage(event) {
+
+    // Make sure the message posted to this window is from Coinbase
+    if (event.origin == 'https://www.coinbase.com') {
+      var event_type = event.data.split('|')[0];     // "coinbase_payment_complete"
+      var event_id   = event.data.split('|')[1];     // ID for this payment type
+
+      if (event_type == 'coinbase_payment_complete') {
+        alert('Doação completada: ' + event_id);
+      }
+      else if (event_type == 'coinbase_payment_mispaid') {
+        alert('Doação não realizada: ' + event_id);
+      }
+      else if (event_type == 'coinbase_payment_expired') {
+        alert('Tempo para efetuar doação vencido: ' + event_id);
+      }
+    }
+  }
+</script>

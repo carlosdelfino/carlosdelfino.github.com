@@ -1,0 +1,97 @@
+vergadwollan:
+        name: "Vergad Wollan"
+
+billgates:
+        name: "Bill Gates"
+
+religi%C3%A3o:
+        name: "Religião"
+
+anivers%C3%A1rio:
+        name: "Aniversário"
+
+com%C3%A9rcioexterior:
+        name: "Comercio Exterior"
+
+c%2B%2B:
+        name: "C++"
+
+codifica%C3%A7%C3%A3o:
+        name: "Codificação"
+
+decodifica%C3%A7%C3%A3o:
+        name: "Decodificação"
+
+ag%C3%AAncia:
+        name: "Agência"
+
+vozsobreip:
+        name: "Voz sobre IP"
+
+comunica%C3%A7%C3%A3o:
+        name: "Comunicação"
+
+inova%C3%A7%C3%A3o:
+        name: "Inovação"
+
+reflex%C3%A3o:
+        name: "Reflexão"
+
+ci%C3%AAncias:
+        name: "Ciências"
+
+visor:
+        name: "Visor"
+
+eletr%C3%B4nica:
+        name: "Eletrônica"
+
+arduinomega:
+        name: "Arduino Mega"
+
+arduinouno:
+        name: "Arduino Uno"
+
+arduinodue:
+        name: "Arduino Due"
+
+eletr%C3%B4nicaanl%C3%B3gica:
+        name: "Eletrônica Analógica"
+
+eletr%C3%B4nicadigital:
+        name: "Eletrônica Digital"
+
+l%C3%B3gica:
+        name: "Lógica de Programação"
+
+datasheet:
+        name: "Data Sheet"
+
+helloworldarduino:
+        name: "Hello World Arduino"
+        author: carlosdelfino
+        cursos: [basicaodaeletronica]
+
+estruturadedados:
+        name: "Estrutura de Dados"
+
+programa%C3%A7%C3%A3o:
+        name: "Programação"
+
+cursoarduino:
+        name: "Curso Arduino"
+
+caracteristicast%C3%A9nicas:
+        name: "Caracteristicas Técnicas"
+
+liquidcrystal:
+        name: "Liquid Crystal"
+
+tabeladecaracteres:
+        name: "Tabela de Caracteres"
+
+ascii:
+        name: "ASCII"
+
+caracteresdecontrole:
+        name: "Caracteres de Controle"	

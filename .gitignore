@@ -1,1 +1,28 @@
+<<<<<<< HEAD
+*.psd
+_config.yml
+*.plist
+*.key
+*.swp
+/.buildpath
+/.settings
+/.project
+_site
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
+.sass-cache
+Gemfile.lock
+/_plugins
+/.externalToolBuilders
+.jekyll-metadata
+*.*~
+*~
+/_draft/
+/particles.html
+=======
 particles.min.js
+>>>>>>> refs/remotes/origin/master
