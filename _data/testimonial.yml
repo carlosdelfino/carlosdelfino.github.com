@@ -1,0 +1,48 @@
+- name: Victor Lima
+  role: Analista de Sistemas
+  image: victor_lima.jpg
+  testimonial: Carlos Delfino é muito dedicado e focado no objetivo. Não descansa até ter alguma solução.
+  date: 4 de novembro de 2011
+  site: linkedin.com
+  work: Full Service Consultoria e Serviços Ltda
+  
+- name: Harry Fockink
+  role: Palestrante e Presidente da Fundação Fockink Transformador de Empresas
+  image: harry_fockink
+  testimonial: As minhas interações com o Delfino me mostraram que ele é um engajado, idealista e dedicado profissional.
+  date: 11 de outubro de 2010
+  site: http://linkedin.com
+  work: Full Service Consultoria e Serviços Ltda
+
+- name: Lucas Filho
+  role: Consultor, Open-CE TEcnologias e Serviços
+  image: lucas_filho.jpg
+  testimonial: Carlos Delfino é acima de tudo uma excelente pessoa. Sabe relaciona-se de forma coerente e amistosa com todas a sua volta.  Como profissional tem uma visão técnica apurada o que faz do mesmo uma mina de ouro para as empresas.
+  date: 18 de abril de 2011
+  site: http://linkedin.com
+  work: Full Service Consultoria e Serviços Ltda
+
+- name: Cácio Trajano Cardoso
+  role: Gerente de Projetos na Ivia
+  image: cacio_trajano.jpg
+  testimonial: Quando estudei na FIC e perticipei de um projeto de rede sem fio, Carlos participava de um projeto de software como "Project Leader na PDTec - Programa de Desenvolvimento Tecnologico do Terceiro Setor", o mesmo sempre atuou com seriedade, responsabilidade, além de ter um excelente conhecimento técnico e ser um ótimo profissional.
+  date: 10 de outubro de 2010
+  site: http://linkedin.com
+  work: Program de Desenvolvimento Tecnologico do Terceiro Setor
+
+- name: Alexandre Trindade
+  role: Projeto Lei Simples
+  image: alexandre_trindade.jpg
+  testimonial: Trabalhei com o Carlos através de algumas consultorias que ele forneceu à ZiqX.com. Ele é um ótimo profissional sendo um programador JAVA Pleno, onde nos forneceu várias dicas bacanas para melhorarmos nossos códigos internos, além de resolução de problemas e migração de servidores de aplicação. Sua dedicação e profissionalismo como um todo são seus maiores diferenciais.
+  date: 17 de setembro de 2010
+  site: http://linkedin.com
+  work: Full Service Consultoria e Serviços Ltda
+
+- name: Jasper Frumau
+  role: Proprietário e Web Developer  na Full Service Internet Bureau Imagewize
+  image: jasper_frumau.jpg
+  testimonial: Carlos is the founder and lead developer of the multilingual osTicket fork which is called OSTicket-Reloaded nowadays. I have had the privilege to work with him as a beta tester and translator. Despite time constraints due to work and family life Carlos has managed to keep this multilingual OS helpdesk project on track, making constant improvements to it. A great developer to work with.
+  date: 6 de Setembro de 2010
+  site: http://linkedin.com
+  work: OSTicket Reload
+

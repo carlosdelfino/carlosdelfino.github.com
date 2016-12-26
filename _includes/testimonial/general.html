@@ -1,0 +1,16 @@
+<div class="col-md-6">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+           {% for t in site.data.testimonial %}
+             <div>
+               <img src="/images/cotation.png" alt="IMG">
+               <p>{{ t.testimonial }}</p>
+               <div class="user">
+                 <img src="/images/perfil/{{ t.image }}" alt="{{ t.name }}">
+                 <p><span>{{ t.name }}</span>{{ T.role }}</p>
+               </div>
+            </div>
+  {% endfor %}
+          </div>
+        </div>
+      </div>
