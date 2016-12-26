@@ -34,7 +34,7 @@ image:
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="img/wrapper-img.png" alt="Img">
+          <img src="/images/wrapper-img.png" alt="Wrapper Image">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
