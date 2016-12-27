@@ -55,7 +55,7 @@ facebook:
   
 testimonial:
   itens: 6
-  truncate: 500
+  truncate: 350
   
 # Exibe o mosquito aedes aegypti, campanha contra o mosquito
 aedes:
