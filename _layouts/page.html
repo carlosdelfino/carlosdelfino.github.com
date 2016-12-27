@@ -3,22 +3,22 @@
 <!--[if lt IE9]--><html class="oldie"><!--{endif]-->
 <!--[if lt IE8]--><html ><!--[endif]-->
   <head>
-    {% include head.html %}
+    {% include page/head.html %}
   </head>
   <body>
     {% if site.facebook.appid %}
     {% include facebook/basescript.js %}
     {% endif %}
 
-    {% include header.html %}
+    {% include page/header.html %}
 
     {% include debug/debug_output_url.html %}
   {{ content }}
   
-    {% include footer.html %}
+    {% include page/footer.html %}
     <script src="{{ site.url }}/js/main.js"></script>
     
-    {% include tableofcontent.js %}
+    {% include page/tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
 

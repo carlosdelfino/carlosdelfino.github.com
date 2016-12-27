@@ -53,6 +53,10 @@ facebook:
   scope: [user_friends, email]
   wellcomemsg: "Olá "
   
+testimonial:
+  itens: 6
+  truncate: 500
+  
 # Exibe o mosquito aedes aegypti, campanha contra o mosquito
 aedes:
   show: false

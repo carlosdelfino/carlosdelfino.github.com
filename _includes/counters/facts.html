@@ -1,38 +1,16 @@
 <div class="col-md-6">
         <div class="block">
           <ul class="counter-box clearfix">
+          {% for f in site.data.facts %}
             <li>
               <div class="block">
-                <i class="ion-ios-albums-outline"></i><br />
-                <span>Mais de </span>
-                <h4 class="counter">1,543,522,567</h4>
-                <span>Linhas de Código</span>
+                <i class="ion-ios-{{ f.class }}-outline"></i><br />
+                <span>{{ f.title }}</span>
+                <h4 class="counter">{{ f.count }}</h4>
+                <span>{{ f.description }}</span>
               </div>
             </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-flask-outline"></i><br />
-                <span>Mais de </span>
-                <h4 class="counter">143,452</h4>
-                <span>chicaras de café</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-timer-outline"></i><br />
-                <span>Mais de </span>
-                <h4 class="counter">13,453</h4>
-                <span>de horas de sonos pedidas</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-compose-outline"></i><br />
-                <span>Mais de </span>
-                <h4 class="counter">100</h4>
-                <span>turmas em nossos cursos</span>
-              </div>
-            </li>
+           {% endfor %}
           </ul>
         </div>
       </div>
