@@ -1,4 +1,5 @@
 ---
+redirect_from: /arm/ISA/
 permalink: /arm/isa/
 title: ARM - Instruction Set Architecture
 tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M]

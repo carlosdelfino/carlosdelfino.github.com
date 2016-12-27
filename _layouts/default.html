@@ -1,19 +1,7 @@
 ---
 layout: page
 ---
-
-{% include page-lead.html %}
-
-	<div id="page-wrapper">
-{% include browser-upgrade.html %}
-
-{% unless page.image.feature %}
-		<div class="page-title">
-			<h1>{{ page.title }}</h1>
-			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
-		</div>
-{% endunless %}
-
-      {{ content }}
-
-   </div>
+{% capture title %}{% if page.title %}{{ page.title }} {% else site.subtitle %}{{ site.subtitle }}{% endif %}{% endcapture %}
+{% capture desc %}{% if page.subtitle %}{{ page.subtitle }}{% elsif page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+{% include slider.html title=title desc=desc %}
+{{ content }}

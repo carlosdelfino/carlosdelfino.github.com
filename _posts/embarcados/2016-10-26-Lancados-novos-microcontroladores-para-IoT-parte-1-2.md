@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lançados novos Microcontroladores para IoT - Parte 1/2"
 date: "2016-10-26 09:14:56 -0300"
 tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, CortexM0+, Cortex-M1, Cortex-M23, Cortex-M33,

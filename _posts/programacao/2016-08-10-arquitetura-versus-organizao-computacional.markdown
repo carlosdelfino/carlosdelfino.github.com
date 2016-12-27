@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Arquitetura versus Organização computacional"
 date: "2016-08-10 19:45:10 -0300"
 tags: [ISA, Arquitetura, Computadores, Organização, Conjunto de Instrução, Instruction Set, Registradores, Endreçamento, Modo de Endereçamento]

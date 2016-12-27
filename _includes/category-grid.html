@@ -47,7 +47,7 @@
 			<li><a href="{{ post.url }}"
 				title="{{ post.excerpt  | truncate: size }}">
 				{{ post.title | truncate: sizetitle }} |
-				<span>{{ post.date | date: '%d.%m.%' }}</span>
+				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
          {% endif %}
       {% endfor %}

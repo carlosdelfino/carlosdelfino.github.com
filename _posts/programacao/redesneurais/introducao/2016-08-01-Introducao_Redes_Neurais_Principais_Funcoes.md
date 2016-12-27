@@ -235,7 +235,7 @@ $$
 
 Neste caso $$\sigma$$ será o fator de multiplicação para nivelar os sinais da rede.
 
-No próximo post comento um pouco sobre as [Redes do tipo Perceptron]({% post_url 2016-08-02-Introducao_Redes_Neurais_Perceptron %}).
+No próximo post comento um pouco sobre as [Redes do tipo Perceptron]({% post_url programacao/redesneurais/introducao/2016-08-02-Introducao_Redes_Neurais_Perceptron %}).
 
 Caso esteja buscando aprender mais e compartilhar conhecimento, participe de nosso grupo no facebook: [Artificial Intelligence and Neural Network](https://www.facebook.com/groups/ArtificialNeuralNetwork/)
 

@@ -1,6 +1,6 @@
 ---
 title: "Facilitando o desenvolvimento para a próxima geração de embarcados inteligentes e conectados"
-layout: post 
+layout: article 
 date: "2016-11-13 09:14:56 -0300"
 tags: [ARM, CORTEX-M, ARMV8-M, IoT, Embarcados, Hello World Arduino, TrustZone, Cortex-M0, Cortex-M0+, Cortex-M1, Cortex-M23, Cortex-M33,
 Cortex-M3, Cortex-M4, Cortex-M7, AMBA, multicore]

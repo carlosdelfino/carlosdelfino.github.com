@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Linus Torvalds"
 tags: [Linus Torvalds, Linux, Unix, Kernel, OpenSource, x86, ARM, Arquitetura, Sistemas Operacionais, Ciência da Computação]
 category: [perfil]

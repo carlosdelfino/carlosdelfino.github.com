@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "KnuPath Um Processador Neural Neural"
 date: "2016-08-10 20:38:40 -0300"
 tags: [Processadores, densidade, nm, transistores, tecnologia, Moore's Law, Lei de Moore, Regra de Moore, avanço, tecnologia, Redes Neurais, Inteligencia Artificial, KnuPath, KnuEdge, Reconhecimento de Voz, Neuromorfico, Militar]

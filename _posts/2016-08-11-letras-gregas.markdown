@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Letras Gregas"
 date: "2016-08-11 15:14:56 -0300"
 tags: [entidades, html, letras gregas, simbolos matemáticos]

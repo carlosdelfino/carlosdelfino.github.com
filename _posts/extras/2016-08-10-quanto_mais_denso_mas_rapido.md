@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Quanto mais denso, mas rápido"
 date: "2016-08-10 20:31:38 -0300"
 tags: [Processadores, densidade, nm, transistores, tecnologia, Moore's Law, Lei de Moore, Regra de Moore, avanço, tecnologia]

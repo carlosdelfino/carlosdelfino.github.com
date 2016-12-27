@@ -109,12 +109,13 @@ clones:
    name: Clones e Similares
    aliases: [similares, compativeis, copias]
    
-musicas:
-   name: Minas Músicas Preferidas
+Musicas:
+   name: Minhas Músicas Preferidas
    image:
       feature: musicas_filmes/mesadesom-2000x962.jpg
       teaser: musicas_filmes/mesadesom-300x144.jpg
-
+   aliases: [musicas, músicas, Músicas, Músicas]
+   
 filmes:
    name: Meus Filmes Preferidos
 
@@ -159,19 +160,6 @@ helloworldarm:
       feature: helloworldarm/SAM4SxPlained-400x280.jpg
       credit: Carlos Delfino 
       creditlink: /sobre_min/
-
-MinasM%C3%BAsicasPreferidas:
-   name: "Minhas Músicas"
-   aliases: [minhasmusicaspreferidas, MinasM%C3%BAsicas, minhasmusicas]
-   
-MinasM%C3%BAsicas:
-   name: "Minhas Músicas"
-   
-minasmusicas:
-   name: "Minhas Músicas"
-
-minhasmusicaspreferidas:
-   name: "Minhas Músicas"
 
 PensamentoseReflex%C3%B5es:
    name: "Pensamentos e Reflexões"

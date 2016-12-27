@@ -1,6 +1,6 @@
 ---
 title: O Sonho - Madredeus
-categories: [Musicas]
+categories: [Músicas]
 tags: [madredeus, músicas, haja o que houver, fado, portuguesa, erudidta, classica, violão]
 layout: article
 comments: false

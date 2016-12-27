@@ -1,101 +1,35 @@
 ---
-layout: compress_html/compress
 ---
-<!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<!--[if lt IE9]--><html class="oldie"><!--{endif]-->
+<!--[if lt IE8]--><html ><!--[endif]-->
   <head>
-    {% if page.shortlink %}
-    <link rel='shortlink' href="{{ page.shortlink }}" />
-    {% endif %}
-    
-    {% if page.charset %}
-    <meta charset="{{ page.charset }}">
-    {% elsif site.charset %} 
-	<meta charset="{{ site.charset }}">
-    {% endif %}
-    
-    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    {% if page.author %}
-      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-    {% endif %}
-    {% include open-graph.html %}
-    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-
-    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
-    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
-
-    <style>
-    .sliding-menu-content {
-      top: 0;
-      right: 0;
-      text-align: center;
-      visibility: hidden;
-      height: 100%;
-      width: 100%;
-      -webkit-transform: translateX(100%);
-      -moz-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      -o-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    </style>
-
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-{% if page.highlighter.css %}
-    <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}">
-{% elsif site.css.highlighter %}
-    <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
-{% endif %}
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]-->
-{% if page.math %}
-	 <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-{% endif %}
-
-{% if site.aedes.show == true %}
-{% include aedes/index.html %}
-{% endif %}
-
+    {% include page/head.html %}
   </head>
-  
   <body>
+    {% if site.facebook.appid %}
+    {% include facebook/basescript.js %}
+    {% endif %}
+
+    {% include page/header.html %}
+
+    {% include debug/debug_output_url.html %}
+  {{ content }}
   
-  	{% if site.facebook.appid %}
-  	{% include facebook/basescript.js %}
-  	{% endif %}
-
-    {% include header.html %}
-    {% include navigation/sliding.html %}
-
-{% include debug/debug_output_url.html %}
-{{ content }}
-
-    {% include footer.html %}
-    
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    {% include page/footer.html %}
     <script src="{{ site.url }}/js/main.js"></script>
     
-    {% include tableofcontent.js %}
+    {% include page/tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
 
-	{% if page.uservoice.enable or site.uservoice.enableall %}
-		{% include uservoice.html %}
-	{% endif %}
-  </body>
+    {% if page.uservoice.enable or site.uservoice.enableall %}
+        {% include uservoice.html %}
+    {% endif %}
 
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script src='/js/{{ js_file }}.js' type="text/javascript"></script>
+      {% endfor %}
+    {% endif %}
+  </body>
 </html>

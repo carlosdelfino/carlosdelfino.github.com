@@ -1,20 +1,22 @@
 ---
-redirect_from: "/Carlos_Delfino_-_Consultoria_e_Projetos/Sobre_mim.html"
 permalink: /sobre_mim/
-title: Sobre Carlos Delfino e Formas de Contato
-layout: default
-toc: true
+title: Sobre mim
+subtitle: "Formas de Contato, Minha História, Meus Gostos"
+layout: subpage
 share: true
 image:
    feature: carlosdelfino-palestra.png
 ---
-###### NOME:
-Carlos Delfino Carvalho Pinheiro
 
-###### PROFISSÃO:
-Consultor / Desenvolvedor /Programador / Analista de Suporte e Sistemas
+Meu nome é Carlos Delfino, alguns amigos me chamam de Delfino, e por uma feliz coincidência, acham que meu nome é uma brincadeira com o Arduino, que termina em "ino", mas meu nome é Delfino mesmo, mas podemos considerar que esta feliz coincidência foi um prenuncio do meu futuro.
 
-###### BIO:
+<!--more--> 
+
+### PROFISSÃO:
+
+Sou formado em REdes de Computadores, e atuo no mercado como Consultor / Desenvolvedor / Analista de Suporte e Sistemas.
+
+### BIO:
 Já com 30 anos de mercado, iniciei profissionalmente como programador e com a demanda por profissionais qualificado em suporte a rede de computadores, e tendo grande afinidade com infraestrutura me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
 Em paralelo atuei como consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
@@ -27,21 +29,21 @@ Mas em 2015, votei a me dedicar aos estudos e projetos que utiizam a linguagem J
 
 Visite a página Cursos para conhecer os cursos e palestras que tenho ministrado, e quais estou preparando para atender a demanda atual.
 
-###### ASSUNTOS FAVORITOS:
+### ASSUNTOS FAVORITOS:
 
 Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem preconceitos de classes e gêneros.
 
-###### MEU LEMA:
+### MEU LEMA:
 
  > “Para o Triunfo do Mal, só é preciso que os homens de bem não façam nada” - Edmund Burke
 
  > “Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco” - Edmund Burke
 
-##### TELEFONE:
+### TELEFONE:
 
  * OI: +55 85 985-205-490 (atenção ao prefixo - Fortaleza/CE)
 
-###### OUTROS CONTATOS:
+### OUTROS CONTATOS:
 <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
  * <a href="mailto:consultoria@carlosdelfino.eti.br">E-mail: consultoria@carlosdelfino.eti.br</a>
@@ -57,7 +59,7 @@ Skype.ui({
 </script>
 
 
-###### Redes Sociais (Midias entre outros)
+### Redes Sociais (Midias entre outros)
 
  * [Facebook: http://www.facebook.com.br/cdcp.ong](http://www.facebook.com.br/cdcp.ong)
  * [Twitter: http://twitter.com/fullsrv](http://twitter.com/fullsrv)
@@ -76,3 +78,5 @@ Skype.ui({
 <a href="http://stackexchange.com/users/2125633?theme=clean">
      <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 </a>
+
+

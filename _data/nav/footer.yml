@@ -1,0 +1,31 @@
+# Footer navigation links
+
+- title: GitHub
+  url: http://www.github.com/CarlosDelfino
+
+- title: LinkedIn
+  url: http://linkedin.com/in/CarlosDelfino  
+
+- title: Curso Arduino (Facebook)
+  url: http://www.facebook.com/CursoArduinoMinas
+
+- title: Cursos Arduino (Site)
+  url: http://cursoarduino.com.br/
+  excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
+  image: cursoarduino/cursohelloworldarduino.png
+
+- title: Basicão da EletrÔnica
+  url: /basicaodaleetronica/
+  
+- title: Categorias
+  url: /categorias/
+  excerpt: Todas as categorias do site
+
+- title: Tags
+  url: /tags/
+  excerpt: Todas as categorias do site
+
+- title: Links
+  url: /colecaodelinks/
+  excerpt: Coleção de Links Interessantes e Úteis
+  

@@ -27,7 +27,7 @@ Apesar de chamar o QEMU de personalizado, não fizemos alteração alguma em seu
 
 Portanto agora podemos assim colocarmos o QEMU funcionando com algum exemplo partir para interferência em seu código buscando resultados mais diretos e relacionados ao nosso objetivo.
 
-O primeiro passo será unir o trabalho de Livius ao QEMU original mantendo assim um controle das customizações para Cortex-M, facilitando que possamos criar nossas placas de prototipação virtuais. Como dissemos a primeira placa será o Arduino DUE e o Maple, depois partiremos para o AVR e finalmente testaremos o xtensa para ESP.
+O primeiro passo será unir o trabalho de Liviu ao QEMU original mantendo assim um controle das customizações para Cortex-M, facilitando que possamos criar nossas placas de prototipação virtuais. Como dissemos a primeira placa será o Arduino DUE e o Maple, depois partiremos para o AVR e finalmente testaremos o xtensa para ESP.
 
 ## Compilando o QEMU
 

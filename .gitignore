@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.psd
 _config.yml
 *.plist
@@ -21,3 +22,7 @@ Gemfile.lock
 *.*~
 *~
 /_draft/
+/particles.html
+=======
+particles.min.js
+>>>>>>> refs/remotes/origin/master

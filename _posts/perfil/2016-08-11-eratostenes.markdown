@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Eratóstenes"
 date: "2016-08-11 12:34:08 -0300"
 tags: [Arastótenes, Curvatura da Terra, Equador, Geolocalização]

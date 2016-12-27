@@ -39,18 +39,3 @@ http://wiki.qemu.org/Testing
 
 https://qemu.weilnetz.de/qemu-doc.html#disk_005fimages
 
-
-
-
-
-
-
-
-
-
-
-
-
-
------------------------------------------------
-

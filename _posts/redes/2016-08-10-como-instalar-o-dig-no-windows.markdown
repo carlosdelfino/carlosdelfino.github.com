@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Como Instalar o DIG no Windows"
 date: "2016-08-10 17:58:07 -0300"
 tags: [dig, dns, bind, dominio, ip, windows, consulta, administração, manutenção, nslookup]

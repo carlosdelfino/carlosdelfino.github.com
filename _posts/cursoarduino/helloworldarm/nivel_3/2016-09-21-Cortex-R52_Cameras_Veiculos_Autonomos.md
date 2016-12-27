@@ -22,7 +22,7 @@ O foco de nosso curso são microcontroladores com base na Arquitetura AVR e com 
 
 <!--more-->
 
-Poderemos ver um pouco mais de Cortex-R quando tivermos o Curso de RTOS que será baseado no uOS desenvolvido pelo Liviu Nolesco.
+Poderemos ver um pouco mais de Cortex-R quando tivermos o Curso de RTOS que será baseado no uOS desenvolvido pelo Liviu Ionesco.
 
 A ARM lançou a pouco tempo o Cortex-R52 um processador para sistema Real time, seu uso é destinado a sistema que precisam de alta responsividade enquanto mantem altos padrões de segurança. Fazendo isso través de separação física dos softwares de segurança critica de outros softwares rodando no mesmo chip.
 

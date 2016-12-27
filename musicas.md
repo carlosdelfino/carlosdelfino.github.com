@@ -1,11 +1,13 @@
 ---
 redirect_from: 
- - /Musicas/
+ - /Musica/
+ - /Músicas/
+ - /Músicas/
 permalink: /musicas/
 title: Músicas
 excerpt: "Músicas que Gosto"
 layout: categorylist
-category: musicas
+category: Músicas
 share: true
 comments: true
 ads:

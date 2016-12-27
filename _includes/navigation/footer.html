@@ -1,12 +1,12 @@
-<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
-{% for link in site.data.footer %}
+<nav role="navigation" class="footer-manu">
+    <ul class="menu-item">
+{% for link in site.data.nav.footer %}
    {% if link.url contains 'http' %}
       {% assign domain = '' %}
    {% else %}
       {% assign domain = site.url %}
    {% endif %}
-			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 {% endfor %}
-		</ul>
+    </ul>
 </nav><!-- /.bottom-menu -->

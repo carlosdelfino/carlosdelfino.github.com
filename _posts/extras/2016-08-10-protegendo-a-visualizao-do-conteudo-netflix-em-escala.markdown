@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Protegendo a Visualização do Conteúdo Netflix em Escala"
 date: "2016-08-10 11:19:47 -0300"
 tags: [extra, Netflix, segurança, servidores, freebsd, http, https, tls, aes]

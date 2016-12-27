@@ -22,7 +22,7 @@ Refletindo sobre a experiência de tentar criar um HackerSpace em Minas Gerais, 
 
 <!--more--> 
 
-Em seu livro [Pierre Lévy]({% post_url 2016-02-29-PierreLevy %}) diz:
+Em seu livro [Pierre Lévy]({% post_url perfil/2016-02-29-PierreLevy %}) diz:
 
 > "Uma comunidade virtual pode, por exemplo, organizar-se sobre uma base de afinidade por intermédio de sistemas de comunicação telemáticos, Seus membros estão reunidos pelos mesmos núcleos de interesses, pelos mesmos problemas: a geografia, contingente, não é mais nem um ponto de partida, nem uma coerção. Apesar de "não-presente", essa comunidade está repleta de paixões e de projetos, de conflitos e de amizades...
 

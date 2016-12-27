@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Calculando Distâncias com base em coordenadas de GPS"
 date: "2016-08-11 09:19:03 -0300"
 tags: [GPS, Milhas Náuticas, Milhas Terrestres, Longitude, Latitude, Coordenadas, Distância, Cálculo]
@@ -38,7 +38,7 @@ Milicia Romana), ou seja Mile Passus, passos que eram duplos com relação aos
 nossos passos normais e mediam o equivalente a 63360 polegadas, o que em metros 
 mede 1851,85 metros, arredondando temos então 1852Mt.
 
-A Milha Náutica foi baseada em princípios científicos, baseada na curvatura da terra qualquer linha a contorná-la terá 360 graus. A linha do Equador mede aproximadamente 40000Km a medida feita por [Eratostenes]({% post_url 2016-08-11-eratostenes %}) em 240 A.E.C., hoje a ciência comprovou que a medida não é muito distante, sendo 40072Km. Dividindo então esta linha por 360 graus, depois por 60 minutos e finalmente por 60 segundos (360° equivale a 60' - minutos), teremos então a distância aproximada de de 1851,85 mt para cada arco minuto (1').
+A Milha Náutica foi baseada em princípios científicos, baseada na curvatura da terra qualquer linha a contorná-la terá 360 graus. A linha do Equador mede aproximadamente 40000Km a medida feita por [Eratostenes]({% post_url perfil/2016-08-11-eratostenes %}) em 240 A.E.C., hoje a ciência comprovou que a medida não é muito distante, sendo 40072Km. Dividindo então esta linha por 360 graus, depois por 60 minutos e finalmente por 60 segundos (360° equivale a 60' - minutos), teremos então a distância aproximada de de 1851,85 mt para cada arco minuto (1').
 
 Assim fica claro que a cada 1' (um minuto de arco) temos uma milha que são 1852Mt.
 

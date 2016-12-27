@@ -1,24 +1,21 @@
-
-# Site wide configuration
-
 # Ativa depuração no site, desde que no localhost
 debug: false
 
-safe: true
-lsi: false
-
+# Site settings
 title: Carlos Delfino
-description: "Consultoria e Serviços em TICs, Desenvolvimento em diversas linguagens com Microcontroladores AVR, ARM e Prototipagem com Arduino"
+subtitle: "Desenvolvimento para Microcontroladores"
+description: "Arquiteturas AVR (ATmega e ATtiny), ARM (Família Cortex-M) e Prototipagem com Arduino, ESP8266, entre outros"
 keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado, EAD, E-Learning, Moodle, AVA, CVA, CMS, Joomla, Aprendizado, Ensino a Distância
-logo: logo-fullservice-120x120.png
-teaser: carlosdelfino-palestra-400x161.png
 locale: pt_BR
 charset: utf-8
-css:
-   highlighter: syntax.css
-#url: http://localhost:4000
-#url: http://carlosdelfino.eti.br
-#url: http://carlosdelfino.github.io/
+encoding: utf-8
+# Base URL of site. It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+baseurl: "" 
+teaser: carlosdelfino-palestra-400x161.png
+cover: carlosdelfino-palestra.png
+logo: logo-fullservice-120x120.png
 
 ads: true 
 
@@ -56,11 +53,13 @@ facebook:
   scope: [user_friends, email]
   wellcomemsg: "Olá "
   
+testimonial:
+  itens: 6
+  truncate: 350
+  
 # Exibe o mosquito aedes aegypti, campanha contra o mosquito
 aedes:
   show: false
-
-# Jekyll configuration
 
 sass:
    sass_dir: _sass
@@ -68,6 +67,13 @@ sass:
 
 permalink: /:categories/:title/
 
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
 
@@ -80,18 +86,13 @@ gems:
  - jekyll-coffeescript
  - jekyll-redirect-from
  - jekyll-sass-converter
- - jekyll-textile-converter	
  - jekyll-redirect-from	
  - jekyll-seo-tag	
  - kramdown	
- - rdiscount	
- - redcarpet	
- - RedCloth	
  - liquid	
  - rouge	
  - pygments
  - jemoji	
- - html-pipeline	
  - sass	
  - safe_yaml
 
@@ -106,7 +107,7 @@ owner:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
 compress_html:
-  enable: true
+  enable: false
   comments: ["<!-- ", " -->"]
   ignore:
     envs: [local]
@@ -120,4 +121,35 @@ resolvermaps:
   font: arial
   id: 0bwpn194rsa
 
-exclude: ["vendor", "lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", _backup]
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+  - "vendor"
+  - "lib"
+  - "config.rb"
+  - ".sass-cache"
+  - "Capfile"
+  - "config"
+  - "log"
+  - "Rakefile"
+  - "Rakefile.rb"
+  - "tmp"
+  - "_tmp"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE"
+  - "node_modules"
+  - "Gruntfile.js"
+  - "package.json"
+  - "_backup"
+  - "*.bck"
+  - "*.tmp"
+  - "/*.bck/"
+  - "/*.tmp/"
