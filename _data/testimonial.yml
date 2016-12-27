@@ -1,3 +1,19 @@
+- name: Eugênia Cardoso
+  role: Psicóloga, RH no CSAT
+  image: eugenia_cardoso.jpg
+  testimonial: Carlos Delfino mostrou-se um excelente profissional, disponível, colaborador, integrador de idéias , contribuiu, e contribui com competência, seriedade e ética , para o sucesso e resultados da empresa.  Como pessoa, um ser humano íntegro , transparente e generoso.
+  date: 28 de feveiro de 2011
+  site: http://linkedin.com
+  work: CSAT - Centro de Solidariedade e Apoio ao Trabalhador
+
+- name: Vera Moreira
+  role: Coordenadora do Polo Presencial UAITEC
+  image: vera_moreira.jpg
+  testimonial: Carlos Delfino, uma pessoa amiga, centrada e focada em seu trabalho. Sempre disposto a atender o que lhe for pedido dentro dos seus limites.
+  date: 02 de maio de 2011
+  site: http://linkedin.com
+  work: CSAT - Centro de Solidariedade e Apoio ao Trabalhador
+
 - name: Victor Lima
   role: Analista de Sistemas
   image: victor_lima.jpg
@@ -8,7 +24,7 @@
   
 - name: Harry Fockink
   role: Palestrante e Presidente da Fundação Fockink Transformador de Empresas
-  image: harry_fockink
+  image: harry_fockink.jpg
   testimonial: As minhas interações com o Delfino me mostraram que ele é um engajado, idealista e dedicado profissional.
   date: 11 de outubro de 2010
   site: http://linkedin.com
@@ -46,3 +62,32 @@
   site: http://linkedin.com
   work: OSTicket Reload
 
+- name: Francisco Ribeiro
+  role: Engenheiro de Sistemas
+  image: francisco_ribeiro.jpg
+  testimonial: Carlos is a great java developer with great knowledge in JEE - EJB3, JBOSS- and a great project leader
+  date: 23 de maio de 2007
+  site: http://linkedin.com
+  work: PDTec - Programa de Desenvolvimento Tecnologico do Terceiro Setor
+
+- name: Denis Moura
+  role: Tecnólogo
+  image: denis_moura.png
+  testimonial: O Carlos tem contribuido bastante c/ seus conhecimentos em Gerência de Projetos para o terceiro Setor. Os projetos da Revolução Info estão em boas mãos.
+  date: 17 de setembro de 2004
+  site: http://linkedin.com
+  work: Revolução Info
+
+- name: Roberto Teixeira
+  role: Engenheiro de Sistemas
+  image: roberto_teixeira.jpg
+  testimonial: Carlos é um grande amigo, acima de tudo. Tenho grande admiração por ele, não apenas por seu perfil pessoal, de ser humano extremamente preocupado com questões sociais, mas principalmente por ter um perfil profissional raro de pesquisador extremamente avançado na ciência da computação, estudando com dedicação os assuntos que deseja conhecer mais profundamente, absorvendo sistematicamente o conhecimento desses assuntos que dificilmente são dominados por profissionais da ciência da computação, em sua maioria. No universo prático dos sistemas comerciais, é produtivo e respeita regras, conhecendo profundamente assuntos típicos do mercado da informática como linguagens, principalmente Java, que domina com grande expertise, bancos de dados e infraestrutura como Linux. Proporciona grande retorno prático às demandas de que participa, além de dominar outros fundamentos complementares da atividade como a elaboração e documentação de projetos com técnicas como UML e modelagem de dados. Como cientista da computação, domina assuntos extremamente complexos como inteligência artificial, redes neurais, aprendizado de máquina e outros assuntos avançados, que se não trazem retorno imediato, na maior parte das vezes, colaboram para que os fundamentos básicos do desenvolvimento de produtos de software tenham maior valor agregado, através do aprimoramento das técnicas e tecnologias utilizadas. Enquanto normalmente os profissionais de computação se restringem às demandas solicitadas, de modo prático, ele não apenas realiza o que é proposto com distinção, como por motivação própria realiza aprimoramento continuado de seus conhecimentos em assuntos mais evoluídos, agregando no final maior valor em tudo aquilo a que se dedica! Ele é uma pessoa que sempre prova aquilo que afirma e em que acredita, porque é seguro, bem preparado, capaz e determinado.
+  site: http//linkedin.com
+  work: Chart Sistemas
+  
+- name: Tiago Garcia
+  role: Gerente Técnico
+  image: tiago_garcia.jpg
+  testimonial: Carlos is a very intelligent guy, hardworker and commited at work. He is a strong student, since he has the widest home library about computers that I know. He likes to get deep on his matters and he is also very communicative.
+  site: http://linkedin.com
+  work: Chart Sistemas

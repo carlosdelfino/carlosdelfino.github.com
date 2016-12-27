@@ -1,9 +1,33 @@
 $(document).ready(function(){
+	
+	// randomize owl carrocel
+	//Sort random function
+	function random(owlSelector) {
+		owlSelector.children().sort(function () {
+			return Math.round(Math.random()) - 0.5;
+		}).each(function () {
+			$(this).appendTo(owlSelector);
+		});
+	}
+	
 	$("#portfolio-contant-active").mixItUp();
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
-	    singleItem:true,
+	    singleItem: true,
 	    autoPlay: 3000,
+	    stopOnHover: true,
+	    responsive: true,
+	    itens: 5,
+	    
+	    //Mouse Events
+	    dragBeforeAnimFinish : true,
+	    mouseDrag : true,
+	    touchDrag : true,
+	    
+		//Call beforeInit callback, elem parameter point to $(".feedback")
+		beforeInit: function (elem) {
+			random(elem);
+		}
 	});
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
@@ -17,6 +41,7 @@ $(document).ready(function(){
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
 	});
+
 	// google map
 		var map;
 		function initMap() {
