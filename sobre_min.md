@@ -1,6 +1,7 @@
 ---
 permalink: /sobre_mim/
 title: Sobre mim
+tags: [bio, perfil, sobre mim, biografia, contatos, telefone, e-mail, história, quem sou eu]
 subtitle: "Formas de Contato, Minha História, Meus Gostos"
 layout: subpage
 share: true
@@ -8,26 +9,32 @@ image:
    feature: carlosdelfino-palestra.png
 ---
 
-Meu nome é Carlos Delfino, alguns amigos me chamam de Delfino, e por uma feliz coincidência, acham que meu nome é uma brincadeira com o Arduino, que termina em "ino", mas meu nome é Delfino mesmo, mas podemos considerar que esta feliz coincidência foi um prenuncio do meu futuro.
+Como já sabem Meu nome é Carlos Delfino, alguns amigos me chamam apenas de Delfino. 
 
 <!--more--> 
 
-### PROFISSÃO:
+Por uma feliz coincidência, acham que meu nome é uma brincadeira com o Arduino, que termina em "ino", mas meu nome é Delfino mesmo foi uma homenagem que meu pai fez a uma escritora ou membro da família, mas podemos considerar que essa feliz coincidência foi um prenuncio do meu futuro.
 
-Sou formado em REdes de Computadores, e atuo no mercado como Consultor / Desenvolvedor / Analista de Suporte e Sistemas.
+### Formação e Profissão:
+
+Sou formado como tecnologo em Redes de Computadores FIC, atual Centro Universitário Estácio do Ceará. Já sonhei em ampliar meus estudos acadêmnicos e fazer mestrado, doutrado e por ai vai, porém minha prioridade maior é aprender e dominar, não apenas ter um título, então tenho seguido como autodidata.
+
+Atuo no mercado como Consultor / Desenvolvedor / Analista de Suporte e Sistemas especializado em Linux, Microcontroladores Cortex-M e AVR (ATmega e ATtiny).
+
 
 ### BIO:
-Já com 30 anos de mercado, iniciei profissionalmente como programador e com a demanda por profissionais qualificado em suporte a rede de computadores, e tendo grande afinidade com infraestrutura me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
-Em paralelo atuei como consultor, atuando como programador e suporte, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
+Já com quase 30 anos de mercado, iniciei profissionalmente como programador, mas com a demanda por profissionais qualificado em suporte a rede de computadores e tendo grande afinidade com infraestrutura me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
-Durante minha vida acadêmica, que pretendo voltar em breve, me formei no curso de projeto e implementação de redes de computadores, onde tive a oportunidade de atuar como bolsista de dois professores em seus respectivos projetos de mestrado, Prof. Aminadabe com o projeto [An Algorithm for Fault Location in SDH/WDM Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.9439) [http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks](http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks) e colaborando com o Prof Inácio em [Uma Proposta Para Descoberta e Monitoramento de Recursos em Redes de Computadores Usando Agentes Móveis](http://www.uece.br/mpcomp/index.php/arquivos/doc_download/177-dissertacao-18), também fiz diversos cursos ligados a segurançade redes com linux, programação com a linguagem Java, e consultoria em gestão de projetos pela ótica do PMI (PMBOK).
+No inicio fazia de tudo, limpava computadores, teclados, monitores, montava, consertava e vendia, com a experiência fui especializando e focando mais. Então, comecei a atuar como consultor e  programador, nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++.
 
-Atualmente ministro cursos com Arduino, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
+Durante minha vida acadêmica, que pretendo voltar em breve, não simplesmente pelo título ou salário mas pelo ideal de ser um pesquisador reconhecido e contribuir com o meio oferecendo e multiplicando conhecimento, me formei no curso de projeto e implementação de redes de computadores, onde tive a oportunidade de atuar como bolsista de dois professores em seus respectivos projetos de mestrado, Prof. Aminadabe com o projeto [An Algorithm for Fault Location in SDH/WDM Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.9439) [http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks](http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks) e colaborando com o Prof Inácio em [Uma Proposta Para Descoberta e Monitoramento de Recursos em Redes de Computadores Usando Agentes Móveis](http://www.uece.br/mpcomp/index.php/arquivos/doc_download/177-dissertacao-18), também fiz diversos cursos ligados a segurançade redes com linux, programação com a linguagem Java, e consultoria em gestão de projetos pela ótica do PMI (PMBOK).
 
-Mas em 2015, votei a me dedicar aos estudos e projetos que utiizam a linguagem Java e seus frameworks.
+Atualmente ministro cursos com Arduino, Cortex-M entre outros, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
 
-Visite a página Cursos para conhecer os cursos e palestras que tenho ministrado, e quais estou preparando para atender a demanda atual.
+Mas em 2015, votei a me dedicar aos estudos e projetos que utiizam a linguagem Java e seus frameworks. Porém quem me contratou não levou o projeto a frente, e volte no inicio de 2016 com carga total para o universo dos microcontroladores em especial Cortex-M, e agora também xTensa (os usados no ESP8266).
+
+Visite a página [Cursos Arduino Minas](/cursoarduino) para conhecer os cursos e palestras que tenho ministrado, e quais estou preparando para atender a demanda atual.
 
 ### ASSUNTOS FAVORITOS:
 
@@ -53,8 +60,8 @@ Motos, Vinhos, Tecnologia, Religião, Assuntos para melhorar nossa sociedade sem
 Skype.ui({
   "name": "dropdown",
   "element": "SkypeButton_Call_fullservice.admin_1",
-  "participants": ["fullservice.admin"],
-  "imageSize": 32
+  "participants": ["fullservice.admin", "consultoria@carlosdelfino.eti.br"],
+  "imageSize": 10
 });
 </script>
 
@@ -73,10 +80,11 @@ Skype.ui({
  * [Academia: https://independent.academia.edu/CarlosDelfino](https://independent.academia.edu/CarlosDelfino)
  * [Kaggle: https://www.kaggle.com/carlosdelfino/](https://www.kaggle.com/carlosdelfino)
 
-<a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Follow me on Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
+<a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Sigame no Academia.edu</a>
+<script src="//a.academia-assets.com/javascripts/social.js"></script>
 
 <a href="http://stackexchange.com/users/2125633?theme=clean">
-     <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean" width="208" height="58" alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+     <img src="http://stackexchange.com/users/flair/2125633.png?theme=clean"  alt="profile de Carlos Delfino no Stack Exchange, uma rede livre, um site compostos por comunidades de perguntas e respostas (Q&amp;A)" title="profile for Carlos Delfino on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 </a>
 
 

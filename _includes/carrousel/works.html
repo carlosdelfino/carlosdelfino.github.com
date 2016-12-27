@@ -1,0 +1,30 @@
+<!-- http://htmlpreview.github.io/?https://github.com/OwlFonk/OwlCarousel/blob/master/index.html -->
+<div class="col-md-6">
+  <div class="works-carousel">
+    <div id="works-slider" class="owl-carousel">
+    {% for t in site.data.works %}
+      <div>
+        <div class="work">
+          <img src="/images/works/{{ t.image | default: '../cotation.png' }}" alt="{{ t.name }}">
+          <p><span>{{ t.name }}</span> - {{ t.description }}</p>
+        </div>
+        {% if t.link contains 'http:' or t.link contains 'https:' %}
+        <p><a href="{{ t.link }}">{{ t.description | truncate: site.works.truncate | default: 300 }}</a></p>
+        {% else %}
+        <p><a href="/works/{{ t.link }}">{{ t.description | truncate: site.works.truncate | default: 300 }}</a></p>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+    $("#works-slider").owlCarousel({
+        autoPlay: 3000,
+        items : 5,
+        itemsDesktop : [1199,5],
+        itemsDesktopSmall : [979,5],
+    });
+</script>

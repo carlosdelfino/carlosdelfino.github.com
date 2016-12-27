@@ -10,11 +10,13 @@ layout: default
 {{ content }}
         </div>
       </div><!-- .col-md-7 close -->
+      {% if page.image.teaser != false %}
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="/images/wrapper-img.png" alt="Wrapper Img">
+          <img src="/images/{{ page.image.teaser | default: 'wrapper-img.png' }}" alt="Wrapper Img">
         </div>
       </div><!-- .col-md-5 close -->
+      {% endif %}
     </div>
   </div>
 </section>

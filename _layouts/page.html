@@ -16,8 +16,6 @@
   {{ content }}
   
     {% include page/footer.html %}
-    <script src="{{ site.url }}/js/main.js"></script>
-    
     {% include page/tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
@@ -31,5 +29,15 @@
         <script src='/js/{{ js_file }}.js' type="text/javascript"></script>
       {% endfor %}
     {% endif %}
+    <script type="text/javascript">
+    <!--
+        pageCustonFuntions = function(){
+        {% for js_function in page.custom_js_functions %}
+          {{ js_function }};
+        {% endfor %}
+    };
+    -->
+    </script>
+    <script src="{{ site.url }}/js/main.js"></script>
   </body>
 </html>

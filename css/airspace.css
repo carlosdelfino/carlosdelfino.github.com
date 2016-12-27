@@ -1,22 +1,18 @@
----
-permalink: /css/airspace.css
-layout: css
----
-/\*
+/*
  * This is the main css file that ships with the airspace theme.
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
  * 
- \*/
+ */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
-/\* var text-decoration \*/
-/\* \--
+/* var text-decoration */
+/*--
 	Common Css
-\-- \*/
+--*/
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -65,19 +61,19 @@ a:active {
   font-style: italic;
   color: #666;
 }
-/\*--
+/*--
 	Header Start
---\*/
+--*/
 header {
   background: #fff;
   padding: 20px 0;
-}     
+}
+header .navbar {
+  margin-bottom: 0px;
+  border: 0px;
+}
 header .navbar-brand {
   padding-top: 5px;
-}
-.navbar-brand img{
-    display:block;
-    width: 70px
 }
 header .navbar-default {
   background: none;
@@ -94,30 +90,20 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
-/\*---------------------------------------------
+/*---------------------------------------------
 					Index Start
------------------------------------------------\*/
-/\*--
+-----------------------------------------------*/
+/*--
 	Slider Start
---\*/
+--*/
 #slider {
-  padding: 70px 0 70px 0;
-  position: relative;
-  background: url(../images/{{ site.cover }}) no-repeat;
-  background-size: 100% 80%;
+  background: url("../img/slider-bg.jpg") no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  background-color: rgba(255,255,255,0.3)
-  -khtml-opacity:.50; 
-  -moz-opacity:.50; 
-  -ms-filter:"alpha(opacity=50)";
-  filter:alpha(opacity=50);
-  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
-  /* Fallback for web browsers that doesn't support RGBa */
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  padding: 200px 0 280px 0;
+  position: relative;
 }
-
 #slider:before {
   content: "";
   position: absolute;
@@ -131,10 +117,8 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-    padding: 20px;
-    color: #f5f4ee;
-    background-color: rgba(83, 123, 142, 0.44);
-}}
+  color: #E3E3E4;
+}
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -150,9 +134,9 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 3px;
 }
-/\*--
+/*--
 	wrapper Start
---\*/
+--*/
 #intro {
   padding: 100px 0;
 }
@@ -175,9 +159,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
-/\*--
+/*--
 	service Start
---\*/
+--*/
 #service {
   text-align: center;
   padding: 90px 0;
@@ -201,11 +185,11 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
-/\*--
+/*--
 	call-to-action Start
---\*/
+--*/
 #call-to-action {
-  background: url(../images/call-to-action-bg.jpg) no-repeat;
+  background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -225,9 +209,6 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #1d192c;
   opacity: 0.8;
 }
-#call-to-action .block{
-  background-color: rgba(0, 0, 0, 0.23);
-}
 #call-to-action h2 {
   padding-bottom: 20px;
   line-height: 33px;
@@ -246,11 +227,11 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #333333;
   margin-top: 30px;
 }
-/\*--
+/*--
 	Feature Start
---\*/
+--*/
 #feature {
-  background: url(../images/featue-bg.jpg);
+  background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -285,9 +266,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 10px 20px;
 }
-/\*--
+/*--
 	content Start
---\*/
+--*/
 #testimonial {
   padding: 100px 0;
 }
@@ -360,9 +341,9 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   border: 0px;
 }
-/\*--
+/*--
 	features Start
---\*/
+--*/
 #clients-logo-section {
   padding-top: 30px;
   padding-bottom: 75px;
@@ -370,14 +351,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
 }
-/\*---------------------------------------------
+/*---------------------------------------------
 					Work Start
------------------------------------------------\*/
-/\*--
+-----------------------------------------------*/
+/*--
 	Slider-work Start
---\*/
+--*/
 #global-header {
-  background: url(../images/{{ site.cover }}) no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -416,9 +397,9 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
-/\*--
+/*--
 	portfolio-work Start
---\*/
+--*/
 #portfolio-work {
   overflow: hidden;
   padding: 80px 0;
@@ -552,9 +533,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .mix {
   display: none;
 }
-/\*--
+/*--
 	wrapper-work Start
---\*/
+--*/
 #wrapper-work {
   overflow: hidden;
   padding-top: 100px;
@@ -602,9 +583,9 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   padding-right: 80px;
 }
-/\*--
+/*--
 	features-work Start
---\*/
+--*/
 #features-work {
   padding-top: 50px;
   padding-bottom: 75px;
@@ -615,18 +596,18 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 40px 0px;
 }
-/\*---------------------------------------------
+/*---------------------------------------------
 					Work Close
------------------------------------------------\*/
-/\*=============================================\*/
-/\*---------------------------------------------
+-----------------------------------------------*/
+/*=============================================*/
+/*---------------------------------------------
 					 Contact Start
------------------------------------------------\*/
-/\*--
+-----------------------------------------------*/
+/*--
 	slider-contact Start
---\*/
+--*/
 #slider-contact {
-  background: url(../images/{{ site.cover }}) no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -665,9 +646,9 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
-/\*--
+/*--
 	contact-form Start
---\*/
+--*/
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
@@ -703,9 +684,9 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
-/\*--
+/*--
 	wrapper-contact Start
---\*/
+--*/
 .address-block li {
   margin-bottom: 20px;
 }
@@ -755,9 +736,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #5C5C5C;
   display: block;
 }
-/\*--
+/*--
 	features-contact Start
---\*/
+--*/
 #features-contact {
   padding-top: 50px;
   padding-bottom: 75px;
@@ -768,10 +749,10 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 40px 0px;
 }
-/\*---------------------------------------------
+/*---------------------------------------------
 					Contact Close
------------------------------------------------\*/
-/\*--------- Heading------------\*/
+-----------------------------------------------*/
+/*--------- Heading------------*/
 .heading {
   padding-bottom: 60px;
   text-align: center;
@@ -788,10 +769,10 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #292929;
   font-weight: 300;
 }
-/\*---------------------------\*/
-/\*--
+/*---------------------------*/
+/*--
 	footer Start
---\*/
+--*/
 footer {
   background: #F5F5F5;
   text-align: center;

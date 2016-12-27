@@ -1,16 +1,16 @@
 <div class="col-md-6">
+  <div class="block">
+    <ul class="counter-box clearfix">
+    {% for f in site.data.facts %}
+      <li>
         <div class="block">
-          <ul class="counter-box clearfix">
-          {% for f in site.data.facts %}
-            <li>
-              <div class="block">
-                <i class="ion-ios-{{ f.class }}-outline"></i><br />
-                <span>{{ f.title }}</span>
-                <h4 class="counter">{{ f.count }}</h4>
-                <span>{{ f.description }}</span>
-              </div>
-            </li>
-           {% endfor %}
-          </ul>
-        </div>
-      </div>
+          <i class="ion-ios-{{ f.class }}-outline"></i><br />
+           <span>{{ f.title }}</span>
+            <h4 class="counter">{{ f.count }}</h4>
+           <span>{{ f.description }}</span>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
