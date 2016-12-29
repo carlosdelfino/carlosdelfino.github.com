@@ -75,6 +75,9 @@ header .navbar {
 header .navbar-brand {
   padding-top: 5px;
 }
+header .navbar-brand img{
+    width: 70px;
+}
 header .navbar-default {
   background: none;
   border: 0px;
@@ -121,9 +124,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-size: 45px;
-  line-height: 60px;
+  line-height: normal;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }

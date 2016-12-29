@@ -50,7 +50,6 @@
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 {% if page.highlighter.css %}
     <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}">
 {% elsif site.css.highlighter %}
@@ -68,5 +67,16 @@
 {% endif %}
 
 {% if site.aedes.show == true %}
-{% include aedes/index.html %}
+  {% include aedes/index.html %}
 {% endif %}
+    <script type="text/javascript">
+    <!--
+        pagePreCustonFuntions = function(){
+        {% for js_function in page.custom_js.functions.pre %}
+          {{ js_function }};
+        {% endfor %}
+    };
+    -->
+    </script>
+    
+    <script src="{{ site.url }}/js/premain.js"></script>
