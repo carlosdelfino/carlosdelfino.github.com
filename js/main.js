@@ -1,15 +1,4 @@
 $(document).ready(function(){
-	
-	// randomize owl carrocel
-	//Sort random function
-	function random(owlSelector) {
-		owlSelector.children().sort(function () {
-			return Math.round(Math.random()) - 0.5;
-		}).each(function () {
-			$(this).appendTo(owlSelector);
-		});
-	}
-	
 	$("#portfolio-contant-active").mixItUp();
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
@@ -152,5 +141,5 @@ $(document).ready(function(){
 	  "retina_detect": true
 	});
 	
-	pageCustonFunctions();
+	pagePosCustonFunctions();
 });

@@ -19,13 +19,10 @@ image:
             anos de experiência.</p>
           </div>
           <p>Já passei dos 40 e sempre me atualizando, meu primeiro contato foi aos 13 anos com a 
-        eletrônica e posteriormente com a computação, já tive experiências em outros mercados, como o setor de alugueis 
-        de fitas cassete (isso mesmo faz tempo) 
-        o setor de sonorização, quando fui auxiliar técnico de excelentes bandas como Biquine Cavadão, RPM, 
-        Sula Miranda entre outros, mas isso foi antes dos 20 anos, 
-        posterioremente, apartir dos 21 anos eu descobri a TI profissionalmente eu já tinha um 386 que adquiri com 
-        a venda de uma linha telefonica na fase pré privatização das teles (foi um grande golpe de mestre), e de lá 
-        tenho me aperfeiçoado cada vez mais.</p>
+        eletrônica e posteriormente com a computação, desde então venho buscando me aperfeiçoar e adquirir mais e mais
+        conhecimentos. Atualmente 100% dedicado ao estudo e aperfeiçoamento constante no desenvolvimento de soluções para
+        embarcados, seja em werables, IoT e com um forte desejo em desenvolver soluções ligadas a Internet Planetária, em
+        especial como protocolo DTN.</p>
         <a href="/sobre_mim">Clique aqui para conhecer mais.</a>
         </div>
       </div><!-- .col-md-7 close -->
@@ -54,45 +51,7 @@ image:
   </div>
 </section>
 
-<!-- Service Start -->
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Nossos Serviços</h2>
-        <p>São mais de 20 anos de experiência, entre sucessos de fracassos um constante aprendizado que disponibilizamos a nossos clientes que desejam traçar novos caminhos.</p>
-      </div>
-    </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="icon ion-steam"></i>
-          <h4>Desenvolvimento de Software</h4>
-          <p>Desenvolvimento de aplicação, softwares especializados e firmware para Arquitetura ARM (Família Cortex-M) AVR (Família ATMega e ATTiny) </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-wand"></i>
-          <h4>Start Up</h4>
-          <p>Consultoria e Apoio tecnológico para Startups e Empresas Junior.</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-planet"></i>
-          <h4>Infraestrutra de rede</h4>
-          <p>Hospedagem de sites especiais, Moodle entre outros.</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-image"></i>
-          <h4>Hospedagem</h4>
-          <p>Hospedagem de sites especiais, Moodle entre outros.</p>
-        </div>
-      </div>
-  </div>
-</section>
+<{% include carrousel/services.html %}
 
 <!-- Call to action Start -->
 <section id="call-to-action">

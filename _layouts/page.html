@@ -31,8 +31,8 @@
     {% endif %}
     <script type="text/javascript">
     <!--
-        pageCustonFuntions = function(){
-        {% for js_function in page.custom_js_functions %}
+        pagePosCustonFuntions = function(){
+        {% for js_function in page.custom_js.functions.pos %}
           {{ js_function }};
         {% endfor %}
     };

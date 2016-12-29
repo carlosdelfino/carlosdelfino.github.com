@@ -1,0 +1,49 @@
+!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Nossos Serviços</h2>
+        <p>São mais de 25 anos de experiência, entre sucessos de fracassos um constante aprendizado que disponibilizamos a nossos clientes que desejam traçar novos caminhos.</p>
+      </div>
+    </div>
+    <div id="service-slider"  class="owl-carousel" >
+    {% for t in site.data.services %} 
+        <div class="service-item">
+          <i class="icon ion-{{ t.type }}"></i>
+          <h4><a href="{{ t.link }}">{{ t.title }}</a></h4>
+          <p>{{ t.description }}</p>
+        </div> 
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+    $("#service-slider").owlCarousel({
+        navigation: true,
+            paginationSpeed : 500,
+    navigationText: [
+      "<i class='icon-chevron-left icon-white'></i>",
+      "<i class='icon-chevron-right icon-white'></i>"
+      ],
+    stopOnHover : true,
+    goToFirstSpeed : 2000,
+    singleItem : false,
+    autoHeight : false,
+    transitionStyle:"fade",
+    
+        autoPlay: 3000,
+        stopOnHover: true,
+        responsive: true,
+        itens: 5,
+        
+        //Mouse Events
+        dragBeforeAnimFinish : true,
+        mouseDrag : true,
+        touchDrag : true,
+        
+        //Call beforeInit callback, elem parameter point to $(".feedback")
+        beforeInit: function (elem) {
+            random(elem);
+        }});
+</script>
