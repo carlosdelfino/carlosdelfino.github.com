@@ -7,14 +7,14 @@ ads:
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
 		<div class="inner-wrap">
-			<nav class="toc"></nav><!-- /.toc -->
-			<div id="content" class="page-content" itemprop="articleBody">
+			{% include page/tableofcontents.html %}
+            <article id="content" class="page-content" itemprop="articleBody">
 {% if page.tagcloud  %}
-			<aside id="tagcloud"></aside>
+                <aside id="tagcloud"></aside>
 			{% include gadget/d3-tagcloud.html container="tagcloud" height=250 width=600 %}
 {% endif %}
 				 
-				{{ content }}
+				<section>{{ content }}</section>
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}
@@ -31,7 +31,7 @@ ads:
 					{% if page.donate.show != false %}{% include donate/donate.html %}{% endif %}
 					<!-- end if donate -->
 				</aside>
-			</div><!-- /.content -->
+			</article><!-- /.content -->
 		</div><!-- /.inner-wrap -->
 		{% include advertising.html %}
 		{% include resolvermaps.html %}

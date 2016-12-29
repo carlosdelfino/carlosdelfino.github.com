@@ -1,4 +1,3 @@
-	
 	// randomize owl carrocel
 	//Sort random function
 	function random(owlSelector) {
