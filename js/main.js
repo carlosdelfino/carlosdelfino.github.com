@@ -141,5 +141,5 @@ $(document).ready(function(){
 	  "retina_detect": true
 	});
 	
-	pagePosCustonFunctions();
+	pagePosCustonFuntions();
 });

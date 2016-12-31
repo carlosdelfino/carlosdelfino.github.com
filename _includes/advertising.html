@@ -26,7 +26,7 @@
          {% assign divclassads = "ads" %}   
       {% endif %} 
    
-<section class="{{ divclassads }}">
+<aside class="{{ divclassads }}">
 <style>
 .responsive-ads { 
   {% if style.display %}display: {{ style.display }};{% endif %}
@@ -42,7 +42,7 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</section><!-- /.ads -->
+</aside><!-- /.ads -->
    {% else %}
       <!-- Não estilo "{{ pageadsstyle }} defino para uso! veja a configuração "page.ads.style" para ver se está correto -->
    {% endif %}

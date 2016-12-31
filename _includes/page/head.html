@@ -1,8 +1,15 @@
 {% if site.charset %}<meta charset="{{ site.charset }}{% else %}<meta charset="utf-8">{% endif %}
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>{% if page.title %}{{ page.title }}" - "{{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% else %}Sem Descrição{% endif %}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -14,6 +21,7 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
+
 <!-- CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.css">
@@ -24,16 +32,17 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.extra.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.extra.css" />
+
+{% if page.highlighter.css %}
+    <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}">
+{% elsif site.css.highlighter %}
+    <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
+{% endif %}
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -48,13 +57,6 @@
 
 <!--[if lt IE 9]><script src="/js/modernizr.custom.03289.js"></script><![endif]-->
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
-
-{% if page.highlighter.css %}
-    <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}">
-{% elsif site.css.highlighter %}
-    <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
-{% endif %}
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
@@ -75,8 +77,10 @@
         {% for js_function in page.custom_js.functions.pre %}
           {{ js_function }};
         {% endfor %}
-    };
+        };
+        pagePreCustonFuntions();
     -->
     </script>
     
+    <script src="{{ site.url }}/js/main2.js"></script>
     <script src="{{ site.url }}/js/premain.js"></script>

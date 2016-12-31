@@ -16,7 +16,6 @@
   {{ content }}
   
     {% include page/footer.html %}
-    {% include page/tableofcontent.js %}
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
 
@@ -30,13 +29,11 @@
       {% endfor %}
     {% endif %}
     <script type="text/javascript">
-    <!--
         pagePosCustonFuntions = function(){
         {% for js_function in page.custom_js.functions.pos %}
           {{ js_function }};
         {% endfor %}
     };
-    -->
     </script>
     <script src="{{ site.url }}/js/main.js"></script>
   </body>

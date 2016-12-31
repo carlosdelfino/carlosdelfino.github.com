@@ -1,5 +1,5 @@
 ---
-permalink: /css/airspace.extra.css
+permalink: /css/main.extra.css
 layout: css
 ---
 
