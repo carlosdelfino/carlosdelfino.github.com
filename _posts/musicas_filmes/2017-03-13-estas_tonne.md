@@ -1,6 +1,6 @@
 
 ---
-title: Estas Tonne @ Boom 2014 [Road to Utopia]
+title: "Estas Tonne @ Boom 2014 [Road to Utopia]"
 categories: [Músicas]
 tags: [Estas Tonne, Acústico, Músicas, Bandas, 2014]
 layout: article
@@ -27,7 +27,7 @@ Gostei muito da musicalidad de seu violão sua intencidade ao tocar e variabilid
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ScDxESck2t0" frameborder="0" allowfullscreen></iframe>
-<figcaption>Estas Tonne @ Boom 2014 [Road to Utopia]/figcaption>
+<figcaption>Estas Tonne @ Boom 2014 [Road to Utopia]</figcaption>
 </figure>
 
 
