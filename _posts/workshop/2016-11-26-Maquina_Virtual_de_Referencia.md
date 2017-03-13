@@ -1,7 +1,7 @@
 ---
 redirect_from: /workshop/estacio_ceara/2016_2/Maquina_Virtual_de_Referencia/
 title: "Máquina Virtual de Referência par ao Workshop"
-date: 2019-11-26 01:10:00 -0300
+date: 2016-11-26 01:10:00 -0300
 categories: [III-SiConect]
 tags: ["Estácio do Ceará", FIC, gnu, eclipse, plugin, gcc, none, eabi, Workshop, programação, Estácio, Ceará, instalação, ambiente, preparação, Máquina Virtual, Virtual Box, VBox, Emuladores]
 layout: article-workshop-estacio-2016-1
