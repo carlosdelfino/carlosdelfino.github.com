@@ -1,19 +1,19 @@
 - class: albums
-  title: Mais de 
+  title: Mais de
   count: 1.345.522.567
-  description: linhas de Código
-  
+  description: linhas de código
+
 - class: flask
-  title: Mais de 
+  title: Mais de
   count: 143.452
   description: chicaras de café
 
 - class: timer
   title: Mais de
   count: 13.453
-  descritpion: de horas de sonos pedidas
+  descritpion: de horas de sono pedidas
 
 - class: compose
   title: Mais de
-  count: 100
+  count: 106
   description: turmas em nossos cursos
