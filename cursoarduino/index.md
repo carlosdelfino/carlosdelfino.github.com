@@ -9,4 +9,5 @@ redirect_from:
  - /cursoarduinominas/
 permalink: /cursoarduino/
 redirect_to: http://arduinominas.com.br/
+layout: clean
 --- 
