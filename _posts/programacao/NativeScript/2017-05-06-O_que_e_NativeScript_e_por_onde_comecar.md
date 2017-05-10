@@ -14,8 +14,8 @@ ads:
 tagcloud: true
 show: true
 image:
- teaser: nativescript/NativeScript_logo.png
- feature: nativescript/NativeScript_logo.png
+ teaser: programacao/nativescript/NativeScript_logo.png
+ feature: programacao/nativescript/NativeScript_logo.png
 ---
 
 NativeScript, um Framework que permite desenvolver aplicações multiplataforma, como dispositivos moveis, e outros baseados em Android, iOS e futuramente WindowsCE.
@@ -40,7 +40,7 @@ Utilizando Angular, o que não é obrigatório, se tem acesso a avançados recur
 
 A Arquitetura do NativeScript é bem simples e pode ser vista na imagem abaixo que é autoesplicativa.
 
-![Arquitetura do NativeScript](/images/nativescript/architecture.png)
+![Arquitetura do NativeScript](/images/programacao/nativescript/architecture.png)
 
 ## Prerequisitos
 
@@ -50,7 +50,7 @@ Para ter sucesso com o NativeScript é importante que se tenha conhecimento sobr
  * **CSS**, saber escrever seletores e conhecer como aplicar regras CSS como pares name/value.
  * **O Termina**, é importante saber usar a linha de comando ou o terminal de sua estação de trabalho seja qual for seu sistema operacional, saber mudar de diretório e como executar comandos.
  * **Um Editor de texto**, você pode usar o editor de texto que desejar para escrever seus códigos desde que obviamente ele grave em formato texto puro e respeite as estenções, sugerimos o Eclipse ou Atom como seu Editor de programas.
- 
+
 ## Primeiros Passos
 
 Para dar os primeiros passos com o NativeScript sugerimos usar um dos tutoriais abaixo, um com base em JavaScript puro e outro com Angular. Mas você pode seguir nossas sugestões e seguir as instruções apresentadas depois dos links para instalar o Framework em seu ambiente de trabalho.
