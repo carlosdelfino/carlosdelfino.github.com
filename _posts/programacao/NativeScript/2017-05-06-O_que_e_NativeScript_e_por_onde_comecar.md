@@ -42,9 +42,18 @@ A Arquitetura do NativeScript é bem simples e pode ser vista na imagem abaixo q
 
 ![Arquitetura do NativeScript](/images/nativescript/architecture.png)
 
+## Prerequisitos
+
+Para ter sucesso com o NativeScript é importante que se tenha conhecimento sobre:
+
+ * **JavaScript**, conceitos básicos tais como funcões, declarações 'if' e o funcionamento de loops.
+ * **CSS**, saber escrever seletores e conhecer como aplicar regras CSS como pares name/value.
+ * **O Termina**, é importante saber usar a linha de comando ou o terminal de sua estação de trabalho seja qual for seu sistema operacional, saber mudar de diretório e como executar comandos.
+ * **Um Editor de texto**, você pode usar o editor de texto que desejar para escrever seus códigos desde que obviamente ele grave em formato texto puro e respeite as estenções, sugerimos o Eclipse ou Atom como seu Editor de programas.
+ 
 ## Primeiros Passos
 
-Para dar os primeiros passos com o NativeScript sugerimos usar um dos tutoriais abaixo, um com base em JavaScript puro e outro com Angular. Mas antes siga a instruções apresentadas a seguir para instalar o Frmework em seu ambiente de trabalho.
+Para dar os primeiros passos com o NativeScript sugerimos usar um dos tutoriais abaixo, um com base em JavaScript puro e outro com Angular. Mas você pode seguir nossas sugestões e seguir as instruções apresentadas depois dos links para instalar o Framework em seu ambiente de trabalho.
 
 <div id="start-button-container">
   <a href="http://docs.nativescript.org/angular/tutorial/ng-chapter-0" class="Btn" id="ng-start-button">Get Started with TypeScript & Angular</a>
@@ -68,9 +77,6 @@ Para dar os primeiros passos com o NativeScript sugerimos usar um dos tutoriais 
 </script>
 
 Sem problema algum você pode optar por desenvolver apenas com TypeScirpt sem o uso do Angular, para isso inicie seu aprendizado com o uso do JavaScript e vá adotando aos poucos o TypeScirpt seguindo a [documentação TypeScript](https://www.nativescript.org/using-typescript-with-nativescript-when-developing-mobile-apps), A escolha do TypeScript é indicada como sendo a melhor, uma vez que o NativeScript internamente é desenvolvido nesta linguagem, outra grande vantagem da escolha do TypeScript se dá a recursos inerentes a própria linguagens como ser fortemente tipada e Orientada a Objetos.
-
-
-Para desenvolver no NativeScript você já deve ter um conhecimento básico em JavaScript, CSS, A linha de comando através de algum terminal e Shell como o Bash ou Prompt de Comandos do Windows, e algum editor de texto ou preferencialmente uma IDE como o Eclipse ou Atom.
 
 ### A instalação
 
