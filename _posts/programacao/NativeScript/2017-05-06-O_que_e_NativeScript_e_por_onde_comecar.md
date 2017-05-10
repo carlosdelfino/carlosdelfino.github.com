@@ -18,7 +18,7 @@ image:
  feature: nativescript/NativeScript_logo.png
 ---
 
-NativeScript um Framework que permite desenvolver aplicações multiplataforma, como dispositivos moveis, e outros baseados em Android, iOS e futuramente WindowsCE.
+NativeScript, um Framework que permite desenvolver aplicações multiplataforma, como dispositivos moveis, e outros baseados em Android, iOS e futuramente WindowsCE.
 
 <!--more-->
 
@@ -26,7 +26,7 @@ NativeScript é um framework multiplataforma mantido pela Telerik e pela comunid
 
 Este Framework permite o desenvolvimento de aplicações para dispositivos moveis baseados no Android e iOS, além da promeça futura de vir a ser compativel com o WindowsCE. Outros dispositivos como SmartTV que usem Android podem se beneficiar dos recursos de desenvolvimento do NativeScript.
 
-O NativeScript além de usar XHTML e CSS para enriquecer a interface e a UX, permite o desenvolvimento utilizando Angular com total integração ao novo Angular 2, é internamente desenvolvido usando o TypeScript, permitindo o uso desta nova linguagem e também permite o desenvolvimento com JavaScript nativo nas versões modernas.
+O NativeScript além de usar XHTML e CSS para enriquecer a interface e a UX, permite, mas não obriga, o desenvolvimento utilizando Angular com total integração ao novo Angular 2, é internamente desenvolvido usando o TypeScript, permitindo o uso desta nova linguagem e também permite o desenvolvimento com JavaScript nativo nas versões modernas.
 
 Umas das grandes vantagens do uso do NativeScript é não ser necessário o uso de WebViews para ter portabilidade em sua aplicação, já que este framework transcompila para JavaScript todo código escrito e por sua vez o compila de forma nativa conforme a plataforma escolhida, dando a aplicação desenvolvida um desempenho máximo.
 
