@@ -1,5 +1,5 @@
 ---
-title: O que é NativeScript e por onde começar?
+title: "O que é NativeScript e por onde começar?"
 tags: [NativeScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
 category: [programacao, mobile, NativeScript]
 layout: article
@@ -80,7 +80,7 @@ Sem problema algum você pode optar por desenvolver apenas com TypeScirpt sem o 
 
 ### A instalação
 
-A instalação do NativeScript é muito simples, uma vez que você já tenha o Node.JS instalado e possa facilmente usar a erramenta "NPM", assim basta digitar o comando:
+A instalação do NativeScript é muito simples, desde  que você já tenha o Node.JS instalado, o Python 2.7, e no MAC deve ser instalado o xCode, e para desenvolvimento para Android, deve instalar o Android SDK. facilmente você pode usar a ferramenta "NPM", assim basta digitar o comando:
 
 ```
 $d npm -g install NativeScript
