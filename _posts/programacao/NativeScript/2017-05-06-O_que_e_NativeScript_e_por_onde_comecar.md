@@ -15,7 +15,7 @@ tagcloud: true
 show: true
 image:
  teaser: programacao/nativescript/NativeScript_logo.png
- feature: programacao/nativescript/NativeScript_logo.png
+ feature: programacao/nativescript/NativeScript_logo_1800x600.png
 ---
 
 NativeScript, um Framework que permite desenvolver aplicações multiplataforma, como dispositivos moveis, e outros baseados em Android, iOS e futuramente WindowsCE.
