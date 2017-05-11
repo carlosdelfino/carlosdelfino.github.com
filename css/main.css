@@ -5,7 +5,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -101,14 +101,9 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
     Slider Start
 --*/
-#slider {
-  background: url("../images/slider-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
-  position: relative;
-}
+/*--
+   please see too main.extra.css.md
+--*/
 #slider:before {
   content: "";
   position: absolute;
