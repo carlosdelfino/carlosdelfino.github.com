@@ -201,7 +201,7 @@ Caso venha escolher o Android para sua plataforma de desenvolvimento, basta ter 
 
 ### Meu primeiro aplicativo
 
-Para esperimentar o NativeScript na prática sugerimos a leitura dos [tutoriais acima sugeridos](#primeirospassos), mas para ajudar escrevemos um pequeno tutorial que está disponível no [próximo artigo desta série]({% post_url programacao/NativeScript/2017-05-09-meu-primeiro-codigo-com-o-nativescript %}).
+Para esperimentar o NativeScript na prática sugerimos a leitura dos [tutoriais acima sugeridos](#primeirospassos), mas para ajudar escrevemos um pequeno tutorial que está disponível no [próximo artigo desta série]({% post_url programacao/NativeScript/2017-05-21-meu-primeiro-codigo-com-o-nativescript %}).
 
 ## Fontes
 
