@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 *.psd
 _config.yml
 *.plist
 *.key
 *.swp
 /.buildpath
-/.settings
+/.settings/
 /.project
 _site
 .DS_Store
@@ -21,8 +20,6 @@ Gemfile.lock
 .jekyll-metadata
 *.*~
 *~
-/_draft/
+/_drafts/
 /particles.html
-=======
 particles.min.js
->>>>>>> refs/remotes/origin/master

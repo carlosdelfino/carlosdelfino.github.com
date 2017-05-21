@@ -1,10 +1,29 @@
+atom:
+  buildCommand:
+    - /usr/local/bin/bundle
+    - exec
+    - jekyll
+    - serve
+    - --incremental
+    - --drafts
+    - --safe
+    - --open-url
+    - --whatch
+    - --future
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - _posts
+    - _drafts
+  defaultPostDir: _drafts
+
 # Ativa depuração no site, desde que no localhost
 debug: false
 
 # Site settings
 title: Carlos Delfino
 subtitle: "Desenvolvimento para Microcontroladores"
-description: "Arquiteturas AVR (ATmega e ATtiny), ARM (Família Cortex-M) e Prototipagem com Arduino, ESP8266, entre outros"
+description: "Cursos e Desenvolvimento nas Arquiteturas AVR (ATmega e ATtiny), ARM (Família Cortex-M), Prototipagem com Arduino, ESP8266, entre outros, progrmação mobile."
 keywords: Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado, EAD, E-Learning, Moodle, AVA, CVA, CMS, Joomla, Aprendizado, Ensino a Distância
 locale: pt_BR
 charset: utf-8
@@ -12,12 +31,12 @@ encoding: utf-8
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "" 
+baseurl: ""
 teaser: carlosdelfino-palestra-400x161.png
 cover: carlosdelfino-palestra.png
 logo: logo-fullservice-120x120.png
 
-ads: true 
+ads: true
 
 excerpt_separator: <!--more-->
 
@@ -31,7 +50,7 @@ linkedin:
    api: "78s8yjpx4xhlmj"
    TokenOAuth: "5cfbf5d6-8924-490b-860e-6da465590801"
    authorize: true
-   
+
 disqus:
    shortname: carlosdelfino
 
@@ -45,18 +64,18 @@ google:
 
 flattr:
    id: fbzv3r5
-   login: CarlosDelfino 
+   login: CarlosDelfino
 
 facebook:
   appid: 351518334888083
   uselogin: false
   scope: [user_friends, email]
   wellcomemsg: "Olá "
-  
+
 testimonial:
   itens: 6
   truncate: 350
-  
+
 # Exibe o mosquito aedes aegypti, campanha contra o mosquito
 aedes:
   show: false
@@ -78,22 +97,22 @@ markdown: kramdown
 highlighter: rouge
 
 gems:
- - jekyll-feed	
- - jekyll-gist	
- - jekyll-paginate	
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-paginate
  - jekyll-sitemap
  - jekyll-mentions
  - jekyll-coffeescript
  - jekyll-redirect-from
  - jekyll-sass-converter
- - jekyll-redirect-from	
- - jekyll-seo-tag	
- - kramdown	
- - liquid	
- - rouge	
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - kramdown
+ - liquid
+ - rouge
  - pygments
- - jemoji	
- - sass	
+ - jemoji
+ - sass
  - safe_yaml
 
 # Site owner
@@ -122,7 +141,7 @@ resolvermaps:
   id: 0bwpn194rsa
 
 exclude:
-  - "/vendor/"
+  - "/script/"
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
@@ -153,3 +172,5 @@ exclude:
   - "*.tmp"
   - "/*.bck/"
   - "/*.tmp/"
+  - ".git/"
+  - ".git*"
