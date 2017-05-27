@@ -2,7 +2,7 @@
 layout: post
 title: "O que faz o plugin Android Snapshot no NativeScript"
 date: "2017-05-24 21:56:59 -0300"
-tags: [NativeScript, JavaScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik, NPM, NodeJS, plugins, Android Snapshot]
+tags: [NativeScript, JavaScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik, NPM, NodeJS, plugins, Android Snapshot]
 category: [programacao, mobile, NativeScript, plugins]
 layout: article
 share: true

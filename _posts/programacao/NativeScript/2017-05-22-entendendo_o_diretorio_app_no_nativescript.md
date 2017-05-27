@@ -2,7 +2,7 @@
 layout: post
 title: "Entendendo o Diretório \"app\""
 date: "2017-05-24 21:56:59 -0300"
-tags: [NativeScript, JavaScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
+tags: [NativeScript, JavaScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
 category: [programacao, mobile, NativeScript]
 layout: article
 share: true

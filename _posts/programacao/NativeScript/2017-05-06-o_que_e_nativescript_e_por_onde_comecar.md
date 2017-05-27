@@ -1,6 +1,6 @@
 ---
 title: "O que é NativeScript e por onde começar?"
-tags: [NativeScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
+tags: [NativeScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
 category: [programacao, mobile, NativeScript]
 layout: article
 share: true

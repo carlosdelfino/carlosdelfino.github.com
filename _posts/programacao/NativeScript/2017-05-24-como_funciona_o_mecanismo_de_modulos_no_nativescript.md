@@ -2,7 +2,7 @@
 layout: post
 title: "Como funciona o conceito de módulos no NativeScript"
 date: "2017-05-24 21:56:59 -0300"
-tags: [NativeScript, JavaScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik, NPM, NodeJS]
+tags: [NativeScript, JavaScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik, NPM, NodeJS]
 category: [programacao, mobile, NativeScript]
 layout: article
 share: true

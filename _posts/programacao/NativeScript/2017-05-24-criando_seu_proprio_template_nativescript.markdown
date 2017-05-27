@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Criando Seu Próprio Template Nativescript"
-date: "2017-05-26 21:56:59 -0300"
-tags: [NativeScript, JavaScript, TypeScirpt, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
+date: "2017-05-26 22:56:59 -0300"
+tags: [NativeScript, JavaScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
 category: [programacao, mobile, NativeScript]
 layout: article
 share: true
