@@ -10,7 +10,7 @@
 {% endif %}
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
+  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | strip_html | truncate: size }}" class="post-teaser">
 {% if post.image %}
   {% if post.image.teaser %}
     {% if post.image.teaser contains 'http://' or post.image.teaser contains 'https://' %}
@@ -24,7 +24,7 @@
   	<img src="{{ site.url }}/images/{{ postcat.image.teaser }}" alt="teaser" itemprop="image" />
     {% else %}
     <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
-    {% endif %}	
+    {% endif %}
 {% else %}
     <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
 {% endif %}

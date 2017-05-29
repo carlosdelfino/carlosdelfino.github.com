@@ -1,5 +1,8 @@
 # Site navigation links
-  
+- title: Postagens
+  url: /postagens/
+  excerpt: Lista dos últimos posts realizados no site ordenados cronologicamente.
+
 - title: Sobre Mim
   url: /sobre_mim/
   excerpt: Sobre Carlos Delfino e formas de contatos
@@ -9,5 +12,3 @@
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
   image: cursoarduino/cursohelloworldarduino-400x286.png
-
-

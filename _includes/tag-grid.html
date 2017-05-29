@@ -15,23 +15,23 @@
 {% endif %}
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-	<!-- begin tags -->	
+	<!-- begin tags -->
 	<div class="box">
 {% assign tagname = tag | first | strip | remove:'"' %}
 {% assign tagid = tagname | downcase | cgi_escape | remove:' ' | remove:'-' %}
-{% assign tagdetail = site.data.tags[tagid] %} 
+{% assign tagdetail = site.data.tags[tagid] %}
 {% if tagdetail %}
 	{% assign tagname = tagdetail.name | strip | remove:' ' | remove:'-' | remove:'"' | cgi_escape %}
 {% endif %}
-		<h5><a id="tag_{{ tagid }}" 
+		<h5><a id="tag_{{ tagid }}"
 				name="{{ tagid }}" >{{ tagname | truncate: sizetagname }}</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
    {% for post in posts %}
       {% if post.url %}
-			<li><a href="{{ post.url }}" 
-				title="{{ post.excerpt | truncate: sizetitle }}">
-				{{ post.title }} | 
+			<li><a href="{{ post.url }}"
+				title="{{ post.excerpt | strip_html | truncate: sizetitle }}">
+				{{ post.title }} |
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
        {% endif %}
@@ -39,6 +39,6 @@
 {% endfor %}
 		</ul>
 	</div>
-    <!-- END tags -->	
+    <!-- END tags -->
 	</article>
 <!-- /.tile -->
