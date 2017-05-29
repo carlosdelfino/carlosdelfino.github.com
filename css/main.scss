@@ -1,4 +1,34 @@
+---
+---
 
+/*
+ *
+ *  Skinny Bones Jekyll Starter
+ *
+ *  Designer: Michael Rose
+ *  Twitter: http://twitter.com/mmistakes
+ *
+*/
+
+// Partials
+@import "gist";
+@import "variables";
+@import "vendor/bourbon/bourbon";
+@import "grid-settings";
+@import "vendor/neat/neat";
+@import "vendor/font-awesome/font-awesome";
+@import "mixins";
+@import "reset";
+@import "base";
+@import "helpers";
+@import "buttons";
+@import "badges";
+@import "bullets";
+@import "sliding-menu";
+@import "notices";
+@import "animations";
+@import "layout";
+@import "pygments";
 
 /*
  * This is the main css file that ships with the airspace theme.
@@ -11,6 +41,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
 /* var text-decoration */
 /*--
     Common Css
@@ -840,33 +871,3 @@ footer .footer-manu ul li a:hover {
     border-color: transparent;
     border-image: initial;
 }
-
-/*
- *
- *  Skinny Bones Jekyll Starter
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
-
-// Partials
-@import "gist";
-@import "variables";
-@import "vendor/bourbon/bourbon";
-@import "grid-settings";
-@import "vendor/neat/neat";
-@import "vendor/font-awesome/font-awesome";
-@import "mixins";
-@import "reset";
-@import "base";
-@import "helpers";
-@import "buttons";
-@import "badges";
-@import "bullets";
-@import "sliding-menu";
-@import "notices";
-@import "animations";
-@import "layout";
-@import "pygments";
-@import "vendor/compass/compass";

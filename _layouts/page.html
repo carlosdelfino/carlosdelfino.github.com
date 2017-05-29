@@ -13,9 +13,11 @@
     {% include page/header.html %}
 
     {% include debug/debug_output_url.html %}
-  {{ content }}
-  
+    <div id="page-wrapper">
+{{ content }}
+
     {% include page/footer.html %}
+</div>
     {% include google/googleanalytics.html %}
     {% include google/plusone.html %}
 

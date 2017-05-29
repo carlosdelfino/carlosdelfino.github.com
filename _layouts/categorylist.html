@@ -3,17 +3,16 @@ layout: archive
 ---
 
 {{ content }}
-
-<br />
-
+<br/>
 {% if page.categories %}
    {% for category in page.categories %}
       {% assign categoryid = category %}
+      {% assign post = page %}
       {% if post.feature.category %}
          {% include post-grid.html %}
       {% endif %}
    {% endfor %}
-{% elsif page.category %} 
+{% elsif page.category %}
    {% assign categoryid = page.category %}
    {% for post in site.categories[categoryid] %}
       {% if post.feature.category %}

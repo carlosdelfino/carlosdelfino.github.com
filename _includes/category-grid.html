@@ -17,7 +17,7 @@
     {% assign sizename = site.size.categories.name %}
 {% else %}
     {% assign sizename = 40 %}
-{% endif %} 
+{% endif %}
 <!-- .tile -->
 {% assign categoryname = category | first | remove:'"' %}
 {% assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape %}
@@ -38,14 +38,14 @@
         value1_name="categoryname" value1=categoryname
 		value2_name="categoryid" value2=categoryid
 		value3_name="catdetail" value3=catdetail %}
-		<h5><a id="category_{{ categoryid }}" title="{{ categoryexcerpt | truncate: sizecatexecerpt }}"
+		<h5><a id="category_{{ categoryid }}" title="{{ categoryexcerpt | strip_html | truncate: sizecatexecerpt }}"
 				name="{{ categoryid }}" href="/{{ categoryid }}">{{ categoryname | truncate: sizename }}</a></h5>
 		<ul class="postList">
    {% for posts in category %}
       {% for post in posts %}
          {% if post.url %}
 			<li><a href="{{ post.url }}"
-				title="{{ post.excerpt  | truncate: size }}">
+				title="{{ post.excerpt  | strip_html | truncate: size }}">
 				{{ post.title | truncate: sizetitle }} |
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
