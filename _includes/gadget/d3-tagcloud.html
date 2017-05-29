@@ -8,12 +8,12 @@
 
 <script>
   var fill = d3.scale.category20();
-  
+
   d3.layout.cloud().size(
-		  [{% if include.width  %}{{ include.width  }}{% else %}300{% endif %}, 
+		  [{% if include.width  %}{{ include.width  }}{% else %}300{% endif %},
 		   {% if include.height %}{{ include.height }}{% else %}300{% endif %}]
 		  )
-      .words(["{{ page.tags | join: ', ' | replace: ', ','", "' | downcase}}"].map(function(d) {
+      .words(["{{ page.tags | join: ', ' | replace: ', ','", "' }}"].map(function(d) {
         return {text: d, size: 10 + Math.random() * 90};
       }))
       .padding(5)
