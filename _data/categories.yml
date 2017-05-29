@@ -3,46 +3,46 @@ dtn:
 
 introducao:
    name: Introdução
-   
+
 cplusplus:
    name: C++
 
 html:
    name: HTML
-   
+
 javascript:
    name: JavaScript
 
 processadores:
    name: Processadores
-   
+
 autores:
    name: Autores
-   
+
 consultoria:
    name: Consultoria
-   
+
 e-learning:
    name: "e-Learning"
- 
+
 suporte:
    name: "Suporte"
-   
+
 redes:
    name: Redes
 
 java:
    name: Java
-   
+
 infraestrutura:
    name: Infraestrutura
 
 assembly:
    name: Assembly
-   
+
 pesquisa:
    name: Pesquisa
-   
+
 sistemaoperacional:
    name: "Sistema Operacional"
 
@@ -53,71 +53,59 @@ dicas:
 grupos:
    name: "Grupos"
 mercosul:
-   name: "Mercosul"   
+   name: "Mercosul"
 internet:
    name: Internet
-   
+
 irc:
    name: IRC
    excerpt: "Internet Relay Chat"
-   
+
 extra:
    name: Extra
-   
+
 redesneurais:
-   name: "Redes Neurais"   
-   
+   name: "Redes Neurais"
+
 geoprocessamento:
    name: "Geo Processamento"
 
-emula%C3%A7%C3%A3o%20e%20virtualiza%C3%A7%C3%A3o:
-   name: Emulação e Virtualização
-   aliases: ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao] 
-
 emulacaoevirtualizacao:
    name: Emulação e Virtualização
-   aliases: ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao] 
-
-Cole%C3%A7%C3%A3odeLinks:
-   name: "Coleção de Links"
-   aliases: [colecaodelinks, ColecaoDeLinks]
-   
-automa%C3%A7%C3%A3o:
-   name: "Automação"
-   aliases: [automacao]
+   aliases: ["Emulações e Virtualizações", EmulacaoEVirtualizacao, emulacaoevirtualizacao]
 
 educacao:
    name: "Educação"
-   
+
 extra:
    name: "Extra"
 
 tecnologianosocial:
    name: Tecnologia No Social
    aliases: [tecnologiasocial]
-   
+
 perfil:
    name: "Perfil de Personalidades"
    excerpt: "Lista detalhes pessoais de personalidades importantes ligadas as tecnologias que trabalho, Ciêntistas, Pesquisadores e Engenheiros"
    aliases: [profile, perfis]
-   
+
 linuxwindowsmac:
    name: Linux, Windows e Mac
    aliases: [linux, windows, mac]
-   
-clones: 
+
+clones:
    name: Clones e Similares
    aliases: [similares, compativeis, copias]
-   
-Musicas:
-   name: Minhas Músicas Preferidas
+
+musicas:
+   name: Músicas
    image:
       feature: musicas_filmes/mesadesom-2000x962.jpg
       teaser: musicas_filmes/mesadesom-300x144.jpg
    aliases: [musicas, músicas, Músicas, Músicas]
-   
+
 filmes:
-   name: Meus Filmes Preferidos
+   name: Filmes
 
 logicadeprogramacao:
    name: Lógica de Programação
@@ -145,7 +133,7 @@ importacao:
 HelloWorldARM:
    name: "Hello World ARM"
    alias: helloworldarm
-   
+
 helloarm:
    name: Hello World ARM
    alias: helloworldarm
@@ -158,21 +146,16 @@ helloworldarm:
    image:
       teaser: helloworldarm/SAM4SxPlained-255x180.png
       feature: helloworldarm/SAM4SxPlained-400x280.jpg
-      credit: Carlos Delfino 
+      credit: Carlos Delfino
       creditlink: /sobre_min/
-
-PensamentoseReflex%C3%B5es:
+pensamentosereflexoes:
    name: "Pensamentos e Reflexões"
-   alias: [pensamentos, pensamentosereflex%C3%B5es]
-
-pensamentosereflex%C3%B5es:
-   name: "Pensamentos e Reflexões"
-   alias: [pensamentos, pensamentosereflex%C3%B5es]
+   alias: [pensamentos]
 
 pensamentos:
    name: "Pensamentos e Reflexões"
    author: carlosdelfino
-   alias: [pensamentos, pensamentosereflex%C3%B5es, PensamentoseReflex%C3%B5es]
+   alias: [pensamentos]
 
 helloworldarduino:
    name: "Hello World Arduino"
@@ -210,13 +193,8 @@ nivel_1:
    name: "Nível 1"
    alias: ["Nível 01", "Nível 1", Nivel 01", Nivel 1"]
    noshow: true
-   
+
 nivel_2:
-   name: "Nível 2"
-   alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
-   noshow: true
-   
-N%C3%ADvel2:
    name: "Nível 2"
    alias: ["Nível 02", "Nível 2", Nivel 02", Nivel 2", "N%C3%ADvel2"]
    noshow: true
@@ -225,16 +203,26 @@ nivel_3:
    name: "Nível 3"
    alias: ["Nível 03", "Nível 3", Nivel 03", Nivel 3"]
    noshow: true
-   
+
 nivel_4:
    name: "Nível 4"
    alias: ["Nível 04", "Nível 4", Nivel 04", Nivel 4"]
    noshow: true
-   
+
 C_Cplusplus:
    name: "C/C++"
-   alias: [CCplusplus, "C C++", "C/Cplusplus"] 
+   alias: [CCplusplus, "C C++", "C/Cplusplus"]
 
 ccplusplus:
    name: "C/C++"
-   alias: [CCplusplus, "C C++", "C/Cplusplus"] 
+   alias: [CCplusplus, "C C++", "C/Cplusplus"]
+
+javascript:
+   name: "JavaScript"
+
+ecmascript:
+   name: "ECMAscript"
+
+padroesdeprojeto:
+   name: "Padrões de Projetos"
+   alias: [padroes_de_projeto]
