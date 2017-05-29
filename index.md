@@ -1,5 +1,5 @@
 ---
-redirect_from: 
+redirect_from:
  - "/Carlos_Delfino_-_Consultoria_e_Projetos/"
  - "/Carlos_Delfino_-_Consultoria_e_Projetos/Inicio.html"
 layout: home
@@ -15,10 +15,10 @@ image:
         <div class="block">
           <div class="section-title">
             <h2>Um pouco sobre mim</h2>
-            <p>Posso dizer que como muitos de meus colegas atuo no mercado de TI toda a minha vida, são em torno de 25 
+            <p>Posso dizer que, como muitos de meus colegas, atuo no mercado de TI toda a minha vida, são em torno de 25
             anos de experiência.</p>
           </div>
-          <p>Já passei dos 40 e sempre me atualizando, meu primeiro contato foi aos 13 anos com a 
+          <p>Já passei dos 40 e sempre me atualizando, meu primeiro contato foi aos 13 anos com a
         eletrônica e posteriormente com a computação, desde então venho buscando me aperfeiçoar e adquirir mais e mais
         conhecimentos. Atualmente 100% dedicado ao estudo e aperfeiçoamento constante no desenvolvimento de soluções para
         embarcados, seja em werables, IoT e com um forte desejo em desenvolver soluções ligadas a Internet Planetária, em
@@ -40,7 +40,7 @@ image:
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
         <h2>Grandes projetos</h2>
-        <p>Grandes Projetos, não são projetos de grande valor financeiro ou em quantidade 
+        <p>Grandes Projetos, não são projetos de grande valor financeiro ou em quantidade
         ou complexidade tecnologica, mas sim aqueles que impactam nosso meio a nossa sociedade.</p>
         <p>Gosto de encarar projetos que quebram paradgmas e trazem novas possibilidades.
         Projetos que impactam o meio social em que vivemos, transformando vidas e melhorando
@@ -60,12 +60,27 @@ image:
       <div class="col-md-12">
         <div class="block">
           <h2>Meu Objetivo é o sucesso de seu projeto.</h2>
-          <p>Conheça meu método de trabalho, uso as ferramentas mais modernas e conceituadas da atualidade, 
-          para que você possa acompanhar cada passo do meu trabalho e interagirmos de forma a atender todas 
+          <p>Conheça meu método de trabalho, uso as ferramentas mais modernas e conceituadas da atualidade,
+          para que você possa acompanhar cada passo do meu trabalho e interagirmos de forma a atender todas
           as demandas de seu projeto. </p>
           <a class="btn btn-default btn-call-to-action" href="mailto:consultoria@carlosdelfino.eti.br" >Me conte sobre seu projeto</a>
         </div>
       </div>
     </div>
   </div>
+</section>
+<!-- Testimonial and Facts Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Alguns Fatos Sobre Min</h2>
+        <p>Ném só de código vive um analista de Sistemas e Suporte.</p>
+      </div>
+    </div>
+    <div class="row">
+      {% include counters/facts.html %}
+      {% include carrousel/testimonial.html %}
+    </div>
+  </div>    
 </section>
