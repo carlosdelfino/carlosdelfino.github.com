@@ -191,7 +191,7 @@ O Padrão de projeto é um conjunto de práticas de condificação onde blocos d
 
 Os padrões de projeto são blocos de código reaproveitáveis em objetos de forma a não otimizar sua aplicação, mas como também dar maior legibilidade e compreenção do código, estrutuando e auxiliando na modularização do código.
 
-Os padrões de projeto inicialmente foram catalogados per um grupo de Engenheiros de Softwares conhecidos como Gang of Four, para [mais detalhes leia o artigo sobre o livro clicando aqui]({% post_url 2017-05-29-Gang_of_Four_o_livro_padroes_de_projetos.md %})
+Os padrões de projeto inicialmente foram catalogados per um grupo de Engenheiros de Softwares conhecidos como Gang of Four, para [mais detalhes leia o artigo sobre o livro clicando aqui]({% post_url 2017-05-29-Gang_of_Four_o_livro_padroes_de_projetos %})
 
 ### Singleton
 
