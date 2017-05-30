@@ -89,8 +89,6 @@ permalink: /:categories/:title/
 
 keep_files:
   - "CNAME"
-  - ".git"
-  - ".gitignore"
 
 # Build settings
 markdown: kramdown
@@ -172,5 +170,5 @@ exclude:
   - "*.tmp"
   - "/*.bck/"
   - "/*.tmp/"
-  - ".git/"
+  - ".git"
   - ".git*"
