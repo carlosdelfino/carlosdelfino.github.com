@@ -88,11 +88,11 @@ Veja que cada módulo identificado pelo nome de seu arquivo principal. Vejamos a
 
 ##### A Composição dos nomes de módulos.
 
-Vamos ver agora rapidamente como identificar os módulos de uma aplicação, e como fazer referência a eles dentro de seu código. Para detalhes e estudo mais aprofundado desta metodologia de nomear arquivos leia o post [Nomeando Módulos e a Especificação CommonJS]({% post_url programacao/JavaScript/2017-05-29-nomeando_modulos_e_a_especidicacação_commonjs %})
+Vamos ver agora rapidamente como identificar os módulos de uma aplicação, e como fazer referência a eles dentro de seu código. Para detalhes e estudo mais aprofundado desta metodologia de nomear arquivos leia o post [Nomeando Módulos e a Especificação CommonJS]({% post_url programacao/JavaScript/2017-05-29-nomeando_modulos_e_a_especidicacacao_commonjs %})
 
 ##### Importando um módulo.
 
-Como o NativeScript é construido sobre o NodeJS, usamosos mesmos recursos para importar um módulo como é usado no JavaScript, seguindo a especificação [CommonJS specification](http://wiki.commonjs.org/wiki/CommonJS), para mais detalhes veja o post [Nomeando Módulos e a Especificação CommonJS]({% post_url programacao/JavaScript/2017-05-29-nomeando_modulos_e_a_especidicacação_commonjs %}).
+Como o NativeScript é construido sobre o NodeJS, usamosos mesmos recursos para importar um módulo como é usado no JavaScript, seguindo a especificação [CommonJS specification](http://wiki.commonjs.org/wiki/CommonJS), para mais detalhes veja o post [Nomeando Módulos e a Especificação CommonJS]({% post_url programacao/JavaScript/2017-05-29-nomeando_modulos_e_a_especidicacacao_commonjs %}).
 
 
 
