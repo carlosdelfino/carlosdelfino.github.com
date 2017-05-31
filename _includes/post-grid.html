@@ -10,7 +10,7 @@
 {% endif %}
 <!-- .tile -->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | strip_html | truncate: size }}" class="post-teaser">
+  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | strip_html | replace: "\"" "´" | truncate: size }}" class="post-teaser">
 {% if post.image %}
   {% if post.image.teaser %}
     {% if post.image.teaser contains 'http://' or post.image.teaser contains 'https://' %}
