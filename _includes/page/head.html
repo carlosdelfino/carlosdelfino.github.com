@@ -1,3 +1,5 @@
+{% if page.refresh %}   <meta http-equiv="refresh" content="{{ page.refresh.time }}; url={{ page.refresh.url }}" />
+{% endif %}
 {% if site.charset %}   <meta charset="{{ site.charset }}"{% else %}"utf-8"{% endif %} />
 
    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
