@@ -220,7 +220,7 @@ Sendo assim criei a classe `LoggedUser` que somente poderia ser instânciada uma
 Abaixo apresento o que o livro me sugere como solução para uso do *Singleton*, que só pode ser instanciado uma única vez em toda a aplicação. O Código está reescrito com minha [assinatura de codificação]({% post_url programacao/2017-05-31-assinatura_de_programacao %}).
 
 ``` JavaScript
-var A2Manager;
+var A2Manager = {};
 (function (A2Manager){
    let LoggedUser = (function(){
       function LoggedUser(){
@@ -248,12 +248,41 @@ var A2Manager;
       return LoggedUser;
    })();
    A2Manager.LoggedUser = LoggedUser;
-})(A2Manager || {});
+})(A2Manager);
 ```
 
-Vamos então analisar algumas partes deste código.
+Vamos então analisar algumas partes deste código. }Eu vou tentar ser bem detalhado neste primeiro exemplo para ajudar quem está começando com o JavaScript, e etnder esta forma de programar, para os veteranos alguams explicações podem ser efandonhas, mas realmente são necessárias.
 
-## Classe User Usado no exemplo acima
+Antes quero lembrar que este código pode ser testado no console JavaScript de seu navegador ou no console do NodeJS. caso tenha problemas em um deles, por favor anote detalhes do erro, se possível copie a tela e me envie relatando passo a passo o que fez, para eu tentar descobrir como lhe ajudar.
+
+Na Primeira linha já declaro um objeto chamdo A2Manger, que usarei como uma forma de modularizar minha aplicação, o objetivo aqui é criar um conseito de pacotes ou módulos que irão conter os grupos de Classes.
+
+Para que este código execute com sucesso no NodeJs é importante que o objeto já exista, há uma diferença entre a console dos navegadores e do NodeJS quando a referências de variáveis. Não entraremos em detalhes neste artigo sobre isso..
+
+Continuando, a segunda linha inicio uma função anonima que irá receber como parametro o nosso objeto que representa o módulo que irá agrupar nossas classes criadas.
+
+já na terceira linha, declaro uma variável privada que será usada para construir nossa classe LoggedUser, portando já dei o mesmo nome a esta variável. cotinuo criando uma função anonima responsável pela declaraçãod da classe que será retornado no final desta segudna função anonima.
+
+Jà na quarta linha até a decima linha, inicio a declar a classe LoggedUser escrevendo sua função construtora que deve ter o nome da classe em questão, no caso LoggedUser, esta classe ao ser construida não recebe nenhum parâmetro.
+
+Uma pecularidade do JavaScript é que devido ao fato de não poder ser criado um Construtor privado ou protegido para a classe, precisamos proteger nosso algoritmo para que outros programadores, ou nós mesmos não esqueçamos e usemos o construtor, ao inez do *[Factory Method]()* para instanciar nossa classe, quebrando assim nosso código, então no caso do JavaScript poderemos usar o construtor normalmente para ter acesso ao singleton, devido ao fato do construtor retornar a representação do objeto. é o que ocorre então na linha 9:
+
+```
+   return LoggedUser._instance;
+```
+
+Então nesta linha uso esta capacidade de retornar um valor mesmo sendo um construtor, para retornar a instancia da classe, que se não existia antes foi criada nas linhas 6 a 8. Veja que na linha 7 uso `this`, para fazer referencia ao objeto em questão, isso é possível como em qualquer outra lingaugem para acesso ao objeto criado, ele já existe neste ponto.
+
+Das linhas 11 até 18, uso o prototypo da classe para expandila-la (lembre-se não estou extendendo a classe, mas expandido, adicionando seus métodos).
+
+E nas linhas 19 até 24, tenho um *Factory Method* responsável pela criação do singleton, veja que o Singleton tem uma parceria intima com o *Factory Method*  que usa o conceito *Lazy*
+
+Aguarde, continuo.
+{ .notice }
+
+## Classe User do exemplo acima
+
+Para ajudar aos iniciantes, a classe user está descrita abaixo.
 
 var User = (function(){
    User.prototype.login = null;
