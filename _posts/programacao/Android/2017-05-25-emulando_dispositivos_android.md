@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Emuilando Dispositivos Android"
+title: "Emulando Dispositivos Android"
 date: "2017-05-26 21:56:59 -0300"
 tags: [mobile, Android, Programação, Emulação, Sony, xPeria, Samsung, HTC, Xayomin ]
 category: [programacao, mobile, Android]
