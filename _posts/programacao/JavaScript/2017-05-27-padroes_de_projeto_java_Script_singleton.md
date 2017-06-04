@@ -172,7 +172,7 @@ Por hora, veremos simplesmente a sintaxe usada para criar uma classe que está e
 
 ``` JavaScript
 class ECG extend BioSignal{
-   constructor(name,aliegience){
+   constructor(name){
       super(name);
       ...
    }
