@@ -195,7 +195,7 @@ O Padrão de projeto é um conjunto de práticas de condificação, onde blocos 
 
 Os padrões de projeto são blocos de código reaproveitáveis em objetos de forma a  otimizar sua aplicação, mas como também dar maior legibilidade e compreenção do código, estrutuando e auxiliando na modularização do código.
 
-Os padrões de projeto inicialmente foram catalogados por um grupo de Engenheiros de Softwares conhecidos como Gang of Four, para [mais detalhes leia o artigo sobre o livro clicando aqui]({% post_url programacao/padroesdeprojetos/2017-05-29-Gang_of_Four_o_livro_padroes_de_projetos %}), e desde então tem sido ampliados, e hoje temos publicações diversas com nichos e niveis arquiteturais diferenciados.
+Os padrões de projeto inicialmente foram catalogados por um grupo de Engenheiros de Softwares conhecidos como Gang of Four, para [mais detalhes leia o artigo sobre o livro clicando aqui]({% post_url programacao/padroesdeprojetos/2017-05-29-gang_of_four_o_livro_padroes_de_projetos %}), e desde então tem sido ampliados, e hoje temos publicações diversas com nichos e niveis arquiteturais diferenciados.
 
 ### Singleton
 
@@ -284,6 +284,7 @@ Aguarde, continuo.
 
 Para ajudar aos iniciantes, a classe user está descrita abaixo.
 
+```
 var User = (function(){
    User.prototype.login = null;
    User.prototype.password = null;
@@ -293,3 +294,4 @@ var User = (function(){
    };
 	return User;
 })();
+```
