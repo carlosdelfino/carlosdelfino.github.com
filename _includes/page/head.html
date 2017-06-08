@@ -1,3 +1,4 @@
+<head profile="http://www.w3.org/2005/10/profile">
 {% if page.refresh %}   <meta http-equiv="refresh" content="{{ page.refresh.time }}; url={{ page.refresh.url }}" />
 {% endif %}
 {% if site.charset %}   <meta charset="{{ site.charset }}"{% else %}"utf-8"{% endif %} />
@@ -14,6 +15,8 @@
    <meta http-equiv="cleartype" content="on" />
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+{% if page.favicon %}{% assign favicon = page.favicon %}{% else %}{% assign favicon = site.favicon | default: "favicon.ico" %}{% endif %}
+<link rel="icon" type="image/png" href="{{ favicon }}" />
 
 {% if page.tags %}  <meta name="keywords" content="{{ page.tags | join: ', ' }}" /> {% endif %}
 {% if page.author %}
@@ -28,9 +31,7 @@
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-   <link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
@@ -82,3 +83,4 @@
 
     <script src="{{ site.url }}/js/main2.js"></script>
     <script src="{{ site.url }}/js/premain.js"></script>
+</head>
