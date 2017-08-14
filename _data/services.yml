@@ -14,6 +14,7 @@
 - type: edit
   title: Tutoriais e Apostilas
   description: Escrita de tutoriais e apostilas para cursos ténicos e treinamentos rápidos ligados a Tecnologia da Informação
+  link: /servicos/tutoriais
   
 - type: earth
   title: Traduções
