@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Entendendo o Diretório \"hooks\""
+title: Entendendo o Diretório "hooks" 
 date: "2017-05-24 22:56:59 -0300"
 tags: [NativeScript, JavaScript, TypeScript, Angular, CSS, Mobile, Android, iOS, Programação, Telerik]
 category: [programacao, mobile, NativeScript]

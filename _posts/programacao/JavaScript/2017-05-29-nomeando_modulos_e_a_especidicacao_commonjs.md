@@ -22,7 +22,7 @@ coinbase:
 
 
 
-**Atenção** Artigo sendo escrito.
+Atenção: Artigo sendo escrito.
 
 <!--more->
 
