@@ -11,4 +11,4 @@
       url = https://github.com/carlo/jquery-base64.git
 [submodule "suporte-geral"]
 	path = suporte-geral
-	url = git@github.com:carlosdelfino/suporte-geral.git
+	url = https://github.com/carlosdelfino/suporte-geral.git
