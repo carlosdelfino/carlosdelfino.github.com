@@ -139,6 +139,7 @@ resolvermaps:
   id: 0bwpn194rsa
 
 exclude:
+  - "/suporte-geral/"
   - "/script/"
   - "Gemfile"
   - "Gemfile.lock"

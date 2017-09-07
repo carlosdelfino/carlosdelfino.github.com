@@ -1,7 +1,7 @@
 ---
 title: "Tipos de Fontes Chaveadas"
-tags: [eletrônica, Eletrônica Básica, Aprendizado, Rádio, RF, Arduino, Sensor, Capacitivo, Indutor, Choque, Reator,  Oscilador, Passa Banda, Filtro, Passa Baixa, Tanque, Filtro Passa Alta, Conversor Analógico Digital, ADC, ACD, Fontes Chaveadas, Buck, Boost, Buck-Boost, Flyback, Push-Pull, Half-Bridge, Full-Bridge, Inversor, Conversor, Fontes de Alimentação, Switching Converter]
-category: [BasicaoDaEletronica, Nivel 3, Fontes Chaveadas]
+tags: [eletrônica, Eletrônica Básica, Nível 3, Aprendizado, Rádio, RF, Arduino, Sensor, Capacitivo, Indutor, Choque, Reator,  Oscilador, Passa Banda, Filtro, Passa Baixa, Tanque, Filtro Passa Alta, Conversor Analógico Digital, ADC, ACD, Fontes Chaveadas, Buck, Boost, Buck-Boost, Flyback, Push-Pull, Half-Bridge, Full-Bridge, Inversor, Conversor, Fontes de Alimentação, Switching Converter]
+category: [BasicaoDaEletronica, Nível 3, Fontes Chaveadas]
 layout: article
 share: true
 toc: true
@@ -9,17 +9,17 @@ comments: true
 feature:
  category: true
  index: true
-ads: 
+ads:
  show: true
 image:
   feature: basicaodaeletronica/indutores/indutores-1400x400.png
   teaser: basicaodaeletronica/indutores/indutor_toroidal_ferrite-400x321.jpg
   credit: Diversas Origens
-  creditlink: 
+  creditlink:
 tagcloud: true
 coinbase:
  show: true
---- 
+---
 
 Os reguladores chaveados, sejam de tensão ou corrente, tem crescido em popularidade porque oferecem a vantagem de alta potência e eficiência com grande eficiência e flexibilidade.
 
