@@ -9,6 +9,4 @@
 [submodule "js/jquery-base64"]
     path = js/jquery-base64
       url = https://github.com/carlo/jquery-base64.git
-[submodule "suporte-geral"]
-	path = suporte-geral
-	url = https://github.com/carlosdelfino/suporte-geral.git
+
