@@ -27,3 +27,8 @@ Artigo sendo escrito.
 
 **Atenção** Artigo sendo escrito.
 {: .notice }
+
+
+## Fontes:
+
+* https://docs.nativescript.org/runtimes/require
