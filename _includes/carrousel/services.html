@@ -1,19 +1,21 @@
 <!-- Service Carrousel Start -->
 <section id="service">
   <div class="container">
+    {% unless include.notitle %}
     <div class="row">
       <div class="section-title">
         <h2>Nossos Serviços</h2>
         <p>São mais de 25 anos de experiência, entre sucessos e fracassos um constante aprendizado que disponibilizamos a nossos clientes que desejam traçar novos caminhos.</p>
       </div>
     </div>
+    {% endunless %}
     <div id="service-slider"  class="owl-carousel" >
-    {% for t in site.data.services %} 
+    {% for t in site.data.services %}
         <div class="service-item">
           <i class="icon ion-{{ t.type }}"></i>
           <h4><a href="{{ t.link }}">{{ t.title }}</a></h4>
           <p>{{ t.description }}</p>
-        </div> 
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -31,17 +33,17 @@
     singleItem : false,
     autoHeight : false,
     transitionStyle:"fade",
-    
+
         autoPlay: 3000,
         stopOnHover: true,
         responsive: true,
         itens: 5,
-        
+
         //Mouse Events
         dragBeforeAnimFinish : true,
         mouseDrag : true,
         touchDrag : true,
-        
+
         //Call beforeInit callback, elem parameter point to $(".feedback")
         beforeInit: function (elem) {
             random(elem);

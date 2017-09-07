@@ -1,0 +1,48 @@
+---
+layout: default
+ads:
+  style: horizontal
+---
+<style>
+#feature {
+    background: url(../images/{{ page.section.feature.image }});
+    background-position: 50% 94px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 100px 0;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+}
+</style>
+<!-- start customize feture section -->
+<section id="feature">
+  <div class="container">
+    <div class="row">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+    </div>
+  </div>
+</section>
+
+<!-- start customize feture section -->
+
+{% include carrousel/services.html notitle=false %}
+
+<!--
+ {% include home/call-to-action.html %}
+
+{% include home/testimonial.html %}
+-->
