@@ -1,6 +1,6 @@
 ---
-date: "2017-06-03 09:16:18 -0300"
-title: "Assinatura de Programção"
+date: "2017-11-03 09:16:18 -0300"
+title: "Assinatura de Programação"
 tags: [Programação, Assinaturas, Metologia, Dialetos, Linguagens, Arquitetura]
 categories: [programacao]
 layout: article
