@@ -1,0 +1,3 @@
+---
+permalink: /delorie.html
+---

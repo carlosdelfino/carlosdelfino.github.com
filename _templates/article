@@ -1,0 +1,23 @@
+---
+layout: {{ layout }}
+title: {{ title }}
+modified:
+categories: {{ dir }}
+excerpt:
+tags: []
+image:
+  feature:
+  teaser:
+  thumb:
+date: {{ date }}
+share: true
+toc: true
+comments: true
+feature:
+   category: true
+   index: true
+ ads:
+   show: true
+ tagcloud: true
+ show: true
+---
