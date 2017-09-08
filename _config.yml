@@ -166,7 +166,7 @@ exclude:
   - "node_modules"
   - "Gruntfile.js"
   - "package.json"
-  - "_backup"
+  - "_backup*"
   - "*.bck"
   - "*.tmp"
   - "/*.bck/"
