@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "Começando a Escrever"
-date: "2016-08-10 20:31:38 -0300"
-tags: [Escrever, Blog, Site, Ténica, Gramática, Concordância, Audiência, Foco, Artigo, Estilo]
+date: "2017-12-31 19:31:38 -0300"
+tags: [Escrever, Blog, Site, Ténica, Gramática, Concordância, Audiência, Foco, Artigo, Estilo,tcc, tese, monografia, artigo, livros, aprendizado, dicas]
 categories: [extra, escrita]
 share: true
 toc: true
