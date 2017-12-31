@@ -96,6 +96,16 @@ Como ver neste texto eu não usei imagem alguma, mas há pessoas que não conseg
 
 Cuidado também com as cores, há pessoas como eu que não suportam muitas cores ao ler, isso as desgata.
 
+## Bloqueio
+
+Muitas vezes podemos passar por uma fase de bloqueio, se grandes escritores passam por issso, porque nos simples portais não podemos?
+
+Seja por estafa como citado acima ou por qualquer outro motivo, busque um profissional para lhe ajudar, um psicologo.
+
+Os principais motivos de bloqueio nestas patamar, onde se está iniciando na escrita, podem ser a perda do que nos inspir, críticas negativas excessivas e que deixamos fazer efeito na nossa disposição.
+
+Podemos confundir com bloqueio um estágio depressivo ou até normal, porém que segue um estágio de euforia, ou seja você toma a decisão de começar a escrever e assim se dedica muito a isso, derrepente se desinteressa naturalmente ou se deprime, assim pensa ter um bloqueio na escrita. Procure um profissional, um psiquiatra ou psicologo, para te ajudar a analisar se não é este caso.
+
 ## A Sindrome do Impostor
 
 Eu deixei este tópico para o final, pois é um tópico muito interessante, eu conheci esta sindrome a mais ou menos 3 anos, num contexto que envolvia grandes especialistas em um site de tecnologia da informação.
