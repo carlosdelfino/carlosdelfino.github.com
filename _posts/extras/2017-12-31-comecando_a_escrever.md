@@ -42,11 +42,11 @@ Os primeiros textos você pode escrever apenas para você, guarde-os por alguns 
 
 Com a prática citada acima, comece a buscar focos de escrita, seja uma crítia sobre o filme que gostou ou de um livro, seja de um tema que deseja pesquisar e estudar na faculdade. Para os jovens não subestime um bom diário, e isso não é coisa de meninas, relatar seu dia a dia é uma excelente forma até de começar um livro.
 
-Meu proposito aqui não é discutir e apresentar insentivo para escrita para Monografias ou Artigos Acadêmicos para defesa de Teses, mas já um começo esta prática.
+Meu proposito aqui não é discutir e apresentar incentivo para escrita para Monografias ou Artigos Acadêmicos para defesa de Teses, mas já um começo esta prática.
 
 Como eu disse anteriormente é importante ler de tudo um pouco, mas não adianta nesta etapa diversicar de mais, nem também ler tudo que sugir a sua frente através dos hipertextos, já que assim, sem dúvida, você irá se estafar e não conseguira assimilar mais conhecimento, tornando assim até nojo de ler, principalmene se não é algo que gosta muito. Eu já passei por isso, procure separar tempos de relaxamento e distração por outros meios, não tenha preconceito, até mesmo uma novela pode ser como um sorvete, só não deixe viciar.
 
-## Escolha sua Audiência.
+## Escolha sua Audiência
 
 Voltando a questão da diversivicação de leitura, que contribuem para melhorar seu vocabulário e contribuem para aprender sobre outros nixos e assim lhe permitem fazer novas analogias apresentado com mais clareza o conteúdo que pretende apresentar, é importante identificar claramente a quem se deseja escrever.
 
@@ -54,7 +54,7 @@ Suponha que deseja escrevar para mecânicos, não adianta usar um linguajar rela
 
 Também é importante identificar o nível educacional de sua audiência, se você esbanajar um vocabulário extremamente culto com uma audência mais simples e humilde pode até ser admirado, mas talvez não conseguirar transmitir sua mensagem, e pior ainda, pode vir a parecer arrogante e esnobe, tenha cuidado e respeito por quem irá ler seu texto.
 
-## Se divirta e faça divertido.
+## Se divirta e faça divertido
 
 Não posso deixar esta dica muito importante, se para você escrever não é algo divertido que lhe traz uma realização, será dolorso faze-lo, eu as vezes sofro para começar a escrever, mas quando começo, acontece o que pode ver nesta publicação, um pequeno texto, mas que me deixou muito realizado e me fez ganhar o dia.
 
@@ -64,7 +64,7 @@ Portanto não importa para que está escrevendo, se divirta ao escrever, e torne
 
 Este é outro ponto importante, quem vai ler seu texto, deve se sentir a vontade, deve se sentir bem ao lê-lo, nada mais enfadonho e cansativo do que um texto que não nos traz satisfação lê-lo. E também devem se sentir livres para entrar em contato com você abir um canal de dialogo é importante.
 
-## Onde escrever 
+## Onde escrever
 
 Ao escrever escolha um lugar que lhe faça sentir bem, não importa a tecnologia que pretende usar, é importante escolher um bom lugar.
 
@@ -96,7 +96,7 @@ Como ver neste texto eu não usei imagem alguma, mas há pessoas que não conseg
 
 Cuidado também com as cores, há pessoas como eu que não suportam muitas cores ao ler, isso as desgata.
 
-## A Sindrome do Imposto
+## A Sindrome do Impostor
 
 Eu deixei este tópico para o final, pois é um tópico muito interessante, eu conheci esta sindrome a mais ou menos 3 anos, num contexto que envolvia grandes especialistas em um site de tecnologia da informação.
 
@@ -104,11 +104,11 @@ A Sindrome do impostor é um termo que foi cunhado em 1978 pelas pssicolocas [Pa
 
 Muitas vezes temos todo o conhecimento necessário para deesenvolvermos um grande trabalho, mas não acreditamos que isso seja possível por diversos motivos, a Sindrome do Imposto é algo que nos mesmos nos impomos quando não acreditamos em nosso potêncial.
 
-Uma forma de você perceber se está sofrendo desta sindrome, é observar quantas oportunidades insistem estar lhe rondando, e como se envolve com colegas mais desenvolvidos no que atua, e como eles lhe insentivam a estar com eles e crescer, e mesmo assim você não deixa você mesmo dar o passo a frente, ou melhor subir estes degrais que lhe são firmes e planos para o sucesso.
+Uma forma de você perceber se está sofrendo desta sindrome, é observar quantas oportunidades insistem estar lhe rondando, e como se envolve com colegas mais desenvolvidos no que atua, e como eles lhe incentivam a estar com eles e crescer, e mesmo assim você não deixa você mesmo dar o passo a frente, ou melhor subir estes degrais que lhe são firmes e planos para o sucesso.
 
 # Conclusão
 
-Eu tenho outras publicações no meu site sobre este tema, procuro sempre escrever sobre o assunto para me motivar a continuar escrevendo, e para compartilhar com amigos e visitantes meus aprendizados e assim insentivar outros a vencer as limitações como eu, eu só vim a conseguir realizar este sonho após aos 35 anos.
+Eu tenho outras publicações no meu site sobre este tema, procuro sempre escrever sobre o assunto para me motivar a continuar escrevendo, e para compartilhar com amigos e visitantes meus aprendizados e assim incentivar outros a vencer as limitações como eu, eu só vim a conseguir realizar este sonho após aos 35 anos.
 
 Como podem ver, a escrita é simples, mas como todo exercicio é doloroso no inicio. Não desista, quando se sentir sobrecarregado guarde o papel e a caneta, o tablet ou computador e volte outro dia para tentar de novo, não estresse de mais para realizar este sonho, torne ele prazeroso, escrava para você e não para satisvazer os outros.
 
