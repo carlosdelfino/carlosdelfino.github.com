@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Começãndo a Escrever"
+title: "Começando a Escrever"
 date: "2016-08-10 20:31:38 -0300"
 tags: [Escrever, Blog, Site, Ténica, Gramática, Concordância, Audiência, Foco, Artigo, Estilo]
 categories: [extra, escrita]
@@ -18,53 +18,53 @@ image:
    feature: pensamentos/pensamento2-400x200.jpg
 ---
 
-Como começar a escrever é um conjunto de anotações e dicas para mim mesmo, onde procur sintetizar o que aprendi até hoje sobre como escrever.
+Como começar a escrever é um conjunto de anotações e dicas para mim mesmo, onde procuro sintetizar o que aprendi até hoje sobre como escrever artigos e textos de forma geral.
 
 <!--more-->
 
-Eu não poderia finalizar 2017 sem antes escrever um último artigo para meu site, há muito não tenho escrito por falta de motivação e inspiração. Me desculpem aqueles que confiam no meu trabalho e visavam com frequência meu site em busca de mais conhecimento ou mesmo em busca de alguém para trocar ideias num  mesmo patamar de conhecimento. Estou buscando me deciar mais em 2018 ao site com novas postagens. 
+Eu não poderia finalizar 2017 sem antes escrever um último artigo para meu site, há muito não tenho escrito por falta de motivação e inspiração. Me desculpem aqueles que confiam no meu trabalho e visitam com frequência meu site em busca de mais conhecimento ou mesmo em busca de alguém para trocar ideias num  mesmo patamar de conhecimento. Estou buscando me deciar mais em 2018 ao site com novas postagens. 
 
-Bem vamos ao que interessa e que é proposto neste artigo como __*Começar a Escrever*__, de longe sou um especialista no assunto, mas posso ajudar um pouco, já escrevi outros artigos em meu site sobre o tópico escrita.
+Bem, vamos ao que interessa e que é proposto neste artigo, como __*Começar a Escrever*__, de longe sou um especialista no assunto, mas posso ajudar um pouco, já escrevi outros artigos em meu site sobre o tópico "_escrita_".
 
-Quem diria que eu que até 17 anos atrás nunca tinha escrito algo, mal-mal uma carta, e alguns e-mails pedindo alguma informação ou respondendo alguns clientes, e sempre com os que desejavam me ajudar algumas críticas sobre a minha gramática, ainda estou longe de domina-la, mas para quem me conhece a mais de 17 anos sabe o quanto era ruim. Eu não me envergonho disso, tenho orgulho pois consegui superar minhas limitações, eu estudei em boas escolas, mas por ter alguns defcites cognitivos como um pouco de dislexia e DTHA isso me atrapalho muito na infância e adolescencia, causando um trauma escolar que me fez me afastar e somente voltar a escola aos 28 anos, então minha base foi muito précaria devido a esta soma de acontecimentos.
+Quem diria que eu que até 17 anos atrás nunca tinha escrito algo, mal-mal uma carta, e alguns e-mails pedindo alguma informação ou respondendo alguns clientes, e sempre com os que desejavam me ajudar algumas críticas sobre a minha gramática, ainda estou longe de domina-la, mas para quem me conhece a mais de 17 anos sabe o quanto era ruim. Eu não me envergonho disso, tenho orgulho pois consegui superar minhas limitações, eu estudei em boas escolas, mas por ter alguns [deficits cognitivos](https://sheilarosskamp.wordpress.com/o-que-e-deficit-cognitivo/) como um pouco de dislexia e TDAH isso me atrapalhou muito na infância e adolescência, causando um trauma escolar que me fez me afastar e somente voltar a escola aos 28 anos, então minha base foi muito précaria devido a esta soma de acontecimentos.
 
 ## Iniando a Superação
 
-Eu comecei a sumperar estas limitações lendo muito, conselho que todos já devem ter ouvido aqui, e não importa leião de tudo um pouco, isso irá aumentar o vocabulário, e o mais interessante é que na hora de escrever ajuda a criarmos analógia quando precisamos levar nosso conhecimentos a outros de atuam nichos tecnológicos diferentes, mas cuidado, é preciso saber do que se está falando para fazer a analogica certa e não piorar a confusão.
+Eu comecei a sumperar estas limitações lendo muito, conselho que todos já devem ter ouvido por ai, e não importa leiam de tudo um pouco, isso irá aumentar o vocabulário, e o mais interessante é que na hora de escrever ajuda a criarmos analógia quando precisamos levar nosso conhecimentos a outros de atuam nichos tecnológicos diferentes, mas cuidado, é preciso saber do que se está falando para fazer a analogia certa e não piorar a confusão.
 
 ## Então comece a escrever
 
-Um segundo passo é começar a escrever, escreva, pode começar escrevendo o que vier a cabeça, não importa, se preciso começe a abusar do vocabulário que tem absorvido, e se prepare para as críticas de seus amigos, eles vão estranhar, e haverão aqueles que irão debochar da sua riquesa na escrita, mas claro como tudo que é bom é preciso a dose certa, comece a buscar um ponto ideal no vocabulário para ter uma boa comunicação.
+Um segundo passo é começar a escrever, escreva, pode começar escrevendo o que vier a cabeça, não importa, se preciso começe a abusar do vocabulário que tem absorvido, e se prepare para as críticas de seus amigos, caso alguém leia seus primeiros textos, eles vão estranhar, e haverão aqueles que irão debochar da sua riquesa na escrita, mas claro como tudo que é bom é preciso a dose certa, comece a buscar um ponto ideal no vocabulário para ter uma boa comunicação.
 
-Os primeiros textos você pode escrever apenas para você, guarde-os por alguns dias ou semanas, e volte a eles para uma alto critica, se desejar os reescreva com sua nova percepção da escrita, pois com a prática ela irá mudar e amadurecer, cuidado você pode se surpreender com o resultado, não se subestime, nunca se subestime.
+Os primeiros textos você pode escrever apenas para você, guarde-os por alguns dias ou semanas, e volte a eles para uma alto critica, se desejar os reescreva com sua nova percepção da escrita, já que,  com a prática ela irá mudar e amadurecer, cuidado você pode se surpreender com o resultado, não se subestime, nunca se subestime.
 
 ## Foco no que se escreve
 
-Com a prática citada a cima, comece a buscar focos de escrita, seja uma crítia sobre o filme que gostou ou de um livro, seja de um tema que deseja pesquisar e estudar na faculdade. 
+Com a prática citada acima, comece a buscar focos de escrita, seja uma crítia sobre o filme que gostou ou de um livro, seja de um tema que deseja pesquisar e estudar na faculdade. Para os jovens não subestime um bom diário, e isso não é coisa de meninas, relatar seu dia a dia é uma excelente forma até de começar um livro.
 
-Meu proposito aqui não discutir e apresentar insentivo para escrita para Monografias ou Artigos acadêmicos para defesa dde Teses, mas já um começo esta prática.
+Meu proposito aqui não é discutir e apresentar insentivo para escrita para Monografias ou Artigos Acadêmicos para defesa de Teses, mas já um começo esta prática.
 
-Como eu disse anteriormente é importante ler de tudo um pouco, mas não adianta nesta etapa diversicar de mais, nem também ler tudo que sugir a sua frente através dos hpertextos, já que assim sem dúvida você irá se estafár e não conseguira assimilar mais conhecimento, tomando assim até nojo do que lê. Eu já passei por isso, procure separar tempos de relaxamento e distração por outros meios, não tenha preconceito, até mesmo uma novela pode ser como um sorvete, só não deixe viciar.
+Como eu disse anteriormente é importante ler de tudo um pouco, mas não adianta nesta etapa diversicar de mais, nem também ler tudo que sugir a sua frente através dos hipertextos, já que assim, sem dúvida, você irá se estafar e não conseguira assimilar mais conhecimento, tornando assim até nojo de ler, principalmene se não é algo que gosta muito. Eu já passei por isso, procure separar tempos de relaxamento e distração por outros meios, não tenha preconceito, até mesmo uma novela pode ser como um sorvete, só não deixe viciar.
 
 ## Escolha sua Audiência.
 
-Voltando a questão da diversivicação de leitura, que contribui para melhorar seu vocabulário e contribui para aprender sobre outros nixos e assim lhe permite fazer novas analogias apresentado com mais clareza o conteúdo que pretende apresentar, é importante identificar claramente a quem se deseja escrever.
+Voltando a questão da diversivicação de leitura, que contribuem para melhorar seu vocabulário e contribuem para aprender sobre outros nixos e assim lhe permitem fazer novas analogias apresentado com mais clareza o conteúdo que pretende apresentar, é importante identificar claramente a quem se deseja escrever.
 
-Suponha que deseja escrevar para mecanicos, não adianta usar um linguajar relativo ao nixo relacionado a floricultores, pode até pegar mau. Então identifiqueclaramente sua Audiência antes de escrever.
+Suponha que deseja escrevar para mecânicos, não adianta usar um linguajar relativo ao nixo relacionado a floricultores, pode até pegar mau. Então identifique claramente sua _Audiência_ antes de escrever.
 
-Também é importante identificar o nível educacional de sua audiência, se você esbanajar um vocabulário extremamente culto com uma audência mais simples e humilde pode até ser admirado, mas talvez não conseguirar transmitir sua mensagem, e pior ainda se parecer arrogante e esnobe, tenha cuidado e respeito por quem irá ler seu texto.
+Também é importante identificar o nível educacional de sua audiência, se você esbanajar um vocabulário extremamente culto com uma audência mais simples e humilde pode até ser admirado, mas talvez não conseguirar transmitir sua mensagem, e pior ainda, pode vir a parecer arrogante e esnobe, tenha cuidado e respeito por quem irá ler seu texto.
 
 ## Se divirta e faça divertido.
 
-Não posso deixar esta dica muito importante, se para você escrever não é algo divertido que lhe traz uma realização, será dolorso faze-lo, eu as vezes sofro para começar a escrever, mas quando começo, acontece oque pode ver nesta publicação, um pequeno texto, mas que me deixou muito realizado e me fez ganhar o dia.
+Não posso deixar esta dica muito importante, se para você escrever não é algo divertido que lhe traz uma realização, será dolorso faze-lo, eu as vezes sofro para começar a escrever, mas quando começo, acontece o que pode ver nesta publicação, um pequeno texto, mas que me deixou muito realizado e me fez ganhar o dia.
 
-Vejo muitos colegas escrevendo para trabalhos acadêmicos, já ajudei alguns outros em suas teses de mestrado e doutorado como auxiliar na execução de suas provas, e observava como alguns sofriam para escrever e desenvolver ideias, eles não tinha prazer no fazer, apenas queriam seu título, e isso é muito frustrante.
+Vejo muitos colegas escrevendo para trabalhos acadêmicos, já ajudei alguns outros em suas teses de mestrado e doutorado como auxiliar na execução de suas provas de conceitos, e observava como alguns sofriam para escrever e desenvolver ideias, eles não tinha prazer no fazer, apenas queriam seu título, e isso é muito frustrante.
 
 Portanto não importa para que está escrevendo, se divirta ao escrever, e torne divertido para quem lê.
 
-Este é outro ponto importante, quem vai ler seu texto, deve se sentir a vontade, deve se sentir bem ao lê-lo, nada mais enfadonho e cansativo do que um texto que não nos traz satisfação lê-lo.
+Este é outro ponto importante, quem vai ler seu texto, deve se sentir a vontade, deve se sentir bem ao lê-lo, nada mais enfadonho e cansativo do que um texto que não nos traz satisfação lê-lo. E também devem se sentir livres para entrar em contato com você abir um canal de dialogo é importante.
 
-## Onde escrever
+## Onde escrever 
 
 Ao escrever escolha um lugar que lhe faça sentir bem, não importa a tecnologia que pretende usar, é importante escolher um bom lugar.
 
