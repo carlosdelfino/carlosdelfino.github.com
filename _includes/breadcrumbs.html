@@ -1,21 +1,18 @@
 {% if page.categories and page.categories != empty %}
-  <nav class="breadcrumbs">
+<nav class="breadcrumbs">
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}" itemprop="url">
+      <span itemprop="title">Início</span>
+    </a>
+    {% for category in page.categories %} {% assign categoryname = category | remove:'"' %} {% assign categoryid = categoryname
+    | downcase | strip | remove:' ' | remove:'-' | cgi_escape %} {% assign catdetail = site.data.categories[categoryid] %}
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="{{ site.url }}" itemprop="url">
-        <span itemprop="title">Início</span>
+      {% if catdetail %} {% assign categoryname = catdetail.name %} {% endif %} >
+      <a href="{{ site.url }}/{{ categoryid }}/" itemprop="url">
+        <span itemprop="title">{{ categoryname }}</span>
       </a>
-    {% for category in page.categories %}
-      {% assign categoryname = category |  remove:'"' %}
-      {% assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape %}
-      {% assign catdetail = site.data.categories[categoryid] %}
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      {% if catdetail %}
-         {% assign categoryname = catdetail.name %}
-      {% endif %}
-      > <a href="{{ site.url }}/{{ categoryid }}/" itemprop="url">
-           <span itemprop="title">{{ categoryname }}</span>
-        </a>
-    {% endfor %}
-    </span>
-  </nav><!-- /.breadcrumbs -->
+    </span>> {% endfor %}
+  </span>
+</nav>
+<!-- /.breadcrumbs -->
 {% endif %}
