@@ -28,7 +28,7 @@ Bem, vamos ao que interessa e que é proposto neste artigo, como __*Começar a E
 
 Quem diria que eu que até 17 anos atrás nunca tinha escrito algo, mal-mal uma carta, e alguns e-mails pedindo alguma informação ou respondendo alguns clientes, e sempre com os que desejavam me ajudar algumas críticas sobre a minha gramática, ainda estou longe de domina-la, mas para quem me conhece a mais de 17 anos sabe o quanto era ruim. Eu não me envergonho disso, tenho orgulho pois consegui superar minhas limitações, eu estudei em boas escolas, mas por ter alguns [deficits cognitivos](https://sheilarosskamp.wordpress.com/o-que-e-deficit-cognitivo/) como um pouco de dislexia e TDAH isso me atrapalhou muito na infância e adolescência, causando um trauma escolar que me fez me afastar e somente voltar a escola aos 28 anos, então minha base foi muito précaria devido a esta soma de acontecimentos.
 
-## Iniando a Superação
+## Iniciando a Superação
 
 Eu comecei a sumperar estas limitações lendo muito, conselho que todos já devem ter ouvido por ai, e não importa leiam de tudo um pouco, isso irá aumentar o vocabulário, e o mais interessante é que na hora de escrever ajuda a criarmos analógia quando precisamos levar nosso conhecimentos a outros de atuam nichos tecnológicos diferentes, mas cuidado, é preciso saber do que se está falando para fazer a analogia certa e não piorar a confusão.
 
@@ -53,6 +53,8 @@ Voltando a questão da diversivicação de leitura, que contribuem para melhorar
 Suponha que deseja escrevar para mecânicos, não adianta usar um linguajar relativo ao nixo relacionado a floricultores, pode até pegar mau. Então identifique claramente sua _Audiência_ antes de escrever.
 
 Também é importante identificar o nível educacional de sua audiência, se você esbanajar um vocabulário extremamente culto com uma audência mais simples e humilde pode até ser admirado, mas talvez não conseguirar transmitir sua mensagem, e pior ainda, pode vir a parecer arrogante e esnobe, tenha cuidado e respeito por quem irá ler seu texto.
+
+Além do linguajar e nível educacional da audiência é fundamental observar os métodos usados para aprensetar a informação, alguns como por exemplo no campo financeiro gostam de gráficos que ajudam a visualizar rapidamente um senário apresentado, há campos como a fisica que se utilizam de gráficos e formulas matemáticas, no campo do desenvolvimento de software linguagens abstratas de modelagem como a UML. Como podem ver quando falamos de Lingujar, entramos num universo muito amplo e estrapolamos o idioma falado/escrito.
 
 ## Se divirta e faça divertido
 
