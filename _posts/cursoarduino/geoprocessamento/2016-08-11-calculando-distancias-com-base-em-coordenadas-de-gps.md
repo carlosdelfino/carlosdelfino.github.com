@@ -26,11 +26,18 @@ pares de coordenadas de um GPS é a Milha Náutica*.
 
 <!--more-->
 
+Revisado em: Dezembro de 2017.
+{: .notice }
+
+## A milha naútica
+
 A milha náutica, que tem como simbolo comum `NM` do inglês **Nautical Miles*,
 é o equivalente a 1' (um minuto) no grande circulo terrestre, ou seja
 considerando que se está no equador e que se movimente a fração de angulo de 
-1' (um minuto) sobre o mar em direção sul ou norte, terá andando ma milha 
-náutica, portanto: `1' = 1NM`. Na Inglaterra e Estado Unidos, apesar de não ser 
+1' (um minuto) sobre o mar em direção sul ou norte, terá andando uma milha 
+náutica, portanto: 1' = 1NM`. 
+
+Na Inglaterra e Estado Unidos, apesar de não ser 
 um sistema aceito oficialmente pelos órgãos normativos internacionais, ainda é 
 usado uma medida chamada Milhas Terrestres, este sistema foi baseado na medida 
 Romana de distância, onde 1000 passos dados por um centurião (Comandante de uma 
@@ -42,9 +49,11 @@ A Milha Náutica foi baseada em princípios científicos, baseada na curvatura d
 
 Assim fica claro que a cada 1' (um minuto de arco) temos uma milha que são 1852Mt.
 
+## O que é longitude e latitude
+
 Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que nosso intuito é didático portanto não entraremos profundamente na questão. Estaremos lidando com o conceito de coordenadas Geográficas com relação a curvatura da Terra, e devido a sua imperfeição teremos valores arredondados e aproximados do real.
 
-**Latitude** é o angulo entre o equador e uma determinada posição na terra quando nos movemos diretamente para um dos polos seja polo sul ou polo norte, sendo o limite de cada polo o angulo de 90°, ou seja a distancia entre os dois polos é de 180°. A letra grega &phi;. A terra é riscada para indicar latitudes especificas e de grande importância que são chamados de ***paralelos*** dentre os mais importantes tempos:
+**Latitude** é o angulo entre o equador e uma determinada posição na terra quando nos movemos diretamente para um dos polos seja polo sul ou polo norte, sendo o limite de cada polo o angulo de 90°, ou seja a distância entre os dois polos é de 180°. A letra grega &phi;. A terra é riscada para indicar latitudes especificas e de grande importância que são chamados de ***paralelos*** dentre os mais importantes tempos:
 
 * O Equador, divide a terra ao meio, tendo um lado o hemisfério sul, e do outro, o hemisfério norte.
 * O trópico de Câncer é o trópico ao norte do equador terrestre, correspondendo ao paralelo 23.4378° (23º26’16") de latitude norte. Junto com o equador, delimita a zona tropical norte.
@@ -54,15 +63,15 @@ Agora precisamos entender bem o que são **Longitude** e **Latitude**, veja que 
 
 ## Calculando a Distâncias
 
-Iremos discutir aqui três cenários, o primeiro distâncias pequenas, inferiores a 7° que se baseiam apenas na mudança de latitude ou longitude unicamente, depois distâncias pequenas, inferiores a 7° que tem variação de ambos, Latitude e Longitude. E o terceiro caso, grandes distancias ou seja superior a 7°.
+Iremos discutir aqui três cenários, o primeiro distâncias pequenas, inferiores a 7° que se baseiam apenas na mudança de latitude ou longitude unicamente, depois distâncias pequenas, inferiores a 7° que tem variação de ambos, Latitude e Longitude. E o terceiro caso, grandes distâncias ou seja superior a 7°.
 
-Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distancias acima deste valor.
+Há profissionais que consideram distâncias de até 14°, mas optaremos or 7° pois teremos uma maior precisão para distâncias acima deste valor.
 
 A escolha deste angulo se dá pelo fato de percebermos facilmente a curvatura da terra quando já temos uma distância de 777,84Km.
 
 ### Calculando Pequenas Distâncias com apenas a Latitude ou Longitude
 
-Vamos começar fazendo o calculo de distância entre dois pontos de forma simples, sem considerar a curvatura da terra. Vamos considerar dois Pontos A e B que variem apenas em sua Latitude:
+Vamos começar fazendo o cálculo de distância entre dois pontos de forma simples, sem considerar a curvatura da terra. Vamos considerar dois Pontos A e B que variem apenas em sua Latitude:
 
 * Ponto A
   * Longitude:  38°31'21.72"O
@@ -71,7 +80,7 @@ Vamos começar fazendo o calculo de distância entre dois pontos de forma simple
   * Longitude:  38°31'21.72"O
   * Latitude:    3°48'21.28"S
 
-Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latitude, chamamos esta variação de DLA (Distancia Latitudinal).
+Neste caso não precisamos nos preocupar o par da coordenada, então iremos trabalhar apenas com o valor que varia, no caso da Latitude, chamamos esta variação de DLA (distância Latitudinal).
 
 Então aplicamos a fórmula para descobrir o **DLA**, onde **LA_F** é a 
 *Latitude Final*, e **LA_I** é a *Latitude Inicial*:
@@ -100,7 +109,7 @@ DLA =   0   +   0   + 0.1587 \\
 DLA = 0.1587
 $$
 
-Agora temos nossa distancia longitudinal que é `0.1587` e assim podemos calcular quantos quilômetros temos de distancia entre os dois pontos apenas multiplicando pelo relação existente de 1' (Um minuto) para a Milha Marítima é 1NM e que 1 NM são 1852Mt, então basta fazer a multiplicação final:
+Agora temos nossa distância longitudinal que é `0.1587` e assim podemos calcular quantos quilômetros temos de distância entre os dois pontos apenas multiplicando pelo relação existente de 1' (Um minuto) para a Milha Marítima é 1NM e que 1 NM são 1852Mt, então basta fazer a multiplicação final:
 
 $$
 DT = DLA * 1852
@@ -108,23 +117,23 @@ DT = 0.1587 * 1852
 DT = 293.91
 $$
 
-Como desejamos o cálculo em Mt multiplicamos por 1852, se quissemos em Km deveriamos ter usado 1.852.
+Como desejamos o cálculo em metros (mt) multiplicamos por 1852(mt), se quissemos em kilometros (Km) devemos usar 1.852(km).
 
-Assim a distância entre o Pnto A e Ponto B no castelão é de 293.91Mt, vamos arredonar para 294Mt, Ainda não podemos conferir a distância está correta porque optamos em usar apenas uma das coordenada considerando que a outra está fixa, mas se formos ver na realidade o Castelão não está alinhado com meridiano, então a Longitude também altera.
+Assim a distância entre o Ponto A e Ponto B no castelão é de 293.91Mt, vamos arredondar para 294mt, Ainda não podemos conferir se a distância está correta porque optamos em usar apenas uma das coordenada considerando que a outra está fixa, mas se formos ver na realidade o Castelão não está alinhado com meridiano, então a Longitude também altera.
 
-Agore tente obter duas Longitudes e faça o mesmo calculo, o principio é o mesmo.
+Agore tente obter duas Longitudes e faça o mesmo cálculo, o principio é o mesmo.
 
 ### Calculando Pequenas distâncias variando Longitude e Latitude
 
-Ainda considerando que qualquer distância que varie menos de 7 graus não é necessário levar em consideração a curvatura da Terra, usaremos então apenas o calculo da Hipotenusa para descobrirmos a distância entre os dois pontos quando se varia tanto a Longitude quando a Latitude, o calculo é bem simples também Vejamos.
+Ainda considerando que qualquer distância que varie menos de 7 graus não é necessário levar em consideração a curvatura da Terra, usaremos então apenas o cálculo da Hipotenusa para descobrirmos a distância entre os dois pontos quando se varia tanto a Longitude quando a Latitude, o cálculo é bem simples também Vejamos.
 
-Basta fazermos o calculo de cada distancia separadamente pra começar, sendo assim calculamos o DLA (Distância Latitudinal) e DLO (Distância Longitudinal) seja em metros ou KM, em seguida calculamos a hipotenusa destas distâncias:
+Basta fazermos o cálculo de cada distância separadamente pra começar, sendo assim calculamos o DLA (Distância Latitudinal) e DLO (Distância Longitudinal) seja em metros ou KM, em seguida calculamos a hipotenusa destas distâncias:
 
 $$
 DT = \sqrt{(DLA * 1.852)^2 + (DLO * 1.852)^2}
 $$
 
-Com isso obtemos a distância na medida escolhida. Vamos fazer um teste com dados reais. Como podemos ver a Longitude varia pouco no nosso exemplo, mas é o suficiente para termos um calculo prático.
+Com isso obtemos a distância na medida escolhida. Vamos fazer um teste com dados reais. Como podemos ver a Longitude varia pouco no nosso exemplo, mas é o suficiente para termos um cálculo prático.
 
 * Ponto A
   * Longitude:  38°31'21.72"O
@@ -161,7 +170,7 @@ DT = \sqrt{293.9124^2 * 25.372^2}\\
 DT = 295.0054Mt
 $$
 
-A diferença em relação ao outro calculo é pequena devido a pequena inclinação Longitudinal.
+A diferença em relação ao outro cálculo é pequena devido a pequena inclinação Longitudinal.
 
 Vejam se está certo medindo a distância entre os dois pontos no Google Maps. Poderá haver pequenas diferenças de 50 metros uma vez que os pontos não estão 100% sincronizados.
 
@@ -170,13 +179,13 @@ Abaixo está a imagem do Google Earth que usamos.
 <figure>
 <img alt="Coordenadas do Castelão, Fortaleza, CE" src="/images/cursoarduino/geoprocessamento/coordenadas-castelao.jpg" />
 <figcaption>
-Coordenadas do Estádio Castelão em Fortaleza, CE, a imagem ao lado permite visualizar as marcações suadas para calculo do comprimento do estádio sua maior extenção.
+Coordenadas do Estádio Castelão em Fortaleza, CE, a imagem ao lado permite visualizar as marcações usadas para cálculo do comprimento do estádio sua maior extenção.
 </figcaption>
 </figure>
 
 ### Cálculo para Grandes Distâncias
 
-Iremos ver agora como proceder o calculo para grandes distancias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
+Iremos ver agora como proceder o cálculo para grandes distâncias, consideraremos então distâncias maiores que 7°, seja na Longitude ou Latitude ou ambos.
 
 ## Códigos de exemplo
 

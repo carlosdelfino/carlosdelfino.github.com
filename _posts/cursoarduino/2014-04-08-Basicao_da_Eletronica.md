@@ -18,15 +18,12 @@ image:
   credit: Carlos Delfino
   creditlink: /sobre_min/
 ---
-**Atenção:** `Infelizmente devido a alguns percausos, estamos revendo a oferta
-do curso Basicão da Eletrônica.
-{: .notice }
+
+Curso Básico para profissionais de outros setores usarem adequadamente o Arduino!
 
 <!--more-->
 
-Devido a nossa parceria com o ForHacker e Arduino-Ce que se inaugura no 
-Arduino Day 2016, estaremos trazendo novas propostas para o nosso curso
-e em especial para nossa oficina.
+Revisado em Janeiro de 2018.
+{: .notice }
 
-Veja mais informações [neste link](/BasicaoDaEletronica) para o curso
-e [neste link sobre as oficinas](/BasicaoDaEletronica/Oficinas)
+Este curso visa dar base ao usuário em geral, principalmente de outros setores como Analistas de Sistemas, Analistas de Suporte, Técnicos de manutenção em geral sobre os conceitos básicos de eletrônica, para que possam entrar no curso de Arduino de forma nivelada e com o conhecimento mínimo que estes precisam para que possam tirar o melhor proveito da tecnologia.
