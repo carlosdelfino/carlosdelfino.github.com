@@ -46,6 +46,10 @@ Meu proposito aqui não é discutir e apresentar incentivo para escrita para Mon
 
 Como eu disse anteriormente é importante ler de tudo um pouco, mas não adianta nesta etapa diversicar de mais, nem também ler tudo que sugir a sua frente através dos hipertextos, já que assim, sem dúvida, você irá se estafar e não conseguira assimilar mais conhecimento, tornando assim até nojo de ler, principalmene se não é algo que gosta muito. Eu já passei por isso, procure separar tempos de relaxamento e distração por outros meios, não tenha preconceito, até mesmo uma novela pode ser como um sorvete, só não deixe viciar.
 
+Para deixar bem claro esta sugestão da novela, não é que eu apoie novelas de forma indiscriminada, mas que não concorda que assistir novela é como congelar o celebro? é uma forma que foi criado de fazer com que esqueçamos o mundo real, então nada melhor para esquecer tudo que está te estressando no seus estudos.
+
+Mas claro o esporte é muito importante como alternativa, andar de Bike (se sua cidade for segura para isso, infelizmente aqui em Aquiraz e Eusébio, ainda não é muito, espero que 2018 isso melhore), uma acadêmia ou passear em uma praça, na praia ou parque de sua cidade.
+
 ## Escolha sua Audiência
 
 Voltando a questão da diversivicação de leitura, que contribuem para melhorar seu vocabulário e contribuem para aprender sobre outros nixos e assim lhe permitem fazer novas analogias apresentado com mais clareza o conteúdo que pretende apresentar, é importante identificar claramente a quem se deseja escrever.
