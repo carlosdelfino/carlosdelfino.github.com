@@ -1,9 +1,8 @@
 ---
 layout: article
 title: "Artigos Históricos"
-date: "2017-12-31 19:31:38 -0300"
 tags: [artigos, revisão, antigos, históricos, depreciados, deprecated]
-categories: [noticias]
+categories: [deprecated]
 share: true
 toc: true
 comments: true
@@ -25,4 +24,8 @@ Apartir de 2018, estarei revisando os artigos do site.
 Esta revisão visa verificar quais artigos não são mais uteis para as ferramentas atuais, e assim serão identificados como artigos históricos com uma tarja vermelha, evitando que os visitantes iniciantes percam tempo no site, principalmente com tutoriais ultrapassos que indicam o uso de ferramentas em versões antigas.
 
 Sendo assim fique atento aos artigos com esta tarja, se perceber um artigo que ainda não tenha a tarja e que precisa ser atualizado me informe e estarei conforme a demanda priorizando a atualização.
+
+{% include deprecated-grid.html %}
+
+Aguarde mais artigos.
 

@@ -1,0 +1,39 @@
+{% if site.size.deprecated.excerpt %}
+    {% assign size = site.size.deprecated.excerpt %}
+{% else %}
+    {% assign size = 300 %}
+{% endif %}
+{% if site.size.deprecated.post_excerpt %}
+    {% assign sizecatexecerpt = site.size.deprecated.post_excerpt %}
+{% else %}
+    {% assign sizecatexecerpt = 300 %}
+{% endif %}
+{% if site.size.deprecated.title %}
+    {% assign sizetitle = site.size.deprecated.title %}
+{% else %}
+    {% assign sizetitle = 60 %}
+{% endif %}
+{% if site.size.deprecated.name %}
+    {% assign sizename = site.size.deprecated.name %}
+{% else %}
+    {% assign sizename = 40 %}
+{% endif %}  
+<section class="" itemscope itemtype="http://schema.org/Article">
+	<h5><a id="deprecated" title="Artigos Históricos do Site"  href="/deprecated">Artigos Históricos do Site</a></h5>
+	<!-- begin deprecated -->
+	<div class="box"> 
+		<ul class="postList"> 
+      {% for post in site.posts %}
+         {% if post.deprecated %}
+			<li><a href="{{ post.url }}"
+				title="{{ post.excerpt  | strip_html | truncate: size }}">
+				{{ post.title | truncate: sizetitle }} |
+				<span>{{ post.date | date: '%d.%m.%y' }}</span><br />
+				<p>{{ post.except }}</p>
+			</a></li>
+         {% endif %}
+      {% endfor %} 
+		</ul>
+	</div>
+	<!-- END categories -->
+</section>  
