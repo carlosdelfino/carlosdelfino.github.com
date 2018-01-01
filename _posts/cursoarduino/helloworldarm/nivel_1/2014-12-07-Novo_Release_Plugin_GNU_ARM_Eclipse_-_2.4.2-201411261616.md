@@ -2,7 +2,8 @@
 title: Novo Release Plugin GNU ARM Eclipse - 2.4.2-201411261616
 excerpt: O Novo Release do Plugin Eclipse para GNU ARM foi liberado dia 26 do mês passado, e já pode ser baixado ou atulizado automáticamente 
 tags: [ARM, SAM4, SAM4S, Xplained, ATmel, Programação, Assembly, Assembler, Eclipse, IDE, GCC, GNU, None-EABI, EABI, Protótipos, Curso, Hello World ARM, Hello World Arduino, Arduino Zero, Arduino DUE, Atualização]
-layout: article
+deprecated:
+  reason: Muitas novas versões deste plugin já foram liberadas, inclusive o mesmo já mudou de nome e em 2018 estarei trazendo as novidades, em breve público os links dos novos arigos.
 categories: [helloworldarm]
 comments: true
 share: true
