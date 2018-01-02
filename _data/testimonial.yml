@@ -1,3 +1,11 @@
+- name: Ted Prado
+  Role: Aluno no Curso Arduino Minas
+  image: ted_prado.jpg
+  testimonial: Excelente trabalho e didática, me ajudou muito a começar os estudos.
+  data: 31 de Julho de 2014
+  site: https://web.facebook.com/ted.prado
+  work: Professor
+
 - name: Eugênia Cardoso
   role: Psicóloga, RH no CSAT
   image: eugenia_cardoso.jpg
