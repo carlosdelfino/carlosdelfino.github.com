@@ -18,7 +18,7 @@ image:
   teaser: arm/autosar/autosar-mcal-software.png
 ---
 
-*AUT* omobile *O* pen *S* ystem *AR* quitecture 
+*AUT*omobile *O*pen *S*ystem *AR*quitecture 
 
 ## Outras Tecnologias
 

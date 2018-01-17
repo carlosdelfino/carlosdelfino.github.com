@@ -45,45 +45,45 @@ Como podem ver cada periférico interno do MCU possui um módulo de software res
 
 #### Microcontroller Drivers:
 
-Os Drives de Microcontrolador são responsáveis por fornecer uma API para acessar recursos como Timers, Watchdog e a própria MCU de abstrata, veja abaixo 3 deles:
+Os Drives de Microcontrolador são responsáveis por fornecer uma API para acessar recursos internos a estes como Timers, Watchdog e a própria MCU, veja abaixo 3 deles:
 
- * GPT Driver: GPT (General Purpose Timer) é um driver de dispositivo que o Timer interno do MCU, ele inicializa o GPT e executa a contagem do tempo.
+* GPT Driver: GPT (General Purpose Timer) é o software que contrala o dispositivo como o Timer interno do MCU, ele inicializa o GPT e executa a contagem do tempo.
  
-  * WDG Driver: WDG (Watchdog) é o Driver que inicializa o Watchdog e preparada e seleciona os modos de uso.
+* WDG Driver: WDG (Watchdog) é o software que inicializa o Watchdog e preparada e seleciona os modos de uso.
  
-  * MCU Driver: o Driver da MCU (Micro Controller Unit) ele ajuda a configurar o MCU, inicializar o Clock e ajuda a configurar os modos de uso de Energia.
+* MCU Driver: o Software da MCU (Micro Controller Unit)  ajuda a configurar o MCU, inicializar o Clock e ajuda a configurar os modos de uso de Energia.
   
-Ao dar inicio a esta analise, que já conhece o universo ARM pode estar se perguntando como eu, qual a diferença do AUTOSAR para o CMSIS, e com o desenrolar deste estudo se tornaram mais clara as diferenças e dependências.
+Ao dar inicio a esta analise, quem já conhece o universo ARM pode estar se perguntando como eu, qual a diferença do AUTOSAR para o CMSIS, e com o desenrolar deste estudo se tornaram mais clara as diferenças e dependências.
  
 #### Memory Drivers
 
- * FLS Driver: Driver FLS (Flash), este Driver inicializa a memória flash e gerecia a Leitura/Escrita para ela.
+* FLS Driver: Driver FLS (Flash), este Driver inicializa a memória flash e gerecia a Leitura/Escrita.
  
 #### Communication Drivers
 
-Os módulos responsáveis pela comunicação são capazes de lidar com o dispositivo físico e seus protocolos de comunicação.
+Os módulos de software responsáveis pela comunicação são capazes de lidar com o dispositivo físico e seus protocolos de comunicação.
 
- * SPI Handler/Driver, Driver ou Handler é responsável pela inicialização do clock e das funções seriais relacionadas, além de gerenciar as configurações dos Buffers de entrada e saída relativos.
+* SPI Handler/Driver, Driver ou Handler é responsável pela inicialização do clock e das funções seriais relacionadas, além de gerenciar as configurações dos Buffers de entrada e saída relativos disposito interno ou externo ao microcontrolador.
  
- * [LIN Driver](/autosar/mcal/lin) (Local Interconnected network) é responsável por por inicializar o recursos relativos ao LIN e gerir os processos de Entrada e Saída.
+* [LIN Driver](/autosar/mcal/lin) (Local Interconnected network) é responsável por por inicializar o recursos relativos ao LIN e gerir os processos de Entrada e Saída.
 
- * [CAN Driver](/autosar/mcal/can) (Controller Area Network) como o LIN é responsável pelos processos de configuração e entrada e saída dos periféricos internos do MCU relativos ao CAN e seu protocolo.
+* [CAN Driver](/autosar/mcal/can) (Controller Area Network) como o LIN é responsável pelos processos de configuração e entrada e saída dos periféricos internos do MCU relativos ao CAN e seu protocolo.
  
- * [FlexRay Driver](/autosar/mcal/flexray) é um controlador de dispositivo que inicializa o FlexRay e gerencia todo o o processo de entrada e saída.
+* [FlexRay Driver](/autosar/mcal/flexray) é um controlador de dispositivo que inicializa o FlexRay e gerencia todo o o processo de entrada e saída.
 
- * Ethernet Driver, é um controlador do dispositivo Ethernet que inicializa e gerencia todo o processo de entrada e saida Ethernet.
+* Ethernet Driver, é um controlador do dispositivo Ethernet que inicializa e gerencia todo o processo de entrada e saída Ethernet.
  
 #### I/O Drivers
 
- * ICU Driver (Input Capture Unit) é um controlador de dispositivo que usando o Timer interno do MCU mede formas de onda PWM, e também é responsável por todo o processo de inicialização do ICU.
+* ICU Driver (Input Capture Unit) é um controlador de dispositivo que usando o Timer interno do MCU mede formas de onda PWM, e também é responsável por todo o processo de inicialização do ICU.
  
- * PWM Driver (Pulse Width Modulation) é um controlador de dispositivo que usando o Timer Interno do MCU gera formas de onda PWM e gerencia toda sua configuração.
+* PWM Driver (Pulse Width Modulation) é um controlador de dispositivo que usando o Timer Interno do MCU gera formas de onda PWM e gerencia toda sua configuração.
  
- * ADC Driver (Analog Digital Converter) é um controlador de dispositivo para ADC interno ao MCU, responsável pela inicialização do ADC, parada e inicio da conversão AD, configuração dos buffers de conversão e leitura dos resultados AD.
+* ADC Driver (Analog Digital Converter) é um controlador de dispositivo para ADC interno ao MCU, responsável pela inicialização do ADC, parada e inicio da conversão AD, configuração dos buffers de conversão e leitura dos resultados AD.
  
- * DIO Driver (Digital Input/Output) é um controlador de dispositivo que controla a sinalização das portas de entrada e saída digital.
+* DIO Driver (Digital Input/Output) é um controlador de dispositivo que controla a sinalização das portas de entrada e saída digital.
  
- * PORT Driver é o controlador que gerencia as portas do MCU configurando como entrada e saida e o gerenciamento das configurações e compartilhamento das funções das portas do MCU, lembrando que uma porta é ocmposta por conjuntos de pinos cada pino pode assumir uma função conforme sua configuração e anexação a um dispositivo interno como porta serial, spi, i2c, pwm, adc e etc..
+* PORT Driver é o controlador que gerencia as portas do MCU configurando como entrada e saida e o gerenciamento das configurações e compartilhamento das funções das portas do MCU, lembrando que uma porta é ocmposta por conjuntos de pinos cada pino pode assumir uma função conforme sua configuração e anexação a um dispositivo interno como porta serial, spi, i2c, pwm, adc e etc..
  
 ## Conclusão
 
@@ -92,8 +92,6 @@ Vimos neste post a camada de software que contém controladores que adaptam e aj
 Esta camada atende a demanda da camada de abstração do ECU que é a camada responsável pela real abstração de cada dispositivo,  e assim atendem a necessidade da camada de serviços, veremos detalhes sobre esta camada no próximo post, estas camadas compõem a BSW, que possuem além destas camadas o módulo de drivers complexos.
 
 Veja podemos perceber a BWS em camadas ou em uma matrix camada funcionalidade, já que em cada camada há um módulo de software especializado que se compõem com o módulo da camada inferior, sendo assim na camda de serviços temos um módulo que se comunica com outro módulo da camada de abstração ECU que por sua vez se conecta a camada de controladores de dispositivos (MCAL) que finalmente transmite ou recebo do MCU.
-
-
 
 
 ## Fontes
