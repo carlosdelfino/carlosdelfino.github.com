@@ -1,9 +1,8 @@
 ---
 redirect_from: "/helloarm/Reativando-Ambiente-Desenvolvimento-ARM/"
 title: Reativando meu Ambiente de desenvolvimento ARM
-excerpt: A algum tempo tenho desejado trabalhar com microcontroladores mais complexos e avançados, além do AVR, não que o AVR não seja avançado, mas o ARM tem um atraivo muito grande por sua grande gama de fabricantes e opções existentes no mercado.
 tags: [ARM, AVR, Plataforma de Desenvolvimento, Eclipse, IDE, CMSIS, AAME]
-categories: [HelloWorldARM]
+categories: [HelloWorld,arm]
 layout: deprecated
 deprecated:
   reason: Estarei trazendo em breve novas versões das ferramentas de desenvolvimento tanto para a placa ATmelxPlaned como também para o Arduino DUE, e com um adendo para uso com o nrF51 que usa um ARM Cortex-M0, assim será mais interessante que este artigo.
@@ -23,7 +22,15 @@ google:
 ads:
  show: true
 tagcloud: true
+feature: 
+  index: false
+  category: true
 ---
+
+excerpt: A algum tempo tenho desejado trabalhar com microcontroladores mais complexos e avançados, além do AVR, não que o AVR não seja avançado, mas o ARM tem um atraivo muito grande por sua grande gama de fabricantes e opções existentes no mercado.
+
+<!--more-->
+
 O meu primeiro encontro com a Arquitetura ARM, verdadeiramente, não como usuário mas como desenvolvedor
 foi em um RoadShow da ATMel, fui a campinas especialmenete para poder conhecer de perto a empresa
 que empoderava o Arduino, e tive a grata supresa de ganhar um SAM4S Xplained, uma plataforma de 

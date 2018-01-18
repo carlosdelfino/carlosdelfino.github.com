@@ -1,7 +1,7 @@
 ---
 title: Desenvolvimento Automotivo - AUTOSAR - Service
 layout: article
-categories: [hellowordarm, nivel_2, automotive, AUTOSAR]
+categories: [helloword,arm, nivel_2, automotive, autosar]
 tags: [arm, autosar, mcal, mcu, abstraction, layer, microcontroller, microcontrolador, abstração, camada, serviços, service, ecu]
 comments: true
 share: true

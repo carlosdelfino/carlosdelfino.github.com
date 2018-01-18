@@ -2,7 +2,7 @@
 title: Preparando Seu Ambiente Para Programar Com ARM
 excerpt: Neste artigo vou apresentar os passos que segui para ter sucesso na montagem de meu ambiente de desenvolvimento com o ARM, em especial, usando a placa de aprendizado, SAM4S Xplained.
 tags: [ARM, SAM4, SAM4S, Xplained, ATmel, Programação, Assembly, Assembler, Eclipse, IDE, GCC, GNU, None-EABI, EABI, Protótipos, Curso, Hello World ARM, Hello World Arduino, Arduino Zero, Arduino DUE]
-categories: [helloworldarm]
+categories: [helloworld,arm]
 layout: deprecated
 deprecated:
   reason: "O plugin GNU ARM Eclipse Plugin mudou de nome e está usando nova abordagem baseada no NPM e pretede usar o VScode, estou aguardando confirmações para que eu possa escrever um novo tutorial com as atualizações!"  

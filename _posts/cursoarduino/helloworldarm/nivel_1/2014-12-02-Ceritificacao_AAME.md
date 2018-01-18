@@ -1,7 +1,7 @@
 ---
 title: Informações básicas sobre AAME
 excerpt: Algumas informações básicas para quem deseja tirar a certificação ARM Accredited MCU Engineer 
-category: [helloworldarm]
+category: [helloworld,arm]
 layout: article
 tags: [Linux, Linus, C, C++, Linguagem, Programação, AAME, ARM, Engineer, Engenharia, Certificação, Accredited, Livros, Books, E-Mail]
 tagcloud: true

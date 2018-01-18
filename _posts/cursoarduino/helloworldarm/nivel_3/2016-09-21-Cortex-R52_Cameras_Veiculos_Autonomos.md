@@ -1,6 +1,6 @@
 ---
 title: Cortex-R52 empodera cameras e veículos autonômos
-category: [helloworldarm,nivel_3]
+categories: [helloworld,arm,nivel_3]
 tags: [Cortex-M, Cortex-R, ARM, Microcontroladores, Procesadores, Veiculos Autônomos, Camêras, Estabilização de Imagnes, Rôbos]
 layout: article
 comments: true

@@ -17,7 +17,7 @@ image:
    feature: pensamentos/pensamento2-400x200.jpg
 ---
 
-Apartir de 2018, estarei revisando os artigos do site.
+A partir de 2018, estarei revisando os artigos do site.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ Esta revisão visa verificar quais artigos não são mais uteis para as ferramen
 
 Sendo assim fique atento aos artigos com esta tarja, se perceber um artigo que ainda não tenha a tarja e que precisa ser atualizado me informe e estarei conforme a demanda priorizando a atualização.
 
-{% include deprecated-grid.html %}
+{% include grids/deprecated-grid.html %}
 
 Aguarde mais artigos.
 

@@ -1,7 +1,7 @@
 ---
 title: Aprendendo a Programar para ARM com QEMU - O Início
 excerpt: "A melhor coisa para quem quer começar a aaprender a programar é ter uma ambiente controlado e que não haja nenhum risco de perda, e não tive dúvida que usar o QEMU para emular os Microcontroladores ARM seriam uma excelente escolha." 
-categories: [HelloWorldARM]
+categories: [HelloWorld,ARM]
 tags: [Arduino,  DUE, ARM, SAMD21, ATmel, BareMetal, Bare Metal, QEMU, Programação, Lógica, BootLoader, Programando sem ter um ARM]
 layout: article
 comments: true
@@ -15,6 +15,9 @@ feature:
 tagcloud: true
 coinbase:
   show: true
+feature: 
+  index: true
+  category: true
 ---
 
 Porém iniciei meus estudos do QEMU  para ARM faz um a dois meses e não 

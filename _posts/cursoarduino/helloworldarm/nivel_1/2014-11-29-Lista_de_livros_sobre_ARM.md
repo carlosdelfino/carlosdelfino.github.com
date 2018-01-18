@@ -1,7 +1,7 @@
 ---
 title: Lista de Livros sobre Arquitetura ARM
 excerpt: Estou em um processo, quase intenso de estudo sobre a Arquitetura ARM, e para ajudar nos estudos, fiz uma lista de livros que pretendo ler. 
-category: [helloworldarm]
+category: [helloworld,arm]
 layout: article
 tags: [ARM, Livros, Arquitetura, Aprendizado, Biblioteca, Livraria, Amazon, bons Livros, Linux, Linus, C, C++, Linguagem, Programação, Linguajar, E-Mail]
 tagcloud: true

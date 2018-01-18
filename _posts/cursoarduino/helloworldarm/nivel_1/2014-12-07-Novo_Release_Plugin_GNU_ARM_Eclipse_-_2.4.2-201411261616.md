@@ -5,7 +5,7 @@ tags: [ARM, SAM4, SAM4S, Xplained, ATmel, Programação, Assembly, Assembler, Ec
 layout: deprecated
 deprecated:
   reason: Muitas novas versões deste plugin já foram liberadas, inclusive o mesmo já mudou de nome e em 2018 estarei trazendo as novidades, em breve público os links dos novos arigos.
-categories: [helloworldarm]
+categories: [helloworld,arm]
 comments: true
 share: true
 feature: 
