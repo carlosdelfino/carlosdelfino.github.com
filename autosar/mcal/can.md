@@ -3,7 +3,7 @@ permalink: /autosar/mcal/can
 title: AUTOSAR - CAM
 tags: [ARM, Tecnologias, Arquitetura, Cortex-A, Cortex-R, Cortex-M, AUTOSAR, MCAL, can]
 layout: glossary
-categories: [autosar, mcal]
+categories: [autosar, mcal,can]
 share: true  
 toc: true
 comments: true

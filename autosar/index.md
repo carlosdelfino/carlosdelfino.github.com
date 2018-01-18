@@ -2,23 +2,24 @@
 permalink: /autosar/
 title: AUTOSAR
 tags: [ARM, Tecnologias, Arquitetura, Cortex-A, Cortex-R, Cortex-M, AUTOSAR, MCAL]
-layout: glossary
+layout: categorylist
 categories: [autosar]
 share: true  
-toc: true
-comments: true
+toc: false
+comments: false
 feature:
- category: true
+ category: false
  index: false
 tagcloud: true
 ads:
- show: true
+ show: false
 image:
-  feature: arm/autosar/autosar-mcal-software-300x144.png
-  teaser: arm/autosar/autosar-mcal-software.png
+  feature: arm/autosar/arquitetura_detalhes_autosar-350-177.jpg
+  teaser: arm/autosar/arquitetura_detalhes_autosar.jpg
 ---
 
-*AUT*omobile *O*pen *S*ystem *AR*quitecture 
+O que eu tenho escrito sobre *AUT*omobile *O*pen *S*ystem *AR*quitecture 
 
-## Outras Tecnologias
+<!--more-->
 
+Abaixo listo os post (artigos e tutoriais) sobre AUTOSAR, não deixe também de ver os posts sobre [ARM](/arm), aos poucos estou atualizando o que foi escrito.

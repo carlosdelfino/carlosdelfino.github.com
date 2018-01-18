@@ -12,6 +12,6 @@ Cliqui a seguir ara ver a [listagem cronológica de todos os artigos](/postagens
 
 <div class="tiles">
 {% for category in site.categories %}
-   {% include category-grid.html %}
+   {% include grids/category-grid.html %}
 {% endfor %}
 </div>

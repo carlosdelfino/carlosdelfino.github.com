@@ -3,20 +3,11 @@ layout: archive
 ---
 
 {{ content }}
-<br/>
-{% if page.categories %}
-   {% for category in page.categories %}
-      {% assign categoryid = category %}
-      {% assign post = page %}
-      {% if post.feature.category %}
-         {% include post-grid.html %}
-      {% endif %}
-   {% endfor %}
-{% elsif page.category %}
-   {% assign categoryid = page.category %}
-   {% for post in site.categories[categoryid] %}
-      {% if post.feature.category %}
-         {% include post-grid.html %}
-      {% endif %}
-   {% endfor %}
-{% endif %}
+
+ 
+   {% for category in page.categories %}  
+      {% assign posts = site.posts | where: "categories", category %}
+      {% for post in posts %}
+            {% include grids/post-grid.html %} 
+       {% endfor %}
+    {% endfor %} 
