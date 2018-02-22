@@ -7,14 +7,13 @@ ads:
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
 		<div class="inner-wrap">
-			{% include page/tableofcontents.html %}
             <article id="content" class="page-content" itemprop="articleBody">
 {% if page.tagcloud  %}
                 <aside id="tagcloud"></aside>
 			{% include gadget/d3-tagcloud.html container="tagcloud" height=250 width=600 %}
 {% endif %}
-				 
-				<section>{{ content }}</section>
+{% include page/tableofcontents.html %}
+				<section id="content">{{ content }}</section>
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}
