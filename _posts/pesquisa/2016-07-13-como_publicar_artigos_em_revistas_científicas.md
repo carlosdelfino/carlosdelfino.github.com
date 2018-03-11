@@ -70,10 +70,10 @@ Gente, eu levei quase dois anos, esperando a publicação B2, mais valeu a pena!
 
 Até a próxima dica!
 
----
+----
 
 Bem como podem ver o mais interessante é que nem sempre é tão difícil publicar em periódico Qualis B2 para cima, e que o fato de se ter sido desclassificado para um inferior não significa que seu artigo não seja bom apenas ainda não atingiu a maturidade ou ainda não está no formato que é desejado pelo periódico.
 
 Reveja sempre seus artigos e o deixe pronto para adequar a qualquer periódico conforme as oportunidade.
 
-Eu pergunta que eu ainda não tenho respondida, é porque meu artigo pode ser desqualificado, no sentindo de se tornar ruim, se ainda não foi aprovado por um periódico de qualificação mais elevada, mas foi aceito em um inferior?
+Uma pergunta que eu ainda não obptive uma resposta, é: porque meu artigo pode ser desqualificado? no sentindo de se tornar ruim, se ainda não foi aprovado por um periódico de qualificação mais elevada, mas foi aceito em um inferior?
