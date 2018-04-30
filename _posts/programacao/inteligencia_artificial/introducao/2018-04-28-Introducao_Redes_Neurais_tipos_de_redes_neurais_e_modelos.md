@@ -13,44 +13,51 @@ tagcloud: true
 ads: 
  show: true
 image:
-   teaser: pensamentos/pensamento2-400x200.jpg
-   feature: pensamentos/pensamento2-400x200.jpg
+   teaser: redesneurais/rnn/lstm720x450.jpg
+   feature: redesneurais/rnn/lstm720x450-2.jpg
 math: true
 ---
 Neste artigo quero anotar os típos e modelos de redes neurais, e até comentar um pouco sobre aplicações.
 
 <!--more-->
 
-## RNN
+## Modelos de Redes Neurais
 
-## CNN
+### BPTT
 
-## LTSM
+### RTRL
+
+### RNN
+
+### CNN
+
+### LTSM
 
 Long Short Term Memory networks
 
-## GRU
+### GRU
 
 Gated Recurrent Units
 
-## RBN
+### RBN
 
 Recurrent Batch Normalization
 
-## HMM
+### HMM
 
 Hidden Markov Models
 
-## MI
+### MI
 
 Muiltipla integração é uma modelo estrutural para redes neurais, recentemente criado para melhorar o desempenho das redes RNN.
 
+#### MI-RNN
+
 ## Algoritimos de Otimização
 
-Adam optimization algorithm
+### Adam optimizer
 
-## MI-RNN
-
+### Neumann Optimizer
 
 ## Fontes:
 
