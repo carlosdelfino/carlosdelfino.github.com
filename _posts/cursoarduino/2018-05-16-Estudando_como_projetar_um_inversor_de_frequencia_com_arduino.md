@@ -45,7 +45,9 @@ O SPWM é quando o PWM tem o comportamento com o intuito de induzir no circuito 
 
 A geração do PWM se faz necessário porque no inversor de frequência, não importa a fonte de alimentação, trabalha sobre a tensão continua, e com ela gera de forma sincronizada os pulsos no formato SPWM para excitar o motor, seja ele mono, bi ou trifásico.
 
-Na imagem abaixo é mostrado o circuito padrão de um inversor de frequência típico para uso trifásico que pode ser adaptado para circuitos bi e monofásico. Observe que o circuito retifica o sinal transformando a corrente em continua, filtra e finalmente o driver final que com base no SPWM simula a onda senoidal na frequêncial desejada desejada.
+![SPWM gerador com OP-AMP, obtido no site https://www.homemade-circuits.com/how-to-generate-sinewave-pwm/](/images/basicaodaeletronica/motores/output_AXjMBP-1.gif)
+
+Na imagem abaixo mostra o circuito padrão de um inversor de frequência típico para uso trifásico que pode ser adaptado para circuitos bi e monofásico. Observe que o circuito retifica o sinal transformando a corrente em continua, filtra e finalmente o driver final que com base no SPWM simula a onda senoidal na frequêncial desejada desejada.
 
 ![Circuito retificador, filtro e Driver IBJT do motor, obtido no site https://www.nrcan.gc.ca/energy/products/reference/15433](/images/basicaodaeletronica/motores/ponte-retificadora-vfd.jpg)
 
@@ -78,21 +80,35 @@ O Inversor de Frequência pode ser capaz de monitorar a carga sobre o motor atra
 Uma informação itneressante para entender o funcionamento dos motores é apresentada pela fómula abaixo, o motor AC tem sua velocidade definida pelo número de espiras em seu estator.
 
 $$
-Velocidade Sincrona = \frac{120 * Frequência em Hz}{Número de polos}
+Velocidade Sincrona = \#{120 * Frequência \, em \, Hz}{Número \, de \, polos}
 $$
+
+Então, considerando a frequência de 60Hz, temos:
 
 * 2 Polos -> 3600 rpm
 * 4 Polos -> 1800 rpm
 * 6 Polos -> 1200 rpm
 * 8 polos ->  900 rpm
 
+Vemos então que precisamos parametrizar em nosso *Inversor de Frequência* o número de polos existente no motor.
+
 ## IBJT
 
 
+## Lista de componentes
 
+| Qtd |                       Descrição                       |   Código    | Valor Unitário |   Valor Total  |
++-----+-------------------------------------------------------+-------------+----------------+----------------+
+|  1  | Arduino Uno                                           | Arduino UNO | R$   45,00     | R$   45,00     |
+| 12  | Diodos retificadores de alta potência                 |             | R$           | R$   45,00     |
+| 12  | Transitores IBJT                                      |             | R$           | R$   45,00     |
+| 10  | Capacitores de 100uF x 800V                           | 10uF x 800V | R$           | R$   45,00     |
+|  1  | IRS2336                            | IRS2336 | R$   20,00          | R$   20,00     |
 
 ## Fontes
 
 * [https://pt.wikipedia.org/wiki/Motor_elétrico](https://pt.wikipedia.org/wiki/Motor_elétrico)
 * [https://www.citisystems.com.br/motor-eletrico/](https://www.citisystems.com.br/motor-eletrico/)
 * [https://www.nrcan.gc.ca/energy/products/reference/15433](https://www.nrcan.gc.ca/energy/products/reference/15433)
+* [https://www.homemade-circuits.com/how-to-generate-sinewave-pwm/](https://www.homemade-circuits.com/how-to-generate-sinewave-pwm/)
+* [https://www.homemade-circuits.com/three-phase-signal-generator-circuit/](https://www.homemade-circuits.com/three-phase-signal-generator-circuit/)
