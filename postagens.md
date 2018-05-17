@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /postagens/
-title: "Ultimas Postagens"
+title: "Últimas Postagens"
 share: true
 ---
 Últimos artigos escritos para este site.
