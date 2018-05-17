@@ -66,7 +66,7 @@ Agora vamos publicar? Com o artigo feito e concluído, siga os seguintes passos,
  12. submeta de novo (tente outro periódico)
  13. O mais importante: Não desanime.
 
-Gente, eu levei quase dois anos, esperando a publicação B2, mais valeu a pena!
+Gente, eu levei quase dois anos, esperando a publicação B2, mas valeu a pena!
 
 Até a próxima dica!
 
