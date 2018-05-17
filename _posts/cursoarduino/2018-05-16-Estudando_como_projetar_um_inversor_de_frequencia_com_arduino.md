@@ -36,11 +36,6 @@ Nos meus estudos estarei usando os motores AC do tipo Squirrel, este motores tem
 
 ![Rotor do motor AC do tipo Squirrel, obtido no site https://www.nrcan.gc.ca/energy/products/reference/15433](/images/basicaodaeletronica/motores/squirrel-motor.jpg)
 
-Uma informação itneressante para entender o funcionamento dos motores é apresentada pela fómula abaixo, o motor AC tem sua velocidade definida pelo número de espiras em seu estator.
-
-$$
-Velocidade Sincrona = \frac{120 * Frequência em Hz}{Número de polos}
-$$
 
 ## PWM
 
@@ -64,6 +59,40 @@ Controladores anteriormente usavam SCRs e Thyristores, estes são *Inversores de
 
 Tentarei neste estudos coletar as informações para criar um inversor de frequência versátil que usando o arduino e um processo de parametrização (futuramente pode ser automático) se adaptará conforme o tipo de motor, independente da forma que é alimentado.
 
+## Formas de alimentação do motor
+
+Como já falamos o motor pode ser alimentado de três formas distintas mesmo em Corrente Alternada (AC), muitos só devem ter ouvido falar em 110V ou 220V, vejamos as 3 formas que iremos lidar neste projeto, o texto foi adaptado de https://www.citisystems.com.br/motor-eletrico/:
+
+* Distribuição monofásica envolve uma distribuição de tensão senoidal (alternada) em 110V ou 220V (como em regiões praianas) sendo utilizado em residências pequenas.
+
+* Distribuição bifásica envolve uma distribuição em 2 padrões de tensão senoidal em 110V cada, defasados entre si em 120° sendo muito utilizado para energia comercial e residencial.
+
+* A Distribuição trifásica contém três padrões de tensão alternados simultâneos senoidal, tipicamente defasados em 120° um com o outro. Com operação trifásica é possível alcançar maior eficiência de energia e suavidade na operação sendo que a energia trifásica é mais tipicamente aplicada motores elétricos industriais ou de alta potência.
+
+## Velocidades típicas dos motores
+
+A velocidade do motor é medida em RPM, Rotações por Minuto, os motores do tipo Inducção e Síncronos tem a velocidade controlada por inversores de frequência ou atráves de redutores de velocidade mecânicos, sendo muitos deles especificados sobre uma certa carga, portanto caso a carga seja menor, ele poderá rodar em uma velocidade superior.
+
+O Inversor de Frequência pode ser capaz de monitorar a carga sobre o motor através da corrente esperada na velocidade desejada.
+
+Uma informação itneressante para entender o funcionamento dos motores é apresentada pela fómula abaixo, o motor AC tem sua velocidade definida pelo número de espiras em seu estator.
+
+$$
+Velocidade Sincrona = \frac{120 * Frequência em Hz}{Número de polos}
+$$
+
+* 2 Polos -> 3600 rpm
+* 4 Polos -> 1800 rpm
+* 6 Polos -> 1200 rpm
+* 8 polos ->  900 rpm
+
 ## IBJT
 
 
+
+
+## Fontes
+
+* [https://pt.wikipedia.org/wiki/Motor_elétrico](https://pt.wikipedia.org/wiki/Motor_elétrico)
+* [https://www.citisystems.com.br/motor-eletrico/](https://www.citisystems.com.br/motor-eletrico/)
+* [https://www.nrcan.gc.ca/energy/products/reference/15433](https://www.nrcan.gc.ca/energy/products/reference/15433)
