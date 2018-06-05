@@ -72,6 +72,10 @@ facebook:
   scope: [user_friends, email]
   wellcomemsg: "Olá "
 
+hotmart:
+  analytics:
+    account: 70bc3235-476e-310e-8408-4158280ae50c
+     
 testimonial:
   itens: 6
   truncate: 350
@@ -123,6 +127,16 @@ owner:
    google:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
+carousel:
+  testimonial: 
+    paginationSpeed: 500
+    singleItem: true
+    autoPlay: 3000
+    stopOnHover: true
+    responsive: true 
+    stopOnHover: true
+    responsive: true
+
 compress_html:
   enable: false
   comments: ["<!-- ", " -->"]
@@ -139,6 +153,7 @@ resolvermaps:
   id: 0bwpn194rsa
 
 exclude:
+  - "/pdf/"
   - "/suporte-geral/"
   - "/script/"
   - "Gemfile"
