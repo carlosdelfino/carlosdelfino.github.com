@@ -1,19 +1,29 @@
-- class: albums
+- class: desktop
   title: Mais de
   count: 1.492.145.321
   description: linhas de código
 
-- class: flask
+- class: cafe
   title: Mais de
-  count: 290.234
+  count: 305.531
   description: xícaras de café
 
-- class: timer
+- class: alarm
   title: Mais de
-  count: 21.521
-  descritpion: de horas de sono pedidas
+  count: 30.337
+  description: horas de sono pedidas
 
-- class: compose
+- class: contacts
   title: Mais de
-  count: 108
+  count: 109
   description: turmas em nossos cursos
+
+- class: logo-steam
+  title: Em torno de
+  count: 10
+  description: projetos realizados com arduino
+
+- class: bulb
+  title: Mais de 
+  count: 50
+  description: consultorias em projetos com arduino
