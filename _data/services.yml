@@ -1,3 +1,8 @@
+- type: book
+  title: Cursos
+  description: Cursos abertos e turmas fechadas, Basicão da Eletrônica, Arduino (HelloWorldArduino), Mobile (NativeScript), Automação, CFTV e Cercas Eletricas integradas.
+  link: http://arduinominas.com.br
+
 - type: steam
   title: Desenvolvimento de Firmware
   description: Desenvolvimento de firmware com a Arquitetura ARM (Família Cortex-M) AVR (Família ATMega e ATTiny) 
