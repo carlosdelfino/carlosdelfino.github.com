@@ -26,3 +26,10 @@ Gemfile.lock
 /_drafts/
 /particles.html
 particles.min.js
+*.code-workspace
+.vscode/
+fonts/ionicons
+fonts/fontawesome
+fonts/fontawesome-free-5.0.13.zip
+fonts/fontawesome-free-5.0.13/
+fonts/ionicons.designerpack.zip

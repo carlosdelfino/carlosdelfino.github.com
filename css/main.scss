@@ -17,7 +17,6 @@
 @import "grid-settings";
 @import "vendor/neat/neat";
 @import "vendor/font-awesome/font-awesome";
-//@import "vendor/ionicons/ionicons";
 @import "mixins";
 @import "reset";
 @import "base";
@@ -335,6 +334,9 @@ font header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #DEDEDE;
   padding: 24px;
   margin: 0 auto;
+}
+#testimonial .testimonial-carousel ion-icon {
+  font-size: 64px;
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;

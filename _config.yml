@@ -188,3 +188,7 @@ exclude:
   - "/*.tmp/"
   - ".git"
   - ".git*"
+  - "fonts/ionicons/"
+  - "fonts/fontawesome/"
+  - "fonts/fontawesome-free-5.0.13/"
+  - "fonts/fontawesome-free-5.0.13.zip"

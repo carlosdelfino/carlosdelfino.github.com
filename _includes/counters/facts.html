@@ -4,7 +4,7 @@
     {% for f in site.data.facts %}
       <li>
         <div class="block">
-          <i class="ion-ios-{{ f.class }}-outline"></i><br />
+          <ion-icon name="{{ f.class }}" size="large"></ion-icon><br />
            <span>{{ f.title }}</span>
             <h4 class="counter">{{ f.count }}</h4>
            <span>{{ f.description }}</span>

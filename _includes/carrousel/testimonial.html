@@ -4,7 +4,7 @@
     <div id="testimonial-slider" class="owl-carousel">
     {% for t in site.data.testimonial %}
       <div>
-        <img src="/images/cotation.png" alt="IMG">
+          <ion-icon name="ribbon"></ion-icon>
           <p><a href="{{ /testimonial.html#t.name | downcase | strip | replace " ", "_" | url_encode }}">{{ t.testimonial | truncate: site.testimonial.truncate }}</a></p>
           <div class="user">
             <img src="/images/perfil/{{ t.image }}" alt="{{ t.name }}">
