@@ -27,15 +27,17 @@
 				name="{{ tagid }}" >{{ tagname | truncate: sizetagname }}</a> </h5>
 		<ul class="postList">
 {% for posts in tag %}
-   {% for post in posts %}
-      {% if post.url %}
+	{% for post in posts %}
+	    {% unless post.noshow.tags %}
+    		{% if post.url %}
 			<li><a href="{{ post.url }}"
 				title="{{ post.excerpt | strip_html | truncate: sizetitle }}">
 				{{ post.title }} |
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
-       {% endif %}
-   {% endfor %}
+			{% endif %}
+		{% endunless %}
+   	{% endfor %}
 {% endfor %}
 		</ul>
 	</div>

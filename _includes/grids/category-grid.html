@@ -42,14 +42,16 @@
 				name="{{ categoryid }}" href="/{{ categoryid }}">{{ categoryname | truncate: sizename }}</a></h5>
 		<ul class="postList">
    {% for posts in category %}
-      {% for post in posts %}
-         {% if post.url %}
+	  {% for post in posts %}
+		{% unless post.noshow.categories %}
+		  {% if post.url %}
 			<li><a href="{{ post.url }}"
 				title="{{ post.excerpt  | strip_html | truncate: size }}">
 				{{ post.title | truncate: sizetitle }} |
 				<span>{{ post.date | date: '%d.%m.%y' }}</span>
 			</a></li>
-         {% endif %}
+		 {% endif %}
+		{% endunless %} 
       {% endfor %}
    {% endfor %}
 		</ul>

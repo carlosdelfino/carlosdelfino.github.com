@@ -16,6 +16,8 @@ Para ver esta listagem por [categorias](/categorias) ou [tags](/tags) clique no 
 
 <div class="tiles">
 {% for post in site.posts %}
-	{% include grids/post-grid.html %}
+	{% unless post.noshow.posts %}
+		{% include grids/post-grid.html %}
+	{% endunless %}
 {% endfor %}
 </div><!-- /.tiles -->

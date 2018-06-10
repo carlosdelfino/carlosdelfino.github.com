@@ -1,0 +1,11 @@
+{% if page.hotmart.product_code %}
+<script type="text/javascript">
+	function importHotmart(){ 
+ 		var imported = document.createElement('script'); 
+ 		imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
+ 		document.head.appendChild(imported); 
+	} 
+ 	importHotmart(); 
+ </script> 
+ <a onclick="return false;" href="https://pay.hotmart.com/{{ page.hotmart.product }}?checkoutMode=2" class="hotmart-fb hotmart__button-checkout">Comprar o Curso{% if page.hotmart.product_name %}: {{ page.hotmart.product_name }}{% endif %}</a>
+ {% endif %}
