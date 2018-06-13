@@ -1,0 +1,13 @@
+{% if site.dropbox.appkey && page.circuitjs1.usedropbox %}
+<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="{{ site.dropbox.appkey }}"></script>-->
+{% endif %}
+{% if include.cct %}
+    {% assign cct = include.cct %}
+{% elsif include.startCircuit %}
+    {% assign startCircuit = include.startCircuit}
+{% elsif page.startCircuit %}
+    {% assign circuitjs1.startCircuit = page.circuitjs1.startCircuit}
+{% elsif page.circuitjs1.cct %}
+    {% assign cct = page.circuitjs.cct %}
+{% endif %}
+<iframe src="/circuitjs1/jekyll.html?{% if cct %}cct={{ cct }}{% elsif startCircuit %}startCircuit={{ startCircuit }}{% endif %}" id="__gwt_historyFrame" style="{% if include.width %}width:{{include.width}}{% endif %};{% if include.height %}height:{{include.height}}{% endif %}"></iframe>
