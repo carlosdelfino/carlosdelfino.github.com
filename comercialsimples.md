@@ -3,5 +3,5 @@ redirect_from:
  - "/comercialsimplesnordeste/"
  - "/cs/"
  - "/csnordeste/"
-redirect_to: "/ComercialSimples/index.html"
+redirect_to: "/ComercialSimples/"
 ---
