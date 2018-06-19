@@ -2,6 +2,16 @@ CursoArduino:
   name: Curso Arduino Minas
   web: http://www.facebook.com/CursoArduinominas
   email: cursoarduino@carlosdelfino.eti.br
-  bio: 
+  bio:
+  picture: 
+  avatar: logo-fullservice-160x160.png
+  twitter: fullsrv
+
+CarlosDelfino:
+  name: Carlos Delfino
+  web: http://www.facebook.com/ProfessorCarlosDelfino
+  email: professor@carlosdelfino.eti.br
+  bio:
+  picture: 
   avatar: logo-fullservice-160x160.png
   twitter: fullsrv

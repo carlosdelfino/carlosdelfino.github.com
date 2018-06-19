@@ -67,7 +67,9 @@ flattr:
    login: CarlosDelfino
 
 facebook:
-  appid: 351518334888083
+  app_id: 351518334888083
+  admins: professorcarlosdelfino
+  publisher: professorcarlosdelfino
   uselogin: false
   scope: [user_friends, email]
   wellcomemsg: "Olá "
@@ -90,32 +92,13 @@ sass:
 
 permalink: /:categories/:title/
 
-
 keep_files:
   - "CNAME"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+author: CarlosDelfino
+twitter: 
+  username: fullsrv
 
-gems:
- - jekyll-feed
- - jekyll-gist
- - jekyll-paginate
- - jekyll-sitemap
- - jekyll-mentions
- - jekyll-coffeescript
- - jekyll-redirect-from
- - jekyll-sass-converter
- - jekyll-redirect-from
- - jekyll-seo-tag
- - kramdown
- - liquid
- - rouge
- - pygments
- - jemoji
- - sass
- - safe_yaml
 
 # Site owner
 owner:
@@ -151,6 +134,29 @@ resolvermaps:
   size: 201
   font: arial
   id: 0bwpn194rsa
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+gems:
+ - 'jekyll-github-metadata'
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-mentions
+ - jekyll-coffeescript
+ - jekyll-redirect-from
+ - jekyll-sass-converter
+ - jekyll-seo-tag
+ - kramdown
+ - liquid
+ - rouge
+ - pygments
+ - jemoji
+ - sass
+ - safe_yaml
 
 exclude:
   - "/pdf/"
