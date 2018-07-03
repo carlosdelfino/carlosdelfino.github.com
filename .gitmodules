@@ -9,3 +9,7 @@
 [submodule "js/jquery-base64"]
     path = js/jquery-base64
       url = https://github.com/carlo/jquery-base64.git
+[submodule "_posts"]
+	path = _posts
+	url = https://github.com/CarlosDelfino/_posts.git
+	branch = CarlosDelfino
