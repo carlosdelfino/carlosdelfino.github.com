@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: index
 permalink: /postagens/
 title: "Últimas Postagens"
 share: true

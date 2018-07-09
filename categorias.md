@@ -1,7 +1,7 @@
 ---
 permalink: /categorias/
 title: Lista de Categorias
-layout: archive
+layout: index
 share: true
 ---
 Listagem de todas as categorias de assuntos tratados no site.

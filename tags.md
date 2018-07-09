@@ -1,7 +1,7 @@
 ---
 permalink: /tags/
 title: Lista das Tags Existentes
-layout: archive
+layout: index
 share: true
 ---
 
