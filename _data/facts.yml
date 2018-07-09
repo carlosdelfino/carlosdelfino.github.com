@@ -1,3 +1,8 @@
+- class: contacts
+  title: Em 2018 foram
+  count: 2
+  description: turmas em nossos cursos até agora
+
 - class: desktop
   title: Mais de
   count: 1.492.145.321
