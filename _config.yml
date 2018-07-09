@@ -158,7 +158,7 @@ resolvermaps:
 markdown: kramdown
 highlighter: rouge
 
-gems:
+plugins:
  - 'jekyll-github-metadata'
  - jekyll-feed
  - jekyll-gist
