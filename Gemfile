@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '>=3.3.0'
+gem 'jekyll', '>=3.7.0'
 
-gem 'github-pages', '>=104'
+gem 'jekyll-github-metadata'
+
+gem 'jekyll-archives'
+gem 'github-pages', '>=180'
 gem 'github-pages-health-check', '>=1.2.0'
 gem 'jekyll-gist'
 gem 'html-proofer'

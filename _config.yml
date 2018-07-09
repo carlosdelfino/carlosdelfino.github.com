@@ -38,6 +38,15 @@ logo: logo-fullservice-120x120.png
 
 ads: true
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/:name/'
+    tag: '/tag/:name/'
+    
 excerpt_separator: <!--more-->
 
 uservoice:
@@ -92,13 +101,16 @@ sass:
 
 permalink: /:categories/:title/
 
-keep_files:
-  - "CNAME"
-
+social:
+  name: Carlos Delfino
+  links: 
+    - http://facebook.com/ProfessorCarlosDelfino
+    - http://linkedin.com/in/CarlosDelfino
+  
 author: CarlosDelfino
+
 twitter: 
   username: fullsrv
-
 
 # Site owner
 owner:
@@ -110,6 +122,10 @@ owner:
    google:
       plus: +CarlosDelfinoCarvalhoPinheiro
 
+webmaster_verifications:
+  google: google37b3d9124742b7a6
+  bing: 7BDB0376D08C31133EDEDA80DC90DFEF
+
 carousel:
   testimonial: 
     paginationSpeed: 500
@@ -119,6 +135,9 @@ carousel:
     responsive: true 
     stopOnHover: true
     responsive: true
+
+keep_files:
+  - "CNAME"
 
 compress_html:
   enable: false
@@ -150,6 +169,7 @@ gems:
  - jekyll-redirect-from
  - jekyll-sass-converter
  - jekyll-seo-tag
+ - jekyll-archives
  - kramdown
  - liquid
  - rouge
