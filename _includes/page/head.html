@@ -6,9 +6,11 @@
    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   {%- if site.webmaster_verifications.google_site -%}
+   <meta name="google-site-verification" content="{{ site.webmaster_verifications.google_site }}" />
+   {%- endif -%}
    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% else %}Sem Descrição{% endif %}" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
    <meta name="HandheldFriendly" content="True" />
    <meta name="MobileOptimized" content="320" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
