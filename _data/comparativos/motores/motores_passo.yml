@@ -1,0 +1,229 @@
+- name: a4988
+  spec: 
+  - name: "Default Current"
+    value: 2 A
+  - name: "Default Vref"
+    value: 0.8 V
+  - name: "Max Current"
+    value: 2 A
+  - name: "Formula"
+    value: i = Vref/0.8
+    math: true
+  - name: "Current Adjustment"
+    value: "aumenta no sentido horário"
+  - name: "Microstep"
+    value: "1, 1/2, 1/4, 1/8, 1/16"
+  - name: "Motor"
+    value: "8V - 35V, < 2A"
+  - name: "Feature"
+    value: "cheap"
+
+- name: MKS DRV8825
+  spec: 
+  - name: "Default Current"
+    value: 1.3A
+    obs: 
+    math: false
+  - name: "Default Vref"
+    value: 0.65V
+    obs: 
+    math: false
+  - name: "Max Current"
+    value: 2.5A
+    obs: 
+    math: false
+  - name: "Formula"
+    value: i = Vref x 2
+    obs: 
+    math: true
+  - name: "Current Adjustment"
+    value: Aumenta a corrente no sentido horário
+    obs: 
+    math: false
+  - name: "Microstep"
+    value: 1, 1/2, 1/4, 1/8, 1/16, 1/32
+    obs: 
+    math: false
+  - name: "Motor"
+    value: 8.2 - 45V, <2.5A
+    obs: 
+    math: false
+  - name: "Feature"
+    value: Bigger Corrent
+    obs: 
+    math: false
+
+- name: MKS LV8729
+  spec: 
+  - name: "Default Current"
+    value: 0.8A
+    obs: 
+    math: false
+  - name: "Default Vref"
+    value: 0.4V
+    obs: 
+    math: false
+  - name: "Max Current"
+    value: 1.5A
+    obs: 
+    math: false
+  - name: "Formula"
+    value: i = Vref / 0.5
+    obs: 
+    math: true
+  - name: "Current Adjustment"
+    value: Aumenta a corrente no sentido horário
+    obs: 
+    math: false
+  - name: "Microstep"
+    value: 1, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128
+    obs: 
+    math: false
+  - name: "Motor"
+    value: 6 - 36V, <1.5A
+    obs: 
+    math: false
+  - name: "Feature"
+    value: Silent, low heat
+    obs: 
+    math: false
+
+- name: MKS TMC2208
+  spec: 
+  - name: "Default Current"
+    value: 0.7A
+    obs: 
+    math: false
+  - name: "Default Vref"
+    value: 1V
+    obs: 
+    math: false
+  - name: "Max Current"
+    value: 1.41A
+    obs: 
+    math: false
+  - name: "Formula"
+    value: i = Vref /  \sqrt{2}
+    obs: 
+    math: true
+  - name: "Current Adjustment"
+    value: Diminui a corrente no sentido horário
+    obs: 
+    math: false
+  - name: "Microstep"
+    value: 1, 1/2, 1/4, 1/8, 1/16
+    obs: 
+    math: false
+  - name: "Motor"
+    value: 4 - 35V, <1.4A
+    obs: 
+    math: false
+  - name: "Feature"
+    value: Noiseless, Smooth low heat
+    obs: 
+    math: false
+
+- name: MKS TMC2100
+  spec: 
+  - name: "Default Current"
+    value: 0.5A
+    obs: 
+    math: false
+  - name: "Default Vref"
+    value: 0.65V
+    obs: 
+    math: false
+  - name: "Max Current"
+    value: 1.2A
+    obs: 
+    math: false
+  - name: "Formula"
+    value: i = Vref * 1.9 / 2.5
+    obs: 
+    math: true
+  - name: "Current Adjustment"
+    value: Reduz a corrente no sentido horário
+    obs: 
+    math: false
+  - name: "Microstep"
+    value: 1/16
+    obs: 
+    math: false
+  - name: "Motor"
+    value: <1.2A
+    obs: 
+    math: false
+  - name: "Feature"
+    value: Noiseless, Smooth
+    obs: 
+    math: false
+
+- name: MKS MTC2130
+  spec: 
+  - name: "Default Current"
+    value: 0.76A
+    obs: 
+    math: false
+  - name: "Default Vref"
+    value: 1V
+    obs: 
+    math: false
+  - name: "Max Current"
+    value: 2A
+    obs: 
+    math: false
+  - name: "Formula"
+    value: i = Vref * 1.9 / 2.5
+    obs: 
+    math: true
+  - name: "Current Adjustment"
+    value: Aumenta a corrente no sentido horário
+    obs: 
+    math: false
+  - name: "Microstep"
+    value: 1, 1/2, 1/4, 1/16, 1/256
+    obs: 
+    math: false
+  - name: "Motor"
+    value: 4.75 - 46V, 
+    obs: 
+    math: false
+  - name: "Feature"
+    value: Noiseless, Smooth
+    obs: 
+    math: false
+
+#- name: 
+#  spec: 
+#  - name: "Default Current"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Default Vref"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Max Current"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Formula"
+#    value: 
+#    obs: 
+#    math: true
+#  - name: "Current Adjustment"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Microstep"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Motor"
+#    value: 
+#    obs: 
+#    math: false
+#  - name: "Feature"
+#    value: 
+#    obs: 
+#    math: false
