@@ -13,3 +13,7 @@
 	path = _posts
 	url = https://github.com/CarlosDelfino/_posts.git
 	branch = CarlosDelfino
+[submodule "images"]
+	path = images
+	url = git@github.com:carlosdelfino/images
+	branch = CarlosDelfino
