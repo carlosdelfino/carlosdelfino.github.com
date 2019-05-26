@@ -15,5 +15,5 @@
 	branch = CarlosDelfino
 [submodule "images"]
 	path = images
-	url = git@github.com:carlosdelfino/images
+	url = https://github.com/CarlosDelfino/images.git
 	branch = CarlosDelfino
