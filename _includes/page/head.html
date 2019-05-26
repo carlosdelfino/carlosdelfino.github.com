@@ -1,10 +1,8 @@
 <head profile="http://www.w3.org/2005/10/profile">
 {% if page.refresh %}   <meta http-equiv="refresh" content="{{ page.refresh.time }}; url={{ page.refresh.url }}" />
 {% endif %}
-{% if site.charset %}   <meta charset="{{ site.charset }}"{% else %}"utf-8"{% endif %} />
-
+   <meta charset="{{ site.charset | default 'utf-8' }}"  />
    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    {%- if site.webmaster_verifications.google_site -%}
    <meta name="google-site-verification" content="{{ site.webmaster_verifications.google_site }}" />
@@ -15,7 +13,6 @@
    <meta name="MobileOptimized" content="320" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="cleartype" content="on" />
-
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 {% if page.favicon %}{% assign favicon = page.favicon %}{% else %}{% assign favicon = site.favicon | default: "/favicon.ico" %}{% endif %}
 <link rel="icon" type="image/png" href="{{ favicon }}" />
@@ -26,11 +23,8 @@
 {% endif %}
 {% include open-graph.html %}
 {% if author.google.plus %} <link rel="author" href="https://plus.google.com/{{ author.google.plus }}" />{% endif %}
-
 {% include emailjs.html %}
-
    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
-
 <!-- CSS -->
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.css" />
@@ -42,14 +36,11 @@
    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.extra.css" />
-
 {% if page.highlighter.css %} <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}" />
 {% elsif site.css.highlighter %} <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
 {% endif %}
-
    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed" />
    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap" />
-
 <!-- Js -->
    <script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js" ></script>
    <script src="{{ site.baseurl }}/js/bootstrap.min.js" ></script>
@@ -58,12 +49,8 @@
    <script src="{{ site.baseurl }}/js/waypoints.min.js" ></script>
    <script src="{{ site.baseurl }}/js/jquery.counterup.min.js" ></script>
    <script src="{{ site.baseurl }}/js/particles.min.js" ></script>
-
    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-   <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-   
 <!--[if lt IE 9]><script src="/js/modernizr.custom.03289.js"></script><![endif]-->
-
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/html5shiv.min.js" async></script>
@@ -74,7 +61,6 @@
          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
     </script>
 {% endif %}
-
 {% if site.aedes.show == true %}
   {% include aedes/index.html %}
 {% endif %}
@@ -88,10 +74,7 @@
         pagePreCustonFuntions();
     -->
     </script>
-
     <script src="{{ site.url }}/js/main2.js" async></script>
     <script src="{{ site.url }}/js/premain.js" async></script>
-
     {% include hotmart/analytics.html %}
-
 </head>
