@@ -1,13 +1,13 @@
 ---
-permalink: /pesquisa/dtn/
-title: Pesquisa sobre aplicação de Redes DTN
-tags: [Pesquisa, Faculdade, FIC, Faculdade Integrada do Ceara, Artigos, Desenvolvimento, Inovação, TCP/IP, IVN, Intelligent Vehicular Network, DTN, Delay-Tolerant Network, Disruption-Tolerant Network, VDTN, Vehicular Delay-Tolerant Network]
+permalink: /redesneurais/
+title: Redes Neurais
+tags: [Pesquisa, Redes Neurais]
 layout: categorylist
-categories: [pesquisa,dtn]
+categories: [Redes Neurais]
 share: true
 comments: true
 ads:
-  show: true 
+  show: true
 image:
   feature: redes_protocolos/tcpipstackprotocol-1024x505.png
   teaser: redes_protocolos/protocolstacks-500x469.jpg
