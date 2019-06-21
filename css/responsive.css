@@ -30,7 +30,7 @@ px      68    160    252    344    436    528    620    712    */
 	content Start 
 --*/
   #content {
-    text-align: center;
+    text-align: justify;
   }
   #content .block {
     padding-bottom: 100px;
@@ -224,7 +224,7 @@ px      68    160    252    */
 	content Start 
 --*/
   #content {
-    text-align: center;
+    text-align: justify;
     padding-top: 70px;
   }
   #content .block {
