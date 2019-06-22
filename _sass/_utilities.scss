@@ -147,7 +147,7 @@ body:hover .visually-hidden button {
   margin-left: auto;
   margin-right: auto;
 
-  @include breakpoint($small) {
+  @include media($small) {
     float: left;
     margin-right: 1em;
   }
@@ -160,7 +160,7 @@ body:hover .visually-hidden button {
   margin-left: auto;
   margin-right: auto;
 
-  @include breakpoint($small) {
+  @include media($small) {
     float: right;
     margin-left: 1em;
   }
@@ -177,7 +177,7 @@ body:hover .visually-hidden button {
 /* file page content container */
 
 .full {
-  @include breakpoint($large) {
+  @include media($large) {
     margin-right: -1 * span(2.5 of 12) !important;
   }
 }
@@ -396,7 +396,7 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .sticky {
-  @include breakpoint($large) {
+  @include media($large) {
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
