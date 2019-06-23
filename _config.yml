@@ -17,6 +17,8 @@ atom:
     - _drafts
   defaultPostDir: _drafts
 
+future: false
+
 # Ativa depuração no site, desde que no localhost
 debug: false
 
