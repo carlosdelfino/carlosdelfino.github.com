@@ -17,6 +17,8 @@ atom:
     - _drafts
   defaultPostDir: _drafts
 
+future: false
+
 # Ativa depuração no site, desde que no localhost
 debug: false
 
@@ -85,6 +87,7 @@ facebook:
   wellcomemsg: "Olá "
 
 hotmart:
+  enable: false
   analytics:
     account: 70bc3235-476e-310e-8408-4158280ae50c
      
@@ -172,6 +175,7 @@ plugins:
  - jekyll-sass-converter
  - jekyll-seo-tag
  - jekyll-archives
+ - jekyll-jupyter-notebook
  - kramdown
  - liquid
  - rouge
