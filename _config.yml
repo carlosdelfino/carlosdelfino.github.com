@@ -25,8 +25,8 @@ debug: false
 # Site settings
 title: Carlos Delfino
 subtitle: "Microcontroladores e Mobile"
-description: "Cursos e Desenvolvimento para dispositivos moveis multiplataforma, microcontroladores AVR (ATmega e ATtiny) e  ARM (Família Cortex-M), FPGA e VHDL, entre outros."
-keywords: vhdl, fpga, nrf, nrf51, nrf52, nrf5x, NativeScript, Multiplataforma, dispositivos moveis, celulares, SmartTV, Redes, Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado, EAD, E-Learning, Moodle, AVA, CVA, CMS, Joomla, Aprendizado, Ensino a Distância
+description: "Cursos e Desenvolvimento para dispositivos moveis multiplataforma, microcontroladores AVR (ATmega e ATtiny),  ARM (Família Cortex-M), FPGA e VHDL, entre outros."
+keywords: fpga, vhdl, nrf, nrf51, nrf52, nrf5x, NativeScript, Multiplataforma, dispositivos moveis, celulares, SmartTV, Redes, Consultoria, TIC, Arduino, AVR, ATMega, ATMel, ARM, SAM4S, xPlained, C/C++, Java, Android, Automação, Aulas, Tutoria, Cursos, EAD, Treinamento, Instrumentação de Projetos, Social, Voluntáriado, Reflexões, Contos, História de Vida, Aprendizado, EAD, E-Learning, Moodle, AVA, CVA, CMS, Joomla, Aprendizado, Ensino a Distância
 locale: pt_BR
 lang: pt_BR
 charset: utf-8
