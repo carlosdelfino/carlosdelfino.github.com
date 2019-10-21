@@ -21,6 +21,10 @@
 {% endif %}
 {% include open-graph.html %}
 {% if author.google.plus %} <link rel="author" href="https://plus.google.com/{{ author.google.plus }}" />{% endif %}
+{% if mastodon %}
+  {% if mastodon.social %}<a rel="me" href="https://mastodon.social/@mastodon.social.id">Mastodon</a>{% endif %}
+  {% if mastodon.bitcoinhacker %}<a rel="me" href="https://mastodon.social/@mastodon.bitcoinhacker.id">Mastodon</a>{% endif %}
+{% endif %}  
 {% include emailjs.html %}
    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 <!-- CSS -->
