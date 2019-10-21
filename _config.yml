@@ -73,6 +73,11 @@ google:
    adsense:
       client: ca-pub-1710447158146560
       slot: 8511319937
+mastodon:
+ social:
+  id: carlosdelfino
+ bitcoinhackers:
+  id: carlosdelfino
 
 flattr:
    id: fbzv3r5
