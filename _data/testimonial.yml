@@ -1,11 +1,8 @@
 - name: Municipio Aquiraz
   Role: Onorários e Cidadãos do Municipio
-  image:
-  testimonial: Carlos é uma pessoa egoista, e exige obras apenas para seu beneficio, é intrangigente e não se submete a politica local que funciona a séculos, agindo de forma negativa aos que administram o herário público, denunciando o atraso da creche que deveria ter ficado pronta antes da Copa do Mundo, o Asfalto que não existe, e a Av que parece uma coucha de retalhos, sem falar na falta de iluminação e transporte público, entre outros atos como nepotismo e submissão a interesses questionáveis que sempre foram tão comuns e que o povo não se importa que assim seja.
+  testimonial: "Carlos é uma pessoa egoista, e exige obras apenas para seu beneficio, é intrangigente e não se submete a politica local que funciona a séculos, agindo de forma negativa aos que administram o herário público, denunciando o atraso da creche que deveria ter ficado pronta antes da Copa do Mundo, o Asfalto que não existe, e a Av que parece uma coucha de retalhos, sem falar na falta de iluminação e transporte público, entre outros atos como nepotismo e submissão a interesses questionáveis que sempre foram tão comuns e que o povo não se importa que assim seja."
   data: 18 de Novembro de 2019
-  site:
-  work: 
-  
+
 - name: Ted Prado
   Role: Aluno no Curso Arduino Minas
   image: ted_prado.jpg
