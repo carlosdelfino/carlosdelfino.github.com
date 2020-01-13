@@ -1,22 +1,3 @@
-atom:
-  buildCommand:
-    - /usr/local/bin/bundle
-    - exec
-    - jekyll
-    - serve
-    - --incremental
-    - --drafts
-    - --safe
-    - --open-url
-    - --whatch
-    - --future
-  buildEnv:
-    JEKYLL_ENV: development
-  postDirs:
-    - _posts
-    - _drafts
-  defaultPostDir: _drafts
-
 future: false
 
 # Ativa depuração no site, desde que no localhost
@@ -49,7 +30,7 @@ jekyll-archives:
   permalinks:
     category: '/:name/'
     tag: '/tag/:name/'
-    
+
 excerpt_separator: <!--more-->
 
 uservoice:
@@ -90,7 +71,7 @@ hotmart:
   enable: false
   analytics:
     account: 70bc3235-476e-310e-8408-4158280ae50c
-     
+
 testimonial:
   itens: 6
   truncate: 350
@@ -107,13 +88,13 @@ permalink: /:categories/:title/
 
 social:
   name: Carlos Delfino
-  links: 
+  links:
     - http://facebook.com/ProfessorCarlosDelfino
     - http://linkedin.com/in/CarlosDelfino
-  
+
 author: CarlosDelfino
 
-twitter: 
+twitter:
   username: fullsrv
 
 # Site owner
@@ -132,12 +113,12 @@ webmaster_verifications:
   bing: 7BDB0376D08C31133EDEDA80DC90DFEF
 
 carousel:
-  testimonial: 
+  testimonial:
     paginationSpeed: 500
     singleItem: true
     autoPlay: 3000
     stopOnHover: true
-    responsive: true 
+    responsive: true
     stopOnHover: true
     responsive: true
 
@@ -164,7 +145,7 @@ markdown: kramdown
 highlighter: rouge
 
 plugins:
- - 'jekyll-github-metadata'
+ - jekyll-github-metadata
  - jekyll-feed
  - jekyll-gist
  - jekyll-paginate
@@ -185,14 +166,14 @@ plugins:
  - safe_yaml
 
 exclude:
-  - "/pdf/"
-  - "/suporte-geral/"
-  - "/script/"
   - "Gemfile"
   - "Gemfile.lock"
+  - "*.gemspec"
   - "README.md"
   - "LICENSE.md"
-  - "*.gemspec"
+  - "pdf/"
+  - "suporte-geral/"
+  - "script/"
   - "vendor"
   - "lib"
   - "config.rb"
@@ -206,14 +187,10 @@ exclude:
   - "_tmp"
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE"
   - "node_modules"
   - "Gruntfile.js"
   - "package.json"
-  - "_backup*"
+  - "_backup/"
   - "*.bck"
   - "*.tmp"
   - "/*.bck/"
