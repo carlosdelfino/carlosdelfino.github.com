@@ -7,13 +7,13 @@ layout: index
 <div class="masonrygrid row listrecent">
 
 {{ content }}
- 
+
 {% assign posts = site.posts %}
 
 {% for category in page.categories %}
  {% assign posts = posts | where: "categories", category %}
 {% endfor %}
 {% for post in posts %}
- {% include grids/post-grid.html %} 
+ {% include grids/post-grid.html %}
 {% endfor %}
     </div>
