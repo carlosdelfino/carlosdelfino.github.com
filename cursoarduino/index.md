@@ -1,7 +1,5 @@
 ---
 redirect_from: 
- - /Arduino/
- - /arduino/
  - /CursoArduino/
  - /Cursoarduino/
  - /cursoArduino/
