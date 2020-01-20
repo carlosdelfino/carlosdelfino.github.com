@@ -8,12 +8,11 @@ layout: index
 
 {{ content }}
 
-{% assign posts = site.posts %}
 
 {% for category in page.categories %}
- {% assign posts = posts | where: "categories", category %}
-{% endfor %}
-{% for post in posts %}
+ {% assign posts = site.posts | where: "categories", category %}
+ {% for post in posts %}
  {% include grids/post-grid.html %}
+ {% endfor %}
 {% endfor %}
     </div>
