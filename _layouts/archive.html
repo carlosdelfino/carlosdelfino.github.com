@@ -1,7 +1,7 @@
 ---
 layout: default
 ads:
-  style: horizontal
+  show: false
 ---
  <section id="main" role="main">
 	<div class="wrap">
@@ -12,9 +12,9 @@ ads:
 					<h2><span>{{ page.type }} => '{{ page.title }}'</span></h2>
 			</div>
 			<div class="masonrygrid row listrecent">
-					{%- for post in page.posts -%}
-					{%- include grids/post-grid.html -%}
-					{%- endfor -%}
+					{% for post in page.posts %}
+					{% include grids/post-grid.html %}
+					{% endfor %}
 			</div>
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
