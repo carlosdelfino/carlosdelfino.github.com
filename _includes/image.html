@@ -1,0 +1,5 @@
+{% if include.url contains 'http://' or include.url contains 'https://' %} {% assign url = include.url %}{%else%}{% assign url = include.url |prepend: site.baseurl %} {% endif %}
+<figure class="image">
+    <img src="{{ url }}" alt="{{ include.description | truncatewords: 150 }}">
+    <figcaption>{{ include.description | truncatewords: 150 }}</figcaption>
+</figure>
