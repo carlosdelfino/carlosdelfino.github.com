@@ -1,4 +1,4 @@
-future: false
+future: true
 
 # Ativa depuração no site, desde que no localhost
 debug: false
@@ -119,8 +119,6 @@ carousel:
     autoPlay: 3000
     stopOnHover: true
     responsive: true
-    stopOnHover: true
-    responsive: true
 
 keep_files:
   - "CNAME"
@@ -166,6 +164,7 @@ plugins:
  - safe_yaml
 
 exclude:
+  - .forestry
   - "Gemfile"
   - "Gemfile.lock"
   - "*.gemspec"
