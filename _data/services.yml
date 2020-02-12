@@ -1,12 +1,7 @@
 - type: book
   title: Cursos
-  description: Cursos abertos e turmas fechadas, Basicão da Eletrônica, Arduino (HelloWorldArduino), Mobile (NativeScript), Automação, CFTV e Cercas Eletricas integradas.
+  description: Cursos com turmas abertas e fechadas, Basicão da Eletrônica, Arduino (Hello World Arduino, Hello World ARM), Mobile (NativeScript), Automação, Segurança integrada. Apostilas e tutoriais sobre encomenda.
   link: http://arduinominas.com.br
-
-- type: logo-steam
-  title: Desenvolvimento de Firmware
-  description: Desenvolvimento de firmware com a Arquitetura ARM (Família Cortex-M) AVR (Família ATMega e ATTiny) 
-  link: /servicos/desenvolvimento_de_software
 
 - type: laptop
   title: Desenvolvimento de Software
@@ -15,15 +10,6 @@
 - type: business
   title: Start Up
   description: Consultoria e Apoio tecnológico para Startups e Empresas Junior.
-
-- type: bookmarks
-  title: Tutoriais e Apostilas
-  description: Escrita de tutoriais e apostilas para cursos ténicos e treinamentos rápidos ligados a Tecnologia da Informação
-  link: /servicos/tutoriais
-  
-- type: flag
-  title: Traduções
-  description: Traduções de manuais e apostilas para o Português.
   
 - type: git-network
   title: Infraestrutra de rede
@@ -31,4 +17,4 @@
 
 - type: desktop
   title: Hospedagem
-  description: Hospedagem de sites especiais, Moodle entre outros.
+  description: Hospedagem de sites especiais, Google Cloud, Firebase e sites para EAD como Moodle, entre outros.
