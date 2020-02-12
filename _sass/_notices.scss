@@ -2,6 +2,14 @@
 // --------------------------------------------------
 
 @mixin notice($notice-color) {
+	
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 8px;
+	display: flex;
+	
 	position: relative;
 	padding: 1.5em;
 	font-family: $alt-font;

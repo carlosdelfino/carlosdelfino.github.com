@@ -13,7 +13,11 @@ ads:
 			{% include gadget/d3-tagcloud.html container="tagcloud" height=250 width=600 %}
 {% endif %}
 {% include page/tableofcontents.html %}
-				<section id="content" class='text-{{page.align | default: "justify"}}'>{{ content }}</section>
+				<section id="content" class='text-{{page.align | default: "justify"}}'>
+					{% include page/invite.html %}
+					{{ content }}
+					{% include page/invite.html %}
+				</section>
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}
