@@ -1,21 +1,21 @@
 - class: contacts
-  title: Em 2018 foram
-  count: 2
+  title: Em 2020 não houveram
+  count:
   description: turmas em nossos cursos até agora
 
 - class: desktop
   title: Mais de
-  count: 1.492.145.321
+  count: 1.500.000.000
   description: linhas de código
 
 - class: cafe
   title: Mais de
-  count: 305.531
+  count: 310.000
   description: xícaras de café
 
 - class: alarm
   title: Mais de
-  count: 30.337
+  count: 32.000
   description: horas de sono pedidas
 
 - class: contacts
@@ -29,6 +29,6 @@
   description: projetos realizados com arduino
 
 - class: bulb
-  title: Mais de 
-  count: 50
+  title: Mais de
+  count: 55
   description: consultorias em projetos com arduino
