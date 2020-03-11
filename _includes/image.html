@@ -1,5 +1,28 @@
-{% if include.url contains 'http://' or include.url contains 'https://' %} {% assign url = include.url %}{%else%}{% assign url = include.url |prepend: site.baseurl %} {% endif %}
-<figure class="image">
-    <img src="{{ url }}" alt="{{ include.description | truncatewords: 150 }}">
-    <figcaption>{{ include.description | truncatewords: 150 }}</figcaption>
+{% unless include.file %}
+    {% assign file = include.url %}
+{% else %}
+    {% assign file = include.file %}
+{% endunless %}
+{% unless file contains 'http://' or file contains 'https://' %}
+    {% assign file = file |prepend: site.baseurl %}
+{% endunless %}
+{% unless include.caption %}
+    {% assign caption = include.description %}
+{% else %}
+    {% assign caption = include.caption %}
+{% endunless %}
+{% assign caption = caption | truncatewords: 150 %}
+{% if include.max-width %}
+    {% assign max-width = include.max-width %}
+{% endif %}
+{% if include.id %}
+    {% assign id_image = include.id %}
+{% endif %}
+{% unless id_image > 0 %}
+    {% assign id_image = 1 %}
+{% endunless %}
+<figure id="{{ include.id | default: id_image }}" class="image {{ id_image | prepend: 'image-'}} {{ include.class }}">
+    <img src="{{ file }}" alt="{{ caption }}" {% if max-width %}style="max-width: {{ max-width }};"{% endif %} >
+    <figcaption>{{ caption  }}</figcaption>
 </figure>
+{% assign id_image = id_image | plus: 1 %}
