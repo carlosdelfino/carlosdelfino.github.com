@@ -12,10 +12,9 @@ ads:
 					<h2><span>{{ page.type }} => '{{ page.title }}'</span></h2>
 			</div>
 			<div class="masonrygrid row listrecent">
-					{% for post in site.posts %}
-					{% if post.categories contain page.title%}
+				<!---->
+					{% for post in page.posts %}
 					{% include grids/post-grid.html %}
-					{% endif %}
 					{% endfor %}
 			</div>
 		</div><!-- /.page-content -->
