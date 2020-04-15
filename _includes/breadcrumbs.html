@@ -8,7 +8,7 @@
     <meta itemprop="position" content="{{position}}" />
     {%- for category in page.categories -%}{%- assign categoryname = category | remove:'"' -%}{%- assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape -%}{%- assign catdetail = site.data.categories[categoryid] -%}
     <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-      {%- if catdetail -%} {%- assign categoryname = catdetail.name -%} {%- endif -%} &GreaterGreater;
+      {%- if catdetail -%} {%- assign categoryname = catdetail.name -%} {%- endif -%} &gt;
       <a href="{{ site.url }}/{{ categoryid }}/" itemprop="item">
         <span itemprop="name">{{ categoryname }}</span>
       </a>
