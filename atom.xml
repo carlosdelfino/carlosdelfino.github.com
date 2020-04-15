@@ -18,8 +18,8 @@ limit: 25
     <id>{{ base }}</id>
     <author>
 			<name>{{ site.owner.name | xml_escape }}</name>
-			<uri>{{ site.url }}</uri>
-			{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+			<uri>{{ site.url | xml_escape}}</uri>
+			{% if site.owner.email %}<email>{{ site.owner.email | xml_escape}}</email>{% endif %}
 		</author>
 
     {% for post in site.posts limit: page.limit %}
@@ -31,11 +31,10 @@ limit: 25
         <author>
 					<name>{{ site.owner.name | xml_escape }}</name>
 					<uri>{{ site.url }}</uri>
-					{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+					{% if site.owner.email %}<email>{{ site.owner.email | xml_escape}}</email>{% endif %}
 				</author>
         <content type="html">
-        	{% if post.image.feature %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot;&gt;&lt;br/&gt;{% endif %}
-        	{{ post.content | xml_escape }}
+        	{{ post.excerpt | xml_escape }}
         </content>
     </entry>
     {% endfor %}
