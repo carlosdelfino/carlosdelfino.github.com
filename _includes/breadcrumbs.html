@@ -1,18 +1,21 @@
-{% if page.categories and page.categories != empty %}
-<nav class="breadcrumbs">
-  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url">
-      <span itemprop="title">Início</span>
+{%- if page.categories and page.categories != empty -%}
+{%- assign position = 1 -%}
+<nav class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+  <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+    <a href="{{ site.url }}" itemprop="item">
+      <span itemprop="name">Início</span>
     </a>
-    {% for category in page.categories %} {% assign categoryname = category | remove:'"' %} {% assign categoryid = categoryname
-    | downcase | strip | remove:' ' | remove:'-' | cgi_escape %} {% assign catdetail = site.data.categories[categoryid] %}
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      {% if catdetail %} {% assign categoryname = catdetail.name %} {% endif %} >
-      <a href="{{ site.url }}/{{ categoryid }}/" itemprop="url">
-        <span itemprop="title">{{ categoryname }}</span>
+    <meta itemprop="position" content="{{position}}" />
+    {%- for category in page.categories -%}{%- assign categoryname = category | remove:'"' -%}{%- assign categoryid = categoryname | downcase | strip | remove:' ' | remove:'-' | cgi_escape -%}{%- assign catdetail = site.data.categories[categoryid] -%}
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      {%- if catdetail -%} {%- assign categoryname = catdetail.name -%} {%- endif -%} &GreaterGreater;
+      <a href="{{ site.url }}/{{ categoryid }}/" itemprop="item">
+        <span itemprop="name">{{ categoryname }}</span>
       </a>
-    </span>> {% endfor %}
+      {%- assign position = position | plus: 1 -%}
+      <meta itemprop="position" content="{{position}}" />
+    </span>{%- endfor -%}
   </span>
 </nav>
 <!-- /.breadcrumbs -->
-{% endif %}
+{%- endif -%}
