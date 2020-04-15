@@ -22,7 +22,7 @@ limit: 25
 			{% if site.owner.email %}<email>{{ site.owner.email | xml_escape}}</email>{% endif %}
 		</author>
 
-    {% for post in site.posts limit: page.limit %}
+    {% for post in site.posts  %}
     <entry>
         <title>{{ post.title | xml_escape }}</title>
         <link href="{{ base }}{{ post.url }}"/>
