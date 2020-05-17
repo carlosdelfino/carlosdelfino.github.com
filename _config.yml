@@ -127,10 +127,11 @@ compress_html:
   enable: false
   comments: ["<!-- ", " -->"]
   ignore:
-    envs: [local]
+    envs: [local, development]
   blanklines: true
   profile: true
   only_local_profile: true
+  clippings: all
 
 resolvermaps:
   enable: true
