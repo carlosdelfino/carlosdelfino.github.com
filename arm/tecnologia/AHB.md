@@ -1,7 +1,7 @@
 ---
 permalink: /arm/tecnologia/AHB
 title: ARM - AHB
-tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M]
+tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M, AMBA, AHB]
 layout: glossary
 categories: [ARM]
 share: true  
@@ -18,6 +18,11 @@ image:
  teaser: arm/logo-ARM-370x205.png
 ---
 
+O [AMBA](/arm/tecnologia/AMBA) é um barramento para módulos de alta performance e clocks de alta frequência.
+
+<!--more-->
+
+O AHB atua como um barramento do tipo backbone de alta peformance. AHB da suporte para conectar processadores de forma eficiente, memórias on-chip e interfaces off-chip para memória externas com funções de baixa potência para perifericos macrocell. AHB é também especificado para assegurar uso facilitado em um projeto eficiente de tecnicas para testes e sinteses automatizados.
 
 ## Outras Tecnologias
 

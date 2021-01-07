@@ -1,7 +1,7 @@
 ---
-permalink: /arm/tecnologia/AMBA
-title: ARM - AMBA
-tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M, AMBA]
+permalink: /arm/tecnologia/ASB
+title: ARM - ASB
+tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M, AMBA, ASB]
 layout: glossary
 categories: [ARM]
 share: true  
@@ -18,17 +18,11 @@ image:
  teaser: arm/logo-ARM-370x205.png
 ---
 
-A especificação "Advanced Microcontroller Bus Architecture" (AMBA), define um padrão on-chip de comunicações para projetar microcontrolador embarcados de alta performance.
+O [AMBA](/arm/tecnologia/AMBA) ASB é para módulos de sistema de alta performance.
 
 <!--more-->
 
-Três barramentos distintos são definidos com a especificação AMBA: 
-
-* "Advanced High-performance Bus ([AHB](/arm/tecnologia/AHB))
-* "Advanced System Bus" ([ASB](/arm/tecnologia/ASB))
-* "Advanced Peripheral Bus" ([APB](/arm/tecnologia/APB))
-
-Uma metodologia de teste é inclusa com a especificação AMBA que provê uma infraestrutura para teste macrocell modular e acesso de diagnostico.
+[AMBA](/arm/tecnologia/AMBA) ASB é um barramento de sistema alternativa adequada para uso onde recursos de alta performance do [AHB](/arm/tecnologia/AHB) não são necessários. ASB também suportam a conexão eficiente de processadores, memórias on-chip e interfaces de memórias externas off-chip com funções de perifericos macrocell de  baixa potencia.
 
 ## Outras Tecnologias
 
@@ -43,5 +37,7 @@ Uma metodologia de teste é inclusa com a especificação AMBA que provê uma in
 ### [ITM Instrumentation Trace Macrocell](/arm/tecnologias/ITM)
 ### [NVIC Nested Vectored Interrupt Controller](/arm/tecnologias/NVIC)
 ### [WIC Wake-up Interrupt Controller](/arm/tecnologias/WIC)
+### [AHB Advanced High Performance Bus](/arm/tecnologias/AHB)
+### [AMBA Advanced Microcontroller Bus Architecture](/arm/tecnologias/AMBA)
 
 
