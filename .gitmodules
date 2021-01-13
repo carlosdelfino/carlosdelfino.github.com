@@ -19,3 +19,6 @@
 	path = images
 	url = https://github.com/CarlosDelfino/images.git
 	branch = CarlosDelfino
+[submodule "gccalc"]
+	path = js/gccalc
+	url = https://gist.github.com/741bdfa7f47ab686ded401304ea2a42d.git
