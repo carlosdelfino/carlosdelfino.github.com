@@ -1,9 +1,12 @@
 ---
-permalink: /arm/arquitetura/
-title: ARM - Familias de Processadores
-tags: [ARM, Tecnologias, Memoria, Proteção, Unidade, Arquitetura, Cortex-A, Cortex-R, Cortex-M]
+redirect_from: 
+   - /arquitetura
+   - /cpu/arquitetura
+permalink: /arm/arquitetura
+title: Arquitetura de Processadores
+tags: [CPU, Arquitetura, Harvard, von Neumann]
 layout: glossarylist
-categories: [ARM, arquitetura]
+categories: [CPU,Arquitetura]
 share: true  
 toc: true
 comments: true
@@ -14,10 +17,9 @@ tagcloud: true
 ads:
  show: true
 image:
- feature: arm/Cortex-M33-Arquitetura-800x846.png
- teaser: arm/logo-ARM-370x205.png
+ feature: 800x846.png
+ teaser: 370x205.png
 ---
 
 
 ** Sendo Elaborado **
-
