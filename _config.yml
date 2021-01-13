@@ -143,6 +143,11 @@ resolvermaps:
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 exclude:
   - .forestry
