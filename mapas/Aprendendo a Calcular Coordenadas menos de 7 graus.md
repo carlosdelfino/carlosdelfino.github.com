@@ -1,6 +1,7 @@
 ---
-redirect_from: /mapas/Aprendendo/
-title: Aprendendo a Calcular Coordenadas menores que 7 graus
+redirect_from: /mapas/georeferenciamento/mapa_1
+permalink: /mapas/georeferenciamento/Aprendendo a Calcular Coordenadas/menos de 7 graus/mapa_1
+title: Aprendendo a Calcular Coordenadas menores que 7 graus - mapa
 layout: article
 ---
 
