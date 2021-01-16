@@ -33,6 +33,7 @@ jekyll-archives:
 
 excerpt_separator: <!--more-->
 
+toc: false
 uservoice:
    accentcolor: '#448dd6'
    triggercolor: 'white'
