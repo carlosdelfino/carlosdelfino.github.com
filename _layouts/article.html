@@ -14,9 +14,9 @@ ads:
 {% endif %}
 {% include page/tableofcontents.html %}
 				<section id="content" class='text-{{page.align | default: "justify"}}'>
-					{% include page/invite.html %}
+					{% include page/msg_header.html %}
 					{{ content }}
-					{% include page/invite.html %}
+					{% include page/msg_footer.html %}
 				</section>
 				<hr />
 				<footer class="page-footer">
