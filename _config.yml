@@ -20,7 +20,7 @@ teaser: carlosdelfino-palestra-400x161.png
 cover: carlosdelfino-palestra.png
 logo: logo-fullservice-120x120.png
 
-ads: true
+ads: false
 
 jekyll-archives:
   enabled:

@@ -1,4 +1,4 @@
-{% if page.ads.show %}
+{% if site.ads && page.ads.show %}
 
    {% unless page.ads.style %}
       {% if page.layout == "categorylist" %}
