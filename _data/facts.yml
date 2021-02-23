@@ -1,7 +1,7 @@
 - class: contacts
   title: Em 2020 não houveram
   count:
-  description: turmas em nossos cursos até agora
+  description: turmas em nossos cursos, até agora
 
 - class: desktop
   title: Mais de
@@ -10,13 +10,18 @@
 
 - class: cafe
   title: Mais de
-  count: 310.000
+  count: 500.000
   description: xícaras de café
 
 - class: alarm
   title: Mais de
-  count: 32.000
-  description: horas de sono pedidas
+  count: 40.000
+  description: horas de sono perdidas
+
+- class: alarm
+  title: Mais de
+  count: 50.000
+  description: páginas de livros e artigos lidos
 
 - class: contacts
   title: Mais de
@@ -25,10 +30,15 @@
 
 - class: logo-steam
   title: Em torno de
-  count: 10
+  count: 12
   description: projetos realizados com arduino
+
+- class: logo-steam
+  title: Planejando
+  count: 1
+  description: projeto com FPGA
 
 - class: bulb
   title: Mais de
-  count: 55
-  description: consultorias em projetos com arduino
+  count: 58
+  description: consultorias em projetos
