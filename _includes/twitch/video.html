@@ -1,15 +1,18 @@
 <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="twitch_delfino_player"></div>
+<div id="twitch_{{include.channel}}_player"></div>
 <script type="text/javascript">
   var options = {
     width: 800,
     height: 300,
-    channel: "carlosdelfino_br",
+    channel: "{{include.channel}}",
 //    video: "<video ID>",
 //    collection: "<collection ID>",
     // only needed if your site is also embedded on embed.example.com and othersite.example.com
-//    parent: ["embed.example.com", "othersite.example.com"]
+    {% assign parent_url = site.url | split: "//" %}
+    {% assign parent_url = parent_url[1] | split: ":" %}
+   
+   parent: ['{{ parent_url[0] }}']
   };
-  var player = new Twitch.Player("twitch_delfino_player", options);
+  var player = new Twitch.Player("twitch_{{include.channel}}_player", options);
   player.setVolume(0.5);
 </script>
