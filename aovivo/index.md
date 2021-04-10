@@ -1,8 +1,8 @@
 ---
 redirect_to: https://twitch.tv/CarlosDelfino_BR
-redirect_from: /live/
-redirect_from: /aovivo/
-permalink: /lives/
+redirect_from: 
+  - /live/
+  - /lives/
 title: Canal Aberto do Carlos Delfino - Temas Diversos
 layout: categorylist
 share: true
