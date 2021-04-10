@@ -1,8 +1,9 @@
 ---
 redirect_to: https://twitch.tv/CarlosDelfino_BR/schedule
-redirect_from: /live/agenda
-redirect_from: /aovivo/agenda
-permalink: /lives/agenda
+redirect_from: 
+  - /live/agenda
+  - /lives/agenda
+permalink: /aovivo/agenda
 title: Canal Aberto do Carlos Delfino - Agenda das Lives
 layout: categorylist
 share: true
