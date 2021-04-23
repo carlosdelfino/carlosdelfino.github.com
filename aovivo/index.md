@@ -1,16 +1,16 @@
 ---
-redirect_to: https://twitch.tv/CarlosDelfino_BR/schedule
-redirect_from: /live/agenda
-redirect_from: /aovivo/agenda
-permalink: /lives/agenda
-title: Canal Aberto do Carlos Delfino - Agenda das Lives
+redirect_to: https://twitch.tv/CarlosDelfino_BR
+redirect_from: 
+  - /live/
+  - /lives/
+title: Canal Aberto do Carlos Delfino - Temas Diversos
 layout: categorylist
 share: true
 ads:
  show: false
 comments: true
 category: lives
-tags: [lives, streamers, youtube, facebook, aovivo, live, schedule]
+tags: [lives, streamers, youtube, facebook, aovivo, live]
 ---
 <script> (function() { var st = document.createElement('script'); st.type = 'text/javascript'; st.async = true; st.src = 'https://www.researchgate.net/javascript/plugin/plugin-api-min.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(st, s); })(); </script>
 

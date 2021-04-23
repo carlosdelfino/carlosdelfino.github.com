@@ -4,9 +4,9 @@ https://keybase.io/carlosdelfino
 
 I hereby claim:
 
-  * I am an admin of http://carlosdelfino.eti.br
+  * I am an admin of https://carlosdelfino.eti.br
   * I am carlosdelfino (https://keybase.io/carlosdelfino) on keybase.
-  * I have a public key with fingerprint 4504 30C3 504C AF58 ABB4  4238 153A 1E26 C8DB A2D4
+  * I have a public key ASCUEw8u5sXEa4tDtO1otYvwgJ4B5snAzOb9D9ANfVbNEwo
 
 To do so, I am signing this object:
 
@@ -14,58 +14,39 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "012094130f2ee6c5c46b8b43b4ed68b58bf0809e01e6c9c0cce6fd0fd00d7d56cd130a",
-      "fingerprint": "450430c3504caf58abb44238153a1e26c8dba2d4",
       "host": "keybase.io",
-      "key_id": "153a1e26c8dba2d4",
-      "kid": "0101f5f5ffe66de2988126b5de45bc08b8912b543fa0e2cb3d37be776f3ab894db3f0a",
+      "kid": "012094130f2ee6c5c46b8b43b4ed68b58bf0809e01e6c9c0cce6fd0fd00d7d56cd130a",
       "uid": "3d70555bc867e45232652e7bd5d01d19",
       "username": "carlosdelfino"
     },
+    "merkle_root": {
+      "ctime": 1618711927,
+      "hash": "ff019ac83fe7c434eb487d33a018fa9d4c22c048fc6dfe7ede4c3721a3593ad460fabc46d17bbaafaa8ea9465d70afec038b6e9119dd6338f4560c76e3e48a6c",
+      "hash_meta": "f37331b82e667c8340c5707eb7a3cef66a2006e676d54cbc7246f969e8f71151",
+      "seqno": 19663337
+    },
     "service": {
+      "entropy": "sy3wOYgQotcemRYsYLueNxPz",
       "hostname": "carlosdelfino.eti.br",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1539988610,
-  "expire_in": 157680000,
-  "prev": "af7d81f094831c7c2413edf845fc6c838845a7546e38fce4ddbd6ac6b86f8031",
-  "seqno": 8,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1618711963,
+  "expire_in": 504576000,
+  "prev": "d33da418afe3a0b28b513e00d19cde84d166c71a2a7f4b6444f335ef15a57947",
+  "seqno": 144,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.80
-Comment: https://keybase.io/crypto
-
-yMNtAnicbVJrTBRXGF0ULG6hYJFSY0PaKRolQOc9s4tBtBVqQ0naYqQ8dp25984y
-sOwu++BNMZsUKYSIEqtSECO0jSHQYjFUkB+ga0EgkJZsoihWiGltLQahpdK19i6p
-/5yZ5N6Z75wz53z3uxq6XqMNiNRHbx+ZOTcdMDbU7tJkX89xVxCyFZYR+gqiAK0t
-yAyRw2ksUCGhJ0iKJnUsxZAKjRAPOMDysiizjMwiyIsyJ8oKKZI6RFK4qgMkAIhX
-IIkfEgqQ4wHEXImIIxTVYkJ2m121OLEsy5EsQwIGL0BSOFGSZZalGZHiGIlCNA9E
-KEs0ZDExz+rwM7A5WXKgBNWKv+EX45q95+Cf+SYphcO3gngeIlonihTNyxxELCcD
-UpRFHUXLHMsoEoloIDOQEWQkCLzCSLjGQplR1ny71uQYKJAch5kiL2AFmqF5jkaC
-DDlIUpDS+YEOZLdIhQijgWQ3Wx0QmXFoK1EVR+BSsQqQv7v+OM+DJSCnmiDbsZDN
-bnVagdWMEXlOp03vF3CW2fyMEiQb/9cyyqoF4p5iQjGyO1SrhdBTGAmcql8cN0aH
-M/MUGUegUptqR0bVj+AEXiTx5f8NKsaSkiJAkVLwIYsMBQRA48NGUBFZTgG4rYyI
-d5LAsTxiRAUgFkIZ8hLAU8ArIslQhD9dEY6pF7FNyYQlHarJIjlddkRUDQ/lBGoC
-tJoNQev8s6bRbgx/NoE3U8KeftRY19AcFPtD7cM3dvUMK0VHHiZe6B69U/JPZNCm
-P/K3pjz44uU7t5dTdxkST8ffiz/UPRgc2dHSvMDRsTXx5GR7k2P1tfHNv7S9d3eb
-MNObfTc0eUODxVhWVswvlp4Bzatn66cysk5naIIvFR5b9n0gaC+31Xpyb8x6zA+S
-Pd7fUnxPW35q8TYOcl5X4qth69pjysL2n7DVGfK35o3VgvDSbb3uRSIrvynJnLHg
-ld7MVc6GGfiBEaIyszH8s/iNrVsW62/kVnEvTXtKxanJiwt1k9T9v24H9y8sPfk+
-gFGPVqaNuedjHtdOuTpSD3Rri86ktVUic8EhWB7yd40h+nK9UhF9ZCchrC/YyUQM
-fN7fHdLEDN5/5PNlcIHzv5tKDH2etD9Tr51Kal3s6drXcHh6tbntPP3+9t3jUWk/
-E4VLgd9przyO2P1Vp3huZX7+rdaQLlN7X1/55pnzORVsxJwQOJtuqdmhcw9FLcyW
-J+041p92Ksr3yNja0ez6xnexbn748L8ry1diB2JX98x9mW4ouRczN3owpOuaJ/vj
-S9czT0xYOlMjYw4c7Z+4lbjn9d7KlL2RW1Zqji+9+0qrSk1vGqzO7Qwan7jw9t7M
-/d6s6qFbpVFXvQe/nblZ7h46+ePoh/05BcP7VmqET6rHPF/3hJUvJ5vcnz5Jzxk5
-+WJAaKf9hdFf3/kP1lfNBg==
-=CUHq
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglBMPLubFxGuLQ7TtaLWL8ICeAebJwMzm/Q/QDX1WzRMKp3BheWxvYWTES5cCzJDEINM9pBiv46Cyi1E+ANGc3oTRZscaKn9LZETzNe8VpXlHxCCXFs9ftRuYbEYh6Pwh984y+eWK+QKaU0NFo7Qa9mhnywIBwqNzaWfEQLINT1B1Zq/owpcQEaAvjjUZa9TRvogQ5a7K0F3Id25DVJSenW8LkC07096BePDUf7PD2/Ds0tAsugukT3X0FAOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCC8HxAnz++h8OTNkq5NL0BZ/Qfc/FzhP6nLkNiKFe8VZqN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.

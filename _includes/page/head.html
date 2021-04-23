@@ -26,7 +26,7 @@
   {% if mastodon.bitcoinhacker %}<a rel="me" href="https://mastodon.social/@mastodon.bitcoinhacker.id">Mastodon</a>{% endif %}
 {% endif %}  
 {% include emailjs.html %}
-   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
 <!-- CSS -->
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.css" />
@@ -38,11 +38,11 @@
    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.extra.css" />
-{% if page.highlighter.css %} <link rel="stylesheet" href="{{ site.url }}/css/{{ page.highlighter.css }}" />
-{% elsif site.css.highlighter %} <link rel="stylesheet" href="{{ site.url }}/css/{{ site.css.highlighter }}">
+{% if page.highlighter.css %} <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.highlighter.css }}" />
+{% elsif site.css.highlighter %} <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ site.css.highlighter }}">
 {% endif %}
-   <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed" />
-   <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap" />
+   <link href="{{ site.baseurl }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed" />
+   <link href="{{ site.baseurl }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap" />
 <!-- Js -->
    <script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js" ></script>
    <script src="{{ site.baseurl }}/js/bootstrap.min.js" ></script>
@@ -55,8 +55,8 @@
 <!--[if lt IE 9]><script src="/js/modernizr.custom.03289.js"></script><![endif]-->
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/html5shiv.min.js" async></script>
-      <script src="{{ site.url }}/js/respond.min.js" async></script>
+      <script src="{{ site.baseurl }}/js/html5shiv.min.js" async></script>
+      <script src="{{ site.baseurl }}/js/respond.min.js" async></script>
     <![endif]-->
 {% if page.math or page.math.version  %}
    {% if page.math.version == 3 %}
@@ -97,7 +97,7 @@
         pagePreCustonFuntions();
     -->
     </script>
-    <script src="{{ site.url }}/js/main2.js" async></script>
-    <script src="{{ site.url }}/js/premain.js" async></script>
+    <script src="{{ site.baseurl }}/js/main2.js" async></script>
+    <script src="{{ site.baseurl }}/js/premain.js" async></script>
     {% include hotmart/analytics.html %}
 </head>
