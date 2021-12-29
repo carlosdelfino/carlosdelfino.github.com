@@ -1,10 +1,12 @@
 ---
 permalink: /wavelets/
-redirect_from: /matematica/wavelets/
+redirect_from: 
+ - /matematica/wavelets/
+ - /Wavelets
 title: Wavelets
 tags: [matematica, wavelets]
 layout: categorylist
-categories: [matematica, wavelets]
+categories: [wavelets]
 share: true
 comments: true
 ads:
