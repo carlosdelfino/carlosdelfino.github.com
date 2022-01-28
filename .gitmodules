@@ -12,7 +12,7 @@
 
 [submodule "_posts"]
 	path = _posts
-	url = https://github.com/CarlosDelfino/_posts.git
+	url = https://github.com/carlosdelfino/_posts.git
 	branch = CarlosDelfino
 
 [submodule "images"]
