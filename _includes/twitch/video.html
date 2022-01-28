@@ -1,3 +1,4 @@
+{%if page.baseurl contains "https"%}
 <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 <div id="twitch_{{include.channel}}_player"></div>
 <script type="text/javascript">
@@ -16,3 +17,4 @@
   var player = new Twitch.Player("twitch_{{include.channel}}_player", options);
   player.setVolume(0.5);
 </script>
+{%endif%}
