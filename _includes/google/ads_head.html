@@ -1,0 +1,5 @@
+{% if page.ads.show or page.url == "/index.html" or page.url == "/" %}
+<script data-ad-client="{{ page.ads.id |default: site.google.adsense.client }}"
+        async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+{% endif %}
