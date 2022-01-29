@@ -20,7 +20,6 @@ teaser: carlosdelfino-palestra-400x161.png
 cover: carlosdelfino-palestra.png
 logo: logo-fullservice-120x120.png
 
-ads: false
 
 jekyll-archives:
   enabled:
@@ -53,6 +52,7 @@ google:
       id: UA-21710445-1
       domain:
    adsense:
+      show: true
       client: ca-pub-1710447158146560
       slot: 8511319937
 
