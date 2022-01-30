@@ -1,5 +1,13 @@
 {% if page.ads.show or page.url == "/index.html" or page.url == "/" %}
-<script data-ad-client="{{ page.ads.id |default: site.google.adsense.client }}"
-        async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+{% assign id = page.ads.id |default: site.google.adsense.client %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1710447158146560"
+     crossorigin="anonymous"></script>
+<script async
+        data-ad-client="{{id}}"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+<script async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?i{{id}}"
+    crossorigin="anonymous">
 </script>
 {% endif %}
