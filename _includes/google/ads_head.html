@@ -1,4 +1,4 @@
-{% if page.ads.show or page.url == "/index.html" or page.url == "/" %}
+{% if site.google.adsense.show && page.ads.show %}
 {% assign id = page.ads.id |default: site.google.adsense.client %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1710447158146560"
      crossorigin="anonymous"></script>
@@ -6,7 +6,7 @@
         data-ad-client="{{id}}"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 </script>
-<script async 
+<script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?i{{id}}"
     crossorigin="anonymous">
 </script>
