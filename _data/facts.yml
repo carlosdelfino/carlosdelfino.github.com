@@ -15,7 +15,7 @@
 
 - class: alarm
   title: Mais de
-  count: 40.000
+  count: 100.000
   description: horas de sono perdidas
 
 - class: alarm
@@ -40,7 +40,7 @@
 
 - class: bulb
   title: Mais de
-  count: 58
+  count: 60
   description: consultorias em projetos
 
 - class: logo-usd
