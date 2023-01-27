@@ -3,6 +3,8 @@ redirect_from:
  - "/Carlos_Delfino_-_Consultoria_e_Projetos/"
  - "/Carlos_Delfino_-_Consultoria_e_Projetos/Inicio.html"
 layout: default
+ads: 
+ show: true
 permalink: /
 image:
    feature: carlosdelfino-palestra-400x161.png
