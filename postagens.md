@@ -3,8 +3,7 @@ layout: index
 permalink: /postagens/
 title: "Últimas Postagens"
 share: true
-page:
- ads:
+ads:
   style: horizontal
 ---
 Últimos artigos escritos para este site.
