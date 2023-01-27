@@ -5,22 +5,22 @@
 
 - class: desktop
   title: Mais de
-  count: 1.500.000.000
+  count: 1500000000
   description: linhas de código
 
 - class: cafe
   title: Mais de
-  count: 500.000
+  count: 500000
   description: xícaras de café
 
 - class: alarm
   title: Mais de
-  count: 100.000
+  count: 100000
   description: horas de sono perdidas
 
 - class: alarm
   title: Mais de
-  count: 50.000
+  count: 50000
   description: páginas de livros e artigos lidos
 
 - class: contacts
