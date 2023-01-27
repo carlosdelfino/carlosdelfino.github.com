@@ -1,7 +1,7 @@
 {% if site.google.adsense.show && page.ads.show %}
 {% assign id = page.ads.id |default: site.google.adsense.client %}
 <script async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?i{{id}}"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{id}}"
     crossorigin="anonymous">
 </script>
 {% endif %}
