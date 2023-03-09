@@ -21,17 +21,15 @@ Atuo no mercado como Consultor / Desenvolvedor / Analista de Suporte e Sistemas 
 
 ### BIO
 
-Já com quase 30 anos de mercado. Iniciei profissionalmente como programador, mas com a demanda por profissionais qualificado em suporte a rede de computadores e tendo grande afinidade com infraestrutura me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
+Já superei os 30 anos de mercado. Iniciei profissionalmente como programador no início dos meus 20 anos, mas com a demanda por profissionais qualificado em suporte a rede de computadores e tendo grande afinidade com infraestrutura me especializei iniciando com o Xenix (um dialeto UNIX), migrando inicialmente para o Windows NT e depois integrando e complementando com o Linux quando este começou a dominar o mercado em 1996.
 
 No início, fazia de tudo, limpava computadores, teclados, monitores, montava, consertava e vendia, com a experiência fui especializando e focando mais. Então, comecei a atuar como consultor e programador (novamente), nas linguagens Clipper, Dataflex, Cobol, Java, PHP e atualmente com C/C++ e JavaScript no Framework NativeScript.
 
-Durante minha vida acadêmica, que pretendo voltar em breve, não simplesmente pelo título ou salário mas pelo ideal de ser um pesquisador reconhecido e contribuir com o meio oferecendo e multiplicando conhecimento, me formei no curso de "Projeto e Implementação de Redes de Computadores", onde tive a oportunidade de atuar como bolsista de dois professores em seus respectivos projetos de mestrado, Prof. Aminadabe com o projeto [An Algorithm for Fault Location in SDH/WDM Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.9439) [http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks](http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks) e colaborando com o Prof Inácio em [Uma Proposta Para Descoberta e Monitoramento de Recursos em Redes de Computadores Usando Agentes Móveis](http://www.uece.br/mpcomp/index.php/arquivos/doc_download/177-dissertacao-18), também fiz diversos cursos ligados a segurançade redes com linux, programação com a linguagem Java, e consultoria em gestão de projetos pela ótica do PMI (PMBOK).
+Durante minha vida acadêmica, pelo ideal de ser um pesquisador reconhecido e contribuir com o meio oferecendo e multiplicando conhecimento, me formei no curso de "Projeto e Implementação de Redes de Computadores", onde me foi dado a oportunidade de atuar como bolsista de dois professores em seus respectivos projetos de mestrado, Prof. Aminadabe com o projeto [An Algorithm for Fault Location in SDH/WDM Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.9439) [http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks](http://bit.ly/AlgorithmFaultLocationSDH_WDMNetworks) e colaborando com o Prof Inácio em [Uma Proposta Para Descoberta e Monitoramento de Recursos em Redes de Computadores Usando Agentes Móveis](http://www.uece.br/mpcomp/index.php/arquivos/doc_download/177-dissertacao-18), também fiz diversos cursos ligados a segurançade redes com linux, programação com a linguagem Java, e consultoria em gestão de projetos pela ótica do PMI (PMBOK).
 
-Atualmente ministro cursos com Arduino, Cortex-M entre outros, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
+Ministrei cursos com Arduino, Cortex-M entre outros,  em turmas fechadas, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
 
-Mas em 2015, votei a me dedicar aos estudos e projetos que utilizam a linguagem Java e seus frameworks. Porém quem me contratou não levou o projeto a frente, e volte no inicio de 2016 com carga total para o universo dos microcontroladores em especial Cortex-M, e agora também xTensa (os usados no ESP8266) e para celular com Nativescrip que usa a linguagem JavaScript.
-
-Visite a página [Cursos Arduino Minas](/cursoarduino) para conhecer os cursos e palestras que tenho ministrado, e quais estou preparando para atender a demanda atual.
+Atualmente afastado por questões médicas, mas aberto a propostas de projetos.
 
 ### ASSUNTOS FAVORITOS
 
