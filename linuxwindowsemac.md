@@ -4,11 +4,14 @@ redirect_from:
  - "/windows/"
  - "/mac/"
  - "/linuxwindowsemac/"
+ - "/linuxmacwindows/"
+ - "/maclinuxwindows/"
+ - "/LinuxWindowsMac/"
 permalink: /linuxwindowsmac/
-title: Telefonia e Automação
+title: Linux Windos e Mac (Apple)
 excerpt: Dicas, mactes e sugestões sobre ferramentas e uso dos principais sistemas operacionais. 
 layout: categorylist
-category: linuxwindowsmac
+category: LinuxWindowsMac
 share: true 
 feature:
  index: true
