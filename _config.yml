@@ -15,7 +15,7 @@ encoding: utf-8
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: 
+baseurl:
 teaser: carlosdelfino-palestra-400x161.png
 cover: carlosdelfino-palestra.png
 logo: logo-fullservice-120x120.png
@@ -143,6 +143,9 @@ resolvermaps:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+tawkto:
+  enable: true;
 
 plugins:
   - jekyll-redirect-from
