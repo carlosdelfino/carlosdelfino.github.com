@@ -1,0 +1,333 @@
+# carlosdelfino.eti.br
+> Artigos sobre engenharia elétrica, teologia islâmica e marketing digital.
+
+## Conteúdo Principal
+- [Curso Inteligência Generativa para Programação](https://carlosdelfino.eti.br/cursos/cronograma_curso_introducao_a_programacao_com_chatGPT/) — 
+- [Apresentando a Rapport Tecnologia - Modernidade, Desempenho e Personalidade para o Sucesso do Seu Negócio](https://carlosdelfino.eti.br/rapport/apresentando-a-rapport-tecnologia/) — 
+- [Como Encontrar Motivação para Persistir: Uma Jornada de Inspiração e Resiliência](https://carlosdelfino.eti.br/pensamentos/Como-Encontrar-Motiva%C3%A7%C3%A3o-para-Persistir/) — 
+- [Descubra a Importância de Tau (τ) em Matemática e Eletrônica](https://carlosdelfino.eti.br/matematica/descubra-a-importancia-da-letra-tau/) — 
+- [O Uso da Letra Grega ômega (ω) em Fórmulas](https://carlosdelfino.eti.br/matematica/true/formulas-matematicas-que-utilizam-a-letra-omega/) — 
+- [Como Fazer Web Scraping com BeautifulSoup e Pandas](https://carlosdelfino.eti.br/programacao/python/um-crawler-para-web-scraping/) — 
+- [Fórmulas Matemáticas Utilizando a Letra Grega Psi Minúscula (ψ)](https://carlosdelfino.eti.br/matematica/formulas-matematicas-que-utilizam-a-letra-psi/) — 
+- [O Uso da Letra Grega &epsilon; em Fórmulas Matemáticas](https://carlosdelfino.eti.br/matematica/o-uso-da-letra-epsilon-na-matematica/) — 
+- [Impacto da Pejotização na Previdência Social e nos Trabalhadores no Brasil](https://carlosdelfino.eti.br/emprego/pjtiza%C3%A7%C3%A3o-e-complicacoes-previd%C3%AAnci%C3%A1rias/) — 
+- [As Fórmulas com a Letra Grega Phi (Φ)](https://carlosdelfino.eti.br/matematica/f%C3%ADsica/engenharia%20el%C3%A9trica/estat%C3%ADstica/o-uso-da-letra-phi-na-matematica/) — 
+- [Francisco Canho e o Chuveiro Elétrico: Uma História Brasileira](https://carlosdelfino.eti.br/extra/invencoes/inven%C3%A7%C3%A3o-do-choveiro/) — 
+- [Rapport Site Bot: A Revolução na Comunicação Automatizada](https://carlosdelfino.eti.br/marketing/tecnologia/neg%C3%B3cios/rapport-site-boot/) — 
+- [Como Desenvolver Parcerias em Troca de Serviços](https://carlosdelfino.eti.br/negocia%C3%A7%C3%B5es/parcerias-troca-de-servi%C3%A7os/) — 
+- [Os 5 Melhores Sites para Contratação e Divulgação de Serviços Freelance](https://carlosdelfino.eti.br/extra/freelancers/plataformas-de-freelancer/) — 
+- [Paralaxe Cognitiva: Interferências nas Relações Profissionais, Acadêmicas e Sociais](https://carlosdelfino.eti.br/extra/comportamento/paralax-cognitiva/) — 
+- [Política de Uso da API](https://carlosdelfino.eti.br/pol%C3%ADtica%20de%20uso/api/politica-de-uso-geral-api-chatgpt/) — 
+- [Manual Vendas Arvore Dos Saberes](https://carlosdelfino.eti.br/Manual-Vendas-Arvore-Dos-Saberes/) — 
+- [A Importância de Saber Usar o ChatGPT: Uma Nova Era para Teses, Dissertações e Monografias](https://carlosdelfino.eti.br/extra/escrita/como-usar-o-chatgpt-para-ajudar-em-monografias/) — 
+- [Comparação de Chipsets AMD e Outras Marcas](https://carlosdelfino.eti.br/tecnologia/hardware/chipset-amd/) — 
+- [Calculando Skin Depth](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%202/O_que_e_spice/) — 
+- [Salesforce - Fazendo Login em Organização pelo VSCode](https://carlosdelfino.eti.br/programacao/salesforce/Salesforce_Login_Org_com_VSCode/) — 
+- [Salesforce - Instalando Local Server](https://carlosdelfino.eti.br/programacao/salesforce/Salesforce_Local_Server/) — 
+- [Criando um Container simples no Docker](https://carlosdelfino.eti.br/linuxwindowsmac/docker/Criando_um_container_simples/) — 
+- [Dar Acesso Root a Usuários](https://carlosdelfino.eti.br/linuxwindowsmac/Dar_acesso_root_a_usuarios/) — 
+- [Pandas_date_range](https://carlosdelfino.eti.br/pandas_date_range/) — 
+- [Introdução ao Python - Lidando com Porta Serial](https://carlosdelfino.eti.br/programacao/python/introducao_python-lidando_com_porta_serial/) — 
+- [Introdução ao Python - Lidando com Arquivos](https://carlosdelfino.eti.br/programacao/python/introducao_python-lidando_com_arquivos/) — 
+- [Introdução ao Python - Estruturas de Controle - If e Else](https://carlosdelfino.eti.br/programacao/python/introducao_python_estruturas_de_controle-if_else/) — 
+- [Introdução ao Python - Estruturas de Controle - Loops](https://carlosdelfino.eti.br/programacao/python/introducao_python_estruturas_de_controle-Loops/) — 
+- [Introdução ao Python - Boas Práticas](https://carlosdelfino.eti.br/programacao/python/introducao_python_boas_praticas/) — 
+- [Introdução ao Python - Típos de Variáveis](https://carlosdelfino.eti.br/programacao/python/introducao_python_tipos_de_dados/) — 
+- [Introdução ao Python - Operadores](https://carlosdelfino.eti.br/programacao/python/introducao_python_operadores/) — 
+- [Introdução ao Python - Palavras Reservadas](https://carlosdelfino.eti.br/programacao/python/introducao_python_palavras_reservadas/) — 
+- [Introdução ao Python - O Interpretador Interativo do Python](https://carlosdelfino.eti.br/programacao/python/introducao_python_interpretador_python/) — 
+- [Introdução ao Python - O módulo Pandas](https://carlosdelfino.eti.br/programacao/python/introducao_python_o_modulo_pandas/) — 
+- [Introdução ao Python - O módulo NumPy](https://carlosdelfino.eti.br/programacao/python/introducao_python_o_modulo_numpy/) — 
+- [Introdução ao Python - Virtual Enviroment, NumPy e Pandas](https://carlosdelfino.eti.br/programacao/python/introducao_python_venv_numpy_pandas/) — 
+- [Introdução ao Python - Instalação](https://carlosdelfino.eti.br/programacao/python/introducao_python_instala%C3%A7%C3%A3o/) — 
+- [Introdução ao Python - Histórico de Versões](https://carlosdelfino.eti.br/programacao/python/introducao_python-_historico_de_vers%C3%B4es/) — 
+- [Introdução ao Python - Apresentação](https://carlosdelfino.eti.br/programacao/python/introducao_python/) — 
+- [Guido van Rossum](https://carlosdelfino.eti.br/perfil/guido-van-rossum/) — 
+- [Criando credêncial para Google Cloud](https://carlosdelfino.eti.br/ciencia%20de%20dados/investimentos/criando_credencial_google_cloud/) — 
+- [Processando a Planilha de dados fundamentalistas do Site Eu Quero Investir (EQI)](https://carlosdelfino.eti.br/ciencia%20de%20dados/investimentos/processando_planilha_euqueroinvestir/) — 
+- [Processando Dados Fundamentalistas do StatusInvest](https://carlosdelfino.eti.br/ciencia%20de%20dados/investimentos/processando_dados_statusinvest/) — 
+- [Analise Fundamentalista - Sequência de Tutoriais](https://carlosdelfino.eti.br/ciencia%20de%20dados/investimentos/analise-fundamentalista-tutoriais/) — 
+- [Timothy Lu](https://carlosdelfino.eti.br/perfil/Timothy_Lu/) — 
+- [Uma pequena parte de minha História - Meu Começo - Data Control - Meu Primeiro Auto CAD](https://carlosdelfino.eti.br/minha%20historia/Uma_Historia_do_meu_comeco/) — 
+- [Numeros Imaginários e Trigonometria](https://carlosdelfino.eti.br/matematica/complexos/Numeros_Imaginarios_e_Trigonometria/) — 
+- [Raiz Quadrada De Numeros Imaginarios Usando Algebra](https://carlosdelfino.eti.br/matematica/complexos/Raiz_Quadrada_De_Numeros_Imaginarios_Usando_Algebra/) — 
+- [Raiz Quadrada de 'i'](https://carlosdelfino.eti.br/matematica/complexos/Raiz_Quadrada_i/) — 
+- [Números Imaginários](https://carlosdelfino.eti.br/matematica/complexos/Numeros_Imaginarios/) — 
+- [Instalando o Octave no Linux](https://carlosdelfino.eti.br/matematica/wavelets/instalando-octave-no-linux/) — 
+- [Eclipse com Uma Instalação e Multiplos Usuários](https://carlosdelfino.eti.br/eclipse/Eclipse_Uma_Instalacao_Multiplos_Usuarios/) — 
+- [Riscuinho de Site Novo](https://carlosdelfino.eti.br/basicaodaeletronica/Riscuinho_de_site_novo/) — 
+- [Testador de Cabos](https://carlosdelfino.eti.br/embarcados/testadores/Testador-de-Cabos/) — 
+- [Verilog Coding Rules](https://carlosdelfino.eti.br/fpga/verilog/Verilog-Coding-Rules/) — 
+- [Verilator](https://carlosdelfino.eti.br/embarcados/fpga/verilator/) — 
+- [Calculos Distancia Com Base Em Ortodromia](https://carlosdelfino.eti.br/calculos-distancia-com-base-em-ortodromia/) — 
+- [Verificando o resultado de seus calculos](https://carlosdelfino.eti.br/cursoarduino/geoprocessamento/script-calculo-distancias-com-base-em-coordenadas-de-gps/) — 
+- [John von Neumann](https://carlosdelfino.eti.br/perfil/von_Newmann/) — 
+- [Porque Cobro Pelos Meus Serviços](https://carlosdelfino.eti.br/porque_cobro_pelos_meus_servicos/) — 
+- [O Especialista: Quanto vale a solução do seu problema?](https://carlosdelfino.eti.br/extra/O_Especialista/) — 
+- [Dicas de Manutenção de Computadores - FullService](https://carlosdelfino.eti.br/fullservice/) — 
+- [Jogando GO](https://carlosdelfino.eti.br/jogos/Jogando_Go/) — 
+- [O Candidato a Vereador de Aquiraz em 2020](https://carlosdelfino.eti.br/O_Candidato_a_Vereador_em_2020/) — 
+- [Instalando Wavelab no Octave 5.2 para Windows - Introdução aos Wavelets](https://carlosdelfino.eti.br/matematica/wavelets/Wavelabs-install/) — 
+- [Trusted Firmware-M](https://carlosdelfino.eti.br/arm/trustzone/Trusted_Firmware-M/) — 
+- [ARM empodera Microcontroladores com Mais Inteligencia Artificial](https://carlosdelfino.eti.br/arm/cortex-m/Arm_empodera_microcontroladores_com_mais_IA/) — 
+- [Wavelets no Arduino - Sampling](https://carlosdelfino.eti.br/matematica/wavelets/wavelets_arduino_analog_sampling/) — 
+- [Wavelets no Arduino - Início](https://carlosdelfino.eti.br/matematica/wavelets/wavelets_arduino/) — 
+- [Bibliotecas C ou C++ para Wavelets](https://carlosdelfino.eti.br/matematica/wavelets/wavelets-programacao/) — 
+- [Arduino Zero](https://carlosdelfino.eti.br/arduino/zero) — 
+- [Arduino Uno](https://carlosdelfino.eti.br/arduino/uno) — 
+- [Arduino Pro](https://carlosdelfino.eti.br/arduino/pro) — 
+- [Arduino Mega](https://carlosdelfino.eti.br/arduino/mega) — 
+- [Arduino Leonardo](https://carlosdelfino.eti.br/arduino/leonardo) — 
+- [Arduino Due](https://carlosdelfino.eti.br/arduino/due) — 
+- [Ingrid Daubechies](https://carlosdelfino.eti.br/perfil/Stephane_Mallat/) — 
+- [a Wavelet tour of signal processing - The Sparse Way](https://carlosdelfino.eti.br/livro/a_wavelet_tour_of_sinal_processing_-_the_sparse_way/) — 
+- [École nationale supérieure de Telecommunications](https://carlosdelfino.eti.br/institui%C3%A7%C3%B5es/universidades/ecole-nationale-superieure-de-telecomunications/) — 
+- [Wavelets no Octave, entre outros](https://carlosdelfino.eti.br/matematica/wavelets/wavelets_octave_entre_outros/) — 
+- [Daubechs Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/daubechs-wavelets/) — 
+- [Biorthogonal Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/biorthogonal-wavelets/) — 
+- [Referências sobre Wavelets](https://carlosdelfino.eti.br/matematica/wavelets/Wavelets_referencias/) — 
+- [Street Pet](https://carlosdelfino.eti.br/projetos/StreetPet/) — 
+- [Típos de  Wavelets](https://carlosdelfino.eti.br/matematica/wavelets/wavelets-tipos/) — 
+- [Symlets Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/symlets-wavelets/) — 
+- [Morlet Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/morlet-wavelets/) — 
+- [Meyer Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/meyer-wavelets/) — 
+- [Mexican Hat Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/mexican_hat-wavelets/) — 
+- [Haar Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/haar-wavelets/) — 
+- [Coiflats Wavelet](https://carlosdelfino.eti.br/matematica/wavelets/coiflets-wavelets/) — 
+- [Ronald Raphael Coifman](https://carlosdelfino.eti.br/perfil/ronald-coifman/) — 
+- [Ingrid Daubechies](https://carlosdelfino.eti.br/perfil/ingrid_daubechies/) — 
+- [Introdução aos Wavelets](https://carlosdelfino.eti.br/matematica/wavelets/wavelets-introducao/) — 
+- [Introdução ao VCPkg e CMake - Primeiro Projeto](https://carlosdelfino.eti.br/programacao/ccplusplus/VCPkg_e_CMake_introducao_-_primeiro_projeto/) — 
+- [Introdução ao VCPkg e CMake - Instalação](https://carlosdelfino.eti.br/programacao/ccplusplus/VCPkg_e_CMake_introducao_-_instalacao/) — 
+- [Como usar as portas do DE0-Nano](https://carlosdelfino.eti.br/de0_nano_suas_portas_como_usar/) — 
+- [Averting Ghamm (Dor) e Hamm (Preocupação)](https://carlosdelfino.eti.br/islam/khutbah/Averting_Ghamm_e_Hamm/) — 
+- [Para se tornar um expert em VHDL](https://carlosdelfino.eti.br/para-se-tornar-um-expert-em-vhdl/) — 
+- [RTOS no FPGA com DE0-Nano](https://carlosdelfino.eti.br/embarcados/fpga/RTOS-FPGA-DE0-NANO/) — 
+- [RiscCore e RiscFive no DE0-nano](https://carlosdelfino.eti.br/embarcados/fpga/de0-nano-risccore-e-riscfive/) — 
+- [Meru primeiro Projeto FPGA](https://carlosdelfino.eti.br/embarcados/fpga/meu-primeiro-projeto-fpga/) — 
+- [Circuitos Lógicos](https://carlosdelfino.eti.br/embarcados/circuitos%20l%C3%B3gicos/circuitos_logicos/) — 
+- [FreeRTOS](https://carlosdelfino.eti.br/embarcados/rtos/RTOS/) — 
+- [Calculando Skin Depth](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%202/calculando_skin_depth/) — 
+- [Normas Regulamentadoras](https://carlosdelfino.eti.br/normas%20regulamentadoras/Normas-Regulamentadoras-do-Trabalho/) — 
+- [FPGA o que é, como funciona e as relações com VHDL](https://carlosdelfino.eti.br/embarcados/fpga/detalhes_sobre_fpga/) — 
+- [HDL](https://carlosdelfino.eti.br/embarcados/vhdl/vhdl/) — 
+- [HDL](https://carlosdelfino.eti.br/embarcados/hdl/hdl/) — 
+- [10 Lições de Marco Aurélio](https://carlosdelfino.eti.br/pensamento/motiva%C3%A7%C3%A3o/10_licoes_de_marco_aurelio/) — 
+- [Aristóteles - Política (trechos do livro I)](https://carlosdelfino.eti.br/pensamento/politica/a-politica-aristoteles-livro-i/) — 
+- [A Terra dos Cegos - H. G. Wells - 1904](https://carlosdelfino.eti.br/pensamentos/a-terra-dos-cegos/) — 
+- [Noções de lógica proposicional](https://carlosdelfino.eti.br/pensamentos/Logica/) — 
+- [Argumenta](https://carlosdelfino.eti.br/pensamentos/argumenta/) — 
+- [Programando Células Biológicas](https://carlosdelfino.eti.br/bioinformatica/Programando_celulas_biologicas/) — 
+- [Paradoxos e Paradigmas](https://carlosdelfino.eti.br/Paradoxo-Paradigma/) — 
+- [Achado não é Roubado, será?](https://carlosdelfino.eti.br/pensamentos/comportamento/Achado-nao-e-roubado-sera/) — 
+- [Três Principais Conceitos do JavaScript para quem vai Programar com React](https://carlosdelfino.eti.br/series/react/javascript/tres_principais_conceitos_do_javascript_para_react/) — 
+- [Gerenciadores Remotos Para Servidores](https://carlosdelfino.eti.br/gerenciadores-remotos-para-servidores/) — 
+- [O Novo Código de Conduta do Linux](https://carlosdelfino.eti.br/pensamentos/codigo%20de%20conduta/novo_codigo_de_conduta_linux/) — 
+- [Artigo ou Paper? qual a diferença?](https://carlosdelfino.eti.br/pesquisa/artigo_ou_paper/) — 
+- [Editando um velho Commit](https://carlosdelfino.eti.br/series/series%20trabalhando%20com%20o%20git/corrigindo-um-velho-commit/) — 
+- [Musica Terapia Classica](https://carlosdelfino.eti.br/m%C3%BAsicas/terapia/musico-terapia-classica/) — 
+- [Como criar um sub-módule de um diretório existente](https://carlosdelfino.eti.br/series/series%20trabalhando%20com%20o%20git/criando-submodule-de-um-diretorio-existente-em-um-projeto-no-git/) — 
+- [Aquecedor por Indução](https://carlosdelfino.eti.br/projeto/aquecedor/Aquecimento_por_inducao/) — 
+- [Estudando como projetar um inversor de frequência com Arduino](https://carlosdelfino.eti.br/cursoarduino/potencia/Estudando_como_projetar_um_inversor_de_frequencia_com_arduino/) — 
+- [Usando o MathJax para representar formulas matemáticas em Latex](https://carlosdelfino.eti.br/matematica/mathjax/mathjax_latex_representacao_matematica/) — 
+- [Introdução as Redes Neurais, Tipos de Redes Neurias e Modelos](https://carlosdelfino.eti.br/series/redes%20neurais/introducao/Introducao_Redes_Neurais_tipos_de_redes_neurais_e_modelos/) — 
+- [Fazendo meu Canvas](https://carlosdelfino.eti.br/projeto/canvas/Meu_Canvas/) — 
+- [Desenvolvimento Automotivo - AUTOSAR - Complex Driver](https://carlosdelfino.eti.br/helloword/arm/nivel_2/automotive/autosar/Desenvolvimento_Automotivo_autosar_complex_driver/) — 
+- [Desenvolvimento Automotivo - AUTOSAR - Abstract ECU](https://carlosdelfino.eti.br/helloword/arm/nivel_2/automotive/autosar/Desenvolvimento_Automotivo_autosar_abstract_ecu/) — 
+- [Desenvolvimento Automotivo - AUTOSAR - Service](https://carlosdelfino.eti.br/helloword/arm/nivel_2/automotive/autosar/Desenvolvimento_Automotivo_autosar_services/) — 
+- [Desenvolvimento Automotivo - AUTOSAR - MCAL](https://carlosdelfino.eti.br/helloword/arm/nivel_2/automotive/autosar/Desenvolvimento_Automotivo_autosar_mcal/) — 
+- [Começando a Escrever](https://carlosdelfino.eti.br/extra/escrita/comecando_a_escrever/) — 
+- [Artigos Históricos](https://carlosdelfino.eti.br/deprecated/artigos_hitoricos/) — 
+- [Configurando o Eclipse Oxygen para Desenvolvimento com nRF5x](https://carlosdelfino.eti.br/arm/cortex-m/nrf5x/Configurando_o_Eclipse_Oxygen_para_Desenvolvimento_com_nRF5x/) — 
+- [Assinatura de Programação](https://carlosdelfino.eti.br/programacao/assinatura_de_programacao/) — 
+- [Termos usados com Kubernets?](https://carlosdelfino.eti.br/redes/clouds/Termos_usados_com_Kubernets/) — 
+- [SDN, o que é e suas Opções?](https://carlosdelfino.eti.br/redes/sdn/SDN_o_que/) — 
+- [Tipos de Fontes Chaveadas](https://carlosdelfino.eti.br/basicaodaeletronica/n%C3%ADvel%203/fontes%20chaveadas/Tipos_De_Fontes_Chaveadas/) — 
+- [Fazendo seu próprio TAP para monitoramento de redes](https://carlosdelfino.eti.br/fazendo_seu_proprio_tap_paramonitoramento_de_redes/) — 
+- [Emulando Dispositivos Android](https://carlosdelfino.eti.br/programacao/mobile/android/emulando_dispositivos_android/) — 
+- [Alex Martelli](https://carlosdelfino.eti.br/perfil/Alex-Martelli/) — 
+- [Criando componentes no Fritzing](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%203/criando_componentes_no_fritzing/) — 
+- [Estas Tonne @ Boom 2014 [Road to Utopia]](https://carlosdelfino.eti.br/m%C3%BAsicas/estas_tonne/) — 
+- [Yes - Acústico](https://carlosdelfino.eti.br/m%C3%BAsicas/yes/) — 
+- [Outros Métodos para Aprendizado](https://carlosdelfino.eti.br/iii-siconect/outros_metodos_para_aprendizado/) — 
+- [Hello World ARM Cortex-M4 usando o QEMU](https://carlosdelfino.eti.br/iii-siconect/hello_world_ARM_Cortex-M4-QEMU/) — 
+- [Como Instalar os Templates e Pacotes CMSIS para Nosso Workshop](https://carlosdelfino.eti.br/iii-siconect/como_instalar_os_templates_e_pacotes_cmsis_para_nosso_workshop/) — 
+- [Pequenos detalhes da instalação do Eclipse com referência ao ARM GNU Eclipse](https://carlosdelfino.eti.br/iii-siconect/pequenos_detalhes_da-instalacao_do_Eclipse_com_refer%C3%AAncia_ao_ARM_GNU_Eclipse/) — 
+- [Parametrização do Eclipse para uso com o GNU ARM Eclipse](https://carlosdelfino.eti.br/iii-siconect/parametrizacao_do_eclipse_pra_uso_com_o_gnu_arm_eclipse/) — 
+- [Instalação e Parametrização no Eclipse para uso do GNU ARM Eclipse](https://carlosdelfino.eti.br/iii-siconect/instalacao_parametrizacao_no_eclipse_pra_uso_do_gnu_arm_eclipse/) — 
+- [Apresentação rápida do QEMU](https://carlosdelfino.eti.br/iii-siconect/Apresentacao_rapida_do_QEMU/) — 
+- [Apresentação Rápida do Eclipse](https://carlosdelfino.eti.br/iii-siconect/Apresentacao_rapida_do_Eclipse/) — 
+- [Apresentação da ARM](https://carlosdelfino.eti.br/iii-siconect/Apresentacao_do_ARM/) — 
+- [Máquina Virtual de Referência par ao Workshop](https://carlosdelfino.eti.br/iii-siconect/Maquina_Virtual_de_Referencia/) — 
+- [Instalando o ambiente base, ferramentas e preparando o ambiente de desenvolvimento](https://carlosdelfino.eti.br/iii-siconect/instalando_o-ambiente_base_ferramentas_e_preparando_o_ambiente_de_desenvolvimento_-_estacio_do_ceara/) — 
+- [Programação do Workshop - Estácio do Ceará - 2016_2](https://carlosdelfino.eti.br/iii-siconect/Programacao_do_Workshop_-_Estacio_do_Ceara_-_2016-2/) — 
+- [Facilitando o desenvolvimento para a próxima geração de embarcados inteligentes e conectados](https://carlosdelfino.eti.br/arm/cortex-m/Facilitando_o_desenvolvimento_para_a_proxima_geracao_de_embarcados_inteligentes_e_conectados/) — 
+- [Lançados novos Microcontroladores para IoT - Parte 2/2](https://carlosdelfino.eti.br/arm/cortex-m/iot/Lancados-novos-microcontroladores-para-IoT-parte-2-2/) — 
+- [Lançados novos Microcontroladores para IoT - Parte 1/2](https://carlosdelfino.eti.br/arm/cortex-m/iot/Lancados-novos-microcontroladores-para-IoT-parte-1-2/) — 
+- [Primeiros Passos com o QEMU, fase 3 - Passo 1](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/paths/Primeiros_Passos_com_o_QEMU-fase-3-passo-1/) — 
+- [Primeiros Passos com o QEMU, fase 2 - Passo 1](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/paths/Primeiros_Passos_com_o_QEMU-fase-2-passo-1/) — 
+- [Primeiros Passos com o QEMU, Passo 11](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-11/) — 
+- [Primeiros Passos com o QEMU, Passo 10](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-10/) — 
+- [Primeiros Passos com o QEMU, Passo 9](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-9/) — 
+- [Primeiros Passos com o QEMU, Passo 8](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-8/) — 
+- [Primeiros Passos com o QEMU, Passo 7](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-7/) — 
+- [Primeiros Passos com o QEMU, Passo 6](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-6/) — 
+- [Primeiros Passos com o QEMU, Passo 5](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-5/) — 
+- [Primeiros Passos com o QEMU, Passo 4](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-4/) — 
+- [Primeiros Passos com o QEMU, Passo 3](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-3/) — 
+- [Primeiros Passos com o QEMU, Passo 2](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-2/) — 
+- [Depurando com Arrays](https://carlosdelfino.eti.br/programacao/depuracao/Depurando_Com_Arrays/) — 
+- [Primeiros Passos com o QEMU, Passo 1](https://carlosdelfino.eti.br/emulacaoevirtualizacao/qemu/compilando/Primeiros_Passos_com_o_QEMU-passo-1/) — 
+- [Recompilando o OpenCV no Linux Ubuntu e Similares para Cortex-A53](https://carlosdelfino.eti.br/vis%C3%A3o%20computacional/Recompilando_OpenCV_Linux_NanoPI-M3/) — 
+- [Dizem que Linus Torvalds prefere x86](https://carlosdelfino.eti.br/embarcados/Porque_Linus_Torvalds_prefere_x86/) — 
+- [Linus Torvalds](https://carlosdelfino.eti.br/perfil/Linux_Torvarlds/) — 
+- [Contando Bicicletas](https://carlosdelfino.eti.br/embarcados/Contando_Bicicletas_NanoPI/) — 
+- [Cortex-R52 empodera cameras e veículos autonômos](https://carlosdelfino.eti.br/helloworld/arm/nivel_3/Cortex-R52_Cameras_Veiculos_Autonomos/) — 
+- [Por que temos tanta tecnologia mas produzimos como a 50 anos atrás?](https://carlosdelfino.eti.br/pensamentos/Porque_temos_tanta_tecnologia_mas_produzimos_como_a_50_anos_atras/) — 
+- [Porque_deixar_de_usar_o_cygwin](https://carlosdelfino.eti.br/Porque_Deixar_De_Usar_O_Cygwin/) — 
+- [Maquinas_virtuais_para_desenvolvimento_compartilhadas](https://carlosdelfino.eti.br/Maquinas_Virtuais_Para_Desenvolvimento_Compartilhadas/) — 
+- [Letras Gregas](https://carlosdelfino.eti.br/programacao/html/letras-gregas/) — 
+- [Eratóstenes](https://carlosdelfino.eti.br/perfil/eratostenes/) — 
+- [Calculando Distâncias com base em coordenadas de GPS - Distâncias Maiores que 7 graus](https://carlosdelfino.eti.br/cursoarduino/geoprocessamento/Calculando-distancias-com-base-em-coordenadas-de-gps-distancias-maiores-que-7-graus/) — 
+- [Aprendendo a Calcular Distâncias com base em coordenadas de GPS - Angulos menores que 7 graus](https://carlosdelfino.eti.br/cursoarduino/geoprocessamento/calculando-distancias-com-base-em-coordenadas-de-gps/) — 
+- [Declarando Variáveis no C ou C++](https://carlosdelfino.eti.br/programacao/ccplusplus/declarando-variveis-no-c-ou-cplusplus/) — 
+- [KnuPath Um Processador Neural Neural](https://carlosdelfino.eti.br/series/redes%20neurais/processadores/knupath-um-processador-neural-neural/) — 
+- [Duck Typing](https://carlosdelfino.eti.br/extra/termos/duke_typing/) — 
+- [Como escrever letras invertidas](https://carlosdelfino.eti.br/extra/unicode/Como_escrever_letras_invertidas/) — 
+- [Quanto mais denso, mas rápido](https://carlosdelfino.eti.br/extra/processadores/quanto_mais_denso_mas_rapido/) — 
+- [Arquitetura versus Organização computacional](https://carlosdelfino.eti.br/linguagem%20de%20programa%C3%A7%C3%A3o/arquitetura-versus-organizao-computacional/) — 
+- [Como Instalar o DIG no Windows](https://carlosdelfino.eti.br/redes/administra%C3%A7%C3%A3o%20de%20dominios/como-instalar-o-dig-no-windows/) — 
+- [Protegendo a Visualização do Conteúdo Netflix em Escala](https://carlosdelfino.eti.br/extra/seguranca/protegendo-a-visualizao-do-conteudo-netflix-em-escala/) — 
+- [Diferenças entre Big Endian, Little Endian e Bit Endianness](https://carlosdelfino.eti.br/programacao/cplusplus/Diferencas_entre_BigEndian_Little_Endian_e_Bit_Endianness/) — 
+- [Jonathan Swift](https://carlosdelfino.eti.br/perfil/Jonathan_Swift/) — 
+- [Introdução as Redes Neurais, Perceptron](https://carlosdelfino.eti.br/series/redes%20neurais/introducao/Introducao_Redes_Neurais_Perceptron/) — 
+- [Introdução as Redes Neurais, Principais Funções](https://carlosdelfino.eti.br/series/redes%20neurais/introducao/Introducao_Redes_Neurais_Principais_Funcoes/) — 
+- [Bjarne Stroustru](https://carlosdelfino.eti.br/perfil/Bjarne_Stroustru/) — 
+- [Uma Reflexão Sobre Diferenças de Classes - Texto de George Orwell.](https://carlosdelfino.eti.br/pensamentos/Uma-Reflexao-Sobre-Diferencas-De-Classes-Texto-George-Orwell/) — 
+- [O Mito que impede o uso de templates em sistemas embarcados](https://carlosdelfino.eti.br/cursoarduino/nivel_4/O_Mito_que_Impede_o_Uso_de_Templates_Em_Sistemas_Embarcados/) — 
+- [O que é um Template em C++](https://carlosdelfino.eti.br/cursoarduino/nivel_4/O_que_e_um_Template_em_CPlusPlus/) — 
+- [Usando STL C++ Lib com o Arduino e Arquiteturas AVR](https://carlosdelfino.eti.br/cursoarduino/nivel_4/Usando_STL_CPlusPlus_Lib_com_o_Arduino_e_Arquiteturas_AVR/) — 
+- [Introdução a Linguagem de Programação](https://carlosdelfino.eti.br/programacao/Introducao_a_Linguagem_de_programacao/) — 
+- [Disruption Tolerant Networking, o que é?](https://carlosdelfino.eti.br/pesquisa/dtn/disrupton_tolerant_nework_DTN_o_que_e/) — 
+- [Um Primeiro código, Hello World, Usando C no Eclipse com CDT e Cygwin](https://carlosdelfino.eti.br/programacao/cplusplus/Primeiro_Programa_em_C_com_Eclipse_CDT_CygWin/) — 
+- [Como Publicar seu Artigo em Revistas Cientificas](https://carlosdelfino.eti.br/pesquisa/como_publicar_artigos_em_revistas_cient%C3%ADficas/) — 
+- [Como escolher o periódico certo para o seu artigo científico?](https://carlosdelfino.eti.br/pesquisa/como_escolher_o_periodico_certo_para_o_seu_artigo_cientifico/) — 
+- [Uma nova apostila para Introdução a Linguagem de Programação](https://carlosdelfino.eti.br/logicadeprogramacao/uma_nova_apostila_introducao_linguagem_programacao/) — 
+- [Um Estudo Comparativo Sobre SELinux e AppArmor](https://carlosdelfino.eti.br/linuxwindowsmac/Um_Estudo_Comparativo_Sobre_SELinux_e_AppArmor/) — 
+- [Para que comentários no Site.](https://carlosdelfino.eti.br/pensamentos/Para_que_comentarios_no_site/) — 
+- [Pierre Lévy](https://carlosdelfino.eti.br/perfil/PierreLevy/) — 
+- [Hacker Space ou Hacker Community](https://carlosdelfino.eti.br/pensamentos/Hacker_Space_ou_Hacker_Community/) — 
+- [Autores relacionados a Pedagogia](https://carlosdelfino.eti.br/e-learning/autores/Autores_Relacionados_a_Pedagogia/) — 
+- [Arduino ou Genuino Day 2016](https://carlosdelfino.eti.br/arduino/arduino_day/Arduino_ou_Genuino_Day_2016/) — 
+- [Saberes Desconectados e Coletivos](https://carlosdelfino.eti.br/e-learning/consultoria/Saberes_Conectados_Coletivos_Desconetados/) — 
+- [Arduino Day 2016](https://carlosdelfino.eti.br/arduino/arduino_day/Arduino_Day_2016/) — 
+- [Mapa Mental a Polidocência](https://carlosdelfino.eti.br/e-learning/consultoria/Mapa_Mental_Sobre_A_Polidocencia/) — 
+- [Consultoria em Desenvolvimento de Sistema em diversas linguagenss](https://carlosdelfino.eti.br/programacao/consultoria/Consultoria_Diversas_Linguagens/) — 
+- [Ciclismo, Cristianismo, Judaismo, Islamismo](https://carlosdelfino.eti.br/pensamentos/Ciclismo_Cristianismo_Judaismo_Islamismo/) — 
+- [Device Tree - Iniciando Estudos](https://carlosdelfino.eti.br/sistemas%20operacionais/linux/boot/Device_Tree_Iniciando_Estudos/) — 
+- [Dez Boas Práticas para PUblicação de Dados Abertos](https://carlosdelfino.eti.br/analise%20de%20dados/dados%20abertos/Dez_boas_praticas_para_publicacao_de_dados_abertos/) — 
+- [GCC Explorer - Um Compilador Interativo](https://carlosdelfino.eti.br/programacao/cplusplus/Um_Compilador_Interativo/) — 
+- [Relação Entre Resistência, Tensão e Corrente - GIF](https://carlosdelfino.eti.br/basicaodaeletronica/Relacao_Tensao-Resistencia-Corrente/) — 
+- [Você já acertou o relógio de seu projeto com o Arduino?](https://carlosdelfino.eti.br/helloworldarduino/nivel%202/Voce_Ja_Acertou_O_Relogio_De_Seu_Projeto/) — 
+- [DNS para uso livre](https://carlosdelfino.eti.br/suporte/redes/DNS_Para_Uso_LIvre/) — 
+- [Comunidade Arduino Brasil no StackOverflow PT](https://carlosdelfino.eti.br/arduino/Comunidade_Arduino_Brasil_no_StackOverflow_pt/) — 
+- [O Frustrado e o Sábio](https://carlosdelfino.eti.br/pensamentos/O_Frustrado_e_O_Sabio/) — 
+- [O Estranho](https://carlosdelfino.eti.br/pensamentos/O_Estranho/) — 
+- [O Velho e como servir a obra de Deus](https://carlosdelfino.eti.br/pensamentos/O_velho_e_como_servir_a_Obra_de_Deus/) — 
+- [Meu Ambiente de Programação Java](https://carlosdelfino.eti.br/programacao/java/Meu_Ambiente_Programacao_Java/) — 
+- [Limitações nos contatos telefonicos!!!](https://carlosdelfino.eti.br/contato/Limitacoes_Telefonicas/) — 
+- [Usando o Algorítimo Localizador de Falhas](https://carlosdelfino.eti.br/pesquisa/infraestrutura/Usando_o_ALF/) — 
+- [Formas de Gravar o Arduino!](https://carlosdelfino.eti.br/helloworldarduino/nivel%203/Formas_de_Gravar_o_Arduino/) — 
+- [O Voluntáriado](https://carlosdelfino.eti.br/pensamentos/O_Voluntariado/) — 
+- [Usando Instrução RJMP Para Substituir NOP](https://carlosdelfino.eti.br/logicadeprogramacao/assembly/Usando_Instrucao_RJMP_Para_Substituir_NOP/) — 
+- [BlueTooth, o que é e como Usar!](https://carlosdelfino.eti.br/helloworldarduino/nivel%202/BlueTooth_O_Que_E_E_Como_Usar/) — 
+- [Indutores, Construindo o Seu!](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%202/Indutores-Construindo_o_Seu/) — 
+- [O que é SDR?](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%202/O_que_e_SDR/) — 
+- [Fork no GIT Hub para propor novos recurso ou correções](https://carlosdelfino.eti.br/extra/Procedimento_para_propor_novos_recursos_github/) — 
+- [Plano de Descontos para Turmas Fechadas](https://carlosdelfino.eti.br/cursoarduinominas/Plano_Descontos_Turmas_Fechadas/) — 
+- [Projeto Mobilidade Humana](https://carlosdelfino.eti.br/projetos/Mobilidade_Humana/) — 
+- [SCO Xenix](https://carlosdelfino.eti.br/extra/sistemasoperacionais/SCO_Xenix/) — 
+- [Representando Números de Ponto Flutuante com IEEE 754](https://carlosdelfino.eti.br/logicadeprogramacao/nivel_4/Representando_Numeros_em_Ponto_Flutuante/) — 
+- [Usar Macros ou Constantes, qual a melhor opção.](https://carlosdelfino.eti.br/logicadeprogramacao/nivel_2/Macros_vs_Constantes_Arquitetura_AVR/) — 
+- [Novo Release Plugin GNU ARM Eclipse - 2.4.2-201411261616](https://carlosdelfino.eti.br/helloworld/arm/Novo_Release_Plugin_GNU_ARM_Eclipse_-_2.4.2-201411261616/) — 
+- [Informações básicas sobre AAME](https://carlosdelfino.eti.br/helloworld/arm/Ceritificacao_AAME/) — 
+- [FTDI Fake vs Original](https://carlosdelfino.eti.br/helloworldarduino/nivel_1/FTDI_Fake_vs_Original/) — 
+- [Tradução Livre de um Email do Linux](https://carlosdelfino.eti.br/perfil/Traducao_livre_de_um_email_do_linus/) — 
+- [Lista de Livros sobre Arquitetura ARM](https://carlosdelfino.eti.br/helloworld/arm/Lista_de_livros_sobre_ARM/) — 
+- [Preparando o Ambiente para Estudar o QEMU](https://carlosdelfino.eti.br/helloworld/arm/nivel_2/Preparando_o_Ambiente_Para_Estudar_o_QEMU/) — 
+- [O que é IRC e como usa-lo](https://carlosdelfino.eti.br/extra/internet/irc/O_que_e_IRC/) — 
+- [O Sonho - Madredeus](https://carlosdelfino.eti.br/m%C3%BAsicas/O_Sonho_Madredeus/) — 
+- [Haja o Que Ouver - Madredeus](https://carlosdelfino.eti.br/m%C3%BAsicas/Haja_o_Que_Ouver_Madredeus/) — 
+- [Testando JavaScript para uso com formulas Matemáticas](https://carlosdelfino.eti.br/matem%C3%A1tica/Testando_JavaScript_Para_Formulas_Matematicas/) — 
+- [Porque odeio matemática](https://carlosdelfino.eti.br/extra/educacao/matematica/Porque_Odeio_Matematica/) — 
+- [Aprendendo a Programar para ARM com QEMU - O Início](https://carlosdelfino.eti.br/helloworld/arm/Aprendendo_a_Programar_Para_ARM_Com_QEMU/) — 
+- [Algoritmo para busca de Regras Implicitas](https://carlosdelfino.eti.br/logicadeprogramacao/Make_Algoritmo_Regras_Implicitas/) — 
+- [A Arte do Balé Se Une a Tecnologia](https://carlosdelfino.eti.br/helloworldarduino/O_Bale_se_Une_a_Tecnologia/) — 
+- [Linguagem, Framework ou Dialeto?](https://carlosdelfino.eti.br/helloworldarduino/Linguagem_Framwork_ou_Dialeto/) — 
+- [Vegard Wollan](https://carlosdelfino.eti.br/perfil/vegardwollan/) — 
+- [Um Passarinho a Chuva e Nenhuma Árvore](https://carlosdelfino.eti.br/pensamentos/Um_Passarinho_a_Chuva_e_Nenhuma_Arvore/) — 
+- [A Patente do Microcontrolador AVR](https://carlosdelfino.eti.br/helloworldarduino/Patente_Arquitetura_AVR/) — 
+- [Encontrando e Removendo Arquivos e Diretórios Vazios](https://carlosdelfino.eti.br/linuxwindowsmac/Encontrando_Arquivos_e_Diretorios_Vazios/) — 
+- [Meu Aniversário em 2014](https://carlosdelfino.eti.br/pensamentos/Meu_Aniversario-2014/) — 
+- [Leave no deed undone (Live) - Wolfsheim](https://carlosdelfino.eti.br/m%C3%BAsicas/Leave_no_deed_Undone_-_Wolfsheim/) — 
+- [Como manter a segurança de seus sitema](https://carlosdelfino.eti.br/pensamentos/Sigilo_e_Seguranca_do_Sistema/) — 
+- [Grupos que Modero no Facebook e no Google Groups](https://carlosdelfino.eti.br/dicas/grupos/Grupos_que_Modero_no_Facebook_e_Google/) — 
+- [Preparando Seu Ambiente Para Programar Com ARM](https://carlosdelfino.eti.br/helloworld/arm/Preparando_Seu_Ambiente_Para_Programar_Com_ARM/) — 
+- [Fazendo seus próprios Jumpers](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%201/Fazendo_Seus_Proprios_Jumpers/) — 
+- [With or Without You - U2](https://carlosdelfino.eti.br/m%C3%BAsicas/With-or-Without-You-U2/) — 
+- [One - U2](https://carlosdelfino.eti.br/m%C3%BAsicas/One-U2/) — 
+- [Protocolo DECT](https://carlosdelfino.eti.br/colecaodelinks/DECT/) — 
+- [Open Graph Protocol](https://carlosdelfino.eti.br/colecaodelinks/Open_Graph_protocol/) — 
+- [Virtual Wire](https://carlosdelfino.eti.br/helloworldarduino/VirtualWire/) — 
+- [O que é NCM/SH](https://carlosdelfino.eti.br/extra/importacao/mercosul/O_que_e_NCN/) — 
+- [Brincando com o Copo](https://carlosdelfino.eti.br/arduino/dicas/Brincando_com_o_copo/) — 
+- [Conceitos de Comunicação](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%201/Conceitos_de_Comunicacao/) — 
+- [Tabela ASCII](https://carlosdelfino.eti.br/ascii/) — 
+- [Gerador de tabelas para Markdown](https://carlosdelfino.eti.br/colecaodelinks/Table_Generator/) — 
+- [Syntax Markdown](https://carlosdelfino.eti.br/colecaodelinks/Syntax_Markdown/) — 
+- [Nosso Sistema de Ensino](https://carlosdelfino.eti.br/pensamentos/Nosso_Sistema_de_Ensino/) — 
+- [ATmega ADC in-depth analysis](https://carlosdelfino.eti.br/colecaodelinks/ATmega_ADC_in-depth_analysis/) — 
+- [C++, o Site](https://carlosdelfino.eti.br/colecaodelinks/Cplusplus-o-site/) — 
+- [Biblioteca Virtual Wire](https://carlosdelfino.eti.br/colecaodelinks/Virtual_Wire/) — 
+- [Biblioteca Encoder](https://carlosdelfino.eti.br/colecaodelinks/Encoder/) — 
+- [Você conhece o antropologo que sofria do mau do imaginário?](https://carlosdelfino.eti.br/colecaodelinks/Voce_conhece_o_andropologo_que_sofria_do_mal_imaginario/) — 
+- [Somos todos diferentes - Filme Completo](https://carlosdelfino.eti.br/colecaodelinks/Somos_Todos_Diferentes_Filme_Completo/) — 
+- [Quanto Sinto que já sei](https://carlosdelfino.eti.br/colecaodelinks/Quando_sinto_que_ja_sei/) — 
+- [Pare de desmotivar a sua equpe.](https://carlosdelfino.eti.br/colecaodelinks/Pare_de_desmotivar_sua_equipe/) — 
+- [Reativando meu Ambiente de desenvolvimento ARM](https://carlosdelfino.eti.br/helloworld/arm/Reativando-Ambiente-Desenvolvimento-ARM/) — 
+- [Eleições 2014, Debates](https://carlosdelfino.eti.br/pensamentos/Eleicoes_2014-Debate/) — 
+- [Parabéns Professores](https://carlosdelfino.eti.br/extra/educacao/Parabens_aos_professores/) — 
+- [Parâmetros e Caractersíisticas para se Usar LEDs](https://carlosdelfino.eti.br/basicaodaeletronica/nivel%201/Caracteristicas-dos-Leds/) — 
+- [Ementa para o curso de Lógica de Programacao para Arduino](https://carlosdelfino.eti.br/logicadeprogramacao/Ementa_do_Curso_Logica_Programacao_com_Arduino/) — 
+- [Ementa da Curso Hello World Arduino](https://carlosdelfino.eti.br/helloworldarduino/Ementa_Curso_Hello_World_Arduino/) — 
+- [Lógica e Programação para Arduino](https://carlosdelfino.eti.br/cursoarduino/Logica_Programacao_com_Arduino/) — 
+- [Hello World ARM](https://carlosdelfino.eti.br/cursoarduino/Hello_World_ARM/) — 
+- [Consultoria e Tutoria em Projetos com Arduino](https://carlosdelfino.eti.br/cursoarduino/Consultoria_Tutoria/) — 
+- [A Copa do Mundo, Os Investimentos Do Governo, e Nossas Ações!](https://carlosdelfino.eti.br/pensamentos/A_Copa_do_Mundo_os_Investimentos_do_Governo_e_Nossas_Acoes/) — 
+- [Integrando Asterisk com Google Speech para uso com Arduino](https://carlosdelfino.eti.br/pbx_digital/Integrando_Asterisk_com_Google_Speech_para_uso_com_Arduino/) — 
+- [Conceitos relacionados ao uso do Asterisk e VOIP](https://carlosdelfino.eti.br/pbx_digital/Conceitos_Relativos_ao_Asterisk_e_VOIP/) — 
+- [Instalação do Asterisk para uso com Arduino](https://carlosdelfino.eti.br/pbx_digital/Instalacao_do_Asterisk_para_uso_com_Arduino/) — 
+- [Configurando o Asterisk para os Primeiros Passos](https://carlosdelfino.eti.br/pbx_digital/Configurando_o_Asterisk_para_os_primeiros_passos/) — 
+- [Terrorismo Digital e o Heroismo, para quem?](https://carlosdelfino.eti.br/pensamentos/Terrorimso_Digital_e_o_Heroismo_para_quem/) — 
+- [Os limites de sua imaginacao e o Ego em dizer eu tambem fiz](https://carlosdelfino.eti.br/pensamentos/Os_limites_de_sua_imaginacao_e_o_Ego_em_dizer_eu_tambem_fiz/) — 
+- [Hello World Arduino](https://carlosdelfino.eti.br/cursoarduino/Hello_World_Arduino/) — 
+- [Telefonia e Automação com Arduino](https://carlosdelfino.eti.br/cursoarduino/Telefonia_e_Automa%C3%A7%C3%A3o_com_Arduino/) — 
+- [Hello World ZigBee](https://carlosdelfino.eti.br/cursoarduino/Hello_World_ZigBee/) — 
+- [Basicão da Eletronica](https://carlosdelfino.eti.br/cursoarduino/Basicao_da_Eletronica/) — 
+- [Arduino Day 2014 - Slides](https://carlosdelfino.eti.br/eventos/arduinoday/slides/Arduino-Day-2014-slides/) — 
+- [Arduino Day 2014](https://carlosdelfino.eti.br/eventos/arduinoday/Arduino-Day-2014/) — 
+- [RC Switch ou VirtualWire qual devo usar?](https://carlosdelfino.eti.br/helloworldarduino/nivel%202/RCSwitch_ou_VirtualWire/) — 
+- [Usando dois ou mais LCDs com Arduino](https://carlosdelfino.eti.br/helloworldarduino/Usando-Dois-LCDs-ou-Mais-No-Arduino/) — 
+- [Adaptando um Sensor PIR Comum ao Arduino](https://carlosdelfino.eti.br/helloworldarduino/Adaptando-Sensor-PIR-Comum/) — 
+- [Usando EEPROM e o Parametro EEMEM](https://carlosdelfino.eti.br/helloworldarduino/Usando-EEPROM-e-o-Parametro-EEMEM/) — 
+- [O PICDuino](https://carlosdelfino.eti.br/clones/O-PICDuino/) — 
+- [Artesanato em Tecido e Couro](https://carlosdelfino.eti.br/helloworldarduino/Artesanato-em-tecido-e-couro/) — 
+- [BS](https://carlosdelfino.eti.br/ascii/008-bs/) — 
+- [BEL](https://carlosdelfino.eti.br/ascii/007-bell/) — 
+- [ACK](https://carlosdelfino.eti.br/ascii/006-ack/) — 
+- [ENQ](https://carlosdelfino.eti.br/ascii/005-enq/) — 
+- [ETX](https://carlosdelfino.eti.br/ascii/004-etx/) — 
+- [EOT](https://carlosdelfino.eti.br/ascii/003-eot/) — 
+- [STX](https://carlosdelfino.eti.br/ascii/002-stx/) — 
+- [SOH](https://carlosdelfino.eti.br/ascii/001-soh/) — 
+- [NULL](https://carlosdelfino.eti.br/ascii/000-null/) — 
