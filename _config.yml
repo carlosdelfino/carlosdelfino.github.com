@@ -154,6 +154,8 @@ whitelist:
   - jekyll-redirect-from
 
 exclude:
+  - venv
+  - llmgenerator.py
   - .forestry
   - "Gemfile"
   - "Gemfile.lock"
