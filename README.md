@@ -6,4 +6,11 @@ http://www.carlosdelfino.eti.br
 
 Se você curte alguma tecnologia e quer ajudar e contribuir de alguma forma, você pode faezer revisões, como o site é pessoal, alguns não se sentem a vontade para isso, mesmo o github mantendo a autoriza dos paths ou eu tenho o recuso de exibir no site o autor do artigo.
 
-Eu tenho também o site <www.arduinominas.com.br> onde todos podem contribuir e ter a autoria reconhecido, o site está sem conteudo pois tenho dedicado integralmente ao meu, e acho desnecessário manter a redundância, mas quem desejar contribuir, será bem vindo.
+Outros sites que mantenho: 
+* https://rapport.tec.br
+* https://basicaodaeletronica.com.br
+* https://fontechaveada.com
+* https://mcu.tec.br
+* https://islamicspace.rapport.tec.br
+* https://islamicworks.rapport.tec.br
+* https://islamicpassport.rapport.tec.br
