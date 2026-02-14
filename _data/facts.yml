@@ -1,7 +1,7 @@
 - class: contacts
-  title: Em 2020 não houveram
+  title: Em 2026 ainda não houveram
   count:
-  description: turmas em nossos cursos, até agora
+  description: turmas de treinamento
 
 - class: desktop
   title: Mais de
@@ -10,18 +10,23 @@
 
 - class: cafe
   title: Mais de
-  count: 500000
+  count: 600000
   description: xícaras de café
 
 - class: alarm
   title: Mais de
-  count: 100000
+  count: 110000
   description: horas de sono perdidas
 
-- class: alarm
+- class: book
   title: Mais de
-  count: 50000
-  description: páginas de livros e artigos lidos
+  count: 55000
+  description: páginas de livros consultadas e lidas
+
+- class: pencil
+  title: Mais de
+  count: 700
+  description: páginas escritas em meus livros
 
 - class: contacts
   title: Mais de
@@ -30,8 +35,8 @@
 
 - class: logo-steam
   title: Em torno de
-  count: 12
-  description: projetos realizados com arduino
+  count: 18
+  description: projetos com microcontroladores realizados
 
 - class: logo-steam
   title: Planejando
