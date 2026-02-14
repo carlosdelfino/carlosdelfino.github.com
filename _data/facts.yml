@@ -23,7 +23,7 @@
   count: 55000
   description: páginas de livros consultadas e lidas
 
-- class: pencil
+- class: create
   title: Mais de
   count: 700
   description: páginas escritas em meus livros
