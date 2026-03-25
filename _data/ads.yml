@@ -11,12 +11,12 @@ horizontal:
       height: 90
       class: "adsh"
       min:
-        - basewidth: 728
-          width: 728
-          height: 80
         - basewidth: 520
           width: 468
           height: 60
+        - basewidth: 728
+          width: 728
+          height: 90
 
 vertical:
    description: "Layout para uso vertical nas páginas de artigos"
@@ -30,8 +30,8 @@ vertical:
            width: 468
            height: 60 
          - basewidth: 768 
-           width: 160
-           height: 600
+           width: 728
+           height: 90
 
 block:
    description: "Layout para uso anuncios em blocos"   
