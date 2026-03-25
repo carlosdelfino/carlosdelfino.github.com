@@ -8,6 +8,10 @@
   excerpt: Sobre Carlos Delfino e formas de contatos
   image: carlosdelfino.png
 
+- title: Certificados
+  url: /certificados/
+  excerpt: Meus certificados de cursos, treinamentos e eventos
+
 - title: Cursos
   url: /cursoarduino/
   excerpt: Cursos ministrados por mim e colegas no Curso Arduino Minas
