@@ -1,0 +1,2 @@
+# Dependências Python para os scripts do site
+# (atualmente o script usa apenas stdlib, mas adicione aqui se necessário)
