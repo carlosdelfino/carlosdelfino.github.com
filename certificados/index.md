@@ -53,15 +53,22 @@ Aqui estão listados meus certificados de cursos, treinamentos e eventos que par
 .cert-modal-overlay {
   display: none;
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0,0,0,0.8);
-  z-index: 9999;
+  z-index: 99999;
   justify-content: center;
   align-items: center;
 }
 .cert-modal-overlay.active {
   display: flex;
+}
+body.cert-modal-open {
+  overflow: hidden;
 }
 .cert-modal-content {
   position: relative;
@@ -72,12 +79,26 @@ Aqui estão listados meus certificados de cursos, treinamentos e eventos que par
   border-radius: 8px;
   overflow: hidden;
 }
+.cert-modal-content object,
+.cert-modal-content embed,
 .cert-modal-content iframe,
 .cert-modal-content img {
   width: 100%;
   height: 100%;
   border: none;
+  display: block;
+}
+.cert-modal-content img {
   object-fit: contain;
+}
+.cert-modal-fallback {
+  text-align: center;
+  padding: 2rem;
+}
+.cert-modal-fallback a {
+  color: #448dd6;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .cert-modal-close {
   position: absolute;
@@ -296,16 +317,19 @@ function abrirModal(url, tipo) {
   var overlay = document.getElementById('certModal');
   var content = document.getElementById('certModalContent');
   if (tipo === 'pdf') {
-    content.innerHTML = '<iframe src="' + url + '"></iframe>';
+    content.innerHTML = '<object data="' + url + '" type="application/pdf" width="100%" height="100%"><p class="cert-modal-fallback">Seu navegador não suporta visualização de PDF embutido. <a href="' + url + '" target="_blank">Clique aqui para abrir o certificado</a></p></object>';
   } else {
     content.innerHTML = '<img src="' + url + '" alt="Certificado">';
   }
   overlay.classList.add('active');
+  document.body.classList.add('cert-modal-open');
+  window.scrollTo({top: 0});
 }
 function fecharModal() {
   var overlay = document.getElementById('certModal');
   var content = document.getElementById('certModalContent');
   overlay.classList.remove('active');
+  document.body.classList.remove('cert-modal-open');
   content.innerHTML = '';
 }
 document.getElementById('certModal').addEventListener('click', function(e) {
