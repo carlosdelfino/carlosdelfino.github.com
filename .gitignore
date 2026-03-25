@@ -36,3 +36,6 @@ fonts/fontawesome-free-5.0.13/
 fonts/ionicons.designerpack.zip
 circuitjs1/
 *.stackdump
+.bundle
+rvmrc
+vendor
