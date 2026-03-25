@@ -127,6 +127,166 @@ body.cert-modal-open {
 
 <div class="certificados-gallery">
 <div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--etica-profissional-dominio-informatica.png" alt="Etica Profissional Dominio Informatica" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--etica-profissional-dominio-informatica.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Etica Profissional Dominio Informatica</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--tudo-sobre-manuseio-de-osciloscopio-instructiva.png" alt="Tudo Sobre Manuseio De Osciloscopio Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--tudo-sobre-manuseio-de-osciloscopio-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Tudo Sobre Manuseio De Osciloscopio Instructiva</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--simposio-brasileiro-de-redes-de-computadores-sbrc2005.png" alt="Simposio Brasileiro De Redes De Computadores Sbrc2005" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--simposio-brasileiro-de-redes-de-computadores-sbrc2005.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Simposio Brasileiro De Redes De Computadores Sbrc2005</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--seminario-big-data-analise-de-dados-e-inteligencia-corportaiva-implementacao-de-solucoes-analiticas-avancadas-envolvendo-mineracao-integracao-e-visualizacao.png" alt="Seminario Big Data Analise De Dados E Inteligencia Corportaiva Implementacao De Solucoes Analiticas Avancadas Envolvendo Mineracao Integracao E Visualizacao" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--seminario-big-data-analise-de-dados-e-inteligencia-corportaiva-implementacao-de-solucoes-analiticas-avancadas-envolvendo-mineracao-integracao-e-visualizacao.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Seminario Big Data Analise De Dados E Inteligencia Corportaiva Implementacao De Solucoes Analiticas Avancadas Envolvendo Mineracao Integracao E Visualizacao</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--planet-internet-telephony-gateway-voip-recitronic.png" alt="Planet Internet Telephony Gateway Voip Recitronic" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--planet-internet-telephony-gateway-voip-recitronic.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Planet Internet Telephony Gateway Voip Recitronic</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--paqlestra-o-que-voce-ve-ver-diferente-para-ser-diferente-senac-mg.png" alt="Paqlestra O Que Voce Ve Ver Diferente Para Ser Diferente Senac Mg" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--paqlestra-o-que-voce-ve-ver-diferente-para-ser-diferente-senac-mg.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Paqlestra O Que Voce Ve Ver Diferente Para Ser Diferente Senac Mg</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--palestra-ministrada-arduino-e-suas-aplicacoes-fic-faculdade-integrada-do-ceara.png" alt="Palestra Ministrada Arduino E Suas Aplicacoes Fic Faculdade Integrada Do Ceara" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--palestra-ministrada-arduino-e-suas-aplicacoes-fic-faculdade-integrada-do-ceara.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Palestra Ministrada Arduino E Suas Aplicacoes Fic Faculdade Integrada Do Ceara</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--palestra-gestao-da-qualidade-de-vida-no-trabalho-senacmg.png" alt="Palestra Gestao Da Qualidade De Vida No Trabalho Senacmg" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--palestra-gestao-da-qualidade-de-vida-no-trabalho-senacmg.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Palestra Gestao Da Qualidade De Vida No Trabalho Senacmg</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--palestra-off-balance-como-estrategia-de-captacao-de-recursos-senac-mg.png" alt="Palestra Off Balance Como Estrategia De Captacao De Recursos Senac Mg" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--palestra-off-balance-como-estrategia-de-captacao-de-recursos-senac-mg.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Palestra Off Balance Como Estrategia De Captacao De Recursos Senac Mg</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--proprio-programacao-de-orientacao-ao-candidato-a-empresario.png" alt="Proprio Programacao De Orientacao Ao Candidato A Empresario" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--proprio-programacao-de-orientacao-ao-candidato-a-empresario.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Proprio Programacao De Orientacao Ao Candidato A Empresario</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--mini-curso-de-eletrotecnica-eeep-professora-alda-facanha.png" alt="Mini Curso De Eletrotecnica Eeep Professora Alda Facanha" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--mini-curso-de-eletrotecnica-eeep-professora-alda-facanha.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Mini Curso De Eletrotecnica Eeep Professora Alda Facanha</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--mastering-stm32cubemx-5-and-cubeide-embedded-systems.png" alt="Mastering Stm32Cubemx 5 And Cubeide Embedded Systems" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--mastering-stm32cubemx-5-and-cubeide-embedded-systems.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Mastering Stm32Cubemx 5 And Cubeide Embedded Systems</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--introducao-ao-rup-rational-unified-process-insoft.png" alt="Introducao Ao Rup Rational Unified Process Insoft" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--introducao-ao-rup-rational-unified-process-insoft.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Introducao Ao Rup Rational Unified Process Insoft</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--gerenciamento-de-projetos-utilizando-a-metodologia-do-pmi-bolsa-de-valores-regional-do-ceara.png" alt="Gerenciamento De Projetos Utilizando A Metodologia Do Pmi Bolsa De Valores Regional Do Ceara" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--gerenciamento-de-projetos-utilizando-a-metodologia-do-pmi-bolsa-de-valores-regional-do-ceara.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Gerenciamento De Projetos Utilizando A Metodologia Do Pmi Bolsa De Valores Regional Do Ceara</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--freertos-from-ground-up-on-arm-processors.png" alt="Freertos From Ground Up On Arm Processors" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--freertos-from-ground-up-on-arm-processors.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Freertos From Ground Up On Arm Processors</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb-instructiva.png" alt="Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb Instructiva</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--diploca-fic-faculdade-integrada-do-ceara-projeto-e-implementacao-de-redes-de-computadores.png" alt="Diploca Fic Faculdade Integrada Do Ceara Projeto E Implementacao De Redes De Computadores" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--diploca-fic-faculdade-integrada-do-ceara-projeto-e-implementacao-de-redes-de-computadores.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Diploca Fic Faculdade Integrada Do Ceara Projeto E Implementacao De Redes De Computadores</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--dicas-de-reparos-em-fontes-chaveadas-instructiva.png" alt="Dicas De Reparos Em Fontes Chaveadas Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--dicas-de-reparos-em-fontes-chaveadas-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Dicas De Reparos Em Fontes Chaveadas Instructiva</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--desenvolvimento-de-aplicacoes-em-java-basico-e-avancado.png" alt="Desenvolvimento De Aplicacoes Em Java Basico E Avancado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--desenvolvimento-de-aplicacoes-em-java-basico-e-avancado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Desenvolvimento De Aplicacoes Em Java Basico E Avancado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--curso-seguranca-de-redes-insoft.png" alt="Curso Seguranca De Redes Insoft" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--curso-seguranca-de-redes-insoft.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Curso Seguranca De Redes Insoft</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--curso-gestao-de-pessoas-e-lideranca-una.png" alt="Curso Gestao De Pessoas E Lideranca Una" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--curso-gestao-de-pessoas-e-lideranca-una.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Curso Gestao De Pessoas E Lideranca Una</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--curso-ei-empreendedor-individual-sebrae-ce.png" alt="Curso Ei Empreendedor Individual Sebrae Ce" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--curso-ei-empreendedor-individual-sebrae-ce.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Curso Ei Empreendedor Individual Sebrae Ce</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--curso-apf-analise-e-planejamento-financeiro.png" alt="Curso Apf Analise E Planejamento Financeiro" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--curso-apf-analise-e-planejamento-financeiro.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Curso Apf Analise E Planejamento Financeiro</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--conexao-digital-novas-tecnologias-para-maior-produtividade-e-sustentabilidade-das-ongs.png" alt="Conexao Digital Novas Tecnologias Para Maior Produtividade E Sustentabilidade Das Ongs" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--conexao-digital-novas-tecnologias-para-maior-produtividade-e-sustentabilidade-das-ongs.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Conexao Digital Novas Tecnologias Para Maior Produtividade E Sustentabilidade Das Ongs</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--analise-de-datasheet-instructiva.png" alt="Analise De Datasheet Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--analise-de-datasheet-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Analise De Datasheet Instructiva</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--administracao-de-confloitos-una.png" alt="Administracao De Confloitos Una" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--administracao-de-confloitos-una.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Administracao De Confloitos Una</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.png" alt="Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-evento-semana-fonte-chaveadas.png" alt="Certificado Evento Semana Fonte Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-evento-semana-fonte-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado Evento Semana Fonte Chaveadas</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-semana-do-reparo-em-amplificadores-de-audio.png" alt="Certificado Semana Do Reparo Em Amplificadores De Audio" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-semana-do-reparo-em-amplificadores-de-audio.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado Semana Do Reparo Em Amplificadores De Audio</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--desafio-30-dias-hotmart.png" alt="Desafio 30 Dias Hotmart" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--desafio-30-dias-hotmart.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Desafio 30 Dias Hotmart</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--liderancas-comunitarias-do-programa-adolescente-saudavel.png" alt="Liderancas Comunitarias Do Programa Adolescente Saudavel" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--liderancas-comunitarias-do-programa-adolescente-saudavel.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Liderancas Comunitarias Do Programa Adolescente Saudavel</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--redes-equipamentos-cisco-certificado.png" alt="Redes Equipamentos Cisco Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--redes-equipamentos-cisco-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Redes Equipamentos Cisco Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--montagem-e-manutencao-de-computadores.png" alt="Montagem E Manutencao De Computadores" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--montagem-e-manutencao-de-computadores.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Montagem E Manutencao De Computadores</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--gestao-de-equipes-certificado.png" alt="Gestao De Equipes Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--gestao-de-equipes-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Gestao De Equipes Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--automotivacao-na-pratica-certificado.png" alt="Automotivacao Na Pratica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--automotivacao-na-pratica-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Automotivacao Na Pratica Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--introducao-a-programacao-neurolinguistica-certificado.png" alt="Introducao A Programacao Neurolinguistica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--introducao-a-programacao-neurolinguistica-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Introducao A Programacao Neurolinguistica Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--trabalhando-as-objecoes-em-vendas-certificado.png" alt="Trabalhando As Objecoes Em Vendas Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--trabalhando-as-objecoes-em-vendas-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Trabalhando As Objecoes Em Vendas Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--telemarketing-certificado.png" alt="Telemarketing Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--telemarketing-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Telemarketing Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--tecnicas-de-persuasao-certificado.png" alt="Tecnicas De Persuasao Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--tecnicas-de-persuasao-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Tecnicas De Persuasao Certificado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/grade_nr10.png" alt="Grade Nr10" onclick="abrirModal('{{ site.baseurl }}/certificados/grade_nr10.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Grade Nr10</div>
+</div>
+<div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/hack-to-work-formacao-conecta-futuro-tech.png" alt="Hack To Work Formacao Conecta Futuro Tech" onclick="abrirModal('{{ site.baseurl }}/certificados/hack-to-work-formacao-conecta-futuro-tech.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">Hack To Work Formacao Conecta Futuro Tech</div>
 </div>
@@ -187,8 +347,8 @@ body.cert-modal-open {
   <div class="titulo">Masterclass Esp32 Introducao Completa Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/embarcatech-1-etapa.png" alt="Embarcatech 1 Etapa" onclick="abrirModal('{{ site.baseurl }}/certificados/embarcatech-1-etapa.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Embarcatech 1 Etapa</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/embarcatech-2025-1-etapa.png" alt="Embarcatech 2025 1 Etapa" onclick="abrirModal('{{ site.baseurl }}/certificados/embarcatech-2025-1-etapa.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Embarcatech 2025 1 Etapa</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.png" alt="Instructiva Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.pdf', 'pdf')" title="Clique para visualizar">
@@ -257,58 +417,6 @@ body.cert-modal-open {
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/curso-tecnico-de-eletronica-global-tec--certificado-curso-de-eletronica.png" alt="Certificado Curso De Eletronica" onclick="abrirModal('{{ site.baseurl }}/certificados/curso-tecnico-de-eletronica-global-tec--certificado-curso-de-eletronica.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">Certificado Curso De Eletronica</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.png" alt="Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-evento-semana-fonte-chaveadas.png" alt="Certificado Evento Semana Fonte Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-evento-semana-fonte-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Certificado Evento Semana Fonte Chaveadas</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--certificado-semana-do-reparo-em-amplificadores-de-audio.png" alt="Certificado Semana Do Reparo Em Amplificadores De Audio" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--certificado-semana-do-reparo-em-amplificadores-de-audio.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Certificado Semana Do Reparo Em Amplificadores De Audio</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--desafio-30-dias-hotmart.png" alt="Desafio 30 Dias Hotmart" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--desafio-30-dias-hotmart.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Desafio 30 Dias Hotmart</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--liderancas-comunitaris-do-programa-adolescente-saudavel.png" alt="Liderancas Comunitaris Do Programa Adolescente Saudavel" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--liderancas-comunitaris-do-programa-adolescente-saudavel.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Liderancas Comunitaris Do Programa Adolescente Saudavel</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--redes-equipamentos-cisco-certificado.png" alt="Redes Equipamentos Cisco Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--redes-equipamentos-cisco-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Redes Equipamentos Cisco Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--montagem-e-manutencao-de-computadores.png" alt="Montagem E Manutencao De Computadores" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--montagem-e-manutencao-de-computadores.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Montagem E Manutencao De Computadores</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--gestao-de-equipes-certificado.png" alt="Gestao De Equipes Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--gestao-de-equipes-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Gestao De Equipes Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--automotivacao-na-pratica-certificado.png" alt="Automotivacao Na Pratica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--automotivacao-na-pratica-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Automotivacao Na Pratica Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--introducao-a-programacao-neurolinguistica-certificado.png" alt="Introducao A Programacao Neurolinguistica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--introducao-a-programacao-neurolinguistica-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Introducao A Programacao Neurolinguistica Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--trabalhando-as-objecoes-em-vendas-certificado.png" alt="Trabalhando As Objecoes Em Vendas Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--trabalhando-as-objecoes-em-vendas-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Trabalhando As Objecoes Em Vendas Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--telemarketing-certificado.png" alt="Telemarketing Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--telemarketing-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Telemarketing Certificado</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/antes-de-2025--tecnicas-de-persuasao-certificado.png" alt="Tecnicas De Persuasao Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/antes-de-2025--tecnicas-de-persuasao-certificado.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Tecnicas De Persuasao Certificado</div>
 </div>
 </div><!-- /.certificados-gallery -->
 
