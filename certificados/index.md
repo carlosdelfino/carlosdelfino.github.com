@@ -139,8 +139,8 @@ body.cert-modal-open {
   <div class="titulo">Certificate Of Completion For Modern Bare Metal Embedded C Programming From Ground Up</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/hacktowork-carlos-delfino-carvalho-pinheiro.png" alt="Hacktowork Carlos Delfino Carvalho Pinheiro" onclick="abrirModal('{{ site.baseurl }}/certificados/hacktowork-carlos-delfino-carvalho-pinheiro.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Hacktowork Carlos Delfino Carvalho Pinheiro</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/hackathon-hack-to-work.png" alt="Hackathon Hack To Work" onclick="abrirModal('{{ site.baseurl }}/certificados/hackathon-hack-to-work.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Hackathon Hack To Work</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/lideranca-360-influencia-proposito-e-alto-impacto.png" alt="Lideranca 360 Influencia Proposito E Alto Impacto" onclick="abrirModal('{{ site.baseurl }}/certificados/lideranca-360-influencia-proposito-e-alto-impacto.pdf', 'pdf')" title="Clique para visualizar">
@@ -323,7 +323,6 @@ function abrirModal(url, tipo) {
   }
   overlay.classList.add('active');
   document.body.classList.add('cert-modal-open');
-  window.scrollTo({top: 0});
 }
 function fecharModal() {
   var overlay = document.getElementById('certModal');
@@ -332,8 +331,16 @@ function fecharModal() {
   document.body.classList.remove('cert-modal-open');
   content.innerHTML = '';
 }
-document.getElementById('certModal').addEventListener('click', function(e) {
-  if (e.target === this) fecharModal();
+// Move o modal para o body para evitar que
+// transforms de elementos pai quebrem position:fixed
+document.addEventListener('DOMContentLoaded', function() {
+  var modal = document.getElementById('certModal');
+  if (modal && modal.parentNode !== document.body) {
+    document.body.appendChild(modal);
+  }
+  modal.addEventListener('click', function(e) {
+    if (e.target === this) fecharModal();
+  });
 });
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') fecharModal();
