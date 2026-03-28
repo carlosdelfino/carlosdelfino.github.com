@@ -192,3 +192,4 @@ exclude:
   - "fonts/fontawesome/"
   - "fonts/fontawesome-free-5.0.13/"
   - "fonts/fontawesome-free-5.0.13.zip"
+  - "_scripts"
