@@ -13,6 +13,7 @@ Uso:
 O script deve ser executado a partir da raiz do site Jekyll.
 """
 
+import argparse
 import hashlib
 import json
 import os
@@ -63,6 +64,7 @@ ORIGEM_PROCESSADOS = Path(
 SITE_ROOT = Path(__file__).resolve().parent.parent
 DESTINO_SITE = SITE_ROOT / "certificados"
 THUMBS_DIR = DESTINO_SITE / "thumbs"
+HIGH_DIR = DESTINO_SITE / "high"
 INDEX_MD = DESTINO_SITE / "index.md"
 
 # Extensões suportadas
@@ -389,6 +391,37 @@ def gerar_thumbnail(arquivo_src: Path, thumb_path: Path) -> bool:
         return False
 
 
+def gerar_imagem_alta_resolucao(arquivo_src: Path, high_path: Path) -> bool:
+    """Gera imagem em alta resolução da primeira página do PDF."""
+    high_path.parent.mkdir(parents=True, exist_ok=True)
+
+    ext = arquivo_src.suffix.lower()
+    try:
+        if ext == ".pdf":
+            # Converte primeira página com alta resolução (300 DPI)
+            subprocess.run(
+                ["convert", "-density", "300", f"{arquivo_src}[0]", "-quality", "95", str(high_path)],
+                check=True, capture_output=True,
+            )
+        elif ext in (".png", ".jpg", ".jpeg"):
+            # Para imagens, apenas copia ou converte para alta qualidade
+            subprocess.run(
+                ["convert", str(arquivo_src), "-quality", "95", str(high_path)],
+                check=True, capture_output=True,
+            )
+        else:
+            print(f"⚠  Formato não suportado para alta resolução: {ext}")
+            return False
+        
+        return high_path.exists()
+    except FileNotFoundError:
+        print("⚠  ImageMagick ('convert') não encontrado. Instale com: sudo apt install imagemagick")
+        return False
+    except subprocess.CalledProcessError as e:
+        print(f"⚠  Erro ao gerar imagem em alta resolução de {arquivo_src.name}: {e}")
+        return False
+
+
 def titulo_legivel(nome_arquivo: str) -> str:
     """Gera um título legível a partir do nome do arquivo."""
     nome = Path(nome_arquivo).stem
@@ -449,10 +482,11 @@ def coletar_certificados_site() -> list[dict]:
     return certificados
 
 
-def copiar_arquivos_site(certificados: list[dict]) -> dict:
+def copiar_arquivos_site(certificados: list[dict], high_file: str = None) -> dict:
     """Copia os certificados para o site usando hash SHA-256 para controle."""
     DESTINO_SITE.mkdir(parents=True, exist_ok=True)
     THUMBS_DIR.mkdir(parents=True, exist_ok=True)
+    HIGH_DIR.mkdir(parents=True, exist_ok=True)
 
     manifesto_antigo = carregar_manifesto(MANIFEST_SITE)
     manifesto_novo: dict[str, dict] = {}
@@ -469,6 +503,11 @@ def copiar_arquivos_site(certificados: list[dict]) -> dict:
         dest_path = DESTINO_SITE / cert["dest_name"]
         thumb_path = THUMBS_DIR / cert["thumb_name"]
         antigo = manifesto_antigo.get(file_hash)
+
+        # Recupera informações anteriores do manifesto
+        high_name_antigo = None
+        if antigo:
+            high_name_antigo = antigo.get("high_name")
 
         if antigo:
             antigo_dest = antigo["dest_name"]
@@ -498,6 +537,7 @@ def copiar_arquivos_site(certificados: list[dict]) -> dict:
             shutil.copy2(cert["origem"], dest_path)
             print(f"  ✔ Copiado: {cert['dest_name']}")
 
+        # Gera thumbnail
         if not thumb_path.exists():
             ok = gerar_thumbnail(cert["origem"], thumb_path)
             if ok:
@@ -507,10 +547,40 @@ def copiar_arquivos_site(certificados: list[dict]) -> dict:
         else:
             print(f"  → Thumbnail já existe: {cert['thumb_name']}")
 
+        # Gera imagem em alta resolução se solicitado e for o arquivo especificado
+        high_name = None
+        if high_file and cert["dest_name"] == high_file:
+            high_name = Path(cert["dest_name"]).stem + ".png"
+            high_path = HIGH_DIR / high_name
+            
+            # Verifica se já existe no manifesto e no sistema de arquivos
+            if high_name_antigo == high_name and high_path.exists():
+                print(f"  → Imagem alta resolução já existe (manifesto): {high_name}")
+            elif high_path.exists():
+                print(f"  → Imagem alta resolução já existe (sistema): {high_name}")
+                # Atualiza manifesto com informação existente
+                high_name_antigo = high_name
+            else:
+                ok = gerar_imagem_alta_resolucao(cert["origem"], high_path)
+                if ok:
+                    print(f"  🔍 Imagem alta resolução: {high_name}")
+                    high_name_antigo = high_name
+                else:
+                    print(f"  ❌ Erro ao gerar imagem em alta resolução para {cert['dest_name']}")
+                    high_name_antigo = None
+
+        # Mantém high_name anterior se não houver nova geração
+        if not high_name and high_name_antigo:
+            high_name = high_name_antigo
+
         manifesto_novo[file_hash] = {
             "dest_name": cert["dest_name"],
             "thumb_name": cert["thumb_name"],
         }
+        
+        # Adiciona high_name ao manifesto se existir
+        if high_name:
+            manifesto_novo[file_hash]["high_name"] = high_name
 
     return manifesto_novo
 
@@ -519,6 +589,7 @@ def sincronizar_destino_site(manifesto_novo: dict, manifesto_antigo: dict) -> No
     """Remove do destino arquivos que não estão mais presentes na origem."""
     nomes_validos = {v["dest_name"] for v in manifesto_novo.values()}
     thumbs_validos = {v["thumb_name"] for v in manifesto_novo.values() if v.get("thumb_name")}
+    high_validos = {v["high_name"] for v in manifesto_novo.values() if v.get("high_name")}
     preservar = {"index.md", ".manifest.json"}
 
     removidos = 0
@@ -535,6 +606,13 @@ def sincronizar_destino_site(manifesto_novo: dict, manifesto_antigo: dict) -> No
             if f.is_file() and f.name not in thumbs_validos:
                 f.unlink()
                 print(f"  🗑 Thumb removido: {f.name}")
+                removidos += 1
+
+    if HIGH_DIR.exists():
+        for f in HIGH_DIR.iterdir():
+            if f.is_file() and f.name not in high_validos:
+                f.unlink()
+                print(f"  🗑 Imagem high removida: {f.name}")
                 removidos += 1
 
     if removidos:
@@ -764,8 +842,27 @@ def gerar_index_site(certificados: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 def main():
+    # Parse de argumentos de linha de comando
+    parser = argparse.ArgumentParser(description='Script unificado para processar e gerenciar certificados')
+    parser.add_argument('--high', action='store_true', 
+                       help='Gerar imagem em alta resolução da primeira página de um PDF')
+    parser.add_argument('--file', type=str, 
+                       help='Nome do arquivo PDF para gerar imagem em alta resolução (usado com --high)')
+    
+    args = parser.parse_args()
+    
+    # Validação dos argumentos
+    if args.high and not args.file:
+        print("❌ Erro: --high requer --file para especificar qual arquivo processar")
+        parser.print_help()
+        return 1
+    
     print("🚀 Script Unificado de Certificados")
     print("=" * 50)
+    
+    if args.high:
+        print(f"🔍 Modo alta resolução ativado para: {args.file}")
+        print()
     
     # ETAPA 1: Processar certificados (escaneados + subpastas)
     print("\n📂 ETAPA 1: Processando certificados")
@@ -812,7 +909,7 @@ def main():
             
             manifesto_antigo = carregar_manifesto(MANIFEST_SITE)
             print("--- Copiando arquivos (controle por hash SHA-256) ---")
-            manifesto_novo = copiar_arquivos_site(certificados)
+            manifesto_novo = copiar_arquivos_site(certificados, high_file=args.file)
             
             print("\n--- Sincronizando destino ---")
             sincronizar_destino_site(manifesto_novo, manifesto_antigo)
@@ -834,6 +931,8 @@ def main():
 
     print("\n🎉 Script unificado concluído com sucesso!")
     print("   Lembre-se de adicionar '_scripts/' ao 'exclude' no _config.yml se ainda não estiver.")
+    
+    return 0
 
 
 if __name__ == "__main__":
