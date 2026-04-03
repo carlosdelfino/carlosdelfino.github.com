@@ -177,7 +177,8 @@
   },
   "c07ec34d377f6166267ed2085cf10ab533ac780a6643e685a29b79a971dc8704": {
     "dest_name": "curso-seguranca-de-redes-insoft.pdf",
-    "thumb_name": "curso-seguranca-de-redes-insoft.png"
+    "thumb_name": "curso-seguranca-de-redes-insoft.png",
+    "high_name": "curso-seguranca-de-redes-insoft.png"
   },
   "2f7b84ec4a0a1673d011a8c1450e6170b7ac4be3042275cf1e6bd297d55494da": {
     "dest_name": "introducao-ao-rup-rational-unified-process-insoft.pdf",
@@ -197,7 +198,8 @@
   },
   "b13edcf779c70fc36d54e38d9a290a2f53adc9441d8531bcc42825d9e3812e0e": {
     "dest_name": "administracao-de-confloitos-una.pdf",
-    "thumb_name": "administracao-de-confloitos-una.png"
+    "thumb_name": "administracao-de-confloitos-una.png",
+    "high_name": "administracao-de-confloitos-una.png"
   },
   "6b01c92398d846cd6b455076506591825efc52ff1825e20d0e9e3417345dc431": {
     "dest_name": "palestra-gestao-da-qualidade-de-vida-no-trabalho-senacmg.pdf",
@@ -242,5 +244,9 @@
   "28049edc754b474bd40e768893574223c52efba22b9ad4d4f37444a4cdf3d34e": {
     "dest_name": "embedded-expert-io--modern-bare-metal-embedded-c-programming-from-ground-uptm.pdf",
     "thumb_name": "embedded-expert-io--modern-bare-metal-embedded-c-programming-from-ground-uptm.png"
+  },
+  "f035c4943629b9af1eb118a2761c131570379692e74ae6c34daba87a1353e4ba": {
+    "dest_name": "2026-04-03-championchip-introducao-aos-semicondutores.pdf",
+    "thumb_name": "2026-04-03-championchip-introducao-aos-semicondutores.png"
   }
 }

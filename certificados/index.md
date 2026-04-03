@@ -315,6 +315,10 @@ body.cert-modal-open {
   <div class="titulo">Formacao De Mobilizadores Comunitarios Pela Promocao Dos Direitos Humanos E Defesa Da Democracia Fundo Brasil Mobilize</div>
 </div>
 <div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-03-championchip-introducao-aos-semicondutores.png" alt="2026 04 03 Championchip Introducao Aos Semicondutores" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-03-championchip-introducao-aos-semicondutores.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 04 03 Championchip Introducao Aos Semicondutores</div>
+</div>
+<div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/embedded-expert-io--certificate-of-completion-for-mastering-stm32cubemx-5-and-cubeide-embedded-systems.png" alt="Certificate Of Completion For Mastering Stm32Cubemx 5 And Cubeide Embedded Systems" onclick="abrirModal('{{ site.baseurl }}/certificados/embedded-expert-io--certificate-of-completion-for-mastering-stm32cubemx-5-and-cubeide-embedded-systems.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">Certificate Of Completion For Mastering Stm32Cubemx 5 And Cubeide Embedded Systems</div>
 </div>
