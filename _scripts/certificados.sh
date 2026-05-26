@@ -13,22 +13,26 @@
 
 echo "🚀 Processando certificados..."
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+PYTHON_SCRIPT="$SCRIPT_DIR/certificados_unificado.py"
+
 # Verifica dependências básicas
 if ! command -v python3 &> /dev/null; then
     echo "❌ Python3 não encontrado"
     exit 1
 fi
 
-if [ ! -f "_scripts/certificados_unificado.py" ]; then
+if [ ! -f "$PYTHON_SCRIPT" ]; then
     echo "❌ Script unificado não encontrado"
     exit 1
 fi
 
 # Muda para o diretório raiz
-cd "$(dirname "$0")/.."
+cd "$PROJECT_ROOT" || exit 1
 
 # Executa o script passando todos os argumentos
-if python3 _scripts/certificados_unificado.py "$@"; then
+if python3 "$PYTHON_SCRIPT" "$@"; then
     echo ""
     echo "✅ Certificados processados com sucesso!"
     echo "📁 Verifique: certificados/index.md"
