@@ -127,44 +127,92 @@ body.cert-modal-open {
 
 <div class="certificados-gallery">
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--semana-dos-reparos-em-inversores-solares.png" alt="Semana Dos Reparos Em Inversores Solares" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--semana-dos-reparos-em-inversores-solares.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Semana Dos Reparos Em Inversores Solares</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/tecnicas-de-persuasao-certificado.png" alt="Tecnicas De Persuasao Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/tecnicas-de-persuasao-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Tecnicas De Persuasao Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-analise-de-datasheets.png" alt="Instructiva Analise De Datasheets" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-analise-de-datasheets.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Instructiva Analise De Datasheets</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/telemarketing-certificado.png" alt="Telemarketing Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/telemarketing-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Telemarketing Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--tmtd-tecnicas-de-manutencao-por-teste-de-dispositivos.png" alt="Tmtd Tecnicas De Manutencao Por Teste De Dispositivos" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--tmtd-tecnicas-de-manutencao-por-teste-de-dispositivos.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Tmtd Tecnicas De Manutencao Por Teste De Dispositivos</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/trabalhando-as-objecoes-em-vendas-certificado.png" alt="Trabalhando As Objecoes Em Vendas Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/trabalhando-as-objecoes-em-vendas-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Trabalhando As Objecoes Em Vendas Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-manuseio-de-osciloscopio.png" alt="Instructiva Manuseio De Osciloscopio" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-manuseio-de-osciloscopio.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Instructiva Manuseio De Osciloscopio</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/introducao-a-programacao-neurolinguistica-certificado.png" alt="Introducao A Programacao Neurolinguistica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/introducao-a-programacao-neurolinguistica-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Introducao A Programacao Neurolinguistica Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-dicas-de-reparo-em-fontes-chaveadas.png" alt="Instructiva Dicas De Reparo Em Fontes Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-dicas-de-reparo-em-fontes-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Instructiva Dicas De Reparo Em Fontes Chaveadas</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/automotivacao-na-pratica-certificado.png" alt="Automotivacao Na Pratica Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/automotivacao-na-pratica-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Automotivacao Na Pratica Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-reparos-na-pratica-em-fontes-chaveadas.png" alt="Instructiva Reparos Na Pratica Em Fontes Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-reparos-na-pratica-em-fontes-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Instructiva Reparos Na Pratica Em Fontes Chaveadas</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/gestao-de-equipes-certificado.png" alt="Gestao De Equipes Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/gestao-de-equipes-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Gestao De Equipes Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.png" alt="Instructiva Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Instructiva Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/montagem-e-manutencao-de-computadores.png" alt="Montagem E Manutencao De Computadores" onclick="abrirModal('{{ site.baseurl }}/certificados/montagem-e-manutencao-de-computadores.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Montagem E Manutencao De Computadores</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--eletronica-para-iniciantes-instructiva.png" alt="Eletronica Para Iniciantes Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--eletronica-para-iniciantes-instructiva.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Eletronica Para Iniciantes Instructiva</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/redes-equipamentos-cisco-certificado.png" alt="Redes Equipamentos Cisco Certificado" onclick="abrirModal('{{ site.baseurl }}/certificados/redes-equipamentos-cisco-certificado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Redes Equipamentos Cisco Certificado</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--especialista-em-manutencao-de-fontes-chaveadas-20-instructiva.png" alt="Especialista Em Manutencao De Fontes Chaveadas 20 Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--especialista-em-manutencao-de-fontes-chaveadas-20-instructiva.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Especialista Em Manutencao De Fontes Chaveadas 20 Instructiva</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/liderancas-comunitaris-do-programa-adolescente-saudavel.png" alt="Liderancas Comunitaris Do Programa Adolescente Saudavel" onclick="abrirModal('{{ site.baseurl }}/certificados/liderancas-comunitaris-do-programa-adolescente-saudavel.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Liderancas Comunitaris Do Programa Adolescente Saudavel</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/desafio-30-dias-hotmart.png" alt="Desafio 30 Dias Hotmart" onclick="abrirModal('{{ site.baseurl }}/certificados/desafio-30-dias-hotmart.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Desafio 30 Dias Hotmart</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/certificado-63.png" alt="Certificado 63" onclick="abrirModal('{{ site.baseurl }}/certificados/certificado-63.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado 63</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/declaracaotrabalho_assinado-2024-11-07.png" alt="Declaracaotrabalho Assinado 2024 11 07" onclick="abrirModal('{{ site.baseurl }}/certificados/declaracaotrabalho_assinado-2024-11-07.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Declaracaotrabalho Assinado 2024 11 07</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/certificado-evento-semana-fonte-chaveadas.png" alt="Certificado Evento Semana Fonte Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/certificado-evento-semana-fonte-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado Evento Semana Fonte Chaveadas</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.png" alt="Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro" onclick="abrirModal('{{ site.baseurl }}/certificados/certificado-alura-imersao-dev-gemini-carlos-delfino-carvalho-pinheiro.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Certificado Alura Imersao Dev Gemini Carlos Delfino Carvalho Pinheiro</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/ingles_1-comprovante_de_inscricao_1926248-curso-de-ingles-aprenda-mais.png" alt="Ingles 1 Comprovante De Inscricao 1926248 Curso De Ingles Aprenda Mais" onclick="abrirModal('{{ site.baseurl }}/certificados/ingles_1-comprovante_de_inscricao_1926248-curso-de-ingles-aprenda-mais.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">Ingles 1 Comprovante De Inscricao 1926248 Curso De Ingles Aprenda Mais</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/declaracao_atestato_tecnico_carlos_delfino_assinado-ritec.png" alt="Declaracao Atestato Tecnico Carlos Delfino Assinado Ritec" onclick="abrirModal('{{ site.baseurl }}/certificados/declaracao_atestato_tecnico_carlos_delfino_assinado-ritec.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Declaracao Atestato Tecnico Carlos Delfino Assinado Ritec</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/declaracao_atestato_tecnico_carlos_delfino_assinado-somcraft.png" alt="Declaracao Atestato Tecnico Carlos Delfino Assinado Somcraft" onclick="abrirModal('{{ site.baseurl }}/certificados/declaracao_atestato_tecnico_carlos_delfino_assinado-somcraft.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Declaracao Atestato Tecnico Carlos Delfino Assinado Somcraft</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/declarcaao_carlos_assinado-cordismariana.png" alt="Declarcaao Carlos Assinado Cordismariana" onclick="abrirModal('{{ site.baseurl }}/certificados/declarcaao_carlos_assinado-cordismariana.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Declarcaao Carlos Assinado Cordismariana</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/declaracao_tomasoni__281_29_assinado-tomasoni.png" alt="Declaracao Tomasoni  281 29 Assinado Tomasoni" onclick="abrirModal('{{ site.baseurl }}/certificados/declaracao_tomasoni__281_29_assinado-tomasoni.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Declaracao Tomasoni  281 29 Assinado Tomasoni</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/todos-os-certificados-juntos.png" alt="Todos Os Certificados Juntos" onclick="abrirModal('{{ site.baseurl }}/certificados/todos-os-certificados-juntos.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Todos Os Certificados Juntos</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/todos-os-certificados-juntos_compressed.png" alt="Todos Os Certificados Juntos Compressed" onclick="abrirModal('{{ site.baseurl }}/certificados/todos-os-certificados-juntos_compressed.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Todos Os Certificados Juntos Compressed</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/todos-os-certificados-juntos_compressed_compressed.png" alt="Todos Os Certificados Juntos Compressed Compressed" onclick="abrirModal('{{ site.baseurl }}/certificados/todos-os-certificados-juntos_compressed_compressed.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Todos Os Certificados Juntos Compressed Compressed</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/embarcatech-2025-1-etapa.png" alt="Embarcatech 2025 1 Etapa" onclick="abrirModal('{{ site.baseurl }}/certificados/embarcatech-2025-1-etapa.pdf', 'pdf')" title="Clique para visualizar">
@@ -317,6 +365,170 @@ body.cert-modal-open {
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-03-championchip-introducao-aos-semicondutores.png" alt="2026 04 03 Championchip Introducao Aos Semicondutores" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-03-championchip-introducao-aos-semicondutores.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">2026 04 03 Championchip Introducao Aos Semicondutores</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-08-workshop-minha-jornada-na-tecnologia-do-desenvolvimento-a-seguranca-da-informacao-44_consultoriacarlosdelfinoetibr.png" alt="2026 04 08 Workshop Minha Jornada Na Tecnologia Do Desenvolvimento A Seguranca Da Informacao 44 Consultoriacarlosdelfinoetibr" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-08-workshop-minha-jornada-na-tecnologia-do-desenvolvimento-a-seguranca-da-informacao-44_consultoriacarlosdelfinoetibr.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 04 08 Workshop Minha Jornada Na Tecnologia Do Desenvolvimento A Seguranca Da Informacao 44 Consultoriacarlosdelfinoetibr</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-13-responsabilidade-juridica-em-ambientes-digitais.png" alt="2026 04 13 Responsabilidade Juridica Em Ambientes Digitais" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-13-responsabilidade-juridica-em-ambientes-digitais.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 04 13 Responsabilidade Juridica Em Ambientes Digitais</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/14-04-2026-hackers-do-bem-certificado_-_nivelamento.png" alt="14 04 2026 Hackers Do Bem Certificado   Nivelamento" onclick="abrirModal('{{ site.baseurl }}/certificados/14-04-2026-hackers-do-bem-certificado_-_nivelamento.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">14 04 2026 Hackers Do Bem Certificado   Nivelamento</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-ambiente-de-desenvolvimento-e-primeiros-passos-com-python.png" alt="15 04 2026 Ambiente De Desenvolvimento E Primeiros Passos Com Python" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-ambiente-de-desenvolvimento-e-primeiros-passos-com-python.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Ambiente De Desenvolvimento E Primeiros Passos Com Python</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-introducao-ao-bootcamp-totvs-fundamentos-de-engenharia-de-dados-e-machine-learning.png" alt="15 04 2026 Introducao Ao Bootcamp Totvs Fundamentos De Engenharia De Dados E Machine Learning" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-introducao-ao-bootcamp-totvs-fundamentos-de-engenharia-de-dados-e-machine-learning.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Introducao Ao Bootcamp Totvs Fundamentos De Engenharia De Dados E Machine Learning</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-conhecendo-a-linguagem-de-programacao-python.png" alt="15 04 2026 Conhecendo A Linguagem De Programacao Python" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-conhecendo-a-linguagem-de-programacao-python.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Conhecendo A Linguagem De Programacao Python</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-git-e-github-primeiros-passos-e-configuracao-de-ambiente.png" alt="15 04 2026 Git E Github Primeiros Passos E Configuracao De Ambiente" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-git-e-github-primeiros-passos-e-configuracao-de-ambiente.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Git E Github Primeiros Passos E Configuracao De Ambiente</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-principios-de-python-e-versionamento-de-codigo-com-git-e-github.png" alt="15 04 2026 Principios De Python E Versionamento De Codigo Com Git E Github" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-principios-de-python-e-versionamento-de-codigo-com-git-e-github.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Principios De Python E Versionamento De Codigo Com Git E Github</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-04-2026-tipos-de-operadores-em-python.png" alt="15 04 2026 Tipos De Operadores Em Python" onclick="abrirModal('{{ site.baseurl }}/certificados/15-04-2026-tipos-de-operadores-em-python.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 04 2026 Tipos De Operadores Em Python</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/16-04-2026-certificado-2-etapa-avancada-embarcatech.png" alt="16 04 2026 Certificado 2 Etapa Avancada Embarcatech" onclick="abrirModal('{{ site.baseurl }}/certificados/16-04-2026-certificado-2-etapa-avancada-embarcatech.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">16 04 2026 Certificado 2 Etapa Avancada Embarcatech</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/20-04-2026-champion-chip-experience-logica-e-design-digital.png" alt="20 04 2026 Champion Chip Experience Logica E Design Digital" onclick="abrirModal('{{ site.baseurl }}/certificados/20-04-2026-champion-chip-experience-logica-e-design-digital.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">20 04 2026 Champion Chip Experience Logica E Design Digital</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/21-04-2026-gran-faculdade-analise-de-dados-e-inteligencia-de-negocios.png" alt="21 04 2026 Gran Faculdade Analise De Dados E Inteligencia De Negocios" onclick="abrirModal('{{ site.baseurl }}/certificados/21-04-2026-gran-faculdade-analise-de-dados-e-inteligencia-de-negocios.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">21 04 2026 Gran Faculdade Analise De Dados E Inteligencia De Negocios</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/20-04-2026-dio-estruturas-condicionais-e-de-repeticao-em-pythopn.png" alt="20 04 2026 Dio Estruturas Condicionais E De Repeticao Em Pythopn" onclick="abrirModal('{{ site.baseurl }}/certificados/20-04-2026-dio-estruturas-condicionais-e-de-repeticao-em-pythopn.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">20 04 2026 Dio Estruturas Condicionais E De Repeticao Em Pythopn</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/28-04-2026-site-embarcados-masterclass-seguranca-em-sistemas-embarcados.png" alt="28 04 2026 Site Embarcados Masterclass Seguranca Em Sistemas Embarcados" onclick="abrirModal('{{ site.baseurl }}/certificados/28-04-2026-site-embarcados-masterclass-seguranca-em-sistemas-embarcados.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">28 04 2026 Site Embarcados Masterclass Seguranca Em Sistemas Embarcados</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/14-05-2026-certificado-conclusao-segunda-etapa-embarcatech.png" alt="14 05 2026 Certificado Conclusao Segunda Etapa Embarcatech" onclick="abrirModal('{{ site.baseurl }}/certificados/14-05-2026-certificado-conclusao-segunda-etapa-embarcatech.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">14 05 2026 Certificado Conclusao Segunda Etapa Embarcatech</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/12-05-2026-curso-de-redes-de-computadores-do-programa-tic-hub.png" alt="12 05 2026 Curso De Redes De Computadores Do Programa Tic Hub" onclick="abrirModal('{{ site.baseurl }}/certificados/12-05-2026-curso-de-redes-de-computadores-do-programa-tic-hub.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">12 05 2026 Curso De Redes De Computadores Do Programa Tic Hub</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/12-05-2026-programacao-paralela-e-distribuida-do-programa-tic-hub.png" alt="12 05 2026 Programacao Paralela E Distribuida Do Programa Tic Hub" onclick="abrirModal('{{ site.baseurl }}/certificados/12-05-2026-programacao-paralela-e-distribuida-do-programa-tic-hub.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">12 05 2026 Programacao Paralela E Distribuida Do Programa Tic Hub</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/13-05-2026-fundamento-de-inteligencia-artificial-certificado-92f1faea-c4d4-4832-a1cc-e7122c9aae2c.png" alt="13 05 2026 Fundamento De Inteligencia Artificial Certificado 92F1Faea C4D4 4832 A1Cc E7122C9Aae2C" onclick="abrirModal('{{ site.baseurl }}/certificados/13-05-2026-fundamento-de-inteligencia-artificial-certificado-92f1faea-c4d4-4832-a1cc-e7122c9aae2c.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">13 05 2026 Fundamento De Inteligencia Artificial Certificado 92F1Faea C4D4 4832 A1Cc E7122C9Aae2C</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/13-05-2026-aprendizado-avancado-de-maquina-certificado-0c124672-86d2-4e7f-8aa3-98e7b582f538.png" alt="13 05 2026 Aprendizado Avancado De Maquina Certificado 0C124672 86D2 4E7F 8Aa3 98E7B582F538" onclick="abrirModal('{{ site.baseurl }}/certificados/13-05-2026-aprendizado-avancado-de-maquina-certificado-0c124672-86d2-4e7f-8aa3-98e7b582f538.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">13 05 2026 Aprendizado Avancado De Maquina Certificado 0C124672 86D2 4E7F 8Aa3 98E7B582F538</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-05-2026-carlos-delfino-carvalho-pinheiro-minicurso-de-computacao-quantica.png" alt="15 05 2026 Carlos Delfino Carvalho Pinheiro Minicurso De Computacao Quantica" onclick="abrirModal('{{ site.baseurl }}/certificados/15-05-2026-carlos-delfino-carvalho-pinheiro-minicurso-de-computacao-quantica.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 05 2026 Carlos Delfino Carvalho Pinheiro Minicurso De Computacao Quantica</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-05-2026-manipulando-strings-com-python-dio.png" alt="15 05 2026 Manipulando Strings Com Python Dio" onclick="abrirModal('{{ site.baseurl }}/certificados/15-05-2026-manipulando-strings-com-python-dio.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 05 2026 Manipulando Strings Com Python Dio</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-05-2026-introducao-a-linguagem-de-programacao-rust-dio-pkukcwz3.png" alt="15 05 2026 Introducao A Linguagem De Programacao Rust Dio Pkukcwz3" onclick="abrirModal('{{ site.baseurl }}/certificados/15-05-2026-introducao-a-linguagem-de-programacao-rust-dio-pkukcwz3.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 05 2026 Introducao A Linguagem De Programacao Rust Dio Pkukcwz3</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/15-05-2026-setup-e-ambiente-de-desenvolvimento-com-rust-djggnusg.png" alt="15 05 2026 Setup E Ambiente De Desenvolvimento Com Rust Djggnusg" onclick="abrirModal('{{ site.baseurl }}/certificados/15-05-2026-setup-e-ambiente-de-desenvolvimento-com-rust-djggnusg.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">15 05 2026 Setup E Ambiente De Desenvolvimento Com Rust Djggnusg</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/17-05-2026-seja-protagonista-neste-bootcamp-dio.png" alt="17 05 2026 Seja Protagonista Neste Bootcamp Dio" onclick="abrirModal('{{ site.baseurl }}/certificados/17-05-2026-seja-protagonista-neste-bootcamp-dio.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">17 05 2026 Seja Protagonista Neste Bootcamp Dio</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-18-fundamentos-do-rust-fhcp692m.png" alt="2026 05 18 Fundamentos Do Rust Fhcp692M" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-18-fundamentos-do-rust-fhcp692m.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 18 Fundamentos Do Rust Fhcp692M</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-20-introducao-a-banco-de-dados-relacionais-dio-j2dnqogr.png" alt="2026 05 20 Introducao A Banco De Dados Relacionais Dio J2Dnqogr" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-20-introducao-a-banco-de-dados-relacionais-dio-j2dnqogr.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 20 Introducao A Banco De Dados Relacionais Dio J2Dnqogr</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-22-embarcatech-segundata-etapa-residencia-tecnologica.png" alt="2026 05 22 Embarcatech Segundata Etapa Residencia Tecnologica" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-22-embarcatech-segundata-etapa-residencia-tecnologica.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 22 Embarcatech Segundata Etapa Residencia Tecnologica</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-23-introducao-ao-nodejs-do9zndn9.png" alt="2026 05 23 Introducao Ao Nodejs Do9Zndn9" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-23-introducao-ao-nodejs-do9zndn9.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 23 Introducao Ao Nodejs Do9Zndn9</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-23-boas-vindas-ao-bootcamp-santander-2026-rust-ai-developer-dio-1lltoosg.png" alt="2026 05 23 Boas Vindas Ao Bootcamp Santander 2026 Rust Ai Developer Dio 1Lltoosg" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-23-boas-vindas-ao-bootcamp-santander-2026-rust-ai-developer-dio-1lltoosg.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 23 Boas Vindas Ao Bootcamp Santander 2026 Rust Ai Developer Dio 1Lltoosg</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-023-potencializando-seus-estudos-e-carreira-com-ia-chatbots-copilotos-e-agentes-dio-vagaqgyh.png" alt="2026 05 023 Potencializando Seus Estudos E Carreira Com Ia Chatbots Copilotos E Agentes Dio Vagaqgyh" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-023-potencializando-seus-estudos-e-carreira-com-ia-chatbots-copilotos-e-agentes-dio-vagaqgyh.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 023 Potencializando Seus Estudos E Carreira Com Ia Chatbots Copilotos E Agentes Dio Vagaqgyh</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-24-introducao-a-engenharia-de-prompts-dio-xuoxca1a.png" alt="2026 05 24 Introducao A Engenharia De Prompts Dio Xuoxca1A" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-24-introducao-a-engenharia-de-prompts-dio-xuoxca1a.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 24 Introducao A Engenharia De Prompts Dio Xuoxca1A</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-05-24-ferramentas-de-debugging-e-profiling-em-rust-dio-bw7rqql6.png" alt="2026 05 24 Ferramentas De Debugging E Profiling Em Rust Dio Bw7Rqql6" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-05-24-ferramentas-de-debugging-e-profiling-em-rust-dio-bw7rqql6.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 05 24 Ferramentas De Debugging E Profiling Em Rust Dio Bw7Rqql6</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--semana-dos-reparos-em-inversores-solares.png" alt="Semana Dos Reparos Em Inversores Solares" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--semana-dos-reparos-em-inversores-solares.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Semana Dos Reparos Em Inversores Solares</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-analise-de-datasheets.png" alt="Instructiva Analise De Datasheets" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-analise-de-datasheets.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Instructiva Analise De Datasheets</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--tmtd-tecnicas-de-manutencao-por-teste-de-dispositivos.png" alt="Tmtd Tecnicas De Manutencao Por Teste De Dispositivos" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--tmtd-tecnicas-de-manutencao-por-teste-de-dispositivos.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Tmtd Tecnicas De Manutencao Por Teste De Dispositivos</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-manuseio-de-osciloscopio.png" alt="Instructiva Manuseio De Osciloscopio" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-manuseio-de-osciloscopio.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Instructiva Manuseio De Osciloscopio</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-dicas-de-reparo-em-fontes-chaveadas.png" alt="Instructiva Dicas De Reparo Em Fontes Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-dicas-de-reparo-em-fontes-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Instructiva Dicas De Reparo Em Fontes Chaveadas</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-reparos-na-pratica-em-fontes-chaveadas.png" alt="Instructiva Reparos Na Pratica Em Fontes Chaveadas" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-reparos-na-pratica-em-fontes-chaveadas.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Instructiva Reparos Na Pratica Em Fontes Chaveadas</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.png" alt="Instructiva Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--instructiva-especialista-em-substituicao-de-componentes-e-engenharia-reversa-de-pcb.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Instructiva Especialista Em Substituicao De Componentes E Engenharia Reversa De Pcb</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--eletronica-para-iniciantes-instructiva.png" alt="Eletronica Para Iniciantes Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--eletronica-para-iniciantes-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Eletronica Para Iniciantes Instructiva</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/instructiva--especialista-em-manutencao-de-fontes-chaveadas-20-instructiva.png" alt="Especialista Em Manutencao De Fontes Chaveadas 20 Instructiva" onclick="abrirModal('{{ site.baseurl }}/certificados/instructiva--especialista-em-manutencao-de-fontes-chaveadas-20-instructiva.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">Especialista Em Manutencao De Fontes Chaveadas 20 Instructiva</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/embedded-expert-io--certificate-of-completion-for-mastering-stm32cubemx-5-and-cubeide-embedded-systems.png" alt="Certificate Of Completion For Mastering Stm32Cubemx 5 And Cubeide Embedded Systems" onclick="abrirModal('{{ site.baseurl }}/certificados/embedded-expert-io--certificate-of-completion-for-mastering-stm32cubemx-5-and-cubeide-embedded-systems.pdf', 'pdf')" title="Clique para visualizar">
