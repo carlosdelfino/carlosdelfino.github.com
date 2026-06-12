@@ -10,6 +10,10 @@
 #   --high      Gerar imagem em alta resolução da primeira página de um PDF
 #   --file      Nome do arquivo PDF para gerar imagem em alta resolução (requer --high)
 #
+# Notas:
+#   - O script corrige automaticamente nomes no formato dd-mm-yyyy para yyyy-mm-dd
+#   - Os certificados são ordenados por data (mais recente primeiro) no index.md
+#
 
 echo "🚀 Processando certificados..."
 

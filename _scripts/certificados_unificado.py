@@ -432,6 +432,72 @@ def titulo_legivel(nome_arquivo: str) -> str:
     return nome
 
 
+def extrair_data_nome(nome_arquivo: str) -> datetime | None:
+    """
+    Extrai a data do nome do arquivo no formato yyyy-mm-dd.
+    Retorna None se não encontrar uma data válida.
+    """
+    nome = Path(nome_arquivo).stem
+    # Padrão: yyyy-mm-dd no início do nome
+    match = re.match(r'^(\d{4})-(\d{2})-(\d{2})', nome)
+    if match:
+        try:
+            ano, mes, dia = match.groups()
+            return datetime(int(ano), int(mes), int(dia))
+        except ValueError:
+            pass
+    return None
+
+
+def corrigir_formato_data(nome_arquivo: str) -> str:
+    """
+    Detecta e corrige nomes no formato dd-mm-yyyy para yyyy-mm-dd.
+    Retorna o nome corrigido ou o original se não precisar de correção.
+    """
+    nome = Path(nome_arquivo).stem
+    ext = Path(nome_arquivo).suffix
+    
+    # Padrão: dd-mm-yyyy no início do nome
+    match = re.match(r'^(\d{2})-(\d{2})-(\d{4})', nome)
+    if match:
+        try:
+            dia, mes, ano = match.groups()
+            # Valida se é uma data válida
+            datetime(int(ano), int(mes), int(dia))
+            # Corrige para yyyy-mm-dd
+            novo_nome = f"{ano}-{mes}-{dia}{nome[10:]}{ext}"
+            return novo_nome
+        except ValueError:
+            pass
+    return nome_arquivo
+
+
+def corrigir_nomes_arquivos(origem: Path) -> int:
+    """
+    Percorre a pasta de origem e renomeia arquivos com formato de data incorreto
+    (dd-mm-yyyy) para o formato correto (yyyy-mm-dd).
+    Retorna o número de arquivos renomeados.
+    """
+    renomeados = 0
+    
+    if not origem.exists():
+        return renomeados
+    
+    for arquivo in origem.rglob("*"):
+        if not arquivo.is_file():
+            continue
+        
+        nome_corrigido = corrigir_formato_data(arquivo.name)
+        if nome_corrigido != arquivo.name:
+            novo_caminho = arquivo.parent / nome_corrigido
+            if not novo_caminho.exists():
+                arquivo.rename(novo_caminho)
+                print(f"  ↻ Nome corrigido: {arquivo.name} → {nome_corrigido}")
+                renomeados += 1
+    
+    return renomeados
+
+
 def limpar_pasta_temporaria() -> None:
     """Remove a pasta temporária após o processamento."""
     if DESTINO_TEMP.exists():
@@ -466,6 +532,9 @@ def coletar_certificados_site() -> list[dict]:
         dest_name = nome_destino_site(arquivo, subpasta)
         thumb_name = Path(dest_name).stem + ".png"
 
+        # Extrai data do nome do arquivo para ordenação
+        data_nome = extrair_data_nome(arquivo.name)
+
         certificados.append(
             {
                 "origem": arquivo,
@@ -475,10 +544,12 @@ def coletar_certificados_site() -> list[dict]:
                 "titulo": titulo_legivel(dest_name),
                 "extensao": arquivo.suffix.lower(),
                 "mtime": arquivo.stat().st_mtime,
+                "data_nome": data_nome,
             }
         )
 
-    certificados.sort(key=lambda c: c["mtime"], reverse=True)
+    # Ordena por data do nome (mais recente primeiro), fallback para mtime se não tiver data
+    certificados.sort(key=lambda c: c["data_nome"] if c["data_nome"] else datetime.min, reverse=True)
     return certificados
 
 
@@ -874,6 +945,19 @@ def main():
     if not ORIGEM_ESCANEADOS.exists() and not ORIGEM_SUBPASTAS.exists():
         print(f"❌ Nenhuma fonte de certificados encontrada")
     else:
+        # Corrige nomes de arquivos com formato de data incorreto
+        print("--- Corrigindo formatos de data (dd-mm-yyyy → yyyy-mm-dd) ---")
+        total_corrigidos = 0
+        if ORIGEM_ESCANEADOS.exists():
+            total_corrigidos += corrigir_nomes_arquivos(ORIGEM_ESCANEADOS)
+        if ORIGEM_SUBPASTAS.exists():
+            total_corrigidos += corrigir_nomes_arquivos(ORIGEM_SUBPASTAS)
+        if total_corrigidos > 0:
+            print(f"  ✓ {total_corrigidos} arquivo(s) renomeado(s)")
+        else:
+            print("  ✓ Nenhum arquivo com formato incorreto encontrado")
+        print()
+        
         DESTINO_TEMP.mkdir(parents=True, exist_ok=True)
         pdfs_para_processar = coletar_pdfs_para_processar()
         
