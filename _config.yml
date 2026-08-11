@@ -124,6 +124,9 @@ carousel:
 keep_files:
   - "CNAME"
 
+include:
+  - ".well-known"
+
 compress_html:
   enable: false
   comments: ["<!-- ", " -->"]

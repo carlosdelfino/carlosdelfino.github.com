@@ -1,0 +1,13 @@
+VERSION="2.2.1"
+
+# Federation service provided by StellarID.io
+FEDERATION_SERVER="https://stellarid.io/federation/"
+
+ACCOUNTS=[
+"GDSRO6H2YM6MC6ZO7KORPJXSTUMBMT3E7MZ66CFVNMUAULFG6G2OP32I"
+]
+
+[[PRINCIPALS]]
+name="François Rejeté"
+email="francois@stellarid.io"
+keybase="frejete"
