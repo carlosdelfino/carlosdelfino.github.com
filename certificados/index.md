@@ -127,6 +127,158 @@ body.cert-modal-open {
 
 <div class="certificados-gallery">
 <div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-09-17-microsoft-foundry-agentic-engineer-dio-sjidvxj8.png" alt="2026 09 17 Microsoft Foundry Agentic Engineer Dio Sjidvxj8" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-09-17-microsoft-foundry-agentic-engineer-dio-sjidvxj8.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 09 17 Microsoft Foundry Agentic Engineer Dio Sjidvxj8</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-09-07-internacionalizacao-de-startups-6a9ee8761e5b4.png" alt="2026 09 07 Internacionalizacao De Startups 6A9Ee8761E5B4" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-09-07-internacionalizacao-de-startups-6a9ee8761e5b4.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 09 07 Internacionalizacao De Startups 6A9Ee8761E5B4</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-09-02-capacitacao-avancada-em-blockchain-do-curso-web-30-irede.png" alt="2026 09 02 Capacitacao Avancada Em Blockchain Do Curso Web 30 Irede" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-09-02-capacitacao-avancada-em-blockchain-do-curso-web-30-irede.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 09 02 Capacitacao Avancada Em Blockchain Do Curso Web 30 Irede</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-09-02-capacitacao-avancada-em-smartcontracts.png" alt="2026 09 02 Capacitacao Avancada Em Smartcontracts" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-09-02-capacitacao-avancada-em-smartcontracts.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 09 02 Capacitacao Avancada Em Smartcontracts</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-22-carreira-futuro-e-protagonismo-profissional-gran-certificado-curso-livre_65311787436560.png" alt="2026 08 22 Carreira Futuro E Protagonismo Profissional Gran Certificado Curso Livre 65311787436560" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-22-carreira-futuro-e-protagonismo-profissional-gran-certificado-curso-livre_65311787436560.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 22 Carreira Futuro E Protagonismo Profissional Gran Certificado Curso Livre 65311787436560</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-18-hackweb-hackathon-realizado-pelo-instituto-irede-no-ambito-do-projeto-residencia-em-tic-29.png" alt="2026 08 18 Hackweb Hackathon Realizado Pelo Instituto Irede No Ambito Do Projeto Residencia Em Tic 29" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-18-hackweb-hackathon-realizado-pelo-instituto-irede-no-ambito-do-projeto-residencia-em-tic-29.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 18 Hackweb Hackathon Realizado Pelo Instituto Irede No Ambito Do Projeto Residencia Em Tic 29</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-17-introducao-a-realidade-virtual-realidade-mista-e-realidade-aumentada-certificado-b7a5a841-5ad4-4a66-8bc2-054779627993.png" alt="2026 08 17 Introducao A Realidade Virtual Realidade Mista E Realidade Aumentada Certificado B7A5A841 5Ad4 4A66 8Bc2 054779627993" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-17-introducao-a-realidade-virtual-realidade-mista-e-realidade-aumentada-certificado-b7a5a841-5ad4-4a66-8bc2-054779627993.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 17 Introducao A Realidade Virtual Realidade Mista E Realidade Aumentada Certificado B7A5A841 5Ad4 4A66 8Bc2 054779627993</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-11-a-transicao-da-industria-40-para-a-50-implicacoes-estrategicas-tecnologicas-e-organizacionais.png" alt="2026 08 11 A Transicao Da Industria 40 Para A 50 Implicacoes Estrategicas Tecnologicas E Organizacionais" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-11-a-transicao-da-industria-40-para-a-50-implicacoes-estrategicas-tecnologicas-e-organizacionais.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 11 A Transicao Da Industria 40 Para A 50 Implicacoes Estrategicas Tecnologicas E Organizacionais</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-08-introducao-a-tecnologia-5g-capacitacao-gemo-digital-unifacens.png" alt="2026 08 08 Introducao A Tecnologia 5G Capacitacao Gemo Digital Unifacens" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-08-introducao-a-tecnologia-5g-capacitacao-gemo-digital-unifacens.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 08 Introducao A Tecnologia 5G Capacitacao Gemo Digital Unifacens</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-06-desenvolvimento-de-smart-contracts-para-blockchain-dio-6jsauhax.png" alt="2026 08 06 Desenvolvimento De Smart Contracts Para Blockchain Dio 6Jsauhax" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-06-desenvolvimento-de-smart-contracts-para-blockchain-dio-6jsauhax.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 06 Desenvolvimento De Smart Contracts Para Blockchain Dio 6Jsauhax</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-05-introducao-a-programacao-com-blockchain-e-ethereum-smart-contracts-qayza6ak.png" alt="2026 08 05 Introducao A Programacao Com Blockchain E Ethereum Smart Contracts Qayza6Ak" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-05-introducao-a-programacao-com-blockchain-e-ethereum-smart-contracts-qayza6ak.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 05 Introducao A Programacao Com Blockchain E Ethereum Smart Contracts Qayza6Ak</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-05-blockchain-e-smart-contracts-ethereum-dio-sqhk3wuq.png" alt="2026 08 05 Blockchain E Smart Contracts Ethereum Dio Sqhk3Wuq" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-05-blockchain-e-smart-contracts-ethereum-dio-sqhk3wuq.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 05 Blockchain E Smart Contracts Ethereum Dio Sqhk3Wuq</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-08-03_-_certificado_de_especialista_em_integracao_do_openclaw-nanoclaw_e_o_hub_agentic_space_-_certificado-carlos-delfino-carvalho-pinheiro-8_assinado.png" alt="2026 08 03   Certificado De Especialista Em Integracao Do Openclaw Nanoclaw E O Hub Agentic Space   Certificado Carlos Delfino Carvalho Pinheiro 8 Assinado" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-08-03_-_certificado_de_especialista_em_integracao_do_openclaw-nanoclaw_e_o_hub_agentic_space_-_certificado-carlos-delfino-carvalho-pinheiro-8_assinado.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 08 03   Certificado De Especialista Em Integracao Do Openclaw Nanoclaw E O Hub Agentic Space   Certificado Carlos Delfino Carvalho Pinheiro 8 Assinado</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-30-capcacitacao-tecnologica-em-web-30-irede-projeto-residencia-em-tic-29.png" alt="2026 07 30 Capcacitacao Tecnologica Em Web 30 Irede Projeto Residencia Em Tic 29" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-30-capcacitacao-tecnologica-em-web-30-irede-projeto-residencia-em-tic-29.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 30 Capcacitacao Tecnologica Em Web 30 Irede Projeto Residencia Em Tic 29</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-24-capacitacao-visao-computacional-irede.png" alt="2026 07 24 Capacitacao Visao Computacional Irede" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-24-capacitacao-visao-computacional-irede.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 24 Capacitacao Visao Computacional Irede</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-24-3o-seminario-visao-50-maturidades-plurais.png" alt="2026 07 24 3O Seminario Visao 50 Maturidades Plurais" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-24-3o-seminario-visao-50-maturidades-plurais.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 24 3O Seminario Visao 50 Maturidades Plurais</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-14-introducao-a-realidade-virtual-realidade-mista-e-realidade-aumentada-certificado-b7a5a841-5ad4-4a66-8bc2-054779627993.png" alt="2026 07 14 Introducao A Realidade Virtual Realidade Mista E Realidade Aumentada Certificado B7A5A841 5Ad4 4A66 8Bc2 054779627993" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-14-introducao-a-realidade-virtual-realidade-mista-e-realidade-aumentada-certificado-b7a5a841-5ad4-4a66-8bc2-054779627993.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 14 Introducao A Realidade Virtual Realidade Mista E Realidade Aumentada Certificado B7A5A841 5Ad4 4A66 8Bc2 054779627993</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-08-certificado-socio-fundador-agentic-space-carlos-delfino-carvalho-pinheiro-1.png" alt="2026 07 08 Certificado Socio Fundador Agentic Space Carlos Delfino Carvalho Pinheiro 1" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-08-certificado-socio-fundador-agentic-space-carlos-delfino-carvalho-pinheiro-1.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 08 Certificado Socio Fundador Agentic Space Carlos Delfino Carvalho Pinheiro 1</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-08-certificado-trilha-quantum-awareness-brazil-quantum-camp.png" alt="2026 07 08 Certificado Trilha Quantum Awareness Brazil Quantum Camp" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-08-certificado-trilha-quantum-awareness-brazil-quantum-camp.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 08 Certificado Trilha Quantum Awareness Brazil Quantum Camp</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-01-criando-imagens-personalizadas-com-o-docker-dio-7f98vu5u.png" alt="2026 07 01 Criando Imagens Personalizadas Com O Docker Dio 7F98Vu5U" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-01-criando-imagens-personalizadas-com-o-docker-dio-7f98vu5u.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 01 Criando Imagens Personalizadas Com O Docker Dio 7F98Vu5U</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-07-01-conceitos-basicos-sobre-pods-em-kubernetes-dio-l5hajzfb.png" alt="2026 07 01 Conceitos Basicos Sobre Pods Em Kubernetes Dio L5Hajzfb" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-07-01-conceitos-basicos-sobre-pods-em-kubernetes-dio-l5hajzfb.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 07 01 Conceitos Basicos Sobre Pods Em Kubernetes Dio L5Hajzfb</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-26-ia-em-acao-rag-para-respsotas-inteligentes-tic-em-trilhas-puc-rio-5348663210cd.png" alt="2026 06 26 Ia Em Acao Rag Para Respsotas Inteligentes Tic Em Trilhas Puc Rio 5348663210Cd" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-26-ia-em-acao-rag-para-respsotas-inteligentes-tic-em-trilhas-puc-rio-5348663210cd.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 26 Ia Em Acao Rag Para Respsotas Inteligentes Tic Em Trilhas Puc Rio 5348663210Cd</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-20-tratamento-de-erros-em-projetos-rust-dio-zxifrm0l.png" alt="2026 06 20 Tratamento De Erros Em Projetos Rust Dio Zxifrm0L" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-20-tratamento-de-erros-em-projetos-rust-dio-zxifrm0l.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 20 Tratamento De Erros Em Projetos Rust Dio Zxifrm0L</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-20-certificado-socio-mantenedor-carlos-delfino-carvalho-pinheiro-12.png" alt="2026 06 20 Certificado Socio Mantenedor Carlos Delfino Carvalho Pinheiro 12" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-20-certificado-socio-mantenedor-carlos-delfino-carvalho-pinheiro-12.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 20 Certificado Socio Mantenedor Carlos Delfino Carvalho Pinheiro 12</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-19-abertura-do-programa-aws-agentes-de-ia-em-campo-dio-sefezhzn.png" alt="2026 06 19 Abertura Do Programa Aws Agentes De Ia Em Campo Dio Sefezhzn" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-19-abertura-do-programa-aws-agentes-de-ia-em-campo-dio-sefezhzn.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 19 Abertura Do Programa Aws Agentes De Ia Em Campo Dio Sefezhzn</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-19-modularizacao-com-crates-em-projetos-rust-dio-lvsxzgdl.png" alt="2026 06 19 Modularizacao Com Crates Em Projetos Rust Dio Lvsxzgdl" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-19-modularizacao-com-crates-em-projetos-rust-dio-lvsxzgdl.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 19 Modularizacao Com Crates Em Projetos Rust Dio Lvsxzgdl</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-19-desenvolvimento-de-aplicacoes-console-no-rust-dio-lvsxzgdl.png" alt="2026 06 19 Desenvolvimento De Aplicacoes Console No Rust Dio Lvsxzgdl" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-19-desenvolvimento-de-aplicacoes-console-no-rust-dio-lvsxzgdl.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 19 Desenvolvimento De Aplicacoes Console No Rust Dio Lvsxzgdl</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-18-certificado-wss-credenciais-verificaveis-26-carlos-delfino-carvalho-pinheiro-4240-379529.png" alt="2026 06 18 Certificado Wss Credenciais Verificaveis 26 Carlos Delfino Carvalho Pinheiro 4240 379529" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-18-certificado-wss-credenciais-verificaveis-26-carlos-delfino-carvalho-pinheiro-4240-379529.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 18 Certificado Wss Credenciais Verificaveis 26 Carlos Delfino Carvalho Pinheiro 4240 379529</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-17-questionario-aceleracao-microsoft-azure-ai-agents-dio-ffvj1tyo.png" alt="2026 06 17 Questionario Aceleracao Microsoft Azure Ai Agents Dio Ffvj1Tyo" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-17-questionario-aceleracao-microsoft-azure-ai-agents-dio-ffvj1tyo.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 17 Questionario Aceleracao Microsoft Azure Ai Agents Dio Ffvj1Tyo</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-17-copilot-stack-na-pratica-construindo-experiencias-inteligentes-com-a-arquitetura-microsoft-dio-loty3wpi.png" alt="2026 06 17 Copilot Stack Na Pratica Construindo Experiencias Inteligentes Com A Arquitetura Microsoft Dio Loty3Wpi" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-17-copilot-stack-na-pratica-construindo-experiencias-inteligentes-com-a-arquitetura-microsoft-dio-loty3wpi.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 17 Copilot Stack Na Pratica Construindo Experiencias Inteligentes Com A Arquitetura Microsoft Dio Loty3Wpi</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-17-do-zero-ao-agente-criando-seu-primeiro-pipeline-inteligente-no-azure-ai-foundry-dio-mgcpylxf.png" alt="2026 06 17 Do Zero Ao Agente Criando Seu Primeiro Pipeline Inteligente No Azure Ai Foundry Dio Mgcpylxf" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-17-do-zero-ao-agente-criando-seu-primeiro-pipeline-inteligente-no-azure-ai-foundry-dio-mgcpylxf.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 17 Do Zero Ao Agente Criando Seu Primeiro Pipeline Inteligente No Azure Ai Foundry Dio Mgcpylxf</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-17-ia-no-dia-a-dia-do-sem-parar-corpay-dio-jzkcchaa.png" alt="2026 06 17 Ia No Dia A Dia Do Sem Parar Corpay Dio Jzkcchaa" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-17-ia-no-dia-a-dia-do-sem-parar-corpay-dio-jzkcchaa.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 17 Ia No Dia A Dia Do Sem Parar Corpay Dio Jzkcchaa</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-17-mentoria-estruturando-o-seu-portfolio-para-decolar-a-sua-carreira-dio-88dci1jd.png" alt="2026 06 17 Mentoria Estruturando O Seu Portfolio Para Decolar A Sua Carreira Dio 88Dci1Jd" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-17-mentoria-estruturando-o-seu-portfolio-para-decolar-a-sua-carreira-dio-88dci1jd.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 17 Mentoria Estruturando O Seu Portfolio Para Decolar A Sua Carreira Dio 88Dci1Jd</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-16-aceleracao-microsoft-azure-ai-agents-dio-crqwr4tm.png" alt="2026 06 16 Aceleracao Microsoft Azure Ai Agents Dio Crqwr4Tm" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-16-aceleracao-microsoft-azure-ai-agents-dio-crqwr4tm.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 16 Aceleracao Microsoft Azure Ai Agents Dio Crqwr4Tm</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-16-introducao-a-llms-tic-em-trilhas-ecoa-puc-rio-7139990262cd.png" alt="2026 06 16 Introducao A Llms Tic Em Trilhas Ecoa Puc Rio 7139990262Cd" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-16-introducao-a-llms-tic-em-trilhas-ecoa-puc-rio-7139990262cd.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 16 Introducao A Llms Tic Em Trilhas Ecoa Puc Rio 7139990262Cd</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-15-webinar-isolamento-de-vibracoes-de-maquinas-e-equipamentos.png" alt="2026 06 15 Webinar Isolamento De Vibracoes De Maquinas E Equipamentos" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-15-webinar-isolamento-de-vibracoes-de-maquinas-e-equipamentos.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 15 Webinar Isolamento De Vibracoes De Maquinas E Equipamentos</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-15-do-prompt-ao-insight-como-gerar-valor-com-genai-e-dados-dio-mihaat9g.png" alt="2026 06 15 Do Prompt Ao Insight Como Gerar Valor Com Genai E Dados Dio Mihaat9G" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-15-do-prompt-ao-insight-como-gerar-valor-com-genai-e-dados-dio-mihaat9g.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 15 Do Prompt Ao Insight Como Gerar Valor Com Genai E Dados Dio Mihaat9G</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-12-programacao-de-software-embarcados-e-iot-certificado-49c2a80a-4135-4fd3-aaad-34123375a335.png" alt="2026 06 12 Programacao De Software Embarcados E Iot Certificado 49C2A80A 4135 4Fd3 Aaad 34123375A335" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-12-programacao-de-software-embarcados-e-iot-certificado-49c2a80a-4135-4fd3-aaad-34123375a335.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 12 Programacao De Software Embarcados E Iot Certificado 49C2A80A 4135 4Fd3 Aaad 34123375A335</div>
+</div>
+<div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-10-configundo-o-dio-agent-seu-parceiro-de-jornada-dio-pdtkyjdh.png" alt="2026 06 10 Configundo O Dio Agent Seu Parceiro De Jornada Dio Pdtkyjdh" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-10-configundo-o-dio-agent-seu-parceiro-de-jornada-dio-pdtkyjdh.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">2026 06 10 Configundo O Dio Agent Seu Parceiro De Jornada Dio Pdtkyjdh</div>
 </div>
@@ -139,20 +291,20 @@ body.cert-modal-open {
   <div class="titulo">2026 06 07 Falar Em Publico Com Ferramentas Teatrais Santander</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-primeiroos-passos-com-python-e-versionamento-de-codigo-dio-vsw6cpki.png" alt="2026 06 06 Primeiroos Passos Com Python E Versionamento De Codigo Dio Vsw6Cpki" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-primeiroos-passos-com-python-e-versionamento-de-codigo-dio-vsw6cpki.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">2026 06 06 Primeiroos Passos Com Python E Versionamento De Codigo Dio Vsw6Cpki</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-live-de-lancamento-luizalabs-back-end-com-python-dio-bbohhdrv.png" alt="2026 06 06 Live De Lancamento Luizalabs Back End Com Python Dio Bbohhdrv" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-live-de-lancamento-luizalabs-back-end-com-python-dio-bbohhdrv.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">2026 06 06 Live De Lancamento Luizalabs Back End Com Python Dio Bbohhdrv</div>
-</div>
-<div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-reparo-na-pratica-em-fontes-chaveadas-de-televisores-instructiva-certificado-3350866.png" alt="2026 06 06 Reparo Na Pratica Em Fontes Chaveadas De Televisores Instructiva Certificado 3350866" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-reparo-na-pratica-em-fontes-chaveadas-de-televisores-instructiva-certificado-3350866.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">2026 06 06 Reparo Na Pratica Em Fontes Chaveadas De Televisores Instructiva Certificado 3350866</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-introducao-ao-luizalabs-back-end-com-python-2edicao-dio-1bvdfnqa.png" alt="2026 06 06 Introducao Ao Luizalabs Back End Com Python 2Edicao Dio 1Bvdfnqa" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-introducao-ao-luizalabs-back-end-com-python-2edicao-dio-1bvdfnqa.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">2026 06 06 Introducao Ao Luizalabs Back End Com Python 2Edicao Dio 1Bvdfnqa</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-primeiroos-passos-com-python-e-versionamento-de-codigo-dio-vsw6cpki.png" alt="2026 06 06 Primeiroos Passos Com Python E Versionamento De Codigo Dio Vsw6Cpki" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-primeiroos-passos-com-python-e-versionamento-de-codigo-dio-vsw6cpki.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 06 Primeiroos Passos Com Python E Versionamento De Codigo Dio Vsw6Cpki</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-introducao-ao-luizalabs-back-end-com-python-2o-edicao-dio-1bvdfnqa.png" alt="2026 06 06 Introducao Ao Luizalabs Back End Com Python 2O Edicao Dio 1Bvdfnqa" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-introducao-ao-luizalabs-back-end-com-python-2o-edicao-dio-1bvdfnqa.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 06 Introducao Ao Luizalabs Back End Com Python 2O Edicao Dio 1Bvdfnqa</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-06-live-de-lancamento-luizalabs-back-end-com-python-dio-bbohhdrv.png" alt="2026 06 06 Live De Lancamento Luizalabs Back End Com Python Dio Bbohhdrv" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-06-live-de-lancamento-luizalabs-back-end-com-python-dio-bbohhdrv.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 06 06 Live De Lancamento Luizalabs Back End Com Python Dio Bbohhdrv</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-06-05-cluster-kubernetes-em-nuvem-dio-88hjpw2d.png" alt="2026 06 05 Cluster Kubernetes Em Nuvem Dio 88Hjpw2D" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-06-05-cluster-kubernetes-em-nuvem-dio-88hjpw2d.pdf', 'pdf')" title="Clique para visualizar">
@@ -295,8 +447,8 @@ body.cert-modal-open {
   <div class="titulo">2026 04 28 Site Embarcados Masterclass Seguranca Em Sistemas Embarcados</div>
 </div>
 <div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-21-gran-faculdade-analise-de-dados-e-inteligencia-de-negocios.png" alt="2026 04 21 Gran Faculdade Analise De Dados E Inteligencia De Negocios" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-21-gran-faculdade-analise-de-dados-e-inteligencia-de-negocios.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">2026 04 21 Gran Faculdade Analise De Dados E Inteligencia De Negocios</div>
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-21-analise-de-dados-e-inteligencia-de-negocios-gran-faculdade-certificado-curso-livre_60081776785256.png" alt="2026 04 21 Analise De Dados E Inteligencia De Negocios Gran Faculdade Certificado Curso Livre 60081776785256" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-21-analise-de-dados-e-inteligencia-de-negocios-gran-faculdade-certificado-curso-livre_60081776785256.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 04 21 Analise De Dados E Inteligencia De Negocios Gran Faculdade Certificado Curso Livre 60081776785256</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-20-champion-chip-experience-logica-e-design-digital.png" alt="2026 04 20 Champion Chip Experience Logica E Design Digital" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-20-champion-chip-experience-logica-e-design-digital.pdf', 'pdf')" title="Clique para visualizar">
@@ -345,6 +497,22 @@ body.cert-modal-open {
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/2026-04-03-championchip-introducao-aos-semicondutores.png" alt="2026 04 03 Championchip Introducao Aos Semicondutores" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-04-03-championchip-introducao-aos-semicondutores.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">2026 04 03 Championchip Introducao Aos Semicondutores</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2026-03-06-masterclass-esp32_-introducao-completa-embarcados.png" alt="2026 03 06 Masterclass Esp32  Introducao Completa Embarcados" onclick="abrirModal('{{ site.baseurl }}/certificados/2026-03-06-masterclass-esp32_-introducao-completa-embarcados.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2026 03 06 Masterclass Esp32  Introducao Completa Embarcados</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2019-11-06-oficina-como-formalizar-o-seu-negocio-sebrae.png" alt="2019 11 06 Oficina Como Formalizar O Seu Negocio Sebrae" onclick="abrirModal('{{ site.baseurl }}/certificados/2019-11-06-oficina-como-formalizar-o-seu-negocio-sebrae.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2019 11 06 Oficina Como Formalizar O Seu Negocio Sebrae</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2019-10-23-oficina-sei-cintrolar-meu-dinheiro-sebrae.png" alt="2019 10 23 Oficina Sei Cintrolar Meu Dinheiro Sebrae" onclick="abrirModal('{{ site.baseurl }}/certificados/2019-10-23-oficina-sei-cintrolar-meu-dinheiro-sebrae.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2019 10 23 Oficina Sei Cintrolar Meu Dinheiro Sebrae</div>
+</div>
+<div class="certificado-card">
+  <img src="{{ site.baseurl }}/certificados/thumbs/2008-09-08-iniciando-um-pequeno-e-grande-negocio-sebrae.png" alt="2008 09 08 Iniciando Um Pequeno E Grande Negocio Sebrae" onclick="abrirModal('{{ site.baseurl }}/certificados/2008-09-08-iniciando-um-pequeno-e-grande-negocio-sebrae.pdf', 'pdf')" title="Clique para visualizar">
+  <div class="titulo">2008 09 08 Iniciando Um Pequeno E Grande Negocio Sebrae</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/gerenciamento-de-projetos-utilizando-a-metodologia-do-pmi-bolsa-de-valores-regional-do-ceara.png" alt="Gerenciamento De Projetos Utilizando A Metodologia Do Pmi Bolsa De Valores Regional Do Ceara" onclick="abrirModal('{{ site.baseurl }}/certificados/gerenciamento-de-projetos-utilizando-a-metodologia-do-pmi-bolsa-de-valores-regional-do-ceara.pdf', 'pdf')" title="Clique para visualizar">
@@ -557,10 +725,6 @@ body.cert-modal-open {
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/todos-os-certificados-juntos_compressed_compressed.png" alt="Todos Os Certificados Juntos Compressed Compressed" onclick="abrirModal('{{ site.baseurl }}/certificados/todos-os-certificados-juntos_compressed_compressed.pdf', 'pdf')" title="Clique para visualizar">
   <div class="titulo">Todos Os Certificados Juntos Compressed Compressed</div>
-</div>
-<div class="certificado-card">
-  <img src="{{ site.baseurl }}/certificados/thumbs/masterclass-esp32_-introducao-completa-embarcados.png" alt="Masterclass Esp32  Introducao Completa Embarcados" onclick="abrirModal('{{ site.baseurl }}/certificados/masterclass-esp32_-introducao-completa-embarcados.pdf', 'pdf')" title="Clique para visualizar">
-  <div class="titulo">Masterclass Esp32  Introducao Completa Embarcados</div>
 </div>
 <div class="certificado-card">
   <img src="{{ site.baseurl }}/certificados/thumbs/desafio-30-dias-hotmart.png" alt="Desafio 30 Dias Hotmart" onclick="abrirModal('{{ site.baseurl }}/certificados/desafio-30-dias-hotmart.pdf', 'pdf')" title="Clique para visualizar">
