@@ -1,8 +1,8 @@
 ---
 permalink: /sobre_mim/
 title: Sobre mim
-tags: [bio, perfil, sobre mim, biografia, contatos, telefone, e-mail, história, quem sou eu]
-subtitle: "Formas de Contato, Minha História, Meus Gostos"
+tags: [bio, perfil, sobre mim, biografia, contatos, telefone, e-mail, história, quem sou eu, blockchain, web3, smart contracts, Rapport Tecnologia, startup]
+subtitle: "Formas de Contato, Minha História, Meus Projetos e Estudos"
 layout: subpage
 share: true
 image:
@@ -15,9 +15,35 @@ Como já sabem Meu nome é Carlos Delfino, alguns amigos me chamam apenas de Del
 
 ### Formação e Profissão
 
-Sou formado como tecnólogo em Redes de Computadores FIC, atual Centro Universitário Estácio do Ceará. Já sonhei em ampliar meus estudos acadêmnicos e fazer mestrado, doutorado e por ai vai, porém minha prioridade maior é aprender e dominar, não apenas ter um título, então tenho seguido como autodidata.
+Sou tecnólogo em Redes de Computadores pela FIC, atual Centro Universitário Estácio do Ceará, e curso o **Bacharelado em Engenharia de Software**. Estou cursando também duas pós-graduações na **Unopar/Anhanguera**: **Tecnologias de Blockchain para Negócios** e **Tecnologia e Segurança de Blockchains e Smart Contracts**.
 
-Atuo no mercado como Consultor / Desenvolvedor / Analista de Suporte e Sistemas especializado em Linux, Microcontroladores Cortex-M e AVR (ATmega e ATtiny).
+Paralelamente, tenho feito diversos cursos de extensão. Entre eles, destaco a capacitação **EmbarcaTech**, com 1 ano e 3 meses de duração, na qual participei da residência tecnológica aplicando conhecimentos de Sistemas Embarcados e IA Generativa no desenvolvimento de uma solução de **AIoT**. Atualmente participo da capacitação **Web 3**, onde estou na fase de residência aplicando os conhecimentos adquiridos na primeira etapa. Ambas as capacitações são ofertadas pelo **Softex/MCTI** e ministradas pelo **iRede**.
+
+Além dessas, realizo continuamente vários outros cursos, que publico em meu [perfil no LinkedIn](https://linkedin.com/in/carlosdelfino) e na página de [certificados](/certificados/), seguindo com o aprendizado constante para acompanhar as tendências do mercado.
+
+Já sonhei em ampliar meus estudos acadêmicos com mestrado, doutorado e por aí vai, porém minha prioridade maior é aprender e dominar, não apenas ter um título — por isso sigo também como autodidata, unindo a formação formal à pesquisa constante.
+
+Atuo no mercado como Consultor e Desenvolvedor, com foco atual em **Sistemas Embarcados**, **IoT/AIoT** e **Smart Contracts** na **Web 3** e na **Web 4** — áreas onde aplico minha experiência consolidada em Linux e microcontroladores (Cortex-M e AVR, ATmega e ATtiny) às tecnologias de fronteira.
+
+### Rapport Tecnologia
+
+Sou fundador da **Rapport Tecnologia** ([rapport.tec.br](https://rapport.tec.br)), uma startup que nasceu para transformar décadas de experiência em TIC em soluções de fronteira, unindo software especializado, hardware, sistemas embarcados, IoT, inteligência artificial e blockchain.
+
+Entre os projetos que tenho desenvolvido na Rapport, destaco:
+
+* **Projeto Magneto** ([magneto.rapport.tec.br](http://magneto.rapport.tec.br/)) — diagnóstico preditivo da saúde de transformadores de alta potência por meio da análise de ruídos e vibrações de magnetostricção, com apoio de drones terrestres para inspeções seguras e precisas, sensores de alta precisão, IoT, processamento digital de sinais e inteligência artificial.
+* **Rapport Crypto Chat** ([crypto-chat.rapport.tec.br](https://crypto-chat.rapport.tec.br)) — chat descentralizado com criptografia ponta a ponta, conexões diretas via WebRTC, identidade baseada em carteira Ethereum e pagamentos protegidos por escrow.
+* **Hub Agentic Space** ([hubagentic.space](https://hubagentic.space)) — plataforma de orquestração de agentes de IA para automação de processos, integração de sistemas e execução de tarefas complexas de forma colaborativa, construindo as bases da inteligência artificial agêntica distribuída integrada à Web 3.0.
+
+Apresentei a empresa com mais detalhes na postagem [Apresentando a Rapport Tecnologia](/rapport/apresentando-a-rapport-tecnologia/).
+
+### Web 3.0, Web 4.0 e o Universo das Blockchains
+
+Nos últimos anos venho me dedicando intensamente ao estudo da **Web 3.0** — a web descentralizada sustentada por blockchains — e dos paradigmas emergentes da **Web 4.0**, a web simbiótica e agêntica, na qual agentes inteligentes interagem entre si e com serviços descentralizados.
+
+Dentro desse universo, aprofundo especialmente o estudo de **Smart Contracts** — do desenvolvimento em Ethereum/Solidity ao ecossistema Solana com Rust e Anchor — e da **tokenização de ativos**, com foco particular na **tokenização de fundos de investimento**, tema que une minha experiência técnica ao potencial transformador das finanças descentralizadas.
+
+Em **2026**, o universo das blockchains se tornou o centro da minha dedicação técnica e acadêmica: é onde concentro minhas pesquisas, meus projetos na Rapport e as publicações que faço aqui no site sobre tokenomics, contratos inteligentes e aplicações reais dessa tecnologia.
 
 ### BIO
 
@@ -29,7 +55,11 @@ Durante minha vida acadêmica, pelo ideal de ser um pesquisador reconhecido e co
 
 Ministrei cursos com Arduino, Cortex-M entre outros,  em turmas fechadas, levando o conhecimento necessário para técnicos, engenheiros e hobbistas que querem dominar esta maravilhosa tecnologia e empoderar seus projetos.
 
-Atualmente afastado por questões médicas, mas aberto a propostas de projetos.
+Hoje dedico-me à Rapport Tecnologia e aos estudos do universo das blockchains, mantendo-me aberto a propostas de projetos e parcerias.
+
+### Além da Tecnologia
+
+Como hobby, no campo pessoal, dedico-me ao estudo da **Cosmologia Islâmica**, tema sobre o qual publico artigos no site [Islamic Space](https://islamicspace.rapport.tec.br/), onde reúno textos, estudos e reflexões sobre a visão cosmológica na tradição islâmica.
 
 ### ASSUNTOS FAVORITOS
 
@@ -63,9 +93,10 @@ Skype.ui({
 
 ### Redes Sociais (Midias entre outros)
 
- * [Facebook: http://www.facebook.com.br/professorcarlosdelfino](http://www.facebook.com.br/professorcarlosdelfino)
+ * [Facebook: http://www.facebook.com.br/prof.carlosdelfino](http://www.facebook.com.br/prof.carlosdelfino)
  * [Facebook: http://www.facebook.com.br/cursomaker](http://www.facebook.com.br/cursomaker)
  * [Facebook: http://www.facebook.com.br/arvoredossaberes](http://www.facebook.com.br/arvoredossaberes)
+ * [Twitter: https://x.com/carlosdelfino_CP](https://x.com/carlosdelfino_CP)
  * [Twitter: http://twitter.com/fullsrv](http://twitter.com/fullsrv)
  * [Linked-in: http://linkedin.com/in/carlosdelfino](http://linkedin.com/in/carlosdelfino)
  * [GlobalShare: https://www.globallshare.com/carlosdelfino](https://www.globallshare.com/carlosdelfino)
@@ -75,7 +106,7 @@ Skype.ui({
  * [Quora: http://www.quora.com/Carlos-Delfino](http://www.quora.com/Carlos-Delfino)
  * [Research Gate: https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro](https://www.researchgate.net/profile/Carlos_Carvalho_Pinheiro)
  * [Academia: https://independent.academia.edu/CarlosDelfino](https://independent.academia.edu/CarlosDelfino)
- * [Kaggle: https://www.kaggle.com/carlosdelfino/](https://www.kaggle.com/carlosdelfino)
+ * [Kaggle: https://www.kaggle.com/carlosdelfino/](https://www.kaggle.com/carlosdelfino/)
 <br/>
 <a id="academia-button" href="https://independent.academia.edu/CarlosDelfino">Sigame no Academia.edu</a>
 <script src="//a.academia-assets.com/javascripts/social.js"></script>
