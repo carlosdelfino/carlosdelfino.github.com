@@ -15,7 +15,7 @@ Como já sabem Meu nome é Carlos Delfino, alguns amigos me chamam apenas de Del
 
 ### Formação e Profissão
 
-Sou tecnólogo em Redes de Computadores pela FIC, atual Centro Universitário Estácio do Ceará, e curso o **Bacharelado em Engenharia de Software**. Estou cursando também duas pós-graduações na **Unopar/Anhanguera**: **Tecnologias de Blockchain para Negócios** e **Tecnologia e Segurança de Blockchains e Smart Contracts**.
+Sou **técnico em Eletrônica** e tecnólogo em Redes de Computadores pela FIC, atual Centro Universitário Estácio do Ceará. Na área da eletrônica, mantenho os sites [Básico da Eletrônica](https://basicaodaeletronica.com.br) e [mdu.tec.br](https://mdu.tec.br), dedicados ao ensino e à divulgação do conhecimento técnico. Estou me graduando no **Bacharelado em Engenharia de Software** pela **Gran Faculdade** e cursando duas pós-graduações na **Unopar/Anhanguera**: **Tecnologias de Blockchain para Negócios** e **Tecnologia e Segurança de Blockchain e Smart Contracts**. Especializo-me também em **tokenização de RWA (Real World Assets)** e em **processos para microempresas**.
 
 Paralelamente, tenho feito diversos cursos de extensão. Entre eles, destaco a capacitação **EmbarcaTech**, com 1 ano e 3 meses de duração, na qual participei da residência tecnológica aplicando conhecimentos de Sistemas Embarcados e IA Generativa no desenvolvimento de uma solução de **AIoT**. Atualmente participo da capacitação **Web 3**, onde estou na fase de residência aplicando os conhecimentos adquiridos na primeira etapa. Ambas as capacitações são ofertadas pelo **Softex/MCTI** e ministradas pelo **iRede**.
 
@@ -41,9 +41,9 @@ Apresentei a empresa com mais detalhes na postagem [Apresentando a Rapport Tecno
 
 Nos últimos anos venho me dedicando intensamente ao estudo da **Web 3.0** — a web descentralizada sustentada por blockchains — e dos paradigmas emergentes da **Web 4.0**, a web simbiótica e agêntica, na qual agentes inteligentes interagem entre si e com serviços descentralizados.
 
-Dentro desse universo, aprofundo especialmente o estudo de **Smart Contracts** — do desenvolvimento em Ethereum/Solidity ao ecossistema Solana com Rust e Anchor — e da **tokenização de ativos**, com foco particular na **tokenização de fundos de investimento**, tema que une minha experiência técnica ao potencial transformador das finanças descentralizadas.
+Dentro desse universo, aprofundo especialmente o estudo de **Smart Contracts** — do desenvolvimento em Ethereum/Solidity ao ecossistema Solana com Rust e Anchor — e da **tokenização de ativos**, com foco particular na **tokenização de fundos de investimento** e de **RWA (Real World Assets)**, temas que unem minha experiência técnica ao potencial transformador das finanças descentralizadas.
 
-Em **2026**, o universo das blockchains se tornou o centro da minha dedicação técnica e acadêmica: é onde concentro minhas pesquisas, meus projetos na Rapport e as publicações que faço aqui no site sobre tokenomics, contratos inteligentes e aplicações reais dessa tecnologia.
+Em **2026**, o universo das blockchains se tornou o centro da minha dedicação técnica e acadêmica: é onde concentro minhas pesquisas, meus projetos na Rapport e as publicações que faço aqui no site sobre tokenomics, contratos inteligentes e aplicações reais dessa tecnologia. Com formação em diversos cursos no campo da **Web 3**, tenho direcionado essa jornada à **migração de carreira para a área de finanças na Web 3**, unindo décadas de experiência técnica às finanças descentralizadas.
 
 ### BIO
 
@@ -70,6 +70,8 @@ Motos, Vinhos, Tecnologia, Religião, Filosofia, Assuntos para melhorar nossa so
  > “Para o Triunfo do Mal, só é preciso que os homens de bem não façam nada” - Edmund Burke
 
  > “Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco” - Edmund Burke
+
+ > “Se tudo ao seu redor parecer escuro, olhe novamente, você pode ser a luz.” - Rumi
 
 ### TELEFONE
 
