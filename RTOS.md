@@ -8,7 +8,7 @@ title: RTOS
 layout: categorylist
 share: true
 ads:
- show: true
+ show: false
 comments: true
 category: rtos
 ---

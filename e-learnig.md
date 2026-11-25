@@ -9,7 +9,7 @@ excerpt: Algumas ideias, estudos e anotações sobre Educação/ensino a Distân
 layout: categorylist
 share: true
 ads:
- show: true
+ show: false
 comments: true
 category: e-learning
 --- 

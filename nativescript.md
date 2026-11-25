@@ -4,7 +4,7 @@ title: NativeScript
 layout: categorylist
 share: true
 ads:
- show: true
+ show: false
 comments: true
 category: NativeScript
 subtitle: NativeScript um Framework de código aberto e gratuito  para desenvolver aplicações Mobile.

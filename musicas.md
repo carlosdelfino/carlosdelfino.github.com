@@ -11,7 +11,7 @@ category: Músicas
 share: true
 comments: true
 ads:
-  layout: horizontal
+  style: horizontal
   show: true 
 --- 
 

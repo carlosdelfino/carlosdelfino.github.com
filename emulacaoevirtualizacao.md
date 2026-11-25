@@ -4,7 +4,7 @@ title: Emulação e Virtualização
 layout: categorylist
 share: true
 ads:
- show: true
+ show: false
 comments: true
 category: emulacaoevirtualizacao
 tags: [Emulação, Virtualização, CPU, MCU, Arquiteturas, Hardware, VirtualBox, VMWare, VBox]

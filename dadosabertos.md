@@ -8,7 +8,7 @@ layout: categorylist
 category: dadosabertos
 share: true
 ads:
- show: true 
+ show: false 
 comments: true
 ---
 
