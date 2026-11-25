@@ -1,7 +1,7 @@
 ---
 permalink: /sobre_mim/
 title: Sobre mim
-tags: [bio, perfil, sobre mim, biografia, contatos, telefone, e-mail, história, quem sou eu, blockchain, web3, smart contracts, Rapport Tecnologia, startup]
+tags: [bio, perfil, sobre mim, biografia, contatos, telefone, e-mail, história, quem sou eu, blockchain, web3, web 3.0, smart contracts, tokenização, RWA, real world assets, tokenização de tesourarias, EVM, Solidity, palestras, cursos, Rapport Tecnologia, startup]
 subtitle: "Formas de Contato, Minha História, Meus Projetos e Estudos"
 layout: subpage
 share: true
@@ -44,6 +44,19 @@ Nos últimos anos venho me dedicando intensamente ao estudo da **Web 3.0** — a
 Dentro desse universo, aprofundo especialmente o estudo de **Smart Contracts** — do desenvolvimento em Ethereum/Solidity ao ecossistema Solana com Rust e Anchor — e da **tokenização de ativos**, com foco particular na **tokenização de fundos de investimento** e de **RWA (Real World Assets)**, temas que unem minha experiência técnica ao potencial transformador das finanças descentralizadas.
 
 Em **2026**, o universo das blockchains se tornou o centro da minha dedicação técnica e acadêmica: é onde concentro minhas pesquisas, meus projetos na Rapport e as publicações que faço aqui no site sobre tokenomics, contratos inteligentes e aplicações reais dessa tecnologia. Com formação em diversos cursos no campo da **Web 3**, tenho direcionado essa jornada à **migração de carreira para a área de finanças na Web 3**, unindo décadas de experiência técnica às finanças descentralizadas.
+
+### Palestras e Cursos
+
+Estou disponível para **palestras** e **cursos** nas seguintes temáticas:
+
+* **Web 3.0** — a web descentralizada sustentada por blockchains;
+* **Tokenização de RWA (Real World Assets)**;
+* **Tokenização de Tesourarias**;
+* **Desenvolvimento de Soluções Tokenizadas em redes EVM**;
+* **Cursos de curta e média duração sobre Tokenização em EVM/Solidity**;
+* **Palestras para startups e microempresas na Web 3.0**.
+
+Para agendar uma palestra, curso ou consultoria, entre em contato pelo e-mail [consultoria@carlosdelfino.eti.br](mailto:consultoria@carlosdelfino.eti.br) ou pelos canais listados ao final desta página.
 
 ### BIO
 
